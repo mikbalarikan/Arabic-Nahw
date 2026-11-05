@@ -194,9 +194,10 @@ function cardStatus(d, sid, i) {
   return "";
 }
 function setProgress(d, s) {
+  const n = s.n ?? s.cards.length;   // manifest sets carry n; full lesson sets carry the cards
   let done = 0, tried = 0;
-  for (let i = 0; i < s.n; i++) { const k = cardStatus(d, s.id, i); if (k) tried++; if (k === "done") done++; }
-  return { done, tried, n: s.n };
+  for (let i = 0; i < n; i++) { const k = cardStatus(d, s.id, i); if (k) tried++; if (k === "done") done++; }
+  return { done, tried, n };
 }
 
 /* ============================ routing ============================ */

@@ -162,6 +162,7 @@ def base_css():
 
 import glob, runpy, os
 import colour_guide as CG
+import nasb_exercise as NE, nasb_quiz as NQ
 
 e = html.escape
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -312,6 +313,16 @@ def stage12():
                     intro=L.lesson(), introLabel="Lesson",
                     sets=[irab_set("cards", "Practice", NASB_ENDS, NASB_JOBS,
                                    [irab_card(f"E{i}", dict(en=p["en"], tag=""), nasb_rows(p["g"], L.stem), L.key_card(i, p), hidden_note(p["g"])) for i, p in enumerate(L.PRACTICE, 1)])]))
+    out.append(dict(id="nasb-exercise", stage=2, title="Naṣb Class Exercise", ar="تَمْرِينُ النَّصْبِ",
+                    blurb="15 verb sentences for practice in class: object, purpose, time and place, and state, mixed with rafʿ and jarr.",
+                    intro=NE.notes(),
+                    sets=[irab_set("cards", "Exercise", NASB_ENDS, NASB_JOBS,
+                                   [irab_card(f"E{i}", dict(en=p["en"], tag=""), nasb_rows(p["g"], L.stem), L.key_card(i, p), hidden_note(p["g"])) for i, p in enumerate(NE.PRACTICE, 1)])]))
+    out.append(dict(id="nasb-quiz", stage=2, title="Naṣb Quiz", ar="اخْتِبَارُ النَّصْبِ",
+                    blurb="15 verb sentences, one student per card at the table. Full iʿrāb of every word.",
+                    intro=NQ.notes(),
+                    sets=[irab_set("cards", "Quiz", NASB_ENDS, NASB_JOBS,
+                                   [irab_card(f"Q{i}", dict(en=p["en"], tag=""), nasb_rows(p["g"], L.stem), L.key_card(i, p).replace(f">E{i}<", f">Q{i}<"), hidden_note(p["g"])) for i, p in enumerate(NQ.PRACTICE, 1)])]))
     qh = QN.build()
     out.append(dict(id="quran-nasb", stage=2, title="Iʿrāb in the Qur'an", ar="الإِعْرَابُ فِي القُرْآنِ",
                     blurb="10 verses with a past verb and a naṣb noun, mixed with rafʿ and jarr.", intro=qh[:qh.index(YOUR_TURN)],
