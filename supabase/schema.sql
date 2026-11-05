@@ -106,6 +106,39 @@ revoke execute on function public.handle_new_user() from public, anon, authentic
 revoke execute on function public.record_result(text, text, int, int, int, boolean) from public, anon;
 grant  execute on function public.record_result(text, text, int, int, int, boolean) to authenticated;
 
+-- ---------- where the class is now ----------
+-- One row: the id of the lesson the class is on. Everyone can read it; only the teacher changes it
+-- (the site calls set_class_now(), which runs with the caller's rights).
+create table if not exists public.class_state (
+  id         smallint primary key default 1 check (id = 1),
+  lesson     text not null,
+  updated_at timestamptz not null default now(),
+  updated_by uuid references auth.users(id)
+);
+insert into public.class_state (id, lesson) values (1, 'nasb') on conflict do nothing;
+alter table public.class_state enable row level security;
+drop policy if exists "class_state: anyone reads" on public.class_state;
+create policy "class_state: anyone reads" on public.class_state
+  for select to anon, authenticated using (true);
+revoke insert, update, delete, truncate, references, trigger on public.class_state from public, anon, authenticated;
+grant  select on public.class_state to anon, authenticated;
+-- Only the teacher can update the row (checked by the policy); nobody can insert or delete.
+grant  update (lesson, updated_at, updated_by) on public.class_state to authenticated;
+drop policy if exists "class_state: teacher updates" on public.class_state;
+create policy "class_state: teacher updates" on public.class_state
+  for update to authenticated using (private.is_teacher()) with check (private.is_teacher());
+
+create or replace function public.set_class_now(p_lesson text)
+returns void language plpgsql security invoker set search_path = public as $$
+begin
+  if not private.is_teacher() then
+    raise exception 'Only the teacher can change where the class is.' using errcode = '42501';
+  end if;
+  update public.class_state set lesson = p_lesson, updated_at = now(), updated_by = auth.uid() where id = 1;
+end $$;
+revoke execute on function public.set_class_now(text) from public, anon;
+grant  execute on function public.set_class_now(text) to authenticated;
+
 -- ---------- make yourself the teacher ----------
 -- After you create your own account on the site, run (with your email):
 --   update public.profiles set role = 'teacher' where email = 'you@example.com';

@@ -12,7 +12,7 @@ const names = {};             // teacher run-sheet names (this screen only)
 
 /* ============================ cloud (Supabase) ============================ */
 const CLOUD = { mode: "local", sb: null, user: null, profile: null, res: new Map(), roster: null, allRes: null,
-  status: "", authView: null, detail: null, busy: false };
+  status: "", authView: null, detail: null, busy: false, classNow: null };
 // mode: local (no backend configured: open classroom screen), guest (signed out), student, teacher
 function isTeacher() { return CLOUD.mode === "local" || CLOUD.mode === "teacher"; }
 const resKey = (l, s, i) => l + "~" + s + "~" + i;
@@ -22,6 +22,7 @@ async function initCloud() {
   if (!CFG.supabaseUrl || !CFG.supabaseAnonKey || !window.supabase) { CLOUD.mode = "local"; return; }
   CLOUD.sb = window.supabase.createClient(CFG.supabaseUrl, CFG.supabaseAnonKey, { auth: { flowType: "pkce", persistSession: true, detectSessionInUrl: true } });
   CLOUD.mode = "guest";
+  loadClassNow();
   CLOUD.sb.auth.onAuthStateChange((ev, session) => {
     if (ev === "PASSWORD_RECOVERY") { CLOUD.authView = "newpass"; refresh(); }
     if (ev === "SIGNED_IN" || ev === "SIGNED_OUT" || ev === "TOKEN_REFRESHED" || ev === "USER_UPDATED") {
@@ -33,6 +34,22 @@ async function initCloud() {
   const { data } = await CLOUD.sb.auth.getSession();
   CLOUD.user = data.session ? data.session.user : null;
   await loadAccount(true);
+}
+// Where the class is: one row in class_state, readable by everyone (signed in or not).
+async function loadClassNow() {
+  const { data, error } = await CLOUD.sb.from("class_state").select("lesson").eq("id", 1).maybeSingle();
+  if (error || !data || !data.lesson) return;   // keep the CLASS_NOW fallback
+  CLOUD.classNow = data.lesson;
+  if (!location.hash.replace(/^#\/?/, "")) renderHome();
+}
+async function markCurrent(id) {
+  if (CLOUD.busy) return;
+  CLOUD.busy = true;
+  const { error } = await CLOUD.sb.rpc("set_class_now", { p_lesson: id });
+  CLOUD.busy = false;
+  if (error) CLOUD.status = "Could not mark the lesson as current: " + error.message;
+  else { CLOUD.status = ""; CLOUD.classNow = id; }
+  renderHome();
 }
 async function loadAccount(initial) {
   CLOUD.profile = null; CLOUD.res = new Map(); CLOUD.roster = null; CLOUD.allRes = null;
@@ -267,10 +284,12 @@ function tile(d, status) {
     ${unit ? `<div class="sample" dir="rtl">${esc(d.ar)}</div>` : `<div class="tar" dir="rtl">${esc(d.ar)}</div><div class="sample" dir="rtl">${d.sample || ""}</div>`}
     <p>${esc(d.blurb)}</p>${mine}
     <div class="tile-actions"><button class="btn" type="button" data-h="${d.id}">${esc(d.introLabel || "Intro")}</button>${setBtns}
-      ${isTeacher() ? `<button class="btn" type="button" data-h="${d.id}-key">Answer key</button>` : ""}</div></article>`;
+      ${isTeacher() ? `<button class="btn" type="button" data-h="${d.id}-key">Answer key</button>` : ""}
+      ${CLOUD.mode === "teacher" && status !== "now" ? `<button class="btn markcur" type="button" data-now="${d.id}">Mark as current</button>` : ""}</div></article>`;
 }
 // Where the class is now: the id of the lesson we are on. Every lesson before it is shown as done (green),
-// this one as current (yellow). Move it forward as the class goes on.
+// this one as current (yellow). The live value is in Supabase (class_state) and the teacher sets it with
+// "Mark as current"; this constant is only the fallback (no Supabase, offline, or a read error).
 const CLASS_NOW = "nasb";
 
 // Course plan. A stage shows on the home page once it has at least one lesson.
@@ -299,7 +318,7 @@ function renderHome() {
   const chip = t => `<span class="cm-chip on">${t}</span>`;
   const byStage = s => DATA.filter(d => d.stage === s).sort((a, b) => (a.order || 0) - (b.order || 0));
   const seq = STAGES.flatMap(sg => byStage(sg.n).map(d => d.id));
-  const nowAt = seq.indexOf(CLASS_NOW);
+  const nowAt = seq.indexOf(CLOUD.classNow || CLASS_NOW);
   const statusOf = d => { const i = seq.indexOf(d.id); return nowAt < 0 ? "" : i < nowAt ? "done" : i === nowAt ? "now" : ""; };
   app.innerHTML = `${authPanel()}
   <section class="home-hero">
@@ -313,6 +332,7 @@ function renderHome() {
   <div class="legend"><span class="lg done">✓ Done in class</span><span class="lg now">● We are here</span><span class="lg next">Coming next</span></div>
   ${STAGES.filter(sg => byStage(sg.n).length).map(sg => stageSection(sg, sg.chips.map(chip).join(""), byStage(sg.n), statusOf)).join("")}`;
   app.querySelectorAll("[data-h]").forEach(b => b.onclick = () => go(b.dataset.h));
+  app.querySelectorAll("[data-now]").forEach(b => b.onclick = () => markCurrent(b.dataset.now));
   wireAuth();
 }
 
