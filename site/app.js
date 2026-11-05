@@ -36,6 +36,9 @@ async function initCloud() {
 }
 async function loadAccount(initial) {
   CLOUD.profile = null; CLOUD.res = new Map(); CLOUD.roster = null; CLOUD.allRes = null;
+  // A different account (or signing out) must not see the previous person's answers on this screen.
+  for (const k in state) delete state[k];
+  for (const k in cur) delete cur[k];
   if (!CLOUD.user) { CLOUD.mode = "guest"; if (!initial) refresh(); return; }
   const { data: prof, error } = await CLOUD.sb.from("profiles").select("*").eq("id", CLOUD.user.id).maybeSingle();
   if (error) { CLOUD.status = "Could not load your account. Check your connection and reload."; }
@@ -172,6 +175,8 @@ function esc(s) { return String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<":
 function st(lid, sid, i) { const a = (state[lid] ||= {}), b = (a[sid] ||= {}); return (b[i] ||= { sel: {}, checked: false, answer: false, seen: false }); }
 function store(k, v) { try { localStorage.setItem(k, v); } catch (_) {} }
 function load(k) { try { return localStorage.getItem(k); } catch (_) { return null; } }
+// "Continue" lesson is remembered per account, not per device.
+function lastKey() { return "iraab-last" + (CLOUD.user ? "-" + CLOUD.user.id : ""); }
 function fieldsOf(set, c) { return c.fields || set.fields; }
 function optsOf(f, r) { return (r.opts && r.opts[f.key]) || f.options; }
 function isAr(lbl) { return AR_RE.test(lbl) && !LAT_RE.test(lbl); }
@@ -228,7 +233,7 @@ async function route(keepScroll) {
     await loadRoster(); if (seq !== routeSeq) return; renderTracking(); return;
   }
   const { d, v } = r;
-  store("iraab-last", d.id + "-" + v);
+  store(lastKey(), d.id + "-" + v);
   crumb.textContent = d.title;
   tabs.innerHTML = views(d).map(x => `<button class="tab" type="button" aria-current="${x.id === v}" data-h="${x.id === "intro" ? d.id : d.id + "-" + x.id}">${esc(x.label)}</button>`).join("");
   tabs.querySelectorAll(".tab").forEach(b => b.onclick = () => go(b.dataset.h));
@@ -266,7 +271,7 @@ function stageSection(title, ar, chips, list, cls) {
     <div class="cases-mini">${chips}</div></div><div class="shelf ${cls || ""}">${list.map(tile).join("")}</div></section>`;
 }
 function renderHome() {
-  const last = load("iraab-last");
+  const last = load(lastKey());
   const lastD = last && DATA.find(d => last === d.id + "-intro" || views(d).some(v => last === d.id + "-" + v.id));
   const chip = t => `<span class="cm-chip on">${t}</span>`;
   const byStage = s => DATA.filter(d => d.stage === s).sort((a, b) => (a.order || 0) - (b.order || 0));
