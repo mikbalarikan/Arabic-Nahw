@@ -28,10 +28,16 @@ create table if not exists public.results (
 );
 
 -- ---------- helpers ----------
-create or replace function public.is_teacher()
+-- private schema: not exposed through the API, so nobody can call these helpers directly.
+create schema if not exists private;
+grant usage on schema private to authenticated;
+create or replace function private.is_teacher()
 returns boolean language sql stable security definer set search_path = public as $$
   select exists (select 1 from public.profiles where id = auth.uid() and role = 'teacher');
 $$;
+revoke execute on function private.is_teacher() from public, anon;
+grant  execute on function private.is_teacher() to authenticated;
+drop function if exists public.is_teacher() cascade;
 
 -- New sign-up -> profile row (name comes from the sign-up form).
 create or replace function public.handle_new_user()
@@ -70,17 +76,17 @@ alter table public.results  enable row level security;
 
 drop policy if exists "profiles: read own or teacher" on public.profiles;
 create policy "profiles: read own or teacher" on public.profiles
-  for select using (id = auth.uid() or public.is_teacher());
+  for select using (id = auth.uid() or private.is_teacher());
 drop policy if exists "profiles: update own" on public.profiles;
 create policy "profiles: update own" on public.profiles
   for update using (id = auth.uid()) with check (id = auth.uid());
 drop policy if exists "profiles: teacher deletes" on public.profiles;
 create policy "profiles: teacher deletes" on public.profiles
-  for delete using (public.is_teacher());
+  for delete using (private.is_teacher());
 
 drop policy if exists "results: read own or teacher" on public.results;
 create policy "results: read own or teacher" on public.results
-  for select using (user_id = auth.uid() or public.is_teacher());
+  for select using (user_id = auth.uid() or private.is_teacher());
 drop policy if exists "results: insert own" on public.results;
 create policy "results: insert own" on public.results
   for insert with check (user_id = auth.uid());
@@ -89,13 +95,16 @@ create policy "results: update own" on public.results
   for update using (user_id = auth.uid()) with check (user_id = auth.uid());
 drop policy if exists "results: teacher deletes" on public.results;
 create policy "results: teacher deletes" on public.results
-  for delete using (public.is_teacher());
+  for delete using (private.is_teacher());
 
 -- Students may change only their name (never their role).
 revoke update on public.profiles from authenticated, anon;
 grant  update (name, last_active) on public.profiles to authenticated;
 revoke insert on public.profiles from authenticated, anon;
-grant execute on function public.record_result(text, text, int, int, int, boolean) to authenticated;
+-- Functions are not callable by signed-out visitors; the trigger function is not callable at all.
+revoke execute on function public.handle_new_user() from public, anon, authenticated;
+revoke execute on function public.record_result(text, text, int, int, int, boolean) from public, anon;
+grant  execute on function public.record_result(text, text, int, int, int, boolean) to authenticated;
 
 -- ---------- make yourself the teacher ----------
 -- After you create your own account on the site, run (with your email):

@@ -26,7 +26,7 @@ tools/build_site.py builds dist/ (what Cloudflare serves)
 1. Create a free project at supabase.com. Pick a region near your students. Save the database password somewhere safe.
 2. **SQL Editor → New query:** paste all of `supabase/schema.sql` and click **Run**.
 3. **Authentication → Sign In / Providers → Email:** turn **off** "Confirm email". Students then get in right after sign-up. Supabase's built-in email sender only sends a few emails per hour, which is too few for a class.
-4. **Project Settings → API:** copy the **Project URL** and the **anon public** key. You'll need them in step 2.
+4. **Project Settings → API:** the **Project URL** and the **anon public** key go into `site/config.js` (already filled in for the course project).
 
 ### 2. Cloudflare Pages (the site)
 1. **Workers & Pages → Create → Pages → Connect to Git** → pick this repository.
@@ -35,9 +35,8 @@ tools/build_site.py builds dist/ (what Cloudflare serves)
    - Build command: `python3 tools/build_site.py`
    - Build output directory: `dist`
 3. **Environment variables** (Production and Preview):
-   - `IRAAB_SUPABASE_URL` = the Project URL
-   - `IRAAB_SUPABASE_ANON_KEY` = the anon key
    - `PYTHON_VERSION` = `3.11`
+   - The Supabase address and anon key are already in `site/config.js`. Set `IRAAB_SUPABASE_URL` and `IRAAB_SUPABASE_ANON_KEY` only if you move to another Supabase project.
 4. Deploy. The site is served at `https://<project>.pages.dev`. To use your own domain, go to **Custom domains → Set up a domain**.
 5. Back in Supabase, open **Authentication → URL Configuration**. Set **Site URL** to the site address and add it under **Redirect URLs**. Password-reset links need this.
 
