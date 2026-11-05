@@ -1,0 +1,119 @@
+
+/* ---------- v2 additions ---------- */
+.acct { display: flex; align-items: center; gap: 8px; font-size: 13px; color: #d7e7e7; }
+.acct .who { background: rgba(255,255,255,.12); border-radius: 999px; padding: 4px 12px; white-space: nowrap; }
+.acct .who b { color: #fff; }
+.acct .dotok { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #5fd38d; margin-right: 6px; }
+.acct .dotoff { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #e0a10b; margin-right: 6px; }
+.acct .tabsheet { background: var(--gold); border: 0; color: var(--ink); font-weight: 700; border-radius: 999px; padding: 5px 14px; font-size: 13px; cursor: pointer; }
+
+.reg { background: var(--card); border: 2px solid var(--gold); border-radius: 16px; padding: 16px 18px; margin-bottom: 18px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; }
+.reg h3 { margin: 0; font-size: 16px; color: var(--teal); }
+.reg p { margin: 0; font-size: 13.5px; color: var(--muted); flex: 1 1 260px; }
+.reg form { display: flex; gap: 8px; flex-wrap: wrap; }
+.reg input { border: 1.5px solid var(--line); border-radius: 10px; padding: 8px 12px; font: inherit; min-width: 0; width: 220px; max-width: 100%; background: var(--paper); color: var(--ink); }
+.reg.warn { border-color: #e0a10b; background: #fff8e6; }
+.reg.note { border-color: var(--line); }
+
+.stage-h .num0 { font-family: var(--arabic); }
+.shelf.s0 { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+.tile.unit .sample { font-size: 22px; }
+.unitno { font-size: 11px; letter-spacing: 1.5px; color: var(--muted); font-weight: 700; }
+.prog { height: 6px; border-radius: 999px; background: #ece7da; overflow: hidden; }
+.prog i { display: block; height: 100%; background: var(--ok); }
+.tile .mine { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+/* stage 0 note blocks */
+.s0p { margin: 0 0 12px; font-size: 15px; line-height: 1.65; max-width: 70ch; }
+.view .rbox { font-size: 14px; }
+.view .tipbox { font-size: 13.5px; }
+.s0cols .kkd { font-size: 12.5px; }
+.wtiles { display: flex; flex-wrap: wrap; gap: 10px; margin: 6px 0 16px; }
+.wt0 { border: 2px solid; border-radius: 14px; padding: 8px 14px 10px; text-align: center; min-width: 96px; background: #fff; }
+.wta { font-family: var(--arabic); font-size: 30px; line-height: 1.6; direction: rtl; }
+.wtl { font-size: 12.5px; font-weight: 700; }
+.wts { font-size: 12px; color: var(--muted); }
+.exlist { display: flex; flex-direction: column; gap: 8px; margin: 6px 0 16px; }
+.exl { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 12px; align-items: center; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 10px 16px; }
+.exa { font-family: var(--arabic); font-size: 26px; text-align: right; line-height: 1.7; }
+.exe { font-size: 14px; color: var(--ink); }
+.exn { font-size: 12.5px; color: var(--muted); margin-top: 2px; }
+.tblwrap { overflow-x: auto; margin: 6px 0 16px; }
+.s0t { display: table !important; width: 100%; }
+.s0t td.tar { font-family: var(--arabic); font-size: 20px; direction: rtl; text-align: right; }
+.view h2 { margin-top: 28px; }
+.view .hero h1 { text-wrap: balance; }
+
+/* generic card engine */
+.ic-prompt { font-family: var(--arabic); text-align: center; font-size: clamp(28px, 5vw, 46px); line-height: 1.8; margin: 12px 0 0; direction: rtl; }
+.ic-prompt-en { text-align: center; color: var(--muted); font-style: italic; font-size: 14px; margin-bottom: 6px; }
+.row.gen { grid-template-columns: 26px minmax(110px, 200px) 1fr; }
+.row.gen .rwd::after { display: none; }
+.rwd .gl { display: block; font-family: var(--font); font-size: 12px; color: var(--muted); direction: ltr; text-align: right; white-space: normal; }
+.fields { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.fg { display: flex; flex-wrap: wrap; gap: 5px; align-items: center; }
+.fg .fl { font-size: 11px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .6px; min-width: 64px; }
+.row.irab .fields { flex-direction: row; flex-wrap: wrap; gap: 8px 14px; align-items: center; }
+.jb.neutral { border-color: #b9c9c9; color: var(--teal); background: var(--card); }
+.jb.neutral.sel { background: var(--teal); border-color: var(--teal); }
+.jb.arlab { font-family: var(--arabic); font-size: 19px; font-weight: 600; padding: 2px 14px; }
+.why { font-size: 12.5px; color: var(--muted); grid-column: 2 / -1; display: none; }
+.row.showwhy .why { display: block; }
+.autokey { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 6px 14px; }
+.ak { display: grid; grid-template-columns: minmax(90px, 180px) auto 1fr; gap: 6px 12px; align-items: center; padding: 7px 0; border-top: 1px solid #ece7da; }
+.ak:first-child { border-top: 0; }
+.ak .aw { font-family: var(--arabic); font-size: 22px; text-align: right; direction: rtl; }
+.ak .aa { display: flex; flex-wrap: wrap; gap: 4px; }
+.ak .aa span { border: 1.5px solid; border-radius: 999px; padding: 1px 10px; font-size: 12px; font-weight: 700; }
+.ak .aa span.arl { font-family: var(--arabic); font-size: 17px; }
+.ak .ay { font-size: 12.5px; color: var(--muted); }
+.lockmsg { font-size: 12.5px; color: var(--muted); }
+.saved { font-size: 12.5px; color: var(--ok); font-weight: 600; }
+.saved.err { color: var(--bad); }
+
+/* set switcher inside a lesson */
+.setnote { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px; margin-bottom: 10px; }
+.setnote h2 { margin: 0; font-size: 18px; color: var(--teal); }
+.setnote span { font-size: 13px; color: var(--muted); }
+
+/* tracking sheet */
+.trk-top { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 12px; }
+.trk-top h2 { margin: 0; font-size: 20px; color: var(--teal); }
+.trk-top .sub { margin: 0; }
+.trk-top .sp { flex: 1; }
+.trk-wrap { overflow-x: auto; background: var(--card); border: 1px solid var(--line); border-radius: 14px; }
+table.trk { border-collapse: separate; border-spacing: 0; font-size: 12.5px; min-width: 100%; }
+.trk th, .trk td { padding: 6px 8px; border-bottom: 1px solid #ece7da; white-space: nowrap; text-align: center; font-variant-numeric: tabular-nums; }
+.trk thead th { background: var(--teal); color: #fff; font-weight: 600; font-size: 11.5px; position: sticky; top: 0; }
+.trk thead tr.grp th { background: #0b4044; font-size: 11px; letter-spacing: .5px; }
+.trk th.stu, .trk td.stu { text-align: left; position: sticky; left: 0; background: var(--card); z-index: 1; min-width: 160px; }
+.trk thead th.stu { background: var(--teal); z-index: 2; }
+.trk td.stu b { display: block; font-size: 13.5px; }
+.trk td.stu small { color: var(--muted); }
+.cell { display: inline-block; min-width: 54px; border-radius: 8px; padding: 3px 6px; font-weight: 700; }
+.cell.none { color: #b5b0a3; font-weight: 400; }
+.cell.c0 { background: #fdecea; color: #a8321f; }
+.cell.c1 { background: #fff3d6; color: #8a5d00; }
+.cell.c2 { background: #e5f4ea; color: #17803f; }
+.cell.c3 { background: #1f9d55; color: #fff; }
+.trk .det { padding: 2px 8px; font-size: 11.5px; }
+.detail { margin-top: 16px; background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; }
+.detail h3 { margin: 0 0 8px; color: var(--teal); }
+.dsets { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px; }
+.dset { border: 1px solid #ece7da; border-radius: 10px; padding: 8px 10px; }
+.dset b { font-size: 13px; }
+.dcards { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+.dcards span { font-size: 11px; border-radius: 6px; padding: 2px 6px; border: 1px solid #ddd8cb; font-variant-numeric: tabular-nums; }
+.dcards span.ok { background: #e5f4ea; border-color: #9fd5b1; color: #17803f; }
+.dcards span.part { background: #fff3d6; border-color: #f0d28a; color: #8a5d00; }
+.danger { color: var(--bad); border-color: #f1b8b0; }
+.empty { padding: 30px 16px; text-align: center; color: var(--muted); }
+
+@media (max-width: 760px) {
+  .row.gen { grid-template-columns: 22px 1fr; }
+  .row.gen .fields { grid-column: 2; }
+  .exl { grid-template-columns: 1fr; }
+  .exa { text-align: right; }
+  .ak { grid-template-columns: 1fr; }
+  .ak .aw { text-align: right; }
+}

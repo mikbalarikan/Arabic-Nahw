@@ -1,0 +1,11 @@
+
+/* ---------- accounts ---------- */
+.authf { display: flex; flex-wrap: wrap; gap: 8px; width: 100%; }
+.authf input { border: 1.5px solid var(--line); border-radius: 10px; padding: 8px 12px; font: inherit; flex: 1 1 180px; min-width: 0; background: var(--paper); color: var(--ink); }
+.authbtns { display: flex; gap: 8px; flex-wrap: wrap; }
+.authalt { font-size: 13px; color: var(--muted); margin: 0; width: 100%; }
+.autherr { font-size: 13px; color: #a8321f; margin: 0; width: 100%; }
+.autherr:empty { display: none; }
+.linkbtn { background: none; border: 0; padding: 0; color: var(--teal); font-weight: 600; cursor: pointer; text-decoration: underline; font-size: inherit; }
+.linkbtn.light { color: #d7e7e7; font-size: 13px; }
+.empty { padding: 30px 16px; text-align: center; color: var(--muted); }

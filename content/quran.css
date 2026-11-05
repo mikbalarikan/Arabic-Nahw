@@ -1,0 +1,11 @@
+@page { @bottom-left { content: "Arabic · Iʿrāb in the Qur'an"; font: 9.5px "DejaVu Sans"; color: #6a707b; } }
+.rule3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 2mm; }
+.qc { height: auto !important; margin-bottom: 4mm; break-inside: avoid; }
+.qref { font-size: 10px; color: #6a707b; white-space: nowrap; }
+.qref bdi { font-size: 12px; }
+.qc .sent { font-size: 30px; }
+.vt td { padding: 6px 8px; }
+.vt .vx { font-size: 18px; text-align: right; white-space: nowrap; }
+.vt .vr { font-size: 10px; color: #5f6672; white-space: nowrap; }
+.vt .pill { font-size: 8.5px; padding: 1px 6px; margin: 1px 0; }
+.vt td.c { text-align: center; width: 6mm; }
