@@ -4,7 +4,7 @@
 
     python3 tools/build_site.py
 
-Reads the course content in content/ (Stage 0 units in content/stage0/u*.py, Stage 1/2 sets in the
+Reads the course content in content/ (unit files in content/stage<N>/u*.py, Stage 1/2 sets in the
 other modules), validates every Stage 0 unit, and writes:
     dist/index.html, dist/app.js, dist/app.css, dist/config.js, dist/_headers
     dist/data/manifest.json        lesson list for the home page and the tracking sheet
@@ -21,11 +21,11 @@ def fail(msg):
 
 def validate_units():
     bad = []
-    for f in sorted(glob.glob(os.path.join(CONTENT, "stage0", "u*.py"))):
+    for f in sorted(glob.glob(os.path.join(CONTENT, "stage*", "u*.py"))):
         out = subprocess.run([sys.executable, os.path.join(CONTENT, "stage0", "validate.py"), f], capture_output=True, text=True)
         if out.stdout.strip() != "OK":
-            bad.append(f"{os.path.basename(f)}:\n{out.stdout}{out.stderr}")
-    if bad: fail("Stage 0 validation\n" + "\n".join(bad))
+            bad.append(f"{os.path.relpath(f, CONTENT)}:\n{out.stdout}{out.stderr}")
+    if bad: fail("Unit validation\n" + "\n".join(bad))
 
 def sample_html(d):
     s = d["sets"][0]; c = s["cards"][0]
@@ -43,7 +43,7 @@ def main():
     validate_units()
     os.chdir(CONTENT); sys.path.insert(0, CONTENT)
     import course
-    lessons = course.stage0() + course.stage12()
+    lessons = course.stage0() + course.stage12() + course.stage3()
     ids = [d["id"] for d in lessons]
     if len(ids) != len(set(ids)): fail("duplicate lesson ids")
 
@@ -56,7 +56,7 @@ def main():
         v = hashlib.sha1(raw.encode()).hexdigest()[:10]
         open(os.path.join(DIST, "data", "lessons", d["id"] + ".json"), "w", encoding="utf-8").write(raw)
         manifest.append({
-            "id": d["id"], "stage": d["stage"], "order": d.get("order", 0), "title": d["title"], "ar": d["ar"],
+            "id": d["id"], "stage": d["stage"], "order": d.get("order", 0), "kind": d.get("kind", ""), "title": d["title"], "ar": d["ar"],
             "blurb": d["blurb"], "introLabel": d.get("introLabel", "Intro"), "hasTeacher": bool(d.get("teacher")),
             "sample": sample_html(d), "v": v,
             "sets": [{"id": s["id"], "label": s["label"], "n": len(s["cards"]), "cards": [{"n": c["n"]} for c in s["cards"]]} for s in d["sets"]],

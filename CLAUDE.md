@@ -9,18 +9,26 @@ This is the course site for an Arabic grammar (naḥw) class taught to English s
   - Stage 0: foundations.
   - Stage 1: nominal sentence, rafʿ and jarr.
   - Stage 2: naṣb with fatha, past and order verbs only.
-  - Planned next: one chapter per group (dual, sound masculine plural, sound feminine plural, and so on).
-  - Don't use forms a stage hasn't taught yet: present verbs, duals, plurals, diptotes in jarr, the five nouns.
+  - Stage 3: fixed words (pronouns, pointing words, relatives, question words, past and order verbs incl. مَا "did not", particles).
+  - Planned: Stage 4 kinds of nouns (dual, sound plurals, diptotes, the five nouns), then 5 marfūʿāt, 6 majrūrāt, 7 manṣūbāt, 8 the present verb.
+  - Don't use forms a stage hasn't taught yet: present verbs, noun duals, sound plurals, diptotes in jarr, the five nouns. (Stage 3 allows dual/plural fixed words and broken plurals with normal endings; see content/stage3/SPEC.md.)
 - Colours are fixed across the course (see `content/stage0/SPEC.md`):
   - Topic = gold, Information = red, after a preposition = green, owner = purple, adjective = grey, after وَ = blue.
   - Verb = navy, doer = orange, object = pink, purpose = teal, time/place = brown, state = olive.
 - Students' saved results are keyed by lesson id + set id + card index. Never rename lesson ids or reorder existing cards; append instead.
 - Writing style for students: plain, short sentences, no em-dashes.
 
+## Every stage ends with a class exercise, then a quiz
+The last two lessons of every stage are a class exercise (review of the whole stage, done together in class) and then the stage quiz.
+- Unit-file stages (`content/stage<N>/`): a unit with `"kind": "exercise"` (homework may be `[]`) followed by one with `"kind": "quiz"`; give them the two highest `order` numbers.
+- Stages built in `course.py`: list the exercise id and then the quiz id last in the `order` list at the end of `stage12()` (or the stage's own builder).
+- A stage plan for the course: 0 foundations · 1 rafʿ and jarr · 2 naṣb · 3 fixed words (مَبْنِيَّات) · 4 kinds of nouns · 5 marfūʿāt · 6 majrūrāt · 7 manṣūbāt · 8 the present verb. `STAGES` in `site/app.js` lists them; a stage appears on the home page once it has a lesson.
+- Spelling: ال may be written with or without sukūn on the ل (both are correct); no need to add it.
+
 ## Adding a unit like Stage 0
 Write `content/stage0/u<N>_<slug>.py` following `content/stage0/SPEC.md`, run `python3 content/stage0/validate.py <file>` until it prints OK, then `python3 tools/build_site.py`.
-Stage 0 files are picked up automatically (they need `"id": "s0-..."` and an `order`).
-For a lesson in a later stage, add a builder function to `content/course.py`, following `stage12()`. Use either iʿrāb cards (fields `end` + `job`) or choice cards, and give the lesson `stage` 1, 2, 3 and so on. The home page shows stages 0–2; add a `stageSection` line in `site/app.js` for a new stage.
+Unit files in any `content/stage<N>/` folder are picked up automatically (they need `"id": "s<N>-..."` and an `order`); add a `stage<N>()` call in `tools/build_site.py` for a new folder.
+For a lesson in a later stage, add a builder function to `content/course.py`, following `stage12()`. Use either iʿrāb cards (fields `end` + `job`) or choice cards, and give the lesson `stage` 1, 2, 3 and so on. The home page and tracking sheet take their stage list from `STAGES` in `site/app.js`.
 
 ## Checks before committing
 1. `python3 tools/build_site.py` succeeds (it validates every Stage 0 unit).

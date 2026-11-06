@@ -18,9 +18,10 @@ def walk_text(s, where):
     check_ar_vowelled(s, where)
 for path in sys.argv[1:]:
     U = runpy.run_path(path)["UNIT"]
-    for k in ("id","order","title","ar","blurb","notes","practice","homework"):
+    for k in ("id","order","title","ar","blurb","notes","practice"):
         if k not in U: err(f"missing {k}")
-    if not re.fullmatch(r"s0-[a-z0-9-]+", U.get("id","")): err("bad id")
+    if "homework" not in U and U.get("kind") != "exercise": err("missing homework")
+    if not re.fullmatch(r"s[0-9]+-[a-z0-9-]+", U.get("id","")): err("bad id")
     notes = U.get("notes", [])
     if not notes or notes[0].get("t") != "hero": err("notes must start with hero")
     for i, b in enumerate(notes):
@@ -37,8 +38,11 @@ for path in sys.argv[1:]:
                 else: walk_text(v, f"{w}.items[{j}].{key}")
         for r, row in enumerate(b.get("rows", [])):
             for c, cell in enumerate(row): walk_text(cell, f"{w}.rows[{r}][{c}]")
+    kind = U.get("kind", "unit")
+    if kind not in ("unit", "exercise", "quiz"): err("kind must be unit, exercise or quiz")
     for setname in ("practice","homework"):
         cards = U.get(setname, [])
+        if setname == "homework" and kind == "exercise" and not cards: continue   # a class exercise may have no homework
         if len(cards) < 4: err(f"{setname}: fewer than 4 cards")
         for ci, c in enumerate(cards):
             w = f"{setname}[{ci}]"

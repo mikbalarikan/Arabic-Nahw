@@ -258,15 +258,27 @@ function tile(d) {
     mine = `<div class="prog" aria-hidden="true"><i style="width:${Math.round(100 * done / nCards)}%"></i></div><span class="mine">${done} of ${nCards} cards fully correct</span>`;
   }
   const setBtns = d.sets.map((s, k) => `<button class="btn ${k === 0 ? "primary" : ""}" type="button" data-h="${d.id}-${s.id}">${esc(s.label)}</button>`).join("");
-  const unit = d.stage === 0;
+  const unit = d.order > 0;   // unit-file lessons (Stage 0, Stage 3, …)
   return `<article class="tile ${unit ? "unit" : ""}">
-    ${unit ? `<div class="unitno">UNIT ${d.order}</div>` : ""}
+    ${unit ? `<div class="unitno">${d.kind === "quiz" ? "STAGE QUIZ" : d.kind === "exercise" ? "CLASS EXERCISE" : "UNIT " + d.order}</div>` : ""}
     <div class="tile-top"><h3>${esc(d.title)}</h3><span class="count">${nCards} cards</span></div>
     ${unit ? `<div class="sample" dir="rtl">${esc(d.ar)}</div>` : `<div class="tar" dir="rtl">${esc(d.ar)}</div><div class="sample" dir="rtl">${d.sample || ""}</div>`}
     <p>${esc(d.blurb)}</p>${mine}
     <div class="tile-actions"><button class="btn" type="button" data-h="${d.id}">${esc(d.introLabel || "Intro")}</button>${setBtns}
       ${isTeacher() ? `<button class="btn" type="button" data-h="${d.id}-key">Answer key</button>` : ""}</div></article>`;
 }
+// Course plan. A stage shows on the home page once it has at least one lesson.
+const STAGES = [
+  { n: 0, title: "Stage 0 · Foundations", ar: "مَدْخَلٌ إِلَى النَّحْوِ", chips: ["الكَلِمَة", "ال", "الإِعْرَاب"], cls: "s0" },
+  { n: 1, title: "Stage 1 · Rafʿ and jarr", ar: "الجُمْلَةُ الاسْمِيَّةُ", chips: ["رَفْع", "جَرّ"] },
+  { n: 2, title: "Stage 2 · Naṣb", ar: "الجُمْلَةُ الفِعْلِيَّةُ", chips: ["رَفْع", "نَصْب", "جَرّ"] },
+  { n: 3, title: "Stage 3 · Fixed words", ar: "المَبْنِيَّاتُ", chips: ["الضَّمَائِر", "الإِشَارَة", "الحُرُوف"], cls: "s0" },
+  { n: 4, title: "Stage 4 · Kinds of nouns", ar: "أَقْسَامُ الأَسْمَاءِ", chips: [] },
+  { n: 5, title: "Stage 5 · Nouns in rafʿ", ar: "مَرْفُوعَاتُ الأَسْمَاءِ", chips: [] },
+  { n: 6, title: "Stage 6 · Nouns in jarr", ar: "مَجْرُورَاتُ الأَسْمَاءِ", chips: [] },
+  { n: 7, title: "Stage 7 · Nouns in naṣb", ar: "مَنْصُوبَاتُ الأَسْمَاءِ", chips: [] },
+  { n: 8, title: "Stage 8 · The present verb", ar: "إِعْرَابُ الفِعْلِ المُضَارِعِ", chips: [] },
+];
 function stageSection(title, ar, chips, list, cls) {
   return `<section class="stage"><div class="stage-h"><h2>${title}</h2><span class="sar" dir="rtl">${ar}</span>
     <div class="cases-mini">${chips}</div></div><div class="shelf ${cls || ""}">${list.map(tile).join("")}</div></section>`;
@@ -285,9 +297,7 @@ function renderHome() {
     <div class="how-strip"><span><b>1</b> Read the lesson</span><span><b>2</b> Practice in class</span><span><b>3</b> Homework at home</span><span><b>4</b> Check and see why</span>
     ${lastD ? `<button class="btn gold" type="button" data-h="${last.endsWith("-intro") ? lastD.id : last}" style="margin-left:auto">Continue: ${esc(lastD.title)}</button>` : ""}</div>
   </section>
-  ${stageSection("Stage 0 · Foundations", "مَدْخَلٌ إِلَى النَّحْوِ", chip("الكَلِمَة") + chip("ال") + chip("الإِعْرَاب"), byStage(0), "s0")}
-  ${stageSection("Stage 1 · Rafʿ and jarr", "الجُمْلَةُ الاسْمِيَّةُ", chip("رَفْع") + chip("جَرّ"), byStage(1))}
-  ${stageSection("Stage 2 · Naṣb", "الجُمْلَةُ الفِعْلِيَّةُ", chip("رَفْع") + chip("نَصْب") + chip("جَرّ"), byStage(2))}`;
+  ${STAGES.filter(sg => byStage(sg.n).length).map(sg => stageSection(sg.title, sg.ar, sg.chips.map(chip).join(""), byStage(sg.n), sg.cls)).join("")}`;
   app.querySelectorAll("[data-h]").forEach(b => b.onclick = () => go(b.dataset.h));
   wireAuth();
 }
@@ -445,7 +455,7 @@ document.addEventListener("keydown", ev => {
 /* ============================ tracking sheet ============================ */
 function columns() {
   const cols = [];
-  [0, 1, 2].forEach(sg => DATA.filter(d => d.stage === sg).sort((a, b) => (a.order || 0) - (b.order || 0))
+  STAGES.map(x => x.n).forEach(sg => DATA.filter(d => d.stage === sg).sort((a, b) => (a.order || 0) - (b.order || 0))
     .forEach(d => d.sets.forEach(s => cols.push({ d, s, stage: sg }))));
   return cols;
 }
@@ -462,9 +472,8 @@ function cellHtml(x) {
 function fmtDate(t) { try { return t ? new Date(t).toLocaleDateString(undefined, { day: "numeric", month: "short" }) : ""; } catch (_) { return ""; } }
 function renderTracking() {
   const cols = columns(), roster = CLOUD.roster || [], res = CLOUD.allRes || {};
-  const stageNames = ["Stage 0", "Stage 1", "Stage 2"];
-  const grp = [0, 1, 2].map(sg => { const n = cols.filter(c => c.stage === sg).length; return n ? `<th colspan="${n}">${stageNames[sg]}</th>` : ""; }).join("");
-  const head = cols.map(c => `<th title="${esc(c.d.title)} · ${esc(c.s.label)}">${esc(c.d.stage === 0 ? "U" + c.d.order : c.d.title.replace(/^Iʿrāb /, "").slice(0, 16))}<br><small>${esc(c.s.label)}</small></th>`).join("");
+  const grp = STAGES.map(sg => { const n = cols.filter(c => c.stage === sg.n).length; return n ? `<th colspan="${n}">Stage ${sg.n}</th>` : ""; }).join("");
+  const head = cols.map(c => `<th title="${esc(c.d.title)} · ${esc(c.s.label)}">${esc(c.d.order ? "S" + c.d.stage + "·" + (c.d.kind === "quiz" ? "Quiz" : c.d.kind === "exercise" ? "Ex" : "U" + c.d.order) : c.d.title.replace(/^Iʿrāb /, "").slice(0, 16))}<br><small>${esc(c.s.label)}</small></th>`).join("");
   const body = roster.map(r => `<tr><td class="stu"><b></b><small></small><button class="btn det" type="button" data-id="${esc(r.id)}">Details</button></td>${cols.map(c => `<td>${cellHtml(setStats(res[r.id], c.d, c.s))}</td>`).join("")}</tr>`).join("");
   app.innerHTML = `<div class="trk-top"><h2>Tracking sheet</h2><p class="sub">${roster.length} student${roster.length === 1 ? "" : "s"}. Each cell: cards fully correct / cards in the set, and % of items right (best try before opening the answer).</p>
     <span class="sp"></span><button class="btn" type="button" id="reload">Refresh</button><button class="btn" type="button" id="csv">Download CSV</button></div>

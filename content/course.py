@@ -268,20 +268,28 @@ def choice_card(n, c):
         card["prompt"] = c["prompt"]; card["promptEn"] = c.get("en", "")
     return card
 
-def stage0():
+def unit_stage(n):
+    """Lessons written as unit files in content/stage<n>/u*.py (Stage 0 and Stage 3 so far)."""
     units = []
-    for path in sorted(glob.glob(os.path.join(HERE, "stage0", "u*.py"))):
-        U = runpy.run_path(path)["UNIT"]
-        units.append(U)
+    for path in sorted(glob.glob(os.path.join(HERE, f"stage{n}", "u*.py"))):
+        units.append(runpy.run_path(path)["UNIT"])
     units.sort(key=lambda u: u["order"])
     out = []
     for U in units:
-        sets = [dict(id="practice", label="Practice" if U["id"] != "s0-checkup" else "Check-up",
-                     cards=[choice_card(f"P{i}", c) for i, c in enumerate(U["practice"], 1)]),
-                dict(id="homework", label="Homework", cards=[choice_card(f"H{i}", c) for i, c in enumerate(U["homework"], 1)])]
-        out.append(dict(id=U["id"], stage=0, order=U["order"], title=U["title"], ar=U["ar"], blurb=U["blurb"],
+        kind = U.get("kind") or ("quiz" if U["id"].endswith("-checkup") else "unit")
+        label = {"exercise": "Class exercise", "quiz": "Quiz"}.get(kind, "Practice")
+        sets = [dict(id="practice", label=label, cards=[choice_card(f"P{i}", c) for i, c in enumerate(U["practice"], 1)])]
+        if U.get("homework"):
+            sets.append(dict(id="homework", label="Homework", cards=[choice_card(f"H{i}", c) for i, c in enumerate(U["homework"], 1)]))
+        out.append(dict(id=U["id"], stage=n, order=U["order"], kind=kind, title=U["title"], ar=U["ar"], blurb=U["blurb"],
                         intro=render_notes(U["notes"]), introLabel="Lesson", sets=sets))
     return out
+
+def stage0():
+    return unit_stage(0)
+
+def stage3():
+    return unit_stage(3)
 
 # ---------------- Stage 1 / 2 ----------------
 def stage12():
@@ -328,5 +336,8 @@ def stage12():
                     blurb="10 verses with a past verb and a naṣb noun, mixed with rafʿ and jarr.", intro=qh[:qh.index(YOUR_TURN)],
                     sets=[irab_set("cards", "Verses", NASB_ENDS, NASB_JOBS,
                                    [irab_card(str(i), dict(en=v["tr"], tag=f'{v["en"]} · {v["ref"]}'), nasb_rows(v["g"], QN.qstem), QN.key(i, v), hidden_note(v["g"])) for i, v in enumerate(QN.VERSES, 1)])]))
+    # Every stage ends with its class exercise, then its quiz.
+    order = ["colour-guide", "quran-nouns", "exercise", "quiz", "nasb", "quran-nasb", "nasb-exercise", "nasb-quiz"]
+    out.sort(key=lambda d: order.index(d["id"]) if d["id"] in order else len(order))
     return out
 

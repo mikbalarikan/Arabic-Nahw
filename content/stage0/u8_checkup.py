@@ -49,12 +49,13 @@ FORMS = [
 
 UNIT = {
     "id": "s0-checkup",
-    "order": 8,
-    "title": "Stage 0 check-up",
+    "order": 9,
+    "kind": "quiz",
+    "title": "Stage 0 quiz",
     "ar": "مُرَاجَعَةٌ",
     "blurb": "A short mixed quiz on all of Stage 0. Pass it and you are ready for Stage 1.",
     "notes": [
-        {"t": "hero", "eyebrow": "STAGE 0 · UNIT 8", "title": "Are you ready for Stage 1?",
+        {"t": "hero", "eyebrow": "STAGE 0 · QUIZ", "title": "Are you ready for Stage 1?",
          "text": "Eight cards, one or more for every Stage 0 unit. Do them without your notes.",
          "wm": "مُرَاجَعَةٌ"},
 
