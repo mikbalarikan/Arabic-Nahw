@@ -274,10 +274,10 @@ const STAGES = [
   { n: 2, title: "Stage 2 · Naṣb", ar: "الجُمْلَةُ الفِعْلِيَّةُ", chips: ["رَفْع", "نَصْب", "جَرّ"] },
   { n: 3, title: "Stage 3 · Fixed words", ar: "المَبْنِيَّاتُ", chips: ["الضَّمَائِر", "الإِشَارَة", "الحُرُوف"], cls: "s0" },
   { n: 4, title: "Stage 4 · Kinds of nouns", ar: "أَقْسَامُ الأَسْمَاءِ", chips: ["المُثَنَّى", "الجَمْع", "المَمْنُوع مِنَ الصَّرْف"], cls: "s0" },
-  { n: 5, title: "Stage 5 · Nouns in rafʿ", ar: "مَرْفُوعَاتُ الأَسْمَاءِ", chips: [] },
-  { n: 6, title: "Stage 6 · Nouns in jarr", ar: "مَجْرُورَاتُ الأَسْمَاءِ", chips: [] },
-  { n: 7, title: "Stage 7 · Nouns in naṣb", ar: "مَنْصُوبَاتُ الأَسْمَاءِ", chips: [] },
-  { n: 8, title: "Stage 8 · The present verb", ar: "إِعْرَابُ الفِعْلِ المُضَارِعِ", chips: [] },
+  { n: 5, title: "Stage 5 · Nouns in rafʿ", ar: "مَرْفُوعَاتُ الأَسْمَاءِ", chips: ["الفَاعِل","نَائِبُ الفَاعِل","خَبَرُ إِنَّ"] },
+  { n: 6, title: "Stage 6 · Nouns in jarr", ar: "مَجْرُورَاتُ الأَسْمَاءِ", chips: ["حُرُوفُ الجَرِّ","الإِضَافَة"] },
+  { n: 7, title: "Stage 7 · Nouns in naṣb", ar: "مَنْصُوبَاتُ الأَسْمَاءِ", chips: ["المَفْعُولَات","التَّمْيِيز","المُنَادَى"] },
+  { n: 8, title: "Stage 8 · The present verb", ar: "إِعْرَابُ الفِعْلِ المُضَارِعِ", chips: ["الرَّفْع","النَّصْب","الجَزْم"] },
 ];
 function stageSection(title, ar, chips, list, cls) {
   return `<section class="stage"><div class="stage-h"><h2>${title}</h2><span class="sar" dir="rtl">${ar}</span>

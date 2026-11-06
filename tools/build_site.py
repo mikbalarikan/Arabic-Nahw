@@ -43,7 +43,7 @@ def main():
     validate_units()
     os.chdir(CONTENT); sys.path.insert(0, CONTENT)
     import course
-    lessons = course.stage0() + course.stage12() + course.stage3() + course.stage4()
+    lessons = course.stage0() + course.stage12() + course.stage3() + course.stage4() + course.stage5() + course.stage6() + course.stage7() + course.stage8()
     ids = [d["id"] for d in lessons]
     if len(ids) != len(set(ids)): fail("duplicate lesson ids")
 

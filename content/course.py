@@ -294,6 +294,18 @@ def stage3():
 def stage4():
     return unit_stage(4)
 
+def stage5():
+    return unit_stage(5)
+
+def stage6():
+    return unit_stage(6)
+
+def stage7():
+    return unit_stage(7)
+
+def stage8():
+    return unit_stage(8)
+
 # ---------------- Stage 1 / 2 ----------------
 def stage12():
     out = []
