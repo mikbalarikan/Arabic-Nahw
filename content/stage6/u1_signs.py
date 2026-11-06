@@ -258,7 +258,7 @@ UNIT = {
                  "why": "A sound f. plural takes kasra in jarr: {ـَاتِ}."},
                 {"s": "عَنِ [المُهَنْدِسِينَ]", "gloss": "about the engineers", "ans": {"sign": "ya"},
                  "why": "A sound m. plural: {ـِينَ}. The sign is the {ي}."},
-                {"s": "أَخَذْتُ الكِتَابَ مِنْ [مُوسَى]", "gloss": "I took the book from Musa", "ans": {"sign": "hid"},
+                {"s": "خَرَجْتُ مِنَ [المُسْتَشْفَى]", "gloss": "I came out of the hospital", "ans": {"sign": "hid"},
                  "why": "Maqṣūr: it ends in alif. The kasra is hidden."},
                 {"s": "دَرَسْتُ فِي [مَدَارِسَ] كَثِيرَةٍ", "gloss": "I studied in many schools", "ans": {"sign": "fat"},
                  "why": "{مَدَارِسُ} is a diptote. No {ال}, no owner: fatha."},
