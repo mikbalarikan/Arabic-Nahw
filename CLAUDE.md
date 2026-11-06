@@ -10,8 +10,12 @@ This is the course site for an Arabic grammar (naḥw) class taught to English s
   - Stage 1: nominal sentence, rafʿ and jarr.
   - Stage 2: naṣb with fatha, past and order verbs only.
   - Stage 3: fixed words (pronouns, pointing words, relatives, question words, past and order verbs incl. مَا "did not", particles).
-  - Planned: Stage 4 kinds of nouns (dual, sound plurals, diptotes, the five nouns), then 5 marfūʿāt, 6 majrūrāt, 7 manṣūbāt, 8 the present verb.
-  - Don't use forms a stage hasn't taught yet: present verbs, noun duals, sound plurals, diptotes in jarr, the five nouns. (Stage 3 allows dual/plural fixed words and broken plurals with normal endings; see content/stage3/SPEC.md.)
+  - Stage 4: kinds of nouns (dual, sound plurals, broken plurals, diptotes, the five nouns, hidden vowel): classification and shapes only.
+  - Stage 5: nouns in rafʿ (topic/information, doer, doer stand-in, kāna's noun, inna's information, followers) with all signs.
+  - Stage 6: nouns in jarr (preposition, iḍāfa, followers, diptote fatha).
+  - Stage 7: nouns in naṣb (object, verb's own noun, purpose, time/place, together with, state, specifier, exception, vocative, inna's noun, kāna's information).
+  - Stage 8: the present verb (rafʿ, naṣb, jazm, five verbs, condition, weak endings, fixed forms).
+  - Don't use forms a stage hasn't taught yet. Present verbs appear only from Stage 8 on. Rules per stage: content/stage<N>/SPEC.md; Stages 5–8 also follow content/STAGES_5_8_SPEC.md (shared option lists: copy them exactly).
 - Colours are fixed across the course (see `content/stage0/SPEC.md`):
   - Topic = gold, Information = red, after a preposition = green, owner = purple, adjective = grey, after وَ = blue.
   - Verb = navy, doer = orange, object = pink, purpose = teal, time/place = brown, state = olive.
