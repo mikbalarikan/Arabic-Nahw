@@ -1,0 +1,347 @@
+# Stage 5, Unit 2: Topic and information (المُبْتَدَأُ وَالخَبَرُ)
+
+# Canonical options (STAGES_5_8_SPEC.md)
+DAM = {"k": "dam", "label": "Damma · ضَمَّةٌ", "color": "red"}
+ALIF = {"k": "alif", "label": "Alif · الأَلِفُ", "color": "teal"}
+WAW = {"k": "waw", "label": "Wāw · الوَاوُ", "color": "blue"}
+HID = {"k": "hid", "label": "Hidden vowel · مُقَدَّرَةٌ", "color": "brown"}
+FIXED = {"k": "fixed", "label": "Fixed · مَبْنِيٌّ", "color": "grey"}
+
+TOPIC = {"k": "topic", "label": "Topic · مُبْتَدَأٌ", "color": "gold"}
+INFO = {"k": "info", "label": "Information · خَبَرٌ", "color": "red"}
+ADJ = {"k": "adj", "label": "Adjective · نَعْتٌ", "color": "grey"}
+AND = {"k": "and", "label": "After وَ (and) · مَعْطُوفٌ", "color": "blue"}
+
+
+def pick(*labels):
+    return [{"k": k, "label": l} for k, l in zip("abcd", labels)]
+
+
+UNIT = {
+    "id": "s5-topic",
+    "order": 2,
+    "title": "Topic and information",
+    "ar": "المُبْتَدَأُ وَالخَبَرُ",
+    "blurb": "The nominal sentence with every kind of noun: both parts in rafʿ, each with its own sign.",
+    "notes": [
+        {"t": "hero", "eyebrow": "STAGE 5 · UNIT 2", "title": "Two rafʿ words in one sentence",
+         "text": "In a nominal sentence the Topic and the Information are both in rafʿ. Now we use every kind of noun in them.",
+         "wm": "المُبْتَدَأُ وَالخَبَرُ"},
+
+        {"t": "h2", "text": "Both parts are in rafʿ"},
+        {"t": "cols", "items": [
+            {"color": "gold", "title": "Topic", "ar": "المُبْتَدَأُ", "text": "What we talk about. Usually first and definite: {الطَّالِبُ}."},
+            {"color": "red", "title": "Information", "ar": "الخَبَرُ", "text": "What we say about it: {مُجْتَهِدٌ}."},
+        ]},
+        {"t": "rule", "color": "gold", "title": "Same case, own sign",
+         "text": "The Topic is in rafʿ and the Information is in rafʿ. Each word takes the rafʿ sign of its own group."},
+
+        {"t": "h2", "text": "Every group in a nominal sentence"},
+        {"t": "table", "head": ["Group", "Sentence", "Topic sign", "Information sign"], "rows": [
+            ["Singular", "الطَّالِبُ مُجْتَهِدٌ.", "damma", "damma"],
+            ["Dual", "المُسْلِمَانِ مُجْتَهِدَانِ.", "alif", "alif"],
+            ["Sound m. plural", "المُعَلِّمُونَ حَاضِرُونَ.", "wāw", "wāw"],
+            ["Sound f. plural", "الطَّالِبَاتُ حَاضِرَاتٌ.", "damma", "damma"],
+            ["Broken plural", "الطُّلَّابُ مُجْتَهِدُونَ.", "damma", "wāw"],
+            ["Diptote", "أَحْمَدُ طَبِيبٌ.", "damma, no tanween", "damma"],
+            ["Five nouns", "أَبُوكَ كَرِيمٌ.", "wāw", "damma"],
+            ["Manqūṣ", "القَاضِي عَادِلٌ.", "hidden damma", "damma"],
+            ["Noun + ـي \"my\"", "صَدِيقِي مُهَنْدِسٌ.", "hidden damma", "damma"],
+        ]},
+        {"t": "tip", "text": "In {الطُّلَّابُ مُجْتَهِدُونَ} the two words have different signs. {الطُّلَّابُ} is a broken plural (damma). {مُجْتَهِدُونَ} is a sound m. plural (wāw). Look at each word on its own."},
+
+        {"t": "h2", "text": "The Information agrees with the Topic"},
+        {"t": "p", "text": "When the Information is a describing word, it copies the Topic in number and in gender."},
+        {"t": "table", "head": ["", "Masculine", "Feminine"], "rows": [
+            ["One", "الطَّالِبُ مُجْتَهِدٌ.", "الطَّالِبَةُ مُجْتَهِدَةٌ."],
+            ["Two", "الطَّالِبَانِ مُجْتَهِدَانِ.", "الطَّالِبَتَانِ مُجْتَهِدَتَانِ."],
+            ["Three or more", "المُسْلِمُونَ مُجْتَهِدُونَ.", "المُسْلِمَاتُ مُجْتَهِدَاتٌ."],
+        ]},
+        {"t": "rule", "color": "purple", "title": "Plurals of things",
+         "text": "When the Topic is a plural of things (not people), the Information is feminine singular: {الكُتُبُ جَدِيدَةٌ}، {البُيُوتُ كَبِيرَةٌ}، {السَّيَّارَاتُ نَظِيفَةٌ}."},
+        {"t": "tip", "text": "A broken plural of men takes a plural Information: {الطُّلَّابُ مُجْتَهِدُونَ}، {الرِّجَالُ حَاضِرُونَ}. Two singular Topics joined with {وَ} take a dual: {أَبُوكَ وَأَخُوكَ حَاضِرَانِ}."},
+
+        {"t": "h2", "text": "The Information can be a phrase"},
+        {"t": "p", "text": "The Information can be a preposition with its noun. Then the whole phrase is the Information. The noun after the preposition is in jarr (Stage 6)."},
+        {"t": "examples", "items": [
+            {"ar": "الكِتَابُ عَلَى المَكْتَبِ.", "en": "The book is on the desk.", "note": "Information: the phrase {عَلَى المَكْتَبِ}."},
+            {"ar": "المُعَلِّمُونَ فِي الفَصْلِ.", "en": "The teachers are in the classroom.", "note": "{المُعَلِّمُونَ}: Topic, wāw. Information: {فِي الفَصْلِ}."},
+            {"ar": "القَاضِي فِي المَسْجِدِ.", "en": "The judge is in the mosque.", "note": "{القَاضِي}: Topic, hidden damma."},
+        ]},
+
+        {"t": "h2", "text": "Fixed Topics and owned words"},
+        {"t": "p", "text": "A fixed word can be the Topic or the Information. It is in the place of rafʿ: {هُوَ مُهَنْدِسٌ}، {هَذَا قَلَمٌ}، {هَؤُلَاءِ طُلَّابٌ}."},
+        {"t": "p", "text": "A dual or a sound m. plural with an owner drops its {ن}. The sign stays the same."},
+        {"t": "examples", "items": [
+            {"ar": "مُعَلِّمُو المَدْرَسَةِ حَاضِرُونَ.", "en": "The school's teachers are present.",
+             "note": "{مُعَلِّمُو}: Topic, wāw. The {ن} dropped before the owner {المَدْرَسَةِ}."},
+            {"ar": "كِتَابَا الطَّالِبِ جَدِيدَانِ.", "en": "The student's two books are new.",
+             "note": "{كِتَابَا}: Topic, alif. The {ن} dropped."},
+            {"ar": "مُعَلِّمُوكَ مَسْرُورُونَ.", "en": "Your teachers are happy.",
+             "note": "The owner can be a pronoun: {مُعَلِّمُوكَ}."},
+        ]},
+
+        {"t": "h2", "text": "Worked examples: the full formula"},
+        {"t": "examples", "items": [
+            {"ar": "المُسْلِمَانِ مُجْتَهِدَانِ.", "en": "The two Muslims are hard-working.",
+             "note": "{المُسْلِمَانِ}: {مُبْتَدَأٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ الأَلِفُ لِأَنَّهُ مُثَنًّى}. {مُجْتَهِدَانِ}: {خَبَرٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ الأَلِفُ لِأَنَّهُ مُثَنًّى}."},
+            {"ar": "المُعَلِّمُونَ حَاضِرُونَ.", "en": "The teachers are present.",
+             "note": "{المُعَلِّمُونَ}: {مُبْتَدَأٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ الوَاوُ لِأَنَّهُ جَمْعُ مُذَكَّرٍ سَالِمٌ}. {حَاضِرُونَ}: the same, as {خَبَرٌ}."},
+            {"ar": "أَبُوكَ كَرِيمٌ.", "en": "Your father is generous.",
+             "note": "{أَبُوكَ}: {مُبْتَدَأٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ الوَاوُ لِأَنَّهُ مِنَ الأَسْمَاءِ الخَمْسَةِ}. {كَرِيمٌ}: {خَبَرٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ الضَّمَّةُ الظَّاهِرَةُ}."},
+            {"ar": "القَاضِي عَادِلٌ.", "en": "The judge is just.",
+             "note": "{القَاضِي}: {مُبْتَدَأٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ الضَّمَّةُ المُقَدَّرَةُ عَلَى اليَاءِ}."},
+            {"ar": "صَدِيقِي مُهَنْدِسٌ.", "en": "My friend is an engineer.",
+             "note": "{صَدِيقِي}: {مُبْتَدَأٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ الضَّمَّةُ المُقَدَّرَةُ عَلَى مَا قَبْلَ يَاءِ المُتَكَلِّمِ}."},
+        ]},
+
+        {"t": "summary", "title": "In short", "items": [
+            "Topic and Information are both in rafʿ.",
+            "Each word takes the sign of its own group: {المُسْلِمَانِ مُجْتَهِدَانِ} (alif), {المُعَلِّمُونَ حَاضِرُونَ} (wāw), {أَبُوكَ كَرِيمٌ} (wāw, damma).",
+            "The Information copies the Topic in number and gender. Plurals of things take a feminine singular: {الكُتُبُ جَدِيدَةٌ}.",
+            "The Information can be a phrase: {الكِتَابُ عَلَى المَكْتَبِ}.",
+            "Fixed Topics are in the place of rafʿ. Owned duals and plurals drop the {ن}: {مُعَلِّمُو المَدْرَسَةِ}.",
+        ]},
+    ],
+
+    "practice": [
+        {
+            "title": "Iʿrāb: job and sign",
+            "prompt": "أَبُوكَ وَأَخُوكَ حَاضِرَانِ.",
+            "en": "Your father and your brother are present.",
+            "fields": [
+                {"key": "job", "label": "Job", "options": [TOPIC, INFO, AND]},
+                {"key": "sign", "label": "Sign", "options": [DAM, ALIF, WAW, HID]},
+            ],
+            "rows": [
+                {"s": "أَبُوكَ", "gloss": "your father", "ans": {"job": "topic", "sign": "waw"},
+                 "why": "{مُبْتَدَأٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ الوَاوُ لِأَنَّهُ مِنَ الأَسْمَاءِ الخَمْسَةِ}."},
+                {"s": "أَخُوكَ", "gloss": "your brother", "ans": {"job": "and", "sign": "waw"},
+                 "why": "After {وَ} it copies the Topic's rafʿ. A five noun: wāw."},
+                {"s": "حَاضِرَانِ", "gloss": "present (two)", "ans": {"job": "info", "sign": "alif"},
+                 "why": "Two people, so the Information is dual: {خَبَرٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ الأَلِفُ لِأَنَّهُ مُثَنًّى}."},
+            ],
+        },
+        {
+            "title": "Topic or Information? Which sign?",
+            "fields": [
+                {"key": "job", "label": "Job", "options": [TOPIC, INFO]},
+                {"key": "sign", "label": "Sign", "options": [DAM, ALIF, WAW, HID, FIXED]},
+            ],
+            "rows": [
+                {"s": "[المُهَنْدِسُونَ] مَشْغُولُونَ.", "gloss": "the engineers", "ans": {"job": "topic", "sign": "waw"},
+                 "why": "Topic, a sound m. plural: wāw."},
+                {"s": "الطُّلَّابُ [حَاضِرُونَ].", "gloss": "present", "ans": {"job": "info", "sign": "waw"},
+                 "why": "Information, a sound m. plural: wāw. The Topic {الطُّلَّابُ} has damma."},
+                {"s": "[القَاضِي] كَرِيمٌ.", "gloss": "the judge", "ans": {"job": "topic", "sign": "hid"},
+                 "why": "Topic, manqūṣ: hidden damma."},
+                {"s": "[هَذَا] قَلَمٌ.", "gloss": "this", "ans": {"job": "topic", "sign": "fixed"},
+                 "why": "A fixed pointing word as Topic: in the place of rafʿ."},
+                {"s": "البِنْتَانِ [صَغِيرَتَانِ].", "gloss": "small (two)", "ans": {"job": "info", "sign": "alif"},
+                 "why": "Information, a dual: alif."},
+                {"s": "[الطَّالِبَاتُ] فِي الفَصْلِ.", "gloss": "the female students", "ans": {"job": "topic", "sign": "dam"},
+                 "why": "Topic, a sound f. plural: damma."},
+            ],
+        },
+        {
+            "title": "Choose the right Information",
+            "fields": [{"key": "pick", "label": "Information", "options": []}],
+            "rows": [
+                {"s": "المُسْلِمَاتُ ___.", "gloss": "The Muslim women are hard-working.", "ans": {"pick": "a"},
+                 "opts": {"pick": pick("مُجْتَهِدَاتٌ", "مُجْتَهِدُونَ", "مُجْتَهِدَتَانِ")},
+                 "why": "Women, three or more: a sound f. plural with damma."},
+                {"s": "الطَّالِبَانِ ___.", "gloss": "The two students are present.", "ans": {"pick": "c"},
+                 "opts": {"pick": pick("حَاضِرٌ", "حَاضِرُونَ", "حَاضِرَانِ")},
+                 "why": "Two men: a dual with alif."},
+                {"s": "الكُتُبُ ___.", "gloss": "The books are new.", "ans": {"pick": "b"},
+                 "opts": {"pick": pick("جَدِيدُونَ", "جَدِيدَةٌ", "جَدِيدَانِ")},
+                 "why": "A plural of things takes a feminine singular Information."},
+                {"s": "الرِّجَالُ ___.", "gloss": "The men are present.", "ans": {"pick": "c"},
+                 "opts": {"pick": pick("حَاضِرٌ", "حَاضِرَانِ", "حَاضِرُونَ")},
+                 "why": "A broken plural of men takes a plural Information: {حَاضِرُونَ}."},
+                {"s": "البِنْتَانِ ___.", "gloss": "The two girls are small.", "ans": {"pick": "b"},
+                 "opts": {"pick": pick("صَغِيرَانِ", "صَغِيرَتَانِ", "صَغِيرَاتٌ")},
+                 "why": "Two girls: feminine dual {صَغِيرَتَانِ}."},
+                {"s": "المُعَلِّمُونَ ___.", "gloss": "The teachers are hard-working.", "ans": {"pick": "b"},
+                 "opts": {"pick": pick("مُجْتَهِدِينَ", "مُجْتَهِدُونَ", "مُجْتَهِدَانِ")},
+                 "why": "Information in rafʿ, sound m. plural: wāw. {مُجْتَهِدِينَ} is not rafʿ."},
+            ],
+        },
+        {
+            "title": "What is the job of the word in [brackets]?",
+            "fields": [{"key": "job", "label": "Job", "options": [TOPIC, INFO, ADJ, AND]}],
+            "rows": [
+                {"s": "[البَيْتُ] الكَبِيرُ جَمِيلٌ.", "gloss": "the house", "ans": {"job": "topic"},
+                 "why": "The sentence is about the house: Topic."},
+                {"s": "البَيْتُ [الكَبِيرُ] جَمِيلٌ.", "gloss": "the big", "ans": {"job": "adj"},
+                 "why": "It has {ال} like {البَيْتُ} and describes it: adjective."},
+                {"s": "البَيْتُ الكَبِيرُ [جَمِيلٌ].", "gloss": "beautiful", "ans": {"job": "info"},
+                 "why": "No {ال}. It tells us about the house: Information."},
+                {"s": "المُدَرِّسُ [فِي الفَصْلِ].", "gloss": "in the classroom", "ans": {"job": "info"},
+                 "why": "The phrase tells us where the teacher is: Information."},
+                {"s": "زَيْدٌ وَ[عَمْرٌو] حَاضِرَانِ.", "gloss": "ʿAmr", "ans": {"job": "and"},
+                 "why": "It comes after {وَ} and copies the Topic's rafʿ."},
+                {"s": "[أَنْتُمْ] طُلَّابٌ.", "gloss": "you (plural)", "ans": {"job": "topic"},
+                 "why": "A fixed pronoun at the start: Topic, in the place of rafʿ."},
+            ],
+        },
+        {
+            "title": "Which sign of rafʿ does the word in [brackets] take?",
+            "fields": [{"key": "sign", "label": "Sign", "options": [DAM, ALIF, WAW, HID]}],
+            "rows": [
+                {"s": "[المُسْتَشْفَى] كَبِيرٌ.", "gloss": "the hospital", "ans": {"sign": "hid"},
+                 "why": "Topic, maqṣūr: hidden damma."},
+                {"s": "المُدَرِّسُونَ [مَشْغُولُونَ].", "gloss": "busy", "ans": {"sign": "waw"},
+                 "why": "Information, a sound m. plural: wāw."},
+                {"s": "[الشَّجَرَتَانِ] طَوِيلَتَانِ.", "gloss": "the two trees", "ans": {"sign": "alif"},
+                 "why": "Topic, a dual: alif."},
+                {"s": "[إِبْرَاهِيمُ] تَاجِرٌ.", "gloss": "Ibrahim", "ans": {"sign": "dam"},
+                 "why": "Topic, a diptote: one damma, no tanween."},
+                {"s": "الرَّجُلُ [ذُو] عِلْمٍ.", "gloss": "having", "ans": {"sign": "waw"},
+                 "why": "{ذُو عِلْمٍ} is the Information. {ذُو} is a five noun: wāw."},
+                {"s": "[الحَقَائِبُ] ثَقِيلَةٌ.", "gloss": "the bags", "ans": {"sign": "dam"},
+                 "why": "Topic, a broken plural and diptote: damma."},
+            ],
+        },
+        {
+            "title": "Owned duals and plurals: which form is right?",
+            "fields": [{"key": "pick", "label": "Topic", "options": []}],
+            "rows": [
+                {"s": "___ نَظِيفَانِ.", "gloss": "The house's two doors are clean.", "ans": {"pick": "b"},
+                 "opts": {"pick": pick("بَابَانِ البَيْتِ", "بَابَا البَيْتِ", "بَابَيِ البَيْتِ")},
+                 "why": "Dual in rafʿ: alif. Before the owner the {ن} drops: {بَابَا البَيْتِ}."},
+                {"s": "___ فِي الفَصْلِ.", "gloss": "The school's teachers are in the classroom.", "ans": {"pick": "a"},
+                 "opts": {"pick": pick("مُدَرِّسُو المَدْرَسَةِ", "مُدَرِّسُونَ المَدْرَسَةِ", "مُدَرِّسِي المَدْرَسَةِ")},
+                 "why": "Sound m. plural in rafʿ: wāw, and the {ن} drops: {مُدَرِّسُو}."},
+                {"s": "___ مُجْتَهِدُونَ.", "gloss": "The city's engineers are hard-working.", "ans": {"pick": "c"},
+                 "opts": {"pick": pick("مُهَنْدِسِي المَدِينَةِ", "مُهَنْدِسُونَ المَدِينَةِ", "مُهَنْدِسُو المَدِينَةِ")},
+                 "why": "Wāw for rafʿ, no {ن} before the owner: {مُهَنْدِسُو المَدِينَةِ}."},
+                {"s": "___ مَفْتُوحَتَانِ.", "gloss": "The room's two windows are open.", "ans": {"pick": "a"},
+                 "opts": {"pick": pick("نَافِذَتَا الغُرْفَةِ", "نَافِذَتَانِ الغُرْفَةِ", "نَافِذَتَيِ الغُرْفَةِ")},
+                 "why": "Dual in rafʿ: alif, and the {ن} drops: {نَافِذَتَا}."},
+            ],
+        },
+    ],
+
+    "homework": [
+        {
+            "title": "Iʿrāb: job and sign",
+            "prompt": "المُسْلِمُونَ وَالمُسْلِمَاتُ صَادِقُونَ.",
+            "en": "The Muslim men and the Muslim women are truthful.",
+            "fields": [
+                {"key": "job", "label": "Job", "options": [TOPIC, INFO, AND]},
+                {"key": "sign", "label": "Sign", "options": [DAM, ALIF, WAW, HID]},
+            ],
+            "rows": [
+                {"s": "المُسْلِمُونَ", "gloss": "the Muslim men", "ans": {"job": "topic", "sign": "waw"},
+                 "why": "{مُبْتَدَأٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ الوَاوُ لِأَنَّهُ جَمْعُ مُذَكَّرٍ سَالِمٌ}."},
+                {"s": "المُسْلِمَاتُ", "gloss": "the Muslim women", "ans": {"job": "and", "sign": "dam"},
+                 "why": "After {وَ} it copies the rafʿ. A sound f. plural: damma."},
+                {"s": "صَادِقُونَ", "gloss": "truthful", "ans": {"job": "info", "sign": "waw"},
+                 "why": "Men and women together take the masculine plural. {خَبَرٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ الوَاوُ لِأَنَّهُ جَمْعُ مُذَكَّرٍ سَالِمٌ}."},
+            ],
+        },
+        {
+            "title": "Topic or Information? Which sign?",
+            "fields": [
+                {"key": "job", "label": "Job", "options": [TOPIC, INFO]},
+                {"key": "sign", "label": "Sign", "options": [DAM, ALIF, WAW, HID, FIXED]},
+            ],
+            "rows": [
+                {"s": "[القَاضِي] أَخُو أَحْمَدَ.", "gloss": "the judge", "ans": {"job": "topic", "sign": "hid"},
+                 "why": "It comes first: Topic. Manqūṣ: hidden damma."},
+                {"s": "القَاضِي [أَخُو] أَحْمَدَ.", "gloss": "the brother of", "ans": {"job": "info", "sign": "waw"},
+                 "why": "{أَخُو أَحْمَدَ} is the Information. A five noun: wāw."},
+                {"s": "[هَؤُلَاءِ] مُهَنْدِسُونَ.", "gloss": "these", "ans": {"job": "topic", "sign": "fixed"},
+                 "why": "{هَؤُلَاءِ} is fixed on kasra. Topic, in the place of rafʿ."},
+                {"s": "هَؤُلَاءِ [مُهَنْدِسُونَ].", "gloss": "engineers", "ans": {"job": "info", "sign": "waw"},
+                 "why": "Information, a sound m. plural: wāw."},
+                {"s": "[المُدِيرَتَانِ] فِي المَكْتَبِ.", "gloss": "the two female managers", "ans": {"job": "topic", "sign": "alif"},
+                 "why": "Topic, a dual: alif."},
+                {"s": "هُوَ [المُحَامِي].", "gloss": "the lawyer", "ans": {"job": "info", "sign": "hid"},
+                 "why": "Information, manqūṣ: hidden damma."},
+            ],
+        },
+        {
+            "title": "Choose the right Information",
+            "fields": [{"key": "pick", "label": "Information", "options": []}],
+            "rows": [
+                {"s": "الطَّالِبَتَانِ ___.", "gloss": "The two female students are hard-working.", "ans": {"pick": "b"},
+                 "opts": {"pick": pick("مُجْتَهِدَانِ", "مُجْتَهِدَتَانِ", "مُجْتَهِدَاتٌ")},
+                 "why": "Two women: feminine dual {مُجْتَهِدَتَانِ}."},
+                {"s": "السَّيَّارَاتُ ___.", "gloss": "The cars are new.", "ans": {"pick": "a"},
+                 "opts": {"pick": pick("جَدِيدَةٌ", "جَدِيدُونَ", "جَدِيدٌ")},
+                 "why": "A plural of things: feminine singular {جَدِيدَةٌ}."},
+                {"s": "أَبُوكَ وَأَخُوكَ ___.", "gloss": "Your father and your brother are (two) doctors.", "ans": {"pick": "b"},
+                 "opts": {"pick": pick("طَبِيبٌ", "طَبِيبَانِ", "طَبِيبُونَ")},
+                 "why": "Two men joined with {وَ}: a dual Information."},
+                {"s": "الأَوْلَادُ ___.", "gloss": "The boys are asleep.", "ans": {"pick": "c"},
+                 "opts": {"pick": pick("نَائِمٌ", "نَائِمَانِ", "نَائِمُونَ")},
+                 "why": "A broken plural of boys takes a plural Information: {نَائِمُونَ}."},
+                {"s": "المُدَرِّسُونَ ___.", "gloss": "The teachers are present.", "ans": {"pick": "b"},
+                 "opts": {"pick": pick("حَاضِرِينَ", "حَاضِرُونَ", "حَاضِرَانِ")},
+                 "why": "Information in rafʿ: wāw. {حَاضِرِينَ} is not rafʿ."},
+                {"s": "الأَبْوَابُ ___.", "gloss": "The doors are open.", "ans": {"pick": "c"},
+                 "opts": {"pick": pick("مَفْتُوحُونَ", "مَفْتُوحَانِ", "مَفْتُوحَةٌ")},
+                 "why": "A plural of things: feminine singular {مَفْتُوحَةٌ}."},
+            ],
+        },
+        {
+            "title": "What is the job of the word in [brackets]?",
+            "fields": [{"key": "job", "label": "Job", "options": [TOPIC, INFO, ADJ, AND]}],
+            "rows": [
+                {"s": "[الطَّالِبَاتُ] المُجْتَهِدَاتُ فِي الفَصْلِ.", "gloss": "the female students", "ans": {"job": "topic"},
+                 "why": "The sentence is about them: Topic."},
+                {"s": "الطَّالِبَاتُ [المُجْتَهِدَاتُ] فِي الفَصْلِ.", "gloss": "the hard-working", "ans": {"job": "adj"},
+                 "why": "It has {ال} and describes the Topic: adjective."},
+                {"s": "الطَّالِبَاتُ المُجْتَهِدَاتُ [فِي الفَصْلِ].", "gloss": "in the classroom", "ans": {"job": "info"},
+                 "why": "The phrase tells us where they are: Information."},
+                {"s": "أَحْمَدُ وَ[أَخُوهُ] مُهَنْدِسَانِ.", "gloss": "his brother", "ans": {"job": "and"},
+                 "why": "After {وَ}: it copies the Topic's rafʿ with a wāw."},
+                {"s": "أَحْمَدُ وَأَخُوهُ [مُهَنْدِسَانِ].", "gloss": "two engineers", "ans": {"job": "info"},
+                 "why": "It tells us about the two men: Information, dual."},
+                {"s": "[هُمَا] صَدِيقَانِ.", "gloss": "they two", "ans": {"job": "topic"},
+                 "why": "A fixed pronoun at the start: Topic, in the place of rafʿ."},
+            ],
+        },
+        {
+            "title": "Which sign of rafʿ does the word in [brackets] take?",
+            "fields": [{"key": "sign", "label": "Sign", "options": [DAM, ALIF, WAW, HID]}],
+            "rows": [
+                {"s": "[الطَّبِيبَتَانِ] مَشْغُولَتَانِ.", "gloss": "the two female doctors", "ans": {"sign": "alif"},
+                 "why": "Topic, a dual: alif."},
+                {"s": "المُسْلِمُونَ [إِخْوَةٌ].", "gloss": "brothers", "ans": {"sign": "dam"},
+                 "why": "{إِخْوَةٌ} is the broken plural of {أَخٌ}. It is not a five noun: damma."},
+                {"s": "[أَخِي] مُعَلِّمٌ.", "gloss": "my brother", "ans": {"sign": "hid"},
+                 "why": "With {ـي} \"my\" there is no wāw: hidden damma."},
+                {"s": "[عُمَرُ] صَادِقٌ.", "gloss": "ʿUmar", "ans": {"sign": "dam"},
+                 "why": "A diptote name: one damma, no tanween."},
+                {"s": "[ذُو] العِلْمِ مُحْتَرَمٌ.", "gloss": "the one with knowledge", "ans": {"sign": "waw"},
+                 "why": "{ذُو العِلْمِ} is the Topic. {ذُو} is a five noun: wāw."},
+                {"s": "المُعَلِّمَاتُ [حَاضِرَاتٌ].", "gloss": "present", "ans": {"sign": "dam"},
+                 "why": "Information, a sound f. plural: damma with tanween."},
+            ],
+        },
+        {
+            "title": "Owned duals and plurals: which form is right?",
+            "fields": [{"key": "pick", "label": "Topic", "options": []}],
+            "rows": [
+                {"s": "___ كَبِيرَتَانِ.", "gloss": "Zayd's two eyes are big.", "ans": {"pick": "a"},
+                 "opts": {"pick": pick("عَيْنَا زَيْدٍ", "عَيْنَانِ زَيْدٍ", "عَيْنَيْ زَيْدٍ")},
+                 "why": "Dual in rafʿ: alif. The {ن} drops before the owner."},
+                {"s": "___ نَشِيطُونَ.", "gloss": "The village's farmers are active.", "ans": {"pick": "a"},
+                 "opts": {"pick": pick("فَلَّاحُو القَرْيَةِ", "فَلَّاحُونَ القَرْيَةِ", "فَلَّاحِي القَرْيَةِ")},
+                 "why": "Sound m. plural in rafʿ: wāw, and no {ن}: {فَلَّاحُو}."},
+                {"s": "___ وَاسِعَتَانِ.", "gloss": "The house's two rooms are wide.", "ans": {"pick": "b"},
+                 "opts": {"pick": pick("غُرْفَتَيِ البَيْتِ", "غُرْفَتَا البَيْتِ", "غُرْفَتَانِ البَيْتِ")},
+                 "why": "Dual in rafʿ: alif, and no {ن}: {غُرْفَتَا}."},
+                {"s": "___ مَسْرُورُونَ.", "gloss": "Your teachers are happy.", "ans": {"pick": "c"},
+                 "opts": {"pick": pick("مُعَلِّمُونَكَ", "مُعَلِّمِيكَ", "مُعَلِّمُوكَ")},
+                 "why": "A pronoun owner also drops the {ن}. Rafʿ: wāw."},
+                {"s": "___ نَظِيفَتَانِ.", "gloss": "Your two hands are clean.", "ans": {"pick": "b"},
+                 "opts": {"pick": pick("يَدَانِكَ", "يَدَاكَ", "يَدَيْكَ")},
+                 "why": "Dual in rafʿ: alif, and no {ن}: {يَدَاكَ}."},
+            ],
+        },
+    ],
+}
