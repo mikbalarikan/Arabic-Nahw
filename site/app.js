@@ -273,7 +273,7 @@ const STAGES = [
   { n: 1, title: "Stage 1 · Rafʿ and jarr", ar: "الجُمْلَةُ الاسْمِيَّةُ", chips: ["رَفْع", "جَرّ"] },
   { n: 2, title: "Stage 2 · Naṣb", ar: "الجُمْلَةُ الفِعْلِيَّةُ", chips: ["رَفْع", "نَصْب", "جَرّ"] },
   { n: 3, title: "Stage 3 · Fixed words", ar: "المَبْنِيَّاتُ", chips: ["الضَّمَائِر", "الإِشَارَة", "الحُرُوف"], cls: "s0" },
-  { n: 4, title: "Stage 4 · Kinds of nouns", ar: "أَقْسَامُ الأَسْمَاءِ", chips: [] },
+  { n: 4, title: "Stage 4 · Kinds of nouns", ar: "أَقْسَامُ الأَسْمَاءِ", chips: ["المُثَنَّى", "الجَمْع", "المَمْنُوع مِنَ الصَّرْف"], cls: "s0" },
   { n: 5, title: "Stage 5 · Nouns in rafʿ", ar: "مَرْفُوعَاتُ الأَسْمَاءِ", chips: [] },
   { n: 6, title: "Stage 6 · Nouns in jarr", ar: "مَجْرُورَاتُ الأَسْمَاءِ", chips: [] },
   { n: 7, title: "Stage 7 · Nouns in naṣb", ar: "مَنْصُوبَاتُ الأَسْمَاءِ", chips: [] },
