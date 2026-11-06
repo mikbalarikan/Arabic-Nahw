@@ -27,6 +27,8 @@ The last two lessons of every stage are a class exercise (review of the whole st
 - Unit-file stages (`content/stage<N>/`): a unit with `"kind": "exercise"` (homework may be `[]`) followed by one with `"kind": "quiz"`; give them the two highest `order` numbers.
 - Stages built in `course.py`: list the exercise id and then the quiz id last in the `order` list at the end of `stage12()` (or the stage's own builder).
 - A stage plan for the course: 0 foundations · 1 rafʿ and jarr · 2 naṣb · 3 fixed words (مَبْنِيَّات) · 4 kinds of nouns · 5 marfūʿāt · 6 majrūrāt · 7 manṣūbāt · 8 the present verb. `STAGES` in `site/app.js` lists them; a stage appears on the home page once it has a lesson.
+- Class position: `CLASS_NOW` in `site/app.js` is the id of the lesson the class is on (shown yellow; every earlier lesson is green). When the teacher says the class moved on, update it.
+- Each stage is drawn as its own colour block (`.stage.st<N>` in `site/_extra.css`); add a colour there for a new stage.
 - Spelling: ال may be written with or without sukūn on the ل (both are correct); no need to add it.
 
 ## Adding a unit like Stage 0

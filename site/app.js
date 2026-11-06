@@ -250,7 +250,7 @@ async function route(keepScroll) {
 }
 
 /* ============================ home ============================ */
-function tile(d) {
+function tile(d, status) {
   const nCards = d.sets.reduce((a, s) => a + s.n, 0);
   let mine = "";
   if (CLOUD.mode === "student") {
@@ -259,7 +259,9 @@ function tile(d) {
   }
   const setBtns = d.sets.map((s, k) => `<button class="btn ${k === 0 ? "primary" : ""}" type="button" data-h="${d.id}-${s.id}">${esc(s.label)}</button>`).join("");
   const unit = d.order > 0;   // unit-file lessons (Stage 0, Stage 3, …)
-  return `<article class="tile ${unit ? "unit" : ""}">
+  const badge = status === "done" ? `<span class="tbadge done">✓ Done in class</span>` : status === "now" ? `<span class="tbadge now">● We are here</span>` : "";
+  return `<article class="tile ${unit ? "unit" : ""} ${status || ""}">
+    ${badge}
     ${unit ? `<div class="unitno">${d.kind === "quiz" ? "STAGE QUIZ" : d.kind === "exercise" ? "CLASS EXERCISE" : "UNIT " + d.order}</div>` : ""}
     <div class="tile-top"><h3>${esc(d.title)}</h3><span class="count">${nCards} cards</span></div>
     ${unit ? `<div class="sample" dir="rtl">${esc(d.ar)}</div>` : `<div class="tar" dir="rtl">${esc(d.ar)}</div><div class="sample" dir="rtl">${d.sample || ""}</div>`}
@@ -267,7 +269,12 @@ function tile(d) {
     <div class="tile-actions"><button class="btn" type="button" data-h="${d.id}">${esc(d.introLabel || "Intro")}</button>${setBtns}
       ${isTeacher() ? `<button class="btn" type="button" data-h="${d.id}-key">Answer key</button>` : ""}</div></article>`;
 }
+// Where the class is now: the id of the lesson we are on. Every lesson before it is shown as done (green),
+// this one as current (yellow). Move it forward as the class goes on.
+const CLASS_NOW = "nasb";
+
 // Course plan. A stage shows on the home page once it has at least one lesson.
+// Each stage is drawn as its own coloured block (st0 … st8 in _extra.css).
 const STAGES = [
   { n: 0, title: "Stage 0 · Foundations", ar: "مَدْخَلٌ إِلَى النَّحْوِ", chips: ["الكَلِمَة", "ال", "الإِعْرَاب"], cls: "s0" },
   { n: 1, title: "Stage 1 · Rafʿ and jarr", ar: "الجُمْلَةُ الاسْمِيَّةُ", chips: ["رَفْع", "جَرّ"] },
@@ -279,15 +286,21 @@ const STAGES = [
   { n: 7, title: "Stage 7 · Nouns in naṣb", ar: "مَنْصُوبَاتُ الأَسْمَاءِ", chips: ["المَفْعُولَات","التَّمْيِيز","المُنَادَى"] },
   { n: 8, title: "Stage 8 · The present verb", ar: "إِعْرَابُ الفِعْلِ المُضَارِعِ", chips: ["الرَّفْع","النَّصْب","الجَزْم"] },
 ];
-function stageSection(title, ar, chips, list, cls) {
-  return `<section class="stage"><div class="stage-h"><h2>${title}</h2><span class="sar" dir="rtl">${ar}</span>
-    <div class="cases-mini">${chips}</div></div><div class="shelf ${cls || ""}">${list.map(tile).join("")}</div></section>`;
+function stageSection(sg, chips, list, statusOf) {
+  const nDone = list.filter(d => statusOf(d) === "done").length;
+  const state = nDone === list.length ? "Done" : list.some(d => statusOf(d) === "now") ? "In progress" : "";
+  return `<section class="stage st${sg.n}"><div class="stage-h"><h2>${sg.title}</h2><span class="sar" dir="rtl">${sg.ar}</span>
+    ${state ? `<span class="sstate ${state === "Done" ? "done" : "now"}">${state}</span>` : ""}
+    <div class="cases-mini">${chips}</div></div><div class="shelf ${sg.cls || ""}">${list.map(d => tile(d, statusOf(d))).join("")}</div></section>`;
 }
 function renderHome() {
   const last = load(lastKey());
   const lastD = last && DATA.find(d => last === d.id + "-intro" || views(d).some(v => last === d.id + "-" + v.id));
   const chip = t => `<span class="cm-chip on">${t}</span>`;
   const byStage = s => DATA.filter(d => d.stage === s).sort((a, b) => (a.order || 0) - (b.order || 0));
+  const seq = STAGES.flatMap(sg => byStage(sg.n).map(d => d.id));
+  const nowAt = seq.indexOf(CLASS_NOW);
+  const statusOf = d => { const i = seq.indexOf(d.id); return nowAt < 0 ? "" : i < nowAt ? "done" : i === nowAt ? "now" : ""; };
   app.innerHTML = `${authPanel()}
   <section class="home-hero">
     <div class="eyebrow">ARABIC GRAMMAR · LESSONS, HOMEWORK AND QUIZZES</div>
@@ -297,7 +310,8 @@ function renderHome() {
     <div class="how-strip"><span><b>1</b> Read the lesson</span><span><b>2</b> Practice in class</span><span><b>3</b> Homework at home</span><span><b>4</b> Check and see why</span>
     ${lastD ? `<button class="btn gold" type="button" data-h="${last.endsWith("-intro") ? lastD.id : last}" style="margin-left:auto">Continue: ${esc(lastD.title)}</button>` : ""}</div>
   </section>
-  ${STAGES.filter(sg => byStage(sg.n).length).map(sg => stageSection(sg.title, sg.ar, sg.chips.map(chip).join(""), byStage(sg.n), sg.cls)).join("")}`;
+  <div class="legend"><span class="lg done">✓ Done in class</span><span class="lg now">● We are here</span><span class="lg next">Coming next</span></div>
+  ${STAGES.filter(sg => byStage(sg.n).length).map(sg => stageSection(sg, sg.chips.map(chip).join(""), byStage(sg.n), statusOf)).join("")}`;
   app.querySelectorAll("[data-h]").forEach(b => b.onclick = () => go(b.dataset.h));
   wireAuth();
 }

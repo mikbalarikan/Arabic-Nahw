@@ -117,3 +117,30 @@ table.trk { border-collapse: separate; border-spacing: 0; font-size: 12.5px; min
   .ak { grid-template-columns: 1fr; }
   .ak .aw { text-align: right; }
 }
+
+/* ---------- home: one colour block per stage, lesson status inside ---------- */
+.stage { border-radius: 20px; padding: 18px 18px 20px; background: var(--sbg); border: 1px solid var(--sline); border-top: 6px solid var(--sacc); }
+.stage-h h2 { color: var(--sacc); }
+.stage.st0 { --sbg: #eef1f8; --sline: #d3dbec; --sacc: #44568a; }
+.stage.st1 { --sbg: #f9edf0; --sline: #eccfd7; --sacc: #9c3a55; }
+.stage.st2 { --sbg: #f0edf9; --sline: #d8d0ef; --sacc: #5a4697; }
+.stage.st3 { --sbg: #e8f3f6; --sline: #c8e0e7; --sacc: #1d6878; }
+.stage.st4 { --sbg: #fbeee7; --sline: #efd3c4; --sacc: #9c4e29; }
+.stage.st5 { --sbg: #eceefb; --sline: #d0d5f1; --sacc: #3a459b; }
+.stage.st6 { --sbg: #f6ecf5; --sline: #e7cfe4; --sacc: #85387a; }
+.stage.st7 { --sbg: #e7f0fa; --sline: #c9dcf0; --sacc: #275f97; }
+.stage.st8 { --sbg: #f2eeea; --sline: #e0d6cc; --sacc: #6a5544; }
+.sstate { font-size: 12px; font-weight: 700; border-radius: 999px; padding: 2px 10px; border: 1.5px solid; }
+.sstate.done { color: #1d7a43; background: #e4f6ea; border-color: #9fd6b2; }
+.sstate.now { color: #8a6400; background: #fff4cf; border-color: #ecc85a; }
+.tile.done { background: #eaf7ee; border-color: #a6d9b6; }
+.tile.now { background: #fff6d3; border: 2px solid #eec455; box-shadow: 0 0 0 4px rgba(245, 200, 75, .25); }
+.tbadge { align-self: flex-start; font-size: 11.5px; font-weight: 700; border-radius: 999px; padding: 2px 10px; }
+.tbadge.done { color: #1d7a43; background: #d5efdd; }
+.tbadge.now { color: #7a5800; background: #fbe59a; }
+.tile.done .sample, .tile.now .sample { background: rgba(255, 255, 255, .7); }
+.legend { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; font-size: 12.5px; font-weight: 700; }
+.legend .lg { border-radius: 999px; padding: 3px 12px; border: 1.5px solid var(--line); background: var(--card); color: var(--muted); }
+.legend .lg.done { background: #eaf7ee; border-color: #a6d9b6; color: #1d7a43; }
+.legend .lg.now { background: #fff6d3; border-color: #eec455; color: #7a5800; }
+@media (max-width: 760px) { .stage { padding: 14px 12px 16px; border-radius: 16px; } }
