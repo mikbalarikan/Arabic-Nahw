@@ -86,6 +86,9 @@ def main():
         "/data/lessons/*\n  Cache-Control: public, max-age=31536000, immutable\n")
     n_cards = sum(len(s["cards"]) for d in lessons for s in d["sets"])
     size = sum(os.path.getsize(f) for f in glob.glob(os.path.join(DIST, "**"), recursive=True) if os.path.isfile(f))
+    sys.path.insert(0, os.path.join(ROOT, "tools"))
+    import build_tr
+    build_tr.build(DIST)
     print(f"Built dist/: {len(lessons)} lessons, {n_cards} cards, {size // 1024} KB, config: {'Supabase' if 'supabase.co' in cfg else 'none'}")
 
 if __name__ == "__main__":

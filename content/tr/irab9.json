@@ -1,0 +1,1316 @@
+{
+ "irab": 9,
+ "calisma": 27,
+ "title": "Has (Hususi) İsmi Mevsûl",
+ "items": [
+  {
+   "n": 1,
+   "ref": "Hac, 22/14",
+   "tr": "Muhakkak ki Allah, iman edip salih ameller işleyenleri içinden ırmaklar akan cennetlere koyacaktır.",
+   "src": [
+    [
+     22,
+     14,
+     1,
+     12
+    ]
+   ],
+   "words": [
+    {
+     "loc": "22:14:1",
+     "parts": [
+      {
+       "t": "إِنَّ",
+       "kb": "inne ve benzerleri",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "22:14:2",
+     "parts": [
+      {
+       "t": "ٱللَّهَ",
+       "kb": "alem (özel isim)",
+       "g": "innenin ismi",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "22:14:3",
+     "parts": [
+      {
+       "t": "يُدْخِلُ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "merfu"
+      },
+      {
+       "t": "(هُوَ)",
+       "hidden": true,
+       "kb": "gizli zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "22:14:4",
+     "parts": [
+      {
+       "t": "ٱلَّذِينَ",
+       "kb": "ismi mevsul",
+       "g": "mefûlün bih",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "22:14:5",
+     "parts": [
+      {
+       "t": "ءَامَنُ",
+       "kb": "mazi fiil",
+       "g": "fiil",
+       "i": "mebni"
+      },
+      {
+       "t": "وا۟",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "22:14:6",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": "atıf harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "عَمِلُ",
+       "kb": "mazi fiil",
+       "g": [
+        "fiil",
+        "ma'tuf"
+       ],
+       "i": "mebni"
+      },
+      {
+       "t": "وا۟",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "22:14:7",
+     "parts": [
+      {
+       "t": "ٱلصَّٰلِحَٰتِ",
+       "kb": [
+        "ismi fail",
+        "isim"
+       ],
+       "g": "mefûlün bih",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "22:14:8",
+     "parts": [
+      {
+       "t": "جَنَّٰتٍ",
+       "kb": "isim",
+       "g": "mefûlün bih",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "22:14:9",
+     "parts": [
+      {
+       "t": "تَجْرِى",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "merfu"
+      }
+     ]
+    },
+    {
+     "loc": "22:14:10",
+     "parts": [
+      {
+       "t": "مِن",
+       "kb": "harfi cer",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "22:14:11",
+     "parts": [
+      {
+       "t": "تَحْتِ",
+       "kb": "isim",
+       "g": "mecrur (harfi cerden sonra)",
+       "i": "mecrur"
+      },
+      {
+       "t": "هَا",
+       "kb": "muttasıl zamir",
+       "g": "muzafun ileyh",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "22:14:12",
+     "parts": [
+      {
+       "t": "ٱلْأَنْهَٰرُ",
+       "kb": "isim",
+       "g": "fail",
+       "i": "merfu"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "ref": "Enfal, 8/36",
+   "tr": "İnkâr edenler toplanıp cehenneme sürüleceklerdir.",
+   "src": [
+    [
+     8,
+     36,
+     17,
+     21
+    ]
+   ],
+   "words": [
+    {
+     "loc": "8:36:17",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": [
+        "diğer harf/edat",
+        "atıf harfi"
+       ],
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "ٱلَّذِينَ",
+       "kb": "ismi mevsul",
+       "g": "mübteda",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "8:36:18",
+     "parts": [
+      {
+       "t": "كَفَرُ",
+       "kb": "mazi fiil",
+       "g": "fiil",
+       "i": "mebni"
+      },
+      {
+       "t": "وٓا۟",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "8:36:19",
+     "parts": [
+      {
+       "t": "إِلَىٰ",
+       "kb": "harfi cer",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "8:36:20",
+     "parts": [
+      {
+       "t": "جَهَنَّمَ",
+       "kb": "alem (özel isim)",
+       "g": "mecrur (harfi cerden sonra)",
+       "i": "mecrur"
+      }
+     ]
+    },
+    {
+     "loc": "8:36:21",
+     "parts": [
+      {
+       "t": "يُحْشَرُ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "merfu"
+      },
+      {
+       "t": "ونَ",
+       "kb": "muttasıl zamir",
+       "g": "naibi fail",
+       "i": "mebni"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "ref": "Bakara, 2/61",
+   "tr": "O da size, “İyi olanı düşük olanla değiştirmek mi istiyorsunuz? …” demişti.",
+   "src": [
+    [
+     2,
+     61,
+     23,
+     30
+    ]
+   ],
+   "words": [
+    {
+     "loc": "2:61:23",
+     "parts": [
+      {
+       "t": "قَالَ",
+       "kb": "mazi fiil",
+       "g": "fiil",
+       "i": "mebni"
+      },
+      {
+       "t": "(هُوَ)",
+       "hidden": true,
+       "kb": "gizli zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "2:61:24",
+     "parts": [
+      {
+       "t": "أَ",
+       "kb": "soru harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "تَسْتَبْدِلُ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "merfu"
+      },
+      {
+       "t": "ونَ",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "2:61:25",
+     "parts": [
+      {
+       "t": "ٱلَّذِى",
+       "kb": "ismi mevsul",
+       "g": "mefûlün bih",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "2:61:26",
+     "parts": [
+      {
+       "t": "هُوَ",
+       "kb": "munfasıl zamir",
+       "g": "mübteda",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "2:61:27",
+     "parts": [
+      {
+       "t": "أَدْنَىٰ",
+       "kb": "isim",
+       "g": "haber",
+       "i": "merfu"
+      }
+     ]
+    },
+    {
+     "loc": "2:61:28",
+     "parts": [
+      {
+       "t": "بِ",
+       "kb": "harfi cer",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "ٱلَّذِى",
+       "kb": "ismi mevsul",
+       "g": "mecrur (harfi cerden sonra)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "2:61:29",
+     "parts": [
+      {
+       "t": "هُوَ",
+       "kb": "munfasıl zamir",
+       "g": "mübteda",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "2:61:30",
+     "parts": [
+      {
+       "t": "خَيْرٌ",
+       "kb": "isim",
+       "g": "haber",
+       "i": "merfu"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "ref": "Â’raf, 7/58",
+   "tr": "(Toprağı) iyi ve elverişli beldenin bitkisi, Rabbinin izniyle bol ve bereketli çıkar. (Toprağı) kötü ve elverişsiz olandan ise faydasız bitkiden başkası çıkmaz.",
+   "src": [
+    [
+     7,
+     58,
+     1,
+     12
+    ]
+   ],
+   "words": [
+    {
+     "loc": "7:58:1",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": [
+        "diğer harf/edat",
+        "atıf harfi"
+       ],
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "ٱلْبَلَدُ",
+       "kb": "isim",
+       "g": "mübteda",
+       "i": "merfu"
+      }
+     ]
+    },
+    {
+     "loc": "7:58:2",
+     "parts": [
+      {
+       "t": "ٱلطَّيِّبُ",
+       "kb": "isim",
+       "g": "sıfat",
+       "i": "merfu"
+      }
+     ]
+    },
+    {
+     "loc": "7:58:3",
+     "parts": [
+      {
+       "t": "يَخْرُجُ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "merfu"
+      }
+     ]
+    },
+    {
+     "loc": "7:58:4",
+     "parts": [
+      {
+       "t": "نَبَاتُ",
+       "kb": "isim",
+       "g": "fail",
+       "i": "merfu"
+      },
+      {
+       "t": "هُۥ",
+       "kb": "muttasıl zamir",
+       "g": "muzafun ileyh",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "7:58:5",
+     "parts": [
+      {
+       "t": "بِ",
+       "kb": "harfi cer",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "إِذْنِ",
+       "kb": "isim",
+       "g": "mecrur (harfi cerden sonra)",
+       "i": "mecrur"
+      }
+     ]
+    },
+    {
+     "loc": "7:58:6",
+     "parts": [
+      {
+       "t": "رَبِّ",
+       "kb": "isim",
+       "g": "muzafun ileyh",
+       "i": "mecrur"
+      },
+      {
+       "t": "هِۦ",
+       "kb": "muttasıl zamir",
+       "g": "muzafun ileyh",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "7:58:7",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": "atıf harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "ٱلَّذِى",
+       "kb": "ismi mevsul",
+       "g": [
+        "ma'tuf",
+        "mübteda"
+       ],
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "7:58:8",
+     "parts": [
+      {
+       "t": "خَبُثَ",
+       "kb": "mazi fiil",
+       "g": "fiil",
+       "i": "mebni"
+      },
+      {
+       "t": "(هُوَ)",
+       "hidden": true,
+       "kb": "gizli zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "7:58:9",
+     "parts": [
+      {
+       "t": "لَا",
+       "kb": "olumsuzluk edatı",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "7:58:10",
+     "parts": [
+      {
+       "t": "يَخْرُجُ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "merfu"
+      },
+      {
+       "t": "(هُوَ)",
+       "hidden": true,
+       "kb": "gizli zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "7:58:11",
+     "parts": [
+      {
+       "t": "إِلَّا",
+       "kb": "diğer harf/edat",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "7:58:12",
+     "parts": [
+      {
+       "t": "نَكِدًا",
+       "kb": "isim",
+       "g": "hal",
+       "i": "mansub"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "ref": "Rahman, 55/43",
+   "tr": "İşte bu suçluların yalanladıkları cehennemdir.",
+   "src": [
+    [
+     55,
+     43,
+     1,
+     6
+    ]
+   ],
+   "words": [
+    {
+     "loc": "55:43:1",
+     "parts": [
+      {
+       "t": "هَٰذِهِۦ",
+       "kb": "ismi işaret",
+       "g": "mübteda",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "55:43:2",
+     "parts": [
+      {
+       "t": "جَهَنَّمُ",
+       "kb": "alem (özel isim)",
+       "g": "haber",
+       "i": "merfu"
+      }
+     ]
+    },
+    {
+     "loc": "55:43:3",
+     "parts": [
+      {
+       "t": "ٱلَّتِى",
+       "kb": "ismi mevsul",
+       "g": "sıfat",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "55:43:4",
+     "parts": [
+      {
+       "t": "يُكَذِّبُ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "merfu"
+      }
+     ]
+    },
+    {
+     "loc": "55:43:5",
+     "parts": [
+      {
+       "t": "بِ",
+       "kb": "harfi cer",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "هَا",
+       "kb": "muttasıl zamir",
+       "g": "mecrur (harfi cerden sonra)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "55:43:6",
+     "parts": [
+      {
+       "t": "ٱلْمُجْرِمُونَ",
+       "kb": [
+        "ismi fail",
+        "isim"
+       ],
+       "g": "fail",
+       "i": "merfu"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "ref": "Bakara, 2/146",
+   "tr": "Kendilerine kitap verdiklerimiz O’nu (Peygamberi) tanırlar.",
+   "src": [
+    [
+     2,
+     146,
+     1,
+     4
+    ]
+   ],
+   "words": [
+    {
+     "loc": "2:146:1",
+     "parts": [
+      {
+       "t": "ٱلَّذِينَ",
+       "kb": "ismi mevsul",
+       "g": "mübteda",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "2:146:2",
+     "parts": [
+      {
+       "t": "ءَاتَيْ",
+       "kb": "mazi fiil",
+       "g": "fiil",
+       "i": "mebni"
+      },
+      {
+       "t": "نَٰ",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      },
+      {
+       "t": "هُمُ",
+       "kb": "muttasıl zamir",
+       "g": "mefûlün bih",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "2:146:3",
+     "parts": [
+      {
+       "t": "ٱلْكِتَٰبَ",
+       "kb": "isim",
+       "g": "mefûlün bih",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "2:146:4",
+     "parts": [
+      {
+       "t": "يَعْرِفُ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "merfu"
+      },
+      {
+       "t": "ونَ",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      },
+      {
+       "t": "هُۥ",
+       "kb": "muttasıl zamir",
+       "g": "mefûlün bih",
+       "i": "mebni"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "ref": "En’am, 6/151",
+   "tr": "Meşrû bir hak karşılığı olmadıkça Allah’ın haram (dokunulmaz) kıldığı canı öldürmeyin.",
+   "src": [
+    [
+     6,
+     151,
+     30,
+     37
+    ]
+   ],
+   "words": [
+    {
+     "loc": "6:151:30",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": "atıf harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "لَا",
+       "kb": "cezm edatı",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "6:151:31",
+     "parts": [
+      {
+       "t": "تَقْتُلُ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "meczum"
+      },
+      {
+       "t": "وا۟",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "6:151:32",
+     "parts": [
+      {
+       "t": "ٱلنَّفْسَ",
+       "kb": "isim",
+       "g": "mefûlün bih",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "6:151:33",
+     "parts": [
+      {
+       "t": "ٱلَّتِى",
+       "kb": "ismi mevsul",
+       "g": "sıfat",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "6:151:34",
+     "parts": [
+      {
+       "t": "حَرَّمَ",
+       "kb": "mazi fiil",
+       "g": "fiil",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "6:151:35",
+     "parts": [
+      {
+       "t": "ٱللَّهُ",
+       "kb": "alem (özel isim)",
+       "g": "fail",
+       "i": "merfu"
+      }
+     ]
+    },
+    {
+     "loc": "6:151:36",
+     "parts": [
+      {
+       "t": "إِلَّا",
+       "kb": "diğer harf/edat",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "6:151:37",
+     "parts": [
+      {
+       "t": "بِ",
+       "kb": "harfi cer",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "ٱلْحَقِّ",
+       "kb": "isim",
+       "g": "mecrur (harfi cerden sonra)",
+       "i": "mecrur"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "ref": "Bakara, 2/21",
+   "tr": "Ey insanlar! Sizi ve sizden öncekileri yaratan Rabbinize ibadet edin ki Allah’a karşı gelmekten sakınasınız.",
+   "src": [
+    [
+     2,
+     21,
+     1,
+     11
+    ]
+   ],
+   "words": [
+    {
+     "loc": "2:21:1",
+     "parts": [
+      {
+       "t": "يَٰٓ",
+       "kb": "diğer harf/edat",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "أَيُّهَا",
+       "kb": "isim",
+       "g": "münada",
+       "i": [
+        "mebni",
+        "mansub"
+       ]
+      }
+     ]
+    },
+    {
+     "loc": "2:21:2",
+     "parts": [
+      {
+       "t": "ٱلنَّاسُ",
+       "kb": "isim",
+       "g": [
+        "sıfat",
+        "bedel"
+       ],
+       "i": "merfu"
+      }
+     ]
+    },
+    {
+     "loc": "2:21:3",
+     "parts": [
+      {
+       "t": "ٱعْبُدُ",
+       "kb": "emir fiil",
+       "g": "fiil",
+       "i": "mebni"
+      },
+      {
+       "t": "وا۟",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "2:21:4",
+     "parts": [
+      {
+       "t": "رَبَّ",
+       "kb": "isim",
+       "g": "mefûlün bih",
+       "i": "mansub"
+      },
+      {
+       "t": "كُمُ",
+       "kb": "muttasıl zamir",
+       "g": "muzafun ileyh",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "2:21:5",
+     "parts": [
+      {
+       "t": "ٱلَّذِى",
+       "kb": "ismi mevsul",
+       "g": "sıfat",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "2:21:6",
+     "parts": [
+      {
+       "t": "خَلَقَ",
+       "kb": "mazi fiil",
+       "g": "fiil",
+       "i": "mebni"
+      },
+      {
+       "t": "(هُوَ)",
+       "hidden": true,
+       "kb": "gizli zamir",
+       "g": "fail",
+       "i": "mebni"
+      },
+      {
+       "t": "كُمْ",
+       "kb": "muttasıl zamir",
+       "g": "mefûlün bih",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "2:21:7",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": "atıf harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "ٱلَّذِينَ",
+       "kb": "ismi mevsul",
+       "g": [
+        "ma'tuf",
+        "mefûlün bih"
+       ],
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "2:21:8",
+     "parts": [
+      {
+       "t": "مِن",
+       "kb": "harfi cer",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "2:21:9",
+     "parts": [
+      {
+       "t": "قَبْلِ",
+       "kb": "isim",
+       "g": "mecrur (harfi cerden sonra)",
+       "i": "mecrur"
+      },
+      {
+       "t": "كُمْ",
+       "kb": "muttasıl zamir",
+       "g": "muzafun ileyh",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "2:21:10",
+     "parts": [
+      {
+       "t": "لَعَلَّ",
+       "kb": "inne ve benzerleri",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "كُمْ",
+       "kb": "muttasıl zamir",
+       "g": "innenin ismi",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "2:21:11",
+     "parts": [
+      {
+       "t": "تَتَّقُ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "merfu"
+      },
+      {
+       "t": "ونَ",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "ref": "Alak, 96/1",
+   "tr": "Yaratan Rabbinin adıyla oku!",
+   "src": [
+    [
+     96,
+     1,
+     1,
+     5
+    ]
+   ],
+   "words": [
+    {
+     "loc": "96:1:1",
+     "parts": [
+      {
+       "t": "ٱقْرَأْ",
+       "kb": "emir fiil",
+       "g": "fiil",
+       "i": "mebni"
+      },
+      {
+       "t": "(أَنتَ)",
+       "hidden": true,
+       "kb": "gizli zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "96:1:2",
+     "parts": [
+      {
+       "t": "بِ",
+       "kb": "harfi cer",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "ٱسْمِ",
+       "kb": "isim",
+       "g": "mecrur (harfi cerden sonra)",
+       "i": "mecrur"
+      }
+     ]
+    },
+    {
+     "loc": "96:1:3",
+     "parts": [
+      {
+       "t": "رَبِّ",
+       "kb": "isim",
+       "g": "muzafun ileyh",
+       "i": "mecrur"
+      },
+      {
+       "t": "كَ",
+       "kb": "muttasıl zamir",
+       "g": "muzafun ileyh",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "96:1:4",
+     "parts": [
+      {
+       "t": "ٱلَّذِى",
+       "kb": "ismi mevsul",
+       "g": "sıfat",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "96:1:5",
+     "parts": [
+      {
+       "t": "خَلَقَ",
+       "kb": "mazi fiil",
+       "g": "fiil",
+       "i": "mebni"
+      },
+      {
+       "t": "(هُوَ)",
+       "hidden": true,
+       "kb": "gizli zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "ref": "Bakara, 2/175",
+   "tr": "İşte bunlar hidayeti verip sapıklığı, bağışlanmayı verip azabı satın alanlardır.",
+   "src": [
+    [
+     2,
+     175,
+     1,
+     7
+    ]
+   ],
+   "words": [
+    {
+     "loc": "2:175:1",
+     "parts": [
+      {
+       "t": "أُو۟لَٰٓئِكَ",
+       "kb": "ismi işaret",
+       "g": "mübteda",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "2:175:2",
+     "parts": [
+      {
+       "t": "ٱلَّذِينَ",
+       "kb": "ismi mevsul",
+       "g": "haber",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "2:175:3",
+     "parts": [
+      {
+       "t": "ٱشْتَرَ",
+       "kb": "mazi fiil",
+       "g": "fiil",
+       "i": "mebni"
+      },
+      {
+       "t": "وُا۟",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "2:175:4",
+     "parts": [
+      {
+       "t": "ٱلضَّلَٰلَةَ",
+       "kb": "isim",
+       "g": "mefûlün bih",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "2:175:5",
+     "parts": [
+      {
+       "t": "بِ",
+       "kb": "harfi cer",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "ٱلْهُدَىٰ",
+       "kb": "isim",
+       "g": "mecrur (harfi cerden sonra)",
+       "i": "mecrur"
+      }
+     ]
+    },
+    {
+     "loc": "2:175:6",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": "atıf harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "ٱلْعَذَابَ",
+       "kb": "isim",
+       "g": [
+        "ma'tuf",
+        "mefûlün bih"
+       ],
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "2:175:7",
+     "parts": [
+      {
+       "t": "بِ",
+       "kb": "harfi cer",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "ٱلْمَغْفِرَةِ",
+       "kb": "isim",
+       "g": "mecrur (harfi cerden sonra)",
+       "i": "mecrur"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,385 @@
+{
+ "irab": 23,
+ "calisma": 41,
+ "title": "Mastar",
+ "items": [
+  {
+   "n": 1,
+   "ref": "Bakara, 2/282",
+   "tr": "…İçinizden bir kâtip doğru olarak yazsın.",
+   "src": [
+    [
+     2,
+     282,
+     11,
+     14
+    ]
+   ],
+   "words": [
+    {
+     "loc": "2:282:11",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": "atıf harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "لْ",
+       "kb": "cezm edatı",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "يَكْتُب",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "meczum"
+      }
+     ]
+    },
+    {
+     "loc": "2:282:12",
+     "parts": [
+      {
+       "t": "بَّيْنَ",
+       "kb": "isim",
+       "g": "mefûlün fîh (zarf)",
+       "i": "mansub"
+      },
+      {
+       "t": "كُمْ",
+       "kb": "muttasıl zamir",
+       "g": "muzafun ileyh",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "2:282:13",
+     "parts": [
+      {
+       "t": "كَاتِبٌۢ",
+       "kb": "ismi fail",
+       "g": "fail",
+       "i": "merfu"
+      }
+     ]
+    },
+    {
+     "loc": "2:282:14",
+     "parts": [
+      {
+       "t": "بِ",
+       "kb": "harfi cer",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "ٱلْعَدْلِ",
+       "kb": [
+        "mastar",
+        "isim"
+       ],
+       "g": "mecrur (harfi cerden sonra)",
+       "i": "mecrur"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "ref": "Hicr, 15/9",
+   "tr": "Şüphesiz o Zikr’i (Kur’ân’ı) Biz indirdik Biz! Onun koruyucusu da elbette Biziz.",
+   "src": [
+    [
+     15,
+     9,
+     1,
+     7
+    ]
+   ],
+   "words": [
+    {
+     "loc": "15:9:1",
+     "parts": [
+      {
+       "t": "إِنَّ",
+       "kb": "inne ve benzerleri",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "ا",
+       "kb": "muttasıl zamir",
+       "g": "innenin ismi",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "15:9:2",
+     "parts": [
+      {
+       "t": "نَحْنُ",
+       "kb": "munfasıl zamir",
+       "g": "mübteda",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "15:9:3",
+     "parts": [
+      {
+       "t": "نَزَّلْ",
+       "kb": "mazi fiil",
+       "g": "fiil",
+       "i": "mebni"
+      },
+      {
+       "t": "نَا",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "15:9:4",
+     "parts": [
+      {
+       "t": "ٱلذِّكْرَ",
+       "kb": [
+        "mastar",
+        "isim"
+       ],
+       "g": "mefûlün bih",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "15:9:5",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": "atıf harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "إِنَّ",
+       "kb": "inne ve benzerleri",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "ا",
+       "kb": "muttasıl zamir",
+       "g": "innenin ismi",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "15:9:6",
+     "parts": [
+      {
+       "t": "لَ",
+       "kb": "harfi cer",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "هُۥ",
+       "kb": "muttasıl zamir",
+       "g": "mecrur (harfi cerden sonra)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "15:9:7",
+     "parts": [
+      {
+       "t": "لَ",
+       "kb": "diğer harf/edat",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "حَٰفِظُونَ",
+       "kb": "ismi fail",
+       "g": "innenin haberi",
+       "i": "merfu"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "ref": "Yunus, 10/25",
+   "tr": "Allah esenlik yurduna çağırır.",
+   "src": [
+    [
+     10,
+     25,
+     1,
+     5
+    ]
+   ],
+   "words": [
+    {
+     "loc": "10:25:1",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": [
+        "diğer harf/edat",
+        "atıf harfi"
+       ],
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "ٱللَّهُ",
+       "kb": "alem (özel isim)",
+       "g": "mübteda",
+       "i": "merfu"
+      }
+     ]
+    },
+    {
+     "loc": "10:25:2",
+     "parts": [
+      {
+       "t": "يَدْعُوٓا۟",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "merfu"
+      },
+      {
+       "t": "(هُوَ)",
+       "hidden": true,
+       "kb": "gizli zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "10:25:3",
+     "parts": [
+      {
+       "t": "إِلَىٰ",
+       "kb": "harfi cer",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "10:25:4",
+     "parts": [
+      {
+       "t": "دَارِ",
+       "kb": "isim",
+       "g": "mecrur (harfi cerden sonra)",
+       "i": "mecrur"
+      }
+     ]
+    },
+    {
+     "loc": "10:25:5",
+     "parts": [
+      {
+       "t": "ٱلسَّلَٰمِ",
+       "kb": [
+        "isim",
+        "mastar"
+       ],
+       "g": "muzafun ileyh",
+       "i": "mecrur"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "ref": "İnşikak, 84/8",
+   "tr": "Hesabı çok kolay bir şekilde görülecek,",
+   "src": [
+    [
+     84,
+     8,
+     1,
+     4
+    ]
+   ],
+   "words": [
+    {
+     "loc": "84:8:1",
+     "parts": [
+      {
+       "t": "فَ",
+       "kb": "diğer harf/edat",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "سَوْفَ",
+       "kb": "diğer harf/edat",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "84:8:2",
+     "parts": [
+      {
+       "t": "يُحَاسَبُ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "merfu"
+      },
+      {
+       "t": "(هُوَ)",
+       "hidden": true,
+       "kb": "gizli zamir",
+       "g": "naibi fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "84:8:3",
+     "parts": [
+      {
+       "t": "حِسَابًا",
+       "kb": "mastar",
+       "g": "mefûlün mutlak",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "84:8:4",
+     "parts": [
+      {
+       "t": "يَسِيرًا",
+       "kb": "isim",
+       "g": "sıfat",
+       "i": "mansub"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

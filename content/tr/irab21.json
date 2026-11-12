@@ -1,0 +1,961 @@
+{
+ "irab": 21,
+ "calisma": 39,
+ "title": "Soru Edatları",
+ "items": [
+  {
+   "n": 1,
+   "ref": "Şuara, 26/39",
+   "tr": "İnsanlara da “Siz de toplanır mısınız?” denildi.",
+   "src": [
+    [
+     26,
+     39,
+     1,
+     5
+    ]
+   ],
+   "words": [
+    {
+     "loc": "26:39:1",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": "atıf harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "قِيلَ",
+       "kb": "mazi fiil",
+       "g": "fiil",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "26:39:2",
+     "parts": [
+      {
+       "t": "لِ",
+       "kb": "harfi cer",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "لنَّاسِ",
+       "kb": "isim",
+       "g": "mecrur (harfi cerden sonra)",
+       "i": "mecrur"
+      }
+     ]
+    },
+    {
+     "loc": "26:39:3",
+     "parts": [
+      {
+       "t": "هَلْ",
+       "kb": "soru harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "26:39:4",
+     "parts": [
+      {
+       "t": "أَنتُم",
+       "kb": "munfasıl zamir",
+       "g": "mübteda",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "26:39:5",
+     "parts": [
+      {
+       "t": "مُّجْتَمِعُونَ",
+       "kb": "ismi fail",
+       "g": "haber",
+       "i": "merfu"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "ref": "Maide, 5/50",
+   "tr": "Onlar hâlâ cahiliye devrinin hükmünü mü istiyorlar?",
+   "src": [
+    [
+     5,
+     50,
+     1,
+     3
+    ]
+   ],
+   "words": [
+    {
+     "loc": "5:50:1",
+     "parts": [
+      {
+       "t": "أَ",
+       "kb": "soru harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "فَ",
+       "kb": [
+        "atıf harfi",
+        "diğer harf/edat"
+       ],
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "حُكْمَ",
+       "kb": [
+        "isim",
+        "mastar"
+       ],
+       "g": "mefûlün bih",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "5:50:2",
+     "parts": [
+      {
+       "t": "ٱلْجَٰهِلِيَّةِ",
+       "kb": [
+        "isim",
+        "alem (özel isim)"
+       ],
+       "g": "muzafun ileyh",
+       "i": "mecrur"
+      }
+     ]
+    },
+    {
+     "loc": "5:50:3",
+     "parts": [
+      {
+       "t": "يَبْغُ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "merfu"
+      },
+      {
+       "t": "ونَ",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "ref": "Saffat, 37/54",
+   "tr": "Konuşan o kimse, yanındakilere, “Bakar mısınız, hâli ne oldu?” der.",
+   "src": [
+    [
+     37,
+     54,
+     1,
+     4
+    ]
+   ],
+   "words": [
+    {
+     "loc": "37:54:1",
+     "parts": [
+      {
+       "t": "قَالَ",
+       "kb": "mazi fiil",
+       "g": "fiil",
+       "i": "mebni"
+      },
+      {
+       "t": "(هُوَ)",
+       "hidden": true,
+       "kb": "gizli zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "37:54:2",
+     "parts": [
+      {
+       "t": "هَلْ",
+       "kb": "soru harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "37:54:3",
+     "parts": [
+      {
+       "t": "أَنتُم",
+       "kb": "munfasıl zamir",
+       "g": "mübteda",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "37:54:4",
+     "parts": [
+      {
+       "t": "مُّطَّلِعُونَ",
+       "kb": "ismi fail",
+       "g": "haber",
+       "i": "merfu"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "ref": "Secde, 32/28",
+   "tr": "“Eğer doğru söyleyenler iseniz, şu fetih ne zamanmış?” diyorlar.",
+   "src": [
+    [
+     32,
+     28,
+     1,
+     7
+    ]
+   ],
+   "words": [
+    {
+     "loc": "32:28:1",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": [
+        "atıf harfi",
+        "diğer harf/edat"
+       ],
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "يَقُولُ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "merfu"
+      },
+      {
+       "t": "ونَ",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "32:28:2",
+     "parts": [
+      {
+       "t": "مَتَىٰ",
+       "kb": "soru ismi",
+       "g": [
+        "haber",
+        "mefûlün fîh (zarf)"
+       ],
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "32:28:3",
+     "parts": [
+      {
+       "t": "هَٰذَا",
+       "kb": "ismi işaret",
+       "g": "mübteda",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "32:28:4",
+     "parts": [
+      {
+       "t": "ٱلْفَتْحُ",
+       "kb": [
+        "mastar",
+        "isim"
+       ],
+       "g": [
+        "bedel",
+        "sıfat"
+       ],
+       "i": "merfu"
+      }
+     ]
+    },
+    {
+     "loc": "32:28:5",
+     "parts": [
+      {
+       "t": "إِن",
+       "kb": [
+        "cezm edatı",
+        "diğer harf/edat"
+       ],
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "32:28:6",
+     "parts": [
+      {
+       "t": "كُن",
+       "kb": "mazi fiil",
+       "g": "nakıs fiil (kâne vb.)",
+       "i": "mebni"
+      },
+      {
+       "t": "تُمْ",
+       "kb": "muttasıl zamir",
+       "g": "kânenin ismi",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "32:28:7",
+     "parts": [
+      {
+       "t": "صَٰدِقِينَ",
+       "kb": "ismi fail",
+       "g": "kânenin haberi",
+       "i": "mansub"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "ref": "Zariyat, 51/12",
+   "tr": "“Ceza günü ne zaman?” diye sorarlar.",
+   "src": [
+    [
+     51,
+     12,
+     1,
+     4
+    ]
+   ],
+   "words": [
+    {
+     "loc": "51:12:1",
+     "parts": [
+      {
+       "t": "يَسْـَٔلُ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "merfu"
+      },
+      {
+       "t": "ونَ",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "51:12:2",
+     "parts": [
+      {
+       "t": "أَيَّانَ",
+       "kb": "soru ismi",
+       "g": [
+        "haber",
+        "mefûlün fîh (zarf)"
+       ],
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "51:12:3",
+     "parts": [
+      {
+       "t": "يَوْمُ",
+       "kb": "isim",
+       "g": "mübteda",
+       "i": "merfu"
+      }
+     ]
+    },
+    {
+     "loc": "51:12:4",
+     "parts": [
+      {
+       "t": "ٱلدِّينِ",
+       "kb": "isim",
+       "g": "muzafun ileyh",
+       "i": "mecrur"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "ref": "Bakara, 2/77",
+   "tr": "Onlar bilmiyorlar mı ki Allah onların gizli tuttuklarını da bilir, açığa vurduklarını da.",
+   "src": [
+    [
+     2,
+     77,
+     1,
+     9
+    ]
+   ],
+   "words": [
+    {
+     "loc": "2:77:1",
+     "parts": [
+      {
+       "t": "أَ",
+       "kb": "soru harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "وَ",
+       "kb": [
+        "atıf harfi",
+        "diğer harf/edat"
+       ],
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "لَا",
+       "kb": "olumsuzluk edatı",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "2:77:2",
+     "parts": [
+      {
+       "t": "يَعْلَمُ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "merfu"
+      },
+      {
+       "t": "ونَ",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "2:77:3",
+     "parts": [
+      {
+       "t": "أَنَّ",
+       "kb": "inne ve benzerleri",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "2:77:4",
+     "parts": [
+      {
+       "t": "ٱللَّهَ",
+       "kb": "alem (özel isim)",
+       "g": "innenin ismi",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "2:77:5",
+     "parts": [
+      {
+       "t": "يَعْلَمُ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "merfu"
+      },
+      {
+       "t": "(هُوَ)",
+       "hidden": true,
+       "kb": "gizli zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "2:77:6",
+     "parts": [
+      {
+       "t": "مَا",
+       "kb": "ismi mevsul",
+       "g": "mefûlün bih",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "2:77:7",
+     "parts": [
+      {
+       "t": "يُسِرُّ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "merfu"
+      },
+      {
+       "t": "ونَ",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "2:77:8",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": "atıf harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "مَا",
+       "kb": "ismi mevsul",
+       "g": [
+        "ma'tuf",
+        "mefûlün bih"
+       ],
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "2:77:9",
+     "parts": [
+      {
+       "t": "يُعْلِنُ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "merfu"
+      },
+      {
+       "t": "ونَ",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "ref": "Ankebut, 29/61",
+   "tr": "... Gökleri ve yeri kim yarattı?",
+   "src": [
+    [
+     29,
+     61,
+     3,
+     6
+    ]
+   ],
+   "words": [
+    {
+     "loc": "29:61:3",
+     "parts": [
+      {
+       "t": "مَّنْ",
+       "kb": "soru ismi",
+       "g": "mübteda",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "29:61:4",
+     "parts": [
+      {
+       "t": "خَلَقَ",
+       "kb": "mazi fiil",
+       "g": "fiil",
+       "i": "mebni"
+      },
+      {
+       "t": "(هُوَ)",
+       "hidden": true,
+       "kb": "gizli zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "29:61:5",
+     "parts": [
+      {
+       "t": "ٱلسَّمَٰوَٰتِ",
+       "kb": "isim",
+       "g": "mefûlün bih",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "29:61:6",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": "atıf harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "ٱلْأَرْضَ",
+       "kb": "isim",
+       "g": [
+        "ma'tuf",
+        "mefûlün bih"
+       ],
+       "i": "mansub"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "ref": "En’am, 6/50",
+   "tr": "De ki: “Görmeyenle gören bir olur mu? Siz hiç düşünmez misiniz?”",
+   "src": [
+    [
+     6,
+     50,
+     22,
+     28
+    ]
+   ],
+   "words": [
+    {
+     "loc": "6:50:22",
+     "parts": [
+      {
+       "t": "قُلْ",
+       "kb": "emir fiil",
+       "g": "fiil",
+       "i": "mebni"
+      },
+      {
+       "t": "(أَنتَ)",
+       "hidden": true,
+       "kb": "gizli zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "6:50:23",
+     "parts": [
+      {
+       "t": "هَلْ",
+       "kb": "soru harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "6:50:24",
+     "parts": [
+      {
+       "t": "يَسْتَوِى",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "merfu"
+      }
+     ]
+    },
+    {
+     "loc": "6:50:25",
+     "parts": [
+      {
+       "t": "ٱلْأَعْمَىٰ",
+       "kb": "isim",
+       "g": "fail",
+       "i": "merfu"
+      }
+     ]
+    },
+    {
+     "loc": "6:50:26",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": "atıf harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "ٱلْبَصِيرُ",
+       "kb": "isim",
+       "g": [
+        "ma'tuf",
+        "fail"
+       ],
+       "i": "merfu"
+      }
+     ]
+    },
+    {
+     "loc": "6:50:27",
+     "parts": [
+      {
+       "t": "أَ",
+       "kb": "soru harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "فَ",
+       "kb": [
+        "atıf harfi",
+        "diğer harf/edat"
+       ],
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "لَا",
+       "kb": "olumsuzluk edatı",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "6:50:28",
+     "parts": [
+      {
+       "t": "تَتَفَكَّرُ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "merfu"
+      },
+      {
+       "t": "ونَ",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "ref": "Şuara, 26/23",
+   "tr": "Firavun, “Âlemlerin Rabbi de nedir?” dedi.",
+   "src": [
+    [
+     26,
+     23,
+     1,
+     5
+    ]
+   ],
+   "words": [
+    {
+     "loc": "26:23:1",
+     "parts": [
+      {
+       "t": "قَالَ",
+       "kb": "mazi fiil",
+       "g": "fiil",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "26:23:2",
+     "parts": [
+      {
+       "t": "فِرْعَوْنُ",
+       "kb": "alem (özel isim)",
+       "g": "fail",
+       "i": "merfu"
+      }
+     ]
+    },
+    {
+     "loc": "26:23:3",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": [
+        "atıf harfi",
+        "diğer harf/edat"
+       ],
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "مَا",
+       "kb": "soru ismi",
+       "g": [
+        "mübteda",
+        "haber"
+       ],
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "26:23:4",
+     "parts": [
+      {
+       "t": "رَبُّ",
+       "kb": "isim",
+       "g": [
+        "haber",
+        "mübteda"
+       ],
+       "i": "merfu"
+      }
+     ]
+    },
+    {
+     "loc": "26:23:5",
+     "parts": [
+      {
+       "t": "ٱلْعَٰلَمِينَ",
+       "kb": "isim",
+       "g": "muzafun ileyh",
+       "i": "mecrur"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "ref": "Rûm, 30/29",
+   "tr": "... Allah’ın (bu şekilde) saptırdığı kimseleri kim doğru yola iletir?",
+   "src": [
+    [
+     30,
+     29,
+     8,
+     12
+    ]
+   ],
+   "words": [
+    {
+     "loc": "30:29:8",
+     "parts": [
+      {
+       "t": "فَ",
+       "kb": [
+        "diğer harf/edat",
+        "atıf harfi"
+       ],
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "مَن",
+       "kb": "soru ismi",
+       "g": "mübteda",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "30:29:9",
+     "parts": [
+      {
+       "t": "يَهْدِى",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "merfu"
+      },
+      {
+       "t": "(هُوَ)",
+       "hidden": true,
+       "kb": "gizli zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "30:29:10",
+     "parts": [
+      {
+       "t": "مَنْ",
+       "kb": "ismi mevsul",
+       "g": "mefûlün bih",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "30:29:11",
+     "parts": [
+      {
+       "t": "أَضَلَّ",
+       "kb": "mazi fiil",
+       "g": "fiil",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "30:29:12",
+     "parts": [
+      {
+       "t": "ٱللَّهُ",
+       "kb": "alem (özel isim)",
+       "g": "fail",
+       "i": "merfu"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

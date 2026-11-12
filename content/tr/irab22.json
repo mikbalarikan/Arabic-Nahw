@@ -1,0 +1,784 @@
+{
+ "irab": 22,
+ "calisma": 40,
+ "title": "Meczum Muzari",
+ "items": [
+  {
+   "n": 1,
+   "ref": "Alak, 96/5",
+   "tr": "İnsana bilmediğini öğretendir.",
+   "src": [
+    [
+     96,
+     5,
+     1,
+     5
+    ]
+   ],
+   "words": [
+    {
+     "loc": "96:5:1",
+     "parts": [
+      {
+       "t": "عَلَّمَ",
+       "kb": "mazi fiil",
+       "g": "fiil",
+       "i": "mebni"
+      },
+      {
+       "t": "(هُوَ)",
+       "hidden": true,
+       "kb": "gizli zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "96:5:2",
+     "parts": [
+      {
+       "t": "ٱلْإِنسَٰنَ",
+       "kb": "isim",
+       "g": "mefûlün bih",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "96:5:3",
+     "parts": [
+      {
+       "t": "مَا",
+       "kb": "ismi mevsul",
+       "g": "mefûlün bih",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "96:5:4",
+     "parts": [
+      {
+       "t": "لَمْ",
+       "kb": "cezm edatı",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "96:5:5",
+     "parts": [
+      {
+       "t": "يَعْلَمْ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "meczum"
+      },
+      {
+       "t": "(هُوَ)",
+       "hidden": true,
+       "kb": "gizli zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "ref": "Nisa, 4/36",
+   "tr": "Allah’a ibadet edin ve O’na hiçbir şeyi ortak koşmayın.",
+   "src": [
+    [
+     4,
+     36,
+     1,
+     6
+    ]
+   ],
+   "words": [
+    {
+     "loc": "4:36:1",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": [
+        "atıf harfi",
+        "diğer harf/edat"
+       ],
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "ٱعْبُدُ",
+       "kb": "emir fiil",
+       "g": "fiil",
+       "i": "mebni"
+      },
+      {
+       "t": "وا۟",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "4:36:2",
+     "parts": [
+      {
+       "t": "ٱللَّهَ",
+       "kb": "alem (özel isim)",
+       "g": "mefûlün bih",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "4:36:3",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": "atıf harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "لَا",
+       "kb": "cezm edatı",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "4:36:4",
+     "parts": [
+      {
+       "t": "تُشْرِكُ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "meczum"
+      },
+      {
+       "t": "وا۟",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "4:36:5",
+     "parts": [
+      {
+       "t": "بِ",
+       "kb": "harfi cer",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "هِۦ",
+       "kb": "muttasıl zamir",
+       "g": "mecrur (harfi cerden sonra)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "4:36:6",
+     "parts": [
+      {
+       "t": "شَيْـًٔا",
+       "kb": "isim",
+       "g": [
+        "mefûlün bih",
+        "mefûlün mutlak"
+       ],
+       "i": "mansub"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "ref": "İsra, 17/33",
+   "tr": "Haklı bir sebep olmadıkça Allah’ın, öldürülmesini haram kıldığı cana kıymayın.",
+   "src": [
+    [
+     17,
+     33,
+     1,
+     8
+    ]
+   ],
+   "words": [
+    {
+     "loc": "17:33:1",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": [
+        "atıf harfi",
+        "diğer harf/edat"
+       ],
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "لَا",
+       "kb": "cezm edatı",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "17:33:2",
+     "parts": [
+      {
+       "t": "تَقْتُلُ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "meczum"
+      },
+      {
+       "t": "وا۟",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "17:33:3",
+     "parts": [
+      {
+       "t": "ٱلنَّفْسَ",
+       "kb": "isim",
+       "g": "mefûlün bih",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "17:33:4",
+     "parts": [
+      {
+       "t": "ٱلَّتِى",
+       "kb": "ismi mevsul",
+       "g": "sıfat",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "17:33:5",
+     "parts": [
+      {
+       "t": "حَرَّمَ",
+       "kb": "mazi fiil",
+       "g": "fiil",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "17:33:6",
+     "parts": [
+      {
+       "t": "ٱللَّهُ",
+       "kb": "alem (özel isim)",
+       "g": "fail",
+       "i": "merfu"
+      }
+     ]
+    },
+    {
+     "loc": "17:33:7",
+     "parts": [
+      {
+       "t": "إِلَّا",
+       "kb": "diğer harf/edat",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "17:33:8",
+     "parts": [
+      {
+       "t": "بِ",
+       "kb": "harfi cer",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "ٱلْحَقِّ",
+       "kb": "isim",
+       "g": "mecrur (harfi cerden sonra)",
+       "i": "mecrur"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "ref": "Nisa, 4/2",
+   "tr": "... Onların mallarını kendi mallarınıza katıp yemeyin.",
+   "src": [
+    [
+     4,
+     2,
+     8,
+     12
+    ]
+   ],
+   "words": [
+    {
+     "loc": "4:2:8",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": "atıf harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "لَا",
+       "kb": "cezm edatı",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "4:2:9",
+     "parts": [
+      {
+       "t": "تَأْكُلُ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "meczum"
+      },
+      {
+       "t": "وٓا۟",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "4:2:10",
+     "parts": [
+      {
+       "t": "أَمْوَٰلَ",
+       "kb": "isim",
+       "g": "mefûlün bih",
+       "i": "mansub"
+      },
+      {
+       "t": "هُمْ",
+       "kb": "muttasıl zamir",
+       "g": "muzafun ileyh",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "4:2:11",
+     "parts": [
+      {
+       "t": "إِلَىٰٓ",
+       "kb": "harfi cer",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "4:2:12",
+     "parts": [
+      {
+       "t": "أَمْوَٰلِ",
+       "kb": "isim",
+       "g": "mecrur (harfi cerden sonra)",
+       "i": "mecrur"
+      },
+      {
+       "t": "كُمْ",
+       "kb": "muttasıl zamir",
+       "g": "muzafun ileyh",
+       "i": "mebni"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "ref": "Zümer, 39/53",
+   "tr": "Allah’ın rahmetinden ümidinizi kesmeyin.",
+   "src": [
+    [
+     39,
+     53,
+     7,
+     11
+    ]
+   ],
+   "words": [
+    {
+     "loc": "39:53:7",
+     "parts": [
+      {
+       "t": "لَا",
+       "kb": "cezm edatı",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "39:53:8",
+     "parts": [
+      {
+       "t": "تَقْنَطُ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "meczum"
+      },
+      {
+       "t": "وا۟",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "39:53:9",
+     "parts": [
+      {
+       "t": "مِن",
+       "kb": "harfi cer",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "39:53:10",
+     "parts": [
+      {
+       "t": "رَّحْمَةِ",
+       "kb": [
+        "isim",
+        "mastar"
+       ],
+       "g": "mecrur (harfi cerden sonra)",
+       "i": "mecrur"
+      }
+     ]
+    },
+    {
+     "loc": "39:53:11",
+     "parts": [
+      {
+       "t": "ٱللَّهِ",
+       "kb": "alem (özel isim)",
+       "g": "muzafun ileyh",
+       "i": "mecrur"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "ref": "Zariyat, 51/51",
+   "tr": "Allah ile beraber başka bir ilâh edinmeyin.",
+   "src": [
+    [
+     51,
+     51,
+     1,
+     6
+    ]
+   ],
+   "words": [
+    {
+     "loc": "51:51:1",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": [
+        "atıf harfi",
+        "diğer harf/edat"
+       ],
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "لَا",
+       "kb": "cezm edatı",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "51:51:2",
+     "parts": [
+      {
+       "t": "تَجْعَلُ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "meczum"
+      },
+      {
+       "t": "وا۟",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "51:51:3",
+     "parts": [
+      {
+       "t": "مَعَ",
+       "kb": "isim",
+       "g": "mefûlün fîh (zarf)",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "51:51:4",
+     "parts": [
+      {
+       "t": "ٱللَّهِ",
+       "kb": "alem (özel isim)",
+       "g": "muzafun ileyh",
+       "i": "mecrur"
+      }
+     ]
+    },
+    {
+     "loc": "51:51:5",
+     "parts": [
+      {
+       "t": "إِلَٰهًا",
+       "kb": "isim",
+       "g": "mefûlün bih",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "51:51:6",
+     "parts": [
+      {
+       "t": "ءَاخَرَ",
+       "kb": "isim",
+       "g": "sıfat",
+       "i": "mansub"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "ref": "Âl-i İmran, 3/176",
+   "tr": "Küfürde yarışanlar seni üzmesin.",
+   "src": [
+    [
+     3,
+     176,
+     1,
+     6
+    ]
+   ],
+   "words": [
+    {
+     "loc": "3:176:1",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": [
+        "diğer harf/edat",
+        "atıf harfi"
+       ],
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "لَا",
+       "kb": "cezm edatı",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "3:176:2",
+     "parts": [
+      {
+       "t": "يَحْزُن",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "meczum"
+      },
+      {
+       "t": "كَ",
+       "kb": "muttasıl zamir",
+       "g": "mefûlün bih",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "3:176:3",
+     "parts": [
+      {
+       "t": "ٱلَّذِينَ",
+       "kb": "ismi mevsul",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "3:176:4",
+     "parts": [
+      {
+       "t": "يُسَٰرِعُ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "merfu"
+      },
+      {
+       "t": "ونَ",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "3:176:5",
+     "parts": [
+      {
+       "t": "فِى",
+       "kb": "harfi cer",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "3:176:6",
+     "parts": [
+      {
+       "t": "ٱلْكُفْرِ",
+       "kb": [
+        "mastar",
+        "isim"
+       ],
+       "g": "mecrur (harfi cerden sonra)",
+       "i": "mecrur"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "ref": "İsra, 17/33",
+   "tr": "... Ancak o da (kısas yoluyla) öldürmede meşru ölçüleri aşmasın.",
+   "src": [
+    [
+     17,
+     33,
+     16,
+     19
+    ]
+   ],
+   "words": [
+    {
+     "loc": "17:33:16",
+     "parts": [
+      {
+       "t": "فَ",
+       "kb": [
+        "atıf harfi",
+        "diğer harf/edat"
+       ],
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "لَا",
+       "kb": "cezm edatı",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "17:33:17",
+     "parts": [
+      {
+       "t": "يُسْرِف",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "meczum"
+      },
+      {
+       "t": "(هُوَ)",
+       "hidden": true,
+       "kb": "gizli zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "17:33:18",
+     "parts": [
+      {
+       "t": "فِّى",
+       "kb": "harfi cer",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "17:33:19",
+     "parts": [
+      {
+       "t": "ٱلْقَتْلِ",
+       "kb": [
+        "mastar",
+        "isim"
+       ],
+       "g": "mecrur (harfi cerden sonra)",
+       "i": "mecrur"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

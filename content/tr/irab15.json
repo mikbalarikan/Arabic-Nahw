@@ -1,0 +1,693 @@
+{
+ "irab": 15,
+ "calisma": 33,
+ "title": "İnne ve Benzerleri",
+ "items": [
+  {
+   "n": 1,
+   "ref": "Tâ-Hâ, 20/15",
+   "tr": "“Kıyamet mutlaka gelecektir.”",
+   "src": [
+    [
+     20,
+     15,
+     1,
+     3
+    ]
+   ],
+   "words": [
+    {
+     "loc": "20:15:1",
+     "parts": [
+      {
+       "t": "إِنَّ",
+       "kb": "inne ve benzerleri",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "20:15:2",
+     "parts": [
+      {
+       "t": "ٱلسَّاعَةَ",
+       "kb": "isim",
+       "g": "innenin ismi",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "20:15:3",
+     "parts": [
+      {
+       "t": "ءَاتِيَةٌ",
+       "kb": "ismi fail",
+       "g": "innenin haberi",
+       "i": "merfu"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "ref": "Mücadele, 58/2",
+   "tr": "Şüphesiz Allah çok affedicidir, çok bağışlayıcıdır.",
+   "src": [
+    [
+     58,
+     2,
+     20,
+     23
+    ]
+   ],
+   "words": [
+    {
+     "loc": "58:2:20",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": [
+        "atıf harfi",
+        "diğer harf/edat"
+       ],
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "إِنَّ",
+       "kb": "inne ve benzerleri",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "58:2:21",
+     "parts": [
+      {
+       "t": "ٱللَّهَ",
+       "kb": "alem (özel isim)",
+       "g": "innenin ismi",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "58:2:22",
+     "parts": [
+      {
+       "t": "لَ",
+       "kb": "diğer harf/edat",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "عَفُوٌّ",
+       "kb": "isim",
+       "g": "innenin haberi",
+       "i": "merfu"
+      }
+     ]
+    },
+    {
+     "loc": "58:2:23",
+     "parts": [
+      {
+       "t": "غَفُورٌ",
+       "kb": "isim",
+       "g": [
+        "innenin haberi",
+        "sıfat"
+       ],
+       "i": "merfu"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "ref": "Nisa, 4/104",
+   "tr": "… kuşkusuz onlar da sizin acı duyduğunuz gibi acı duyuyorlar.",
+   "src": [
+    [
+     4,
+     104,
+     9,
+     12
+    ]
+   ],
+   "words": [
+    {
+     "loc": "4:104:9",
+     "parts": [
+      {
+       "t": "فَ",
+       "kb": "diğer harf/edat",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "إِنَّ",
+       "kb": "inne ve benzerleri",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "هُمْ",
+       "kb": "muttasıl zamir",
+       "g": "innenin ismi",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "4:104:10",
+     "parts": [
+      {
+       "t": "يَأْلَمُ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "merfu"
+      },
+      {
+       "t": "ونَ",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "4:104:11",
+     "parts": [
+      {
+       "t": "كَ",
+       "kb": "harfi cer",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "مَا",
+       "kb": [
+        "diğer harf/edat",
+        "ismi mevsul"
+       ],
+       "g": [
+        "görevi yok (harf)",
+        "mecrur (harfi cerden sonra)"
+       ],
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "4:104:12",
+     "parts": [
+      {
+       "t": "تَأْلَمُ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "merfu"
+      },
+      {
+       "t": "ونَ",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "ref": "Âla, 87/7",
+   "tr": "Şüphesiz O, açık olanı da bilir, gizliyi de.",
+   "src": [
+    [
+     87,
+     7,
+     5,
+     9
+    ]
+   ],
+   "words": [
+    {
+     "loc": "87:7:5",
+     "parts": [
+      {
+       "t": "إِنَّ",
+       "kb": "inne ve benzerleri",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "هُۥ",
+       "kb": "muttasıl zamir",
+       "g": "innenin ismi",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "87:7:6",
+     "parts": [
+      {
+       "t": "يَعْلَمُ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "merfu"
+      },
+      {
+       "t": "(هُوَ)",
+       "hidden": true,
+       "kb": "gizli zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "87:7:7",
+     "parts": [
+      {
+       "t": "ٱلْجَهْرَ",
+       "kb": "isim",
+       "g": "mefûlün bih",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "87:7:8",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": "atıf harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "مَا",
+       "kb": "ismi mevsul",
+       "g": [
+        "ma'tuf",
+        "mefûlün bih"
+       ],
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "87:7:9",
+     "parts": [
+      {
+       "t": "يَخْفَىٰ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "merfu"
+      },
+      {
+       "t": "(هُوَ)",
+       "hidden": true,
+       "kb": "gizli zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "ref": "Hadid, 57/18",
+   "tr": "Şüphesiz ki sadaka veren erkeklerle sadaka veren kadınlar ve Allah’a güzel bir borç verenler var ya, (verdikleri) onlara kat kat ödenir. Ayrıca onlara çok değerli bir mükâfat da vardır.",
+   "src": [
+    [
+     57,
+     18,
+     1,
+     12
+    ]
+   ],
+   "words": [
+    {
+     "loc": "57:18:1",
+     "parts": [
+      {
+       "t": "إِنَّ",
+       "kb": "inne ve benzerleri",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "57:18:2",
+     "parts": [
+      {
+       "t": "ٱلْمُصَّدِّقِينَ",
+       "kb": "ismi fail",
+       "g": "innenin ismi",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "57:18:3",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": "atıf harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "ٱلْمُصَّدِّقَٰتِ",
+       "kb": "ismi fail",
+       "g": [
+        "ma'tuf",
+        "innenin ismi"
+       ],
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "57:18:4",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": "atıf harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "أَقْرَضُ",
+       "kb": "mazi fiil",
+       "g": [
+        "fiil",
+        "ma'tuf"
+       ],
+       "i": "mebni"
+      },
+      {
+       "t": "وا۟",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "57:18:5",
+     "parts": [
+      {
+       "t": "ٱللَّهَ",
+       "kb": "alem (özel isim)",
+       "g": "mefûlün bih",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "57:18:6",
+     "parts": [
+      {
+       "t": "قَرْضًا",
+       "kb": [
+        "mastar",
+        "isim"
+       ],
+       "g": [
+        "mefûlün mutlak",
+        "mefûlün bih"
+       ],
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "57:18:7",
+     "parts": [
+      {
+       "t": "حَسَنًا",
+       "kb": "isim",
+       "g": "sıfat",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "57:18:8",
+     "parts": [
+      {
+       "t": "يُضَٰعَفُ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "merfu"
+      },
+      {
+       "t": "(هُوَ)",
+       "hidden": true,
+       "kb": "gizli zamir",
+       "g": "naibi fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "57:18:9",
+     "parts": [
+      {
+       "t": "لَ",
+       "kb": "harfi cer",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "هُمْ",
+       "kb": "muttasıl zamir",
+       "g": "mecrur (harfi cerden sonra)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "57:18:10",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": [
+        "atıf harfi",
+        "diğer harf/edat"
+       ],
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "لَ",
+       "kb": "harfi cer",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "هُمْ",
+       "kb": "muttasıl zamir",
+       "g": "mecrur (harfi cerden sonra)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "57:18:11",
+     "parts": [
+      {
+       "t": "أَجْرٌ",
+       "kb": "isim",
+       "g": "mübteda",
+       "i": "merfu"
+      }
+     ]
+    },
+    {
+     "loc": "57:18:12",
+     "parts": [
+      {
+       "t": "كَرِيمٌ",
+       "kb": "isim",
+       "g": "sıfat",
+       "i": "merfu"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "ref": "Necm, 53/43",
+   "tr": "Şüphesiz O, güldürür ve ağlatır.",
+   "src": [
+    [
+     53,
+     43,
+     1,
+     4
+    ]
+   ],
+   "words": [
+    {
+     "loc": "53:43:1",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": "atıf harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "أَنَّ",
+       "kb": "inne ve benzerleri",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "هُۥ",
+       "kb": "muttasıl zamir",
+       "g": "innenin ismi",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "53:43:2",
+     "parts": [
+      {
+       "t": "هُوَ",
+       "kb": "munfasıl zamir",
+       "g": [
+        "mübteda",
+        "görevi yok (harf)"
+       ],
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "53:43:3",
+     "parts": [
+      {
+       "t": "أَضْحَكَ",
+       "kb": "mazi fiil",
+       "g": "fiil",
+       "i": "mebni"
+      },
+      {
+       "t": "(هُوَ)",
+       "hidden": true,
+       "kb": "gizli zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "53:43:4",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": "atıf harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "أَبْكَىٰ",
+       "kb": "mazi fiil",
+       "g": [
+        "fiil",
+        "ma'tuf"
+       ],
+       "i": "mebni"
+      },
+      {
+       "t": "(هُوَ)",
+       "hidden": true,
+       "kb": "gizli zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "ref": "Bakara, 2/165",
+   "tr": "… ve Allah’ın azabının pek şiddetli olduğunu bir bilselerdi!",
+   "src": [
+    [
+     2,
+     165,
+     28,
+     31
+    ]
+   ],
+   "words": [
+    {
+     "loc": "2:165:28",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": "atıf harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "أَنَّ",
+       "kb": "inne ve benzerleri",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "2:165:29",
+     "parts": [
+      {
+       "t": "ٱللَّهَ",
+       "kb": "alem (özel isim)",
+       "g": "innenin ismi",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "2:165:30",
+     "parts": [
+      {
+       "t": "شَدِيدُ",
+       "kb": "isim",
+       "g": "innenin haberi",
+       "i": "merfu"
+      }
+     ]
+    },
+    {
+     "loc": "2:165:31",
+     "parts": [
+      {
+       "t": "ٱلْعَذَابِ",
+       "kb": "isim",
+       "g": "muzafun ileyh",
+       "i": "mecrur"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

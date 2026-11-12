@@ -1,0 +1,686 @@
+{
+ "irab": 20,
+ "calisma": 38,
+ "title": "Mefûl Çeşitleri 2 – Mefûlün Mutlak",
+ "items": [
+  {
+   "n": 1,
+   "ref": "Vakıa, 56/35",
+   "tr": "Biz onları (hurileri) yepyeni bir yaratılışta yarattık.",
+   "src": [
+    [
+     56,
+     35,
+     1,
+     3
+    ]
+   ],
+   "words": [
+    {
+     "loc": "56:35:1",
+     "parts": [
+      {
+       "t": "إِنَّ",
+       "kb": "inne ve benzerleri",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "آ",
+       "kb": "muttasıl zamir",
+       "g": "innenin ismi",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "56:35:2",
+     "parts": [
+      {
+       "t": "أَنشَأْ",
+       "kb": "mazi fiil",
+       "g": "fiil",
+       "i": "mebni"
+      },
+      {
+       "t": "نَٰ",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      },
+      {
+       "t": "هُنَّ",
+       "kb": "muttasıl zamir",
+       "g": "mefûlün bih",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "56:35:3",
+     "parts": [
+      {
+       "t": "إِنشَآءً",
+       "kb": "mastar",
+       "g": "mefûlün mutlak",
+       "i": "mansub"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "ref": "İsra, 17/16",
+   "tr": "Oranın altını üstüne getiririz.",
+   "src": [
+    [
+     17,
+     16,
+     13,
+     14
+    ]
+   ],
+   "words": [
+    {
+     "loc": "17:16:13",
+     "parts": [
+      {
+       "t": "فَ",
+       "kb": "atıf harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "دَمَّرْ",
+       "kb": "mazi fiil",
+       "g": [
+        "fiil",
+        "ma'tuf"
+       ],
+       "i": "mebni"
+      },
+      {
+       "t": "نَٰ",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      },
+      {
+       "t": "هَا",
+       "kb": "muttasıl zamir",
+       "g": "mefûlün bih",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "17:16:14",
+     "parts": [
+      {
+       "t": "تَدْمِيرًا",
+       "kb": "mastar",
+       "g": "mefûlün mutlak",
+       "i": "mansub"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "ref": "Âl-i İmran, 3/37",
+   "tr": "… onu güzel bir şekilde yetiştirdi.",
+   "src": [
+    [
+     3,
+     37,
+     5,
+     7
+    ]
+   ],
+   "words": [
+    {
+     "loc": "3:37:5",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": "atıf harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "أَنۢبَتَ",
+       "kb": "mazi fiil",
+       "g": [
+        "fiil",
+        "ma'tuf"
+       ],
+       "i": "mebni"
+      },
+      {
+       "t": "(هُوَ)",
+       "kb": "gizli zamir",
+       "g": "fail",
+       "i": "mebni",
+       "hidden": true
+      },
+      {
+       "t": "هَا",
+       "kb": "muttasıl zamir",
+       "g": "mefûlün bih",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "3:37:6",
+     "parts": [
+      {
+       "t": "نَبَاتًا",
+       "kb": [
+        "mastar",
+        "isim"
+       ],
+       "g": "mefûlün mutlak",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "3:37:7",
+     "parts": [
+      {
+       "t": "حَسَنًا",
+       "kb": "isim",
+       "g": "sıfat",
+       "i": "mansub"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "ref": "Fetih, 48/3",
+   "tr": "Ve Allah sana, şanlı bir zaferle yardım etsin.",
+   "src": [
+    [
+     48,
+     3,
+     1,
+     4
+    ]
+   ],
+   "words": [
+    {
+     "loc": "48:3:1",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": "atıf harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "يَنصُرَ",
+       "kb": "muzari fiil",
+       "g": [
+        "fiil",
+        "ma'tuf"
+       ],
+       "i": "mansub"
+      },
+      {
+       "t": "كَ",
+       "kb": "muttasıl zamir",
+       "g": "mefûlün bih",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "48:3:2",
+     "parts": [
+      {
+       "t": "ٱللَّهُ",
+       "kb": "alem (özel isim)",
+       "g": "fail",
+       "i": "merfu"
+      }
+     ]
+    },
+    {
+     "loc": "48:3:3",
+     "parts": [
+      {
+       "t": "نَصْرًا",
+       "kb": "mastar",
+       "g": "mefûlün mutlak",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "48:3:4",
+     "parts": [
+      {
+       "t": "عَزِيزًا",
+       "kb": "isim",
+       "g": "sıfat",
+       "i": "mansub"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "ref": "İnşikak, 84/8",
+   "tr": "Hesabı çok kolay bir şekilde görülecek,",
+   "src": [
+    [
+     84,
+     8,
+     1,
+     4
+    ]
+   ],
+   "words": [
+    {
+     "loc": "84:8:1",
+     "parts": [
+      {
+       "t": "فَ",
+       "kb": "diğer harf/edat",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "سَوْفَ",
+       "kb": "diğer harf/edat",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "84:8:2",
+     "parts": [
+      {
+       "t": "يُحَاسَبُ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "merfu"
+      },
+      {
+       "t": "(هُوَ)",
+       "kb": "gizli zamir",
+       "g": "naibi fail",
+       "i": "mebni",
+       "hidden": true
+      }
+     ]
+    },
+    {
+     "loc": "84:8:3",
+     "parts": [
+      {
+       "t": "حِسَابًا",
+       "kb": "mastar",
+       "g": "mefûlün mutlak",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "84:8:4",
+     "parts": [
+      {
+       "t": "يَسِيرًا",
+       "kb": "isim",
+       "g": "sıfat",
+       "i": "mansub"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "ref": "İnsan, 76/23",
+   "tr": "Şüphe yok ki Kur’ân’ı Sana elbette Biz indirdik Biz.",
+   "src": [
+    [
+     76,
+     23,
+     1,
+     6
+    ]
+   ],
+   "words": [
+    {
+     "loc": "76:23:1",
+     "parts": [
+      {
+       "t": "إِنَّ",
+       "kb": "inne ve benzerleri",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "ا",
+       "kb": "muttasıl zamir",
+       "g": "innenin ismi",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "76:23:2",
+     "parts": [
+      {
+       "t": "نَحْنُ",
+       "kb": "munfasıl zamir",
+       "g": "mübteda",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "76:23:3",
+     "parts": [
+      {
+       "t": "نَزَّلْ",
+       "kb": "mazi fiil",
+       "g": "fiil",
+       "i": "mebni"
+      },
+      {
+       "t": "نَا",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "76:23:4",
+     "parts": [
+      {
+       "t": "عَلَيْ",
+       "kb": "harfi cer",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "كَ",
+       "kb": "muttasıl zamir",
+       "g": "mecrur (harfi cerden sonra)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "76:23:5",
+     "parts": [
+      {
+       "t": "ٱلْقُرْءَانَ",
+       "kb": [
+        "alem (özel isim)",
+        "isim"
+       ],
+       "g": "mefûlün bih",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "76:23:6",
+     "parts": [
+      {
+       "t": "تَنزِيلًا",
+       "kb": "mastar",
+       "g": "mefûlün mutlak",
+       "i": "mansub"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "ref": "Tarık, 86/15-16",
+   "tr": "Onlar bir tuzak kurarlar, Ben de bir tuzak kurarım.",
+   "src": [
+    [
+     86,
+     15,
+     1,
+     3
+    ],
+    [
+     86,
+     16,
+     1,
+     2
+    ]
+   ],
+   "words": [
+    {
+     "loc": "86:15:1",
+     "parts": [
+      {
+       "t": "إِنَّ",
+       "kb": "inne ve benzerleri",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "هُمْ",
+       "kb": "muttasıl zamir",
+       "g": "innenin ismi",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "86:15:2",
+     "parts": [
+      {
+       "t": "يَكِيدُ",
+       "kb": "muzari fiil",
+       "g": "fiil",
+       "i": "merfu"
+      },
+      {
+       "t": "ونَ",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "86:15:3",
+     "parts": [
+      {
+       "t": "كَيْدًا",
+       "kb": "mastar",
+       "g": "mefûlün mutlak",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "86:16:1",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": "atıf harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "أَكِيدُ",
+       "kb": "muzari fiil",
+       "g": [
+        "fiil",
+        "ma'tuf"
+       ],
+       "i": "merfu"
+      },
+      {
+       "t": "(أَنَا)",
+       "kb": "gizli zamir",
+       "g": "fail",
+       "i": "mebni",
+       "hidden": true
+      }
+     ]
+    },
+    {
+     "loc": "86:16:2",
+     "parts": [
+      {
+       "t": "كَيْدًا",
+       "kb": "mastar",
+       "g": "mefûlün mutlak",
+       "i": "mansub"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "ref": "Abese, 80/25-26",
+   "tr": "Gerçekten Biz, yağmuru bol bol yağdırdık. Sonra toprağı, iyiden iyiye yardık!",
+   "src": [
+    [
+     80,
+     25,
+     1,
+     4
+    ],
+    [
+     80,
+     26,
+     1,
+     4
+    ]
+   ],
+   "words": [
+    {
+     "loc": "80:25:1",
+     "parts": [
+      {
+       "t": "أَنَّ",
+       "kb": "inne ve benzerleri",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "ا",
+       "kb": "muttasıl zamir",
+       "g": "innenin ismi",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "80:25:2",
+     "parts": [
+      {
+       "t": "صَبَبْ",
+       "kb": "mazi fiil",
+       "g": "fiil",
+       "i": "mebni"
+      },
+      {
+       "t": "نَا",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "80:25:3",
+     "parts": [
+      {
+       "t": "ٱلْمَآءَ",
+       "kb": "isim",
+       "g": "mefûlün bih",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "80:25:4",
+     "parts": [
+      {
+       "t": "صَبًّا",
+       "kb": "mastar",
+       "g": "mefûlün mutlak",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "80:26:1",
+     "parts": [
+      {
+       "t": "ثُمَّ",
+       "kb": "atıf harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "80:26:2",
+     "parts": [
+      {
+       "t": "شَقَقْ",
+       "kb": "mazi fiil",
+       "g": [
+        "fiil",
+        "ma'tuf"
+       ],
+       "i": "mebni"
+      },
+      {
+       "t": "نَا",
+       "kb": "muttasıl zamir",
+       "g": "fail",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "80:26:3",
+     "parts": [
+      {
+       "t": "ٱلْأَرْضَ",
+       "kb": "isim",
+       "g": "mefûlün bih",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "80:26:4",
+     "parts": [
+      {
+       "t": "شَقًّا",
+       "kb": "mastar",
+       "g": "mefûlün mutlak",
+       "i": "mansub"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

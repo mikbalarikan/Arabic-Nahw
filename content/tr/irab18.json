@@ -1,0 +1,440 @@
+{
+ "irab": 18,
+ "calisma": 36,
+ "title": "İsmi Mefûl",
+ "items": [
+  {
+   "n": 1,
+   "ref": "Hac, 22/73",
+   "tr": "İsteyen de aciz, istenen de.",
+   "src": [
+    [
+     22,
+     73,
+     26,
+     28
+    ]
+   ],
+   "words": [
+    {
+     "loc": "22:73:26",
+     "parts": [
+      {
+       "t": "ضَعُفَ",
+       "kb": "mazi fiil",
+       "g": "fiil",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "22:73:27",
+     "parts": [
+      {
+       "t": "ٱلطَّالِبُ",
+       "kb": "ismi fail",
+       "g": "fail",
+       "i": "merfu"
+      }
+     ]
+    },
+    {
+     "loc": "22:73:28",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": "atıf harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "ٱلْمَطْلُوبُ",
+       "kb": "ismi mefûl",
+       "g": [
+        "ma'tuf",
+        "fail"
+       ],
+       "i": "merfu"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "ref": "Vakıa, 56/49-50",
+   "tr": "De ki: “Şüphesiz öncekiler ve sonrakiler, mutlaka belli bir günün belli bir vaktinde toplanacaklardır.”",
+   "src": [
+    [
+     56,
+     49,
+     1,
+     4
+    ],
+    [
+     56,
+     50,
+     1,
+     5
+    ]
+   ],
+   "words": [
+    {
+     "loc": "56:49:1",
+     "parts": [
+      {
+       "t": "قُلْ",
+       "kb": "emir fiil",
+       "g": "fiil",
+       "i": "mebni"
+      },
+      {
+       "t": "(أَنتَ)",
+       "kb": "gizli zamir",
+       "g": "fail",
+       "i": "mebni",
+       "hidden": true
+      }
+     ]
+    },
+    {
+     "loc": "56:49:2",
+     "parts": [
+      {
+       "t": "إِنَّ",
+       "kb": "inne ve benzerleri",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "56:49:3",
+     "parts": [
+      {
+       "t": "ٱلْأَوَّلِينَ",
+       "kb": "isim",
+       "g": "innenin ismi",
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "56:49:4",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": "atıf harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "ٱلْءَاخِرِينَ",
+       "kb": [
+        "isim",
+        "ismi fail"
+       ],
+       "g": [
+        "ma'tuf",
+        "innenin ismi"
+       ],
+       "i": "mansub"
+      }
+     ]
+    },
+    {
+     "loc": "56:50:1",
+     "parts": [
+      {
+       "t": "لَ",
+       "kb": "diğer harf/edat",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "مَجْمُوعُونَ",
+       "kb": "ismi mefûl",
+       "g": "innenin haberi",
+       "i": "merfu"
+      }
+     ]
+    },
+    {
+     "loc": "56:50:2",
+     "parts": [
+      {
+       "t": "إِلَىٰ",
+       "kb": "harfi cer",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "56:50:3",
+     "parts": [
+      {
+       "t": "مِيقَٰتِ",
+       "kb": "isim",
+       "g": "mecrur (harfi cerden sonra)",
+       "i": "mecrur"
+      }
+     ]
+    },
+    {
+     "loc": "56:50:4",
+     "parts": [
+      {
+       "t": "يَوْمٍ",
+       "kb": "isim",
+       "g": "muzafun ileyh",
+       "i": "mecrur"
+      }
+     ]
+    },
+    {
+     "loc": "56:50:5",
+     "parts": [
+      {
+       "t": "مَّعْلُومٍ",
+       "kb": "ismi mefûl",
+       "g": "sıfat",
+       "i": "mecrur"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "ref": "İnşikak, 84/9",
+   "tr": "Sevinçli olarak ailesine dönecektir.",
+   "src": [
+    [
+     84,
+     9,
+     1,
+     4
+    ]
+   ],
+   "words": [
+    {
+     "loc": "84:9:1",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": "atıf harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "يَنقَلِبُ",
+       "kb": "muzari fiil",
+       "g": [
+        "fiil",
+        "ma'tuf"
+       ],
+       "i": "merfu"
+      },
+      {
+       "t": "(هُوَ)",
+       "kb": "gizli zamir",
+       "g": "fail",
+       "i": "mebni",
+       "hidden": true
+      }
+     ]
+    },
+    {
+     "loc": "84:9:2",
+     "parts": [
+      {
+       "t": "إِلَىٰٓ",
+       "kb": "harfi cer",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "84:9:3",
+     "parts": [
+      {
+       "t": "أَهْلِ",
+       "kb": "isim",
+       "g": "mecrur (harfi cerden sonra)",
+       "i": "mecrur"
+      },
+      {
+       "t": "هِۦ",
+       "kb": "muttasıl zamir",
+       "g": "muzafun ileyh",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "84:9:4",
+     "parts": [
+      {
+       "t": "مَسْرُورًا",
+       "kb": "ismi mefûl",
+       "g": "hal",
+       "i": "mansub"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "ref": "Fil, 105/5",
+   "tr": "Nihayet onları yenilmiş ekin yaprakları hâline getirdi.",
+   "src": [
+    [
+     105,
+     5,
+     1,
+     3
+    ]
+   ],
+   "words": [
+    {
+     "loc": "105:5:1",
+     "parts": [
+      {
+       "t": "فَ",
+       "kb": "atıf harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "جَعَلَ",
+       "kb": "mazi fiil",
+       "g": [
+        "fiil",
+        "ma'tuf"
+       ],
+       "i": "mebni"
+      },
+      {
+       "t": "(هُوَ)",
+       "kb": "gizli zamir",
+       "g": "fail",
+       "i": "mebni",
+       "hidden": true
+      },
+      {
+       "t": "هُمْ",
+       "kb": "muttasıl zamir",
+       "g": "mefûlün bih",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "105:5:2",
+     "parts": [
+      {
+       "t": "كَ",
+       "kb": "harfi cer",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "عَصْفٍ",
+       "kb": "isim",
+       "g": "mecrur (harfi cerden sonra)",
+       "i": "mecrur"
+      }
+     ]
+    },
+    {
+     "loc": "105:5:3",
+     "parts": [
+      {
+       "t": "مَّأْكُولٍۭ",
+       "kb": "ismi mefûl",
+       "g": "sıfat",
+       "i": "mecrur"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "ref": "Sa’d, 38/42",
+   "tr": "İşte yıkanacak ve içecek soğuk bir su…",
+   "src": [
+    [
+     38,
+     42,
+     3,
+     6
+    ]
+   ],
+   "words": [
+    {
+     "loc": "38:42:3",
+     "parts": [
+      {
+       "t": "هَٰذَا",
+       "kb": "ismi işaret",
+       "g": "mübteda",
+       "i": "mebni"
+      }
+     ]
+    },
+    {
+     "loc": "38:42:4",
+     "parts": [
+      {
+       "t": "مُغْتَسَلٌۢ",
+       "kb": [
+        "ismi mefûl",
+        "isim"
+       ],
+       "g": "haber",
+       "i": "merfu"
+      }
+     ]
+    },
+    {
+     "loc": "38:42:5",
+     "parts": [
+      {
+       "t": "بَارِدٌ",
+       "kb": "ismi fail",
+       "g": "sıfat",
+       "i": "merfu"
+      }
+     ]
+    },
+    {
+     "loc": "38:42:6",
+     "parts": [
+      {
+       "t": "وَ",
+       "kb": "atıf harfi",
+       "g": "görevi yok (harf)",
+       "i": "mebni"
+      },
+      {
+       "t": "شَرَابٌ",
+       "kb": [
+        "isim",
+        "mastar"
+       ],
+       "g": [
+        "ma'tuf",
+        "haber"
+       ],
+       "i": "merfu"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

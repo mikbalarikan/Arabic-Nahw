@@ -79,3 +79,11 @@ Each card's results are stored by lesson id, set id and card position. Adding ne
   - A free project is **paused after a week with no activity**; restore it from the dashboard if that happens.
   - Two lessons a week keeps it active. Holidays are the risk.
   - Pro ($25/month) removes the pause.
+
+## Türkçe irab ödevleri (`/odev/`)
+Türkçe ders için ayrı bir sayfa: `https://<site>/odev/`. Kaynak: "Bakara Sûresi Eşliğinde Kur'ân Dilbilgisi", İrab Bölümü 9–26 (s. 211 ve sonrası), her Çalışma'daki "ilk N ayetin irabını yapınız" maddeleri.
+- Öğrenci Ad Soyad + e-posta + şifre ile kayıt olur (`tr_students`; İngilizce takip tablosunda görünmez).
+- Her ayet parçası kelime/ek bazında tablo: Kelime bilgisi, Cümledeki görevi, İrab açılır listeleri. Gönder → `tr_submissions`. Anahtar açılana kadar yeniden gönderilebilir.
+- Cevap anahtarı statik dosyalarda yok; yalnızca Supabase `tr_keys` tablosunda. Öğretmen ders sayfasında "Anahtarı öğrencilere aç" der; o anda gönderimler kilitlenir, öğrenciler puanlarını ve doğru cevapları görür. Öğretmen her zaman yüzdeleri ve Takip tablosunu (CSV) görür.
+- Kurulum (bir kez, SQL Editor): `supabase/tr_schema.sql`, sonra `supabase/tr_keys.sql`.
+- İçerik: `content/tr/irab<k>.json` (format `content/tr/SPEC.md`). Değiştirince `python3 tools/build_tr.py --sql > supabase/tr_keys.sql` ve o dosyayı yeniden çalıştırın. Kontrol: `QURAN_MORPH=<quran-morphology.txt> python3 tools/check_tr_keys.py content/tr/*.json`.
