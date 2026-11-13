@@ -259,5 +259,50 @@
     "title": "Your turn"
    }
   ]
+ },
+ "s3-demonstratives": {
+  "src": "media/s3-demonstratives/s3-demonstratives.mp4",
+  "hls": "media/s3-demonstratives/hls-2001c72a/index.m3u8",
+  "poster": "media/s3-demonstratives/s3-demonstratives.jpg",
+  "captions": "media/s3-demonstratives/s3-demonstratives.vtt",
+  "duration": 437,
+  "chapters": [
+   {
+    "t": 0,
+    "title": "Introduction"
+   },
+   {
+    "t": 7,
+    "title": "1 The table to learn"
+   },
+   {
+    "t": 100,
+    "title": "2 Reading tips: hidden and extra letters"
+   },
+   {
+    "t": 150,
+    "title": "3 \"This is a book\" or \"this book\"?"
+   },
+   {
+    "t": 228,
+    "title": "4 هَذَا or هَذِهِ? Follow the noun"
+   },
+   {
+    "t": 281,
+    "title": "5 Its place in the sentence"
+   },
+   {
+    "t": 365,
+    "title": "6 Not fixed: هَذَانِ and هَاتَانِ"
+   },
+   {
+    "t": 393,
+    "title": "In short"
+   },
+   {
+    "t": 430,
+    "title": "Your turn"
+   }
+  ]
  }
 }

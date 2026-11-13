@@ -20,6 +20,7 @@ LEXICON = [
     (r"\btanween\b", "tanween"),
     (r"\bjarr\b", "jarr"),
     (r"\bjazm\b", "jazm"),
+    (r"\biḍāfa\b", "idaafa"),
     (r"\bZayd\b", "Zayd"),
     (r"\bal\b", "al"),
     (r"\bwa\b", "wa"),

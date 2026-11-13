@@ -36,6 +36,19 @@ ATTEMPTS = [(" -", 0.7, 0), ("!", 0.7, 0), (" -", 0.7, 1), (" -", 0.8, 0), ("!",
             (" -", 0.7, 4), ("!", 0.7, 5)] + [(sfx, 0.7 + 0.05 * (k % 3), 6 + k) for k in range(12) for sfx in (" -", "!")][:12]
 
 
+def apply_say(text, say):
+    """Optional lessons/<id>/say.json {written word: spoken word}: how the voice should say a word (e.g. the
+    hidden long a of هَذَا, given as هٰذَا). Voice input only; a word may carry a leading وَ / فَ."""
+    out = []
+    for w in text.split():
+        core = w.rstrip(".،؟!")
+        tail = w[len(core):]
+        pre = core[:2] if core[:2] in ("\u0648\u064E", "\u0641\u064E") and core[2:] in say else ""
+        core = core[len(pre):]
+        out.append(pre + say.get(core, core) + tail)
+    return " ".join(out)
+
+
 def respell(text):
     """Last resort for a voice that drops the ending of the LAST word: spell the ending out for the voice
     only (the screen text is unchanged). Tanween -> the vowel + نْ (صَفًّا -> صَفَّنْ, نُوحٌ -> نُوحُنْ);
@@ -192,6 +205,8 @@ def main():
     if a.scenes:
         segs = [s for s in segs if s["scene"].startswith(tuple(a.scenes.split(",")))]
     todo = [s for s in segs if a.force or not (raw / f"{s['id']}.wav").exists()]
+    spath = d / "say.json"
+    say = {k: v for k, v in json.loads(spath.read_text(encoding="utf-8")).items() if not k.startswith("_")} if spath.exists() else {}
     models = Path(a.models).expanduser()
     (raw.parent / "voice.json").write_text(json.dumps(vars(a), indent=1))
 
@@ -216,7 +231,7 @@ def main():
         if s["lang"] == "en":
             sf.write(out, en.en(speak_en(s["text"]), a.en_speed), en.sr)
         else:
-            text = speak_ar(s["text"])
+            text = apply_say(speak_ar(s["text"]), say)
             if isinstance(ar, Nabra):
                 # deterministic model: vary the closing punctuation and the speed instead of a seed
                 tries = [(p, sp, 0) for sp in (a.ar_speed, a.ar_speed + 0.1, a.ar_speed - 0.1) for p in (".", "!", "…", "", ",")]

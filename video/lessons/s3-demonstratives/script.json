@@ -1,0 +1,2000 @@
+{
+ "lesson": "s3-demonstratives",
+ "segments": [
+  {
+   "id": "hero-01",
+   "scene": "hero",
+   "lang": "en",
+   "text": "This, that, these, those.",
+   "pause": 0.5,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "hero-02",
+   "scene": "hero",
+   "lang": "en",
+   "text": "A pointing word shows which thing or person you mean.",
+   "pause": 0.25,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "hero-03",
+   "scene": "hero",
+   "lang": "en",
+   "text": "It is fixed. Its last letter never changes.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c01-title-01",
+   "scene": "c01-title",
+   "lang": "en",
+   "text": "Chapter one. The table to learn.",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c01-title-02",
+   "scene": "c01-title",
+   "lang": "en",
+   "text": "Arabic has a word for near things and a word for far things.",
+   "pause": 0.25,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c01-title-03",
+   "scene": "c01-title",
+   "lang": "en",
+   "text": "Each one also changes for male, female and plural.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c01-table-01",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "Read the table one row at a time.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c01-table-02",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The first row is near.",
+   "pause": 0.4,
+   "cues": [
+    "row:1"
+   ]
+  },
+  {
+   "id": "c01-table-03",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "One male or thing: this.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-table-04",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "هَذَا",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-table-05",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "One female or thing: this.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-table-06",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "هَذِهِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-table-07",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "A group of people: these.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-table-08",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "هَؤُلَاءِ",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c01-table-09",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The second row is far.",
+   "pause": 0.4,
+   "cues": [
+    "row:2"
+   ]
+  },
+  {
+   "id": "c01-table-10",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "One male or thing: that.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-table-11",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "ذَلِكَ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-table-12",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "One female or thing: that.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-table-13",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "تِلْكَ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-table-14",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "A group of people: those.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-table-15",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "أُولَئِكَ",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c01-table-16",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "Learn these six words by heart.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c01-words-01",
+   "scene": "c01-words",
+   "lang": "en",
+   "text": "Two more words. Here.",
+   "pause": 0.4,
+   "cues": [
+    "word:1"
+   ]
+  },
+  {
+   "id": "c01-words-02",
+   "scene": "c01-words",
+   "lang": "ar",
+   "text": "هُنَا",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-words-03",
+   "scene": "c01-words",
+   "lang": "en",
+   "text": "And there.",
+   "pause": 0.3,
+   "cues": [
+    "word:2"
+   ]
+  },
+  {
+   "id": "c01-words-04",
+   "scene": "c01-words",
+   "lang": "ar",
+   "text": "هُنَاكَ",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c01-words-05",
+   "scene": "c01-words",
+   "lang": "en",
+   "text": "These two words point to a place.",
+   "pause": 0.4,
+   "cues": [
+    "p",
+    "mark:2",
+    "mark:3"
+   ]
+  },
+  {
+   "id": "c01-words-06",
+   "scene": "c01-words",
+   "lang": "en",
+   "text": "Madinah lesson 5: It is under the desk, over there.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-words-07",
+   "scene": "c01-words",
+   "lang": "ar",
+   "text": "هُوَ تَحْتَ الْمَكْتَبِ هُنَاكَ",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c01-rule-01",
+   "scene": "c01-rule",
+   "lang": "en",
+   "text": "Learn the last vowel too.",
+   "pause": 0.4,
+   "cues": [
+    "show"
+   ]
+  },
+  {
+   "id": "c01-rule-02",
+   "scene": "c01-rule",
+   "lang": "en",
+   "text": "The first word ends in alif.",
+   "pause": 0.4,
+   "cues": [
+    "hl:ends in alif"
+   ]
+  },
+  {
+   "id": "c01-rule-03",
+   "scene": "c01-rule",
+   "lang": "ar",
+   "text": "هَذَا",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-rule-04",
+   "scene": "c01-rule",
+   "lang": "en",
+   "text": "Two words end in kasra.",
+   "pause": 0.4,
+   "cues": [
+    "hl:in kasra"
+   ]
+  },
+  {
+   "id": "c01-rule-05",
+   "scene": "c01-rule",
+   "lang": "ar",
+   "text": "هَذِهِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-rule-06",
+   "scene": "c01-rule",
+   "lang": "ar",
+   "text": "هَؤُلَاءِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-rule-07",
+   "scene": "c01-rule",
+   "lang": "en",
+   "text": "Four words end in fatha.",
+   "pause": 0.4,
+   "cues": [
+    "hl:in fatha"
+   ]
+  },
+  {
+   "id": "c01-rule-08",
+   "scene": "c01-rule",
+   "lang": "ar",
+   "text": "ذَلِكَ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-rule-09",
+   "scene": "c01-rule",
+   "lang": "ar",
+   "text": "تِلْكَ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-rule-10",
+   "scene": "c01-rule",
+   "lang": "ar",
+   "text": "أُولَئِكَ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-rule-11",
+   "scene": "c01-rule",
+   "lang": "ar",
+   "text": "هُنَاكَ",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c01-rule-12",
+   "scene": "c01-rule",
+   "lang": "en",
+   "text": "These endings never change.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-rule-13",
+   "scene": "c01-rule",
+   "lang": "en",
+   "text": "The kasra is not a sign of jarr.",
+   "pause": 0.25,
+   "cues": [
+    "mark:1",
+    "mark:2"
+   ]
+  },
+  {
+   "id": "c01-rule-14",
+   "scene": "c01-rule",
+   "lang": "en",
+   "text": "The fatha is not a sign of naṣb.",
+   "pause": 0.6,
+   "cues": [
+    "mark:3",
+    "mark:4",
+    "mark:5",
+    "mark:6"
+   ]
+  },
+  {
+   "id": "c01-tip-01",
+   "scene": "c01-tip",
+   "lang": "en",
+   "text": "A tip.",
+   "pause": 0.4,
+   "cues": [
+    "show"
+   ]
+  },
+  {
+   "id": "c01-tip-02",
+   "scene": "c01-tip",
+   "lang": "ar",
+   "text": "هَؤُلَاءِ",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c01-tip-03",
+   "scene": "c01-tip",
+   "lang": "ar",
+   "text": "أُولَئِكَ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-tip-04",
+   "scene": "c01-tip",
+   "lang": "en",
+   "text": "These two are for groups of people, male or female.",
+   "pause": 0.25,
+   "cues": [
+    "hl:groups of people"
+   ]
+  },
+  {
+   "id": "c01-tip-05",
+   "scene": "c01-tip",
+   "lang": "en",
+   "text": "These are students.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c01-tip-06",
+   "scene": "c01-tip",
+   "lang": "ar",
+   "text": "هَؤُلَاءِ طُلَّابٌ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-tip-07",
+   "scene": "c01-tip",
+   "lang": "en",
+   "text": "These are women.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c01-tip-08",
+   "scene": "c01-tip",
+   "lang": "ar",
+   "text": "هَؤُلَاءِ نِسَاءٌ",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c01-tip-09",
+   "scene": "c01-tip",
+   "lang": "en",
+   "text": "For plural things, Arabic normally uses this word.",
+   "pause": 0.4,
+   "cues": [
+    "hl:plural things"
+   ]
+  },
+  {
+   "id": "c01-tip-10",
+   "scene": "c01-tip",
+   "lang": "ar",
+   "text": "هَذِهِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-tip-11",
+   "scene": "c01-tip",
+   "lang": "en",
+   "text": "These are books.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c01-tip-12",
+   "scene": "c01-tip",
+   "lang": "ar",
+   "text": "هَذِهِ كُتُبٌ",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c02-title-01",
+   "scene": "c02-title",
+   "lang": "en",
+   "text": "Chapter two. Reading tips: hidden and extra letters.",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c02-title-02",
+   "scene": "c02-title",
+   "lang": "en",
+   "text": "Some pointing words are not read exactly as they are written.",
+   "pause": 0.25,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c02-title-03",
+   "scene": "c02-title",
+   "lang": "en",
+   "text": "The Qur'an shows the hidden alif with a small alif on top.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-title-04",
+   "scene": "c02-title",
+   "lang": "ar",
+   "text": "هٰذَا",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c02-table-01",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "Listen to how each word is said.",
+   "pause": 0.4,
+   "cues": [
+    "row:1"
+   ]
+  },
+  {
+   "id": "c02-table-02",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "هَذَا",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-table-03",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "A long alif sound after the letter ha is said, but not written.",
+   "pause": 0.4,
+   "cues": [
+    "mark:1"
+   ]
+  },
+  {
+   "id": "c02-table-04",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "The next word.",
+   "pause": 0.3,
+   "cues": [
+    "row:2"
+   ]
+  },
+  {
+   "id": "c02-table-05",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "هَذِهِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-table-06",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "The same hidden sound after ha.",
+   "pause": 0.4,
+   "cues": [
+    "mark:3"
+   ]
+  },
+  {
+   "id": "c02-table-07",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "And this one.",
+   "pause": 0.3,
+   "cues": [
+    "row:3"
+   ]
+  },
+  {
+   "id": "c02-table-08",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "هَؤُلَاءِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-table-09",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "The same hidden sound after ha.",
+   "pause": 0.4,
+   "cues": [
+    "mark:5"
+   ]
+  },
+  {
+   "id": "c02-table-10",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "Now a far word.",
+   "pause": 0.4,
+   "cues": [
+    "row:4"
+   ]
+  },
+  {
+   "id": "c02-table-11",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "ذَلِكَ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-table-12",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "A long alif sound after dhal is said, but not written.",
+   "pause": 0.4,
+   "cues": [
+    "mark:7"
+   ]
+  },
+  {
+   "id": "c02-table-13",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "The last word has two surprises.",
+   "pause": 0.4,
+   "cues": [
+    "row:5"
+   ]
+  },
+  {
+   "id": "c02-table-14",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "أُولَئِكَ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-table-15",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "The letter waw is written, but not read.",
+   "pause": 0.25,
+   "cues": [
+    "mark:9"
+   ]
+  },
+  {
+   "id": "c02-table-16",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "And a long alif sound after lam is said, but not written.",
+   "pause": 0.6,
+   "cues": [
+    "mark:10"
+   ]
+  },
+  {
+   "id": "c02-tip-01",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "A tip. Do not write the hidden alif yourself.",
+   "pause": 0.4,
+   "cues": [
+    "show",
+    "hl:Do not write the hidden alif yourself"
+   ]
+  },
+  {
+   "id": "c02-tip-02",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "These two have the alif written in.",
+   "pause": 0.25,
+   "cues": [
+    "mark:0",
+    "mark:1"
+   ]
+  },
+  {
+   "id": "c02-tip-03",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "They are spelling mistakes.",
+   "pause": 0.6,
+   "cues": [
+    "hl:spelling mistakes"
+   ]
+  },
+  {
+   "id": "c03-title-01",
+   "scene": "c03-title",
+   "lang": "en",
+   "text": "Chapter three. This is a book, or this book?",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c03-title-02",
+   "scene": "c03-title",
+   "lang": "en",
+   "text": "Look at the noun after the pointing word.",
+   "pause": 0.25,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c03-title-03",
+   "scene": "c03-title",
+   "lang": "en",
+   "text": "Does it have al?",
+   "pause": 0.6,
+   "cues": [
+    "mark:0"
+   ]
+  },
+  {
+   "id": "c03-cols-01",
+   "scene": "c03-cols",
+   "lang": "en",
+   "text": "No al: a sentence.",
+   "pause": 0.25,
+   "cues": [
+    "col:1"
+   ]
+  },
+  {
+   "id": "c03-cols-02",
+   "scene": "c03-cols",
+   "lang": "en",
+   "text": "This is a book.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-cols-03",
+   "scene": "c03-cols",
+   "lang": "ar",
+   "text": "هَذَا كِتَابٌ",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c03-cols-04",
+   "scene": "c03-cols",
+   "lang": "en",
+   "text": "The pointing word is the Topic.",
+   "pause": 0.25,
+   "cues": [
+    "mark:1"
+   ]
+  },
+  {
+   "id": "c03-cols-05",
+   "scene": "c03-cols",
+   "lang": "en",
+   "text": "The noun, book, is the Information.",
+   "pause": 0.5,
+   "cues": [
+    "mark:2"
+   ]
+  },
+  {
+   "id": "c03-cols-06",
+   "scene": "c03-cols",
+   "lang": "en",
+   "text": "With al: a phrase.",
+   "pause": 0.25,
+   "cues": [
+    "col:2"
+   ]
+  },
+  {
+   "id": "c03-cols-07",
+   "scene": "c03-cols",
+   "lang": "en",
+   "text": "This book.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c03-cols-08",
+   "scene": "c03-cols",
+   "lang": "ar",
+   "text": "هَذَا الْكِتَابُ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-cols-09",
+   "scene": "c03-cols",
+   "lang": "en",
+   "text": "It is not finished yet. Add Information.",
+   "pause": 0.25,
+   "cues": []
+  },
+  {
+   "id": "c03-cols-10",
+   "scene": "c03-cols",
+   "lang": "en",
+   "text": "This book is new.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-cols-11",
+   "scene": "c03-cols",
+   "lang": "ar",
+   "text": "هَذَا الْكِتَابُ جَدِيدٌ",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-01",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "This is a house.",
+   "pause": 0.4,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c03-examples-02",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "هَذَا بَيْتٌ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-03",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "A full sentence.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-04",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "This house is near.",
+   "pause": 0.4,
+   "cues": [
+    "ex:2"
+   ]
+  },
+  {
+   "id": "c03-examples-05",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "هَذَا الْبَيْتُ قَرِيبٌ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-06",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "هَذَا الْبَيْتُ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-07",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "It is the Topic part.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-08",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "قَرِيبٌ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-09",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "It is the Information.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-10",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "That is a car.",
+   "pause": 0.4,
+   "cues": [
+    "ex:3"
+   ]
+  },
+  {
+   "id": "c03-examples-11",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "تِلْكَ سَيَّارَةٌ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-12",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "A full sentence.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-13",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "That car is new.",
+   "pause": 0.4,
+   "cues": [
+    "ex:4"
+   ]
+  },
+  {
+   "id": "c03-examples-14",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "تِلْكَ السَّيَّارَةُ جَدِيدَةٌ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-15",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "تِلْكَ السَّيَّارَةُ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-16",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "It means that car.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c03-tips-01",
+   "scene": "c03-tips",
+   "lang": "en",
+   "text": "A tip. How do you say: this is the book?",
+   "pause": 0.6,
+   "cues": [
+    "tip:1"
+   ]
+  },
+  {
+   "id": "c03-tips-02",
+   "scene": "c03-tips",
+   "lang": "en",
+   "text": "Put the word for he or she in the middle.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-tips-03",
+   "scene": "c03-tips",
+   "lang": "ar",
+   "text": "هُوَ",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c03-tips-04",
+   "scene": "c03-tips",
+   "lang": "ar",
+   "text": "هِيَ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-tips-05",
+   "scene": "c03-tips",
+   "lang": "en",
+   "text": "This is the book.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-tips-06",
+   "scene": "c03-tips",
+   "lang": "ar",
+   "text": "هَذَا هُوَ الْكِتَابُ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-tips-07",
+   "scene": "c03-tips",
+   "lang": "en",
+   "text": "This is the watch.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-tips-08",
+   "scene": "c03-tips",
+   "lang": "ar",
+   "text": "هَذِهِ هِيَ السَّاعَةُ",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c03-tips-09",
+   "scene": "c03-tips",
+   "lang": "en",
+   "text": "Another tip. A noun in iḍāfa has no al, so it makes a sentence.",
+   "pause": 0.25,
+   "cues": [
+    "tip:2",
+    "mark:4"
+   ]
+  },
+  {
+   "id": "c03-tips-10",
+   "scene": "c03-tips",
+   "lang": "en",
+   "text": "From Madinah lesson 5: This is Hamid's house.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-tips-11",
+   "scene": "c03-tips",
+   "lang": "ar",
+   "text": "هَذَا بَيْتُ حَامِدٍ",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c04-title-01",
+   "scene": "c04-title",
+   "lang": "en",
+   "text": "Chapter four. Follow the noun.",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c04-title-02",
+   "scene": "c04-title",
+   "lang": "en",
+   "text": "Choose the pointing word by the noun you point to.",
+   "pause": 0.4,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c04-title-03",
+   "scene": "c04-title",
+   "lang": "en",
+   "text": "Is it near or far?",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c04-title-04",
+   "scene": "c04-title",
+   "lang": "en",
+   "text": "Male or female?",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c04-title-05",
+   "scene": "c04-title",
+   "lang": "en",
+   "text": "One, or a group of people?",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c04-examples-01",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "This is a pen, and this is a watch.",
+   "pause": 0.4,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c04-examples-02",
+   "scene": "c04-examples",
+   "lang": "ar",
+   "text": "هَذَا قَلَمٌ وَهَذِهِ سَاعَةٌ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-examples-03",
+   "scene": "c04-examples",
+   "lang": "ar",
+   "text": "قَلَمٌ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-examples-04",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "It is masculine.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c04-examples-05",
+   "scene": "c04-examples",
+   "lang": "ar",
+   "text": "سَاعَةٌ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-examples-06",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "It is feminine.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c04-examples-07",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "That is a mosque, and that is a school.",
+   "pause": 0.4,
+   "cues": [
+    "ex:2"
+   ]
+  },
+  {
+   "id": "c04-examples-08",
+   "scene": "c04-examples",
+   "lang": "ar",
+   "text": "ذَلِكَ مَسْجِدٌ وَتِلْكَ مَدْرَسَةٌ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-examples-09",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "Both are far.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c04-examples-10",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "For masculine:",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-examples-11",
+   "scene": "c04-examples",
+   "lang": "ar",
+   "text": "ذَلِكَ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-examples-12",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "For feminine:",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-examples-13",
+   "scene": "c04-examples",
+   "lang": "ar",
+   "text": "تِلْكَ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-examples-14",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "These are students, and those are men.",
+   "pause": 0.4,
+   "cues": [
+    "ex:3"
+   ]
+  },
+  {
+   "id": "c04-examples-15",
+   "scene": "c04-examples",
+   "lang": "ar",
+   "text": "هَؤُلَاءِ طُلَّابٌ وَأُولَئِكَ رِجَالٌ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-examples-16",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "Groups of people.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c04-examples-17",
+   "scene": "c04-examples",
+   "lang": "ar",
+   "text": "هَؤُلَاءِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-examples-18",
+   "scene": "c04-examples",
+   "lang": "ar",
+   "text": "أُولَئِكَ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-examples-19",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "This is a girl.",
+   "pause": 0.4,
+   "cues": [
+    "ex:4"
+   ]
+  },
+  {
+   "id": "c04-examples-20",
+   "scene": "c04-examples",
+   "lang": "ar",
+   "text": "هَذِهِ بِنْتٌ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-examples-21",
+   "scene": "c04-examples",
+   "lang": "ar",
+   "text": "بِنْتٌ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-examples-22",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "It has no ta marbuta, but it is feminine.",
+   "pause": 0.25,
+   "cues": [
+    "mark:11"
+   ]
+  },
+  {
+   "id": "c04-examples-23",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "So we use this word.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-examples-24",
+   "scene": "c04-examples",
+   "lang": "ar",
+   "text": "هَذِهِ",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c05-title-01",
+   "scene": "c05-title",
+   "lang": "en",
+   "text": "Chapter five. Its place in the sentence.",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c05-title-02",
+   "scene": "c05-title",
+   "lang": "en",
+   "text": "A pointing word is fixed, but it still has a job.",
+   "pause": 0.25,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c05-title-03",
+   "scene": "c05-title",
+   "lang": "en",
+   "text": "The job gives it a place.",
+   "pause": 0.25,
+   "cues": []
+  },
+  {
+   "id": "c05-title-04",
+   "scene": "c05-title",
+   "lang": "en",
+   "text": "The noun after it shows the ending that the pointing word cannot show.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c05-examples-01",
+   "scene": "c05-examples",
+   "lang": "en",
+   "text": "This is a book.",
+   "pause": 0.4,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c05-examples-02",
+   "scene": "c05-examples",
+   "lang": "ar",
+   "text": "هَذَا كِتَابٌ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-examples-03",
+   "scene": "c05-examples",
+   "lang": "ar",
+   "text": "هَذَا",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-examples-04",
+   "scene": "c05-examples",
+   "lang": "en",
+   "text": "It is the Topic. It is fixed, in the place of rafʿ.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c05-examples-05",
+   "scene": "c05-examples",
+   "lang": "en",
+   "text": "This man entered the mosque.",
+   "pause": 0.4,
+   "cues": [
+    "ex:2"
+   ]
+  },
+  {
+   "id": "c05-examples-06",
+   "scene": "c05-examples",
+   "lang": "ar",
+   "text": "دَخَلَ هَذَا الرَّجُلُ الْمَسْجِدَ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-examples-07",
+   "scene": "c05-examples",
+   "lang": "ar",
+   "text": "هَذَا",
+   "pause": 0.4,
+   "cues": [
+    "mark:3"
+   ]
+  },
+  {
+   "id": "c05-examples-08",
+   "scene": "c05-examples",
+   "lang": "en",
+   "text": "It is the doer. Place of rafʿ. See the damma on the noun after it.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-examples-09",
+   "scene": "c05-examples",
+   "lang": "ar",
+   "text": "الرَّجُلُ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-examples-10",
+   "scene": "c05-examples",
+   "lang": "en",
+   "text": "The student opened this door.",
+   "pause": 0.4,
+   "cues": [
+    "ex:3"
+   ]
+  },
+  {
+   "id": "c05-examples-11",
+   "scene": "c05-examples",
+   "lang": "ar",
+   "text": "فَتَحَ الطَّالِبُ هَذَا الْبَابَ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-examples-12",
+   "scene": "c05-examples",
+   "lang": "ar",
+   "text": "هَذَا",
+   "pause": 0.4,
+   "cues": [
+    "mark:6"
+   ]
+  },
+  {
+   "id": "c05-examples-13",
+   "scene": "c05-examples",
+   "lang": "en",
+   "text": "It is the object. Place of naṣb. See the fatha on the noun after it.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-examples-14",
+   "scene": "c05-examples",
+   "lang": "ar",
+   "text": "الْبَابَ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-examples-15",
+   "scene": "c05-examples",
+   "lang": "en",
+   "text": "In this house.",
+   "pause": 0.3,
+   "cues": [
+    "ex:4"
+   ]
+  },
+  {
+   "id": "c05-examples-16",
+   "scene": "c05-examples",
+   "lang": "ar",
+   "text": "فِي هَذَا الْبَيْتِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-examples-17",
+   "scene": "c05-examples",
+   "lang": "ar",
+   "text": "هَذَا",
+   "pause": 0.4,
+   "cues": [
+    "mark:9"
+   ]
+  },
+  {
+   "id": "c05-examples-18",
+   "scene": "c05-examples",
+   "lang": "en",
+   "text": "It comes after a preposition. Place of jarr. The noun after it shows the kasra.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-examples-19",
+   "scene": "c05-examples",
+   "lang": "ar",
+   "text": "الْبَيْتِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-examples-20",
+   "scene": "c05-examples",
+   "lang": "en",
+   "text": "This student's book.",
+   "pause": 0.3,
+   "cues": [
+    "ex:5"
+   ]
+  },
+  {
+   "id": "c05-examples-21",
+   "scene": "c05-examples",
+   "lang": "ar",
+   "text": "كِتَابُ هَذَا الطَّالِبِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-examples-22",
+   "scene": "c05-examples",
+   "lang": "ar",
+   "text": "هَذَا",
+   "pause": 0.4,
+   "cues": [
+    "mark:12"
+   ]
+  },
+  {
+   "id": "c05-examples-23",
+   "scene": "c05-examples",
+   "lang": "en",
+   "text": "It is the owner. Place of jarr.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c05-cols-01",
+   "scene": "c05-cols",
+   "lang": "en",
+   "text": "So a pointing word has one of three places.",
+   "pause": 0.4,
+   "cues": [
+    "col:1"
+   ]
+  },
+  {
+   "id": "c05-cols-02",
+   "scene": "c05-cols",
+   "lang": "en",
+   "text": "Place of rafʿ.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c05-cols-03",
+   "scene": "c05-cols",
+   "lang": "ar",
+   "text": "فِي مَحَلِّ رَفْعٍ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-cols-04",
+   "scene": "c05-cols",
+   "lang": "en",
+   "text": "For the Topic, the Information and the doer.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c05-cols-05",
+   "scene": "c05-cols",
+   "lang": "en",
+   "text": "Place of naṣb.",
+   "pause": 0.3,
+   "cues": [
+    "col:2"
+   ]
+  },
+  {
+   "id": "c05-cols-06",
+   "scene": "c05-cols",
+   "lang": "ar",
+   "text": "فِي مَحَلِّ نَصْبٍ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-cols-07",
+   "scene": "c05-cols",
+   "lang": "en",
+   "text": "For the object, and the other naṣb jobs.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c05-cols-08",
+   "scene": "c05-cols",
+   "lang": "en",
+   "text": "Place of jarr.",
+   "pause": 0.3,
+   "cues": [
+    "col:3"
+   ]
+  },
+  {
+   "id": "c05-cols-09",
+   "scene": "c05-cols",
+   "lang": "ar",
+   "text": "فِي مَحَلِّ جَرٍّ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-cols-10",
+   "scene": "c05-cols",
+   "lang": "en",
+   "text": "After a preposition, or for the owner.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c06-title-01",
+   "scene": "c06-title",
+   "lang": "en",
+   "text": "Chapter six. Two words that are not fixed.",
+   "pause": 0.6,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c06-rule-01",
+   "scene": "c06-rule",
+   "lang": "en",
+   "text": "Look at the words that mean these two. They change.",
+   "pause": 0.4,
+   "cues": [
+    "show"
+   ]
+  },
+  {
+   "id": "c06-rule-02",
+   "scene": "c06-rule",
+   "lang": "en",
+   "text": "For two males.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c06-rule-03",
+   "scene": "c06-rule",
+   "lang": "ar",
+   "text": "هَذَانِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c06-rule-04",
+   "scene": "c06-rule",
+   "lang": "en",
+   "text": "For two females.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c06-rule-05",
+   "scene": "c06-rule",
+   "lang": "ar",
+   "text": "هَاتَانِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c06-rule-06",
+   "scene": "c06-rule",
+   "lang": "en",
+   "text": "Both words are flexible.",
+   "pause": 0.25,
+   "cues": [
+    "hl:are flexible"
+   ]
+  },
+  {
+   "id": "c06-rule-07",
+   "scene": "c06-rule",
+   "lang": "en",
+   "text": "In naṣb and jarr, they become:",
+   "pause": 0.4,
+   "cues": [
+    "hl:In naṣb and jarr"
+   ]
+  },
+  {
+   "id": "c06-rule-08",
+   "scene": "c06-rule",
+   "lang": "ar",
+   "text": "هَذَيْنِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c06-rule-09",
+   "scene": "c06-rule",
+   "lang": "ar",
+   "text": "هَاتَيْنِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c06-rule-10",
+   "scene": "c06-rule",
+   "lang": "en",
+   "text": "You learn them with the dual in Stage 4.",
+   "pause": 0.6,
+   "cues": [
+    "hl:with the dual in Stage 4"
+   ]
+  },
+  {
+   "id": "c06-table-01",
+   "scene": "c06-table",
+   "lang": "en",
+   "text": "In rafʿ.",
+   "pause": 0.3,
+   "cues": [
+    "row:1"
+   ]
+  },
+  {
+   "id": "c06-table-02",
+   "scene": "c06-table",
+   "lang": "ar",
+   "text": "هَذَانِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c06-table-03",
+   "scene": "c06-table",
+   "lang": "ar",
+   "text": "هَاتَانِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c06-table-04",
+   "scene": "c06-table",
+   "lang": "en",
+   "text": "In naṣb and jarr.",
+   "pause": 0.4,
+   "cues": [
+    "row:2"
+   ]
+  },
+  {
+   "id": "c06-table-05",
+   "scene": "c06-table",
+   "lang": "ar",
+   "text": "هَذَيْنِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c06-table-06",
+   "scene": "c06-table",
+   "lang": "ar",
+   "text": "هَاتَيْنِ",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "summary-01",
+   "scene": "summary",
+   "lang": "en",
+   "text": "In short.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "summary-02",
+   "scene": "summary",
+   "lang": "en",
+   "text": "One. Near.",
+   "pause": 0.3,
+   "cues": [
+    "item:1"
+   ]
+  },
+  {
+   "id": "summary-03",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "هَذَا",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "summary-04",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "هَذِهِ",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "summary-05",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "هَؤُلَاءِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "summary-06",
+   "scene": "summary",
+   "lang": "en",
+   "text": "Far.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "summary-07",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "ذَلِكَ",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "summary-08",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "تِلْكَ",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "summary-09",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "أُولَئِكَ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "summary-10",
+   "scene": "summary",
+   "lang": "en",
+   "text": "Place.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "summary-11",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "هُنَا",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "summary-12",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "هُنَاكَ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "summary-13",
+   "scene": "summary",
+   "lang": "en",
+   "text": "Two. Choose by the noun.",
+   "pause": 0.3,
+   "cues": [
+    "item:2"
+   ]
+  },
+  {
+   "id": "summary-14",
+   "scene": "summary",
+   "lang": "en",
+   "text": "Near or far, male or female, one or a group of people.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "summary-15",
+   "scene": "summary",
+   "lang": "en",
+   "text": "Three.",
+   "pause": 0.3,
+   "cues": [
+    "item:3"
+   ]
+  },
+  {
+   "id": "summary-16",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "هَذَا كِتَابٌ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "summary-17",
+   "scene": "summary",
+   "lang": "en",
+   "text": "That is a sentence.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "summary-18",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "هَذَا الْكِتَابُ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "summary-19",
+   "scene": "summary",
+   "lang": "en",
+   "text": "That is a phrase: this book.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "summary-20",
+   "scene": "summary",
+   "lang": "en",
+   "text": "Four. Pointing words are fixed, but they have a place. Rafʿ, naṣb or jarr.",
+   "pause": 0.5,
+   "cues": [
+    "item:4"
+   ]
+  },
+  {
+   "id": "summary-21",
+   "scene": "summary",
+   "lang": "en",
+   "text": "Five.",
+   "pause": 0.3,
+   "cues": [
+    "item:5"
+   ]
+  },
+  {
+   "id": "summary-22",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "هَذَانِ",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "summary-23",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "هَاتَانِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "summary-24",
+   "scene": "summary",
+   "lang": "en",
+   "text": "They are not fixed. They wait for Stage 4.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "outro-yourturn-01",
+   "scene": "outro-yourturn",
+   "lang": "en",
+   "text": "Now it is your turn. Open the Practice tab.",
+   "pause": 0.25,
+   "cues": [
+    "show"
+   ]
+  },
+  {
+   "id": "outro-yourturn-02",
+   "scene": "outro-yourturn",
+   "lang": "en",
+   "text": "Do the six cards, then the homework.",
+   "pause": 1.0,
+   "cues": []
+  }
+ ]
+}

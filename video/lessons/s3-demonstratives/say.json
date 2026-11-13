@@ -1,0 +1,10 @@
+{
+ "_note": "Voice input only (tts_generate.py): the hidden long ā of these words, written with the small (dagger) alif the lesson shows on هٰذَا, so the voice says it; أُولَئِكَ is given without the unread و (a spelling from the lesson's homework). The screen and the script keep the lesson's spelling.",
+ "هَذَا": "هٰذَا",
+ "هَذِهِ": "هٰذِهِ",
+ "هَؤُلَاءِ": "هٰؤُلَاءِ",
+ "ذَلِكَ": "ذٰلِكَ",
+ "أُولَئِكَ": "أُلَائِكَ",
+ "هَذَانِ": "هٰذَانِ",
+ "هَذَيْنِ": "هٰذَيْنِ"
+}

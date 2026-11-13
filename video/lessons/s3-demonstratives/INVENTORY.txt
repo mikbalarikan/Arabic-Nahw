@@ -1,0 +1,151 @@
+## hero  (kind hero; blocks [0])
+## c01-title  (kind chapter; blocks [2])
+   block 2 [p]: Arabic has a word for near things and a word for far things. Each one also changes for male, female and plural.
+## c01-table  (kind table; blocks [3])
+   block 3 [table]: One male or thing One female or thing Plural (people) Near هَذَا this هَذِهِ this هَؤُلَاءِ these Far ذَلِكَ that تِلْكَ that أُولَئِكَ those
+   mark:0  هَذَا
+   mark:1  هَذِهِ
+   mark:2  هَؤُلَاءِ
+   mark:3  ذَلِكَ
+   mark:4  تِلْكَ
+   mark:5  أُولَئِكَ
+## c01-words  (kind words; blocks [4, 5])
+   block 4 [words]: هُنَا hunā here هُنَاكَ hunāka there
+   block 5 [p]: هُنَا and هُنَاكَ point to a place. Madinah lesson 5: هُوَ تَحْتَ الْمَكْتَبِ هُنَاكَ "It is under the desk, over there."
+   mark:0  هُنَا
+   mark:1  هُنَاكَ
+   mark:2  هُنَا
+   mark:3  هُنَاكَ
+   mark:4  هُوَ تَحْتَ الْمَكْتَبِ هُنَاكَ
+## c01-rule  (kind box; blocks [6])
+   block 6 [rule]: Learn the last vowel too. هَذَا ends in alif, هَذِهِ and هَؤُلَاءِ in kasra, ذَلِكَ ، تِلْكَ ، أُولَئِكَ and هُنَاكَ in fatha. These endings never change.
+   mark:0  هَذَا
+   mark:1  هَذِهِ
+   mark:2  هَؤُلَاءِ
+   mark:3  ذَلِكَ
+   mark:4  تِلْكَ
+   mark:5  أُولَئِكَ
+   mark:6  هُنَاكَ
+## c01-tip  (kind box; blocks [7])
+   block 7 [tip]: Tip: هَؤُلَاءِ and أُولَئِكَ are for groups of people, male or female: هَؤُلَاءِ طُلَّابٌ ، هَؤُلَاءِ نِسَاءٌ . For plural things Arabic normally uses هَذِهِ : هَذِهِ كُتُبٌ "these are books".
+   mark:0  هَؤُلَاءِ
+   mark:1  أُولَئِكَ
+   mark:2  هَؤُلَاءِ طُلَّابٌ
+   mark:3  هَؤُلَاءِ نِسَاءٌ
+   mark:4  هَذِهِ
+   mark:5  هَذِهِ كُتُبٌ
+## c02-title  (kind chapter; blocks [9])
+   block 9 [p]: Some pointing words are not read exactly as they are written. The Qur'an shows the hidden alif with a small alif on top: هٰذَا .
+   mark:0  هٰذَا
+## c02-table  (kind table; blocks [10])
+   block 10 [table]: Written Said Why هَذَا hādhā A long ā after هـ is said but not written. هَذِهِ hādhihi The same hidden ā after هـ . هَؤُلَاءِ hāʾulāʾi The same hidden ā after هـ . ذَلِكَ dhālika A long ā after ذ is said but not written. أُولَئِكَ ulāʾika The و is written but not read. A long ā after ل is said but not written.
+   mark:0  هَذَا
+   mark:1  هـ
+   mark:2  هَذِهِ
+   mark:3  هـ
+   mark:4  هَؤُلَاءِ
+   mark:5  هـ
+   mark:6  ذَلِكَ
+   mark:7  ذ
+   mark:8  أُولَئِكَ
+   mark:9  و
+   mark:10  ل
+## c02-tip  (kind box; blocks [11])
+   block 11 [tip]: Tip: Do not write the hidden alif yourself. هَاذَا and ذَالِكَ are spelling mistakes.
+   mark:0  هَاذَا
+   mark:1  ذَالِكَ
+## c03-title  (kind chapter; blocks [13])
+   block 13 [p]: Look at the noun after the pointing word. Does it have ال ?
+   mark:0  ال
+## c03-cols  (kind cols; blocks [14])
+   block 14 [cols]: No ال: a sentence هَذَا كِتَابٌ "This is a book." هَذَا is the Topic and كِتَابٌ is the Information. With ال: a phrase هَذَا الْكِتَابُ "this book". It is not finished yet. Add Information: هَذَا الْكِتَابُ جَدِيدٌ .
+   mark:0  هَذَا كِتَابٌ
+   mark:1  هَذَا
+   mark:2  كِتَابٌ
+   mark:3  هَذَا الْكِتَابُ
+   mark:4  هَذَا الْكِتَابُ جَدِيدٌ
+## c03-examples  (kind examples; blocks [15])
+   block 15 [examples]: هَذَا بَيْتٌ. This is a house. A full sentence. هَذَا الْبَيْتُ قَرِيبٌ. This house is near. هَذَا الْبَيْتُ is the Topic part. قَرِيبٌ is the Information. تِلْكَ سَيَّارَةٌ. That is a car. A full sentence. تِلْكَ السَّيَّارَةُ جَدِيدَةٌ. That car is new. تِلْكَ السَّيَّارَةُ means "that car".
+   mark:0  هَذَا بَيْتٌ.
+   mark:1  هَذَا الْبَيْتُ قَرِيبٌ.
+   mark:2  هَذَا الْبَيْتُ
+   mark:3  قَرِيبٌ
+   mark:4  تِلْكَ سَيَّارَةٌ.
+   mark:5  تِلْكَ السَّيَّارَةُ جَدِيدَةٌ.
+   mark:6  تِلْكَ السَّيَّارَةُ
+## c03-tips  (kind tips; blocks [16, 17])
+   block 16 [tip]: Tip: To say "this is THE book", put هُوَ or هِيَ in the middle: هَذَا هُوَ الْكِتَابُ ، هَذِهِ هِيَ السَّاعَةُ .
+   block 17 [tip]: Tip: A noun in iḍāfa has no ال , so it makes a sentence: هَذَا بَيْتُ حَامِدٍ "This is Hamid's house." (Madinah lesson 5)
+   mark:0  هُوَ
+   mark:1  هِيَ
+   mark:2  هَذَا هُوَ الْكِتَابُ
+   mark:3  هَذِهِ هِيَ السَّاعَةُ
+   mark:4  ال
+   mark:5  هَذَا بَيْتُ حَامِدٍ
+## c04-title  (kind chapter; blocks [19])
+   block 19 [p]: Choose the pointing word by the noun you point to. Is it near or far? Male or female? One or a group of people?
+## c04-examples  (kind examples; blocks [20])
+   block 20 [examples]: هَذَا قَلَمٌ وَهَذِهِ سَاعَةٌ. This is a pen and this is a watch. قَلَمٌ is masculine, سَاعَةٌ is feminine. ذَلِكَ مَسْجِدٌ وَتِلْكَ مَدْرَسَةٌ. That is a mosque and that is a school. Far: ذَلِكَ for masculine, تِلْكَ for feminine. هَؤُلَاءِ طُلَّابٌ وَأُولَئِكَ رِجَالٌ. These are students and those are men. Groups of people: هَؤُلَاءِ ، أُولَئِكَ . هَذِهِ بِنْتٌ. This is a girl. بِنْتٌ has no ة , but it is feminine. Use هَذِهِ .
+   mark:0  هَذَا قَلَمٌ وَهَذِهِ سَاعَةٌ.
+   mark:1  قَلَمٌ
+   mark:2  سَاعَةٌ
+   mark:3  ذَلِكَ مَسْجِدٌ وَتِلْكَ مَدْرَسَةٌ.
+   mark:4  ذَلِكَ
+   mark:5  تِلْكَ
+   mark:6  هَؤُلَاءِ طُلَّابٌ وَأُولَئِكَ رِجَالٌ.
+   mark:7  هَؤُلَاءِ
+   mark:8  أُولَئِكَ
+   mark:9  هَذِهِ بِنْتٌ.
+   mark:10  بِنْتٌ
+   mark:11  ة
+   mark:12  هَذِهِ
+## c05-title  (kind chapter; blocks [22])
+   block 22 [p]: A pointing word is fixed, but it still has a job. The job gives it a place. The noun after it shows the ending that the pointing word cannot show.
+## c05-examples  (kind examples; blocks [23])
+   block 23 [examples]: هَذَا كِتَابٌ. This is a book. هَذَا is the Topic. Fixed, in the place of rafʿ. دَخَلَ هَذَا الرَّجُلُ الْمَسْجِدَ. This man entered the mosque. هَذَا is the doer. Place of rafʿ. See the damma on الرَّجُلُ . فَتَحَ الطَّالِبُ هَذَا الْبَابَ. The student opened this door. هَذَا is the object. Place of naṣb. See the fatha on الْبَابَ . فِي هَذَا الْبَيْتِ in this house هَذَا comes after a preposition. Place of jarr. See the kasra on الْبَيْتِ . كِتَابُ هَذَا الطَّالِبِ this student's book هَذَا is the owner. Place of jarr.
+   mark:0  هَذَا كِتَابٌ.
+   mark:1  هَذَا
+   mark:2  دَخَلَ هَذَا الرَّجُلُ الْمَسْجِدَ.
+   mark:3  هَذَا
+   mark:4  الرَّجُلُ
+   mark:5  فَتَحَ الطَّالِبُ هَذَا الْبَابَ.
+   mark:6  هَذَا
+   mark:7  الْبَابَ
+   mark:8  فِي هَذَا الْبَيْتِ
+   mark:9  هَذَا
+   mark:10  الْبَيْتِ
+   mark:11  كِتَابُ هَذَا الطَّالِبِ
+   mark:12  هَذَا
+## c05-cols  (kind cols; blocks [24])
+   block 24 [cols]: Place of rafʿ فِي مَحَلِّ رَفْعٍ Topic, Information, doer. Place of naṣb فِي مَحَلِّ نَصْبٍ Object, and the other naṣb jobs. Place of jarr فِي مَحَلِّ جَرٍّ After a preposition, or the owner.
+   mark:0  فِي مَحَلِّ رَفْعٍ
+   mark:1  فِي مَحَلِّ نَصْبٍ
+   mark:2  فِي مَحَلِّ جَرٍّ
+## c06-title  (kind chapter; blocks [])
+## c06-rule  (kind box; blocks [26])
+   block 26 [rule]: The words for "these two" change. هَذَانِ (two males) and هَاتَانِ (two females) are flexible. In naṣb and jarr they become هَذَيْنِ and هَاتَيْنِ . You learn them with the dual in Stage 4.
+   mark:0  هَذَانِ
+   mark:1  هَاتَانِ
+   mark:2  هَذَيْنِ
+   mark:3  هَاتَيْنِ
+## c06-table  (kind table; blocks [27])
+   block 27 [table]: Form Two males Two females Rafʿ هَذَانِ هَاتَانِ Naṣb and jarr هَذَيْنِ هَاتَيْنِ
+   mark:0  هَذَانِ
+   mark:1  هَاتَانِ
+   mark:2  هَذَيْنِ
+   mark:3  هَاتَيْنِ
+## summary  (kind summary; blocks [28])
+   block 28 [summary]: In short Near: هَذَا ، هَذِهِ ، هَؤُلَاءِ . Far: ذَلِكَ ، تِلْكَ ، أُولَئِكَ . Place: هُنَا ، هُنَاكَ . Choose by the noun: near or far, male or female, one or a group of people. هَذَا كِتَابٌ is a sentence. هَذَا الْكِتَابُ is a phrase: "this book". Pointing words are fixed, but they have a place: rafʿ, naṣb or jarr. هَذَانِ and هَاتَانِ are not fixed. They wait for Stage 4.
+   mark:0  هَذَا
+   mark:1  هَذِهِ
+   mark:2  هَؤُلَاءِ
+   mark:3  ذَلِكَ
+   mark:4  تِلْكَ
+   mark:5  أُولَئِكَ
+   mark:6  هُنَا
+   mark:7  هُنَاكَ
+   mark:8  هَذَا كِتَابٌ
+   mark:9  هَذَا الْكِتَابُ
+   mark:10  هَذَانِ
+   mark:11  هَاتَانِ
+## outro-yourturn  (kind yourturn; blocks [])

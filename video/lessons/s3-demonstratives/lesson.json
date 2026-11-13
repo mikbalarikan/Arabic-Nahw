@@ -1,0 +1,541 @@
+{
+ "id": "s3-demonstratives",
+ "stage": 3,
+ "title": "Pointing words",
+ "ar_title": "أَسْمَاءُ الْإِشَارَةِ",
+ "blurb": "This, that, these and those: learn the table, then use the words in sentences.",
+ "tabs": [
+  "Lesson",
+  "Practice"
+ ],
+ "sources": [
+  "content/stage3/u3_demonstratives.py"
+ ],
+ "roles": {},
+ "hero": {
+  "t": "hero",
+  "eyebrow": "STAGE 3 · UNIT 3",
+  "title": "This, that, these, those",
+  "text": "A pointing word shows which thing or person you mean. It is fixed: its last letter never changes.",
+  "wm": "هَذَا"
+ },
+ "hero_html": "<div class=\"hero\"><div class=\"eyebrow\">STAGE 3 · UNIT 3</div><h1>This, that, these, those</h1><p>A pointing word shows which thing or person you mean. It is fixed: its last letter never changes.</p><div class=\"wm\" aria-hidden=\"true\">هَذَا</div></div>",
+ "sections": [
+  {
+   "num": 1,
+   "title": "The table to learn",
+   "title_text": "The table to learn",
+   "blocks": [
+    {
+     "i": 2,
+     "t": "p",
+     "src": {
+      "t": "p",
+      "text": "Arabic has a word for near things and a word for far things. Each one also changes for male, female and plural."
+     },
+     "html": "<p class=\"s0p\">Arabic has a word for near things and a word for far things. Each one also changes for male, female and plural.</p>",
+     "text": "Arabic has a word for near things and a word for far things. Each one also changes for male, female and plural."
+    },
+    {
+     "i": 3,
+     "t": "table",
+     "src": {
+      "t": "table",
+      "head": [
+       "",
+       "One male or thing",
+       "One female or thing",
+       "Plural (people)"
+      ],
+      "rows": [
+       [
+        "Near",
+        "{هَذَا} this",
+        "{هَذِهِ} this",
+        "{هَؤُلَاءِ} these"
+       ],
+       [
+        "Far",
+        "{ذَلِكَ} that",
+        "{تِلْكَ} that",
+        "{أُولَئِكَ} those"
+       ]
+      ]
+     },
+     "html": "<div class=\"tblwrap\"><table class=\"glance s0t\"><tr><th></th><th>One male or thing</th><th>One female or thing</th><th>Plural (people)</th></tr><tr><td class=\"\">Near</td><td class=\"\"><bdi class=\"ab\">هَذَا</bdi> this</td><td class=\"\"><bdi class=\"ab\">هَذِهِ</bdi> this</td><td class=\"\"><bdi class=\"ab\">هَؤُلَاءِ</bdi> these</td></tr><tr><td class=\"\">Far</td><td class=\"\"><bdi class=\"ab\">ذَلِكَ</bdi> that</td><td class=\"\"><bdi class=\"ab\">تِلْكَ</bdi> that</td><td class=\"\"><bdi class=\"ab\">أُولَئِكَ</bdi> those</td></tr></table></div>",
+     "text": "One male or thing One female or thing Plural (people) Near هَذَا this هَذِهِ this هَؤُلَاءِ these Far ذَلِكَ that تِلْكَ that أُولَئِكَ those"
+    },
+    {
+     "i": 4,
+     "t": "words",
+     "src": {
+      "t": "words",
+      "items": [
+       {
+        "ar": "هُنَا",
+        "label": "hunā",
+        "sub": "here",
+        "color": "teal"
+       },
+       {
+        "ar": "هُنَاكَ",
+        "label": "hunāka",
+        "sub": "there",
+        "color": "teal"
+       }
+      ]
+     },
+     "html": "<div class=\"wtiles\"><div class=\"wt0\" style=\"border-color:#0f9d9a;background:#dcf4f3\"><div class=\"wta\">هُنَا</div><div class=\"wtl\" style=\"color:#0a7471\">hunā</div><div class=\"wts\">here</div></div><div class=\"wt0\" style=\"border-color:#0f9d9a;background:#dcf4f3\"><div class=\"wta\">هُنَاكَ</div><div class=\"wtl\" style=\"color:#0a7471\">hunāka</div><div class=\"wts\">there</div></div></div>",
+     "text": "هُنَا hunā here هُنَاكَ hunāka there"
+    },
+    {
+     "i": 5,
+     "t": "p",
+     "src": {
+      "t": "p",
+      "text": "{هُنَا} and {هُنَاكَ} point to a place. Madinah lesson 5: {هُوَ تَحْتَ الْمَكْتَبِ هُنَاكَ} \"It is under the desk, over there.\""
+     },
+     "html": "<p class=\"s0p\"><bdi class=\"ab\">هُنَا</bdi> and <bdi class=\"ab\">هُنَاكَ</bdi> point to a place. Madinah lesson 5: <bdi class=\"ab\">هُوَ تَحْتَ الْمَكْتَبِ هُنَاكَ</bdi> &quot;It is under the desk, over there.&quot;</p>",
+     "text": "هُنَا and هُنَاكَ point to a place. Madinah lesson 5: هُوَ تَحْتَ الْمَكْتَبِ هُنَاكَ \"It is under the desk, over there.\""
+    },
+    {
+     "i": 6,
+     "t": "rule",
+     "src": {
+      "t": "rule",
+      "color": "teal",
+      "title": "Learn the last vowel too",
+      "text": "{هَذَا} ends in alif, {هَذِهِ} and {هَؤُلَاءِ} in kasra, {ذَلِكَ}، {تِلْكَ}، {أُولَئِكَ} and {هُنَاكَ} in fatha. These endings never change."
+     },
+     "html": "<div class=\"rbox\" style=\"border-color:#0f9d9a;background:#dcf4f3\"><b style=\"color:#0a7471\">Learn the last vowel too.</b> <bdi class=\"ab\">هَذَا</bdi> ends in alif, <bdi class=\"ab\">هَذِهِ</bdi> and <bdi class=\"ab\">هَؤُلَاءِ</bdi> in kasra, <bdi class=\"ab\">ذَلِكَ</bdi>، <bdi class=\"ab\">تِلْكَ</bdi>، <bdi class=\"ab\">أُولَئِكَ</bdi> and <bdi class=\"ab\">هُنَاكَ</bdi> in fatha. These endings never change.</div>",
+     "text": "Learn the last vowel too. هَذَا ends in alif, هَذِهِ and هَؤُلَاءِ in kasra, ذَلِكَ ، تِلْكَ ، أُولَئِكَ and هُنَاكَ in fatha. These endings never change."
+    },
+    {
+     "i": 7,
+     "t": "tip",
+     "src": {
+      "t": "tip",
+      "text": "{هَؤُلَاءِ} and {أُولَئِكَ} are for groups of people, male or female: {هَؤُلَاءِ طُلَّابٌ}، {هَؤُلَاءِ نِسَاءٌ}. For plural things Arabic normally uses {هَذِهِ}: {هَذِهِ كُتُبٌ} \"these are books\"."
+     },
+     "html": "<div class=\"tipbox\"><b>Tip:</b> <bdi class=\"ab\">هَؤُلَاءِ</bdi> and <bdi class=\"ab\">أُولَئِكَ</bdi> are for groups of people, male or female: <bdi class=\"ab\">هَؤُلَاءِ طُلَّابٌ</bdi>، <bdi class=\"ab\">هَؤُلَاءِ نِسَاءٌ</bdi>. For plural things Arabic normally uses <bdi class=\"ab\">هَذِهِ</bdi>: <bdi class=\"ab\">هَذِهِ كُتُبٌ</bdi> &quot;these are books&quot;.</div>",
+     "text": "Tip: هَؤُلَاءِ and أُولَئِكَ are for groups of people, male or female: هَؤُلَاءِ طُلَّابٌ ، هَؤُلَاءِ نِسَاءٌ . For plural things Arabic normally uses هَذِهِ : هَذِهِ كُتُبٌ \"these are books\"."
+    }
+   ]
+  },
+  {
+   "num": 2,
+   "title": "Reading tips: hidden and extra letters",
+   "title_text": "Reading tips: hidden and extra letters",
+   "blocks": [
+    {
+     "i": 9,
+     "t": "p",
+     "src": {
+      "t": "p",
+      "text": "Some pointing words are not read exactly as they are written. The Qur'an shows the hidden alif with a small alif on top: {هٰذَا}."
+     },
+     "html": "<p class=\"s0p\">Some pointing words are not read exactly as they are written. The Qur&#x27;an shows the hidden alif with a small alif on top: <bdi class=\"ab\">هٰذَا</bdi>.</p>",
+     "text": "Some pointing words are not read exactly as they are written. The Qur'an shows the hidden alif with a small alif on top: هٰذَا ."
+    },
+    {
+     "i": 10,
+     "t": "table",
+     "src": {
+      "t": "table",
+      "head": [
+       "Written",
+       "Said",
+       "Why"
+      ],
+      "rows": [
+       [
+        "هَذَا",
+        "hādhā",
+        "A long ā after {هـ} is said but not written."
+       ],
+       [
+        "هَذِهِ",
+        "hādhihi",
+        "The same hidden ā after {هـ}."
+       ],
+       [
+        "هَؤُلَاءِ",
+        "hāʾulāʾi",
+        "The same hidden ā after {هـ}."
+       ],
+       [
+        "ذَلِكَ",
+        "dhālika",
+        "A long ā after {ذ} is said but not written."
+       ],
+       [
+        "أُولَئِكَ",
+        "ulāʾika",
+        "The {و} is written but not read. A long ā after {ل} is said but not written."
+       ]
+      ]
+     },
+     "html": "<div class=\"tblwrap\"><table class=\"glance s0t\"><tr><th>Written</th><th>Said</th><th>Why</th></tr><tr><td class=\"tar\">هَذَا</td><td class=\"\">hādhā</td><td class=\"\">A long ā after <bdi class=\"ab\">هـ</bdi> is said but not written.</td></tr><tr><td class=\"tar\">هَذِهِ</td><td class=\"\">hādhihi</td><td class=\"\">The same hidden ā after <bdi class=\"ab\">هـ</bdi>.</td></tr><tr><td class=\"tar\">هَؤُلَاءِ</td><td class=\"\">hāʾulāʾi</td><td class=\"\">The same hidden ā after <bdi class=\"ab\">هـ</bdi>.</td></tr><tr><td class=\"tar\">ذَلِكَ</td><td class=\"\">dhālika</td><td class=\"\">A long ā after <bdi class=\"ab\">ذ</bdi> is said but not written.</td></tr><tr><td class=\"tar\">أُولَئِكَ</td><td class=\"\">ulāʾika</td><td class=\"\">The <bdi class=\"ab\">و</bdi> is written but not read. A long ā after <bdi class=\"ab\">ل</bdi> is said but not written.</td></tr></table></div>",
+     "text": "Written Said Why هَذَا hādhā A long ā after هـ is said but not written. هَذِهِ hādhihi The same hidden ā after هـ . هَؤُلَاءِ hāʾulāʾi The same hidden ā after هـ . ذَلِكَ dhālika A long ā after ذ is said but not written. أُولَئِكَ ulāʾika The و is written but not read. A long ā after ل is said but not written."
+    },
+    {
+     "i": 11,
+     "t": "tip",
+     "src": {
+      "t": "tip",
+      "text": "Do not write the hidden alif yourself. {هَاذَا} and {ذَالِكَ} are spelling mistakes."
+     },
+     "html": "<div class=\"tipbox\"><b>Tip:</b> Do not write the hidden alif yourself. <bdi class=\"ab\">هَاذَا</bdi> and <bdi class=\"ab\">ذَالِكَ</bdi> are spelling mistakes.</div>",
+     "text": "Tip: Do not write the hidden alif yourself. هَاذَا and ذَالِكَ are spelling mistakes."
+    }
+   ]
+  },
+  {
+   "num": 3,
+   "title": "&quot;This is a book&quot; or &quot;this book&quot;?",
+   "title_text": "\"This is a book\" or \"this book\"?",
+   "blocks": [
+    {
+     "i": 13,
+     "t": "p",
+     "src": {
+      "t": "p",
+      "text": "Look at the noun after the pointing word. Does it have {ال}?"
+     },
+     "html": "<p class=\"s0p\">Look at the noun after the pointing word. Does it have <bdi class=\"ab\">ال</bdi>?</p>",
+     "text": "Look at the noun after the pointing word. Does it have ال ?"
+    },
+    {
+     "i": 14,
+     "t": "cols",
+     "src": {
+      "t": "cols",
+      "items": [
+       {
+        "color": "gold",
+        "title": "No ال: a sentence",
+        "ar": "هَذَا كِتَابٌ",
+        "text": "\"This is a book.\" {هَذَا} is the Topic and {كِتَابٌ} is the Information."
+       },
+       {
+        "color": "teal",
+        "title": "With ال: a phrase",
+        "ar": "هَذَا الْكِتَابُ",
+        "text": "\"this book\". It is not finished yet. Add Information: {هَذَا الْكِتَابُ جَدِيدٌ}."
+       }
+      ]
+     },
+     "html": "<div class=\"kkgrid s0cols\"><div class=\"kk\" style=\"border-left-color:#e0a10b;background:#fff5d6\"><div class=\"kkt\"><span style=\"color:#a87805\"><span class=\"dot\" style=\"background:#e0a10b\"></span>No ال: a sentence</span><span class=\"kkar\">هَذَا كِتَابٌ</span></div><div class=\"kkd\">&quot;This is a book.&quot; <bdi class=\"ab\">هَذَا</bdi> is the Topic and <bdi class=\"ab\">كِتَابٌ</bdi> is the Information.</div></div><div class=\"kk\" style=\"border-left-color:#0f9d9a;background:#dcf4f3\"><div class=\"kkt\"><span style=\"color:#0a7471\"><span class=\"dot\" style=\"background:#0f9d9a\"></span>With ال: a phrase</span><span class=\"kkar\">هَذَا الْكِتَابُ</span></div><div class=\"kkd\">&quot;this book&quot;. It is not finished yet. Add Information: <bdi class=\"ab\">هَذَا الْكِتَابُ جَدِيدٌ</bdi>.</div></div></div>",
+     "text": "No ال: a sentence هَذَا كِتَابٌ \"This is a book.\" هَذَا is the Topic and كِتَابٌ is the Information. With ال: a phrase هَذَا الْكِتَابُ \"this book\". It is not finished yet. Add Information: هَذَا الْكِتَابُ جَدِيدٌ ."
+    },
+    {
+     "i": 15,
+     "t": "examples",
+     "src": {
+      "t": "examples",
+      "items": [
+       {
+        "ar": "هَذَا بَيْتٌ.",
+        "en": "This is a house.",
+        "note": "A full sentence."
+       },
+       {
+        "ar": "هَذَا الْبَيْتُ قَرِيبٌ.",
+        "en": "This house is near.",
+        "note": "{هَذَا الْبَيْتُ} is the Topic part. {قَرِيبٌ} is the Information."
+       },
+       {
+        "ar": "تِلْكَ سَيَّارَةٌ.",
+        "en": "That is a car.",
+        "note": "A full sentence."
+       },
+       {
+        "ar": "تِلْكَ السَّيَّارَةُ جَدِيدَةٌ.",
+        "en": "That car is new.",
+        "note": "{تِلْكَ السَّيَّارَةُ} means \"that car\"."
+       }
+      ]
+     },
+     "html": "<div class=\"exlist\"><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">هَذَا بَيْتٌ.</div><div class=\"exe\">This is a house.<div class=\"exn\">A full sentence.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">هَذَا الْبَيْتُ قَرِيبٌ.</div><div class=\"exe\">This house is near.<div class=\"exn\"><bdi class=\"ab\">هَذَا الْبَيْتُ</bdi> is the Topic part. <bdi class=\"ab\">قَرِيبٌ</bdi> is the Information.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">تِلْكَ سَيَّارَةٌ.</div><div class=\"exe\">That is a car.<div class=\"exn\">A full sentence.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">تِلْكَ السَّيَّارَةُ جَدِيدَةٌ.</div><div class=\"exe\">That car is new.<div class=\"exn\"><bdi class=\"ab\">تِلْكَ السَّيَّارَةُ</bdi> means &quot;that car&quot;.</div></div></div></div>",
+     "text": "هَذَا بَيْتٌ. This is a house. A full sentence. هَذَا الْبَيْتُ قَرِيبٌ. This house is near. هَذَا الْبَيْتُ is the Topic part. قَرِيبٌ is the Information. تِلْكَ سَيَّارَةٌ. That is a car. A full sentence. تِلْكَ السَّيَّارَةُ جَدِيدَةٌ. That car is new. تِلْكَ السَّيَّارَةُ means \"that car\"."
+    },
+    {
+     "i": 16,
+     "t": "tip",
+     "src": {
+      "t": "tip",
+      "text": "To say \"this is THE book\", put {هُوَ} or {هِيَ} in the middle: {هَذَا هُوَ الْكِتَابُ}، {هَذِهِ هِيَ السَّاعَةُ}."
+     },
+     "html": "<div class=\"tipbox\"><b>Tip:</b> To say &quot;this is THE book&quot;, put <bdi class=\"ab\">هُوَ</bdi> or <bdi class=\"ab\">هِيَ</bdi> in the middle: <bdi class=\"ab\">هَذَا هُوَ الْكِتَابُ</bdi>، <bdi class=\"ab\">هَذِهِ هِيَ السَّاعَةُ</bdi>.</div>",
+     "text": "Tip: To say \"this is THE book\", put هُوَ or هِيَ in the middle: هَذَا هُوَ الْكِتَابُ ، هَذِهِ هِيَ السَّاعَةُ ."
+    },
+    {
+     "i": 17,
+     "t": "tip",
+     "src": {
+      "t": "tip",
+      "text": "A noun in iḍāfa has no {ال}, so it makes a sentence: {هَذَا بَيْتُ حَامِدٍ} \"This is Hamid's house.\" (Madinah lesson 5)"
+     },
+     "html": "<div class=\"tipbox\"><b>Tip:</b> A noun in iḍāfa has no <bdi class=\"ab\">ال</bdi>, so it makes a sentence: <bdi class=\"ab\">هَذَا بَيْتُ حَامِدٍ</bdi> &quot;This is Hamid&#x27;s house.&quot; (Madinah lesson 5)</div>",
+     "text": "Tip: A noun in iḍāfa has no ال , so it makes a sentence: هَذَا بَيْتُ حَامِدٍ \"This is Hamid's house.\" (Madinah lesson 5)"
+    }
+   ]
+  },
+  {
+   "num": 4,
+   "title": "هَذَا or هَذِهِ? Follow the noun",
+   "title_text": "هَذَا or هَذِهِ? Follow the noun",
+   "blocks": [
+    {
+     "i": 19,
+     "t": "p",
+     "src": {
+      "t": "p",
+      "text": "Choose the pointing word by the noun you point to. Is it near or far? Male or female? One or a group of people?"
+     },
+     "html": "<p class=\"s0p\">Choose the pointing word by the noun you point to. Is it near or far? Male or female? One or a group of people?</p>",
+     "text": "Choose the pointing word by the noun you point to. Is it near or far? Male or female? One or a group of people?"
+    },
+    {
+     "i": 20,
+     "t": "examples",
+     "src": {
+      "t": "examples",
+      "items": [
+       {
+        "ar": "هَذَا قَلَمٌ وَهَذِهِ سَاعَةٌ.",
+        "en": "This is a pen and this is a watch.",
+        "note": "{قَلَمٌ} is masculine, {سَاعَةٌ} is feminine."
+       },
+       {
+        "ar": "ذَلِكَ مَسْجِدٌ وَتِلْكَ مَدْرَسَةٌ.",
+        "en": "That is a mosque and that is a school.",
+        "note": "Far: {ذَلِكَ} for masculine, {تِلْكَ} for feminine."
+       },
+       {
+        "ar": "هَؤُلَاءِ طُلَّابٌ وَأُولَئِكَ رِجَالٌ.",
+        "en": "These are students and those are men.",
+        "note": "Groups of people: {هَؤُلَاءِ}، {أُولَئِكَ}."
+       },
+       {
+        "ar": "هَذِهِ بِنْتٌ.",
+        "en": "This is a girl.",
+        "note": "{بِنْتٌ} has no {ة}, but it is feminine. Use {هَذِهِ}."
+       }
+      ]
+     },
+     "html": "<div class=\"exlist\"><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">هَذَا قَلَمٌ وَهَذِهِ سَاعَةٌ.</div><div class=\"exe\">This is a pen and this is a watch.<div class=\"exn\"><bdi class=\"ab\">قَلَمٌ</bdi> is masculine, <bdi class=\"ab\">سَاعَةٌ</bdi> is feminine.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">ذَلِكَ مَسْجِدٌ وَتِلْكَ مَدْرَسَةٌ.</div><div class=\"exe\">That is a mosque and that is a school.<div class=\"exn\">Far: <bdi class=\"ab\">ذَلِكَ</bdi> for masculine, <bdi class=\"ab\">تِلْكَ</bdi> for feminine.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">هَؤُلَاءِ طُلَّابٌ وَأُولَئِكَ رِجَالٌ.</div><div class=\"exe\">These are students and those are men.<div class=\"exn\">Groups of people: <bdi class=\"ab\">هَؤُلَاءِ</bdi>، <bdi class=\"ab\">أُولَئِكَ</bdi>.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">هَذِهِ بِنْتٌ.</div><div class=\"exe\">This is a girl.<div class=\"exn\"><bdi class=\"ab\">بِنْتٌ</bdi> has no <bdi class=\"ab\">ة</bdi>, but it is feminine. Use <bdi class=\"ab\">هَذِهِ</bdi>.</div></div></div></div>",
+     "text": "هَذَا قَلَمٌ وَهَذِهِ سَاعَةٌ. This is a pen and this is a watch. قَلَمٌ is masculine, سَاعَةٌ is feminine. ذَلِكَ مَسْجِدٌ وَتِلْكَ مَدْرَسَةٌ. That is a mosque and that is a school. Far: ذَلِكَ for masculine, تِلْكَ for feminine. هَؤُلَاءِ طُلَّابٌ وَأُولَئِكَ رِجَالٌ. These are students and those are men. Groups of people: هَؤُلَاءِ ، أُولَئِكَ . هَذِهِ بِنْتٌ. This is a girl. بِنْتٌ has no ة , but it is feminine. Use هَذِهِ ."
+    }
+   ]
+  },
+  {
+   "num": 5,
+   "title": "Its place in the sentence",
+   "title_text": "Its place in the sentence",
+   "blocks": [
+    {
+     "i": 22,
+     "t": "p",
+     "src": {
+      "t": "p",
+      "text": "A pointing word is fixed, but it still has a job. The job gives it a place. The noun after it shows the ending that the pointing word cannot show."
+     },
+     "html": "<p class=\"s0p\">A pointing word is fixed, but it still has a job. The job gives it a place. The noun after it shows the ending that the pointing word cannot show.</p>",
+     "text": "A pointing word is fixed, but it still has a job. The job gives it a place. The noun after it shows the ending that the pointing word cannot show."
+    },
+    {
+     "i": 23,
+     "t": "examples",
+     "src": {
+      "t": "examples",
+      "items": [
+       {
+        "ar": "هَذَا كِتَابٌ.",
+        "en": "This is a book.",
+        "note": "{هَذَا} is the Topic. Fixed, in the place of rafʿ."
+       },
+       {
+        "ar": "دَخَلَ هَذَا الرَّجُلُ الْمَسْجِدَ.",
+        "en": "This man entered the mosque.",
+        "note": "{هَذَا} is the doer. Place of rafʿ. See the damma on {الرَّجُلُ}."
+       },
+       {
+        "ar": "فَتَحَ الطَّالِبُ هَذَا الْبَابَ.",
+        "en": "The student opened this door.",
+        "note": "{هَذَا} is the object. Place of naṣb. See the fatha on {الْبَابَ}."
+       },
+       {
+        "ar": "فِي هَذَا الْبَيْتِ",
+        "en": "in this house",
+        "note": "{هَذَا} comes after a preposition. Place of jarr. See the kasra on {الْبَيْتِ}."
+       },
+       {
+        "ar": "كِتَابُ هَذَا الطَّالِبِ",
+        "en": "this student's book",
+        "note": "{هَذَا} is the owner. Place of jarr."
+       }
+      ]
+     },
+     "html": "<div class=\"exlist\"><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">هَذَا كِتَابٌ.</div><div class=\"exe\">This is a book.<div class=\"exn\"><bdi class=\"ab\">هَذَا</bdi> is the Topic. Fixed, in the place of rafʿ.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">دَخَلَ هَذَا الرَّجُلُ الْمَسْجِدَ.</div><div class=\"exe\">This man entered the mosque.<div class=\"exn\"><bdi class=\"ab\">هَذَا</bdi> is the doer. Place of rafʿ. See the damma on <bdi class=\"ab\">الرَّجُلُ</bdi>.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">فَتَحَ الطَّالِبُ هَذَا الْبَابَ.</div><div class=\"exe\">The student opened this door.<div class=\"exn\"><bdi class=\"ab\">هَذَا</bdi> is the object. Place of naṣb. See the fatha on <bdi class=\"ab\">الْبَابَ</bdi>.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">فِي هَذَا الْبَيْتِ</div><div class=\"exe\">in this house<div class=\"exn\"><bdi class=\"ab\">هَذَا</bdi> comes after a preposition. Place of jarr. See the kasra on <bdi class=\"ab\">الْبَيْتِ</bdi>.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">كِتَابُ هَذَا الطَّالِبِ</div><div class=\"exe\">this student&#x27;s book<div class=\"exn\"><bdi class=\"ab\">هَذَا</bdi> is the owner. Place of jarr.</div></div></div></div>",
+     "text": "هَذَا كِتَابٌ. This is a book. هَذَا is the Topic. Fixed, in the place of rafʿ. دَخَلَ هَذَا الرَّجُلُ الْمَسْجِدَ. This man entered the mosque. هَذَا is the doer. Place of rafʿ. See the damma on الرَّجُلُ . فَتَحَ الطَّالِبُ هَذَا الْبَابَ. The student opened this door. هَذَا is the object. Place of naṣb. See the fatha on الْبَابَ . فِي هَذَا الْبَيْتِ in this house هَذَا comes after a preposition. Place of jarr. See the kasra on الْبَيْتِ . كِتَابُ هَذَا الطَّالِبِ this student's book هَذَا is the owner. Place of jarr."
+    },
+    {
+     "i": 24,
+     "t": "cols",
+     "src": {
+      "t": "cols",
+      "items": [
+       {
+        "color": "red",
+        "title": "Place of rafʿ",
+        "ar": "فِي مَحَلِّ رَفْعٍ",
+        "text": "Topic, Information, doer."
+       },
+       {
+        "color": "pink",
+        "title": "Place of naṣb",
+        "ar": "فِي مَحَلِّ نَصْبٍ",
+        "text": "Object, and the other naṣb jobs."
+       },
+       {
+        "color": "green",
+        "title": "Place of jarr",
+        "ar": "فِي مَحَلِّ جَرٍّ",
+        "text": "After a preposition, or the owner."
+       }
+      ]
+     },
+     "html": "<div class=\"kkgrid s0cols\"><div class=\"kk\" style=\"border-left-color:#e04a3a;background:#fde7e4\"><div class=\"kkt\"><span style=\"color:#b8322a\"><span class=\"dot\" style=\"background:#e04a3a\"></span>Place of rafʿ</span><span class=\"kkar\">فِي مَحَلِّ رَفْعٍ</span></div><div class=\"kkd\">Topic, Information, doer.</div></div><div class=\"kk\" style=\"border-left-color:#d63384;background:#fde6f1\"><div class=\"kkt\"><span style=\"color:#a61e62\"><span class=\"dot\" style=\"background:#d63384\"></span>Place of naṣb</span><span class=\"kkar\">فِي مَحَلِّ نَصْبٍ</span></div><div class=\"kkd\">Object, and the other naṣb jobs.</div></div><div class=\"kk\" style=\"border-left-color:#22a05a;background:#e2f5e9\"><div class=\"kkt\"><span style=\"color:#17803f\"><span class=\"dot\" style=\"background:#22a05a\"></span>Place of jarr</span><span class=\"kkar\">فِي مَحَلِّ جَرٍّ</span></div><div class=\"kkd\">After a preposition, or the owner.</div></div></div>",
+     "text": "Place of rafʿ فِي مَحَلِّ رَفْعٍ Topic, Information, doer. Place of naṣb فِي مَحَلِّ نَصْبٍ Object, and the other naṣb jobs. Place of jarr فِي مَحَلِّ جَرٍّ After a preposition, or the owner."
+    }
+   ]
+  },
+  {
+   "num": 6,
+   "title": "Not fixed: هَذَانِ and هَاتَانِ",
+   "title_text": "Not fixed: هَذَانِ and هَاتَانِ",
+   "blocks": [
+    {
+     "i": 26,
+     "t": "rule",
+     "src": {
+      "t": "rule",
+      "color": "orange",
+      "title": "The words for \"these two\" change",
+      "text": "{هَذَانِ} (two males) and {هَاتَانِ} (two females) are flexible. In naṣb and jarr they become {هَذَيْنِ} and {هَاتَيْنِ}. You learn them with the dual in Stage 4."
+     },
+     "html": "<div class=\"rbox\" style=\"border-color:#ea7a10;background:#fff0df\"><b style=\"color:#b05705\">The words for &quot;these two&quot; change.</b> <bdi class=\"ab\">هَذَانِ</bdi> (two males) and <bdi class=\"ab\">هَاتَانِ</bdi> (two females) are flexible. In naṣb and jarr they become <bdi class=\"ab\">هَذَيْنِ</bdi> and <bdi class=\"ab\">هَاتَيْنِ</bdi>. You learn them with the dual in Stage 4.</div>",
+     "text": "The words for \"these two\" change. هَذَانِ (two males) and هَاتَانِ (two females) are flexible. In naṣb and jarr they become هَذَيْنِ and هَاتَيْنِ . You learn them with the dual in Stage 4."
+    },
+    {
+     "i": 27,
+     "t": "table",
+     "src": {
+      "t": "table",
+      "head": [
+       "Form",
+       "Two males",
+       "Two females"
+      ],
+      "rows": [
+       [
+        "Rafʿ",
+        "هَذَانِ",
+        "هَاتَانِ"
+       ],
+       [
+        "Naṣb and jarr",
+        "هَذَيْنِ",
+        "هَاتَيْنِ"
+       ]
+      ]
+     },
+     "html": "<div class=\"tblwrap\"><table class=\"glance s0t\"><tr><th>Form</th><th>Two males</th><th>Two females</th></tr><tr><td class=\"\">Rafʿ</td><td class=\"tar\">هَذَانِ</td><td class=\"tar\">هَاتَانِ</td></tr><tr><td class=\"\">Naṣb and jarr</td><td class=\"tar\">هَذَيْنِ</td><td class=\"tar\">هَاتَيْنِ</td></tr></table></div>",
+     "text": "Form Two males Two females Rafʿ هَذَانِ هَاتَانِ Naṣb and jarr هَذَيْنِ هَاتَيْنِ"
+    },
+    {
+     "i": 28,
+     "t": "summary",
+     "src": {
+      "t": "summary",
+      "title": "In short",
+      "items": [
+       "Near: {هَذَا}، {هَذِهِ}، {هَؤُلَاءِ}. Far: {ذَلِكَ}، {تِلْكَ}، {أُولَئِكَ}. Place: {هُنَا}، {هُنَاكَ}.",
+       "Choose by the noun: near or far, male or female, one or a group of people.",
+       "{هَذَا كِتَابٌ} is a sentence. {هَذَا الْكِتَابُ} is a phrase: \"this book\".",
+       "Pointing words are fixed, but they have a place: rafʿ, naṣb or jarr.",
+       "{هَذَانِ} and {هَاتَانِ} are not fixed. They wait for Stage 4."
+      ]
+     },
+     "html": "<div class=\"three\"><h3>In short</h3><ol><li>Near: <bdi class=\"ab\">هَذَا</bdi>، <bdi class=\"ab\">هَذِهِ</bdi>، <bdi class=\"ab\">هَؤُلَاءِ</bdi>. Far: <bdi class=\"ab\">ذَلِكَ</bdi>، <bdi class=\"ab\">تِلْكَ</bdi>، <bdi class=\"ab\">أُولَئِكَ</bdi>. Place: <bdi class=\"ab\">هُنَا</bdi>، <bdi class=\"ab\">هُنَاكَ</bdi>.</li><li>Choose by the noun: near or far, male or female, one or a group of people.</li><li><bdi class=\"ab\">هَذَا كِتَابٌ</bdi> is a sentence. <bdi class=\"ab\">هَذَا الْكِتَابُ</bdi> is a phrase: &quot;this book&quot;.</li><li>Pointing words are fixed, but they have a place: rafʿ, naṣb or jarr.</li><li><bdi class=\"ab\">هَذَانِ</bdi> and <bdi class=\"ab\">هَاتَانِ</bdi> are not fixed. They wait for Stage 4.</li></ol></div>",
+     "text": "In short Near: هَذَا ، هَذِهِ ، هَؤُلَاءِ . Far: ذَلِكَ ، تِلْكَ ، أُولَئِكَ . Place: هُنَا ، هُنَاكَ . Choose by the noun: near or far, male or female, one or a group of people. هَذَا كِتَابٌ is a sentence. هَذَا الْكِتَابُ is a phrase: \"this book\". Pointing words are fixed, but they have a place: rafʿ, naṣb or jarr. هَذَانِ and هَاتَانِ are not fixed. They wait for Stage 4."
+    }
+   ]
+  }
+ ],
+ "practice_cards": [
+  {
+   "n": "P1",
+   "title": "Choose the pointing word",
+   "rows": 6
+  },
+  {
+   "n": "P2",
+   "title": "Near or far? Who for?",
+   "rows": 6
+  },
+  {
+   "n": "P3",
+   "title": "Sentence or phrase?",
+   "rows": 5
+  },
+  {
+   "n": "P4",
+   "title": "What does it mean?",
+   "rows": 5
+  },
+  {
+   "n": "P5",
+   "title": "Fixed or flexible?",
+   "rows": 6
+  },
+  {
+   "n": "P6",
+   "title": "Job and place of the word in [ ]",
+   "rows": 6
+  }
+ ],
+ "homework_cards": [
+  {
+   "n": "H1",
+   "title": "Choose the pointing word",
+   "rows": 6
+  },
+  {
+   "n": "H2",
+   "title": "Sentence or phrase?",
+   "rows": 6
+  },
+  {
+   "n": "H3",
+   "title": "What does it mean?",
+   "rows": 6
+  },
+  {
+   "n": "H4",
+   "title": "Fixed or flexible?",
+   "rows": 6
+  },
+  {
+   "n": "H5",
+   "title": "Job and place of the word in [ ]",
+   "rows": 6
+  },
+  {
+   "n": "H6",
+   "title": "Choose the right spelling",
+   "rows": 5
+  }
+ ]
+}
