@@ -1,0 +1,473 @@
+{
+ "segments": [
+  {
+   "id": "hero-01",
+   "scene": "hero",
+   "lang": "en",
+   "text": "Pronouns that hold on.",
+   "pause": 0.6,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "hero-02",
+   "scene": "hero",
+   "lang": "en",
+   "text": "Some pronouns are written joined to the end of another word.",
+   "pause": 0.4,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "hero-03",
+   "scene": "hero",
+   "lang": "en",
+   "text": "His book.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "hero-04",
+   "scene": "hero",
+   "lang": "ar",
+   "text": "كِتَابُهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُهُ"
+   ]
+  },
+  {
+   "id": "hero-05",
+   "scene": "hero",
+   "lang": "en",
+   "text": "On it.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "hero-06",
+   "scene": "hero",
+   "lang": "ar",
+   "text": "عَلَيْهِ",
+   "pause": 0.5,
+   "cues": [
+    "ar:عَلَيْهِ"
+   ]
+  },
+  {
+   "id": "hero-07",
+   "scene": "hero",
+   "lang": "en",
+   "text": "He opened it.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "hero-08",
+   "scene": "hero",
+   "lang": "ar",
+   "text": "فَتَحَهُ",
+   "pause": 0.7,
+   "cues": [
+    "ar:فَتَحَهُ"
+   ]
+  },
+  {
+   "id": "c01-title-01",
+   "scene": "c01-title",
+   "lang": "en",
+   "text": "Chapter one. The twelve attached pronouns.",
+   "pause": 0.6,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c01-intro-01",
+   "scene": "c01-intro",
+   "lang": "en",
+   "text": "An attached pronoun cannot stand alone.",
+   "pause": 0.35,
+   "cues": [
+    "b:0",
+    "hl:cannot stand alone"
+   ]
+  },
+  {
+   "id": "c01-intro-02",
+   "scene": "c01-intro",
+   "lang": "en",
+   "text": "It joins the end of a noun, a preposition or a verb.",
+   "pause": 0.35,
+   "cues": [
+    "hl:a noun, a preposition or a verb"
+   ]
+  },
+  {
+   "id": "c01-intro-03",
+   "scene": "c01-intro",
+   "lang": "en",
+   "text": "Like the separate pronouns, it is fixed.",
+   "pause": 0.6,
+   "cues": [
+    "hl:it is fixed"
+   ]
+  },
+  {
+   "id": "c01-table-01",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "Here are all twelve. Each row shows the pronoun, who it means, the pronoun on a noun, and the English.",
+   "pause": 0.4,
+   "cues": [
+    "b:0"
+   ]
+  },
+  {
+   "id": "c01-table-02",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The pronoun for I, or me. My book.",
+   "pause": 0.4,
+   "cues": [
+    "row:0",
+    "ar:ـي"
+   ]
+  },
+  {
+   "id": "c01-table-03",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "كِتَابِي",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابِي"
+   ]
+  },
+  {
+   "id": "c01-table-04",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The pronoun for we, or us. Our book.",
+   "pause": 0.4,
+   "cues": [
+    "row:1",
+    "ar:ـنَا"
+   ]
+  },
+  {
+   "id": "c01-table-05",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "كِتَابُنَا",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُنَا"
+   ]
+  },
+  {
+   "id": "c01-table-06",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The pronoun for you, one man. Your book.",
+   "pause": 0.4,
+   "cues": [
+    "row:2",
+    "ar:ـكَ"
+   ]
+  },
+  {
+   "id": "c01-table-07",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "كِتَابُكَ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُكَ"
+   ]
+  },
+  {
+   "id": "c01-table-08",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The pronoun for you, one woman. Your book.",
+   "pause": 0.4,
+   "cues": [
+    "row:3",
+    "ar:ـكِ"
+   ]
+  },
+  {
+   "id": "c01-table-09",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "كِتَابُكِ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُكِ"
+   ]
+  },
+  {
+   "id": "c01-table-10",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The pronoun for you, two. Your book.",
+   "pause": 0.4,
+   "cues": [
+    "row:4",
+    "ar:ـكُمَا"
+   ]
+  },
+  {
+   "id": "c01-table-11",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "كِتَابُكُمَا",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُكُمَا"
+   ]
+  },
+  {
+   "id": "c01-table-12",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The pronoun for you, men, or a mixed group. Your book.",
+   "pause": 0.4,
+   "cues": [
+    "row:5",
+    "ar:ـكُمْ"
+   ]
+  },
+  {
+   "id": "c01-table-13",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "كِتَابُكُمْ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُكُمْ"
+   ]
+  },
+  {
+   "id": "c01-table-14",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The pronoun for you, women. Your book.",
+   "pause": 0.4,
+   "cues": [
+    "row:6",
+    "ar:ـكُنَّ"
+   ]
+  },
+  {
+   "id": "c01-table-15",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "كِتَابُكُنَّ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُكُنَّ"
+   ]
+  },
+  {
+   "id": "c01-table-16",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The pronoun for he, or it. His book.",
+   "pause": 0.4,
+   "cues": [
+    "row:7",
+    "ar:ـهُ"
+   ]
+  },
+  {
+   "id": "c01-table-17",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "كِتَابُهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُهُ"
+   ]
+  },
+  {
+   "id": "c01-table-18",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The pronoun for she, or it. Her book.",
+   "pause": 0.4,
+   "cues": [
+    "row:8",
+    "ar:ـهَا"
+   ]
+  },
+  {
+   "id": "c01-table-19",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "كِتَابُهَا",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُهَا"
+   ]
+  },
+  {
+   "id": "c01-table-20",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The pronoun for they, two. Their book.",
+   "pause": 0.4,
+   "cues": [
+    "row:9",
+    "ar:ـهُمَا"
+   ]
+  },
+  {
+   "id": "c01-table-21",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "كِتَابُهُمَا",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُهُمَا"
+   ]
+  },
+  {
+   "id": "c01-table-22",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The pronoun for they, men, or a mixed group. Their book.",
+   "pause": 0.4,
+   "cues": [
+    "row:10",
+    "ar:ـهُمْ"
+   ]
+  },
+  {
+   "id": "c01-table-23",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "كِتَابُهُمْ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُهُمْ"
+   ]
+  },
+  {
+   "id": "c01-table-24",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The pronoun for they, women. Their book.",
+   "pause": 0.4,
+   "cues": [
+    "row:11",
+    "ar:ـهُنَّ"
+   ]
+  },
+  {
+   "id": "c01-table-25",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "كِتَابُهُنَّ",
+   "pause": 0.7,
+   "cues": [
+    "ar:كِتَابُهُنَّ"
+   ]
+  },
+  {
+   "id": "c01-tip-01",
+   "scene": "c01-tip",
+   "lang": "en",
+   "text": "Tip. Compare them with the separate pronouns of unit one.",
+   "pause": 0.4,
+   "cues": [
+    "b:0"
+   ]
+  },
+  {
+   "id": "c01-tip-02",
+   "scene": "c01-tip",
+   "lang": "ar",
+   "text": "أَنْتُمَا",
+   "pause": 0.5,
+   "cues": [
+    "ar:أَنْتُمَا"
+   ]
+  },
+  {
+   "id": "c01-tip-03",
+   "scene": "c01-tip",
+   "lang": "en",
+   "text": "and the attached pronoun for you, two.",
+   "pause": 0.4,
+   "cues": [
+    "ar:ـكُمَا"
+   ]
+  },
+  {
+   "id": "c01-tip-04",
+   "scene": "c01-tip",
+   "lang": "ar",
+   "text": "أَنْتُمْ",
+   "pause": 0.5,
+   "cues": [
+    "ar:أَنْتُمْ"
+   ]
+  },
+  {
+   "id": "c01-tip-05",
+   "scene": "c01-tip",
+   "lang": "en",
+   "text": "and the attached pronoun for you, men or a mixed group.",
+   "pause": 0.4,
+   "cues": [
+    "ar:ـكُمْ"
+   ]
+  },
+  {
+   "id": "c01-tip-06",
+   "scene": "c01-tip",
+   "lang": "ar",
+   "text": "أَنْتُنَّ",
+   "pause": 0.5,
+   "cues": [
+    "ar:أَنْتُنَّ"
+   ]
+  },
+  {
+   "id": "c01-tip-07",
+   "scene": "c01-tip",
+   "lang": "en",
+   "text": "and the attached pronoun for you, women.",
+   "pause": 0.4,
+   "cues": [
+    "ar:ـكُنَّ"
+   ]
+  },
+  {
+   "id": "c01-tip-08",
+   "scene": "c01-tip",
+   "lang": "en",
+   "text": "The family of this pronoun means you.",
+   "pause": 0.35,
+   "cues": [
+    "ar:ـكَ",
+    "hl:family is \"you\""
+   ]
+  },
+  {
+   "id": "c01-tip-09",
+   "scene": "c01-tip",
+   "lang": "en",
+   "text": "The family of this one means he, she and they.",
+   "pause": 0.7,
+   "cues": [
+    "ar:ـهُ",
+    "hl:family is \"he, she, they\""
+   ]
+  }
+ ]
+}

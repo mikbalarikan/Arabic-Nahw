@@ -1,0 +1,476 @@
+{
+ "segments": [
+  {
+   "id": "c02-title-01",
+   "scene": "c02-title",
+   "lang": "en",
+   "text": "Chapter two. On a noun: the owner.",
+   "pause": 0.6,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c02-owner-01",
+   "scene": "c02-owner",
+   "lang": "en",
+   "text": "A pronoun on a noun shows who owns it.",
+   "pause": 0.3,
+   "cues": [
+    "b:0"
+   ]
+  },
+  {
+   "id": "c02-owner-02",
+   "scene": "c02-owner",
+   "lang": "en",
+   "text": "It works like the second word of an iḍāfa.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-owner-03",
+   "scene": "c02-owner",
+   "lang": "en",
+   "text": "Zayd's book.",
+   "pause": 0.4,
+   "cues": [
+    "b:1",
+    "ex:0"
+   ]
+  },
+  {
+   "id": "c02-owner-04",
+   "scene": "c02-owner",
+   "lang": "ar",
+   "text": "كِتَابُ زَيْدٍ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُ زَيْدٍ"
+   ]
+  },
+  {
+   "id": "c02-owner-05",
+   "scene": "c02-owner",
+   "lang": "en",
+   "text": "His book.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-owner-06",
+   "scene": "c02-owner",
+   "lang": "ar",
+   "text": "كِتَابُهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُهُ"
+   ]
+  },
+  {
+   "id": "c02-owner-07",
+   "scene": "c02-owner",
+   "lang": "en",
+   "text": "Zayd is the owner, so it is jarr.",
+   "pause": 0.3,
+   "cues": [
+    "note:0",
+    "ar:زَيْدٍ"
+   ]
+  },
+  {
+   "id": "c02-owner-08",
+   "scene": "c02-owner",
+   "lang": "en",
+   "text": "The pronoun for he takes its job.",
+   "pause": 0.5,
+   "cues": [
+    "ar:ـهُ"
+   ]
+  },
+  {
+   "id": "c02-owner-09",
+   "scene": "c02-owner",
+   "lang": "en",
+   "text": "His book is new.",
+   "pause": 0.4,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c02-owner-10",
+   "scene": "c02-owner",
+   "lang": "ar",
+   "text": "كِتَابُهُ جَدِيدٌ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُهُ جَدِيدٌ"
+   ]
+  },
+  {
+   "id": "c02-owner-11",
+   "scene": "c02-owner",
+   "lang": "en",
+   "text": "The pronoun for he is the owner.",
+   "pause": 0.3,
+   "cues": [
+    "note:1",
+    "ar:ـهُ#2"
+   ]
+  },
+  {
+   "id": "c02-owner-12",
+   "scene": "c02-owner",
+   "lang": "en",
+   "text": "It is fixed, so it does not change its ending. It is in the place of jarr.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-owner-13",
+   "scene": "c02-owner",
+   "lang": "ar",
+   "text": "فِي مَحَلِّ جَرٍّ",
+   "pause": 0.5,
+   "cues": [
+    "ar:فِي مَحَلِّ جَرٍّ"
+   ]
+  },
+  {
+   "id": "c02-owner-14",
+   "scene": "c02-owner",
+   "lang": "en",
+   "text": "Her house is near.",
+   "pause": 0.4,
+   "cues": [
+    "ex:2"
+   ]
+  },
+  {
+   "id": "c02-owner-15",
+   "scene": "c02-owner",
+   "lang": "ar",
+   "text": "بَيْتُهَا قَرِيبٌ",
+   "pause": 0.5,
+   "cues": [
+    "ar:بَيْتُهَا قَرِيبٌ"
+   ]
+  },
+  {
+   "id": "c02-owner-16",
+   "scene": "c02-owner",
+   "lang": "en",
+   "text": "The pronoun for she is the owner, in the place of jarr.",
+   "pause": 0.6,
+   "cues": [
+    "note:2",
+    "ar:ـهَا"
+   ]
+  },
+  {
+   "id": "c02-rule-01",
+   "scene": "c02-rule",
+   "lang": "en",
+   "text": "No al, no tanween.",
+   "pause": 0.35,
+   "cues": [
+    "b:0",
+    "ar:ال",
+    "hl:no tanween"
+   ]
+  },
+  {
+   "id": "c02-rule-02",
+   "scene": "c02-rule",
+   "lang": "en",
+   "text": "A noun with an attached pronoun is the first word of an iḍāfa.",
+   "pause": 0.3,
+   "cues": [
+    "hl:the first word of an iḍāfa"
+   ]
+  },
+  {
+   "id": "c02-rule-03",
+   "scene": "c02-rule",
+   "lang": "en",
+   "text": "So it has no al and no tanween.",
+   "pause": 0.4,
+   "cues": [
+    "ar:ال#2"
+   ]
+  },
+  {
+   "id": "c02-rule-04",
+   "scene": "c02-rule",
+   "lang": "en",
+   "text": "A book,",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-rule-05",
+   "scene": "c02-rule",
+   "lang": "ar",
+   "text": "كِتَابٌ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابٌ"
+   ]
+  },
+  {
+   "id": "c02-rule-06",
+   "scene": "c02-rule",
+   "lang": "en",
+   "text": "becomes his book.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-rule-07",
+   "scene": "c02-rule",
+   "lang": "ar",
+   "text": "كِتَابُهُ",
+   "pause": 0.7,
+   "cues": [
+    "ar:كِتَابُهُ"
+   ]
+  },
+  {
+   "id": "c02-endings-01",
+   "scene": "c02-endings",
+   "lang": "en",
+   "text": "The noun still shows its own ending before the pronoun.",
+   "pause": 0.3,
+   "cues": [
+    "b:0"
+   ]
+  },
+  {
+   "id": "c02-endings-02",
+   "scene": "c02-endings",
+   "lang": "en",
+   "text": "Only the noun is flexible. The pronoun stays the same.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-endings-03",
+   "scene": "c02-endings",
+   "lang": "en",
+   "text": "His book is new.",
+   "pause": 0.4,
+   "cues": [
+    "b:1",
+    "ex:0"
+   ]
+  },
+  {
+   "id": "c02-endings-04",
+   "scene": "c02-endings",
+   "lang": "ar",
+   "text": "كِتَابُهُ جَدِيدٌ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُهُ جَدِيدٌ"
+   ]
+  },
+  {
+   "id": "c02-endings-05",
+   "scene": "c02-endings",
+   "lang": "en",
+   "text": "The word for book is the Topic. It is rafʿ, with damma.",
+   "pause": 0.4,
+   "cues": [
+    "note:0",
+    "ar:كِتَابُ"
+   ]
+  },
+  {
+   "id": "c02-endings-06",
+   "scene": "c02-endings",
+   "lang": "ar",
+   "text": "كِتَابُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُ"
+   ]
+  },
+  {
+   "id": "c02-endings-07",
+   "scene": "c02-endings",
+   "lang": "en",
+   "text": "The student read his book.",
+   "pause": 0.4,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c02-endings-08",
+   "scene": "c02-endings",
+   "lang": "ar",
+   "text": "قَرَأَ الطَّالِبُ كِتَابَهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:قَرَأَ الطَّالِبُ كِتَابَهُ"
+   ]
+  },
+  {
+   "id": "c02-endings-09",
+   "scene": "c02-endings",
+   "lang": "en",
+   "text": "The word for book is the object. It is naṣb, with fatha.",
+   "pause": 0.4,
+   "cues": [
+    "note:1",
+    "ar:كِتَابَ"
+   ]
+  },
+  {
+   "id": "c02-endings-10",
+   "scene": "c02-endings",
+   "lang": "ar",
+   "text": "كِتَابَ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابَ"
+   ]
+  },
+  {
+   "id": "c02-endings-11",
+   "scene": "c02-endings",
+   "lang": "en",
+   "text": "The pen is in his book.",
+   "pause": 0.4,
+   "cues": [
+    "ex:2"
+   ]
+  },
+  {
+   "id": "c02-endings-12",
+   "scene": "c02-endings",
+   "lang": "ar",
+   "text": "القَلَمُ فِي كِتَابِهِ",
+   "pause": 0.5,
+   "cues": [
+    "ar:القَلَمُ فِي كِتَابِهِ"
+   ]
+  },
+  {
+   "id": "c02-endings-13",
+   "scene": "c02-endings",
+   "lang": "en",
+   "text": "The word for book comes after the preposition meaning in. It is jarr, with kasra.",
+   "pause": 0.4,
+   "cues": [
+    "note:2",
+    "ar:كِتَابِ",
+    "ar:فِي"
+   ]
+  },
+  {
+   "id": "c02-endings-14",
+   "scene": "c02-endings",
+   "lang": "ar",
+   "text": "كِتَابِ",
+   "pause": 0.7,
+   "cues": [
+    "ar:كِتَابِ"
+   ]
+  },
+  {
+   "id": "c02-tip-01",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "A spelling tip. Look at a word that ends in this letter.",
+   "pause": 0.3,
+   "cues": [
+    "b:0",
+    "ar:ة"
+   ]
+  },
+  {
+   "id": "c02-tip-02",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "Before a pronoun, it is written as this letter instead.",
+   "pause": 0.4,
+   "cues": [
+    "ar:ت"
+   ]
+  },
+  {
+   "id": "c02-tip-03",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "A car.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-tip-04",
+   "scene": "c02-tip",
+   "lang": "ar",
+   "text": "سَيَّارَةٌ",
+   "pause": 0.5,
+   "cues": [
+    "ar:سَيَّارَةٌ"
+   ]
+  },
+  {
+   "id": "c02-tip-05",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "His car.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-tip-06",
+   "scene": "c02-tip",
+   "lang": "ar",
+   "text": "سَيَّارَتُهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:سَيَّارَتُهُ"
+   ]
+  },
+  {
+   "id": "c02-tip-07",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "A room.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-tip-08",
+   "scene": "c02-tip",
+   "lang": "ar",
+   "text": "غُرْفَةٌ",
+   "pause": 0.5,
+   "cues": [
+    "ar:غُرْفَةٌ"
+   ]
+  },
+  {
+   "id": "c02-tip-09",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "Her room.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-tip-10",
+   "scene": "c02-tip",
+   "lang": "ar",
+   "text": "غُرْفَتُهَا",
+   "pause": 0.7,
+   "cues": [
+    "ar:غُرْفَتُهَا"
+   ]
+  }
+ ]
+}

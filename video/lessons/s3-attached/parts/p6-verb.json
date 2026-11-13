@@ -1,0 +1,374 @@
+{
+ "segments": [
+  {
+   "id": "c06-title-01",
+   "scene": "c06-title",
+   "lang": "en",
+   "text": "Chapter six. On a verb: the object.",
+   "pause": 0.6,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c06-intro-01",
+   "scene": "c06-intro",
+   "lang": "en",
+   "text": "Put one of the twelve pronouns on a past verb or an order verb, and it is the object.",
+   "pause": 0.3,
+   "cues": [
+    "b:0",
+    "hl:is the object"
+   ]
+  },
+  {
+   "id": "c06-intro-02",
+   "scene": "c06-intro",
+   "lang": "en",
+   "text": "The object is naṣb.",
+   "pause": 0.3,
+   "cues": [
+    "hl:The object is naṣb"
+   ]
+  },
+  {
+   "id": "c06-intro-03",
+   "scene": "c06-intro",
+   "lang": "en",
+   "text": "The pronoun is fixed, so it is in the place of naṣb.",
+   "pause": 0.4,
+   "cues": [
+    "hl:in the place of naṣb"
+   ]
+  },
+  {
+   "id": "c06-intro-04",
+   "scene": "c06-intro",
+   "lang": "ar",
+   "text": "فِي مَحَلِّ نَصْبٍ",
+   "pause": 0.7,
+   "cues": [
+    "ar:فِي مَحَلِّ نَصْبٍ"
+   ]
+  },
+  {
+   "id": "c06-ex-01",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "He opened the door.",
+   "pause": 0.4,
+   "cues": [
+    "b:0",
+    "ex:0"
+   ]
+  },
+  {
+   "id": "c06-ex-02",
+   "scene": "c06-ex",
+   "lang": "ar",
+   "text": "فَتَحَ البَابَ",
+   "pause": 0.5,
+   "cues": [
+    "ar:فَتَحَ البَابَ"
+   ]
+  },
+  {
+   "id": "c06-ex-03",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "He opened it.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c06-ex-04",
+   "scene": "c06-ex",
+   "lang": "ar",
+   "text": "فَتَحَهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:فَتَحَهُ"
+   ]
+  },
+  {
+   "id": "c06-ex-05",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "The pronoun for it takes the place of the door.",
+   "pause": 0.4,
+   "cues": [
+    "note:0",
+    "ar:ـهُ"
+   ]
+  },
+  {
+   "id": "c06-ex-06",
+   "scene": "c06-ex",
+   "lang": "ar",
+   "text": "البَابَ",
+   "pause": 0.6,
+   "cues": [
+    "ar:البَابَ"
+   ]
+  },
+  {
+   "id": "c06-ex-07",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "The girl opened it.",
+   "pause": 0.4,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c06-ex-08",
+   "scene": "c06-ex",
+   "lang": "ar",
+   "text": "فَتَحَتْهُ البِنْتُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:فَتَحَتْهُ البِنْتُ"
+   ]
+  },
+  {
+   "id": "c06-ex-09",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "The pronoun comes right after the verb, before the doer.",
+   "pause": 0.6,
+   "cues": [
+    "note:1"
+   ]
+  },
+  {
+   "id": "c06-ex-10",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "The teacher wrote it. It means the letter.",
+   "pause": 0.4,
+   "cues": [
+    "ex:2"
+   ]
+  },
+  {
+   "id": "c06-ex-11",
+   "scene": "c06-ex",
+   "lang": "ar",
+   "text": "كَتَبَهَا المُدَرِّسُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كَتَبَهَا المُدَرِّسُ"
+   ]
+  },
+  {
+   "id": "c06-ex-12",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "In Arabic, the word for a letter you write is feminine. So we use the pronoun for she.",
+   "pause": 0.3,
+   "cues": [
+    "note:2",
+    "ar:ـهَا"
+   ]
+  },
+  {
+   "id": "c06-ex-13",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "It is the object, in the place of naṣb.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c06-ex-14",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "Read the book.",
+   "pause": 0.4,
+   "cues": [
+    "ex:3"
+   ]
+  },
+  {
+   "id": "c06-ex-15",
+   "scene": "c06-ex",
+   "lang": "ar",
+   "text": "اِقْرَأِ الكِتَابَ",
+   "pause": 0.5,
+   "cues": [
+    "ar:اِقْرَأِ الكِتَابَ"
+   ]
+  },
+  {
+   "id": "c06-ex-16",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "Read it.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c06-ex-17",
+   "scene": "c06-ex",
+   "lang": "ar",
+   "text": "اِقْرَأْهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:اِقْرَأْهُ"
+   ]
+  },
+  {
+   "id": "c06-ex-18",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "Before al, the order verb had a small helping kasra, only to make it easy to say. It is not jarr.",
+   "pause": 0.3,
+   "cues": [
+    "note:3"
+   ]
+  },
+  {
+   "id": "c06-ex-19",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "With the pronoun, the order verb keeps its sukūn.",
+   "pause": 0.4,
+   "cues": [
+    "ar:اِقْرَأْ"
+   ]
+  },
+  {
+   "id": "c06-ex-20",
+   "scene": "c06-ex",
+   "lang": "ar",
+   "text": "اِقْرَأْ",
+   "pause": 0.3,
+   "cues": [
+    "ar:اِقْرَأْ"
+   ]
+  },
+  {
+   "id": "c06-ex-21",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "Then the pronoun for it is added.",
+   "pause": 0.6,
+   "cues": [
+    "ar:ـهُ#2"
+   ]
+  },
+  {
+   "id": "c06-ex-22",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "Write it.",
+   "pause": 0.4,
+   "cues": [
+    "ex:4"
+   ]
+  },
+  {
+   "id": "c06-ex-23",
+   "scene": "c06-ex",
+   "lang": "ar",
+   "text": "اُكْتُبْهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:اُكْتُبْهُ"
+   ]
+  },
+  {
+   "id": "c06-ex-24",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "The pronoun for it is the object, in the place of naṣb.",
+   "pause": 0.6,
+   "cues": [
+    "note:4",
+    "ar:ـهُ#3"
+   ]
+  },
+  {
+   "id": "c06-tips-01",
+   "scene": "c06-tips",
+   "lang": "en",
+   "text": "Tip. Past verbs also have endings for the doer.",
+   "pause": 0.3,
+   "cues": [
+    "b:0"
+   ]
+  },
+  {
+   "id": "c06-tips-02",
+   "scene": "c06-tips",
+   "lang": "en",
+   "text": "I,",
+   "pause": 0.2,
+   "cues": [
+    "ar:ـتُ"
+   ]
+  },
+  {
+   "id": "c06-tips-03",
+   "scene": "c06-tips",
+   "lang": "en",
+   "text": "you,",
+   "pause": 0.2,
+   "cues": [
+    "ar:ـتَ"
+   ]
+  },
+  {
+   "id": "c06-tips-04",
+   "scene": "c06-tips",
+   "lang": "en",
+   "text": "and we.",
+   "pause": 0.4,
+   "cues": [
+    "ar:ـنَا"
+   ]
+  },
+  {
+   "id": "c06-tips-05",
+   "scene": "c06-tips",
+   "lang": "en",
+   "text": "They are pronouns too. We learn them in unit six.",
+   "pause": 0.5,
+   "cues": [
+    "hl:They are pronouns too"
+   ]
+  },
+  {
+   "id": "c06-tips-06",
+   "scene": "c06-tips",
+   "lang": "en",
+   "text": "One more tip. On a verb, the pronoun for me has an extra letter.",
+   "pause": 0.2,
+   "cues": [
+    "b:1",
+    "ar:ـنِي"
+   ]
+  },
+  {
+   "id": "c06-tips-07",
+   "scene": "c06-tips",
+   "lang": "en",
+   "text": "This one.",
+   "pause": 0.3,
+   "cues": [
+    "ar:ن"
+   ]
+  },
+  {
+   "id": "c06-tips-08",
+   "scene": "c06-tips",
+   "lang": "en",
+   "text": "We meet it later.",
+   "pause": 0.7,
+   "cues": [
+    "hl:We meet it later"
+   ]
+  }
+ ]
+}

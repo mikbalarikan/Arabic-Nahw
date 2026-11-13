@@ -1,0 +1,139 @@
+{
+ "segments": [
+  {
+   "id": "c03-title-01",
+   "scene": "c03-title",
+   "lang": "en",
+   "text": "Chapter three.",
+   "pause": 0.3,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c03-title-02",
+   "scene": "c03-title",
+   "lang": "en",
+   "text": "With the pronoun for me, the ending is hidden.",
+   "pause": 0.6,
+   "cues": [
+    "ar:ـي"
+   ]
+  },
+  {
+   "id": "c03-hidden-01",
+   "scene": "c03-hidden",
+   "lang": "en",
+   "text": "The pronoun for me always needs a kasra before it.",
+   "pause": 0.3,
+   "cues": [
+    "b:0",
+    "ar:ـي#2"
+   ]
+  },
+  {
+   "id": "c03-hidden-02",
+   "scene": "c03-hidden",
+   "lang": "en",
+   "text": "So the noun cannot show damma, fatha or kasra of its own.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c03-hidden-03",
+   "scene": "c03-hidden",
+   "lang": "en",
+   "text": "My book is new.",
+   "pause": 0.4,
+   "cues": [
+    "b:1",
+    "ex:0"
+   ]
+  },
+  {
+   "id": "c03-hidden-04",
+   "scene": "c03-hidden",
+   "lang": "ar",
+   "text": "كِتَابِي جَدِيدٌ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابِي جَدِيدٌ"
+   ]
+  },
+  {
+   "id": "c03-hidden-05",
+   "scene": "c03-hidden",
+   "lang": "en",
+   "text": "The word for book is the Topic, and it is rafʿ. But you see a kasra.",
+   "pause": 0.5,
+   "cues": [
+    "note:0",
+    "ar:كِتَابِ"
+   ]
+  },
+  {
+   "id": "c03-hidden-06",
+   "scene": "c03-hidden",
+   "lang": "en",
+   "text": "The pen is in my book.",
+   "pause": 0.4,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c03-hidden-07",
+   "scene": "c03-hidden",
+   "lang": "ar",
+   "text": "القَلَمُ فِي كِتَابِي",
+   "pause": 0.5,
+   "cues": [
+    "ar:القَلَمُ فِي كِتَابِي"
+   ]
+  },
+  {
+   "id": "c03-hidden-08",
+   "scene": "c03-hidden",
+   "lang": "en",
+   "text": "Here the word for book is jarr. It looks the same.",
+   "pause": 0.6,
+   "cues": [
+    "note:1",
+    "ar:كِتَابِ#2"
+   ]
+  },
+  {
+   "id": "c03-rule-01",
+   "scene": "c03-rule",
+   "lang": "en",
+   "text": "So here is the rule. Do not read the ending before the pronoun for me.",
+   "pause": 0.35,
+   "cues": [
+    "b:0",
+    "ar:ـي#2",
+    "hl:Do not read the ending before"
+   ]
+  },
+  {
+   "id": "c03-rule-02",
+   "scene": "c03-rule",
+   "lang": "en",
+   "text": "Before it, the kasra is for the pronoun.",
+   "pause": 0.35,
+   "cues": [
+    "ar:ـي#3",
+    "hl:the kasra is for the pronoun"
+   ]
+  },
+  {
+   "id": "c03-rule-03",
+   "scene": "c03-rule",
+   "lang": "en",
+   "text": "Find the job of the noun from the sentence, never from this vowel.",
+   "pause": 0.7,
+   "cues": [
+    "hl:from the sentence, never from this vowel"
+   ]
+  }
+ ]
+}

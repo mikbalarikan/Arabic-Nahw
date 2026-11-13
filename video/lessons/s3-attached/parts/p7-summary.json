@@ -1,0 +1,232 @@
+{
+ "segments": [
+  {
+   "id": "c07-title-01",
+   "scene": "c07-title",
+   "lang": "en",
+   "text": "Chapter seven. Three places, one table.",
+   "pause": 0.6,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c07-table-01",
+   "scene": "c07-table",
+   "lang": "en",
+   "text": "Here is the whole lesson in one table. What is the pronoun joined to? What is its job? What place is it in?",
+   "pause": 0.5,
+   "cues": [
+    "b:0"
+   ]
+  },
+  {
+   "id": "c07-table-02",
+   "scene": "c07-table",
+   "lang": "en",
+   "text": "Joined to a noun, it is the owner, in the place of jarr. His book.",
+   "pause": 0.4,
+   "cues": [
+    "row:0"
+   ]
+  },
+  {
+   "id": "c07-table-03",
+   "scene": "c07-table",
+   "lang": "ar",
+   "text": "كِتَابُهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُهُ"
+   ]
+  },
+  {
+   "id": "c07-table-04",
+   "scene": "c07-table",
+   "lang": "en",
+   "text": "Joined to a preposition, its job is called after a preposition. It is in the place of jarr. On it.",
+   "pause": 0.4,
+   "cues": [
+    "row:1"
+   ]
+  },
+  {
+   "id": "c07-table-05",
+   "scene": "c07-table",
+   "lang": "ar",
+   "text": "عَلَيْهِ",
+   "pause": 0.5,
+   "cues": [
+    "ar:عَلَيْهِ"
+   ]
+  },
+  {
+   "id": "c07-table-06",
+   "scene": "c07-table",
+   "lang": "en",
+   "text": "Joined to a past or order verb, it is the object, in the place of naṣb. He opened it.",
+   "pause": 0.4,
+   "cues": [
+    "row:2"
+   ]
+  },
+  {
+   "id": "c07-table-07",
+   "scene": "c07-table",
+   "lang": "ar",
+   "text": "فَتَحَهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:فَتَحَهُ"
+   ]
+  },
+  {
+   "id": "c07-table-08",
+   "scene": "c07-table",
+   "lang": "en",
+   "text": "And with an order verb, read it.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c07-table-09",
+   "scene": "c07-table",
+   "lang": "ar",
+   "text": "اِقْرَأْهُ",
+   "pause": 0.7,
+   "cues": [
+    "ar:اِقْرَأْهُ"
+   ]
+  },
+  {
+   "id": "c07-summary-01",
+   "scene": "c07-summary",
+   "lang": "en",
+   "text": "In short.",
+   "pause": 0.4,
+   "cues": [
+    "b:0"
+   ]
+  },
+  {
+   "id": "c07-summary-02",
+   "scene": "c07-summary",
+   "lang": "en",
+   "text": "There are twelve attached pronouns. One for I, one for we, five for you, and five for he, she and they.",
+   "pause": 0.5,
+   "cues": [
+    "li:0"
+   ]
+  },
+  {
+   "id": "c07-summary-03",
+   "scene": "c07-summary",
+   "lang": "en",
+   "text": "On a noun, the pronoun is the owner, in the place of jarr. The noun loses al and tanween.",
+   "pause": 0.5,
+   "cues": [
+    "li:1",
+    "ar:ال"
+   ]
+  },
+  {
+   "id": "c07-summary-04",
+   "scene": "c07-summary",
+   "lang": "en",
+   "text": "After a preposition, it is in the place of jarr. On it, to you, for him.",
+   "pause": 0.4,
+   "cues": [
+    "li:2"
+   ]
+  },
+  {
+   "id": "c07-summary-05",
+   "scene": "c07-summary",
+   "lang": "ar",
+   "text": "عَلَيْهِ",
+   "pause": 0.35,
+   "cues": [
+    "ar:عَلَيْهِ"
+   ]
+  },
+  {
+   "id": "c07-summary-06",
+   "scene": "c07-summary",
+   "lang": "ar",
+   "text": "إِلَيْكَ",
+   "pause": 0.35,
+   "cues": [
+    "ar:إِلَيْكَ"
+   ]
+  },
+  {
+   "id": "c07-summary-07",
+   "scene": "c07-summary",
+   "lang": "ar",
+   "text": "لَهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:لَهُ"
+   ]
+  },
+  {
+   "id": "c07-summary-08",
+   "scene": "c07-summary",
+   "lang": "en",
+   "text": "On a verb, it is the object, in the place of naṣb. He opened it.",
+   "pause": 0.4,
+   "cues": [
+    "li:3"
+   ]
+  },
+  {
+   "id": "c07-summary-09",
+   "scene": "c07-summary",
+   "lang": "ar",
+   "text": "فَتَحَهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:فَتَحَهُ"
+   ]
+  },
+  {
+   "id": "c07-summary-10",
+   "scene": "c07-summary",
+   "lang": "en",
+   "text": "The pronoun for he",
+   "pause": 0.15,
+   "cues": [
+    "li:4",
+    "ar:ـهُ#2"
+   ]
+  },
+  {
+   "id": "c07-summary-11",
+   "scene": "c07-summary",
+   "lang": "en",
+   "text": "changes its damma to a kasra after a kasra or this letter.",
+   "pause": 0.4,
+   "cues": [
+    "ar:ي"
+   ]
+  },
+  {
+   "id": "c07-summary-12",
+   "scene": "c07-summary",
+   "lang": "en",
+   "text": "And before the pronoun for me, the noun's ending is hidden.",
+   "pause": 0.6,
+   "cues": [
+    "ar:ـي#2"
+   ]
+  },
+  {
+   "id": "c07-summary-13",
+   "scene": "c07-summary",
+   "lang": "en",
+   "text": "Well done. Now open the Practice tab and try it yourself.",
+   "pause": 1.0,
+   "cues": []
+  }
+ ]
+}

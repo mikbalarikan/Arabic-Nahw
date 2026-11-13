@@ -1,0 +1,638 @@
+{
+ "id": "s3-attached",
+ "stage": 3,
+ "title": "Attached pronouns",
+ "ar_title": "الضَّمَائِرُ المُتَّصِلَةُ",
+ "blurb": "Short pronouns that join the end of a word: my, your, his, her, and him, it, them.",
+ "tabs": [
+  "Lesson",
+  "Practice"
+ ],
+ "source": "content/stage3/u2_attached.py",
+ "sources": [
+  "content/stage3/u2_attached.py"
+ ],
+ "hero_html": "<div class=\"hero\"><div class=\"eyebrow\">STAGE 3 · UNIT 2</div><h1>Pronouns that hold on</h1><p>Some pronouns are written joined to the end of another word: <bdi class=\"ab\">كِتَابُهُ</bdi> his book, <bdi class=\"ab\">عَلَيْهِ</bdi> on it, <bdi class=\"ab\">فَتَحَهُ</bdi> he opened it.</p><div class=\"wm\" aria-hidden=\"true\">المُتَّصِلَةُ</div></div>",
+ "chapters": {
+  "1": "The twelve attached pronouns",
+  "2": "On a noun: the owner",
+  "3": "With ـي the ending is hidden",
+  "4": "On a preposition",
+  "5": "When ـهُ becomes ـهِ",
+  "6": "On a verb: the object",
+  "7": "Three places, one table"
+ },
+ "blocks": [
+  {
+   "i": 0,
+   "t": "hero",
+   "chapter": 0,
+   "html": "<div class=\"hero\"><div class=\"eyebrow\">STAGE 3 · UNIT 2</div><h1>Pronouns that hold on</h1><p>Some pronouns are written joined to the end of another word: <bdi class=\"ab\">كِتَابُهُ</bdi> his book, <bdi class=\"ab\">عَلَيْهِ</bdi> on it, <bdi class=\"ab\">فَتَحَهُ</bdi> he opened it.</p><div class=\"wm\" aria-hidden=\"true\">المُتَّصِلَةُ</div></div>",
+   "src": {
+    "t": "hero",
+    "eyebrow": "STAGE 3 · UNIT 2",
+    "title": "Pronouns that hold on",
+    "text": "Some pronouns are written joined to the end of another word: {كِتَابُهُ} his book, {عَلَيْهِ} on it, {فَتَحَهُ} he opened it.",
+    "wm": "المُتَّصِلَةُ"
+   }
+  },
+  {
+   "i": 1,
+   "t": "h2",
+   "chapter": 1,
+   "html": "<h2><span class=\"num\">1</span>The twelve attached pronouns</h2>",
+   "src": {
+    "t": "h2",
+    "text": "The twelve attached pronouns"
+   }
+  },
+  {
+   "i": 2,
+   "t": "p",
+   "chapter": 1,
+   "html": "<p class=\"s0p\">An attached pronoun cannot stand alone. It joins the end of a noun, a preposition or a verb. Like the separate pronouns, it is fixed.</p>",
+   "src": {
+    "t": "p",
+    "text": "An attached pronoun cannot stand alone. It joins the end of a noun, a preposition or a verb. Like the separate pronouns, it is fixed."
+   }
+  },
+  {
+   "i": 3,
+   "t": "table",
+   "chapter": 1,
+   "html": "<div class=\"tblwrap\"><table class=\"glance s0t\"><tr><th>Pronoun</th><th>Who</th><th>On a noun</th><th>English</th></tr><tr><td class=\"tar\">ـي</td><td class=\"\">I, me</td><td class=\"tar\">كِتَابِي</td><td class=\"\">my book</td></tr><tr><td class=\"tar\">ـنَا</td><td class=\"\">we, us</td><td class=\"tar\">كِتَابُنَا</td><td class=\"\">our book</td></tr><tr><td class=\"tar\">ـكَ</td><td class=\"\">you (one man)</td><td class=\"tar\">كِتَابُكَ</td><td class=\"\">your book</td></tr><tr><td class=\"tar\">ـكِ</td><td class=\"\">you (one woman)</td><td class=\"tar\">كِتَابُكِ</td><td class=\"\">your book</td></tr><tr><td class=\"tar\">ـكُمَا</td><td class=\"\">you (two)</td><td class=\"tar\">كِتَابُكُمَا</td><td class=\"\">your book</td></tr><tr><td class=\"tar\">ـكُمْ</td><td class=\"\">you (men, or mixed)</td><td class=\"tar\">كِتَابُكُمْ</td><td class=\"\">your book</td></tr><tr><td class=\"tar\">ـكُنَّ</td><td class=\"\">you (women)</td><td class=\"tar\">كِتَابُكُنَّ</td><td class=\"\">your book</td></tr><tr><td class=\"tar\">ـهُ</td><td class=\"\">he, it</td><td class=\"tar\">كِتَابُهُ</td><td class=\"\">his book</td></tr><tr><td class=\"tar\">ـهَا</td><td class=\"\">she, it</td><td class=\"tar\">كِتَابُهَا</td><td class=\"\">her book</td></tr><tr><td class=\"tar\">ـهُمَا</td><td class=\"\">they (two)</td><td class=\"tar\">كِتَابُهُمَا</td><td class=\"\">their book</td></tr><tr><td class=\"tar\">ـهُمْ</td><td class=\"\">they (men, or mixed)</td><td class=\"tar\">كِتَابُهُمْ</td><td class=\"\">their book</td></tr><tr><td class=\"tar\">ـهُنَّ</td><td class=\"\">they (women)</td><td class=\"tar\">كِتَابُهُنَّ</td><td class=\"\">their book</td></tr></table></div>",
+   "src": {
+    "t": "table",
+    "head": [
+     "Pronoun",
+     "Who",
+     "On a noun",
+     "English"
+    ],
+    "rows": [
+     [
+      "ـي",
+      "I, me",
+      "كِتَابِي",
+      "my book"
+     ],
+     [
+      "ـنَا",
+      "we, us",
+      "كِتَابُنَا",
+      "our book"
+     ],
+     [
+      "ـكَ",
+      "you (one man)",
+      "كِتَابُكَ",
+      "your book"
+     ],
+     [
+      "ـكِ",
+      "you (one woman)",
+      "كِتَابُكِ",
+      "your book"
+     ],
+     [
+      "ـكُمَا",
+      "you (two)",
+      "كِتَابُكُمَا",
+      "your book"
+     ],
+     [
+      "ـكُمْ",
+      "you (men, or mixed)",
+      "كِتَابُكُمْ",
+      "your book"
+     ],
+     [
+      "ـكُنَّ",
+      "you (women)",
+      "كِتَابُكُنَّ",
+      "your book"
+     ],
+     [
+      "ـهُ",
+      "he, it",
+      "كِتَابُهُ",
+      "his book"
+     ],
+     [
+      "ـهَا",
+      "she, it",
+      "كِتَابُهَا",
+      "her book"
+     ],
+     [
+      "ـهُمَا",
+      "they (two)",
+      "كِتَابُهُمَا",
+      "their book"
+     ],
+     [
+      "ـهُمْ",
+      "they (men, or mixed)",
+      "كِتَابُهُمْ",
+      "their book"
+     ],
+     [
+      "ـهُنَّ",
+      "they (women)",
+      "كِتَابُهُنَّ",
+      "their book"
+     ]
+    ]
+   }
+  },
+  {
+   "i": 4,
+   "t": "tip",
+   "chapter": 1,
+   "html": "<div class=\"tipbox\"><b>Tip:</b> Compare with unit 1: <bdi class=\"ab\">أَنْتُمَا</bdi> and <bdi class=\"ab\">ـكُمَا</bdi>, <bdi class=\"ab\">أَنْتُمْ</bdi> and <bdi class=\"ab\">ـكُمْ</bdi>, <bdi class=\"ab\">أَنْتُنَّ</bdi> and <bdi class=\"ab\">ـكُنَّ</bdi>. The <bdi class=\"ab\">ـكَ</bdi> family is &quot;you&quot;. The <bdi class=\"ab\">ـهُ</bdi> family is &quot;he, she, they&quot;.</div>",
+   "src": {
+    "t": "tip",
+    "text": "Compare with unit 1: {أَنْتُمَا} and {ـكُمَا}, {أَنْتُمْ} and {ـكُمْ}, {أَنْتُنَّ} and {ـكُنَّ}. The {ـكَ} family is \"you\". The {ـهُ} family is \"he, she, they\"."
+   }
+  },
+  {
+   "i": 5,
+   "t": "h2",
+   "chapter": 2,
+   "html": "<h2><span class=\"num\">2</span>On a noun: the owner</h2>",
+   "src": {
+    "t": "h2",
+    "text": "On a noun: the owner"
+   }
+  },
+  {
+   "i": 6,
+   "t": "p",
+   "chapter": 2,
+   "html": "<p class=\"s0p\">A pronoun on a noun shows who owns it. It works like the second word of an iḍāfa.</p>",
+   "src": {
+    "t": "p",
+    "text": "A pronoun on a noun shows who owns it. It works like the second word of an iḍāfa."
+   }
+  },
+  {
+   "i": 7,
+   "t": "examples",
+   "chapter": 2,
+   "html": "<div class=\"exlist\"><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">كِتَابُ زَيْدٍ ← كِتَابُهُ</div><div class=\"exe\">Zayd&#x27;s book → his book<div class=\"exn\"><bdi class=\"ab\">زَيْدٍ</bdi> is the owner, jarr. <bdi class=\"ab\">ـهُ</bdi> takes its job.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">كِتَابُهُ جَدِيدٌ.</div><div class=\"exe\">His book is new.<div class=\"exn\"><bdi class=\"ab\">ـهُ</bdi> is the owner. It is fixed, so it is in the place of jarr: <bdi class=\"ab\">فِي مَحَلِّ جَرٍّ</bdi>.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">بَيْتُهَا قَرِيبٌ.</div><div class=\"exe\">Her house is near.<div class=\"exn\"><bdi class=\"ab\">ـهَا</bdi> is the owner, in the place of jarr.</div></div></div></div>",
+   "src": {
+    "t": "examples",
+    "items": [
+     {
+      "ar": "كِتَابُ زَيْدٍ ← كِتَابُهُ",
+      "en": "Zayd's book → his book",
+      "note": "{زَيْدٍ} is the owner, jarr. {ـهُ} takes its job."
+     },
+     {
+      "ar": "كِتَابُهُ جَدِيدٌ.",
+      "en": "His book is new.",
+      "note": "{ـهُ} is the owner. It is fixed, so it is in the place of jarr: {فِي مَحَلِّ جَرٍّ}."
+     },
+     {
+      "ar": "بَيْتُهَا قَرِيبٌ.",
+      "en": "Her house is near.",
+      "note": "{ـهَا} is the owner, in the place of jarr."
+     }
+    ]
+   }
+  },
+  {
+   "i": 8,
+   "t": "rule",
+   "chapter": 2,
+   "html": "<div class=\"rbox\" style=\"border-color:#22a05a;background:#e2f5e9\"><b style=\"color:#17803f\">No <bdi class=\"ab\">ال</bdi>, no tanween.</b> A noun with an attached pronoun is the first word of an iḍāfa. So it has no <bdi class=\"ab\">ال</bdi> and no tanween: <bdi class=\"ab\">كِتَابٌ</bdi> becomes <bdi class=\"ab\">كِتَابُهُ</bdi>.</div>",
+   "src": {
+    "t": "rule",
+    "color": "green",
+    "title": "No {ال}, no tanween",
+    "text": "A noun with an attached pronoun is the first word of an iḍāfa. So it has no {ال} and no tanween: {كِتَابٌ} becomes {كِتَابُهُ}."
+   }
+  },
+  {
+   "i": 9,
+   "t": "p",
+   "chapter": 2,
+   "html": "<p class=\"s0p\">The noun still shows its own ending before the pronoun. Only the noun is flexible. The pronoun stays the same.</p>",
+   "src": {
+    "t": "p",
+    "text": "The noun still shows its own ending before the pronoun. Only the noun is flexible. The pronoun stays the same."
+   }
+  },
+  {
+   "i": 10,
+   "t": "examples",
+   "chapter": 2,
+   "html": "<div class=\"exlist\"><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">كِتَابُهُ جَدِيدٌ.</div><div class=\"exe\">His book is new.<div class=\"exn\"><bdi class=\"ab\">كِتَابُ</bdi> is the Topic: rafʿ, damma.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">قَرَأَ الطَّالِبُ كِتَابَهُ.</div><div class=\"exe\">The student read his book.<div class=\"exn\"><bdi class=\"ab\">كِتَابَ</bdi> is the object: naṣb, fatha.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">القَلَمُ فِي كِتَابِهِ.</div><div class=\"exe\">The pen is in his book.<div class=\"exn\"><bdi class=\"ab\">كِتَابِ</bdi> is after <bdi class=\"ab\">فِي</bdi>: jarr, kasra.</div></div></div></div>",
+   "src": {
+    "t": "examples",
+    "items": [
+     {
+      "ar": "كِتَابُهُ جَدِيدٌ.",
+      "en": "His book is new.",
+      "note": "{كِتَابُ} is the Topic: rafʿ, damma."
+     },
+     {
+      "ar": "قَرَأَ الطَّالِبُ كِتَابَهُ.",
+      "en": "The student read his book.",
+      "note": "{كِتَابَ} is the object: naṣb, fatha."
+     },
+     {
+      "ar": "القَلَمُ فِي كِتَابِهِ.",
+      "en": "The pen is in his book.",
+      "note": "{كِتَابِ} is after {فِي}: jarr, kasra."
+     }
+    ]
+   }
+  },
+  {
+   "i": 11,
+   "t": "tip",
+   "chapter": 2,
+   "html": "<div class=\"tipbox\"><b>Tip:</b> A word ending in <bdi class=\"ab\">ة</bdi> writes it as <bdi class=\"ab\">ت</bdi> before a pronoun: <bdi class=\"ab\">سَيَّارَةٌ</bdi> → <bdi class=\"ab\">سَيَّارَتُهُ</bdi>, <bdi class=\"ab\">غُرْفَةٌ</bdi> → <bdi class=\"ab\">غُرْفَتُهَا</bdi>.</div>",
+   "src": {
+    "t": "tip",
+    "text": "A word ending in {ة} writes it as {ت} before a pronoun: {سَيَّارَةٌ} → {سَيَّارَتُهُ}, {غُرْفَةٌ} → {غُرْفَتُهَا}."
+   }
+  },
+  {
+   "i": 12,
+   "t": "h2",
+   "chapter": 3,
+   "html": "<h2><span class=\"num\">3</span>With <bdi class=\"ab\">ـي</bdi> the ending is hidden</h2>",
+   "src": {
+    "t": "h2",
+    "text": "With {ـي} the ending is hidden"
+   }
+  },
+  {
+   "i": 13,
+   "t": "p",
+   "chapter": 3,
+   "html": "<p class=\"s0p\">The pronoun <bdi class=\"ab\">ـي</bdi> always needs a kasra before it. So the noun cannot show damma, fatha or kasra of its own.</p>",
+   "src": {
+    "t": "p",
+    "text": "The pronoun {ـي} always needs a kasra before it. So the noun cannot show damma, fatha or kasra of its own."
+   }
+  },
+  {
+   "i": 14,
+   "t": "examples",
+   "chapter": 3,
+   "html": "<div class=\"exlist\"><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">كِتَابِي جَدِيدٌ.</div><div class=\"exe\">My book is new.<div class=\"exn\"><bdi class=\"ab\">كِتَابِ</bdi> is the Topic and rafʿ, but you see a kasra.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">القَلَمُ فِي كِتَابِي.</div><div class=\"exe\">The pen is in my book.<div class=\"exn\">Here <bdi class=\"ab\">كِتَابِ</bdi> is jarr. It looks the same.</div></div></div></div>",
+   "src": {
+    "t": "examples",
+    "items": [
+     {
+      "ar": "كِتَابِي جَدِيدٌ.",
+      "en": "My book is new.",
+      "note": "{كِتَابِ} is the Topic and rafʿ, but you see a kasra."
+     },
+     {
+      "ar": "القَلَمُ فِي كِتَابِي.",
+      "en": "The pen is in my book.",
+      "note": "Here {كِتَابِ} is jarr. It looks the same."
+     }
+    ]
+   }
+  },
+  {
+   "i": 15,
+   "t": "rule",
+   "chapter": 3,
+   "html": "<div class=\"rbox\" style=\"border-color:#2f7fe0;background:#e3eefc\"><b style=\"color:#1f64bd\">Do not read the ending before <bdi class=\"ab\">ـي</bdi>.</b> Before <bdi class=\"ab\">ـي</bdi> the kasra is for the pronoun. Find the job of the noun from the sentence, never from this vowel.</div>",
+   "src": {
+    "t": "rule",
+    "color": "blue",
+    "title": "Do not read the ending before {ـي}",
+    "text": "Before {ـي} the kasra is for the pronoun. Find the job of the noun from the sentence, never from this vowel."
+   }
+  },
+  {
+   "i": 16,
+   "t": "h2",
+   "chapter": 4,
+   "html": "<h2><span class=\"num\">4</span>On a preposition</h2>",
+   "src": {
+    "t": "h2",
+    "text": "On a preposition"
+   }
+  },
+  {
+   "i": 17,
+   "t": "p",
+   "chapter": 4,
+   "html": "<p class=\"s0p\">A pronoun after a preposition is jarr, like any word after a preposition. It is fixed, so it is in the place of jarr.</p>",
+   "src": {
+    "t": "p",
+    "text": "A pronoun after a preposition is jarr, like any word after a preposition. It is fixed, so it is in the place of jarr."
+   }
+  },
+  {
+   "i": 18,
+   "t": "examples",
+   "chapter": 4,
+   "html": "<div class=\"exlist\"><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">القَلَمُ لَكَ.</div><div class=\"exe\">The pen is yours (for you).<div class=\"exn\"><bdi class=\"ab\">ـكَ</bdi> is after <bdi class=\"ab\">لِ</bdi>, in the place of jarr.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">خَرَجَ مِنْهُ.</div><div class=\"exe\">He went out of it.<div class=\"exn\"><bdi class=\"ab\">ـهُ</bdi> is after <bdi class=\"ab\">مِنْ</bdi>, in the place of jarr.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">الكِتَابُ عَلَيْهِ.</div><div class=\"exe\">The book is on it.<div class=\"exn\"><bdi class=\"ab\">ـهِ</bdi> is after <bdi class=\"ab\">عَلَى</bdi>, in the place of jarr.</div></div></div></div>",
+   "src": {
+    "t": "examples",
+    "items": [
+     {
+      "ar": "القَلَمُ لَكَ.",
+      "en": "The pen is yours (for you).",
+      "note": "{ـكَ} is after {لِ}, in the place of jarr."
+     },
+     {
+      "ar": "خَرَجَ مِنْهُ.",
+      "en": "He went out of it.",
+      "note": "{ـهُ} is after {مِنْ}, in the place of jarr."
+     },
+     {
+      "ar": "الكِتَابُ عَلَيْهِ.",
+      "en": "The book is on it.",
+      "note": "{ـهِ} is after {عَلَى}, in the place of jarr."
+     }
+    ]
+   }
+  },
+  {
+   "i": 19,
+   "t": "p",
+   "chapter": 4,
+   "html": "<p class=\"s0p\">Some prepositions change their shape. Learn these forms:</p>",
+   "src": {
+    "t": "p",
+    "text": "Some prepositions change their shape. Learn these forms:"
+   }
+  },
+  {
+   "i": 20,
+   "t": "table",
+   "chapter": 4,
+   "html": "<div class=\"tblwrap\"><table class=\"glance s0t\"><tr><th>Preposition</th><th>+ ـهُ</th><th>+ ـكَ</th><th>+ ـي</th></tr><tr><td class=\"tar\">فِي</td><td class=\"tar\">فِيهِ</td><td class=\"tar\">فِيكَ</td><td class=\"tar\">فِيَّ</td></tr><tr><td class=\"tar\">عَلَى</td><td class=\"tar\">عَلَيْهِ</td><td class=\"tar\">عَلَيْكَ</td><td class=\"tar\">عَلَيَّ</td></tr><tr><td class=\"tar\">إِلَى</td><td class=\"tar\">إِلَيْهِ</td><td class=\"tar\">إِلَيْكَ</td><td class=\"tar\">إِلَيَّ</td></tr><tr><td class=\"tar\">مِنْ</td><td class=\"tar\">مِنْهُ</td><td class=\"tar\">مِنْكَ</td><td class=\"tar\">مِنِّي</td></tr><tr><td class=\"tar\">لِ</td><td class=\"tar\">لَهُ</td><td class=\"tar\">لَكَ</td><td class=\"tar\">لِي</td></tr></table></div>",
+   "src": {
+    "t": "table",
+    "head": [
+     "Preposition",
+     "+ ـهُ",
+     "+ ـكَ",
+     "+ ـي"
+    ],
+    "rows": [
+     [
+      "فِي",
+      "فِيهِ",
+      "فِيكَ",
+      "فِيَّ"
+     ],
+     [
+      "عَلَى",
+      "عَلَيْهِ",
+      "عَلَيْكَ",
+      "عَلَيَّ"
+     ],
+     [
+      "إِلَى",
+      "إِلَيْهِ",
+      "إِلَيْكَ",
+      "إِلَيَّ"
+     ],
+     [
+      "مِنْ",
+      "مِنْهُ",
+      "مِنْكَ",
+      "مِنِّي"
+     ],
+     [
+      "لِ",
+      "لَهُ",
+      "لَكَ",
+      "لِي"
+     ]
+    ]
+   }
+  },
+  {
+   "i": 21,
+   "t": "rule",
+   "chapter": 4,
+   "html": "<div class=\"rbox\" style=\"border-color:#7d858e;background:#eef0f2\"><b style=\"color:#5a626b\">Three changes to remember.</b> <bdi class=\"ab\">عَلَى</bdi> becomes <bdi class=\"ab\">عَلَيْـ</bdi> and <bdi class=\"ab\">إِلَى</bdi> becomes <bdi class=\"ab\">إِلَيْـ</bdi>: <bdi class=\"ab\">عَلَيْهِ</bdi>، <bdi class=\"ab\">إِلَيْهَا</bdi>. <bdi class=\"ab\">لِ</bdi> becomes <bdi class=\"ab\">لَ</bdi>: <bdi class=\"ab\">لَهُ</bdi>، <bdi class=\"ab\">لَكَ</bdi>، <bdi class=\"ab\">لَهَا</bdi>. Only with <bdi class=\"ab\">ـي</bdi> it stays <bdi class=\"ab\">لِي</bdi>.</div>",
+   "src": {
+    "t": "rule",
+    "color": "grey",
+    "title": "Three changes to remember",
+    "text": "{عَلَى} becomes {عَلَيْـ} and {إِلَى} becomes {إِلَيْـ}: {عَلَيْهِ}، {إِلَيْهَا}. {لِ} becomes {لَ}: {لَهُ}، {لَكَ}، {لَهَا}. Only with {ـي} it stays {لِي}."
+   }
+  },
+  {
+   "i": 22,
+   "t": "h2",
+   "chapter": 5,
+   "html": "<h2><span class=\"num\">5</span>When <bdi class=\"ab\">ـهُ</bdi> becomes <bdi class=\"ab\">ـهِ</bdi></h2>",
+   "src": {
+    "t": "h2",
+    "text": "When {ـهُ} becomes {ـهِ}"
+   }
+  },
+  {
+   "i": 23,
+   "t": "rule",
+   "chapter": 5,
+   "html": "<div class=\"rbox\" style=\"border-color:#2f7fe0;background:#e3eefc\"><b style=\"color:#1f64bd\">After kasra or <bdi class=\"ab\">ي</bdi>.</b> After a kasra or a <bdi class=\"ab\">ي</bdi>, the damma of <bdi class=\"ab\">ـهُ</bdi> becomes a kasra: <bdi class=\"ab\">فِيهِ</bdi>، <bdi class=\"ab\">عَلَيْهِ</bdi>، <bdi class=\"ab\">إِلَيْهِ</bdi>، <bdi class=\"ab\">بِهِ</bdi> (with it), <bdi class=\"ab\">فِي بَيْتِهِ</bdi>.</div>",
+   "src": {
+    "t": "rule",
+    "color": "blue",
+    "title": "After kasra or {ي}",
+    "text": "After a kasra or a {ي}, the damma of {ـهُ} becomes a kasra: {فِيهِ}، {عَلَيْهِ}، {إِلَيْهِ}، {بِهِ} (with it), {فِي بَيْتِهِ}."
+   }
+  },
+  {
+   "i": 24,
+   "t": "p",
+   "chapter": 5,
+   "html": "<p class=\"s0p\">The same happens to <bdi class=\"ab\">ـهُمَا</bdi>، <bdi class=\"ab\">ـهُمْ</bdi>، <bdi class=\"ab\">ـهُنَّ</bdi>:</p>",
+   "src": {
+    "t": "p",
+    "text": "The same happens to {ـهُمَا}، {ـهُمْ}، {ـهُنَّ}:"
+   }
+  },
+  {
+   "i": 25,
+   "t": "examples",
+   "chapter": 5,
+   "html": "<div class=\"exlist\"><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">عَلَيْهِمْ</div><div class=\"exe\">on them<div class=\"exn\"><bdi class=\"ab\">ـهُمْ</bdi> after <bdi class=\"ab\">ي</bdi> becomes <bdi class=\"ab\">ـهِمْ</bdi>.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">فِيهِمَا</div><div class=\"exe\">in them (two)<div class=\"exn\"><bdi class=\"ab\">ـهُمَا</bdi> after <bdi class=\"ab\">ي</bdi> becomes <bdi class=\"ab\">ـهِمَا</bdi>.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">فِي بَيْتِهِنَّ</div><div class=\"exe\">in their house (women)<div class=\"exn\"><bdi class=\"ab\">بَيْتِ</bdi> ends in kasra, so <bdi class=\"ab\">ـهُنَّ</bdi> becomes <bdi class=\"ab\">ـهِنَّ</bdi>.</div></div></div></div>",
+   "src": {
+    "t": "examples",
+    "items": [
+     {
+      "ar": "عَلَيْهِمْ",
+      "en": "on them",
+      "note": "{ـهُمْ} after {ي} becomes {ـهِمْ}."
+     },
+     {
+      "ar": "فِيهِمَا",
+      "en": "in them (two)",
+      "note": "{ـهُمَا} after {ي} becomes {ـهِمَا}."
+     },
+     {
+      "ar": "فِي بَيْتِهِنَّ",
+      "en": "in their house (women)",
+      "note": "{بَيْتِ} ends in kasra, so {ـهُنَّ} becomes {ـهِنَّ}."
+     }
+    ]
+   }
+  },
+  {
+   "i": 26,
+   "t": "tip",
+   "chapter": 5,
+   "html": "<div class=\"tipbox\"><b>Tip:</b> It is the same pronoun. Only the sound changes, to make it easy to say. With a damma, fatha or sukūn before it, it stays <bdi class=\"ab\">ـهُ</bdi>: <bdi class=\"ab\">مِنْهُ</bdi>، <bdi class=\"ab\">لَهُ</bdi>، <bdi class=\"ab\">كِتَابُهُ</bdi>.</div>",
+   "src": {
+    "t": "tip",
+    "text": "It is the same pronoun. Only the sound changes, to make it easy to say. With a damma, fatha or sukūn before it, it stays {ـهُ}: {مِنْهُ}، {لَهُ}، {كِتَابُهُ}."
+   }
+  },
+  {
+   "i": 27,
+   "t": "h2",
+   "chapter": 6,
+   "html": "<h2><span class=\"num\">6</span>On a verb: the object</h2>",
+   "src": {
+    "t": "h2",
+    "text": "On a verb: the object"
+   }
+  },
+  {
+   "i": 28,
+   "t": "p",
+   "chapter": 6,
+   "html": "<p class=\"s0p\">A pronoun from this table on a past verb or an order verb is the object. The object is naṣb. The pronoun is fixed, so it is in the place of naṣb: <bdi class=\"ab\">فِي مَحَلِّ نَصْبٍ</bdi>.</p>",
+   "src": {
+    "t": "p",
+    "text": "A pronoun from this table on a past verb or an order verb is the object. The object is naṣb. The pronoun is fixed, so it is in the place of naṣb: {فِي مَحَلِّ نَصْبٍ}."
+   }
+  },
+  {
+   "i": 29,
+   "t": "examples",
+   "chapter": 6,
+   "html": "<div class=\"exlist\"><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">فَتَحَ البَابَ ← فَتَحَهُ</div><div class=\"exe\">He opened the door → he opened it<div class=\"exn\"><bdi class=\"ab\">ـهُ</bdi> takes the place of <bdi class=\"ab\">البَابَ</bdi>.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">فَتَحَتْهُ البِنْتُ.</div><div class=\"exe\">The girl opened it.<div class=\"exn\">The pronoun comes right after the verb, before the doer.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">كَتَبَهَا المُدَرِّسُ.</div><div class=\"exe\">The teacher wrote it (the letter).<div class=\"exn\"><bdi class=\"ab\">ـهَا</bdi> is the object, in the place of naṣb.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">اِقْرَأِ الكِتَابَ ← اِقْرَأْهُ</div><div class=\"exe\">Read the book → read it<div class=\"exn\">The order verb keeps its sukūn: <bdi class=\"ab\">اِقْرَأْ</bdi> + <bdi class=\"ab\">ـهُ</bdi>.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">اُكْتُبْهُ</div><div class=\"exe\">Write it.<div class=\"exn\"><bdi class=\"ab\">ـهُ</bdi> is the object, in the place of naṣb.</div></div></div></div>",
+   "src": {
+    "t": "examples",
+    "items": [
+     {
+      "ar": "فَتَحَ البَابَ ← فَتَحَهُ",
+      "en": "He opened the door → he opened it",
+      "note": "{ـهُ} takes the place of {البَابَ}."
+     },
+     {
+      "ar": "فَتَحَتْهُ البِنْتُ.",
+      "en": "The girl opened it.",
+      "note": "The pronoun comes right after the verb, before the doer."
+     },
+     {
+      "ar": "كَتَبَهَا المُدَرِّسُ.",
+      "en": "The teacher wrote it (the letter).",
+      "note": "{ـهَا} is the object, in the place of naṣb."
+     },
+     {
+      "ar": "اِقْرَأِ الكِتَابَ ← اِقْرَأْهُ",
+      "en": "Read the book → read it",
+      "note": "The order verb keeps its sukūn: {اِقْرَأْ} + {ـهُ}."
+     },
+     {
+      "ar": "اُكْتُبْهُ",
+      "en": "Write it.",
+      "note": "{ـهُ} is the object, in the place of naṣb."
+     }
+    ]
+   }
+  },
+  {
+   "i": 30,
+   "t": "tip",
+   "chapter": 6,
+   "html": "<div class=\"tipbox\"><b>Tip:</b> Past verbs also have endings like <bdi class=\"ab\">ـتُ</bdi>، <bdi class=\"ab\">ـتَ</bdi>، <bdi class=\"ab\">ـنَا</bdi> for the doer: &quot;I&quot;, &quot;you&quot;, &quot;we&quot;. They are pronouns too. We learn them in unit 6.</div>",
+   "src": {
+    "t": "tip",
+    "text": "Past verbs also have endings like {ـتُ}، {ـتَ}، {ـنَا} for the doer: \"I\", \"you\", \"we\". They are pronouns too. We learn them in unit 6."
+   }
+  },
+  {
+   "i": 31,
+   "t": "tip",
+   "chapter": 6,
+   "html": "<div class=\"tipbox\"><b>Tip:</b> On a verb, &quot;me&quot; is <bdi class=\"ab\">ـنِي</bdi>, with an extra <bdi class=\"ab\">ن</bdi>. We meet it later.</div>",
+   "src": {
+    "t": "tip",
+    "text": "On a verb, \"me\" is {ـنِي}, with an extra {ن}. We meet it later."
+   }
+  },
+  {
+   "i": 32,
+   "t": "h2",
+   "chapter": 7,
+   "html": "<h2><span class=\"num\">7</span>Three places, one table</h2>",
+   "src": {
+    "t": "h2",
+    "text": "Three places, one table"
+   }
+  },
+  {
+   "i": 33,
+   "t": "table",
+   "chapter": 7,
+   "html": "<div class=\"tblwrap\"><table class=\"glance s0t\"><tr><th>Joined to</th><th>Job</th><th>Place</th><th>Example</th></tr><tr><td class=\"\">a noun</td><td class=\"\">Owner</td><td class=\"\">in the place of jarr</td><td class=\"tar\"><bdi class=\"ab\">كِتَابُهُ</bdi></td></tr><tr><td class=\"\">a preposition</td><td class=\"\">After a preposition</td><td class=\"\">in the place of jarr</td><td class=\"tar\"><bdi class=\"ab\">عَلَيْهِ</bdi></td></tr><tr><td class=\"\">a past or order verb</td><td class=\"\">Object</td><td class=\"\">in the place of naṣb</td><td class=\"tar\"><bdi class=\"ab\">فَتَحَهُ</bdi>، <bdi class=\"ab\">اِقْرَأْهُ</bdi></td></tr></table></div>",
+   "src": {
+    "t": "table",
+    "head": [
+     "Joined to",
+     "Job",
+     "Place",
+     "Example"
+    ],
+    "rows": [
+     [
+      "a noun",
+      "Owner",
+      "in the place of jarr",
+      "{كِتَابُهُ}"
+     ],
+     [
+      "a preposition",
+      "After a preposition",
+      "in the place of jarr",
+      "{عَلَيْهِ}"
+     ],
+     [
+      "a past or order verb",
+      "Object",
+      "in the place of naṣb",
+      "{فَتَحَهُ}، {اِقْرَأْهُ}"
+     ]
+    ]
+   }
+  },
+  {
+   "i": 34,
+   "t": "summary",
+   "chapter": 7,
+   "html": "<div class=\"three\"><h3>In short</h3><ol><li>Twelve attached pronouns: <bdi class=\"ab\">ـي</bdi>، <bdi class=\"ab\">ـنَا</bdi>، <bdi class=\"ab\">ـكَ</bdi>، <bdi class=\"ab\">ـكِ</bdi>، <bdi class=\"ab\">ـكُمَا</bdi>، <bdi class=\"ab\">ـكُمْ</bdi>، <bdi class=\"ab\">ـكُنَّ</bdi>، <bdi class=\"ab\">ـهُ</bdi>، <bdi class=\"ab\">ـهَا</bdi>، <bdi class=\"ab\">ـهُمَا</bdi>، <bdi class=\"ab\">ـهُمْ</bdi>، <bdi class=\"ab\">ـهُنَّ</bdi>.</li><li>On a noun it is the owner, in the place of jarr. The noun loses <bdi class=\"ab\">ال</bdi> and tanween.</li><li>After a preposition it is in the place of jarr: <bdi class=\"ab\">عَلَيْهِ</bdi>، <bdi class=\"ab\">إِلَيْكَ</bdi>، <bdi class=\"ab\">لَهُ</bdi>.</li><li>On a verb it is the object, in the place of naṣb: <bdi class=\"ab\">فَتَحَهُ</bdi>.</li><li><bdi class=\"ab\">ـهُ</bdi> becomes <bdi class=\"ab\">ـهِ</bdi> after kasra or <bdi class=\"ab\">ي</bdi>. Before <bdi class=\"ab\">ـي</bdi> the noun&#x27;s ending is hidden.</li></ol></div>",
+   "src": {
+    "t": "summary",
+    "title": "In short",
+    "items": [
+     "Twelve attached pronouns: {ـي}، {ـنَا}، {ـكَ}، {ـكِ}، {ـكُمَا}، {ـكُمْ}، {ـكُنَّ}، {ـهُ}، {ـهَا}، {ـهُمَا}، {ـهُمْ}، {ـهُنَّ}.",
+     "On a noun it is the owner, in the place of jarr. The noun loses {ال} and tanween.",
+     "After a preposition it is in the place of jarr: {عَلَيْهِ}، {إِلَيْكَ}، {لَهُ}.",
+     "On a verb it is the object, in the place of naṣb: {فَتَحَهُ}.",
+     "{ـهُ} becomes {ـهِ} after kasra or {ي}. Before {ـي} the noun's ending is hidden."
+    ]
+   }
+  }
+ ],
+ "page_html": "<div class=\"hero\"><div class=\"eyebrow\">STAGE 3 · UNIT 2</div><h1>Pronouns that hold on</h1><p>Some pronouns are written joined to the end of another word: <bdi class=\"ab\">كِتَابُهُ</bdi> his book, <bdi class=\"ab\">عَلَيْهِ</bdi> on it, <bdi class=\"ab\">فَتَحَهُ</bdi> he opened it.</p><div class=\"wm\" aria-hidden=\"true\">المُتَّصِلَةُ</div></div><h2><span class=\"num\">1</span>The twelve attached pronouns</h2><p class=\"s0p\">An attached pronoun cannot stand alone. It joins the end of a noun, a preposition or a verb. Like the separate pronouns, it is fixed.</p><div class=\"tblwrap\"><table class=\"glance s0t\"><tr><th>Pronoun</th><th>Who</th><th>On a noun</th><th>English</th></tr><tr><td class=\"tar\">ـي</td><td class=\"\">I, me</td><td class=\"tar\">كِتَابِي</td><td class=\"\">my book</td></tr><tr><td class=\"tar\">ـنَا</td><td class=\"\">we, us</td><td class=\"tar\">كِتَابُنَا</td><td class=\"\">our book</td></tr><tr><td class=\"tar\">ـكَ</td><td class=\"\">you (one man)</td><td class=\"tar\">كِتَابُكَ</td><td class=\"\">your book</td></tr><tr><td class=\"tar\">ـكِ</td><td class=\"\">you (one woman)</td><td class=\"tar\">كِتَابُكِ</td><td class=\"\">your book</td></tr><tr><td class=\"tar\">ـكُمَا</td><td class=\"\">you (two)</td><td class=\"tar\">كِتَابُكُمَا</td><td class=\"\">your book</td></tr><tr><td class=\"tar\">ـكُمْ</td><td class=\"\">you (men, or mixed)</td><td class=\"tar\">كِتَابُكُمْ</td><td class=\"\">your book</td></tr><tr><td class=\"tar\">ـكُنَّ</td><td class=\"\">you (women)</td><td class=\"tar\">كِتَابُكُنَّ</td><td class=\"\">your book</td></tr><tr><td class=\"tar\">ـهُ</td><td class=\"\">he, it</td><td class=\"tar\">كِتَابُهُ</td><td class=\"\">his book</td></tr><tr><td class=\"tar\">ـهَا</td><td class=\"\">she, it</td><td class=\"tar\">كِتَابُهَا</td><td class=\"\">her book</td></tr><tr><td class=\"tar\">ـهُمَا</td><td class=\"\">they (two)</td><td class=\"tar\">كِتَابُهُمَا</td><td class=\"\">their book</td></tr><tr><td class=\"tar\">ـهُمْ</td><td class=\"\">they (men, or mixed)</td><td class=\"tar\">كِتَابُهُمْ</td><td class=\"\">their book</td></tr><tr><td class=\"tar\">ـهُنَّ</td><td class=\"\">they (women)</td><td class=\"tar\">كِتَابُهُنَّ</td><td class=\"\">their book</td></tr></table></div><div class=\"tipbox\"><b>Tip:</b> Compare with unit 1: <bdi class=\"ab\">أَنْتُمَا</bdi> and <bdi class=\"ab\">ـكُمَا</bdi>, <bdi class=\"ab\">أَنْتُمْ</bdi> and <bdi class=\"ab\">ـكُمْ</bdi>, <bdi class=\"ab\">أَنْتُنَّ</bdi> and <bdi class=\"ab\">ـكُنَّ</bdi>. The <bdi class=\"ab\">ـكَ</bdi> family is &quot;you&quot;. The <bdi class=\"ab\">ـهُ</bdi> family is &quot;he, she, they&quot;.</div><h2><span class=\"num\">2</span>On a noun: the owner</h2><p class=\"s0p\">A pronoun on a noun shows who owns it. It works like the second word of an iḍāfa.</p><div class=\"exlist\"><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">كِتَابُ زَيْدٍ ← كِتَابُهُ</div><div class=\"exe\">Zayd&#x27;s book → his book<div class=\"exn\"><bdi class=\"ab\">زَيْدٍ</bdi> is the owner, jarr. <bdi class=\"ab\">ـهُ</bdi> takes its job.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">كِتَابُهُ جَدِيدٌ.</div><div class=\"exe\">His book is new.<div class=\"exn\"><bdi class=\"ab\">ـهُ</bdi> is the owner. It is fixed, so it is in the place of jarr: <bdi class=\"ab\">فِي مَحَلِّ جَرٍّ</bdi>.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">بَيْتُهَا قَرِيبٌ.</div><div class=\"exe\">Her house is near.<div class=\"exn\"><bdi class=\"ab\">ـهَا</bdi> is the owner, in the place of jarr.</div></div></div></div><div class=\"rbox\" style=\"border-color:#22a05a;background:#e2f5e9\"><b style=\"color:#17803f\">No <bdi class=\"ab\">ال</bdi>, no tanween.</b> A noun with an attached pronoun is the first word of an iḍāfa. So it has no <bdi class=\"ab\">ال</bdi> and no tanween: <bdi class=\"ab\">كِتَابٌ</bdi> becomes <bdi class=\"ab\">كِتَابُهُ</bdi>.</div><p class=\"s0p\">The noun still shows its own ending before the pronoun. Only the noun is flexible. The pronoun stays the same.</p><div class=\"exlist\"><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">كِتَابُهُ جَدِيدٌ.</div><div class=\"exe\">His book is new.<div class=\"exn\"><bdi class=\"ab\">كِتَابُ</bdi> is the Topic: rafʿ, damma.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">قَرَأَ الطَّالِبُ كِتَابَهُ.</div><div class=\"exe\">The student read his book.<div class=\"exn\"><bdi class=\"ab\">كِتَابَ</bdi> is the object: naṣb, fatha.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">القَلَمُ فِي كِتَابِهِ.</div><div class=\"exe\">The pen is in his book.<div class=\"exn\"><bdi class=\"ab\">كِتَابِ</bdi> is after <bdi class=\"ab\">فِي</bdi>: jarr, kasra.</div></div></div></div><div class=\"tipbox\"><b>Tip:</b> A word ending in <bdi class=\"ab\">ة</bdi> writes it as <bdi class=\"ab\">ت</bdi> before a pronoun: <bdi class=\"ab\">سَيَّارَةٌ</bdi> → <bdi class=\"ab\">سَيَّارَتُهُ</bdi>, <bdi class=\"ab\">غُرْفَةٌ</bdi> → <bdi class=\"ab\">غُرْفَتُهَا</bdi>.</div><h2><span class=\"num\">3</span>With <bdi class=\"ab\">ـي</bdi> the ending is hidden</h2><p class=\"s0p\">The pronoun <bdi class=\"ab\">ـي</bdi> always needs a kasra before it. So the noun cannot show damma, fatha or kasra of its own.</p><div class=\"exlist\"><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">كِتَابِي جَدِيدٌ.</div><div class=\"exe\">My book is new.<div class=\"exn\"><bdi class=\"ab\">كِتَابِ</bdi> is the Topic and rafʿ, but you see a kasra.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">القَلَمُ فِي كِتَابِي.</div><div class=\"exe\">The pen is in my book.<div class=\"exn\">Here <bdi class=\"ab\">كِتَابِ</bdi> is jarr. It looks the same.</div></div></div></div><div class=\"rbox\" style=\"border-color:#2f7fe0;background:#e3eefc\"><b style=\"color:#1f64bd\">Do not read the ending before <bdi class=\"ab\">ـي</bdi>.</b> Before <bdi class=\"ab\">ـي</bdi> the kasra is for the pronoun. Find the job of the noun from the sentence, never from this vowel.</div><h2><span class=\"num\">4</span>On a preposition</h2><p class=\"s0p\">A pronoun after a preposition is jarr, like any word after a preposition. It is fixed, so it is in the place of jarr.</p><div class=\"exlist\"><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">القَلَمُ لَكَ.</div><div class=\"exe\">The pen is yours (for you).<div class=\"exn\"><bdi class=\"ab\">ـكَ</bdi> is after <bdi class=\"ab\">لِ</bdi>, in the place of jarr.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">خَرَجَ مِنْهُ.</div><div class=\"exe\">He went out of it.<div class=\"exn\"><bdi class=\"ab\">ـهُ</bdi> is after <bdi class=\"ab\">مِنْ</bdi>, in the place of jarr.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">الكِتَابُ عَلَيْهِ.</div><div class=\"exe\">The book is on it.<div class=\"exn\"><bdi class=\"ab\">ـهِ</bdi> is after <bdi class=\"ab\">عَلَى</bdi>, in the place of jarr.</div></div></div></div><p class=\"s0p\">Some prepositions change their shape. Learn these forms:</p><div class=\"tblwrap\"><table class=\"glance s0t\"><tr><th>Preposition</th><th>+ ـهُ</th><th>+ ـكَ</th><th>+ ـي</th></tr><tr><td class=\"tar\">فِي</td><td class=\"tar\">فِيهِ</td><td class=\"tar\">فِيكَ</td><td class=\"tar\">فِيَّ</td></tr><tr><td class=\"tar\">عَلَى</td><td class=\"tar\">عَلَيْهِ</td><td class=\"tar\">عَلَيْكَ</td><td class=\"tar\">عَلَيَّ</td></tr><tr><td class=\"tar\">إِلَى</td><td class=\"tar\">إِلَيْهِ</td><td class=\"tar\">إِلَيْكَ</td><td class=\"tar\">إِلَيَّ</td></tr><tr><td class=\"tar\">مِنْ</td><td class=\"tar\">مِنْهُ</td><td class=\"tar\">مِنْكَ</td><td class=\"tar\">مِنِّي</td></tr><tr><td class=\"tar\">لِ</td><td class=\"tar\">لَهُ</td><td class=\"tar\">لَكَ</td><td class=\"tar\">لِي</td></tr></table></div><div class=\"rbox\" style=\"border-color:#7d858e;background:#eef0f2\"><b style=\"color:#5a626b\">Three changes to remember.</b> <bdi class=\"ab\">عَلَى</bdi> becomes <bdi class=\"ab\">عَلَيْـ</bdi> and <bdi class=\"ab\">إِلَى</bdi> becomes <bdi class=\"ab\">إِلَيْـ</bdi>: <bdi class=\"ab\">عَلَيْهِ</bdi>، <bdi class=\"ab\">إِلَيْهَا</bdi>. <bdi class=\"ab\">لِ</bdi> becomes <bdi class=\"ab\">لَ</bdi>: <bdi class=\"ab\">لَهُ</bdi>، <bdi class=\"ab\">لَكَ</bdi>، <bdi class=\"ab\">لَهَا</bdi>. Only with <bdi class=\"ab\">ـي</bdi> it stays <bdi class=\"ab\">لِي</bdi>.</div><h2><span class=\"num\">5</span>When <bdi class=\"ab\">ـهُ</bdi> becomes <bdi class=\"ab\">ـهِ</bdi></h2><div class=\"rbox\" style=\"border-color:#2f7fe0;background:#e3eefc\"><b style=\"color:#1f64bd\">After kasra or <bdi class=\"ab\">ي</bdi>.</b> After a kasra or a <bdi class=\"ab\">ي</bdi>, the damma of <bdi class=\"ab\">ـهُ</bdi> becomes a kasra: <bdi class=\"ab\">فِيهِ</bdi>، <bdi class=\"ab\">عَلَيْهِ</bdi>، <bdi class=\"ab\">إِلَيْهِ</bdi>، <bdi class=\"ab\">بِهِ</bdi> (with it), <bdi class=\"ab\">فِي بَيْتِهِ</bdi>.</div><p class=\"s0p\">The same happens to <bdi class=\"ab\">ـهُمَا</bdi>، <bdi class=\"ab\">ـهُمْ</bdi>، <bdi class=\"ab\">ـهُنَّ</bdi>:</p><div class=\"exlist\"><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">عَلَيْهِمْ</div><div class=\"exe\">on them<div class=\"exn\"><bdi class=\"ab\">ـهُمْ</bdi> after <bdi class=\"ab\">ي</bdi> becomes <bdi class=\"ab\">ـهِمْ</bdi>.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">فِيهِمَا</div><div class=\"exe\">in them (two)<div class=\"exn\"><bdi class=\"ab\">ـهُمَا</bdi> after <bdi class=\"ab\">ي</bdi> becomes <bdi class=\"ab\">ـهِمَا</bdi>.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">فِي بَيْتِهِنَّ</div><div class=\"exe\">in their house (women)<div class=\"exn\"><bdi class=\"ab\">بَيْتِ</bdi> ends in kasra, so <bdi class=\"ab\">ـهُنَّ</bdi> becomes <bdi class=\"ab\">ـهِنَّ</bdi>.</div></div></div></div><div class=\"tipbox\"><b>Tip:</b> It is the same pronoun. Only the sound changes, to make it easy to say. With a damma, fatha or sukūn before it, it stays <bdi class=\"ab\">ـهُ</bdi>: <bdi class=\"ab\">مِنْهُ</bdi>، <bdi class=\"ab\">لَهُ</bdi>، <bdi class=\"ab\">كِتَابُهُ</bdi>.</div><h2><span class=\"num\">6</span>On a verb: the object</h2><p class=\"s0p\">A pronoun from this table on a past verb or an order verb is the object. The object is naṣb. The pronoun is fixed, so it is in the place of naṣb: <bdi class=\"ab\">فِي مَحَلِّ نَصْبٍ</bdi>.</p><div class=\"exlist\"><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">فَتَحَ البَابَ ← فَتَحَهُ</div><div class=\"exe\">He opened the door → he opened it<div class=\"exn\"><bdi class=\"ab\">ـهُ</bdi> takes the place of <bdi class=\"ab\">البَابَ</bdi>.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">فَتَحَتْهُ البِنْتُ.</div><div class=\"exe\">The girl opened it.<div class=\"exn\">The pronoun comes right after the verb, before the doer.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">كَتَبَهَا المُدَرِّسُ.</div><div class=\"exe\">The teacher wrote it (the letter).<div class=\"exn\"><bdi class=\"ab\">ـهَا</bdi> is the object, in the place of naṣb.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">اِقْرَأِ الكِتَابَ ← اِقْرَأْهُ</div><div class=\"exe\">Read the book → read it<div class=\"exn\">The order verb keeps its sukūn: <bdi class=\"ab\">اِقْرَأْ</bdi> + <bdi class=\"ab\">ـهُ</bdi>.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">اُكْتُبْهُ</div><div class=\"exe\">Write it.<div class=\"exn\"><bdi class=\"ab\">ـهُ</bdi> is the object, in the place of naṣb.</div></div></div></div><div class=\"tipbox\"><b>Tip:</b> Past verbs also have endings like <bdi class=\"ab\">ـتُ</bdi>، <bdi class=\"ab\">ـتَ</bdi>، <bdi class=\"ab\">ـنَا</bdi> for the doer: &quot;I&quot;, &quot;you&quot;, &quot;we&quot;. They are pronouns too. We learn them in unit 6.</div><div class=\"tipbox\"><b>Tip:</b> On a verb, &quot;me&quot; is <bdi class=\"ab\">ـنِي</bdi>, with an extra <bdi class=\"ab\">ن</bdi>. We meet it later.</div><h2><span class=\"num\">7</span>Three places, one table</h2><div class=\"tblwrap\"><table class=\"glance s0t\"><tr><th>Joined to</th><th>Job</th><th>Place</th><th>Example</th></tr><tr><td class=\"\">a noun</td><td class=\"\">Owner</td><td class=\"\">in the place of jarr</td><td class=\"tar\"><bdi class=\"ab\">كِتَابُهُ</bdi></td></tr><tr><td class=\"\">a preposition</td><td class=\"\">After a preposition</td><td class=\"\">in the place of jarr</td><td class=\"tar\"><bdi class=\"ab\">عَلَيْهِ</bdi></td></tr><tr><td class=\"\">a past or order verb</td><td class=\"\">Object</td><td class=\"\">in the place of naṣb</td><td class=\"tar\"><bdi class=\"ab\">فَتَحَهُ</bdi>، <bdi class=\"ab\">اِقْرَأْهُ</bdi></td></tr></table></div><div class=\"three\"><h3>In short</h3><ol><li>Twelve attached pronouns: <bdi class=\"ab\">ـي</bdi>، <bdi class=\"ab\">ـنَا</bdi>، <bdi class=\"ab\">ـكَ</bdi>، <bdi class=\"ab\">ـكِ</bdi>، <bdi class=\"ab\">ـكُمَا</bdi>، <bdi class=\"ab\">ـكُمْ</bdi>، <bdi class=\"ab\">ـكُنَّ</bdi>، <bdi class=\"ab\">ـهُ</bdi>، <bdi class=\"ab\">ـهَا</bdi>، <bdi class=\"ab\">ـهُمَا</bdi>، <bdi class=\"ab\">ـهُمْ</bdi>، <bdi class=\"ab\">ـهُنَّ</bdi>.</li><li>On a noun it is the owner, in the place of jarr. The noun loses <bdi class=\"ab\">ال</bdi> and tanween.</li><li>After a preposition it is in the place of jarr: <bdi class=\"ab\">عَلَيْهِ</bdi>، <bdi class=\"ab\">إِلَيْكَ</bdi>، <bdi class=\"ab\">لَهُ</bdi>.</li><li>On a verb it is the object, in the place of naṣb: <bdi class=\"ab\">فَتَحَهُ</bdi>.</li><li><bdi class=\"ab\">ـهُ</bdi> becomes <bdi class=\"ab\">ـهِ</bdi> after kasra or <bdi class=\"ab\">ي</bdi>. Before <bdi class=\"ab\">ـي</bdi> the noun&#x27;s ending is hidden.</li></ol></div>"
+}

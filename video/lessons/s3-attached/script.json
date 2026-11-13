@@ -1,0 +1,2717 @@
+{
+ "lesson": "s3-attached",
+ "scenes": [
+  "hero",
+  "c01-title",
+  "c01-intro",
+  "c01-table",
+  "c01-tip",
+  "c02-title",
+  "c02-owner",
+  "c02-rule",
+  "c02-endings",
+  "c02-tip",
+  "c03-title",
+  "c03-hidden",
+  "c03-rule",
+  "c04-title",
+  "c04-prep",
+  "c04-forms",
+  "c04-rule",
+  "c05-title",
+  "c05-rule",
+  "c05-ex",
+  "c05-tip",
+  "c06-title",
+  "c06-intro",
+  "c06-ex",
+  "c06-tips",
+  "c07-title",
+  "c07-table",
+  "c07-summary"
+ ],
+ "segments": [
+  {
+   "id": "hero-01",
+   "scene": "hero",
+   "lang": "en",
+   "text": "Pronouns that hold on.",
+   "pause": 0.6,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "hero-02",
+   "scene": "hero",
+   "lang": "en",
+   "text": "Some pronouns are written joined to the end of another word.",
+   "pause": 0.4,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "hero-03",
+   "scene": "hero",
+   "lang": "en",
+   "text": "His book.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "hero-04",
+   "scene": "hero",
+   "lang": "ar",
+   "text": "كِتَابُهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُهُ"
+   ]
+  },
+  {
+   "id": "hero-05",
+   "scene": "hero",
+   "lang": "en",
+   "text": "On it.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "hero-06",
+   "scene": "hero",
+   "lang": "ar",
+   "text": "عَلَيْهِ",
+   "pause": 0.5,
+   "cues": [
+    "ar:عَلَيْهِ"
+   ]
+  },
+  {
+   "id": "hero-07",
+   "scene": "hero",
+   "lang": "en",
+   "text": "He opened it.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "hero-08",
+   "scene": "hero",
+   "lang": "ar",
+   "text": "فَتَحَهُ",
+   "pause": 0.7,
+   "cues": [
+    "ar:فَتَحَهُ"
+   ]
+  },
+  {
+   "id": "c01-title-01",
+   "scene": "c01-title",
+   "lang": "en",
+   "text": "Chapter one. The twelve attached pronouns.",
+   "pause": 0.6,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c01-intro-01",
+   "scene": "c01-intro",
+   "lang": "en",
+   "text": "An attached pronoun cannot stand alone.",
+   "pause": 0.35,
+   "cues": [
+    "b:0",
+    "hl:cannot stand alone"
+   ]
+  },
+  {
+   "id": "c01-intro-02",
+   "scene": "c01-intro",
+   "lang": "en",
+   "text": "It joins the end of a noun, a preposition or a verb.",
+   "pause": 0.35,
+   "cues": [
+    "hl:a noun, a preposition or a verb"
+   ]
+  },
+  {
+   "id": "c01-intro-03",
+   "scene": "c01-intro",
+   "lang": "en",
+   "text": "Like the separate pronouns, it is fixed.",
+   "pause": 0.6,
+   "cues": [
+    "hl:it is fixed"
+   ]
+  },
+  {
+   "id": "c01-table-01",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "Here are all twelve. Each row shows the pronoun, who it means, the pronoun on a noun, and the English.",
+   "pause": 0.4,
+   "cues": [
+    "b:0"
+   ]
+  },
+  {
+   "id": "c01-table-02",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The pronoun for I, or me. My book.",
+   "pause": 0.4,
+   "cues": [
+    "row:0",
+    "ar:ـي"
+   ]
+  },
+  {
+   "id": "c01-table-03",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "كِتَابِي",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابِي"
+   ]
+  },
+  {
+   "id": "c01-table-04",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The pronoun for we, or us. Our book.",
+   "pause": 0.4,
+   "cues": [
+    "row:1",
+    "ar:ـنَا"
+   ]
+  },
+  {
+   "id": "c01-table-05",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "كِتَابُنَا",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُنَا"
+   ]
+  },
+  {
+   "id": "c01-table-06",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The pronoun for you, one man. Your book.",
+   "pause": 0.4,
+   "cues": [
+    "row:2",
+    "ar:ـكَ"
+   ]
+  },
+  {
+   "id": "c01-table-07",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "كِتَابُكَ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُكَ"
+   ]
+  },
+  {
+   "id": "c01-table-08",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The pronoun for you, one woman. Your book.",
+   "pause": 0.4,
+   "cues": [
+    "row:3",
+    "ar:ـكِ"
+   ]
+  },
+  {
+   "id": "c01-table-09",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "كِتَابُكِ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُكِ"
+   ]
+  },
+  {
+   "id": "c01-table-10",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The pronoun for you, two. Your book.",
+   "pause": 0.4,
+   "cues": [
+    "row:4",
+    "ar:ـكُمَا"
+   ]
+  },
+  {
+   "id": "c01-table-11",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "كِتَابُكُمَا",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُكُمَا"
+   ]
+  },
+  {
+   "id": "c01-table-12",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The pronoun for you, men, or a mixed group. Your book.",
+   "pause": 0.4,
+   "cues": [
+    "row:5",
+    "ar:ـكُمْ"
+   ]
+  },
+  {
+   "id": "c01-table-13",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "كِتَابُكُمْ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُكُمْ"
+   ]
+  },
+  {
+   "id": "c01-table-14",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The pronoun for you, women. Your book.",
+   "pause": 0.4,
+   "cues": [
+    "row:6",
+    "ar:ـكُنَّ"
+   ]
+  },
+  {
+   "id": "c01-table-15",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "كِتَابُكُنَّ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُكُنَّ"
+   ]
+  },
+  {
+   "id": "c01-table-16",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The pronoun for he, or it. His book.",
+   "pause": 0.4,
+   "cues": [
+    "row:7",
+    "ar:ـهُ"
+   ]
+  },
+  {
+   "id": "c01-table-17",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "كِتَابُهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُهُ"
+   ]
+  },
+  {
+   "id": "c01-table-18",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The pronoun for she, or it. Her book.",
+   "pause": 0.4,
+   "cues": [
+    "row:8",
+    "ar:ـهَا"
+   ]
+  },
+  {
+   "id": "c01-table-19",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "كِتَابُهَا",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُهَا"
+   ]
+  },
+  {
+   "id": "c01-table-20",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The pronoun for they, two. Their book.",
+   "pause": 0.4,
+   "cues": [
+    "row:9",
+    "ar:ـهُمَا"
+   ]
+  },
+  {
+   "id": "c01-table-21",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "كِتَابُهُمَا",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُهُمَا"
+   ]
+  },
+  {
+   "id": "c01-table-22",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The pronoun for they, men, or a mixed group. Their book.",
+   "pause": 0.4,
+   "cues": [
+    "row:10",
+    "ar:ـهُمْ"
+   ]
+  },
+  {
+   "id": "c01-table-23",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "كِتَابُهُمْ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُهُمْ"
+   ]
+  },
+  {
+   "id": "c01-table-24",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The pronoun for they, women. Their book.",
+   "pause": 0.4,
+   "cues": [
+    "row:11",
+    "ar:ـهُنَّ"
+   ]
+  },
+  {
+   "id": "c01-table-25",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "كِتَابُهُنَّ",
+   "pause": 0.7,
+   "cues": [
+    "ar:كِتَابُهُنَّ"
+   ]
+  },
+  {
+   "id": "c01-tip-01",
+   "scene": "c01-tip",
+   "lang": "en",
+   "text": "Tip. Compare them with the separate pronouns of unit one.",
+   "pause": 0.4,
+   "cues": [
+    "b:0"
+   ]
+  },
+  {
+   "id": "c01-tip-02",
+   "scene": "c01-tip",
+   "lang": "ar",
+   "text": "أَنْتُمَا",
+   "pause": 0.5,
+   "cues": [
+    "ar:أَنْتُمَا"
+   ]
+  },
+  {
+   "id": "c01-tip-03",
+   "scene": "c01-tip",
+   "lang": "en",
+   "text": "and the attached pronoun for you, two.",
+   "pause": 0.4,
+   "cues": [
+    "ar:ـكُمَا"
+   ]
+  },
+  {
+   "id": "c01-tip-04",
+   "scene": "c01-tip",
+   "lang": "ar",
+   "text": "أَنْتُمْ",
+   "pause": 0.5,
+   "cues": [
+    "ar:أَنْتُمْ"
+   ]
+  },
+  {
+   "id": "c01-tip-05",
+   "scene": "c01-tip",
+   "lang": "en",
+   "text": "and the attached pronoun for you, men or a mixed group.",
+   "pause": 0.4,
+   "cues": [
+    "ar:ـكُمْ"
+   ]
+  },
+  {
+   "id": "c01-tip-06",
+   "scene": "c01-tip",
+   "lang": "ar",
+   "text": "أَنْتُنَّ",
+   "pause": 0.5,
+   "cues": [
+    "ar:أَنْتُنَّ"
+   ]
+  },
+  {
+   "id": "c01-tip-07",
+   "scene": "c01-tip",
+   "lang": "en",
+   "text": "and the attached pronoun for you, women.",
+   "pause": 0.4,
+   "cues": [
+    "ar:ـكُنَّ"
+   ]
+  },
+  {
+   "id": "c01-tip-08",
+   "scene": "c01-tip",
+   "lang": "en",
+   "text": "The family of this pronoun means you.",
+   "pause": 0.35,
+   "cues": [
+    "ar:ـكَ",
+    "hl:family is \"you\""
+   ]
+  },
+  {
+   "id": "c01-tip-09",
+   "scene": "c01-tip",
+   "lang": "en",
+   "text": "The family of this one means he, she and they.",
+   "pause": 0.7,
+   "cues": [
+    "ar:ـهُ",
+    "hl:family is \"he, she, they\""
+   ]
+  },
+  {
+   "id": "c02-title-01",
+   "scene": "c02-title",
+   "lang": "en",
+   "text": "Chapter two. On a noun: the owner.",
+   "pause": 0.6,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c02-owner-01",
+   "scene": "c02-owner",
+   "lang": "en",
+   "text": "A pronoun on a noun shows who owns it.",
+   "pause": 0.3,
+   "cues": [
+    "b:0"
+   ]
+  },
+  {
+   "id": "c02-owner-02",
+   "scene": "c02-owner",
+   "lang": "en",
+   "text": "It works like the second word of an iḍāfa.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-owner-03",
+   "scene": "c02-owner",
+   "lang": "en",
+   "text": "Zayd's book.",
+   "pause": 0.4,
+   "cues": [
+    "b:1",
+    "ex:0"
+   ]
+  },
+  {
+   "id": "c02-owner-04",
+   "scene": "c02-owner",
+   "lang": "ar",
+   "text": "كِتَابُ زَيْدٍ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُ زَيْدٍ"
+   ]
+  },
+  {
+   "id": "c02-owner-05",
+   "scene": "c02-owner",
+   "lang": "en",
+   "text": "His book.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-owner-06",
+   "scene": "c02-owner",
+   "lang": "ar",
+   "text": "كِتَابُهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُهُ"
+   ]
+  },
+  {
+   "id": "c02-owner-07",
+   "scene": "c02-owner",
+   "lang": "en",
+   "text": "Zayd is the owner, so it is jarr.",
+   "pause": 0.3,
+   "cues": [
+    "note:0",
+    "ar:زَيْدٍ"
+   ]
+  },
+  {
+   "id": "c02-owner-08",
+   "scene": "c02-owner",
+   "lang": "en",
+   "text": "The pronoun for he takes its job.",
+   "pause": 0.5,
+   "cues": [
+    "ar:ـهُ"
+   ]
+  },
+  {
+   "id": "c02-owner-09",
+   "scene": "c02-owner",
+   "lang": "en",
+   "text": "His book is new.",
+   "pause": 0.4,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c02-owner-10",
+   "scene": "c02-owner",
+   "lang": "ar",
+   "text": "كِتَابُهُ جَدِيدٌ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُهُ جَدِيدٌ"
+   ]
+  },
+  {
+   "id": "c02-owner-11",
+   "scene": "c02-owner",
+   "lang": "en",
+   "text": "The pronoun for he is the owner.",
+   "pause": 0.3,
+   "cues": [
+    "note:1",
+    "ar:ـهُ#2"
+   ]
+  },
+  {
+   "id": "c02-owner-12",
+   "scene": "c02-owner",
+   "lang": "en",
+   "text": "It is fixed, so it does not change its ending. It is in the place of jarr.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-owner-13",
+   "scene": "c02-owner",
+   "lang": "ar",
+   "text": "فِي مَحَلِّ جَرٍّ",
+   "pause": 0.5,
+   "cues": [
+    "ar:فِي مَحَلِّ جَرٍّ"
+   ]
+  },
+  {
+   "id": "c02-owner-14",
+   "scene": "c02-owner",
+   "lang": "en",
+   "text": "Her house is near.",
+   "pause": 0.4,
+   "cues": [
+    "ex:2"
+   ]
+  },
+  {
+   "id": "c02-owner-15",
+   "scene": "c02-owner",
+   "lang": "ar",
+   "text": "بَيْتُهَا قَرِيبٌ",
+   "pause": 0.5,
+   "cues": [
+    "ar:بَيْتُهَا قَرِيبٌ"
+   ]
+  },
+  {
+   "id": "c02-owner-16",
+   "scene": "c02-owner",
+   "lang": "en",
+   "text": "The pronoun for she is the owner, in the place of jarr.",
+   "pause": 0.6,
+   "cues": [
+    "note:2",
+    "ar:ـهَا"
+   ]
+  },
+  {
+   "id": "c02-rule-01",
+   "scene": "c02-rule",
+   "lang": "en",
+   "text": "No al, no tanween.",
+   "pause": 0.35,
+   "cues": [
+    "b:0",
+    "ar:ال",
+    "hl:no tanween"
+   ]
+  },
+  {
+   "id": "c02-rule-02",
+   "scene": "c02-rule",
+   "lang": "en",
+   "text": "A noun with an attached pronoun is the first word of an iḍāfa.",
+   "pause": 0.3,
+   "cues": [
+    "hl:the first word of an iḍāfa"
+   ]
+  },
+  {
+   "id": "c02-rule-03",
+   "scene": "c02-rule",
+   "lang": "en",
+   "text": "So it has no al and no tanween.",
+   "pause": 0.4,
+   "cues": [
+    "ar:ال#2"
+   ]
+  },
+  {
+   "id": "c02-rule-04",
+   "scene": "c02-rule",
+   "lang": "en",
+   "text": "A book,",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-rule-05",
+   "scene": "c02-rule",
+   "lang": "ar",
+   "text": "كِتَابٌ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابٌ"
+   ]
+  },
+  {
+   "id": "c02-rule-06",
+   "scene": "c02-rule",
+   "lang": "en",
+   "text": "becomes his book.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-rule-07",
+   "scene": "c02-rule",
+   "lang": "ar",
+   "text": "كِتَابُهُ",
+   "pause": 0.7,
+   "cues": [
+    "ar:كِتَابُهُ"
+   ]
+  },
+  {
+   "id": "c02-endings-01",
+   "scene": "c02-endings",
+   "lang": "en",
+   "text": "The noun still shows its own ending before the pronoun.",
+   "pause": 0.3,
+   "cues": [
+    "b:0"
+   ]
+  },
+  {
+   "id": "c02-endings-02",
+   "scene": "c02-endings",
+   "lang": "en",
+   "text": "Only the noun is flexible. The pronoun stays the same.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-endings-03",
+   "scene": "c02-endings",
+   "lang": "en",
+   "text": "His book is new.",
+   "pause": 0.4,
+   "cues": [
+    "b:1",
+    "ex:0"
+   ]
+  },
+  {
+   "id": "c02-endings-04",
+   "scene": "c02-endings",
+   "lang": "ar",
+   "text": "كِتَابُهُ جَدِيدٌ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُهُ جَدِيدٌ"
+   ]
+  },
+  {
+   "id": "c02-endings-05",
+   "scene": "c02-endings",
+   "lang": "en",
+   "text": "The word for book is the Topic. It is rafʿ, with damma.",
+   "pause": 0.4,
+   "cues": [
+    "note:0",
+    "ar:كِتَابُ"
+   ]
+  },
+  {
+   "id": "c02-endings-06",
+   "scene": "c02-endings",
+   "lang": "ar",
+   "text": "كِتَابُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُ"
+   ]
+  },
+  {
+   "id": "c02-endings-07",
+   "scene": "c02-endings",
+   "lang": "en",
+   "text": "The student read his book.",
+   "pause": 0.4,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c02-endings-08",
+   "scene": "c02-endings",
+   "lang": "ar",
+   "text": "قَرَأَ الطَّالِبُ كِتَابَهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:قَرَأَ الطَّالِبُ كِتَابَهُ"
+   ]
+  },
+  {
+   "id": "c02-endings-09",
+   "scene": "c02-endings",
+   "lang": "en",
+   "text": "The word for book is the object. It is naṣb, with fatha.",
+   "pause": 0.4,
+   "cues": [
+    "note:1",
+    "ar:كِتَابَ"
+   ]
+  },
+  {
+   "id": "c02-endings-10",
+   "scene": "c02-endings",
+   "lang": "ar",
+   "text": "كِتَابَ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابَ"
+   ]
+  },
+  {
+   "id": "c02-endings-11",
+   "scene": "c02-endings",
+   "lang": "en",
+   "text": "The pen is in his book.",
+   "pause": 0.4,
+   "cues": [
+    "ex:2"
+   ]
+  },
+  {
+   "id": "c02-endings-12",
+   "scene": "c02-endings",
+   "lang": "ar",
+   "text": "القَلَمُ فِي كِتَابِهِ",
+   "pause": 0.5,
+   "cues": [
+    "ar:القَلَمُ فِي كِتَابِهِ"
+   ]
+  },
+  {
+   "id": "c02-endings-13",
+   "scene": "c02-endings",
+   "lang": "en",
+   "text": "The word for book comes after the preposition meaning in. It is jarr, with kasra.",
+   "pause": 0.4,
+   "cues": [
+    "note:2",
+    "ar:كِتَابِ",
+    "ar:فِي"
+   ]
+  },
+  {
+   "id": "c02-endings-14",
+   "scene": "c02-endings",
+   "lang": "ar",
+   "text": "كِتَابِ",
+   "pause": 0.7,
+   "cues": [
+    "ar:كِتَابِ"
+   ]
+  },
+  {
+   "id": "c02-tip-01",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "A spelling tip. Look at a word that ends in this letter.",
+   "pause": 0.3,
+   "cues": [
+    "b:0",
+    "ar:ة"
+   ]
+  },
+  {
+   "id": "c02-tip-02",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "Before a pronoun, it is written as this letter instead.",
+   "pause": 0.4,
+   "cues": [
+    "ar:ت"
+   ]
+  },
+  {
+   "id": "c02-tip-03",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "A car.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-tip-04",
+   "scene": "c02-tip",
+   "lang": "ar",
+   "text": "سَيَّارَةٌ",
+   "pause": 0.5,
+   "cues": [
+    "ar:سَيَّارَةٌ"
+   ]
+  },
+  {
+   "id": "c02-tip-05",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "His car.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-tip-06",
+   "scene": "c02-tip",
+   "lang": "ar",
+   "text": "سَيَّارَتُهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:سَيَّارَتُهُ"
+   ]
+  },
+  {
+   "id": "c02-tip-07",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "A room.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-tip-08",
+   "scene": "c02-tip",
+   "lang": "ar",
+   "text": "غُرْفَةٌ",
+   "pause": 0.5,
+   "cues": [
+    "ar:غُرْفَةٌ"
+   ]
+  },
+  {
+   "id": "c02-tip-09",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "Her room.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-tip-10",
+   "scene": "c02-tip",
+   "lang": "ar",
+   "text": "غُرْفَتُهَا",
+   "pause": 0.7,
+   "cues": [
+    "ar:غُرْفَتُهَا"
+   ]
+  },
+  {
+   "id": "c03-title-01",
+   "scene": "c03-title",
+   "lang": "en",
+   "text": "Chapter three.",
+   "pause": 0.3,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c03-title-02",
+   "scene": "c03-title",
+   "lang": "en",
+   "text": "With the pronoun for me, the ending is hidden.",
+   "pause": 0.6,
+   "cues": [
+    "ar:ـي"
+   ]
+  },
+  {
+   "id": "c03-hidden-01",
+   "scene": "c03-hidden",
+   "lang": "en",
+   "text": "The pronoun for me always needs a kasra before it.",
+   "pause": 0.3,
+   "cues": [
+    "b:0",
+    "ar:ـي#2"
+   ]
+  },
+  {
+   "id": "c03-hidden-02",
+   "scene": "c03-hidden",
+   "lang": "en",
+   "text": "So the noun cannot show damma, fatha or kasra of its own.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c03-hidden-03",
+   "scene": "c03-hidden",
+   "lang": "en",
+   "text": "My book is new.",
+   "pause": 0.4,
+   "cues": [
+    "b:1",
+    "ex:0"
+   ]
+  },
+  {
+   "id": "c03-hidden-04",
+   "scene": "c03-hidden",
+   "lang": "ar",
+   "text": "كِتَابِي جَدِيدٌ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابِي جَدِيدٌ"
+   ]
+  },
+  {
+   "id": "c03-hidden-05",
+   "scene": "c03-hidden",
+   "lang": "en",
+   "text": "The word for book is the Topic, and it is rafʿ. But you see a kasra.",
+   "pause": 0.5,
+   "cues": [
+    "note:0",
+    "ar:كِتَابِ"
+   ]
+  },
+  {
+   "id": "c03-hidden-06",
+   "scene": "c03-hidden",
+   "lang": "en",
+   "text": "The pen is in my book.",
+   "pause": 0.4,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c03-hidden-07",
+   "scene": "c03-hidden",
+   "lang": "ar",
+   "text": "القَلَمُ فِي كِتَابِي",
+   "pause": 0.5,
+   "cues": [
+    "ar:القَلَمُ فِي كِتَابِي"
+   ]
+  },
+  {
+   "id": "c03-hidden-08",
+   "scene": "c03-hidden",
+   "lang": "en",
+   "text": "Here the word for book is jarr. It looks the same.",
+   "pause": 0.6,
+   "cues": [
+    "note:1",
+    "ar:كِتَابِ#2"
+   ]
+  },
+  {
+   "id": "c03-rule-01",
+   "scene": "c03-rule",
+   "lang": "en",
+   "text": "So here is the rule. Do not read the ending before the pronoun for me.",
+   "pause": 0.35,
+   "cues": [
+    "b:0",
+    "ar:ـي#2",
+    "hl:Do not read the ending before"
+   ]
+  },
+  {
+   "id": "c03-rule-02",
+   "scene": "c03-rule",
+   "lang": "en",
+   "text": "Before it, the kasra is for the pronoun.",
+   "pause": 0.35,
+   "cues": [
+    "ar:ـي#3",
+    "hl:the kasra is for the pronoun"
+   ]
+  },
+  {
+   "id": "c03-rule-03",
+   "scene": "c03-rule",
+   "lang": "en",
+   "text": "Find the job of the noun from the sentence, never from this vowel.",
+   "pause": 0.7,
+   "cues": [
+    "hl:from the sentence, never from this vowel"
+   ]
+  },
+  {
+   "id": "c04-title-01",
+   "scene": "c04-title",
+   "lang": "en",
+   "text": "Chapter four. On a preposition.",
+   "pause": 0.6,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c04-prep-01",
+   "scene": "c04-prep",
+   "lang": "en",
+   "text": "A pronoun after a preposition is jarr, like any word after a preposition.",
+   "pause": 0.3,
+   "cues": [
+    "b:0"
+   ]
+  },
+  {
+   "id": "c04-prep-02",
+   "scene": "c04-prep",
+   "lang": "en",
+   "text": "It is fixed, so it is in the place of jarr.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c04-prep-03",
+   "scene": "c04-prep",
+   "lang": "en",
+   "text": "The pen is yours. That is, for you.",
+   "pause": 0.4,
+   "cues": [
+    "b:1",
+    "ex:0"
+   ]
+  },
+  {
+   "id": "c04-prep-04",
+   "scene": "c04-prep",
+   "lang": "ar",
+   "text": "القَلَمُ لَكَ",
+   "pause": 0.5,
+   "cues": [
+    "ar:القَلَمُ لَكَ"
+   ]
+  },
+  {
+   "id": "c04-prep-05",
+   "scene": "c04-prep",
+   "lang": "en",
+   "text": "The pronoun for you, one man, comes after the preposition meaning for.",
+   "pause": 0.2,
+   "cues": [
+    "note:0",
+    "ar:ـكَ"
+   ]
+  },
+  {
+   "id": "c04-prep-06",
+   "scene": "c04-prep",
+   "lang": "en",
+   "text": "That preposition is only one letter.",
+   "pause": 0.2,
+   "cues": [
+    "ar:لِ"
+   ]
+  },
+  {
+   "id": "c04-prep-07",
+   "scene": "c04-prep",
+   "lang": "en",
+   "text": "The pronoun is in the place of jarr.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c04-prep-08",
+   "scene": "c04-prep",
+   "lang": "en",
+   "text": "He went out of it.",
+   "pause": 0.4,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c04-prep-09",
+   "scene": "c04-prep",
+   "lang": "ar",
+   "text": "خَرَجَ مِنْهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:خَرَجَ مِنْهُ"
+   ]
+  },
+  {
+   "id": "c04-prep-10",
+   "scene": "c04-prep",
+   "lang": "en",
+   "text": "The pronoun for it comes after the preposition meaning from.",
+   "pause": 0.4,
+   "cues": [
+    "note:1",
+    "ar:ـهُ"
+   ]
+  },
+  {
+   "id": "c04-prep-11",
+   "scene": "c04-prep",
+   "lang": "ar",
+   "text": "مِنْ",
+   "pause": 0.4,
+   "cues": [
+    "ar:مِنْ"
+   ]
+  },
+  {
+   "id": "c04-prep-12",
+   "scene": "c04-prep",
+   "lang": "en",
+   "text": "It is in the place of jarr too.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c04-prep-13",
+   "scene": "c04-prep",
+   "lang": "en",
+   "text": "The book is on it.",
+   "pause": 0.4,
+   "cues": [
+    "ex:2"
+   ]
+  },
+  {
+   "id": "c04-prep-14",
+   "scene": "c04-prep",
+   "lang": "ar",
+   "text": "الكِتَابُ عَلَيْهِ",
+   "pause": 0.5,
+   "cues": [
+    "ar:الكِتَابُ عَلَيْهِ"
+   ]
+  },
+  {
+   "id": "c04-prep-15",
+   "scene": "c04-prep",
+   "lang": "en",
+   "text": "Here the pronoun for it comes after the preposition meaning on.",
+   "pause": 0.4,
+   "cues": [
+    "note:2",
+    "ar:ـهِ"
+   ]
+  },
+  {
+   "id": "c04-prep-16",
+   "scene": "c04-prep",
+   "lang": "ar",
+   "text": "عَلَى",
+   "pause": 0.4,
+   "cues": [
+    "ar:عَلَى"
+   ]
+  },
+  {
+   "id": "c04-prep-17",
+   "scene": "c04-prep",
+   "lang": "en",
+   "text": "It is in the place of jarr. Its kasra is not a sign of jarr. Only the sound changes. Chapter five explains it.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c04-forms-01",
+   "scene": "c04-forms",
+   "lang": "en",
+   "text": "Some prepositions change their shape. Learn these forms.",
+   "pause": 0.4,
+   "cues": [
+    "b:0"
+   ]
+  },
+  {
+   "id": "c04-forms-02",
+   "scene": "c04-forms",
+   "lang": "en",
+   "text": "Each row has the preposition, then the preposition with the pronoun for he, for you, and for me.",
+   "pause": 0.4,
+   "cues": [
+    "b:1"
+   ]
+  },
+  {
+   "id": "c04-forms-03",
+   "scene": "c04-forms",
+   "lang": "en",
+   "text": "In. In it, in you, in me.",
+   "pause": 0.4,
+   "cues": [
+    "row:0"
+   ]
+  },
+  {
+   "id": "c04-forms-04",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "فِي",
+   "pause": 0.35,
+   "cues": [
+    "ar:فِي"
+   ]
+  },
+  {
+   "id": "c04-forms-05",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "فِيهِ",
+   "pause": 0.35,
+   "cues": [
+    "ar:فِيهِ"
+   ]
+  },
+  {
+   "id": "c04-forms-06",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "فِيكَ",
+   "pause": 0.35,
+   "cues": [
+    "ar:فِيكَ"
+   ]
+  },
+  {
+   "id": "c04-forms-07",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "فِيَّ",
+   "pause": 0.6,
+   "cues": [
+    "ar:فِيَّ"
+   ]
+  },
+  {
+   "id": "c04-forms-08",
+   "scene": "c04-forms",
+   "lang": "en",
+   "text": "On. On it, on you, on me.",
+   "pause": 0.4,
+   "cues": [
+    "row:1"
+   ]
+  },
+  {
+   "id": "c04-forms-09",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "عَلَى",
+   "pause": 0.35,
+   "cues": [
+    "ar:عَلَى"
+   ]
+  },
+  {
+   "id": "c04-forms-10",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "عَلَيْهِ",
+   "pause": 0.35,
+   "cues": [
+    "ar:عَلَيْهِ"
+   ]
+  },
+  {
+   "id": "c04-forms-11",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "عَلَيْكَ",
+   "pause": 0.35,
+   "cues": [
+    "ar:عَلَيْكَ"
+   ]
+  },
+  {
+   "id": "c04-forms-12",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "عَلَيَّ",
+   "pause": 0.6,
+   "cues": [
+    "ar:عَلَيَّ"
+   ]
+  },
+  {
+   "id": "c04-forms-13",
+   "scene": "c04-forms",
+   "lang": "en",
+   "text": "To. To it, to you, to me.",
+   "pause": 0.4,
+   "cues": [
+    "row:2"
+   ]
+  },
+  {
+   "id": "c04-forms-14",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "إِلَى",
+   "pause": 0.35,
+   "cues": [
+    "ar:إِلَى"
+   ]
+  },
+  {
+   "id": "c04-forms-15",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "إِلَيْهِ",
+   "pause": 0.35,
+   "cues": [
+    "ar:إِلَيْهِ"
+   ]
+  },
+  {
+   "id": "c04-forms-16",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "إِلَيْكَ",
+   "pause": 0.35,
+   "cues": [
+    "ar:إِلَيْكَ"
+   ]
+  },
+  {
+   "id": "c04-forms-17",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "إِلَيَّ",
+   "pause": 0.6,
+   "cues": [
+    "ar:إِلَيَّ"
+   ]
+  },
+  {
+   "id": "c04-forms-18",
+   "scene": "c04-forms",
+   "lang": "en",
+   "text": "From. From it, from you, from me.",
+   "pause": 0.4,
+   "cues": [
+    "row:3"
+   ]
+  },
+  {
+   "id": "c04-forms-19",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "مِنْ",
+   "pause": 0.35,
+   "cues": [
+    "ar:مِنْ"
+   ]
+  },
+  {
+   "id": "c04-forms-20",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "مِنْهُ",
+   "pause": 0.35,
+   "cues": [
+    "ar:مِنْهُ"
+   ]
+  },
+  {
+   "id": "c04-forms-21",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "مِنْكَ",
+   "pause": 0.35,
+   "cues": [
+    "ar:مِنْكَ"
+   ]
+  },
+  {
+   "id": "c04-forms-22",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "مِنِّي",
+   "pause": 0.6,
+   "cues": [
+    "ar:مِنِّي"
+   ]
+  },
+  {
+   "id": "c04-forms-23",
+   "scene": "c04-forms",
+   "lang": "en",
+   "text": "For. This one is a single letter. For him, for you, for me.",
+   "pause": 0.4,
+   "cues": [
+    "row:4",
+    "ar:لِ"
+   ]
+  },
+  {
+   "id": "c04-forms-24",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "لَهُ",
+   "pause": 0.35,
+   "cues": [
+    "ar:لَهُ"
+   ]
+  },
+  {
+   "id": "c04-forms-25",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "لَكَ",
+   "pause": 0.35,
+   "cues": [
+    "ar:لَكَ"
+   ]
+  },
+  {
+   "id": "c04-forms-26",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "لِي",
+   "pause": 0.7,
+   "cues": [
+    "ar:لِي"
+   ]
+  },
+  {
+   "id": "c04-rule-01",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "Three changes to remember.",
+   "pause": 0.4,
+   "cues": [
+    "b:0",
+    "hl:Three changes to remember"
+   ]
+  },
+  {
+   "id": "c04-rule-02",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "One. The preposition meaning on.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-rule-03",
+   "scene": "c04-rule",
+   "lang": "ar",
+   "text": "عَلَى",
+   "pause": 0.4,
+   "cues": [
+    "ar:عَلَى"
+   ]
+  },
+  {
+   "id": "c04-rule-04",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "Before a pronoun, its end changes to this shape.",
+   "pause": 0.3,
+   "cues": [
+    "ar:عَلَيْـ"
+   ]
+  },
+  {
+   "id": "c04-rule-05",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "On it.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-rule-06",
+   "scene": "c04-rule",
+   "lang": "ar",
+   "text": "عَلَيْهِ",
+   "pause": 0.5,
+   "cues": [
+    "ar:عَلَيْهِ"
+   ]
+  },
+  {
+   "id": "c04-rule-07",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "Two. The preposition meaning to.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-rule-08",
+   "scene": "c04-rule",
+   "lang": "ar",
+   "text": "إِلَى",
+   "pause": 0.4,
+   "cues": [
+    "ar:إِلَى"
+   ]
+  },
+  {
+   "id": "c04-rule-09",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "Its end changes in the same way.",
+   "pause": 0.3,
+   "cues": [
+    "ar:إِلَيْـ"
+   ]
+  },
+  {
+   "id": "c04-rule-10",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "To her.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-rule-11",
+   "scene": "c04-rule",
+   "lang": "ar",
+   "text": "إِلَيْهَا",
+   "pause": 0.5,
+   "cues": [
+    "ar:إِلَيْهَا"
+   ]
+  },
+  {
+   "id": "c04-rule-12",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "Three. The preposition meaning for is one letter with a kasra.",
+   "pause": 0.3,
+   "cues": [
+    "ar:لِ"
+   ]
+  },
+  {
+   "id": "c04-rule-13",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "Before a pronoun, it takes a fatha.",
+   "pause": 0.3,
+   "cues": [
+    "ar:لَ"
+   ]
+  },
+  {
+   "id": "c04-rule-14",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "For him, for you, for her.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-rule-15",
+   "scene": "c04-rule",
+   "lang": "ar",
+   "text": "لَهُ",
+   "pause": 0.35,
+   "cues": [
+    "ar:لَهُ"
+   ]
+  },
+  {
+   "id": "c04-rule-16",
+   "scene": "c04-rule",
+   "lang": "ar",
+   "text": "لَكَ",
+   "pause": 0.35,
+   "cues": [
+    "ar:لَكَ"
+   ]
+  },
+  {
+   "id": "c04-rule-17",
+   "scene": "c04-rule",
+   "lang": "ar",
+   "text": "لَهَا",
+   "pause": 0.5,
+   "cues": [
+    "ar:لَهَا"
+   ]
+  },
+  {
+   "id": "c04-rule-18",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "Only with the pronoun for me does it keep its kasra. For me.",
+   "pause": 0.4,
+   "cues": [
+    "ar:ـي",
+    "hl:it stays"
+   ]
+  },
+  {
+   "id": "c04-rule-19",
+   "scene": "c04-rule",
+   "lang": "ar",
+   "text": "لِي",
+   "pause": 0.7,
+   "cues": [
+    "ar:لِي"
+   ]
+  },
+  {
+   "id": "c05-title-01",
+   "scene": "c05-title",
+   "lang": "en",
+   "text": "Chapter five. When the pronoun for he",
+   "pause": 0.15,
+   "cues": [
+    "title",
+    "ar:ـهُ"
+   ]
+  },
+  {
+   "id": "c05-title-02",
+   "scene": "c05-title",
+   "lang": "en",
+   "text": "changes its damma to a kasra.",
+   "pause": 0.6,
+   "cues": [
+    "ar:ـهِ"
+   ]
+  },
+  {
+   "id": "c05-rule-01",
+   "scene": "c05-rule",
+   "lang": "en",
+   "text": "After a kasra, or after this letter,",
+   "pause": 0.2,
+   "cues": [
+    "b:0",
+    "ar:ي#2",
+    "hl:After kasra or"
+   ]
+  },
+  {
+   "id": "c05-rule-02",
+   "scene": "c05-rule",
+   "lang": "en",
+   "text": "the damma of the pronoun for he becomes a kasra.",
+   "pause": 0.4,
+   "cues": [
+    "ar:ـهُ#2",
+    "hl:becomes a kasra"
+   ]
+  },
+  {
+   "id": "c05-rule-03",
+   "scene": "c05-rule",
+   "lang": "en",
+   "text": "After this letter: in it, on it, to him.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-rule-04",
+   "scene": "c05-rule",
+   "lang": "ar",
+   "text": "فِيهِ",
+   "pause": 0.35,
+   "cues": [
+    "ar:فِيهِ"
+   ]
+  },
+  {
+   "id": "c05-rule-05",
+   "scene": "c05-rule",
+   "lang": "ar",
+   "text": "عَلَيْهِ",
+   "pause": 0.35,
+   "cues": [
+    "ar:عَلَيْهِ"
+   ]
+  },
+  {
+   "id": "c05-rule-06",
+   "scene": "c05-rule",
+   "lang": "ar",
+   "text": "إِلَيْهِ",
+   "pause": 0.5,
+   "cues": [
+    "ar:إِلَيْهِ"
+   ]
+  },
+  {
+   "id": "c05-rule-07",
+   "scene": "c05-rule",
+   "lang": "en",
+   "text": "After a kasra: with it, and in his house.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-rule-08",
+   "scene": "c05-rule",
+   "lang": "ar",
+   "text": "بِهِ",
+   "pause": 0.35,
+   "cues": [
+    "ar:بِهِ"
+   ]
+  },
+  {
+   "id": "c05-rule-09",
+   "scene": "c05-rule",
+   "lang": "ar",
+   "text": "فِي بَيْتِهِ",
+   "pause": 0.7,
+   "cues": [
+    "ar:فِي بَيْتِهِ"
+   ]
+  },
+  {
+   "id": "c05-ex-01",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "The same happens to three more pronouns.",
+   "pause": 0.3,
+   "cues": [
+    "b:0"
+   ]
+  },
+  {
+   "id": "c05-ex-02",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "They, two.",
+   "pause": 0.25,
+   "cues": [
+    "ar:ـهُمَا"
+   ]
+  },
+  {
+   "id": "c05-ex-03",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "They, men.",
+   "pause": 0.25,
+   "cues": [
+    "ar:ـهُمْ"
+   ]
+  },
+  {
+   "id": "c05-ex-04",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "And they, women.",
+   "pause": 0.5,
+   "cues": [
+    "ar:ـهُنَّ"
+   ]
+  },
+  {
+   "id": "c05-ex-05",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "On them.",
+   "pause": 0.4,
+   "cues": [
+    "b:1",
+    "ex:0"
+   ]
+  },
+  {
+   "id": "c05-ex-06",
+   "scene": "c05-ex",
+   "lang": "ar",
+   "text": "عَلَيْهِمْ",
+   "pause": 0.5,
+   "cues": [
+    "ar:عَلَيْهِمْ"
+   ]
+  },
+  {
+   "id": "c05-ex-07",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "The pronoun for they, men,",
+   "pause": 0.15,
+   "cues": [
+    "note:0",
+    "ar:ـهُمْ#2"
+   ]
+  },
+  {
+   "id": "c05-ex-08",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "comes after this letter,",
+   "pause": 0.15,
+   "cues": [
+    "ar:ي"
+   ]
+  },
+  {
+   "id": "c05-ex-09",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "so its damma becomes a kasra.",
+   "pause": 0.5,
+   "cues": [
+    "ar:ـهِمْ"
+   ]
+  },
+  {
+   "id": "c05-ex-10",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "In them, two.",
+   "pause": 0.4,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c05-ex-11",
+   "scene": "c05-ex",
+   "lang": "ar",
+   "text": "فِيهِمَا",
+   "pause": 0.5,
+   "cues": [
+    "ar:فِيهِمَا"
+   ]
+  },
+  {
+   "id": "c05-ex-12",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "The pronoun for they, two,",
+   "pause": 0.15,
+   "cues": [
+    "note:1",
+    "ar:ـهُمَا#2"
+   ]
+  },
+  {
+   "id": "c05-ex-13",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "comes after the same letter,",
+   "pause": 0.15,
+   "cues": [
+    "ar:ي#2"
+   ]
+  },
+  {
+   "id": "c05-ex-14",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "so it changes in the same way.",
+   "pause": 0.5,
+   "cues": [
+    "ar:ـهِمَا"
+   ]
+  },
+  {
+   "id": "c05-ex-15",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "In their house, women.",
+   "pause": 0.4,
+   "cues": [
+    "ex:2"
+   ]
+  },
+  {
+   "id": "c05-ex-16",
+   "scene": "c05-ex",
+   "lang": "ar",
+   "text": "فِي بَيْتِهِنَّ",
+   "pause": 0.5,
+   "cues": [
+    "ar:فِي بَيْتِهِنَّ"
+   ]
+  },
+  {
+   "id": "c05-ex-17",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "The word for house ends in a kasra here. It is jarr after the preposition meaning in.",
+   "pause": 0.2,
+   "cues": [
+    "note:2",
+    "ar:بَيْتِ"
+   ]
+  },
+  {
+   "id": "c05-ex-18",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "The pronoun for they, women, comes after it,",
+   "pause": 0.15,
+   "cues": [
+    "ar:ـهُنَّ#2"
+   ]
+  },
+  {
+   "id": "c05-ex-19",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "so its damma becomes a kasra too.",
+   "pause": 0.6,
+   "cues": [
+    "ar:ـهِنَّ"
+   ]
+  },
+  {
+   "id": "c05-tip-01",
+   "scene": "c05-tip",
+   "lang": "en",
+   "text": "Tip. It is the same pronoun.",
+   "pause": 0.3,
+   "cues": [
+    "b:0",
+    "hl:It is the same pronoun"
+   ]
+  },
+  {
+   "id": "c05-tip-02",
+   "scene": "c05-tip",
+   "lang": "en",
+   "text": "Only the sound changes, to make it easy to say.",
+   "pause": 0.4,
+   "cues": [
+    "hl:Only the sound changes"
+   ]
+  },
+  {
+   "id": "c05-tip-03",
+   "scene": "c05-tip",
+   "lang": "en",
+   "text": "With a damma, a fatha or a sukūn before it, it stays as it is.",
+   "pause": 0.4,
+   "cues": [
+    "ar:ـهُ#2"
+   ]
+  },
+  {
+   "id": "c05-tip-04",
+   "scene": "c05-tip",
+   "lang": "en",
+   "text": "After a sukūn: from him.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-tip-05",
+   "scene": "c05-tip",
+   "lang": "ar",
+   "text": "مِنْهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:مِنْهُ"
+   ]
+  },
+  {
+   "id": "c05-tip-06",
+   "scene": "c05-tip",
+   "lang": "en",
+   "text": "After a fatha: for him.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-tip-07",
+   "scene": "c05-tip",
+   "lang": "ar",
+   "text": "لَهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:لَهُ"
+   ]
+  },
+  {
+   "id": "c05-tip-08",
+   "scene": "c05-tip",
+   "lang": "en",
+   "text": "After a damma: his book.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-tip-09",
+   "scene": "c05-tip",
+   "lang": "ar",
+   "text": "كِتَابُهُ",
+   "pause": 0.7,
+   "cues": [
+    "ar:كِتَابُهُ"
+   ]
+  },
+  {
+   "id": "c06-title-01",
+   "scene": "c06-title",
+   "lang": "en",
+   "text": "Chapter six. On a verb: the object.",
+   "pause": 0.6,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c06-intro-01",
+   "scene": "c06-intro",
+   "lang": "en",
+   "text": "Put one of the twelve pronouns on a past verb or an order verb, and it is the object.",
+   "pause": 0.3,
+   "cues": [
+    "b:0",
+    "hl:is the object"
+   ]
+  },
+  {
+   "id": "c06-intro-02",
+   "scene": "c06-intro",
+   "lang": "en",
+   "text": "The object is naṣb.",
+   "pause": 0.3,
+   "cues": [
+    "hl:The object is naṣb"
+   ]
+  },
+  {
+   "id": "c06-intro-03",
+   "scene": "c06-intro",
+   "lang": "en",
+   "text": "The pronoun is fixed, so it is in the place of naṣb.",
+   "pause": 0.4,
+   "cues": [
+    "hl:in the place of naṣb"
+   ]
+  },
+  {
+   "id": "c06-intro-04",
+   "scene": "c06-intro",
+   "lang": "ar",
+   "text": "فِي مَحَلِّ نَصْبٍ",
+   "pause": 0.7,
+   "cues": [
+    "ar:فِي مَحَلِّ نَصْبٍ"
+   ]
+  },
+  {
+   "id": "c06-ex-01",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "He opened the door.",
+   "pause": 0.4,
+   "cues": [
+    "b:0",
+    "ex:0"
+   ]
+  },
+  {
+   "id": "c06-ex-02",
+   "scene": "c06-ex",
+   "lang": "ar",
+   "text": "فَتَحَ البَابَ",
+   "pause": 0.5,
+   "cues": [
+    "ar:فَتَحَ البَابَ"
+   ]
+  },
+  {
+   "id": "c06-ex-03",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "He opened it.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c06-ex-04",
+   "scene": "c06-ex",
+   "lang": "ar",
+   "text": "فَتَحَهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:فَتَحَهُ"
+   ]
+  },
+  {
+   "id": "c06-ex-05",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "The pronoun for it takes the place of the door.",
+   "pause": 0.4,
+   "cues": [
+    "note:0",
+    "ar:ـهُ"
+   ]
+  },
+  {
+   "id": "c06-ex-06",
+   "scene": "c06-ex",
+   "lang": "ar",
+   "text": "البَابَ",
+   "pause": 0.6,
+   "cues": [
+    "ar:البَابَ"
+   ]
+  },
+  {
+   "id": "c06-ex-07",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "The girl opened it.",
+   "pause": 0.4,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c06-ex-08",
+   "scene": "c06-ex",
+   "lang": "ar",
+   "text": "فَتَحَتْهُ البِنْتُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:فَتَحَتْهُ البِنْتُ"
+   ]
+  },
+  {
+   "id": "c06-ex-09",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "The pronoun comes right after the verb, before the doer.",
+   "pause": 0.6,
+   "cues": [
+    "note:1"
+   ]
+  },
+  {
+   "id": "c06-ex-10",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "The teacher wrote it. It means the letter.",
+   "pause": 0.4,
+   "cues": [
+    "ex:2"
+   ]
+  },
+  {
+   "id": "c06-ex-11",
+   "scene": "c06-ex",
+   "lang": "ar",
+   "text": "كَتَبَهَا المُدَرِّسُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كَتَبَهَا المُدَرِّسُ"
+   ]
+  },
+  {
+   "id": "c06-ex-12",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "In Arabic, the word for a letter you write is feminine. So we use the pronoun for she.",
+   "pause": 0.3,
+   "cues": [
+    "note:2",
+    "ar:ـهَا"
+   ]
+  },
+  {
+   "id": "c06-ex-13",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "It is the object, in the place of naṣb.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c06-ex-14",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "Read the book.",
+   "pause": 0.4,
+   "cues": [
+    "ex:3"
+   ]
+  },
+  {
+   "id": "c06-ex-15",
+   "scene": "c06-ex",
+   "lang": "ar",
+   "text": "اِقْرَأِ الكِتَابَ",
+   "pause": 0.5,
+   "cues": [
+    "ar:اِقْرَأِ الكِتَابَ"
+   ]
+  },
+  {
+   "id": "c06-ex-16",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "Read it.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c06-ex-17",
+   "scene": "c06-ex",
+   "lang": "ar",
+   "text": "اِقْرَأْهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:اِقْرَأْهُ"
+   ]
+  },
+  {
+   "id": "c06-ex-18",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "Before al, the order verb had a small helping kasra, only to make it easy to say. It is not jarr.",
+   "pause": 0.3,
+   "cues": [
+    "note:3"
+   ]
+  },
+  {
+   "id": "c06-ex-19",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "With the pronoun, the order verb keeps its sukūn.",
+   "pause": 0.4,
+   "cues": [
+    "ar:اِقْرَأْ"
+   ]
+  },
+  {
+   "id": "c06-ex-20",
+   "scene": "c06-ex",
+   "lang": "ar",
+   "text": "اِقْرَأْ",
+   "pause": 0.3,
+   "cues": [
+    "ar:اِقْرَأْ"
+   ]
+  },
+  {
+   "id": "c06-ex-21",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "Then the pronoun for it is added.",
+   "pause": 0.6,
+   "cues": [
+    "ar:ـهُ#2"
+   ]
+  },
+  {
+   "id": "c06-ex-22",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "Write it.",
+   "pause": 0.4,
+   "cues": [
+    "ex:4"
+   ]
+  },
+  {
+   "id": "c06-ex-23",
+   "scene": "c06-ex",
+   "lang": "ar",
+   "text": "اُكْتُبْهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:اُكْتُبْهُ"
+   ]
+  },
+  {
+   "id": "c06-ex-24",
+   "scene": "c06-ex",
+   "lang": "en",
+   "text": "The pronoun for it is the object, in the place of naṣb.",
+   "pause": 0.6,
+   "cues": [
+    "note:4",
+    "ar:ـهُ#3"
+   ]
+  },
+  {
+   "id": "c06-tips-01",
+   "scene": "c06-tips",
+   "lang": "en",
+   "text": "Tip. Past verbs also have endings for the doer.",
+   "pause": 0.3,
+   "cues": [
+    "b:0"
+   ]
+  },
+  {
+   "id": "c06-tips-02",
+   "scene": "c06-tips",
+   "lang": "en",
+   "text": "I,",
+   "pause": 0.2,
+   "cues": [
+    "ar:ـتُ"
+   ]
+  },
+  {
+   "id": "c06-tips-03",
+   "scene": "c06-tips",
+   "lang": "en",
+   "text": "you,",
+   "pause": 0.2,
+   "cues": [
+    "ar:ـتَ"
+   ]
+  },
+  {
+   "id": "c06-tips-04",
+   "scene": "c06-tips",
+   "lang": "en",
+   "text": "and we.",
+   "pause": 0.4,
+   "cues": [
+    "ar:ـنَا"
+   ]
+  },
+  {
+   "id": "c06-tips-05",
+   "scene": "c06-tips",
+   "lang": "en",
+   "text": "They are pronouns too. We learn them in unit six.",
+   "pause": 0.5,
+   "cues": [
+    "hl:They are pronouns too"
+   ]
+  },
+  {
+   "id": "c06-tips-06",
+   "scene": "c06-tips",
+   "lang": "en",
+   "text": "One more tip. On a verb, the pronoun for me has an extra letter.",
+   "pause": 0.2,
+   "cues": [
+    "b:1",
+    "ar:ـنِي"
+   ]
+  },
+  {
+   "id": "c06-tips-07",
+   "scene": "c06-tips",
+   "lang": "en",
+   "text": "This one.",
+   "pause": 0.3,
+   "cues": [
+    "ar:ن"
+   ]
+  },
+  {
+   "id": "c06-tips-08",
+   "scene": "c06-tips",
+   "lang": "en",
+   "text": "We meet it later.",
+   "pause": 0.7,
+   "cues": [
+    "hl:We meet it later"
+   ]
+  },
+  {
+   "id": "c07-title-01",
+   "scene": "c07-title",
+   "lang": "en",
+   "text": "Chapter seven. Three places, one table.",
+   "pause": 0.6,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c07-table-01",
+   "scene": "c07-table",
+   "lang": "en",
+   "text": "Here is the whole lesson in one table. What is the pronoun joined to? What is its job? What place is it in?",
+   "pause": 0.5,
+   "cues": [
+    "b:0"
+   ]
+  },
+  {
+   "id": "c07-table-02",
+   "scene": "c07-table",
+   "lang": "en",
+   "text": "Joined to a noun, it is the owner, in the place of jarr. His book.",
+   "pause": 0.4,
+   "cues": [
+    "row:0"
+   ]
+  },
+  {
+   "id": "c07-table-03",
+   "scene": "c07-table",
+   "lang": "ar",
+   "text": "كِتَابُهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:كِتَابُهُ"
+   ]
+  },
+  {
+   "id": "c07-table-04",
+   "scene": "c07-table",
+   "lang": "en",
+   "text": "Joined to a preposition, its job is called after a preposition. It is in the place of jarr. On it.",
+   "pause": 0.4,
+   "cues": [
+    "row:1"
+   ]
+  },
+  {
+   "id": "c07-table-05",
+   "scene": "c07-table",
+   "lang": "ar",
+   "text": "عَلَيْهِ",
+   "pause": 0.5,
+   "cues": [
+    "ar:عَلَيْهِ"
+   ]
+  },
+  {
+   "id": "c07-table-06",
+   "scene": "c07-table",
+   "lang": "en",
+   "text": "Joined to a past or order verb, it is the object, in the place of naṣb. He opened it.",
+   "pause": 0.4,
+   "cues": [
+    "row:2"
+   ]
+  },
+  {
+   "id": "c07-table-07",
+   "scene": "c07-table",
+   "lang": "ar",
+   "text": "فَتَحَهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:فَتَحَهُ"
+   ]
+  },
+  {
+   "id": "c07-table-08",
+   "scene": "c07-table",
+   "lang": "en",
+   "text": "And with an order verb, read it.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c07-table-09",
+   "scene": "c07-table",
+   "lang": "ar",
+   "text": "اِقْرَأْهُ",
+   "pause": 0.7,
+   "cues": [
+    "ar:اِقْرَأْهُ"
+   ]
+  },
+  {
+   "id": "c07-summary-01",
+   "scene": "c07-summary",
+   "lang": "en",
+   "text": "In short.",
+   "pause": 0.4,
+   "cues": [
+    "b:0"
+   ]
+  },
+  {
+   "id": "c07-summary-02",
+   "scene": "c07-summary",
+   "lang": "en",
+   "text": "There are twelve attached pronouns. One for I, one for we, five for you, and five for he, she and they.",
+   "pause": 0.5,
+   "cues": [
+    "li:0"
+   ]
+  },
+  {
+   "id": "c07-summary-03",
+   "scene": "c07-summary",
+   "lang": "en",
+   "text": "On a noun, the pronoun is the owner, in the place of jarr. The noun loses al and tanween.",
+   "pause": 0.5,
+   "cues": [
+    "li:1",
+    "ar:ال"
+   ]
+  },
+  {
+   "id": "c07-summary-04",
+   "scene": "c07-summary",
+   "lang": "en",
+   "text": "After a preposition, it is in the place of jarr. On it, to you, for him.",
+   "pause": 0.4,
+   "cues": [
+    "li:2"
+   ]
+  },
+  {
+   "id": "c07-summary-05",
+   "scene": "c07-summary",
+   "lang": "ar",
+   "text": "عَلَيْهِ",
+   "pause": 0.35,
+   "cues": [
+    "ar:عَلَيْهِ"
+   ]
+  },
+  {
+   "id": "c07-summary-06",
+   "scene": "c07-summary",
+   "lang": "ar",
+   "text": "إِلَيْكَ",
+   "pause": 0.35,
+   "cues": [
+    "ar:إِلَيْكَ"
+   ]
+  },
+  {
+   "id": "c07-summary-07",
+   "scene": "c07-summary",
+   "lang": "ar",
+   "text": "لَهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:لَهُ"
+   ]
+  },
+  {
+   "id": "c07-summary-08",
+   "scene": "c07-summary",
+   "lang": "en",
+   "text": "On a verb, it is the object, in the place of naṣb. He opened it.",
+   "pause": 0.4,
+   "cues": [
+    "li:3"
+   ]
+  },
+  {
+   "id": "c07-summary-09",
+   "scene": "c07-summary",
+   "lang": "ar",
+   "text": "فَتَحَهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:فَتَحَهُ"
+   ]
+  },
+  {
+   "id": "c07-summary-10",
+   "scene": "c07-summary",
+   "lang": "en",
+   "text": "The pronoun for he",
+   "pause": 0.15,
+   "cues": [
+    "li:4",
+    "ar:ـهُ#2"
+   ]
+  },
+  {
+   "id": "c07-summary-11",
+   "scene": "c07-summary",
+   "lang": "en",
+   "text": "changes its damma to a kasra after a kasra or this letter.",
+   "pause": 0.4,
+   "cues": [
+    "ar:ي"
+   ]
+  },
+  {
+   "id": "c07-summary-12",
+   "scene": "c07-summary",
+   "lang": "en",
+   "text": "And before the pronoun for me, the noun's ending is hidden.",
+   "pause": 0.6,
+   "cues": [
+    "ar:ـي#2"
+   ]
+  },
+  {
+   "id": "c07-summary-13",
+   "scene": "c07-summary",
+   "lang": "en",
+   "text": "Well done. Now open the Practice tab and try it yourself.",
+   "pause": 1.0,
+   "cues": []
+  }
+ ]
+}

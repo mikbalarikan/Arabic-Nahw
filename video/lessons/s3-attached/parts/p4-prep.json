@@ -1,0 +1,623 @@
+{
+ "segments": [
+  {
+   "id": "c04-title-01",
+   "scene": "c04-title",
+   "lang": "en",
+   "text": "Chapter four. On a preposition.",
+   "pause": 0.6,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c04-prep-01",
+   "scene": "c04-prep",
+   "lang": "en",
+   "text": "A pronoun after a preposition is jarr, like any word after a preposition.",
+   "pause": 0.3,
+   "cues": [
+    "b:0"
+   ]
+  },
+  {
+   "id": "c04-prep-02",
+   "scene": "c04-prep",
+   "lang": "en",
+   "text": "It is fixed, so it is in the place of jarr.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c04-prep-03",
+   "scene": "c04-prep",
+   "lang": "en",
+   "text": "The pen is yours. That is, for you.",
+   "pause": 0.4,
+   "cues": [
+    "b:1",
+    "ex:0"
+   ]
+  },
+  {
+   "id": "c04-prep-04",
+   "scene": "c04-prep",
+   "lang": "ar",
+   "text": "القَلَمُ لَكَ",
+   "pause": 0.5,
+   "cues": [
+    "ar:القَلَمُ لَكَ"
+   ]
+  },
+  {
+   "id": "c04-prep-05",
+   "scene": "c04-prep",
+   "lang": "en",
+   "text": "The pronoun for you, one man, comes after the preposition meaning for.",
+   "pause": 0.2,
+   "cues": [
+    "note:0",
+    "ar:ـكَ"
+   ]
+  },
+  {
+   "id": "c04-prep-06",
+   "scene": "c04-prep",
+   "lang": "en",
+   "text": "That preposition is only one letter.",
+   "pause": 0.2,
+   "cues": [
+    "ar:لِ"
+   ]
+  },
+  {
+   "id": "c04-prep-07",
+   "scene": "c04-prep",
+   "lang": "en",
+   "text": "The pronoun is in the place of jarr.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c04-prep-08",
+   "scene": "c04-prep",
+   "lang": "en",
+   "text": "He went out of it.",
+   "pause": 0.4,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c04-prep-09",
+   "scene": "c04-prep",
+   "lang": "ar",
+   "text": "خَرَجَ مِنْهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:خَرَجَ مِنْهُ"
+   ]
+  },
+  {
+   "id": "c04-prep-10",
+   "scene": "c04-prep",
+   "lang": "en",
+   "text": "The pronoun for it comes after the preposition meaning from.",
+   "pause": 0.4,
+   "cues": [
+    "note:1",
+    "ar:ـهُ"
+   ]
+  },
+  {
+   "id": "c04-prep-11",
+   "scene": "c04-prep",
+   "lang": "ar",
+   "text": "مِنْ",
+   "pause": 0.4,
+   "cues": [
+    "ar:مِنْ"
+   ]
+  },
+  {
+   "id": "c04-prep-12",
+   "scene": "c04-prep",
+   "lang": "en",
+   "text": "It is in the place of jarr too.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c04-prep-13",
+   "scene": "c04-prep",
+   "lang": "en",
+   "text": "The book is on it.",
+   "pause": 0.4,
+   "cues": [
+    "ex:2"
+   ]
+  },
+  {
+   "id": "c04-prep-14",
+   "scene": "c04-prep",
+   "lang": "ar",
+   "text": "الكِتَابُ عَلَيْهِ",
+   "pause": 0.5,
+   "cues": [
+    "ar:الكِتَابُ عَلَيْهِ"
+   ]
+  },
+  {
+   "id": "c04-prep-15",
+   "scene": "c04-prep",
+   "lang": "en",
+   "text": "Here the pronoun for it comes after the preposition meaning on.",
+   "pause": 0.4,
+   "cues": [
+    "note:2",
+    "ar:ـهِ"
+   ]
+  },
+  {
+   "id": "c04-prep-16",
+   "scene": "c04-prep",
+   "lang": "ar",
+   "text": "عَلَى",
+   "pause": 0.4,
+   "cues": [
+    "ar:عَلَى"
+   ]
+  },
+  {
+   "id": "c04-prep-17",
+   "scene": "c04-prep",
+   "lang": "en",
+   "text": "It is in the place of jarr. Its kasra is not a sign of jarr. Only the sound changes. Chapter five explains it.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c04-forms-01",
+   "scene": "c04-forms",
+   "lang": "en",
+   "text": "Some prepositions change their shape. Learn these forms.",
+   "pause": 0.4,
+   "cues": [
+    "b:0"
+   ]
+  },
+  {
+   "id": "c04-forms-02",
+   "scene": "c04-forms",
+   "lang": "en",
+   "text": "Each row has the preposition, then the preposition with the pronoun for he, for you, and for me.",
+   "pause": 0.4,
+   "cues": [
+    "b:1"
+   ]
+  },
+  {
+   "id": "c04-forms-03",
+   "scene": "c04-forms",
+   "lang": "en",
+   "text": "In. In it, in you, in me.",
+   "pause": 0.4,
+   "cues": [
+    "row:0"
+   ]
+  },
+  {
+   "id": "c04-forms-04",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "فِي",
+   "pause": 0.35,
+   "cues": [
+    "ar:فِي"
+   ]
+  },
+  {
+   "id": "c04-forms-05",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "فِيهِ",
+   "pause": 0.35,
+   "cues": [
+    "ar:فِيهِ"
+   ]
+  },
+  {
+   "id": "c04-forms-06",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "فِيكَ",
+   "pause": 0.35,
+   "cues": [
+    "ar:فِيكَ"
+   ]
+  },
+  {
+   "id": "c04-forms-07",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "فِيَّ",
+   "pause": 0.6,
+   "cues": [
+    "ar:فِيَّ"
+   ]
+  },
+  {
+   "id": "c04-forms-08",
+   "scene": "c04-forms",
+   "lang": "en",
+   "text": "On. On it, on you, on me.",
+   "pause": 0.4,
+   "cues": [
+    "row:1"
+   ]
+  },
+  {
+   "id": "c04-forms-09",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "عَلَى",
+   "pause": 0.35,
+   "cues": [
+    "ar:عَلَى"
+   ]
+  },
+  {
+   "id": "c04-forms-10",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "عَلَيْهِ",
+   "pause": 0.35,
+   "cues": [
+    "ar:عَلَيْهِ"
+   ]
+  },
+  {
+   "id": "c04-forms-11",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "عَلَيْكَ",
+   "pause": 0.35,
+   "cues": [
+    "ar:عَلَيْكَ"
+   ]
+  },
+  {
+   "id": "c04-forms-12",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "عَلَيَّ",
+   "pause": 0.6,
+   "cues": [
+    "ar:عَلَيَّ"
+   ]
+  },
+  {
+   "id": "c04-forms-13",
+   "scene": "c04-forms",
+   "lang": "en",
+   "text": "To. To it, to you, to me.",
+   "pause": 0.4,
+   "cues": [
+    "row:2"
+   ]
+  },
+  {
+   "id": "c04-forms-14",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "إِلَى",
+   "pause": 0.35,
+   "cues": [
+    "ar:إِلَى"
+   ]
+  },
+  {
+   "id": "c04-forms-15",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "إِلَيْهِ",
+   "pause": 0.35,
+   "cues": [
+    "ar:إِلَيْهِ"
+   ]
+  },
+  {
+   "id": "c04-forms-16",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "إِلَيْكَ",
+   "pause": 0.35,
+   "cues": [
+    "ar:إِلَيْكَ"
+   ]
+  },
+  {
+   "id": "c04-forms-17",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "إِلَيَّ",
+   "pause": 0.6,
+   "cues": [
+    "ar:إِلَيَّ"
+   ]
+  },
+  {
+   "id": "c04-forms-18",
+   "scene": "c04-forms",
+   "lang": "en",
+   "text": "From. From it, from you, from me.",
+   "pause": 0.4,
+   "cues": [
+    "row:3"
+   ]
+  },
+  {
+   "id": "c04-forms-19",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "مِنْ",
+   "pause": 0.35,
+   "cues": [
+    "ar:مِنْ"
+   ]
+  },
+  {
+   "id": "c04-forms-20",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "مِنْهُ",
+   "pause": 0.35,
+   "cues": [
+    "ar:مِنْهُ"
+   ]
+  },
+  {
+   "id": "c04-forms-21",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "مِنْكَ",
+   "pause": 0.35,
+   "cues": [
+    "ar:مِنْكَ"
+   ]
+  },
+  {
+   "id": "c04-forms-22",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "مِنِّي",
+   "pause": 0.6,
+   "cues": [
+    "ar:مِنِّي"
+   ]
+  },
+  {
+   "id": "c04-forms-23",
+   "scene": "c04-forms",
+   "lang": "en",
+   "text": "For. This one is a single letter. For him, for you, for me.",
+   "pause": 0.4,
+   "cues": [
+    "row:4",
+    "ar:لِ"
+   ]
+  },
+  {
+   "id": "c04-forms-24",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "لَهُ",
+   "pause": 0.35,
+   "cues": [
+    "ar:لَهُ"
+   ]
+  },
+  {
+   "id": "c04-forms-25",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "لَكَ",
+   "pause": 0.35,
+   "cues": [
+    "ar:لَكَ"
+   ]
+  },
+  {
+   "id": "c04-forms-26",
+   "scene": "c04-forms",
+   "lang": "ar",
+   "text": "لِي",
+   "pause": 0.7,
+   "cues": [
+    "ar:لِي"
+   ]
+  },
+  {
+   "id": "c04-rule-01",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "Three changes to remember.",
+   "pause": 0.4,
+   "cues": [
+    "b:0",
+    "hl:Three changes to remember"
+   ]
+  },
+  {
+   "id": "c04-rule-02",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "One. The preposition meaning on.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-rule-03",
+   "scene": "c04-rule",
+   "lang": "ar",
+   "text": "عَلَى",
+   "pause": 0.4,
+   "cues": [
+    "ar:عَلَى"
+   ]
+  },
+  {
+   "id": "c04-rule-04",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "Before a pronoun, its end changes to this shape.",
+   "pause": 0.3,
+   "cues": [
+    "ar:عَلَيْـ"
+   ]
+  },
+  {
+   "id": "c04-rule-05",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "On it.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-rule-06",
+   "scene": "c04-rule",
+   "lang": "ar",
+   "text": "عَلَيْهِ",
+   "pause": 0.5,
+   "cues": [
+    "ar:عَلَيْهِ"
+   ]
+  },
+  {
+   "id": "c04-rule-07",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "Two. The preposition meaning to.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-rule-08",
+   "scene": "c04-rule",
+   "lang": "ar",
+   "text": "إِلَى",
+   "pause": 0.4,
+   "cues": [
+    "ar:إِلَى"
+   ]
+  },
+  {
+   "id": "c04-rule-09",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "Its end changes in the same way.",
+   "pause": 0.3,
+   "cues": [
+    "ar:إِلَيْـ"
+   ]
+  },
+  {
+   "id": "c04-rule-10",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "To her.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-rule-11",
+   "scene": "c04-rule",
+   "lang": "ar",
+   "text": "إِلَيْهَا",
+   "pause": 0.5,
+   "cues": [
+    "ar:إِلَيْهَا"
+   ]
+  },
+  {
+   "id": "c04-rule-12",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "Three. The preposition meaning for is one letter with a kasra.",
+   "pause": 0.3,
+   "cues": [
+    "ar:لِ"
+   ]
+  },
+  {
+   "id": "c04-rule-13",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "Before a pronoun, it takes a fatha.",
+   "pause": 0.3,
+   "cues": [
+    "ar:لَ"
+   ]
+  },
+  {
+   "id": "c04-rule-14",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "For him, for you, for her.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-rule-15",
+   "scene": "c04-rule",
+   "lang": "ar",
+   "text": "لَهُ",
+   "pause": 0.35,
+   "cues": [
+    "ar:لَهُ"
+   ]
+  },
+  {
+   "id": "c04-rule-16",
+   "scene": "c04-rule",
+   "lang": "ar",
+   "text": "لَكَ",
+   "pause": 0.35,
+   "cues": [
+    "ar:لَكَ"
+   ]
+  },
+  {
+   "id": "c04-rule-17",
+   "scene": "c04-rule",
+   "lang": "ar",
+   "text": "لَهَا",
+   "pause": 0.5,
+   "cues": [
+    "ar:لَهَا"
+   ]
+  },
+  {
+   "id": "c04-rule-18",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "Only with the pronoun for me does it keep its kasra. For me.",
+   "pause": 0.4,
+   "cues": [
+    "ar:ـي",
+    "hl:it stays"
+   ]
+  },
+  {
+   "id": "c04-rule-19",
+   "scene": "c04-rule",
+   "lang": "ar",
+   "text": "لِي",
+   "pause": 0.7,
+   "cues": [
+    "ar:لِي"
+   ]
+  }
+ ]
+}

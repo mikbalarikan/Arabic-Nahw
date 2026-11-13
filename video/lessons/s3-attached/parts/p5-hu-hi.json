@@ -1,0 +1,393 @@
+{
+ "segments": [
+  {
+   "id": "c05-title-01",
+   "scene": "c05-title",
+   "lang": "en",
+   "text": "Chapter five. When the pronoun for he",
+   "pause": 0.15,
+   "cues": [
+    "title",
+    "ar:ـهُ"
+   ]
+  },
+  {
+   "id": "c05-title-02",
+   "scene": "c05-title",
+   "lang": "en",
+   "text": "changes its damma to a kasra.",
+   "pause": 0.6,
+   "cues": [
+    "ar:ـهِ"
+   ]
+  },
+  {
+   "id": "c05-rule-01",
+   "scene": "c05-rule",
+   "lang": "en",
+   "text": "After a kasra, or after this letter,",
+   "pause": 0.2,
+   "cues": [
+    "b:0",
+    "ar:ي#2",
+    "hl:After kasra or"
+   ]
+  },
+  {
+   "id": "c05-rule-02",
+   "scene": "c05-rule",
+   "lang": "en",
+   "text": "the damma of the pronoun for he becomes a kasra.",
+   "pause": 0.4,
+   "cues": [
+    "ar:ـهُ#2",
+    "hl:becomes a kasra"
+   ]
+  },
+  {
+   "id": "c05-rule-03",
+   "scene": "c05-rule",
+   "lang": "en",
+   "text": "After this letter: in it, on it, to him.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-rule-04",
+   "scene": "c05-rule",
+   "lang": "ar",
+   "text": "فِيهِ",
+   "pause": 0.35,
+   "cues": [
+    "ar:فِيهِ"
+   ]
+  },
+  {
+   "id": "c05-rule-05",
+   "scene": "c05-rule",
+   "lang": "ar",
+   "text": "عَلَيْهِ",
+   "pause": 0.35,
+   "cues": [
+    "ar:عَلَيْهِ"
+   ]
+  },
+  {
+   "id": "c05-rule-06",
+   "scene": "c05-rule",
+   "lang": "ar",
+   "text": "إِلَيْهِ",
+   "pause": 0.5,
+   "cues": [
+    "ar:إِلَيْهِ"
+   ]
+  },
+  {
+   "id": "c05-rule-07",
+   "scene": "c05-rule",
+   "lang": "en",
+   "text": "After a kasra: with it, and in his house.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-rule-08",
+   "scene": "c05-rule",
+   "lang": "ar",
+   "text": "بِهِ",
+   "pause": 0.35,
+   "cues": [
+    "ar:بِهِ"
+   ]
+  },
+  {
+   "id": "c05-rule-09",
+   "scene": "c05-rule",
+   "lang": "ar",
+   "text": "فِي بَيْتِهِ",
+   "pause": 0.7,
+   "cues": [
+    "ar:فِي بَيْتِهِ"
+   ]
+  },
+  {
+   "id": "c05-ex-01",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "The same happens to three more pronouns.",
+   "pause": 0.3,
+   "cues": [
+    "b:0"
+   ]
+  },
+  {
+   "id": "c05-ex-02",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "They, two.",
+   "pause": 0.25,
+   "cues": [
+    "ar:ـهُمَا"
+   ]
+  },
+  {
+   "id": "c05-ex-03",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "They, men.",
+   "pause": 0.25,
+   "cues": [
+    "ar:ـهُمْ"
+   ]
+  },
+  {
+   "id": "c05-ex-04",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "And they, women.",
+   "pause": 0.5,
+   "cues": [
+    "ar:ـهُنَّ"
+   ]
+  },
+  {
+   "id": "c05-ex-05",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "On them.",
+   "pause": 0.4,
+   "cues": [
+    "b:1",
+    "ex:0"
+   ]
+  },
+  {
+   "id": "c05-ex-06",
+   "scene": "c05-ex",
+   "lang": "ar",
+   "text": "عَلَيْهِمْ",
+   "pause": 0.5,
+   "cues": [
+    "ar:عَلَيْهِمْ"
+   ]
+  },
+  {
+   "id": "c05-ex-07",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "The pronoun for they, men,",
+   "pause": 0.15,
+   "cues": [
+    "note:0",
+    "ar:ـهُمْ#2"
+   ]
+  },
+  {
+   "id": "c05-ex-08",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "comes after this letter,",
+   "pause": 0.15,
+   "cues": [
+    "ar:ي"
+   ]
+  },
+  {
+   "id": "c05-ex-09",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "so its damma becomes a kasra.",
+   "pause": 0.5,
+   "cues": [
+    "ar:ـهِمْ"
+   ]
+  },
+  {
+   "id": "c05-ex-10",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "In them, two.",
+   "pause": 0.4,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c05-ex-11",
+   "scene": "c05-ex",
+   "lang": "ar",
+   "text": "فِيهِمَا",
+   "pause": 0.5,
+   "cues": [
+    "ar:فِيهِمَا"
+   ]
+  },
+  {
+   "id": "c05-ex-12",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "The pronoun for they, two,",
+   "pause": 0.15,
+   "cues": [
+    "note:1",
+    "ar:ـهُمَا#2"
+   ]
+  },
+  {
+   "id": "c05-ex-13",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "comes after the same letter,",
+   "pause": 0.15,
+   "cues": [
+    "ar:ي#2"
+   ]
+  },
+  {
+   "id": "c05-ex-14",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "so it changes in the same way.",
+   "pause": 0.5,
+   "cues": [
+    "ar:ـهِمَا"
+   ]
+  },
+  {
+   "id": "c05-ex-15",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "In their house, women.",
+   "pause": 0.4,
+   "cues": [
+    "ex:2"
+   ]
+  },
+  {
+   "id": "c05-ex-16",
+   "scene": "c05-ex",
+   "lang": "ar",
+   "text": "فِي بَيْتِهِنَّ",
+   "pause": 0.5,
+   "cues": [
+    "ar:فِي بَيْتِهِنَّ"
+   ]
+  },
+  {
+   "id": "c05-ex-17",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "The word for house ends in a kasra here. It is jarr after the preposition meaning in.",
+   "pause": 0.2,
+   "cues": [
+    "note:2",
+    "ar:بَيْتِ"
+   ]
+  },
+  {
+   "id": "c05-ex-18",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "The pronoun for they, women, comes after it,",
+   "pause": 0.15,
+   "cues": [
+    "ar:ـهُنَّ#2"
+   ]
+  },
+  {
+   "id": "c05-ex-19",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "so its damma becomes a kasra too.",
+   "pause": 0.6,
+   "cues": [
+    "ar:ـهِنَّ"
+   ]
+  },
+  {
+   "id": "c05-tip-01",
+   "scene": "c05-tip",
+   "lang": "en",
+   "text": "Tip. It is the same pronoun.",
+   "pause": 0.3,
+   "cues": [
+    "b:0",
+    "hl:It is the same pronoun"
+   ]
+  },
+  {
+   "id": "c05-tip-02",
+   "scene": "c05-tip",
+   "lang": "en",
+   "text": "Only the sound changes, to make it easy to say.",
+   "pause": 0.4,
+   "cues": [
+    "hl:Only the sound changes"
+   ]
+  },
+  {
+   "id": "c05-tip-03",
+   "scene": "c05-tip",
+   "lang": "en",
+   "text": "With a damma, a fatha or a sukūn before it, it stays as it is.",
+   "pause": 0.4,
+   "cues": [
+    "ar:ـهُ#2"
+   ]
+  },
+  {
+   "id": "c05-tip-04",
+   "scene": "c05-tip",
+   "lang": "en",
+   "text": "After a sukūn: from him.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-tip-05",
+   "scene": "c05-tip",
+   "lang": "ar",
+   "text": "مِنْهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:مِنْهُ"
+   ]
+  },
+  {
+   "id": "c05-tip-06",
+   "scene": "c05-tip",
+   "lang": "en",
+   "text": "After a fatha: for him.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-tip-07",
+   "scene": "c05-tip",
+   "lang": "ar",
+   "text": "لَهُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:لَهُ"
+   ]
+  },
+  {
+   "id": "c05-tip-08",
+   "scene": "c05-tip",
+   "lang": "en",
+   "text": "After a damma: his book.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-tip-09",
+   "scene": "c05-tip",
+   "lang": "ar",
+   "text": "كِتَابُهُ",
+   "pause": 0.7,
+   "cues": [
+    "ar:كِتَابُهُ"
+   ]
+  }
+ ]
+}
