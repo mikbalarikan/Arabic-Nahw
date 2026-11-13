@@ -214,5 +214,50 @@
     "title": "Practice"
    }
   ]
+ },
+ "s3-questions": {
+  "src": "media/s3-questions/s3-questions.mp4",
+  "hls": "media/s3-questions/hls-c86248b8/index.m3u8",
+  "poster": "media/s3-questions/s3-questions.jpg",
+  "captions": "media/s3-questions/s3-questions.vtt",
+  "duration": 439,
+  "chapters": [
+   {
+    "t": 0,
+    "title": "Introduction"
+   },
+   {
+    "t": 9,
+    "title": "1 Question isms: the table to learn"
+   },
+   {
+    "t": 101,
+    "title": "Learn the last vowel"
+   },
+   {
+    "t": 157,
+    "title": "2 Question ḥarfs: هَلْ and أَ"
+   },
+   {
+    "t": 227,
+    "title": "3 With a preposition"
+   },
+   {
+    "t": 307,
+    "title": "4 Not fixed: أَيٌّ \"which\""
+   },
+   {
+    "t": 372,
+    "title": "5 Which word for which answer?"
+   },
+   {
+    "t": 404,
+    "title": "In short"
+   },
+   {
+    "t": 430,
+    "title": "Your turn"
+   }
+  ]
  }
 }
