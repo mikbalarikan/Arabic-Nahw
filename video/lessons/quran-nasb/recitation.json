@@ -1,0 +1,24 @@
+{
+ "credit": "Recitation: <b>Muhammad Siddiq al-Minshawi</b> (murattal) · via Wikimedia Commons",
+ "reciter": "Muhammad Siddiq al-Minshawi",
+ "style": "murattal (mp3quran.net folder muhammad-minshawi/r1, read 112)",
+ "source": "Wikimedia Commons, Category:Recitations of the Qur'an by Al Minshawi, files Sura_Minshawi_<surah>.ogg",
+ "source_urls": "https://commons.wikimedia.org/wiki/File:Sura_Minshawi_20.ogg (and _2, _11, _12, _17, _27, _28, _89)",
+ "licence": "Public domain (PD-Egypt tag on Commons). Status outside Egypt not separately verified.",
+ "ayah_timing": "https://mp3quran.net/api/v3/ayat_timing?surah=<n>&read=112 (used only to find the ayah windows)",
+ "chosen_by": "course teacher, 2026-11-13",
+ "verses": {
+  "v01": "20:121",
+  "v02": "11:42",
+  "v03": "27:16",
+  "v04": "12:23",
+  "v05": "12:25",
+  "v06": "2:22",
+  "v07": "17:1",
+  "v08": "89:22",
+  "v09": "28:15",
+  "v10": "27:19"
+ },
+ "fetch": "Only a window around each ayah (ayah +-1 s, times from the ayat_timing API) was downloaded, not whole files: one HTTP range request for the Ogg headers (first 64 KB) and one for the window's bytes (+-40 s margin), decoded with ffmpeg -copyts. ~10.5 MB in all. Fragments cut by video/tools/cut_recitation.py; the cut points were checked phoneme by phoneme and are fixed in audio/recitation/cuts.json (manual).",
+ "listened": "2026-11-13: the teacher listened to all 10 fragments (audio/recitation/listen_all_10.wav) and approved them"
+}

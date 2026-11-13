@@ -36,6 +36,22 @@ ATTEMPTS = [(" -", 0.7, 0), ("!", 0.7, 0), (" -", 0.7, 1), (" -", 0.8, 0), ("!",
             (" -", 0.7, 4), ("!", 0.7, 5)] + [(sfx, 0.7 + 0.05 * (k % 3), 6 + k) for k in range(12) for sfx in (" -", "!")][:12]
 
 
+def respell(text):
+    """Last resort for a voice that drops the ending of the LAST word: spell the ending out for the voice
+    only (the screen text is unchanged). Tanween -> the vowel + نْ (صَفًّا -> صَفَّنْ, نُوحٌ -> نُوحُنْ);
+    a final short vowel -> hāʾ al-sakt, which keeps the vowel in pause (هُوَ -> هُوَهْ)."""
+    words = text.split()
+    w = words[-1]
+    tan = {"\u064B": "\u064E", "\u064C": "\u064F", "\u064D": "\u0650"}
+    m = re.search("([\u064B-\u064D])(\u0651?)\u0627?$|(\u0651?)([\u064B-\u064D])\u0627?$", w)
+    if m:
+        t = m.group(1) or m.group(4)
+        w = w[:m.start()] + (m.group(2) or m.group(3) or "") + tan[t] + "\u0646\u0652"
+    elif re.search("[\u064E-\u0650]$", w):
+        w += "\u0647\u0652"
+    return " ".join(words[:-1] + [w])
+
+
 class Supertonic:
     def __init__(self, models, style, steps):
         from supertonic import TTS
@@ -50,6 +66,9 @@ class Supertonic:
 
     def ar(self, text, attempt):
         suffix, speed, seed = attempt
+        if suffix.endswith("|respell"):
+            suffix = suffix[:-len("|respell")]
+            text = respell(text)
         if suffix.endswith("|noalif"):
             suffix = suffix[:-len("|noalif")]
             text = re.sub("\u064B\u0627(?=\\s|$)", "\u064B", text)
@@ -162,6 +181,9 @@ def main():
     raw = Path(a.out) if a.out else d / "audio" / "raw"
     raw.mkdir(parents=True, exist_ok=True)
     segs = json.loads((d / "script.json").read_text(encoding="utf-8"))["segments"]
+    # "qr" segments are Qur'an recitation: a real recording, cut into audio/raw/ by cut_recitation.py.
+    # They are never synthesised (not even with --force).
+    segs = [s for s in segs if s["lang"] != "qr"]
     if a.only:
         keep = set(a.only.split(","))
         segs = [s for s in segs if s["id"] in keep]
@@ -206,6 +228,9 @@ def main():
                 # fallback: some voices read the silent alif after fatha-tanween ("-ana");
                 # the same attempts again with that alif left out of the TTS input (screen text unchanged)
                 tries += [(t[0] + "|noalif", t[1], t[2]) for t in ATTEMPTS[:8]]
+            if not isinstance(ar, Nabra) and respell(text) != text:
+                # last resort: the ending spelled out for the voice only (see respell)
+                tries += [(t[0] + "|respell", t[1], t[2]) for t in ATTEMPTS[:10]]
             first = None
             for att in tries:
                 sf.write(out, ar.ar(text, att), ar.sr)

@@ -1,0 +1,554 @@
+{
+ "segments": [
+  {
+   "id": "v08-01",
+   "scene": "v08",
+   "lang": "en",
+   "text": "Verse eight. From Surah Al-Fajr. And your Lord came, and the angels, row after row.",
+   "pause": 0.4,
+   "cues": [
+    "en"
+   ]
+  },
+  {
+   "id": "v08-02",
+   "scene": "v08",
+   "lang": "qr",
+   "text": "وَجَاءَ رَبُّكَ وَالمَلَكُ صَفًّا صَفًّا",
+   "pause": 0.8,
+   "cues": [
+    "sentence",
+    "recite"
+   ]
+  },
+  {
+   "id": "v08-03",
+   "scene": "v08",
+   "lang": "en",
+   "text": "The verb, came, is a past verb. It is fixed.",
+   "pause": 0.25,
+   "cues": [
+    "group:0",
+    "line:1"
+   ]
+  },
+  {
+   "id": "v08-04",
+   "scene": "v08",
+   "lang": "en",
+   "text": "The wa before it is a particle. It never changes.",
+   "pause": 0.3,
+   "cues": [
+    "line:0"
+   ]
+  },
+  {
+   "id": "v08-05",
+   "scene": "v08",
+   "lang": "en",
+   "text": "Who came?",
+   "pause": 0.5,
+   "cues": [
+    "ask:1"
+   ]
+  },
+  {
+   "id": "v08-06",
+   "scene": "v08",
+   "lang": "ar",
+   "text": "رَبُّكَ",
+   "pause": 0.4,
+   "cues": [
+    "group:1",
+    "vowel:1"
+   ]
+  },
+  {
+   "id": "v08-07",
+   "scene": "v08",
+   "lang": "en",
+   "text": "Your Lord. That is the doer, so it takes rafʿ, with damma.",
+   "pause": 0.25,
+   "cues": [
+    "line:2"
+   ]
+  },
+  {
+   "id": "v08-08",
+   "scene": "v08",
+   "lang": "en",
+   "text": "Your is the owner. Attached pronouns are fixed.",
+   "pause": 0.25,
+   "cues": [
+    "line:3"
+   ]
+  },
+  {
+   "id": "v08-09",
+   "scene": "v08",
+   "lang": "en",
+   "text": "So Lord is owned, and has no tanween.",
+   "pause": 0.25,
+   "cues": []
+  },
+  {
+   "id": "v08-10",
+   "scene": "v08",
+   "lang": "ar",
+   "text": "وَالمَلَكُ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "v08-11",
+   "scene": "v08",
+   "lang": "en",
+   "text": "And the angels. This comes after wa, so it copies the damma of Lord.",
+   "pause": 0.4,
+   "cues": [
+    "line:4"
+   ]
+  },
+  {
+   "id": "v08-12",
+   "scene": "v08",
+   "lang": "en",
+   "text": "How did the angels come?",
+   "pause": 0.6,
+   "cues": [
+    "ask:2"
+   ]
+  },
+  {
+   "id": "v08-13",
+   "scene": "v08",
+   "lang": "ar",
+   "text": "صَفًّا",
+   "pause": 0.4,
+   "cues": [
+    "group:2",
+    "vowel:2"
+   ]
+  },
+  {
+   "id": "v08-14",
+   "scene": "v08",
+   "lang": "en",
+   "text": "Row after row. That is the state, so it takes naṣb. Fatha with tanween.",
+   "pause": 0.25,
+   "cues": [
+    "line:5"
+   ]
+  },
+  {
+   "id": "v08-15",
+   "scene": "v08",
+   "lang": "en",
+   "text": "The word comes twice. Both times, fatha with tanween.",
+   "pause": 0.6,
+   "cues": [
+    "line:6"
+   ]
+  },
+  {
+   "id": "v09-01",
+   "scene": "v09",
+   "lang": "en",
+   "text": "Verse nine. From Surah Al-Qasas. And he entered the city at a time when its people were unaware.",
+   "pause": 0.4,
+   "cues": [
+    "en"
+   ]
+  },
+  {
+   "id": "v09-02",
+   "scene": "v09",
+   "lang": "qr",
+   "text": "وَدَخَلَ المَدِينَةَ عَلَى حِينِ غَفْلَةٍ مِنْ أَهْلِهَا",
+   "pause": 0.8,
+   "cues": [
+    "sentence",
+    "recite"
+   ]
+  },
+  {
+   "id": "v09-03",
+   "scene": "v09",
+   "lang": "en",
+   "text": "The verb, entered, is a past verb. It is fixed.",
+   "pause": 0.25,
+   "cues": [
+    "group:0",
+    "line:1"
+   ]
+  },
+  {
+   "id": "v09-04",
+   "scene": "v09",
+   "lang": "en",
+   "text": "The wa before it is a particle. It never changes.",
+   "pause": 0.3,
+   "cues": [
+    "line:0"
+   ]
+  },
+  {
+   "id": "v09-05",
+   "scene": "v09",
+   "lang": "en",
+   "text": "Who entered?",
+   "pause": 0.5,
+   "cues": [
+    "ask:1"
+   ]
+  },
+  {
+   "id": "v09-06",
+   "scene": "v09",
+   "lang": "en",
+   "text": "The doer is hidden. It is he.",
+   "pause": 0.25,
+   "cues": [
+    "group:1"
+   ]
+  },
+  {
+   "id": "v09-07",
+   "scene": "v09",
+   "lang": "ar",
+   "text": "(هُوَ)",
+   "pause": 0.5,
+   "cues": [
+    "line:2"
+   ]
+  },
+  {
+   "id": "v09-08",
+   "scene": "v09",
+   "lang": "en",
+   "text": "What did he enter?",
+   "pause": 0.6,
+   "cues": [
+    "ask:2"
+   ]
+  },
+  {
+   "id": "v09-09",
+   "scene": "v09",
+   "lang": "ar",
+   "text": "المَدِينَةَ",
+   "pause": 0.4,
+   "cues": [
+    "group:2",
+    "vowel:2"
+   ]
+  },
+  {
+   "id": "v09-10",
+   "scene": "v09",
+   "lang": "en",
+   "text": "The city. That is the object, so it takes naṣb, with fatha.",
+   "pause": 0.4,
+   "cues": [
+    "line:3"
+   ]
+  },
+  {
+   "id": "v09-11",
+   "scene": "v09",
+   "lang": "en",
+   "text": "Then a group that starts with a preposition. The preposition is a particle.",
+   "pause": 0.25,
+   "cues": [
+    "group:3",
+    "line:4"
+   ]
+  },
+  {
+   "id": "v09-12",
+   "scene": "v09",
+   "lang": "ar",
+   "text": "حِينِ",
+   "pause": 0.4,
+   "cues": [
+    "vowel:3"
+   ]
+  },
+  {
+   "id": "v09-13",
+   "scene": "v09",
+   "lang": "en",
+   "text": "A time. After a preposition, so jarr, with kasra. Owned, so no tanween.",
+   "pause": 0.25,
+   "cues": [
+    "line:5"
+   ]
+  },
+  {
+   "id": "v09-14",
+   "scene": "v09",
+   "lang": "ar",
+   "text": "غَفْلَةٍ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "v09-15",
+   "scene": "v09",
+   "lang": "en",
+   "text": "A time of unawareness. Unawareness is the owner of a time, so jarr. Kasra with tanween.",
+   "pause": 0.25,
+   "cues": [
+    "line:6"
+   ]
+  },
+  {
+   "id": "v09-16",
+   "scene": "v09",
+   "lang": "en",
+   "text": "Then another preposition. It is a particle.",
+   "pause": 0.25,
+   "cues": [
+    "line:7"
+   ]
+  },
+  {
+   "id": "v09-17",
+   "scene": "v09",
+   "lang": "ar",
+   "text": "أَهْلِهَا",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "v09-18",
+   "scene": "v09",
+   "lang": "en",
+   "text": "Its people. After a preposition, so jarr, with kasra. Owned, so no tanween.",
+   "pause": 0.25,
+   "cues": [
+    "line:8"
+   ]
+  },
+  {
+   "id": "v09-19",
+   "scene": "v09",
+   "lang": "en",
+   "text": "Its is the owner. Attached pronouns are fixed.",
+   "pause": 0.6,
+   "cues": [
+    "line:9"
+   ]
+  },
+  {
+   "id": "v10-01",
+   "scene": "v10",
+   "lang": "en",
+   "text": "Verse ten. From Surah An-Naml. So he smiled, laughing at her words.",
+   "pause": 0.4,
+   "cues": [
+    "en"
+   ]
+  },
+  {
+   "id": "v10-02",
+   "scene": "v10",
+   "lang": "qr",
+   "text": "فَتَبَسَّمَ ضَاحِكًا مِنْ قَوْلِهَا",
+   "pause": 0.8,
+   "cues": [
+    "sentence",
+    "recite"
+   ]
+  },
+  {
+   "id": "v10-03",
+   "scene": "v10",
+   "lang": "en",
+   "text": "The verb, smiled, is a past verb. It is fixed.",
+   "pause": 0.25,
+   "cues": [
+    "group:0",
+    "line:1"
+   ]
+  },
+  {
+   "id": "v10-04",
+   "scene": "v10",
+   "lang": "en",
+   "text": "The small word before it means so. It is a particle.",
+   "pause": 0.25,
+   "cues": [
+    "line:0"
+   ]
+  },
+  {
+   "id": "v10-05",
+   "scene": "v10",
+   "lang": "en",
+   "text": "Who smiled?",
+   "pause": 0.5,
+   "cues": [
+    "ask:1"
+   ]
+  },
+  {
+   "id": "v10-06",
+   "scene": "v10",
+   "lang": "en",
+   "text": "Again, the doer is hidden.",
+   "pause": 0.25,
+   "cues": [
+    "group:1"
+   ]
+  },
+  {
+   "id": "v10-07",
+   "scene": "v10",
+   "lang": "ar",
+   "text": "(هُوَ)",
+   "pause": 0.5,
+   "cues": [
+    "line:2"
+   ]
+  },
+  {
+   "id": "v10-08",
+   "scene": "v10",
+   "lang": "en",
+   "text": "How did he smile?",
+   "pause": 0.6,
+   "cues": [
+    "ask:2"
+   ]
+  },
+  {
+   "id": "v10-09",
+   "scene": "v10",
+   "lang": "ar",
+   "text": "ضَاحِكًا",
+   "pause": 0.4,
+   "cues": [
+    "group:2",
+    "vowel:2"
+   ]
+  },
+  {
+   "id": "v10-10",
+   "scene": "v10",
+   "lang": "en",
+   "text": "Laughing. Here it is a noun, not a verb.",
+   "pause": 0.25,
+   "cues": []
+  },
+  {
+   "id": "v10-11",
+   "scene": "v10",
+   "lang": "en",
+   "text": "It is the state, so it takes naṣb. Fatha with tanween.",
+   "pause": 0.4,
+   "cues": [
+    "line:3"
+   ]
+  },
+  {
+   "id": "v10-12",
+   "scene": "v10",
+   "lang": "en",
+   "text": "Then a group that starts with a preposition. The preposition is a particle.",
+   "pause": 0.25,
+   "cues": [
+    "group:3",
+    "line:4"
+   ]
+  },
+  {
+   "id": "v10-13",
+   "scene": "v10",
+   "lang": "ar",
+   "text": "قَوْلِهَا",
+   "pause": 0.4,
+   "cues": [
+    "vowel:3"
+   ]
+  },
+  {
+   "id": "v10-14",
+   "scene": "v10",
+   "lang": "en",
+   "text": "Her words. After a preposition, so jarr, with kasra. Owned, so no tanween.",
+   "pause": 0.25,
+   "cues": [
+    "line:5"
+   ]
+  },
+  {
+   "id": "v10-15",
+   "scene": "v10",
+   "lang": "en",
+   "text": "Her is the owner. Attached pronouns are fixed.",
+   "pause": 0.8,
+   "cues": [
+    "line:6"
+   ]
+  },
+  {
+   "id": "outro-yourturn-01",
+   "scene": "outro-yourturn",
+   "lang": "en",
+   "text": "Now it is your turn. Open the Verses tab.",
+   "pause": 0.25,
+   "cues": [
+    "show"
+   ]
+  },
+  {
+   "id": "outro-yourturn-02",
+   "scene": "outro-yourturn",
+   "lang": "en",
+   "text": "Every ending is missing.",
+   "pause": 0.25,
+   "cues": []
+  },
+  {
+   "id": "outro-yourturn-03",
+   "scene": "outro-yourturn",
+   "lang": "en",
+   "text": "Draw the big boxes first. Verb and doer, then every other job.",
+   "pause": 0.25,
+   "cues": []
+  },
+  {
+   "id": "outro-yourturn-04",
+   "scene": "outro-yourturn",
+   "lang": "en",
+   "text": "If the doer is hidden, write it.",
+   "pause": 0.25,
+   "cues": []
+  },
+  {
+   "id": "outro-yourturn-05",
+   "scene": "outro-yourturn",
+   "lang": "en",
+   "text": "Then, for every piece, circle its ending and its job.",
+   "pause": 0.25,
+   "cues": []
+  },
+  {
+   "id": "outro-yourturn-06",
+   "scene": "outro-yourturn",
+   "lang": "en",
+   "text": "If a piece is fixed, circle the dash.",
+   "pause": 0.25,
+   "cues": []
+  },
+  {
+   "id": "outro-yourturn-07",
+   "scene": "outro-yourturn",
+   "lang": "en",
+   "text": "When you finish, check your work with the answer key.",
+   "pause": 1.0,
+   "cues": []
+  }
+ ]
+}

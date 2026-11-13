@@ -1,0 +1,178 @@
+{
+ "v01": {
+  "start": 14.4,
+  "end": 18.22,
+  "score": 27.0,
+  "unmatched_target_head": 0,
+  "target": "w a Q a s a a ? d a m u r a b a h u",
+  "heard": "w a a s a ? a d a m u m a b a h u",
+  "context_before": "k i l j a n n a",
+  "context_after": "f a r a w a b u",
+  "segments": [
+   "v01-02",
+   "v01-15"
+  ]
+ },
+ "v02": {
+  "start": 7.48,
+  "end": 10.88,
+  "score": 25.0,
+  "unmatched_target_head": 1,
+  "target": "w a n a a d a a n u u h u n b n a h u",
+  "heard": "a n a d a a n u u k u n i r i n a m u",
+  "context_before": "u k a n d i b l",
+  "context_after": "w a k a a n a k",
+  "segments": [
+   "v02-02"
+  ],
+  "manual": [
+   7.48,
+   10.88
+  ],
+  "manual_why": "start at the w of wa-nada (7.42 still had the i of al-jibali); end past the long hu of ibnahu, before wa-kana"
+ },
+ "v04": {
+  "start": 9.4,
+  "end": 12.68,
+  "score": 18.0,
+  "unmatched_target_head": 1,
+  "target": "w a G a l a q a t i l ? a b w a a b a",
+  "heard": "a v a l l a p a t i m a d a v a p a",
+  "context_before": "n n a s i h i a",
+  "context_after": "l a a y i t a a",
+  "segments": [
+   "v04-02"
+  ],
+  "manual": [
+   9.4,
+   12.68
+  ],
+  "manual_why": "start after the long i of nafsihi; end before the w of wa-qalat (12.66)"
+ },
+ "v05": {
+  "start": 4.0,
+  "end": 8.74,
+  "score": 31.0,
+  "unmatched_target_head": 1,
+  "target": "w a q a d a t q a m i i s a h u m i n d u b u r i n",
+  "heard": "a p a d a a m i i s a m u m i d u u u r i",
+  "context_before": "a l l b a b a h",
+  "context_after": "a ? a l p a y a",
+  "segments": [
+   "v05-02"
+  ],
+  "manual": [
+   4.0,
+   8.74
+  ],
+  "manual_why": "start just before wa-qaddat; end inside the nasal of duburin (joined to wa-alfaya, no pause)"
+ },
+ "v09": {
+  "start": 1.11,
+  "end": 7.1,
+  "score": 58.0,
+  "unmatched_target_head": 1,
+  "target": "w a d a x a l a l m a d i i n a t a Q a l a a h i i n i G a f l a t i n m i n ? a h l i h a a",
+  "heard": "a d a q a l a n a d i n a t a l a x i i n i r a f l a t i m i n a d i l i h f a d a",
+  "context_before": "i n",
+  "context_after": "d a t i i h a r",
+  "segments": [
+   "v09-02"
+  ],
+  "manual": [
+   1.11,
+   7.1
+  ],
+  "manual_why": "end before fa-wajada (auto cut ran into it)"
+ },
+ "v03": {
+  "start": 1.52,
+  "end": 5.1,
+  "score": 30.0,
+  "unmatched_target_head": 0,
+  "target": "w a w a r i s a s u l a y m a a n u d a a w u u d a",
+  "heard": "w a w a r i t a s u l a y i n a n d a m d w a k l a",
+  "context_before": "i n",
+  "context_after": "y a a ? a n m u",
+  "segments": [
+   "v03-02"
+  ],
+  "manual": [
+   1.52,
+   5.1
+  ],
+  "manual_why": "end in the pause after dawuda (auto cut ran into wa-qala)"
+ },
+ "v06": {
+  "start": 11.4,
+  "end": 17.95,
+  "score": 45.0,
+  "unmatched_target_head": 0,
+  "target": "w a ? a n z a l a m i n a s a m a a ? i m a a ? a n",
+  "heard": "w a ? a n d a l a m i n a s a m a ? i m ? a w a ? a n",
+  "context_before": "b i n a ? a m u",
+  "context_after": "d a l a n i n a",
+  "segments": [
+   "v06-02"
+  ],
+  "manual": [
+   11.4,
+   17.95
+  ],
+  "manual_why": "first reading only: the reciter stops at ma'an and starts again from wa-anzala (auto cut ran into the repeat)"
+ },
+ "v07": {
+  "start": 3.95,
+  "end": 7.3,
+  "score": 22.0,
+  "unmatched_target_head": 0,
+  "target": "? a s r a a b i Q a b d i h i l a y l a n",
+  "heard": "? a s r b i a a v i d i i l a i l a m",
+  "context_before": "n a l l a d i i",
+  "context_after": "i n a l m a s j",
+  "segments": [
+   "v07-02"
+  ],
+  "manual": [
+   3.95,
+   7.3
+  ],
+  "manual_why": "end on the ghunna of laylan, before the i of min"
+ },
+ "v08": {
+  "start": 1.13,
+  "end": 9.5,
+  "score": 45.0,
+  "unmatched_target_head": 0,
+  "target": "w a j a a ? a r a b u k a w a a l m a l a k u s a f a n s a f a n",
+  "heard": "w a j a a m a b u k a a n n m a l a k u s a f a a s a f a w",
+  "context_before": "a",
+  "context_after": "a j i",
+  "segments": [
+   "v08-02"
+  ],
+  "manual": [
+   1.13,
+   9.5
+  ],
+  "manual_why": "whole ayah; end in the pause before the next ayah (wa-ji'a)"
+ },
+ "v10": {
+  "start": 1.69,
+  "end": 6.6,
+  "score": 37.0,
+  "unmatched_target_head": 0,
+  "target": "f a t a b a s a m a d a a h i k a n m i n q a w l i h a a",
+  "heard": "f a t a b a s a m a a x a k a m m i q a l h a a",
+  "context_before": "u u n",
+  "context_after": "k a l a m a b i",
+  "segments": [
+   "v10-02"
+  ],
+  "manual": [
+   1.69,
+   6.6
+  ],
+  "manual_why": "end after qawliha, before the w of wa-qala"
+ }
+}

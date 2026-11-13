@@ -2,8 +2,8 @@
 """Check that every Arabic string in a video script comes from the lesson source.
 
 An Arabic run is allowed when it appears, word for word, inside
-  - a string literal of content/lesson.py, or the Arabic title in content/course.py, or
-  - a full example / practice sentence built from the lesson's own word boxes (lesson.json).
+  - a string literal of content/lesson.py or content/quran.py, or the Arabic title in content/course.py, or
+  - a full example / practice / verse sentence built from the lesson's own word boxes (lesson.json).
 It also warns when a word in an Arabic ("ar") segment has no vowel mark on its last letter.
 
 Usage: python3 video/tools/check_arabic.py video/lessons/nasb/script.json
@@ -23,12 +23,12 @@ def norm(s):
 
 def allowed_strings(lesson_json):
     out = []
-    for f in ("content/lesson.py", "content/course.py"):
+    for f in ("content/lesson.py", "content/quran.py", "content/course.py"):
         src = (ROOT / f).read_text(encoding="utf-8")
         out += [norm(m.group(0)) for m in AR_RUN.finditer(src)]
     data = json.loads(Path(lesson_json).read_text(encoding="utf-8"))
-    out += [norm(x["sentence"]) for x in data["examples"]]
-    out += [norm(x["sentence"]) for x in data["practice"]]
+    for k in ("examples", "practice", "verses"):
+        out += [norm(x["sentence"]) for x in data.get(k, [])]
     return out
 
 def is_allowed(run, allowed):
@@ -46,9 +46,12 @@ def strings(obj, path="$"):
         for i, v in enumerate(obj):
             yield from strings(v, f"{path}[{i}]")
 
-def main(script_path, lesson_json=ROOT / "video/lessons/nasb/lesson.json"):
-    allowed = allowed_strings(lesson_json)
+def main(script_path, lesson_json=None):
     script = json.loads(Path(script_path).read_text(encoding="utf-8"))
+    if lesson_json is None:  # the lesson.json next to the script (or one level up, for parts/*.json)
+        d = Path(script_path).resolve().parent
+        lesson_json = d / "lesson.json" if (d / "lesson.json").exists() else d.parent / "lesson.json"
+    allowed = allowed_strings(lesson_json)
     errors, warns, n = [], [], 0
     for path, s in strings(script):
         for m in AR_RUN.finditer(s):
@@ -57,11 +60,15 @@ def main(script_path, lesson_json=ROOT / "video/lessons/nasb/lesson.json"):
                 errors.append(f"{path}: not in lesson source: {m.group(0)}")
     segs = script.get("segments", script if isinstance(script, list) else [])
     for seg in segs:
-        if isinstance(seg, dict) and seg.get("lang") == "ar":
+        if isinstance(seg, dict) and seg.get("lang") in ("ar", "qr"):
             for w in seg["text"].replace("(", " ").replace(")", " ").split():
                 w = w.rstrip(TATWEEL)
-                if w.endswith("\u0627") and w[-2:-1] == "\u064B":
-                    continue  # fatha + tanween written with the extra alif
+                if w.endswith("\u0627") and "\u064B" in w[-3:-1]:
+                    continue  # fatha + tanween written with the extra alif (also after a shadda: صَفًّا)
+                if w.endswith("\u0627") and w[-2:-1] == "\u064E":
+                    continue  # long alif after fatha (أَهْلِهَا): no mark is written
+                if w.endswith("\u0649") and w[-2:-1] == "\u064E":
+                    continue  # alif maqṣūra after fatha (عَصَى): no mark is written
                 last = w.rstrip("".join(HARAKAT))
                 if w == last:
                     warns.append(f"{seg.get('id')}: no final vowel on {w}")

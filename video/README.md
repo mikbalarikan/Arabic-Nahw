@@ -75,4 +75,9 @@ a rule-based vowelled-MSA to IPA converter that was reviewed independently).
 ## A new lesson
 1. Export its data (as `export_lesson.py` does; `content/stage<N>/u*.py` lessons are `notes` blocks).
 2. Write `SCRIPT_SPEC.md`-style segments with cues, review them independently, assemble.
-3. Add a renderer to `build_composition.py` for any block kind it does not know yet.
+3. Add a renderer for any block kind `build_composition.py` does not know yet. A lesson can bring its own
+   scene module `tools/scenes_<id>.py` (class `SceneLesson`: `body`, `prep`, `cue`, `css`, `hide`,
+   `chapter_name`) and its own `lessons/<id>/parts.json`; see `scenes_quran_nasb.py` (lesson `quran-nasb`).
+4. Qur'an verses (`lang: "qr"` segments) are never synthesised: they come from a real recitation
+   recording, cut to the fragment by `cut_recitation.py` into `audio/raw/` (`tts_generate.py` skips them;
+   source, licence and credit in `lessons/<id>/recitation.json`).

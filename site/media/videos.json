@@ -63,5 +63,70 @@
     "title": "Your turn"
    }
   ]
+ },
+ "quran-nasb": {
+  "src": "media/quran-nasb/quran-nasb.mp4",
+  "hls": "media/quran-nasb/hls-cd823f42/index.m3u8",
+  "poster": "media/quran-nasb/quran-nasb.jpg",
+  "captions": "media/quran-nasb/quran-nasb.vtt",
+  "duration": 612,
+  "chapters": [
+   {
+    "t": 0,
+    "title": "Introduction"
+   },
+   {
+    "t": 11,
+    "title": "1 Three small notes for these verses"
+   },
+   {
+    "t": 77,
+    "title": "2 Colour key"
+   },
+   {
+    "t": 105,
+    "title": "3 The 10 verses"
+   },
+   {
+    "t": 136,
+    "title": "Verse 1 · Ta-Ha 20:121"
+   },
+   {
+    "t": 185,
+    "title": "Verse 2 · Hud 11:42"
+   },
+   {
+    "t": 228,
+    "title": "Verse 3 · An-Naml 27:16"
+   },
+   {
+    "t": 269,
+    "title": "Verse 4 · Yusuf 12:23"
+   },
+   {
+    "t": 307,
+    "title": "Verse 5 · Yusuf 12:25"
+   },
+   {
+    "t": 349,
+    "title": "Verse 6 · Al-Baqarah 2:22"
+   },
+   {
+    "t": 392,
+    "title": "Verse 7 · Al-Isra 17:1"
+   },
+   {
+    "t": 437,
+    "title": "Verse 8 · Al-Fajr 89:22"
+   },
+   {
+    "t": 487,
+    "title": "Verse 9 · Al-Qasas 28:15"
+   },
+   {
+    "t": 547,
+    "title": "Verse 10 · An-Naml 27:19"
+   }
+  ]
  }
 }
