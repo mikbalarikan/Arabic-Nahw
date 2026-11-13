@@ -1,0 +1,1939 @@
+{
+ "lesson": "s3-particles",
+ "scenes": [
+  "hero",
+  "c01-title",
+  "c01-rule",
+  "c01-cols",
+  "c02-title",
+  "c02-table",
+  "c02-rule",
+  "c02-tip",
+  "c03-title",
+  "c03-table",
+  "c03-examples",
+  "c04-title",
+  "c04-table",
+  "c04-rule",
+  "c04-tip",
+  "c05-title",
+  "c05-table",
+  "c06-title",
+  "c06-table",
+  "c06-tip",
+  "c07-title",
+  "c07-table",
+  "summary"
+ ],
+ "segments": [
+  {
+   "id": "hero-01",
+   "scene": "hero",
+   "lang": "en",
+   "text": "Stage three, unit seven. Small words, big work.",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "hero-02",
+   "scene": "hero",
+   "lang": "en",
+   "text": "This unit is about particles. Each one is called a ḥarf.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "hero-03",
+   "scene": "hero",
+   "lang": "ar",
+   "text": "الحُرُوفُ",
+   "pause": 0.5,
+   "cues": [
+    "wm"
+   ]
+  },
+  {
+   "id": "hero-04",
+   "scene": "hero",
+   "lang": "en",
+   "text": "A ḥarf never changes, and it has no iʿrāb place.",
+   "pause": 0.3,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "hero-05",
+   "scene": "hero",
+   "lang": "en",
+   "text": "Its job is to work on the words around it.",
+   "pause": 0.7,
+   "cues": []
+  },
+  {
+   "id": "c01-title-01",
+   "scene": "c01-title",
+   "lang": "en",
+   "text": "Chapter one. Every ḥarf is fixed, with no place.",
+   "pause": 0.5,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c01-title-02",
+   "scene": "c01-title",
+   "lang": "en",
+   "text": "Pronouns, pointing words and question isms are fixed.",
+   "pause": 0.25,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c01-title-03",
+   "scene": "c01-title",
+   "lang": "en",
+   "text": "But they still have a place. Rafʿ, naṣb or jarr.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-title-04",
+   "scene": "c01-title",
+   "lang": "en",
+   "text": "A ḥarf is different. It is fixed, and it has no place at all.",
+   "pause": 0.7,
+   "cues": [
+    "hl:It is fixed and it has no place at all."
+   ]
+  },
+  {
+   "id": "c01-rule-01",
+   "scene": "c01-rule",
+   "lang": "en",
+   "text": "Here is the phrase we use for a ḥarf.",
+   "pause": 0.4,
+   "cues": [
+    "show"
+   ]
+  },
+  {
+   "id": "c01-rule-02",
+   "scene": "c01-rule",
+   "lang": "ar",
+   "text": "حَرْفٌ مَبْنِيٌّ لَا مَحَلَّ لَهُ مِنَ الإِعْرَابِ",
+   "pause": 0.6,
+   "cues": [
+    "hl:حَرْفٌ مَبْنِيٌّ لَا مَحَلَّ لَهُ مِنَ الإِعْرَابِ"
+   ]
+  },
+  {
+   "id": "c01-rule-03",
+   "scene": "c01-rule",
+   "lang": "en",
+   "text": "A fixed ḥarf with no place in iʿrāb.",
+   "pause": 0.7,
+   "cues": [
+    "hl:A fixed ḥarf with no place in iʿrāb."
+   ]
+  },
+  {
+   "id": "c01-cols-01",
+   "scene": "c01-cols",
+   "lang": "en",
+   "text": "This unit has five groups of ḥarfs.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-cols-02",
+   "scene": "c01-cols",
+   "lang": "en",
+   "text": "First, the jarr ḥarfs, such as from, to and in.",
+   "pause": 0.3,
+   "cues": [
+    "col:1"
+   ]
+  },
+  {
+   "id": "c01-cols-03",
+   "scene": "c01-cols",
+   "lang": "en",
+   "text": "The joining ḥarfs, like wa, which means and.",
+   "pause": 0.3,
+   "cues": [
+    "col:2"
+   ]
+  },
+  {
+   "id": "c01-cols-04",
+   "scene": "c01-cols",
+   "lang": "en",
+   "text": "The answer ḥarfs, for yes and no.",
+   "pause": 0.3,
+   "cues": [
+    "col:3"
+   ]
+  },
+  {
+   "id": "c01-cols-05",
+   "scene": "c01-cols",
+   "lang": "en",
+   "text": "The question ḥarfs, for a yes or no question.",
+   "pause": 0.3,
+   "cues": [
+    "col:4"
+   ]
+  },
+  {
+   "id": "c01-cols-06",
+   "scene": "c01-cols",
+   "lang": "en",
+   "text": "And the calling ḥarf, to call someone.",
+   "pause": 0.4,
+   "cues": [
+    "col:5"
+   ]
+  },
+  {
+   "id": "c01-cols-07",
+   "scene": "c01-cols",
+   "lang": "en",
+   "text": "Let us take them one by one.",
+   "pause": 0.8,
+   "cues": []
+  },
+  {
+   "id": "c02-title-01",
+   "scene": "c02-title",
+   "lang": "en",
+   "text": "Chapter two. The jarr ḥarfs.",
+   "pause": 0.3,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c02-title-02",
+   "scene": "c02-title",
+   "lang": "ar",
+   "text": "حُرُوفُ الجَرِّ",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-title-03",
+   "scene": "c02-title",
+   "lang": "en",
+   "text": "You know four of them from Stage one. Here are nine.",
+   "pause": 0.3,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c02-title-04",
+   "scene": "c02-title",
+   "lang": "en",
+   "text": "The noun after each one is jarr.",
+   "pause": 0.7,
+   "cues": [
+    "hl:The noun after each one is jarr."
+   ]
+  },
+  {
+   "id": "c02-table-01",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "مِنْ",
+   "pause": 0.4,
+   "cues": [
+    "row:1",
+    "mark:1"
+   ]
+  },
+  {
+   "id": "c02-table-02",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "From.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c02-table-03",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "خَرَجَ مِنَ البَيْتِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-table-04",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "He went out of the house. The house is jarr, with kasra.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-table-05",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "إِلَى",
+   "pause": 0.4,
+   "cues": [
+    "row:2",
+    "mark:2"
+   ]
+  },
+  {
+   "id": "c02-table-06",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "To.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c02-table-07",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "ذَهَبَ إِلَى المَسْجِدِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-table-08",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "He went to the mosque.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-table-09",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "عَنْ",
+   "pause": 0.4,
+   "cues": [
+    "row:3",
+    "mark:3"
+   ]
+  },
+  {
+   "id": "c02-table-10",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "About, or away from.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c02-table-11",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "الدَّرْسُ عَنِ القَمَرِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-table-12",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "The lesson is about the moon.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-table-13",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "عَلَى",
+   "pause": 0.4,
+   "cues": [
+    "row:4",
+    "mark:4"
+   ]
+  },
+  {
+   "id": "c02-table-14",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "On.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c02-table-15",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "الكِتَابُ عَلَى المَكْتَبِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-table-16",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "The book is on the desk.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-table-17",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "فِي",
+   "pause": 0.4,
+   "cues": [
+    "row:5",
+    "mark:5"
+   ]
+  },
+  {
+   "id": "c02-table-18",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "In.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c02-table-19",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "الطَّالِبُ فِي الفَصْلِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-table-20",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "The student is in the classroom.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-table-21",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "The sixth ḥarf means with, or by. It is written joined to the word after it.",
+   "pause": 0.4,
+   "cues": [
+    "row:6",
+    "mark:6"
+   ]
+  },
+  {
+   "id": "c02-table-22",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "كَتَبْتُ بِالقَلَمِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-table-23",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "I wrote with the pen.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-table-24",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "The seventh means for, or belongs to. It is joined too.",
+   "pause": 0.4,
+   "cues": [
+    "row:7",
+    "mark:7"
+   ]
+  },
+  {
+   "id": "c02-table-25",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "الكِتَابُ لِمُحَمَّدٍ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-table-26",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "The book belongs to Muhammad.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-table-27",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "The eighth means like. It is joined too.",
+   "pause": 0.4,
+   "cues": [
+    "row:8",
+    "mark:8"
+   ]
+  },
+  {
+   "id": "c02-table-28",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "البِنْتُ كَالقَمَرِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-table-29",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "The girl is like the moon.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-table-30",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "حَتَّى",
+   "pause": 0.4,
+   "cues": [
+    "row:9",
+    "mark:9"
+   ]
+  },
+  {
+   "id": "c02-table-31",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "Until.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c02-table-32",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "جَلَسْتُ فِي المَسْجِدِ حَتَّى الظُّهْرِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-table-33",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "I sat in the mosque until noon.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-table-34",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "In every example, the noun after the ḥarf is jarr.",
+   "pause": 0.7,
+   "cues": [
+    "mark:0"
+   ]
+  },
+  {
+   "id": "c02-rule-01",
+   "scene": "c02-rule",
+   "lang": "en",
+   "text": "Two small changes before al.",
+   "pause": 0.4,
+   "cues": [
+    "show"
+   ]
+  },
+  {
+   "id": "c02-rule-02",
+   "scene": "c02-rule",
+   "lang": "en",
+   "text": "Look at the ḥarf that means from. It ends in sukūn.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c02-rule-03",
+   "scene": "c02-rule",
+   "lang": "ar",
+   "text": "مِنْ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-rule-04",
+   "scene": "c02-rule",
+   "lang": "en",
+   "text": "Before al, it takes a fatha.",
+   "pause": 0.3,
+   "cues": [
+    "hl:مِنْ becomes مِنَ: مِنَ البَيْتِ."
+   ]
+  },
+  {
+   "id": "c02-rule-05",
+   "scene": "c02-rule",
+   "lang": "ar",
+   "text": "مِنَ البَيْتِ",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-rule-06",
+   "scene": "c02-rule",
+   "lang": "en",
+   "text": "The ḥarf that means about also ends in sukūn.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c02-rule-07",
+   "scene": "c02-rule",
+   "lang": "ar",
+   "text": "عَنْ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-rule-08",
+   "scene": "c02-rule",
+   "lang": "en",
+   "text": "Before al, it takes a kasra.",
+   "pause": 0.3,
+   "cues": [
+    "hl:عَنْ becomes عَنِ: عَنِ القَمَرِ."
+   ]
+  },
+  {
+   "id": "c02-rule-09",
+   "scene": "c02-rule",
+   "lang": "ar",
+   "text": "عَنِ القَمَرِ",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-rule-10",
+   "scene": "c02-rule",
+   "lang": "en",
+   "text": "This is only a helping vowel for easy speaking. The ḥarf is still fixed.",
+   "pause": 0.7,
+   "cues": []
+  },
+  {
+   "id": "c02-tip-01",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "A tip. Three of these ḥarfs are written joined to the next word.",
+   "pause": 0.3,
+   "cues": [
+    "show",
+    "hl:are written joined to the next word"
+   ]
+  },
+  {
+   "id": "c02-tip-02",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "They mean with, for, and like.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-tip-03",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "Look at the ḥarf that means for. Before al, the alif of al drops out.",
+   "pause": 0.3,
+   "cues": [
+    "hl:drops the alif"
+   ]
+  },
+  {
+   "id": "c02-tip-04",
+   "scene": "c02-tip",
+   "lang": "ar",
+   "text": "لِلمُدَرِّسِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-tip-05",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "For the teacher.",
+   "pause": 0.8,
+   "cues": []
+  },
+  {
+   "id": "c03-title-01",
+   "scene": "c03-title",
+   "lang": "en",
+   "text": "Chapter three. The joining ḥarfs.",
+   "pause": 0.3,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c03-title-02",
+   "scene": "c03-title",
+   "lang": "ar",
+   "text": "حُرُوفُ العَطْفِ",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c03-title-03",
+   "scene": "c03-title",
+   "lang": "en",
+   "text": "They join a word to the word before it.",
+   "pause": 0.3,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c03-title-04",
+   "scene": "c03-title",
+   "lang": "en",
+   "text": "The rule from Stage one stays. The word after them copies the ending of the word before.",
+   "pause": 0.7,
+   "cues": [
+    "hl:the word after them copies the ending of the word before"
+   ]
+  },
+  {
+   "id": "c03-table-01",
+   "scene": "c03-table",
+   "lang": "en",
+   "text": "The first is wa. It means and. It is written joined to the next word.",
+   "pause": 0.3,
+   "cues": [
+    "row:1",
+    "mark:1"
+   ]
+  },
+  {
+   "id": "c03-table-02",
+   "scene": "c03-table",
+   "lang": "ar",
+   "text": "الكِتَابُ وَالقَلَمُ عَلَى المَكْتَبِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-table-03",
+   "scene": "c03-table",
+   "lang": "en",
+   "text": "The book and the pen are on the desk. The pen copies the damma of the book.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c03-table-04",
+   "scene": "c03-table",
+   "lang": "en",
+   "text": "The second ḥarf is also joined. It means and, right after.",
+   "pause": 0.3,
+   "cues": [
+    "row:2",
+    "mark:2"
+   ]
+  },
+  {
+   "id": "c03-table-05",
+   "scene": "c03-table",
+   "lang": "ar",
+   "text": "دَخَلَ مُحَمَّدٌ فَخَالِدٌ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-table-06",
+   "scene": "c03-table",
+   "lang": "en",
+   "text": "Muhammad came in, and Khalid right after him.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c03-table-07",
+   "scene": "c03-table",
+   "lang": "ar",
+   "text": "ثُمَّ",
+   "pause": 0.4,
+   "cues": [
+    "row:3",
+    "mark:3"
+   ]
+  },
+  {
+   "id": "c03-table-08",
+   "scene": "c03-table",
+   "lang": "en",
+   "text": "Then, after a while.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c03-table-09",
+   "scene": "c03-table",
+   "lang": "ar",
+   "text": "خَرَجَ حَامِدٌ ثُمَّ يَاسِرٌ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-table-10",
+   "scene": "c03-table",
+   "lang": "en",
+   "text": "Hamid went out, then Yasir.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c03-table-11",
+   "scene": "c03-table",
+   "lang": "en",
+   "text": "The fourth ḥarf means or.",
+   "pause": 0.3,
+   "cues": [
+    "row:4",
+    "mark:4"
+   ]
+  },
+  {
+   "id": "c03-table-12",
+   "scene": "c03-table",
+   "lang": "ar",
+   "text": "اِشْرَبِ المَاءَ أَوِ اللَّبَنَ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-table-13",
+   "scene": "c03-table",
+   "lang": "en",
+   "text": "Drink the water or the milk.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c03-table-14",
+   "scene": "c03-table",
+   "lang": "ar",
+   "text": "بَلْ",
+   "pause": 0.4,
+   "cues": [
+    "row:5",
+    "mark:5"
+   ]
+  },
+  {
+   "id": "c03-table-15",
+   "scene": "c03-table",
+   "lang": "en",
+   "text": "No, rather. It makes a correction.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c03-table-16",
+   "scene": "c03-table",
+   "lang": "ar",
+   "text": "هَذَا كِتَابٌ بَلْ دَفْتَرٌ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-table-17",
+   "scene": "c03-table",
+   "lang": "en",
+   "text": "This is a book. No, rather a notebook.",
+   "pause": 0.7,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-01",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "Let us look at two of them closely.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-02",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "دَخَلَ مُحَمَّدٌ فَخَالِدٌ",
+   "pause": 0.4,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c03-examples-03",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "Muhammad came in, and Khalid right after him.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-04",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "Khalid copies the damma of Muhammad.",
+   "pause": 0.4,
+   "cues": [
+    "note:1"
+   ]
+  },
+  {
+   "id": "c03-examples-05",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "مُحَمَّدٌ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-06",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "خَالِدٌ",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-07",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "اِشْرَبِ المَاءَ أَوِ اللَّبَنَ",
+   "pause": 0.4,
+   "cues": [
+    "ex:2"
+   ]
+  },
+  {
+   "id": "c03-examples-08",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "Drink the water or the milk.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-09",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "The milk copies the fatha of the water.",
+   "pause": 0.4,
+   "cues": [
+    "note:2"
+   ]
+  },
+  {
+   "id": "c03-examples-10",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "المَاءَ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-11",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "اللَّبَنَ",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-12",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "Look at the ḥarf that means or. It ends in sukūn.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-13",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "Before al, it takes a helping kasra. The ḥarf is still fixed.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-14",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "أَوِ اللَّبَنَ",
+   "pause": 0.8,
+   "cues": []
+  },
+  {
+   "id": "c04-title-01",
+   "scene": "c04-title",
+   "lang": "en",
+   "text": "Chapter four. The answer ḥarfs.",
+   "pause": 0.3,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c04-title-02",
+   "scene": "c04-title",
+   "lang": "ar",
+   "text": "حُرُوفُ الجَوَابِ",
+   "pause": 0.7,
+   "cues": []
+  },
+  {
+   "id": "c04-table-01",
+   "scene": "c04-table",
+   "lang": "ar",
+   "text": "نَعَمْ",
+   "pause": 0.4,
+   "cues": [
+    "row:1",
+    "mark:1"
+   ]
+  },
+  {
+   "id": "c04-table-02",
+   "scene": "c04-table",
+   "lang": "en",
+   "text": "Yes.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c04-table-03",
+   "scene": "c04-table",
+   "lang": "ar",
+   "text": "أَهَذَا بَيْتٌ؟",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c04-table-04",
+   "scene": "c04-table",
+   "lang": "en",
+   "text": "Is this a house?",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c04-table-05",
+   "scene": "c04-table",
+   "lang": "ar",
+   "text": "نَعَمْ، هَذَا بَيْتٌ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-table-06",
+   "scene": "c04-table",
+   "lang": "en",
+   "text": "Yes, this is a house.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c04-table-07",
+   "scene": "c04-table",
+   "lang": "ar",
+   "text": "لَا",
+   "pause": 0.4,
+   "cues": [
+    "row:2",
+    "mark:2"
+   ]
+  },
+  {
+   "id": "c04-table-08",
+   "scene": "c04-table",
+   "lang": "en",
+   "text": "No.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c04-table-09",
+   "scene": "c04-table",
+   "lang": "ar",
+   "text": "أَهَذَا بَيْتٌ؟",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c04-table-10",
+   "scene": "c04-table",
+   "lang": "ar",
+   "text": "لَا، هَذَا مَسْجِدٌ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-table-11",
+   "scene": "c04-table",
+   "lang": "en",
+   "text": "No, this is a mosque.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c04-table-12",
+   "scene": "c04-table",
+   "lang": "ar",
+   "text": "بَلَى",
+   "pause": 0.4,
+   "cues": [
+    "row:3",
+    "mark:3"
+   ]
+  },
+  {
+   "id": "c04-table-13",
+   "scene": "c04-table",
+   "lang": "en",
+   "text": "It means yes, to a question with the word not in it.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c04-table-14",
+   "scene": "c04-table",
+   "lang": "ar",
+   "text": "أَمَا ذَهَبْتَ إِلَى المَسْجِدِ؟",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c04-table-15",
+   "scene": "c04-table",
+   "lang": "en",
+   "text": "Didn't you go to the mosque?",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c04-table-16",
+   "scene": "c04-table",
+   "lang": "ar",
+   "text": "بَلَى، ذَهَبْتُ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-table-17",
+   "scene": "c04-table",
+   "lang": "en",
+   "text": "Yes, I did.",
+   "pause": 0.7,
+   "cues": []
+  },
+  {
+   "id": "c04-rule-01",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "So when do we use this one?",
+   "pause": 0.5,
+   "cues": [
+    "show"
+   ]
+  },
+  {
+   "id": "c04-rule-02",
+   "scene": "c04-rule",
+   "lang": "ar",
+   "text": "بَلَى",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-rule-03",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "Use it when the question has the word not in it, and your answer is yes.",
+   "pause": 0.4,
+   "cues": [
+    "hl:when the question has \"not\" in it and your answer is yes"
+   ]
+  },
+  {
+   "id": "c04-rule-04",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "Didn't you go? Yes, I did.",
+   "pause": 0.7,
+   "cues": []
+  },
+  {
+   "id": "c04-tip-01",
+   "scene": "c04-tip",
+   "lang": "en",
+   "text": "A tip. Look at the question again.",
+   "pause": 0.3,
+   "cues": [
+    "show"
+   ]
+  },
+  {
+   "id": "c04-tip-02",
+   "scene": "c04-tip",
+   "lang": "ar",
+   "text": "أَمَا ذَهَبْتَ؟",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c04-tip-03",
+   "scene": "c04-tip",
+   "lang": "en",
+   "text": "Inside it is this ḥarf.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c04-tip-04",
+   "scene": "c04-tip",
+   "lang": "ar",
+   "text": "مَا",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-tip-05",
+   "scene": "c04-tip",
+   "lang": "en",
+   "text": "It means did not. You met it in unit six.",
+   "pause": 0.3,
+   "cues": [
+    "hl:is the \"did not\" ḥarf from unit 6"
+   ]
+  },
+  {
+   "id": "c04-tip-06",
+   "scene": "c04-tip",
+   "lang": "ar",
+   "text": "مَا ذَهَبْتَ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-tip-07",
+   "scene": "c04-tip",
+   "lang": "en",
+   "text": "You did not go.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-tip-08",
+   "scene": "c04-tip",
+   "lang": "en",
+   "text": "Now add the joined question ḥarf in front.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c04-tip-09",
+   "scene": "c04-tip",
+   "lang": "ar",
+   "text": "أَمَا ذَهَبْتَ؟",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c04-tip-10",
+   "scene": "c04-tip",
+   "lang": "en",
+   "text": "Now it is a question. Didn't you go?",
+   "pause": 0.8,
+   "cues": [
+    "hl:\"Didn't you go?\""
+   ]
+  },
+  {
+   "id": "c05-title-01",
+   "scene": "c05-title",
+   "lang": "en",
+   "text": "Chapter five. The question ḥarfs.",
+   "pause": 0.3,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c05-title-02",
+   "scene": "c05-title",
+   "lang": "en",
+   "text": "You met them in unit five. They make a yes or no question.",
+   "pause": 0.3,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c05-title-03",
+   "scene": "c05-title",
+   "lang": "en",
+   "text": "They are ḥarfs, so they have no place.",
+   "pause": 0.3,
+   "cues": [
+    "hl:They are ḥarfs, so they have no place."
+   ]
+  },
+  {
+   "id": "c05-title-04",
+   "scene": "c05-title",
+   "lang": "en",
+   "text": "The question words who, what and where are different.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c05-title-05",
+   "scene": "c05-title",
+   "lang": "en",
+   "text": "They are isms, and they do have a place.",
+   "pause": 0.7,
+   "cues": [
+    "hl:are isms and do have a place"
+   ]
+  },
+  {
+   "id": "c05-table-01",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "هَلْ",
+   "pause": 0.4,
+   "cues": [
+    "row:1",
+    "mark:1"
+   ]
+  },
+  {
+   "id": "c05-table-02",
+   "scene": "c05-table",
+   "lang": "en",
+   "text": "It makes a yes or no question.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c05-table-03",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "هَلْ ذَهَبَ مُحَمَّدٌ إِلَى السُّوقِ؟",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c05-table-04",
+   "scene": "c05-table",
+   "lang": "en",
+   "text": "Did Muhammad go to the market?",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c05-table-05",
+   "scene": "c05-table",
+   "lang": "en",
+   "text": "The second one does the same job. It is written joined to the next word.",
+   "pause": 0.3,
+   "cues": [
+    "row:2",
+    "mark:2"
+   ]
+  },
+  {
+   "id": "c05-table-06",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "أَهَذَا بَيْتٌ؟",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c05-table-07",
+   "scene": "c05-table",
+   "lang": "en",
+   "text": "Is this a house?",
+   "pause": 0.8,
+   "cues": []
+  },
+  {
+   "id": "c06-title-01",
+   "scene": "c06-title",
+   "lang": "en",
+   "text": "Chapter six. The calling ḥarf.",
+   "pause": 0.3,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c06-title-02",
+   "scene": "c06-title",
+   "lang": "ar",
+   "text": "يَا",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c06-title-03",
+   "scene": "c06-title",
+   "lang": "en",
+   "text": "Use it to call someone.",
+   "pause": 0.3,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c06-title-04",
+   "scene": "c06-title",
+   "lang": "en",
+   "text": "After it, a name, or a single noun for the person you call, takes one damma.",
+   "pause": 0.3,
+   "cues": [
+    "hl:takes one damma"
+   ]
+  },
+  {
+   "id": "c06-title-05",
+   "scene": "c06-title",
+   "lang": "en",
+   "text": "It never takes tanween.",
+   "pause": 0.3,
+   "cues": [
+    "hl:It never takes tanween."
+   ]
+  },
+  {
+   "id": "c06-title-06",
+   "scene": "c06-title",
+   "lang": "en",
+   "text": "This damma is fixed.",
+   "pause": 0.3,
+   "cues": [
+    "hl:This damma is fixed."
+   ]
+  },
+  {
+   "id": "c06-title-07",
+   "scene": "c06-title",
+   "lang": "en",
+   "text": "The called word is in the place of naṣb.",
+   "pause": 0.3,
+   "cues": [
+    "hl:The called word is in the place of naṣb"
+   ]
+  },
+  {
+   "id": "c06-title-08",
+   "scene": "c06-title",
+   "lang": "ar",
+   "text": "فِي مَحَلِّ نَصْبٍ",
+   "pause": 0.7,
+   "cues": []
+  },
+  {
+   "id": "c06-table-01",
+   "scene": "c06-table",
+   "lang": "en",
+   "text": "Muhammad has tanween.",
+   "pause": 0.3,
+   "cues": [
+    "row:1",
+    "mark:1"
+   ]
+  },
+  {
+   "id": "c06-table-02",
+   "scene": "c06-table",
+   "lang": "ar",
+   "text": "مُحَمَّدٌ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c06-table-03",
+   "scene": "c06-table",
+   "lang": "en",
+   "text": "When we call him, one damma only.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c06-table-04",
+   "scene": "c06-table",
+   "lang": "ar",
+   "text": "يَا مُحَمَّدُ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c06-table-05",
+   "scene": "c06-table",
+   "lang": "en",
+   "text": "O Muhammad.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c06-table-06",
+   "scene": "c06-table",
+   "lang": "ar",
+   "text": "عَلِيٌّ",
+   "pause": 0.4,
+   "cues": [
+    "row:2",
+    "mark:2"
+   ]
+  },
+  {
+   "id": "c06-table-07",
+   "scene": "c06-table",
+   "lang": "ar",
+   "text": "يَا عَلِيُّ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c06-table-08",
+   "scene": "c06-table",
+   "lang": "en",
+   "text": "O Ali.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c06-table-09",
+   "scene": "c06-table",
+   "lang": "ar",
+   "text": "آمِنَةُ",
+   "pause": 0.4,
+   "cues": [
+    "row:3",
+    "mark:3"
+   ]
+  },
+  {
+   "id": "c06-table-10",
+   "scene": "c06-table",
+   "lang": "en",
+   "text": "Aminah already ends in one damma, with no tanween.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c06-table-11",
+   "scene": "c06-table",
+   "lang": "ar",
+   "text": "يَا آمِنَةُ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c06-table-12",
+   "scene": "c06-table",
+   "lang": "en",
+   "text": "O Aminah.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c06-table-13",
+   "scene": "c06-table",
+   "lang": "en",
+   "text": "A single noun for a person works the same way.",
+   "pause": 0.3,
+   "cues": [
+    "row:4",
+    "mark:4"
+   ]
+  },
+  {
+   "id": "c06-table-14",
+   "scene": "c06-table",
+   "lang": "ar",
+   "text": "وَلَدٌ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c06-table-15",
+   "scene": "c06-table",
+   "lang": "ar",
+   "text": "يَا وَلَدُ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c06-table-16",
+   "scene": "c06-table",
+   "lang": "en",
+   "text": "O boy.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c06-table-17",
+   "scene": "c06-table",
+   "lang": "ar",
+   "text": "أُسْتَاذٌ",
+   "pause": 0.4,
+   "cues": [
+    "row:5",
+    "mark:5"
+   ]
+  },
+  {
+   "id": "c06-table-18",
+   "scene": "c06-table",
+   "lang": "ar",
+   "text": "يَا أُسْتَاذُ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c06-table-19",
+   "scene": "c06-table",
+   "lang": "en",
+   "text": "O teacher.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c06-table-20",
+   "scene": "c06-table",
+   "lang": "en",
+   "text": "Each called word ends in one damma, with no tanween.",
+   "pause": 0.7,
+   "cues": [
+    "mark:0"
+   ]
+  },
+  {
+   "id": "c06-tip-01",
+   "scene": "c06-tip",
+   "lang": "en",
+   "text": "A tip. This is the same as lesson five of the Madinah book.",
+   "pause": 0.4,
+   "cues": [
+    "show"
+   ]
+  },
+  {
+   "id": "c06-tip-02",
+   "scene": "c06-tip",
+   "lang": "ar",
+   "text": "يَا بِلَالُ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c06-tip-03",
+   "scene": "c06-tip",
+   "lang": "ar",
+   "text": "يَا شَيْخُ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c06-tip-04",
+   "scene": "c06-tip",
+   "lang": "en",
+   "text": "O Bilal. O old man.",
+   "pause": 0.8,
+   "cues": []
+  },
+  {
+   "id": "c07-title-01",
+   "scene": "c07-title",
+   "lang": "en",
+   "text": "Chapter seven. A ḥarf or an ism? Look-alikes.",
+   "pause": 0.3,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c07-title-02",
+   "scene": "c07-title",
+   "lang": "en",
+   "text": "Some ḥarfs look like isms. And some short question words are isms.",
+   "pause": 0.3,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c07-title-03",
+   "scene": "c07-title",
+   "lang": "en",
+   "text": "Read the vowels carefully.",
+   "pause": 0.7,
+   "cues": [
+    "hl:Read the vowels carefully."
+   ]
+  },
+  {
+   "id": "c07-table-01",
+   "scene": "c07-table",
+   "lang": "ar",
+   "text": "مِنْ",
+   "pause": 0.4,
+   "cues": [
+    "row:1",
+    "mark:1"
+   ]
+  },
+  {
+   "id": "c07-table-02",
+   "scene": "c07-table",
+   "lang": "en",
+   "text": "From. A ḥarf.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c07-table-03",
+   "scene": "c07-table",
+   "lang": "ar",
+   "text": "مَنْ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c07-table-04",
+   "scene": "c07-table",
+   "lang": "en",
+   "text": "Who. An ism. Only the first vowel is different.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c07-table-05",
+   "scene": "c07-table",
+   "lang": "ar",
+   "text": "عَلَى",
+   "pause": 0.4,
+   "cues": [
+    "row:2",
+    "mark:2"
+   ]
+  },
+  {
+   "id": "c07-table-06",
+   "scene": "c07-table",
+   "lang": "en",
+   "text": "On. A ḥarf.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c07-table-07",
+   "scene": "c07-table",
+   "lang": "ar",
+   "text": "عَلِيٌّ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c07-table-08",
+   "scene": "c07-table",
+   "lang": "en",
+   "text": "Ali, a name. An ism.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c07-table-09",
+   "scene": "c07-table",
+   "lang": "ar",
+   "text": "هَلْ",
+   "pause": 0.4,
+   "cues": [
+    "row:3",
+    "mark:3"
+   ]
+  },
+  {
+   "id": "c07-table-10",
+   "scene": "c07-table",
+   "lang": "en",
+   "text": "It starts a yes or no question. A ḥarf.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c07-table-11",
+   "scene": "c07-table",
+   "lang": "ar",
+   "text": "أَيْنَ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c07-table-12",
+   "scene": "c07-table",
+   "lang": "en",
+   "text": "Where. An ism. Both are used in questions. Only one is a ḥarf.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c07-table-13",
+   "scene": "c07-table",
+   "lang": "en",
+   "text": "Next, the ḥarf that means like. It is written joined to the next word.",
+   "pause": 0.3,
+   "cues": [
+    "row:4",
+    "mark:4"
+   ]
+  },
+  {
+   "id": "c07-table-14",
+   "scene": "c07-table",
+   "lang": "ar",
+   "text": "كَمْ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c07-table-15",
+   "scene": "c07-table",
+   "lang": "en",
+   "text": "How many. An ism. Both start with the same letter.",
+   "pause": 0.7,
+   "cues": []
+  },
+  {
+   "id": "summary-01",
+   "scene": "summary",
+   "lang": "en",
+   "text": "In short.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "summary-02",
+   "scene": "summary",
+   "lang": "en",
+   "text": "Every ḥarf is fixed and has no place.",
+   "pause": 0.3,
+   "cues": [
+    "q:1"
+   ]
+  },
+  {
+   "id": "summary-03",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "لَا مَحَلَّ لَهُ مِنَ الإِعْرَابِ",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "summary-04",
+   "scene": "summary",
+   "lang": "en",
+   "text": "After a jarr ḥarf, the next noun is jarr.",
+   "pause": 0.4,
+   "cues": [
+    "q:2"
+   ]
+  },
+  {
+   "id": "summary-05",
+   "scene": "summary",
+   "lang": "en",
+   "text": "After a joining ḥarf, the next word copies the ending of the word before.",
+   "pause": 0.4,
+   "cues": [
+    "q:3"
+   ]
+  },
+  {
+   "id": "summary-06",
+   "scene": "summary",
+   "lang": "en",
+   "text": "The answer ḥarfs say yes and no.",
+   "pause": 0.3,
+   "cues": [
+    "q:4"
+   ]
+  },
+  {
+   "id": "summary-07",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "بَلَى",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "summary-08",
+   "scene": "summary",
+   "lang": "en",
+   "text": "This one says yes to a question with the word not in it.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "summary-09",
+   "scene": "summary",
+   "lang": "en",
+   "text": "The question ḥarfs make a yes or no question.",
+   "pause": 0.3,
+   "cues": [
+    "q:5"
+   ]
+  },
+  {
+   "id": "summary-10",
+   "scene": "summary",
+   "lang": "en",
+   "text": "After the calling ḥarf, a name takes one damma.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "summary-11",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "يَا مُحَمَّدُ",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "summary-12",
+   "scene": "summary",
+   "lang": "en",
+   "text": "Now it is your turn. Open the Practice tab.",
+   "pause": 1.0,
+   "cues": []
+  }
+ ]
+}

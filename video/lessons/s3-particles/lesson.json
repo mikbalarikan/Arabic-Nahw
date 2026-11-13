@@ -1,0 +1,862 @@
+{
+ "id": "s3-particles",
+ "stage": 3,
+ "title": "Particles",
+ "ar_title": "الحُرُوفُ",
+ "blurb": "The small words that link, ask, answer and call. Every ḥarf is fixed and has no place of its own.",
+ "sources": [
+  "content/stage3/u7_particles.py"
+ ],
+ "tabs": [
+  "Lesson",
+  "Practice"
+ ],
+ "roles": {
+  "verb": {
+   "en": "Verb",
+   "ar": "فِعْل",
+   "border": "#3a5a85",
+   "bg": "#e8eef6",
+   "text": "#2b4668",
+   "short": "verb"
+  },
+  "doer": {
+   "en": "Doer",
+   "ar": "فَاعِل",
+   "border": "#ea7a10",
+   "bg": "#fff0df",
+   "text": "#b05705",
+   "short": "doer"
+  },
+  "obj": {
+   "en": "Object",
+   "ar": "مَفْعُولٌ بِهِ",
+   "border": "#d63384",
+   "bg": "#fde6f1",
+   "text": "#a61e62",
+   "short": "object"
+  },
+  "purp": {
+   "en": "Purpose",
+   "ar": "مَفْعُولٌ لِأَجْلِهِ",
+   "border": "#0f9d9a",
+   "bg": "#dcf4f3",
+   "text": "#0a7471",
+   "short": "purpose"
+  },
+  "when": {
+   "en": "Time / place",
+   "ar": "مَفْعُولٌ فِيهِ",
+   "border": "#a0612b",
+   "bg": "#f5e9dd",
+   "text": "#7b471c",
+   "short": "time/place"
+  },
+  "state": {
+   "en": "State",
+   "ar": "حَال",
+   "border": "#6b8e23",
+   "bg": "#edf4dc",
+   "text": "#4c6810",
+   "short": "state"
+  },
+  "topic": {
+   "en": "Topic",
+   "ar": "مُبْتَدَأ",
+   "border": "#e0a10b",
+   "bg": "#fff5d6",
+   "text": "#a87805",
+   "short": "topic"
+  },
+  "info": {
+   "en": "Information",
+   "ar": "خَبَر",
+   "border": "#e04a3a",
+   "bg": "#fde7e4",
+   "text": "#b8322a",
+   "short": "info"
+  },
+  "prep": {
+   "en": "After a preposition",
+   "ar": "بَعْدَ حَرْفِ الجَرّ",
+   "border": "#22a05a",
+   "bg": "#e2f5e9",
+   "text": "#17803f",
+   "short": "prep"
+  },
+  "owner": {
+   "en": "Ownership",
+   "ar": "إِضَافَة",
+   "border": "#7b4fd6",
+   "bg": "#efe8fc",
+   "text": "#5f36b8",
+   "short": "owner"
+  },
+  "adj": {
+   "en": "Adjective",
+   "ar": "صِفَة",
+   "border": "#7d858e",
+   "bg": "#eef0f2",
+   "text": "#5a626b",
+   "short": "adj"
+  },
+  "and": {
+   "en": "After وَ (and)",
+   "ar": "مَعْطُوف",
+   "border": "#2f7fe0",
+   "bg": "#e3eefc",
+   "text": "#1f64bd",
+   "short": "and"
+  }
+ },
+ "hero_html": "<div class=\"hero\"><div class=\"eyebrow\">STAGE 3 · UNIT 7</div><h1>Small words, big work</h1><p>A ḥarf never changes, and it has no iʿrāb place. Its job is to work on the words around it.</p><div class=\"wm\" aria-hidden=\"true\">الحُرُوفُ</div></div>",
+ "sections": [
+  {
+   "num": 1,
+   "title": "Every ḥarf is fixed, with no place",
+   "sub": null
+  },
+  {
+   "num": 2,
+   "title": "The jarr ḥarfs (حُرُوفُ الجَرِّ)",
+   "sub": null
+  },
+  {
+   "num": 3,
+   "title": "The joining ḥarfs (حُرُوفُ العَطْفِ)",
+   "sub": null
+  },
+  {
+   "num": 4,
+   "title": "The answer ḥarfs (حُرُوفُ الجَوَابِ)",
+   "sub": null
+  },
+  {
+   "num": 5,
+   "title": "The question ḥarfs (هَلْ and أَ)",
+   "sub": null
+  },
+  {
+   "num": 6,
+   "title": "The calling ḥarf يَا",
+   "sub": null
+  },
+  {
+   "num": 7,
+   "title": "Ḥarf or ism? Look-alikes",
+   "sub": null
+  }
+ ],
+ "blocks": [
+  {
+   "i": 0,
+   "t": "hero",
+   "chapter": 0,
+   "data": {
+    "t": "hero",
+    "eyebrow": "STAGE 3 · UNIT 7",
+    "title": "Small words, big work",
+    "text": "A ḥarf never changes, and it has no iʿrāb place. Its job is to work on the words around it.",
+    "wm": "الحُرُوفُ"
+   },
+   "html": "<div class=\"hero\"><div class=\"eyebrow\">STAGE 3 · UNIT 7</div><h1>Small words, big work</h1><p>A ḥarf never changes, and it has no iʿrāb place. Its job is to work on the words around it.</p><div class=\"wm\" aria-hidden=\"true\">الحُرُوفُ</div></div>"
+  },
+  {
+   "i": 1,
+   "t": "h2",
+   "chapter": 1,
+   "data": {
+    "t": "h2",
+    "text": "Every ḥarf is fixed, with no place"
+   },
+   "html": "<h2><span class=\"num\">1</span>Every ḥarf is fixed, with no place</h2>"
+  },
+  {
+   "i": 2,
+   "t": "p",
+   "chapter": 1,
+   "data": {
+    "t": "p",
+    "text": "Pronouns, pointing words and question isms are fixed, but they still have a place: rafʿ, naṣb or jarr. A ḥarf is different. It is fixed and it has no place at all."
+   },
+   "html": "<p class=\"s0p\">Pronouns, pointing words and question isms are fixed, but they still have a place: rafʿ, naṣb or jarr. A ḥarf is different. It is fixed and it has no place at all.</p>"
+  },
+  {
+   "i": 3,
+   "t": "rule",
+   "chapter": 1,
+   "data": {
+    "t": "rule",
+    "color": "grey",
+    "title": "How we say it",
+    "text": "For a ḥarf we say: {حَرْفٌ مَبْنِيٌّ لَا مَحَلَّ لَهُ مِنَ الإِعْرَابِ}. A fixed ḥarf with no place in iʿrāb."
+   },
+   "html": "<div class=\"rbox\" style=\"border-color:#7d858e;background:#eef0f2\"><b style=\"color:#5a626b\">How we say it.</b> For a ḥarf we say: <bdi class=\"ab\">حَرْفٌ مَبْنِيٌّ لَا مَحَلَّ لَهُ مِنَ الإِعْرَابِ</bdi>. A fixed ḥarf with no place in iʿrāb.</div>"
+  },
+  {
+   "i": 4,
+   "t": "cols",
+   "chapter": 1,
+   "data": {
+    "t": "cols",
+    "items": [
+     {
+      "color": "green",
+      "title": "Jarr",
+      "ar": "حُرُوفُ الجَرِّ",
+      "text": "{مِنْ}، {إِلَى}، {فِي} …"
+     },
+     {
+      "color": "blue",
+      "title": "Joining",
+      "ar": "حُرُوفُ العَطْفِ",
+      "text": "{وَ}، {فَ}، {ثُمَّ} …"
+     },
+     {
+      "color": "olive",
+      "title": "Answer",
+      "ar": "حُرُوفُ الجَوَابِ",
+      "text": "{نَعَمْ}، {لَا}، {بَلَى}"
+     },
+     {
+      "color": "gold",
+      "title": "Question",
+      "ar": "الِاسْتِفْهَامُ",
+      "text": "{هَلْ}، {أَ}"
+     },
+     {
+      "color": "grey",
+      "title": "Calling",
+      "ar": "حَرْفُ النِّدَاءِ",
+      "text": "{يَا}"
+     }
+    ]
+   },
+   "html": "<div class=\"kkgrid s0cols\"><div class=\"kk\" style=\"border-left-color:#22a05a;background:#e2f5e9\"><div class=\"kkt\"><span style=\"color:#17803f\"><span class=\"dot\" style=\"background:#22a05a\"></span>Jarr</span><span class=\"kkar\">حُرُوفُ الجَرِّ</span></div><div class=\"kkd\"><bdi class=\"ab\">مِنْ</bdi>، <bdi class=\"ab\">إِلَى</bdi>، <bdi class=\"ab\">فِي</bdi> …</div></div><div class=\"kk\" style=\"border-left-color:#2f7fe0;background:#e3eefc\"><div class=\"kkt\"><span style=\"color:#1f64bd\"><span class=\"dot\" style=\"background:#2f7fe0\"></span>Joining</span><span class=\"kkar\">حُرُوفُ العَطْفِ</span></div><div class=\"kkd\"><bdi class=\"ab\">وَ</bdi>، <bdi class=\"ab\">فَ</bdi>، <bdi class=\"ab\">ثُمَّ</bdi> …</div></div><div class=\"kk\" style=\"border-left-color:#6b8e23;background:#edf4dc\"><div class=\"kkt\"><span style=\"color:#4c6810\"><span class=\"dot\" style=\"background:#6b8e23\"></span>Answer</span><span class=\"kkar\">حُرُوفُ الجَوَابِ</span></div><div class=\"kkd\"><bdi class=\"ab\">نَعَمْ</bdi>، <bdi class=\"ab\">لَا</bdi>، <bdi class=\"ab\">بَلَى</bdi></div></div><div class=\"kk\" style=\"border-left-color:#e0a10b;background:#fff5d6\"><div class=\"kkt\"><span style=\"color:#a87805\"><span class=\"dot\" style=\"background:#e0a10b\"></span>Question</span><span class=\"kkar\">الِاسْتِفْهَامُ</span></div><div class=\"kkd\"><bdi class=\"ab\">هَلْ</bdi>، <bdi class=\"ab\">أَ</bdi></div></div><div class=\"kk\" style=\"border-left-color:#7d858e;background:#eef0f2\"><div class=\"kkt\"><span style=\"color:#5a626b\"><span class=\"dot\" style=\"background:#7d858e\"></span>Calling</span><span class=\"kkar\">حَرْفُ النِّدَاءِ</span></div><div class=\"kkd\"><bdi class=\"ab\">يَا</bdi></div></div></div>"
+  },
+  {
+   "i": 5,
+   "t": "h2",
+   "chapter": 2,
+   "data": {
+    "t": "h2",
+    "text": "The jarr ḥarfs (حُرُوفُ الجَرِّ)"
+   },
+   "html": "<h2><span class=\"num\">2</span>The jarr ḥarfs (حُرُوفُ الجَرِّ)</h2>"
+  },
+  {
+   "i": 6,
+   "t": "p",
+   "chapter": 2,
+   "data": {
+    "t": "p",
+    "text": "You know four of them from Stage 1. Here are nine. The noun after each one is jarr."
+   },
+   "html": "<p class=\"s0p\">You know four of them from Stage 1. Here are nine. The noun after each one is jarr.</p>"
+  },
+  {
+   "i": 7,
+   "t": "table",
+   "chapter": 2,
+   "data": {
+    "t": "table",
+    "head": [
+     "Ḥarf",
+     "Meaning",
+     "Example"
+    ],
+    "rows": [
+     [
+      "مِنْ",
+      "from",
+      "خَرَجَ مِنَ البَيْتِ."
+     ],
+     [
+      "إِلَى",
+      "to",
+      "ذَهَبَ إِلَى المَسْجِدِ."
+     ],
+     [
+      "عَنْ",
+      "about, away from",
+      "الدَّرْسُ عَنِ القَمَرِ."
+     ],
+     [
+      "عَلَى",
+      "on",
+      "الكِتَابُ عَلَى المَكْتَبِ."
+     ],
+     [
+      "فِي",
+      "in",
+      "الطَّالِبُ فِي الفَصْلِ."
+     ],
+     [
+      "بِـ",
+      "with, by",
+      "كَتَبْتُ بِالقَلَمِ."
+     ],
+     [
+      "لِـ",
+      "for, belongs to",
+      "الكِتَابُ لِمُحَمَّدٍ."
+     ],
+     [
+      "كَـ",
+      "like",
+      "البِنْتُ كَالقَمَرِ."
+     ],
+     [
+      "حَتَّى",
+      "until",
+      "جَلَسْتُ فِي المَسْجِدِ حَتَّى الظُّهْرِ."
+     ]
+    ]
+   },
+   "html": "<div class=\"tblwrap\"><table class=\"glance s0t\"><tr><th>Ḥarf</th><th>Meaning</th><th>Example</th></tr><tr><td class=\"tar\">مِنْ</td><td class=\"\">from</td><td class=\"tar\">خَرَجَ مِنَ البَيْتِ.</td></tr><tr><td class=\"tar\">إِلَى</td><td class=\"\">to</td><td class=\"tar\">ذَهَبَ إِلَى المَسْجِدِ.</td></tr><tr><td class=\"tar\">عَنْ</td><td class=\"\">about, away from</td><td class=\"tar\">الدَّرْسُ عَنِ القَمَرِ.</td></tr><tr><td class=\"tar\">عَلَى</td><td class=\"\">on</td><td class=\"tar\">الكِتَابُ عَلَى المَكْتَبِ.</td></tr><tr><td class=\"tar\">فِي</td><td class=\"\">in</td><td class=\"tar\">الطَّالِبُ فِي الفَصْلِ.</td></tr><tr><td class=\"tar\">بِـ</td><td class=\"\">with, by</td><td class=\"tar\">كَتَبْتُ بِالقَلَمِ.</td></tr><tr><td class=\"tar\">لِـ</td><td class=\"\">for, belongs to</td><td class=\"tar\">الكِتَابُ لِمُحَمَّدٍ.</td></tr><tr><td class=\"tar\">كَـ</td><td class=\"\">like</td><td class=\"tar\">البِنْتُ كَالقَمَرِ.</td></tr><tr><td class=\"tar\">حَتَّى</td><td class=\"\">until</td><td class=\"tar\">جَلَسْتُ فِي المَسْجِدِ حَتَّى الظُّهْرِ.</td></tr></table></div>"
+  },
+  {
+   "i": 8,
+   "t": "rule",
+   "chapter": 2,
+   "data": {
+    "t": "rule",
+    "color": "green",
+    "title": "Two small changes before ال",
+    "text": "{مِنْ} becomes {مِنَ}: {مِنَ البَيْتِ}. {عَنْ} becomes {عَنِ}: {عَنِ القَمَرِ}."
+   },
+   "html": "<div class=\"rbox\" style=\"border-color:#22a05a;background:#e2f5e9\"><b style=\"color:#17803f\">Two small changes before ال.</b> <bdi class=\"ab\">مِنْ</bdi> becomes <bdi class=\"ab\">مِنَ</bdi>: <bdi class=\"ab\">مِنَ البَيْتِ</bdi>. <bdi class=\"ab\">عَنْ</bdi> becomes <bdi class=\"ab\">عَنِ</bdi>: <bdi class=\"ab\">عَنِ القَمَرِ</bdi>.</div>"
+  },
+  {
+   "i": 9,
+   "t": "tip",
+   "chapter": 2,
+   "data": {
+    "t": "tip",
+    "text": "{بِـ}، {لِـ}، {كَـ} are written joined to the next word. With {ال}, {لِـ} drops the alif: {لِلمُدَرِّسِ}."
+   },
+   "html": "<div class=\"tipbox\"><b>Tip:</b> <bdi class=\"ab\">بِـ</bdi>، <bdi class=\"ab\">لِـ</bdi>، <bdi class=\"ab\">كَـ</bdi> are written joined to the next word. With <bdi class=\"ab\">ال</bdi>, <bdi class=\"ab\">لِـ</bdi> drops the alif: <bdi class=\"ab\">لِلمُدَرِّسِ</bdi>.</div>"
+  },
+  {
+   "i": 10,
+   "t": "h2",
+   "chapter": 3,
+   "data": {
+    "t": "h2",
+    "text": "The joining ḥarfs (حُرُوفُ العَطْفِ)"
+   },
+   "html": "<h2><span class=\"num\">3</span>The joining ḥarfs (حُرُوفُ العَطْفِ)</h2>"
+  },
+  {
+   "i": 11,
+   "t": "p",
+   "chapter": 3,
+   "data": {
+    "t": "p",
+    "text": "They join a word to the word before it. The rule from Stage 1 stays: the word after them copies the ending of the word before."
+   },
+   "html": "<p class=\"s0p\">They join a word to the word before it. The rule from Stage 1 stays: the word after them copies the ending of the word before.</p>"
+  },
+  {
+   "i": 12,
+   "t": "table",
+   "chapter": 3,
+   "data": {
+    "t": "table",
+    "head": [
+     "Ḥarf",
+     "Meaning",
+     "Example"
+    ],
+    "rows": [
+     [
+      "وَ",
+      "and",
+      "الكِتَابُ وَالقَلَمُ عَلَى المَكْتَبِ."
+     ],
+     [
+      "فَ",
+      "and right after",
+      "دَخَلَ مُحَمَّدٌ فَخَالِدٌ."
+     ],
+     [
+      "ثُمَّ",
+      "then, after a while",
+      "خَرَجَ حَامِدٌ ثُمَّ يَاسِرٌ."
+     ],
+     [
+      "أَوْ",
+      "or",
+      "اِشْرَبِ المَاءَ أَوِ اللَّبَنَ."
+     ],
+     [
+      "بَلْ",
+      "no, rather (a correction)",
+      "هَذَا كِتَابٌ بَلْ دَفْتَرٌ."
+     ]
+    ]
+   },
+   "html": "<div class=\"tblwrap\"><table class=\"glance s0t\"><tr><th>Ḥarf</th><th>Meaning</th><th>Example</th></tr><tr><td class=\"tar\">وَ</td><td class=\"\">and</td><td class=\"tar\">الكِتَابُ وَالقَلَمُ عَلَى المَكْتَبِ.</td></tr><tr><td class=\"tar\">فَ</td><td class=\"\">and right after</td><td class=\"tar\">دَخَلَ مُحَمَّدٌ فَخَالِدٌ.</td></tr><tr><td class=\"tar\">ثُمَّ</td><td class=\"\">then, after a while</td><td class=\"tar\">خَرَجَ حَامِدٌ ثُمَّ يَاسِرٌ.</td></tr><tr><td class=\"tar\">أَوْ</td><td class=\"\">or</td><td class=\"tar\">اِشْرَبِ المَاءَ أَوِ اللَّبَنَ.</td></tr><tr><td class=\"tar\">بَلْ</td><td class=\"\">no, rather (a correction)</td><td class=\"tar\">هَذَا كِتَابٌ بَلْ دَفْتَرٌ.</td></tr></table></div>"
+  },
+  {
+   "i": 13,
+   "t": "examples",
+   "chapter": 3,
+   "data": {
+    "t": "examples",
+    "items": [
+     {
+      "ar": "دَخَلَ مُحَمَّدٌ فَخَالِدٌ.",
+      "en": "Muhammad came in, and Khalid right after him.",
+      "note": "{خَالِدٌ} copies the damma of {مُحَمَّدٌ}."
+     },
+     {
+      "ar": "اِشْرَبِ المَاءَ أَوِ اللَّبَنَ.",
+      "en": "Drink the water or the milk.",
+      "note": "{اللَّبَنَ} copies the fatha of {المَاءَ}. {أَوْ} takes a helping kasra before {ال}."
+     }
+    ]
+   },
+   "html": "<div class=\"exlist\"><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">دَخَلَ مُحَمَّدٌ فَخَالِدٌ.</div><div class=\"exe\">Muhammad came in, and Khalid right after him.<div class=\"exn\"><bdi class=\"ab\">خَالِدٌ</bdi> copies the damma of <bdi class=\"ab\">مُحَمَّدٌ</bdi>.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">اِشْرَبِ المَاءَ أَوِ اللَّبَنَ.</div><div class=\"exe\">Drink the water or the milk.<div class=\"exn\"><bdi class=\"ab\">اللَّبَنَ</bdi> copies the fatha of <bdi class=\"ab\">المَاءَ</bdi>. <bdi class=\"ab\">أَوْ</bdi> takes a helping kasra before <bdi class=\"ab\">ال</bdi>.</div></div></div></div>"
+  },
+  {
+   "i": 14,
+   "t": "h2",
+   "chapter": 4,
+   "data": {
+    "t": "h2",
+    "text": "The answer ḥarfs (حُرُوفُ الجَوَابِ)"
+   },
+   "html": "<h2><span class=\"num\">4</span>The answer ḥarfs (حُرُوفُ الجَوَابِ)</h2>"
+  },
+  {
+   "i": 15,
+   "t": "table",
+   "chapter": 4,
+   "data": {
+    "t": "table",
+    "head": [
+     "Ḥarf",
+     "Meaning",
+     "Example"
+    ],
+    "rows": [
+     [
+      "نَعَمْ",
+      "yes",
+      "أَهَذَا بَيْتٌ؟ نَعَمْ، هَذَا بَيْتٌ."
+     ],
+     [
+      "لَا",
+      "no",
+      "أَهَذَا بَيْتٌ؟ لَا، هَذَا مَسْجِدٌ."
+     ],
+     [
+      "بَلَى",
+      "yes (to a \"not\" question)",
+      "أَمَا ذَهَبْتَ إِلَى المَسْجِدِ؟ بَلَى، ذَهَبْتُ."
+     ]
+    ]
+   },
+   "html": "<div class=\"tblwrap\"><table class=\"glance s0t\"><tr><th>Ḥarf</th><th>Meaning</th><th>Example</th></tr><tr><td class=\"tar\">نَعَمْ</td><td class=\"\">yes</td><td class=\"tar\">أَهَذَا بَيْتٌ؟ نَعَمْ، هَذَا بَيْتٌ.</td></tr><tr><td class=\"tar\">لَا</td><td class=\"\">no</td><td class=\"tar\">أَهَذَا بَيْتٌ؟ لَا، هَذَا مَسْجِدٌ.</td></tr><tr><td class=\"tar\">بَلَى</td><td class=\"\">yes (to a &quot;not&quot; question)</td><td class=\"tar\">أَمَا ذَهَبْتَ إِلَى المَسْجِدِ؟ بَلَى، ذَهَبْتُ.</td></tr></table></div>"
+  },
+  {
+   "i": 16,
+   "t": "rule",
+   "chapter": 4,
+   "data": {
+    "t": "rule",
+    "color": "olive",
+    "title": "When to use بَلَى",
+    "text": "Use {بَلَى} when the question has \"not\" in it and your answer is yes. \"Didn't you go?\" {بَلَى}: \"Yes, I did.\""
+   },
+   "html": "<div class=\"rbox\" style=\"border-color:#6b8e23;background:#edf4dc\"><b style=\"color:#4c6810\">When to use بَلَى.</b> Use <bdi class=\"ab\">بَلَى</bdi> when the question has &quot;not&quot; in it and your answer is yes. &quot;Didn&#x27;t you go?&quot; <bdi class=\"ab\">بَلَى</bdi>: &quot;Yes, I did.&quot;</div>"
+  },
+  {
+   "i": 17,
+   "t": "tip",
+   "chapter": 4,
+   "data": {
+    "t": "tip",
+    "text": "In {أَمَا ذَهَبْتَ؟} the {مَا} is the \"did not\" ḥarf from unit 6: {مَا ذَهَبْتَ} \"you did not go\". Add the question ḥarf {أَ}: {أَ} + {مَا} + {ذَهَبْتَ} = \"Didn't you go?\""
+   },
+   "html": "<div class=\"tipbox\"><b>Tip:</b> In <bdi class=\"ab\">أَمَا ذَهَبْتَ؟</bdi> the <bdi class=\"ab\">مَا</bdi> is the &quot;did not&quot; ḥarf from unit 6: <bdi class=\"ab\">مَا ذَهَبْتَ</bdi> &quot;you did not go&quot;. Add the question ḥarf <bdi class=\"ab\">أَ</bdi>: <bdi class=\"ab\">أَ</bdi> + <bdi class=\"ab\">مَا</bdi> + <bdi class=\"ab\">ذَهَبْتَ</bdi> = &quot;Didn&#x27;t you go?&quot;</div>"
+  },
+  {
+   "i": 18,
+   "t": "h2",
+   "chapter": 5,
+   "data": {
+    "t": "h2",
+    "text": "The question ḥarfs (هَلْ and أَ)"
+   },
+   "html": "<h2><span class=\"num\">5</span>The question ḥarfs (هَلْ and أَ)</h2>"
+  },
+  {
+   "i": 19,
+   "t": "p",
+   "chapter": 5,
+   "data": {
+    "t": "p",
+    "text": "You met them in unit 5. They make a yes/no question. They are ḥarfs, so they have no place. The question words {مَنْ}، {مَا}، {أَيْنَ} are isms and do have a place."
+   },
+   "html": "<p class=\"s0p\">You met them in unit 5. They make a yes/no question. They are ḥarfs, so they have no place. The question words <bdi class=\"ab\">مَنْ</bdi>، <bdi class=\"ab\">مَا</bdi>، <bdi class=\"ab\">أَيْنَ</bdi> are isms and do have a place.</p>"
+  },
+  {
+   "i": 20,
+   "t": "table",
+   "chapter": 5,
+   "data": {
+    "t": "table",
+    "head": [
+     "Ḥarf",
+     "Meaning",
+     "Example"
+    ],
+    "rows": [
+     [
+      "هَلْ",
+      "yes/no question",
+      "هَلْ ذَهَبَ مُحَمَّدٌ إِلَى السُّوقِ؟"
+     ],
+     [
+      "أَ",
+      "yes/no question (joined)",
+      "أَهَذَا بَيْتٌ؟"
+     ]
+    ]
+   },
+   "html": "<div class=\"tblwrap\"><table class=\"glance s0t\"><tr><th>Ḥarf</th><th>Meaning</th><th>Example</th></tr><tr><td class=\"tar\">هَلْ</td><td class=\"\">yes/no question</td><td class=\"tar\">هَلْ ذَهَبَ مُحَمَّدٌ إِلَى السُّوقِ؟</td></tr><tr><td class=\"tar\">أَ</td><td class=\"\">yes/no question (joined)</td><td class=\"tar\">أَهَذَا بَيْتٌ؟</td></tr></table></div>"
+  },
+  {
+   "i": 21,
+   "t": "h2",
+   "chapter": 6,
+   "data": {
+    "t": "h2",
+    "text": "The calling ḥarf يَا"
+   },
+   "html": "<h2><span class=\"num\">6</span>The calling ḥarf يَا</h2>"
+  },
+  {
+   "i": 22,
+   "t": "p",
+   "chapter": 6,
+   "data": {
+    "t": "p",
+    "text": "Use {يَا} to call someone. After {يَا} a name, or a single noun for the person you call, takes one damma. It never takes tanween. This damma is fixed. The called word is in the place of naṣb ({فِي مَحَلِّ نَصْبٍ})."
+   },
+   "html": "<p class=\"s0p\">Use <bdi class=\"ab\">يَا</bdi> to call someone. After <bdi class=\"ab\">يَا</bdi> a name, or a single noun for the person you call, takes one damma. It never takes tanween. This damma is fixed. The called word is in the place of naṣb (<bdi class=\"ab\">فِي مَحَلِّ نَصْبٍ</bdi>).</p>"
+  },
+  {
+   "i": 23,
+   "t": "table",
+   "chapter": 6,
+   "data": {
+    "t": "table",
+    "head": [
+     "Noun",
+     "Calling",
+     "Meaning"
+    ],
+    "rows": [
+     [
+      "مُحَمَّدٌ",
+      "يَا مُحَمَّدُ",
+      "O Muhammad"
+     ],
+     [
+      "عَلِيٌّ",
+      "يَا عَلِيُّ",
+      "O Ali"
+     ],
+     [
+      "آمِنَةُ",
+      "يَا آمِنَةُ",
+      "O Aminah"
+     ],
+     [
+      "وَلَدٌ",
+      "يَا وَلَدُ",
+      "O boy"
+     ],
+     [
+      "أُسْتَاذٌ",
+      "يَا أُسْتَاذُ",
+      "O teacher"
+     ]
+    ]
+   },
+   "html": "<div class=\"tblwrap\"><table class=\"glance s0t\"><tr><th>Noun</th><th>Calling</th><th>Meaning</th></tr><tr><td class=\"tar\">مُحَمَّدٌ</td><td class=\"tar\">يَا مُحَمَّدُ</td><td class=\"\">O Muhammad</td></tr><tr><td class=\"tar\">عَلِيٌّ</td><td class=\"tar\">يَا عَلِيُّ</td><td class=\"\">O Ali</td></tr><tr><td class=\"tar\">آمِنَةُ</td><td class=\"tar\">يَا آمِنَةُ</td><td class=\"\">O Aminah</td></tr><tr><td class=\"tar\">وَلَدٌ</td><td class=\"tar\">يَا وَلَدُ</td><td class=\"\">O boy</td></tr><tr><td class=\"tar\">أُسْتَاذٌ</td><td class=\"tar\">يَا أُسْتَاذُ</td><td class=\"\">O teacher</td></tr></table></div>"
+  },
+  {
+   "i": 24,
+   "t": "tip",
+   "chapter": 6,
+   "data": {
+    "t": "tip",
+    "text": "This is the same as Madinah lesson 5: {يَا بِلَالُ}، {يَا شَيْخُ}."
+   },
+   "html": "<div class=\"tipbox\"><b>Tip:</b> This is the same as Madinah lesson 5: <bdi class=\"ab\">يَا بِلَالُ</bdi>، <bdi class=\"ab\">يَا شَيْخُ</bdi>.</div>"
+  },
+  {
+   "i": 25,
+   "t": "h2",
+   "chapter": 7,
+   "data": {
+    "t": "h2",
+    "text": "Ḥarf or ism? Look-alikes"
+   },
+   "html": "<h2><span class=\"num\">7</span>Ḥarf or ism? Look-alikes</h2>"
+  },
+  {
+   "i": 26,
+   "t": "p",
+   "chapter": 7,
+   "data": {
+    "t": "p",
+    "text": "Some ḥarfs look like isms, and some short question words are isms. Read the vowels carefully."
+   },
+   "html": "<p class=\"s0p\">Some ḥarfs look like isms, and some short question words are isms. Read the vowels carefully.</p>"
+  },
+  {
+   "i": 27,
+   "t": "table",
+   "chapter": 7,
+   "data": {
+    "t": "table",
+    "head": [
+     "Ḥarf",
+     "Ism"
+    ],
+    "rows": [
+     [
+      "{مِنْ} from",
+      "{مَنْ} who"
+     ],
+     [
+      "{عَلَى} on",
+      "{عَلِيٌّ} Ali (a name)"
+     ],
+     [
+      "{هَلْ} yes/no question",
+      "{أَيْنَ} where"
+     ],
+     [
+      "{كَـ} like",
+      "{كَمْ} how many"
+     ]
+    ]
+   },
+   "html": "<div class=\"tblwrap\"><table class=\"glance s0t\"><tr><th>Ḥarf</th><th>Ism</th></tr><tr><td class=\"\"><bdi class=\"ab\">مِنْ</bdi> from</td><td class=\"\"><bdi class=\"ab\">مَنْ</bdi> who</td></tr><tr><td class=\"\"><bdi class=\"ab\">عَلَى</bdi> on</td><td class=\"\"><bdi class=\"ab\">عَلِيٌّ</bdi> Ali (a name)</td></tr><tr><td class=\"\"><bdi class=\"ab\">هَلْ</bdi> yes/no question</td><td class=\"\"><bdi class=\"ab\">أَيْنَ</bdi> where</td></tr><tr><td class=\"\"><bdi class=\"ab\">كَـ</bdi> like</td><td class=\"\"><bdi class=\"ab\">كَمْ</bdi> how many</td></tr></table></div>"
+  },
+  {
+   "i": 28,
+   "t": "summary",
+   "chapter": 7,
+   "data": {
+    "t": "summary",
+    "title": "In short",
+    "items": [
+     "Every ḥarf is fixed and has no place: {لَا مَحَلَّ لَهُ مِنَ الإِعْرَابِ}.",
+     "Jarr: {مِنْ} {إِلَى} {عَنْ} {عَلَى} {فِي} {بِـ} {لِـ} {كَـ} {حَتَّى}. The next noun is jarr.",
+     "Joining: {وَ} {فَ} {ثُمَّ} {أَوْ} {بَلْ}. The next word copies the one before.",
+     "Answer: {نَعَمْ} {لَا} {بَلَى}. {بَلَى} answers a \"not\" question.",
+     "Question: {هَلْ} {أَ}. Calling: {يَا}, then one damma: {يَا مُحَمَّدُ}."
+    ]
+   },
+   "html": "<div class=\"three\"><h3>In short</h3><ol><li>Every ḥarf is fixed and has no place: <bdi class=\"ab\">لَا مَحَلَّ لَهُ مِنَ الإِعْرَابِ</bdi>.</li><li>Jarr: <bdi class=\"ab\">مِنْ</bdi> <bdi class=\"ab\">إِلَى</bdi> <bdi class=\"ab\">عَنْ</bdi> <bdi class=\"ab\">عَلَى</bdi> <bdi class=\"ab\">فِي</bdi> <bdi class=\"ab\">بِـ</bdi> <bdi class=\"ab\">لِـ</bdi> <bdi class=\"ab\">كَـ</bdi> <bdi class=\"ab\">حَتَّى</bdi>. The next noun is jarr.</li><li>Joining: <bdi class=\"ab\">وَ</bdi> <bdi class=\"ab\">فَ</bdi> <bdi class=\"ab\">ثُمَّ</bdi> <bdi class=\"ab\">أَوْ</bdi> <bdi class=\"ab\">بَلْ</bdi>. The next word copies the one before.</li><li>Answer: <bdi class=\"ab\">نَعَمْ</bdi> <bdi class=\"ab\">لَا</bdi> <bdi class=\"ab\">بَلَى</bdi>. <bdi class=\"ab\">بَلَى</bdi> answers a &quot;not&quot; question.</li><li>Question: <bdi class=\"ab\">هَلْ</bdi> <bdi class=\"ab\">أَ</bdi>. Calling: <bdi class=\"ab\">يَا</bdi>, then one damma: <bdi class=\"ab\">يَا مُحَمَّدُ</bdi>.</li></ol></div>"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "hero",
+   "kind": "hero",
+   "blocks": [
+    0
+   ]
+  },
+  {
+   "id": "c01-title",
+   "kind": "chapter",
+   "chapter": 1,
+   "blocks": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "c01-rule",
+   "kind": "rule",
+   "chapter": 1,
+   "blocks": [
+    3
+   ]
+  },
+  {
+   "id": "c01-cols",
+   "kind": "cols",
+   "chapter": 1,
+   "blocks": [
+    4
+   ]
+  },
+  {
+   "id": "c02-title",
+   "kind": "chapter",
+   "chapter": 2,
+   "blocks": [
+    5,
+    6
+   ]
+  },
+  {
+   "id": "c02-table",
+   "kind": "table",
+   "chapter": 2,
+   "blocks": [
+    7
+   ]
+  },
+  {
+   "id": "c02-rule",
+   "kind": "rule",
+   "chapter": 2,
+   "blocks": [
+    8
+   ]
+  },
+  {
+   "id": "c02-tip",
+   "kind": "tip",
+   "chapter": 2,
+   "blocks": [
+    9
+   ]
+  },
+  {
+   "id": "c03-title",
+   "kind": "chapter",
+   "chapter": 3,
+   "blocks": [
+    10,
+    11
+   ]
+  },
+  {
+   "id": "c03-table",
+   "kind": "table",
+   "chapter": 3,
+   "blocks": [
+    12
+   ]
+  },
+  {
+   "id": "c03-examples",
+   "kind": "examples",
+   "chapter": 3,
+   "blocks": [
+    13
+   ]
+  },
+  {
+   "id": "c04-title",
+   "kind": "chapter",
+   "chapter": 4,
+   "blocks": [
+    14
+   ]
+  },
+  {
+   "id": "c04-table",
+   "kind": "table",
+   "chapter": 4,
+   "blocks": [
+    15
+   ]
+  },
+  {
+   "id": "c04-rule",
+   "kind": "rule",
+   "chapter": 4,
+   "blocks": [
+    16
+   ]
+  },
+  {
+   "id": "c04-tip",
+   "kind": "tip",
+   "chapter": 4,
+   "blocks": [
+    17
+   ]
+  },
+  {
+   "id": "c05-title",
+   "kind": "chapter",
+   "chapter": 5,
+   "blocks": [
+    18,
+    19
+   ]
+  },
+  {
+   "id": "c05-table",
+   "kind": "table",
+   "chapter": 5,
+   "blocks": [
+    20
+   ]
+  },
+  {
+   "id": "c06-title",
+   "kind": "chapter",
+   "chapter": 6,
+   "blocks": [
+    21,
+    22
+   ]
+  },
+  {
+   "id": "c06-table",
+   "kind": "table",
+   "chapter": 6,
+   "blocks": [
+    23
+   ]
+  },
+  {
+   "id": "c06-tip",
+   "kind": "tip",
+   "chapter": 6,
+   "blocks": [
+    24
+   ]
+  },
+  {
+   "id": "c07-title",
+   "kind": "chapter",
+   "chapter": 7,
+   "blocks": [
+    25,
+    26
+   ]
+  },
+  {
+   "id": "c07-table",
+   "kind": "table",
+   "chapter": 7,
+   "blocks": [
+    27
+   ]
+  },
+  {
+   "id": "summary",
+   "kind": "summary",
+   "chapter": 7,
+   "blocks": [
+    28
+   ]
+  }
+ ]
+}

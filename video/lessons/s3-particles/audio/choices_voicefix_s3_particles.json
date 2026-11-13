@@ -1,0 +1,56 @@
+{
+ "c03-table-12": {
+  "input": "اِشْرَبِ المَاءَ أَوِلَّبَنَ",
+  "attempt": [
+   "!",
+   0.75,
+   7
+  ],
+  "phonemes": "ʔ ʃ ɹ a b i a l m aː ʔ a ʔ a w i l aː b a n a"
+ },
+ "c03-examples-07": {
+  "input": "اِشْرَبِ المَاءَ أَوِلَّبَنَ",
+  "attempt": [
+   "!",
+   0.75,
+   7
+  ],
+  "phonemes": "ʔ ʃ ɹ a b i a l m aː ʔ a ʔ a w i l aː b a n a"
+ },
+ "c04-table-14": {
+  "input": "أَمَا ذَهَبْتَ إِلَى المَسْجِدِ؟",
+  "attempt": [
+   "!",
+   0.7,
+   1
+  ],
+  "phonemes": "a m a ð a h a b t a i l a a l m a s dʒ i d i"
+ },
+ "c04-tip-02": {
+  "input": "أَمَا ذَهَبْتَ؟",
+  "attempt": [
+   "!",
+   0.7999999999999999,
+   8
+  ],
+  "phonemes": "a m a ð a h a b t a"
+ },
+ "c04-tip-09": {
+  "input": "أَمَا ذَهَبْتَ؟",
+  "attempt": [
+   "!",
+   0.7999999999999999,
+   8
+  ],
+  "phonemes": "a m a ð a h a b t a"
+ },
+ "c03-examples-14": {
+  "input": "أَوِلَّبَنَ",
+  "attempt": [
+   "!",
+   0.75,
+   10
+  ],
+  "phonemes": "a w i l aː b a n a"
+ }
+}

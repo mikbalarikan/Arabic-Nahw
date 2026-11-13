@@ -402,5 +402,50 @@
     "title": "In short"
    }
   ]
+ },
+ "s3-particles": {
+  "src": "media/s3-particles/s3-particles.mp4",
+  "hls": "media/s3-particles/hls-b57dc7a9/index.m3u8",
+  "poster": "media/s3-particles/s3-particles.jpg",
+  "captions": "media/s3-particles/s3-particles.vtt",
+  "duration": 481,
+  "chapters": [
+   {
+    "t": 0,
+    "title": "Introduction"
+   },
+   {
+    "t": 14,
+    "title": "1 Every ḥarf is fixed, with no place"
+   },
+   {
+    "t": 57,
+    "title": "2 The jarr ḥarfs (حُرُوفُ الجَرِّ)"
+   },
+   {
+    "t": 171,
+    "title": "3 The joining ḥarfs (حُرُوفُ العَطْفِ)"
+   },
+   {
+    "t": 260,
+    "title": "4 The answer ḥarfs (حُرُوفُ الجَوَابِ)"
+   },
+   {
+    "t": 321,
+    "title": "5 The question ḥarfs (هَلْ and أَ)"
+   },
+   {
+    "t": 352,
+    "title": "6 The calling ḥarf يَا"
+   },
+   {
+    "t": 410,
+    "title": "7 Ḥarf or ism? Look-alikes"
+   },
+   {
+    "t": 450,
+    "title": "In short"
+   }
+  ]
  }
 }

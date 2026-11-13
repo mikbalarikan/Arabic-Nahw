@@ -1,0 +1,21 @@
+{"segments": [
+ {"id": "hero-01", "scene": "hero", "lang": "en", "text": "Stage three, unit seven. Small words, big work.", "pause": 0.4, "cues": ["title"]},
+ {"id": "hero-02", "scene": "hero", "lang": "en", "text": "This unit is about particles. Each one is called a ḥarf.", "pause": 0.4, "cues": []},
+ {"id": "hero-03", "scene": "hero", "lang": "ar", "text": "الحُرُوفُ", "pause": 0.5, "cues": ["wm"]},
+ {"id": "hero-04", "scene": "hero", "lang": "en", "text": "A ḥarf never changes, and it has no iʿrāb place.", "pause": 0.3, "cues": ["sub"]},
+ {"id": "hero-05", "scene": "hero", "lang": "en", "text": "Its job is to work on the words around it.", "pause": 0.7, "cues": []},
+ {"id": "c01-title-01", "scene": "c01-title", "lang": "en", "text": "Chapter one. Every ḥarf is fixed, with no place.", "pause": 0.5, "cues": ["title"]},
+ {"id": "c01-title-02", "scene": "c01-title", "lang": "en", "text": "Pronouns, pointing words and question isms are fixed.", "pause": 0.25, "cues": ["sub"]},
+ {"id": "c01-title-03", "scene": "c01-title", "lang": "en", "text": "But they still have a place. Rafʿ, naṣb or jarr.", "pause": 0.4, "cues": []},
+ {"id": "c01-title-04", "scene": "c01-title", "lang": "en", "text": "A ḥarf is different. It is fixed, and it has no place at all.", "pause": 0.7, "cues": ["hl:It is fixed and it has no place at all."]},
+ {"id": "c01-rule-01", "scene": "c01-rule", "lang": "en", "text": "Here is the phrase we use for a ḥarf.", "pause": 0.4, "cues": ["show"]},
+ {"id": "c01-rule-02", "scene": "c01-rule", "lang": "ar", "text": "حَرْفٌ مَبْنِيٌّ لَا مَحَلَّ لَهُ مِنَ الإِعْرَابِ", "pause": 0.6, "cues": ["hl:حَرْفٌ مَبْنِيٌّ لَا مَحَلَّ لَهُ مِنَ الإِعْرَابِ"]},
+ {"id": "c01-rule-03", "scene": "c01-rule", "lang": "en", "text": "A fixed ḥarf with no place in iʿrāb.", "pause": 0.7, "cues": ["hl:A fixed ḥarf with no place in iʿrāb."]},
+ {"id": "c01-cols-01", "scene": "c01-cols", "lang": "en", "text": "This unit has five groups of ḥarfs.", "pause": 0.4, "cues": []},
+ {"id": "c01-cols-02", "scene": "c01-cols", "lang": "en", "text": "First, the jarr ḥarfs, such as from, to and in.", "pause": 0.3, "cues": ["col:1"]},
+ {"id": "c01-cols-03", "scene": "c01-cols", "lang": "en", "text": "The joining ḥarfs, like wa, which means and.", "pause": 0.3, "cues": ["col:2"]},
+ {"id": "c01-cols-04", "scene": "c01-cols", "lang": "en", "text": "The answer ḥarfs, for yes and no.", "pause": 0.3, "cues": ["col:3"]},
+ {"id": "c01-cols-05", "scene": "c01-cols", "lang": "en", "text": "The question ḥarfs, for a yes or no question.", "pause": 0.3, "cues": ["col:4"]},
+ {"id": "c01-cols-06", "scene": "c01-cols", "lang": "en", "text": "And the calling ḥarf, to call someone.", "pause": 0.4, "cues": ["col:5"]},
+ {"id": "c01-cols-07", "scene": "c01-cols", "lang": "en", "text": "Let us take them one by one.", "pause": 0.8, "cues": []}
+]}

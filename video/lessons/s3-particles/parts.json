@@ -1,0 +1,7 @@
+[
+ ["p01-intro", ["hero", "c01-"]],
+ ["p02-jarr", ["c02-"]],
+ ["p03-joining", ["c03-"]],
+ ["p04-answer-question", ["c04-", "c05-"]],
+ ["p05-calling-lookalikes", ["c06-", "c07-", "summary"]]
+]
