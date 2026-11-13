@@ -346,15 +346,53 @@ function videoCard(d) {
   return `<details class="vid"${open ? " open" : ""}><summary><span class="vid-play" aria-hidden="true">▶</span>
     <span class="vid-t"><b>Watch this lesson as a video</b><span>${fmtTime(v.duration)} · the same notes, explained step by step · subtitles</span></span></summary>
     <div class="vid-body"><video controls playsinline preload="none" poster="${esc(v.poster)}">
-      <source src="${esc(v.src)}" type="video/mp4"><track kind="captions" src="${esc(v.captions)}" srclang="en" label="English"></video>
-    <div class="vid-ch" aria-label="Chapters">${v.chapters.map(c => `<button type="button" class="vid-c" data-t="${c.t}"><span>${fmtTime(c.t)}</span>${esc(c.title)}</button>`).join("")}</div></div></details>`;
+      <track kind="captions" src="${esc(v.captions)}" srclang="en" label="English"></video>
+    <div class="vid-ch" aria-label="Chapters">${v.chapters.map(c => `<button type="button" class="vid-c" data-t="${c.t}"><span>${fmtTime(c.t)}</span>${esc(c.title)}</button>`).join("")}</div>
+    <a class="vid-dl" href="${esc(v.src)}" download>Download the video (MP4)</a></div></details>`;
+}
+// The site's host does not answer byte-range requests, so the player streams HLS segments:
+// Safari plays them natively, other browsers through hls.js (loaded only when a video is opened).
+const HLSJS = "https://cdn.jsdelivr.net/npm/hls.js@1.5.17/dist/hls.min.js";
+let hlsLib = null;
+function loadHls() {
+  return hlsLib ||= new Promise((ok, bad) => {
+    const s = document.createElement("script"); s.src = HLSJS; s.onload = () => ok(window.Hls); s.onerror = bad;
+    document.head.appendChild(s);
+  });
+}
+// Resolves once the video knows its duration, so chapter buttons can seek right away.
+function attachVideo(vid, v) {
+  if (vid._ready) return vid._ready;
+  vid.preload = "metadata";
+  const meta = new Promise(ok => vid.readyState >= 1 ? ok() : vid.addEventListener("loadedmetadata", ok, { once: true }));
+  const hasMSE = !!(window.MediaSource || window.ManagedMediaSource);
+  vid._ready = (async () => {
+    if (hasMSE) {
+      try {
+        const Hls = await loadHls();
+        if (Hls && Hls.isSupported()) { const h = new Hls({ maxBufferLength: 30 }); h.loadSource(v.hls); h.attachMedia(vid); await meta; return; }
+      } catch (_) {}
+    }
+    if (vid.canPlayType("application/vnd.apple.mpegurl")) vid.src = v.hls;   // iPhone / Safari without MSE
+    else vid.src = v.src;                                                     // last resort: MP4, seeking may not work
+    vid.load();
+    await meta;
+  })();
+  return vid._ready;
 }
 function wireVideo(d) {
   const box = app.querySelector("details.vid");
   if (!box) return;
   const vid = box.querySelector("video");
-  box.addEventListener("toggle", () => { store("iraab-video-open-" + d.id, box.open ? "1" : "0"); if (!box.open) vid.pause(); });
-  box.querySelectorAll(".vid-c").forEach(b => b.onclick = () => { vid.currentTime = +b.dataset.t; vid.play().catch(() => {}); });
+  if (box.open) attachVideo(vid, d.video);
+  box.addEventListener("toggle", () => {
+    store("iraab-video-open-" + d.id, box.open ? "1" : "0");
+    if (box.open) attachVideo(vid, d.video); else vid.pause();
+  });
+  box.querySelectorAll(".vid-c").forEach(b => b.onclick = async () => {
+    await attachVideo(vid, d.video);
+    vid.currentTime = +b.dataset.t; vid.play().catch(() => {});
+  });
   vid.addEventListener("timeupdate", () => {
     let cur = null;
     box.querySelectorAll(".vid-c").forEach(b => { if (+b.dataset.t <= vid.currentTime + 0.25) cur = b; });

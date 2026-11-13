@@ -6,8 +6,9 @@
   join     all parts -> video/out/<id>/<id>-1080p.mp4 (+ 720p), subtitles (.srt from the script,
            not from speech recognition), YouTube chapter list.
   web      the copy the course site serves: site/media/<id>/<id>.mp4 (720p, small enough for
-           Cloudflare Pages' 25 MiB file limit), <id>.vtt captions, <id>.jpg poster, and the lesson's
-           entry in site/media/videos.json (chapters for the player).
+           Cloudflare Pages' 25 MiB file limit; offered as a download), the same video as HLS
+           segments in site/media/<id>/hls-<hash>/ (what the player streams), <id>.vtt captions,
+           <id>.jpg poster, and the lesson's entry in site/media/videos.json (chapters for the player).
 
 Usage:
   python3 video/tools/make_video.py render [lesson_id] [--only part,part]
@@ -144,6 +145,18 @@ def web(lid):
          "-c:a", "aac", "-b:a", "64k", "-ac", "1", "-ar", "48000", "-movflags", "+faststart", mp4])
     if mp4.stat().st_size > PAGES_LIMIT * 0.95:
         sys.exit(f"{mp4} is {mp4.stat().st_size / 2**20:.1f} MiB, too close to the 25 MiB Pages limit")
+    # HLS copy for playback: Cloudflare Pages answers Range requests with the whole file (200), so a
+    # plain MP4 cannot seek and Safari may refuse it. Small HLS segments need no Range support.
+    # The folder name carries a hash of the MP4, so cached segments never go stale.
+    import hashlib, shutil
+    tag = hashlib.sha1(mp4.read_bytes()).hexdigest()[:8]
+    for old_dir in media.glob("hls-*"):
+        if old_dir.is_dir() and old_dir.name != f"hls-{tag}":
+            shutil.rmtree(old_dir)
+    hls = media / f"hls-{tag}"
+    hls.mkdir(exist_ok=True)
+    run(["ffmpeg", "-v", "error", "-y", "-i", mp4, "-c", "copy", "-f", "hls", "-hls_time", "10", "-hls_playlist_type", "vod",
+         "-hls_segment_filename", hls / "s%03d.ts", hls / "index.m3u8"])
     srt = (out / f"{lid}.srt").read_text(encoding="utf-8")
     vtt = "WEBVTT\n\n" + re.sub(r"(\d\d:\d\d:\d\d),(\d\d\d)", r"\1.\2", srt)
     (media / f"{lid}.vtt").write_text(vtt, encoding="utf-8")
@@ -157,7 +170,8 @@ def web(lid):
                                capture_output=True, text=True, check=True).stdout)
     reg_path = ROOT / "site" / "media" / "videos.json"
     reg = json.loads(reg_path.read_text(encoding="utf-8")) if reg_path.exists() else {}
-    reg[lid] = dict(src=f"media/{lid}/{lid}.mp4", poster=f"media/{lid}/{lid}.jpg", captions=f"media/{lid}/{lid}.vtt",
+    reg[lid] = dict(src=f"media/{lid}/{lid}.mp4", hls=f"media/{lid}/hls-{tag}/index.m3u8",
+                    poster=f"media/{lid}/{lid}.jpg", captions=f"media/{lid}/{lid}.vtt",
                     duration=round(dur), chapters=chapters)
     reg_path.write_text(json.dumps(reg, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"web: {mp4.relative_to(ROOT)} {mp4.stat().st_size / 2**20:.1f} MiB, {len(chapters)} chapters, {dur / 60:.1f} min")
