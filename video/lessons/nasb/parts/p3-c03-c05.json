@@ -1,0 +1,324 @@
+{
+ "segments": [
+  {
+   "id": "c03-title-01",
+   "scene": "c03-title",
+   "lang": "en",
+   "text": "Chapter three. The sign of naṣb: fatha.",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c03-title-02",
+   "scene": "c03-title",
+   "lang": "en",
+   "text": "It works just like damma and kasra. With al, or when owned, it takes one vowel. Otherwise, it takes tanween.",
+   "pause": 0.5,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c03-signs-01",
+   "scene": "c03-signs",
+   "lang": "en",
+   "text": "First card. With al, or when the word is owned, it takes one fatha only. No tanween.",
+   "pause": 0.4,
+   "cues": [
+    "sign:1"
+   ]
+  },
+  {
+   "id": "c03-signs-02",
+   "scene": "c03-signs",
+   "lang": "en",
+   "text": "With al, like the lesson.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c03-signs-03",
+   "scene": "c03-signs",
+   "lang": "ar",
+   "text": "الدَّرْسَ",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c03-signs-04",
+   "scene": "c03-signs",
+   "lang": "en",
+   "text": "Or owned, like the teacher's book.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c03-signs-05",
+   "scene": "c03-signs",
+   "lang": "ar",
+   "text": "كِتَابَ المُدَرِّسِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-signs-06",
+   "scene": "c03-signs",
+   "lang": "en",
+   "text": "Book is owned, so it takes one fatha.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c03-signs-07",
+   "scene": "c03-signs",
+   "lang": "en",
+   "text": "Second card. No al. Fatha with tanween, written with an extra alif.",
+   "pause": 0.4,
+   "cues": [
+    "sign:2"
+   ]
+  },
+  {
+   "id": "c03-signs-08",
+   "scene": "c03-signs",
+   "lang": "ar",
+   "text": "كِتَابًا",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c03-signs-09",
+   "scene": "c03-signs",
+   "lang": "ar",
+   "text": "صَبَاحًا",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c03-signs-10",
+   "scene": "c03-signs",
+   "lang": "en",
+   "text": "Third card. The exception.",
+   "pause": 0.3,
+   "cues": [
+    "sign:3"
+   ]
+  },
+  {
+   "id": "c03-signs-11",
+   "scene": "c03-signs",
+   "lang": "en",
+   "text": "Some words end in a round ta, or in alif and hamza. They still take fatha with tanween. But there is no extra alif.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-signs-12",
+   "scene": "c03-signs",
+   "lang": "ar",
+   "text": "رَغْبَةً",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c03-signs-13",
+   "scene": "c03-signs",
+   "lang": "ar",
+   "text": "مَسَاءً",
+   "pause": 0.7,
+   "cues": []
+  },
+  {
+   "id": "c04-title-01",
+   "scene": "c04-title",
+   "lang": "en",
+   "text": "Chapter four. Colour key: the new jobs.",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c04-title-02",
+   "scene": "c04-title",
+   "lang": "en",
+   "text": "A big box is the word's job in the sentence. A small box is a word with its own rule.",
+   "pause": 0.5,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c04-key-01",
+   "scene": "c04-key",
+   "lang": "en",
+   "text": "Navy is the verb. The action. Past and order verbs are fixed.",
+   "pause": 0.3,
+   "cues": [
+    "key:verb"
+   ]
+  },
+  {
+   "id": "c04-key-02",
+   "scene": "c04-key",
+   "lang": "en",
+   "text": "Orange is the doer. Who did the action? It takes rafʿ, with damma.",
+   "pause": 0.4,
+   "cues": [
+    "key:doer"
+   ]
+  },
+  {
+   "id": "c04-key-03",
+   "scene": "c04-key",
+   "lang": "en",
+   "text": "The four new jobs all take naṣb.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-key-04",
+   "scene": "c04-key",
+   "lang": "en",
+   "text": "Pink is the object. What? Whom? The thing the action falls on.",
+   "pause": 0.3,
+   "cues": [
+    "key:obj"
+   ]
+  },
+  {
+   "id": "c04-key-05",
+   "scene": "c04-key",
+   "lang": "en",
+   "text": "Teal is the purpose. Why? The reason for the action.",
+   "pause": 0.3,
+   "cues": [
+    "key:purp"
+   ]
+  },
+  {
+   "id": "c04-key-06",
+   "scene": "c04-key",
+   "lang": "en",
+   "text": "Brown is time or place. When? Where? With no preposition.",
+   "pause": 0.3,
+   "cues": [
+    "key:when"
+   ]
+  },
+  {
+   "id": "c04-key-07",
+   "scene": "c04-key",
+   "lang": "en",
+   "text": "Olive is the state. How? The state of the doer or object.",
+   "pause": 0.4,
+   "cues": [
+    "key:state"
+   ]
+  },
+  {
+   "id": "c04-key-08",
+   "scene": "c04-key",
+   "lang": "en",
+   "text": "The small boxes from last lesson still work. After a preposition. Ownership. Adjective. And after wa.",
+   "pause": 0.5,
+   "cues": [
+    "old"
+   ]
+  },
+  {
+   "id": "c05-title-01",
+   "scene": "c05-title",
+   "lang": "en",
+   "text": "Chapter five. The four naṣb jobs at a glance.",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c05-title-02",
+   "scene": "c05-title",
+   "lang": "en",
+   "text": "Find the verb and the doer. For every other noun, ask the question. The one it answers is its job.",
+   "pause": 0.5,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c05-glance-01",
+   "scene": "c05-glance",
+   "lang": "en",
+   "text": "Object. What? Whom? The thing the action falls on. The student wrote the lesson.",
+   "pause": 0.4,
+   "cues": [
+    "row:obj"
+   ]
+  },
+  {
+   "id": "c05-glance-02",
+   "scene": "c05-glance",
+   "lang": "ar",
+   "text": "كَتَبَ الطَّالِبُ الدَّرْسَ",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c05-glance-03",
+   "scene": "c05-glance",
+   "lang": "en",
+   "text": "Purpose. Why? The reason. Usually an action noun with tanween. The student stood up out of respect.",
+   "pause": 0.4,
+   "cues": [
+    "row:purp"
+   ]
+  },
+  {
+   "id": "c05-glance-04",
+   "scene": "c05-glance",
+   "lang": "ar",
+   "text": "وَقَفَ الطَّالِبُ احْتِرَامًا",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c05-glance-05",
+   "scene": "c05-glance",
+   "lang": "en",
+   "text": "Time or place. When? Where? No preposition. Zayd travelled in the morning.",
+   "pause": 0.4,
+   "cues": [
+    "row:when"
+   ]
+  },
+  {
+   "id": "c05-glance-06",
+   "scene": "c05-glance",
+   "lang": "ar",
+   "text": "سَافَرَ زَيْدٌ صَبَاحًا",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c05-glance-07",
+   "scene": "c05-glance",
+   "lang": "en",
+   "text": "State. How? The state of the doer or object, with no al. Zayd came hurrying.",
+   "pause": 0.4,
+   "cues": [
+    "row:state"
+   ]
+  },
+  {
+   "id": "c05-glance-08",
+   "scene": "c05-glance",
+   "lang": "ar",
+   "text": "جَاءَ زَيْدٌ مُسْرِعًا",
+   "pause": 0.8,
+   "cues": []
+  }
+ ]
+}

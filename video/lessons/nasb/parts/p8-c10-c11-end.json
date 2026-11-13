@@ -1,0 +1,741 @@
+{
+ "segments": [
+  {
+   "id": "c10-title-01",
+   "scene": "c10-title",
+   "lang": "en",
+   "text": "Chapter ten. Old rules, new ending.",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c10-title-02",
+   "scene": "c10-title",
+   "lang": "en",
+   "text": "An adjective and a word after wa still copy. Now they can copy a fatha.",
+   "pause": 0.5,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c10-ex17-01",
+   "scene": "c10-ex17",
+   "lang": "en",
+   "text": "Example seventeen. Zayd read a new book.",
+   "pause": 0.4,
+   "cues": [
+    "en"
+   ]
+  },
+  {
+   "id": "c10-ex17-02",
+   "scene": "c10-ex17",
+   "lang": "ar",
+   "text": "قَرَأَ زَيْدٌ كِتَابًا جَدِيدًا",
+   "pause": 0.5,
+   "cues": [
+    "sentence"
+   ]
+  },
+  {
+   "id": "c10-ex17-03",
+   "scene": "c10-ex17",
+   "lang": "en",
+   "text": "The verb is fixed. Zayd is the doer, with damma and tanween.",
+   "pause": 0.3,
+   "cues": [
+    "group:0",
+    "group:1"
+   ]
+  },
+  {
+   "id": "c10-ex17-04",
+   "scene": "c10-ex17",
+   "lang": "en",
+   "text": "What did he read?",
+   "pause": 0.5,
+   "cues": [
+    "ask:2"
+   ]
+  },
+  {
+   "id": "c10-ex17-05",
+   "scene": "c10-ex17",
+   "lang": "ar",
+   "text": "كِتَابًا",
+   "pause": 0.3,
+   "cues": [
+    "group:2",
+    "vowel:2"
+   ]
+  },
+  {
+   "id": "c10-ex17-06",
+   "scene": "c10-ex17",
+   "lang": "en",
+   "text": "A book. The object, so fatha with tanween.",
+   "pause": 0.4,
+   "cues": [
+    "line:0"
+   ]
+  },
+  {
+   "id": "c10-ex17-07",
+   "scene": "c10-ex17",
+   "lang": "ar",
+   "text": "جَدِيدًا",
+   "pause": 0.3,
+   "cues": [
+    "read:3"
+   ]
+  },
+  {
+   "id": "c10-ex17-08",
+   "scene": "c10-ex17",
+   "lang": "en",
+   "text": "New. It describes the book, so it copies. Fatha with tanween.",
+   "pause": 0.4,
+   "cues": [
+    "line:1"
+   ]
+  },
+  {
+   "id": "c10-ex17-09",
+   "scene": "c10-ex17",
+   "lang": "en",
+   "text": "Listen to both endings once more.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c10-ex17-10",
+   "scene": "c10-ex17",
+   "lang": "ar",
+   "text": "قَرَأَ زَيْدٌ كِتَابًا جَدِيدًا",
+   "pause": 0.7,
+   "cues": [
+    "read:3"
+   ]
+  },
+  {
+   "id": "c10-ex18-01",
+   "scene": "c10-ex18",
+   "lang": "en",
+   "text": "Example eighteen. The student wrote the lesson and the homework.",
+   "pause": 0.4,
+   "cues": [
+    "en"
+   ]
+  },
+  {
+   "id": "c10-ex18-02",
+   "scene": "c10-ex18",
+   "lang": "ar",
+   "text": "كَتَبَ الطَّالِبُ الدَّرْسَ وَالوَاجِبَ",
+   "pause": 0.5,
+   "cues": [
+    "sentence"
+   ]
+  },
+  {
+   "id": "c10-ex18-03",
+   "scene": "c10-ex18",
+   "lang": "en",
+   "text": "The verb is fixed. The doer takes damma.",
+   "pause": 0.3,
+   "cues": [
+    "group:0",
+    "group:1"
+   ]
+  },
+  {
+   "id": "c10-ex18-04",
+   "scene": "c10-ex18",
+   "lang": "en",
+   "text": "What did he write?",
+   "pause": 0.5,
+   "cues": [
+    "ask:2"
+   ]
+  },
+  {
+   "id": "c10-ex18-05",
+   "scene": "c10-ex18",
+   "lang": "ar",
+   "text": "الدَّرْسَ",
+   "pause": 0.3,
+   "cues": [
+    "group:2",
+    "vowel:2"
+   ]
+  },
+  {
+   "id": "c10-ex18-06",
+   "scene": "c10-ex18",
+   "lang": "en",
+   "text": "The lesson. The object, so fatha.",
+   "pause": 0.4,
+   "cues": [
+    "line:0"
+   ]
+  },
+  {
+   "id": "c10-ex18-07",
+   "scene": "c10-ex18",
+   "lang": "ar",
+   "text": "وَالوَاجِبَ",
+   "pause": 0.3,
+   "cues": [
+    "read:3"
+   ]
+  },
+  {
+   "id": "c10-ex18-08",
+   "scene": "c10-ex18",
+   "lang": "en",
+   "text": "And the homework. It comes after wa, so it copies the lesson. Fatha.",
+   "pause": 0.6,
+   "cues": [
+    "line:1"
+   ]
+  },
+  {
+   "id": "c11-title-01",
+   "scene": "c11-title",
+   "lang": "en",
+   "text": "Chapter eleven. All together.",
+   "pause": 0.5,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c11-ex19-01",
+   "scene": "c11-ex19",
+   "lang": "en",
+   "text": "Example nineteen. The teacher opened the door in the morning.",
+   "pause": 0.4,
+   "cues": [
+    "en"
+   ]
+  },
+  {
+   "id": "c11-ex19-02",
+   "scene": "c11-ex19",
+   "lang": "ar",
+   "text": "فَتَحَ المُدَرِّسُ البَابَ صَبَاحًا",
+   "pause": 0.5,
+   "cues": [
+    "sentence"
+   ]
+  },
+  {
+   "id": "c11-ex19-03",
+   "scene": "c11-ex19",
+   "lang": "en",
+   "text": "The verb is fixed.",
+   "pause": 0.3,
+   "cues": [
+    "group:0"
+   ]
+  },
+  {
+   "id": "c11-ex19-04",
+   "scene": "c11-ex19",
+   "lang": "en",
+   "text": "Who opened?",
+   "pause": 0.5,
+   "cues": [
+    "ask:1"
+   ]
+  },
+  {
+   "id": "c11-ex19-05",
+   "scene": "c11-ex19",
+   "lang": "ar",
+   "text": "المُدَرِّسُ",
+   "pause": 0.3,
+   "cues": [
+    "group:1",
+    "vowel:1"
+   ]
+  },
+  {
+   "id": "c11-ex19-06",
+   "scene": "c11-ex19",
+   "lang": "en",
+   "text": "The teacher. The doer, so damma.",
+   "pause": 0.3,
+   "cues": [
+    "line:0"
+   ]
+  },
+  {
+   "id": "c11-ex19-07",
+   "scene": "c11-ex19",
+   "lang": "en",
+   "text": "Opened what?",
+   "pause": 0.5,
+   "cues": [
+    "ask:2"
+   ]
+  },
+  {
+   "id": "c11-ex19-08",
+   "scene": "c11-ex19",
+   "lang": "ar",
+   "text": "البَابَ",
+   "pause": 0.3,
+   "cues": [
+    "group:2",
+    "vowel:2"
+   ]
+  },
+  {
+   "id": "c11-ex19-09",
+   "scene": "c11-ex19",
+   "lang": "en",
+   "text": "The door. The object, so fatha.",
+   "pause": 0.3,
+   "cues": [
+    "line:1"
+   ]
+  },
+  {
+   "id": "c11-ex19-10",
+   "scene": "c11-ex19",
+   "lang": "en",
+   "text": "When did he open it?",
+   "pause": 0.5,
+   "cues": [
+    "ask:3"
+   ]
+  },
+  {
+   "id": "c11-ex19-11",
+   "scene": "c11-ex19",
+   "lang": "ar",
+   "text": "صَبَاحًا",
+   "pause": 0.3,
+   "cues": [
+    "group:3",
+    "vowel:3"
+   ]
+  },
+  {
+   "id": "c11-ex19-12",
+   "scene": "c11-ex19",
+   "lang": "en",
+   "text": "In the morning. Time, so fatha with tanween.",
+   "pause": 0.4,
+   "cues": [
+    "line:2"
+   ]
+  },
+  {
+   "id": "c11-ex19-13",
+   "scene": "c11-ex19",
+   "lang": "en",
+   "text": "Listen to the endings once more.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c11-ex19-14",
+   "scene": "c11-ex19",
+   "lang": "ar",
+   "text": "فَتَحَ المُدَرِّسُ البَابَ صَبَاحًا",
+   "pause": 0.7,
+   "cues": [
+    "read:3"
+   ]
+  },
+  {
+   "id": "c11-ex20-01",
+   "scene": "c11-ex20",
+   "lang": "en",
+   "text": "Example twenty. Ali travelled at night seeking knowledge.",
+   "pause": 0.4,
+   "cues": [
+    "en"
+   ]
+  },
+  {
+   "id": "c11-ex20-02",
+   "scene": "c11-ex20",
+   "lang": "ar",
+   "text": "سَافَرَ عَلِيٌّ لَيْلًا طَلَبًا لِلْعِلْمِ",
+   "pause": 0.5,
+   "cues": [
+    "sentence"
+   ]
+  },
+  {
+   "id": "c11-ex20-03",
+   "scene": "c11-ex20",
+   "lang": "en",
+   "text": "The verb is fixed. Ali is the doer, with damma and tanween.",
+   "pause": 0.3,
+   "cues": [
+    "group:0",
+    "group:1"
+   ]
+  },
+  {
+   "id": "c11-ex20-04",
+   "scene": "c11-ex20",
+   "lang": "en",
+   "text": "When did he travel?",
+   "pause": 0.5,
+   "cues": [
+    "ask:2"
+   ]
+  },
+  {
+   "id": "c11-ex20-05",
+   "scene": "c11-ex20",
+   "lang": "ar",
+   "text": "لَيْلًا",
+   "pause": 0.3,
+   "cues": [
+    "group:2",
+    "vowel:2"
+   ]
+  },
+  {
+   "id": "c11-ex20-06",
+   "scene": "c11-ex20",
+   "lang": "en",
+   "text": "At night. Time, so fatha with tanween.",
+   "pause": 0.3,
+   "cues": [
+    "line:0"
+   ]
+  },
+  {
+   "id": "c11-ex20-07",
+   "scene": "c11-ex20",
+   "lang": "en",
+   "text": "Why did he travel?",
+   "pause": 0.5,
+   "cues": [
+    "ask:3"
+   ]
+  },
+  {
+   "id": "c11-ex20-08",
+   "scene": "c11-ex20",
+   "lang": "ar",
+   "text": "طَلَبًا",
+   "pause": 0.3,
+   "cues": [
+    "group:3",
+    "vowel:3"
+   ]
+  },
+  {
+   "id": "c11-ex20-09",
+   "scene": "c11-ex20",
+   "lang": "en",
+   "text": "Seeking. Purpose, so fatha with tanween.",
+   "pause": 0.4,
+   "cues": [
+    "line:1"
+   ]
+  },
+  {
+   "id": "c11-ex20-10",
+   "scene": "c11-ex20",
+   "lang": "ar",
+   "text": "لِلْعِلْمِ",
+   "pause": 0.3,
+   "cues": [
+    "read:4"
+   ]
+  },
+  {
+   "id": "c11-ex20-11",
+   "scene": "c11-ex20",
+   "lang": "en",
+   "text": "For knowledge. The small part at the front means for. It is a preposition, so knowledge takes kasra.",
+   "pause": 0.6,
+   "cues": [
+    "line:2"
+   ]
+  },
+  {
+   "id": "c11-ex21-01",
+   "scene": "c11-ex21",
+   "lang": "en",
+   "text": "Example twenty-one. The hardworking student sat in front of the teacher, smiling.",
+   "pause": 0.4,
+   "cues": [
+    "en"
+   ]
+  },
+  {
+   "id": "c11-ex21-02",
+   "scene": "c11-ex21",
+   "lang": "ar",
+   "text": "جَلَسَ الطَّالِبُ المُجْتَهِدُ أَمَامَ المُدَرِّسِ مُبْتَسِمًا",
+   "pause": 0.5,
+   "cues": [
+    "sentence"
+   ]
+  },
+  {
+   "id": "c11-ex21-03",
+   "scene": "c11-ex21",
+   "lang": "en",
+   "text": "The verb is fixed.",
+   "pause": 0.4,
+   "cues": [
+    "group:0"
+   ]
+  },
+  {
+   "id": "c11-ex21-04",
+   "scene": "c11-ex21",
+   "lang": "ar",
+   "text": "الطَّالِبُ",
+   "pause": 0.3,
+   "cues": [
+    "group:1",
+    "vowel:1"
+   ]
+  },
+  {
+   "id": "c11-ex21-05",
+   "scene": "c11-ex21",
+   "lang": "en",
+   "text": "The student. The doer, so damma.",
+   "pause": 0.4,
+   "cues": [
+    "line:0"
+   ]
+  },
+  {
+   "id": "c11-ex21-06",
+   "scene": "c11-ex21",
+   "lang": "ar",
+   "text": "المُجْتَهِدُ",
+   "pause": 0.3,
+   "cues": [
+    "read:2"
+   ]
+  },
+  {
+   "id": "c11-ex21-07",
+   "scene": "c11-ex21",
+   "lang": "en",
+   "text": "Hardworking. It describes the doer, so it copies damma.",
+   "pause": 0.3,
+   "cues": [
+    "line:1"
+   ]
+  },
+  {
+   "id": "c11-ex21-08",
+   "scene": "c11-ex21",
+   "lang": "en",
+   "text": "Where did he sit?",
+   "pause": 0.5,
+   "cues": [
+    "ask:2"
+   ]
+  },
+  {
+   "id": "c11-ex21-09",
+   "scene": "c11-ex21",
+   "lang": "ar",
+   "text": "أَمَامَ",
+   "pause": 0.3,
+   "cues": [
+    "group:2",
+    "vowel:2"
+   ]
+  },
+  {
+   "id": "c11-ex21-10",
+   "scene": "c11-ex21",
+   "lang": "en",
+   "text": "In front of. Place, so fatha. It is owned, so no tanween.",
+   "pause": 0.4,
+   "cues": [
+    "line:2"
+   ]
+  },
+  {
+   "id": "c11-ex21-11",
+   "scene": "c11-ex21",
+   "lang": "ar",
+   "text": "المُدَرِّسِ",
+   "pause": 0.3,
+   "cues": [
+    "read:4"
+   ]
+  },
+  {
+   "id": "c11-ex21-12",
+   "scene": "c11-ex21",
+   "lang": "en",
+   "text": "The teacher. It is the owner, so it takes kasra.",
+   "pause": 0.4,
+   "cues": [
+    "line:3"
+   ]
+  },
+  {
+   "id": "c11-ex21-13",
+   "scene": "c11-ex21",
+   "lang": "en",
+   "text": "How did he sit?",
+   "pause": 0.5,
+   "cues": [
+    "ask:3"
+   ]
+  },
+  {
+   "id": "c11-ex21-14",
+   "scene": "c11-ex21",
+   "lang": "ar",
+   "text": "مُبْتَسِمًا",
+   "pause": 0.3,
+   "cues": [
+    "group:3",
+    "vowel:3"
+   ]
+  },
+  {
+   "id": "c11-ex21-15",
+   "scene": "c11-ex21",
+   "lang": "en",
+   "text": "Smiling. State, so fatha with tanween.",
+   "pause": 0.3,
+   "cues": [
+    "line:4"
+   ]
+  },
+  {
+   "id": "c11-ex21-16",
+   "scene": "c11-ex21",
+   "lang": "en",
+   "text": "This one uses almost every colour.",
+   "pause": 0.3,
+   "cues": [
+    "tip"
+   ]
+  },
+  {
+   "id": "c11-ex21-17",
+   "scene": "c11-ex21",
+   "lang": "en",
+   "text": "Verb and doer first. Then ask what, why, when, where, or how for the rest.",
+   "pause": 0.7,
+   "cues": []
+  },
+  {
+   "id": "c11-five-01",
+   "scene": "c11-five",
+   "lang": "en",
+   "text": "Five questions find every ending.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c11-five-02",
+   "scene": "c11-five",
+   "lang": "en",
+   "text": "One. Is it a verb or a particle? Then it is fixed. It never changes.",
+   "pause": 0.4,
+   "cues": [
+    "q:1"
+   ]
+  },
+  {
+   "id": "c11-five-03",
+   "scene": "c11-five",
+   "lang": "en",
+   "text": "Two. Is it a topic, information, or a doer? Then damma.",
+   "pause": 0.4,
+   "cues": [
+    "q:2"
+   ]
+  },
+  {
+   "id": "c11-five-04",
+   "scene": "c11-five",
+   "lang": "en",
+   "text": "Three. Does it answer what, why, when, where, or how? Then fatha.",
+   "pause": 0.4,
+   "cues": [
+    "q:3"
+   ]
+  },
+  {
+   "id": "c11-five-05",
+   "scene": "c11-five",
+   "lang": "en",
+   "text": "Four. Does it come after a preposition, or is it the owner? Then kasra.",
+   "pause": 0.4,
+   "cues": [
+    "q:4"
+   ]
+  },
+  {
+   "id": "c11-five-06",
+   "scene": "c11-five",
+   "lang": "en",
+   "text": "Five. Is it an adjective, or after wa? Then copy the word it follows.",
+   "pause": 0.7,
+   "cues": [
+    "q:5"
+   ]
+  },
+  {
+   "id": "outro-yourturn-01",
+   "scene": "outro-yourturn",
+   "lang": "en",
+   "text": "Now it is your turn. Open the Practice tab.",
+   "pause": 0.3,
+   "cues": [
+    "show"
+   ]
+  },
+  {
+   "id": "outro-yourturn-02",
+   "scene": "outro-yourturn",
+   "lang": "en",
+   "text": "Eight sentences. Every ending is missing.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "outro-yourturn-03",
+   "scene": "outro-yourturn",
+   "lang": "en",
+   "text": "Find the verb and the doer first. Then box every other job. For an order, write its hidden doer.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "outro-yourturn-04",
+   "scene": "outro-yourturn",
+   "lang": "en",
+   "text": "For every word, circle its ending and its job. Write the reason in your notebook.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "outro-yourturn-05",
+   "scene": "outro-yourturn",
+   "lang": "en",
+   "text": "Work alone, then check with a partner and the answer key.",
+   "pause": 1.0,
+   "cues": []
+  }
+ ]
+}

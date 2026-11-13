@@ -1,0 +1,2054 @@
+{
+ "id": "nasb",
+ "stage": 2,
+ "title": "Naṣb Colour Guide",
+ "ar_title": "النَّصْبُ بِالفَتْحَةِ",
+ "roles": {
+  "verb": {
+   "en": "Verb",
+   "ar": "فِعْل",
+   "border": "#3a5a85",
+   "bg": "#e8eef6",
+   "text": "#2b4668",
+   "short": "verb"
+  },
+  "doer": {
+   "en": "Doer",
+   "ar": "فَاعِل",
+   "border": "#ea7a10",
+   "bg": "#fff0df",
+   "text": "#b05705",
+   "short": "doer"
+  },
+  "obj": {
+   "en": "Object",
+   "ar": "مَفْعُولٌ بِهِ",
+   "border": "#d63384",
+   "bg": "#fde6f1",
+   "text": "#a61e62",
+   "short": "object"
+  },
+  "purp": {
+   "en": "Purpose",
+   "ar": "مَفْعُولٌ لِأَجْلِهِ",
+   "border": "#0f9d9a",
+   "bg": "#dcf4f3",
+   "text": "#0a7471",
+   "short": "purpose"
+  },
+  "when": {
+   "en": "Time / place",
+   "ar": "مَفْعُولٌ فِيهِ",
+   "border": "#a0612b",
+   "bg": "#f5e9dd",
+   "text": "#7b471c",
+   "short": "time/place"
+  },
+  "state": {
+   "en": "State",
+   "ar": "حَال",
+   "border": "#6b8e23",
+   "bg": "#edf4dc",
+   "text": "#4c6810",
+   "short": "state"
+  },
+  "topic": {
+   "en": "Topic",
+   "ar": "مُبْتَدَأ",
+   "border": "#e0a10b",
+   "bg": "#fff5d6",
+   "text": "#a87805",
+   "short": "topic"
+  },
+  "info": {
+   "en": "Information",
+   "ar": "خَبَر",
+   "border": "#e04a3a",
+   "bg": "#fde7e4",
+   "text": "#b8322a",
+   "short": "info"
+  },
+  "prep": {
+   "en": "After a preposition",
+   "ar": "بَعْدَ حَرْفِ الجَرّ",
+   "border": "#22a05a",
+   "bg": "#e2f5e9",
+   "text": "#17803f",
+   "short": "prep"
+  },
+  "owner": {
+   "en": "Ownership",
+   "ar": "إِضَافَة",
+   "border": "#7b4fd6",
+   "bg": "#efe8fc",
+   "text": "#5f36b8",
+   "short": "owner"
+  },
+  "adj": {
+   "en": "Adjective",
+   "ar": "صِفَة",
+   "border": "#7d858e",
+   "bg": "#eef0f2",
+   "text": "#5a626b",
+   "short": "adj"
+  },
+  "and": {
+   "en": "After وَ (and)",
+   "ar": "مَعْطُوف",
+   "border": "#2f7fe0",
+   "bg": "#e3eefc",
+   "text": "#1f64bd",
+   "short": "and"
+  }
+ },
+ "nasb_roles": [
+  "obj",
+  "purp",
+  "when",
+  "state"
+ ],
+ "hero_html": "<div class=\"hero\">\n  <div class=\"eyebrow\">LESSON NOTES · COLOUR-CODED EXAMPLES</div>\n  <h1>Naṣb: when does a word<br>end in <span class=\"gold\">fatha</span>?</h1>\n  <p>Some words in a verb sentence answer a question about the action: what, why, when, where, how. Those words take naṣb.</p>\n  <div class=\"wm\">النَّصْب</div>\n</div>",
+ "sections": [
+  {
+   "num": 1,
+   "title": "Where we are",
+   "sub": "Four cases. We know two. Today we add the third.",
+   "examples": [],
+   "html": "<p class=\"sub\">Four cases. We know two. Today we add the third.</p>\n<div class=\"cases\"><div class=\"case done\"><span class=\"cl\">A</span><div class=\"cm\">ـُ</div><div class=\"ca\">رَفْع</div><div class=\"ce\">rafʿ · damma</div><div class=\"cs\">Learned ✓</div></div><div class=\"case now\"><span class=\"cl\">B</span><div class=\"cm\">ـَ</div><div class=\"ca\">نَصْب</div><div class=\"ce\">naṣb · fatha</div><div class=\"cs\">Today</div></div><div class=\"case done\"><span class=\"cl\">C</span><div class=\"cm\">ـِ</div><div class=\"ca\">جَرّ</div><div class=\"ce\">jarr · kasra</div><div class=\"cs\">Learned ✓</div></div><div class=\"case later\"><span class=\"cl\">D</span><div class=\"cm\">ـْ</div><div class=\"ca\">جَزْم</div><div class=\"ce\">jazm · sukūn</div><div class=\"cs\">Later (verbs)</div></div></div>\n<div class=\"scope\"><b>Today we keep it simple.</b>\n  <ul><li>Only <b>past verbs</b> (كَتَبَ) and <b>order verbs</b> (اُكْتُبْ). Present verbs come later.</li>\n  <li>Only one sign of naṣb: the <b>fatha</b> ـَ / ـً. The other signs come later, one chapter for each group (dual, plurals).</li></ul></div>"
+  },
+  {
+   "num": 2,
+   "title": "A new sentence: the verb sentence",
+   "sub": "Last lesson the sentence started with a noun (Topic + Information). Now it starts with a verb: <b>Verb + Doer</b>.",
+   "examples": [
+    "A",
+    "B"
+   ],
+   "html": "<p class=\"sub\">Last lesson the sentence started with a noun (Topic + Information). Now it starts with a verb: <b>Verb + Doer</b>.</p>\n<div class=\"rule\"><div class=\"rr\" style=\"border-color:#3a5a85\"><b style=\"color:#2b4668\">Verb · fixed</b>\n  <p>A past verb and an order verb are fixed (مَبْنِيّ): their ending never changes. Past: fatha <bdi class=\"ab\">كَتَبَ</bdi>. Order: sukūn <bdi class=\"ab\">اُكْتُبْ</bdi>.</p></div>\n  <div class=\"rr\" style=\"border-color:#ea7a10\"><b style=\"color:#b05705\">Doer · rafʿ</b>\n  <p>The doer is who did the action. It takes rafʿ: damma, like the Topic. In an order the doer is “you”, hidden inside the verb.</p></div></div>\n<div class=\"pair\">\n<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">A</span><i>“Zayd wrote.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">كَتَبَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">زَيْدٌ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـٌ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span><bdi class=\"ab\">كَتَبَ</bdi> past verb: fixed. Its fatha never changes.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span><bdi class=\"ab\">زَيْدٌ</bdi> the doer → rafʿ, damma.</span></div></div></div>\n<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">B</span><i>“Write!”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">اُكْتُبْ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · order</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw ghost\" style=\"border-color:#ea7a10\"><div class=\"kt\" style=\"color:#b05705\">(أَنْتَ)</div><div class=\"klab\" style=\"color:#b05705;margin-top:3px\">hidden doer</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span><bdi class=\"ab\">اُكْتُبْ</bdi> order verb: fixed on sukūn.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span>The doer is “you” <bdi class=\"ab\">(أَنْتَ)</bdi>, hidden.</span></div></div></div>\n</div>\n<div class=\"tipbox\"><b>Careful:</b> the fatha on <bdi class=\"ab\">كَتَبَ</bdi> is <b>not</b> naṣb. A past verb ends in fatha in every sentence: it is fixed. Naṣb is for nouns.</div>"
+  },
+  {
+   "num": 3,
+   "title": "The sign of naṣb: fatha",
+   "sub": "It works exactly like damma and kasra: one vowel with ال or when owned, tanween otherwise.",
+   "examples": [],
+   "html": "<p class=\"sub\">It works exactly like damma and kasra: one vowel with ال or when owned, tanween otherwise.</p>\n\n<div class=\"signs\">\n  <div class=\"sg\"><div class=\"sgt\">With ال, or owned</div><div class=\"sga\"><bdi>الدَّرْسَ</bdi> · <bdi>كِتَابَ المُدَرِّسِ</bdi></div><div class=\"sgd\">One fatha only: <b>ـَ</b></div></div>\n  <div class=\"sg\"><div class=\"sgt\">No ال</div><div class=\"sga\"><bdi>كِتَابًا</bdi> · <bdi>صَبَاحًا</bdi></div><div class=\"sgd\">Fatha + tanween <b>ـً</b>, written with an extra alif <b>ـًا</b></div></div>\n  <div class=\"sg\"><div class=\"sgt\">Except after ة or ـاء</div><div class=\"sga\"><bdi>رَغْبَةً</bdi> · <bdi>مَسَاءً</bdi></div><div class=\"sgd\">Fatha + tanween, <b>no</b> extra alif</div></div>\n</div>"
+  },
+  {
+   "num": 4,
+   "title": "Colour key: the new jobs",
+   "sub": "Big box = the word's job in the sentence. Small box = a word with its own rule.",
+   "examples": [],
+   "html": "<p class=\"sub\">Big box = the word's job in the sentence. Small box = a word with its own rule.</p>\n<div class=\"kkgrid\"><div class=\"kk\" style=\"border-left-color:#3a5a85;background:#e8eef6\"><div class=\"kkt\"><span style=\"color:#2b4668\"><span class=\"dot\" style=\"background:#3a5a85\"></span>Verb</span><span class=\"kkar\">فِعْل</span></div><div class=\"kkr\" style=\"color:#2b4668\">fixed —</div><div class=\"kkd\">The action. Past and order verbs never change.</div></div><div class=\"kk\" style=\"border-left-color:#ea7a10;background:#fff0df\"><div class=\"kkt\"><span style=\"color:#b05705\"><span class=\"dot\" style=\"background:#ea7a10\"></span>Doer</span><span class=\"kkar\">فَاعِل</span></div><div class=\"kkr\" style=\"color:#b05705\">ـُ / ـٌ  رَفْع</div><div class=\"kkd\">Who did the action.</div></div><div class=\"kk\" style=\"border-left-color:#d63384;background:#fde6f1\"><div class=\"kkt\"><span style=\"color:#a61e62\"><span class=\"dot\" style=\"background:#d63384\"></span>Object</span><span class=\"kkar\">مَفْعُولٌ بِهِ</span></div><div class=\"kkr\" style=\"color:#a61e62\">ـَ / ـً  نَصْب</div><div class=\"kkd\">What? Whom? The thing the action falls on.</div></div><div class=\"kk\" style=\"border-left-color:#0f9d9a;background:#dcf4f3\"><div class=\"kkt\"><span style=\"color:#0a7471\"><span class=\"dot\" style=\"background:#0f9d9a\"></span>Purpose</span><span class=\"kkar\">مَفْعُولٌ لِأَجْلِهِ</span></div><div class=\"kkr\" style=\"color:#0a7471\">ـَ / ـً  نَصْب</div><div class=\"kkd\">Why? The reason for the action.</div></div><div class=\"kk\" style=\"border-left-color:#a0612b;background:#f5e9dd\"><div class=\"kkt\"><span style=\"color:#7b471c\"><span class=\"dot\" style=\"background:#a0612b\"></span>Time / place</span><span class=\"kkar\">مَفْعُولٌ فِيهِ</span></div><div class=\"kkr\" style=\"color:#7b471c\">ـَ / ـً  نَصْب</div><div class=\"kkd\">When? Where? With no preposition.</div></div><div class=\"kk\" style=\"border-left-color:#6b8e23;background:#edf4dc\"><div class=\"kkt\"><span style=\"color:#4c6810\"><span class=\"dot\" style=\"background:#6b8e23\"></span>State</span><span class=\"kkar\">حَال</span></div><div class=\"kkr\" style=\"color:#4c6810\">ـَ / ـً  نَصْب</div><div class=\"kkd\">How? The state of the doer or object.</div></div></div><div class=\"oldrow\"><b>Small boxes from last lesson still work:</b> <span class=\"oldc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span><span class=\"oldc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span class=\"oldc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adjective</span><span class=\"oldc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ (and)</span></div>"
+  },
+  {
+   "num": 5,
+   "title": "The four naṣb jobs at a glance",
+   "sub": "Find the verb and the doer. For every other noun, ask the question. The one it answers is its job.",
+   "examples": [],
+   "html": "<p class=\"sub\">Find the verb and the doer. For every other noun, ask the question. The one it answers is its job.</p>\n<table class=\"glance\"><tr><th>Job</th><th>Ask</th><th>Example</th></tr><tr><td><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><div class=\"garr\">مَفْعُولٌ بِهِ</div></td><td><b>What? Whom?</b><div class=\"gd\">The thing the action falls on.</div></td><td class=\"gex\" dir=\"rtl\">كَتَبَ الطَّالِبُ الدَّرْسَ</td></tr><tr><td><span class=\"pill\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><div class=\"garr\">مَفْعُولٌ لِأَجْلِهِ</div></td><td><b>Why?</b><div class=\"gd\">The reason. Usually an action noun with tanween.</div></td><td class=\"gex\" dir=\"rtl\">وَقَفَ الطَّالِبُ احْتِرَامًا</td></tr><tr><td><span class=\"pill\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time / place</span><div class=\"garr\">مَفْعُولٌ فِيهِ</div></td><td><b>When? Where?</b><div class=\"gd\">A time or place word, with no preposition.</div></td><td class=\"gex\" dir=\"rtl\">سَافَرَ زَيْدٌ صَبَاحًا</td></tr><tr><td><span class=\"pill\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><div class=\"garr\">حَال</div></td><td><b>How?</b><div class=\"gd\">The state of the doer or object. No ال.</div></td><td class=\"gex\" dir=\"rtl\">جَاءَ زَيْدٌ مُسْرِعًا</td></tr></table>"
+  },
+  {
+   "num": 6,
+   "title": "Object · مَفْعُولٌ بِهِ",
+   "sub": null,
+   "examples": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "html": "<div class=\"rbox\" style=\"border-color:#d63384;background:#fde6f1\"><b>Rule.</b> The object is the thing the action falls on. Ask <b>“what?”</b> or <b>“whom?”</b> after the verb. Object → naṣb, fatha.</div>\n<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">1</span><i>“The student wrote the lesson.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">كَتَبَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">الطَّالِبُ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـُ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">الدَّرْسَ</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـَ</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span><bdi class=\"ab\">الطَّالِبُ</bdi> who wrote? → doer → damma.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span><bdi class=\"ab\">الدَّرْسَ</bdi> what did he write? → object → fatha.</span></div></div></div>\n<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">2</span><i>“Zayd read a book.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">قَرَأَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">زَيْدٌ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـٌ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">كِتَابًا</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـً</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span><bdi class=\"ab\">كِتَابًا</bdi> what did he read? → object. No ال → fatha + tanween, with an extra alif.</span></div></div></div>\n<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">3</span><i>“Open the door!”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">اِفْتَحِ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · order</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw ghost\" style=\"border-color:#ea7a10\"><div class=\"kt\" style=\"color:#b05705\">(أَنْتَ)</div><div class=\"klab\" style=\"color:#b05705;margin-top:3px\">hidden doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">البَابَ</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـَ</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span><bdi class=\"ab\">اِفْتَحِ</bdi> order verb: fixed. The kasra is only a bridge to ال, not iʿrāb.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span><bdi class=\"ab\">البَابَ</bdi> open what? → object → fatha.</span></div></div></div>\n<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">4</span><i>“The student read the teacher&#x27;s book.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">قَرَأَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">الطَّالِبُ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـُ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">كِتَابَ</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـَ</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div><div class=\"kw small\" style=\"border-color:#7b4fd6\"><div class=\"kt\">المُدَرِّسِ</div><div class=\"vc\" style=\"border-color:#7b4fd6;color:#5f36b8\">ـِ</div><div class=\"klab\" style=\"color:#5f36b8\">kasra · owner</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span><bdi class=\"ab\">كِتَابَ</bdi> object → fatha. It is owned → no tanween.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span><bdi class=\"ab\">المُدَرِّسِ</bdi> “book of the teacher”: owner → kasra.</span></div></div><div class=\"tipbox in\"><b>Tip:</b> An order verb ending in sukūn takes a small kasra before ال: <bdi class=\"ab\">اِفْتَحِ البَابَ</bdi>, <bdi class=\"ab\">اِشْرَبِ المَاءَ</bdi>. The verb is still fixed.</div></div>"
+  },
+  {
+   "num": 7,
+   "title": "Purpose · مَفْعُولٌ لِأَجْلِهِ",
+   "sub": null,
+   "examples": [
+    "5",
+    "6",
+    "7"
+   ],
+   "html": "<div class=\"rbox\" style=\"border-color:#0f9d9a;background:#dcf4f3\"><b>Rule.</b> The purpose gives the reason for the action. Ask <b>“why?”</b>. It is usually an action noun (respect, desire, seeking) with tanween. Purpose → naṣb, fatha.</div>\n<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">5</span><i>“The student stood up out of respect.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">وَقَفَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">الطَّالِبُ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـُ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#0f9d9a;background:#dcf4f3\"><div class=\"kgl\" style=\"color:#0a7471\"><b>Purpose</b> مَفْعُولٌ لِأَجْلِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">احْتِرَامًا</div><div class=\"vc\" style=\"border-color:#0f9d9a;color:#0a7471\">ـً</div><div class=\"klab\" style=\"color:#0a7471\">fatha · purpose</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span><bdi class=\"ab\">احْتِرَامًا</bdi> why did he stand? → purpose → fatha + tanween.</span></div></div></div>\n<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">6</span><i>“Zayd studied out of desire for success.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">دَرَسَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">زَيْدٌ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـٌ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#0f9d9a;background:#dcf4f3\"><div class=\"kgl\" style=\"color:#0a7471\"><b>Purpose</b> مَفْعُولٌ لِأَجْلِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">رَغْبَةً</div><div class=\"vc\" style=\"border-color:#0f9d9a;color:#0a7471\">ـً</div><div class=\"klab\" style=\"color:#0a7471\">fatha · purpose</div></div><div class=\"kw plain\"><div class=\"kt\">فِي</div><div class=\"klab muted\">particle</div></div><div class=\"kw small\" style=\"border-color:#22a05a\"><div class=\"kt\">النَّجَاحِ</div><div class=\"vc\" style=\"border-color:#22a05a;color:#17803f\">ـِ</div><div class=\"klab\" style=\"color:#17803f\">kasra · prep</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span><bdi class=\"ab\">رَغْبَةً</bdi> why did he study? → purpose → fatha + tanween. After ة: no extra alif.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span><span><bdi class=\"ab\">النَّجَاحِ</bdi> after <bdi class=\"ab\">فِي</bdi> → kasra.</span></div></div></div>\n<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">7</span><i>“Ali travelled seeking knowledge.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">سَافَرَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">عَلِيٌّ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـٌ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#0f9d9a;background:#dcf4f3\"><div class=\"kgl\" style=\"color:#0a7471\"><b>Purpose</b> مَفْعُولٌ لِأَجْلِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">طَلَبًا</div><div class=\"vc\" style=\"border-color:#0f9d9a;color:#0a7471\">ـً</div><div class=\"klab\" style=\"color:#0a7471\">fatha · purpose</div></div><div class=\"kw small\" style=\"border-color:#22a05a\"><div class=\"kt\">لِلْعِلْمِ</div><div class=\"vc\" style=\"border-color:#22a05a;color:#17803f\">ـِ</div><div class=\"klab\" style=\"color:#17803f\">kasra · prep</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span><bdi class=\"ab\">طَلَبًا</bdi> why did he travel? → purpose → fatha + tanween.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span><span><bdi class=\"ab\">لِلْعِلْمِ</bdi> = <bdi class=\"ab\">لِ</bdi> “for” + <bdi class=\"ab\">العِلْمِ</bdi>: after a preposition → kasra.</span></div></div><div class=\"tipbox in\"><b>Tip:</b> Object or purpose? <bdi class=\"ab\">قَرَأَ زَيْدٌ كِتَابًا</bdi>: “what did he read?” → object. <bdi class=\"ab\">وَقَفَ زَيْدٌ احْتِرَامًا</bdi>: “why did he stand?” → purpose.</div></div>"
+  },
+  {
+   "num": 8,
+   "title": "Time / place · مَفْعُولٌ فِيهِ",
+   "sub": null,
+   "examples": [
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "html": "<div class=\"rbox\" style=\"border-color:#a0612b;background:#f5e9dd\"><b>Rule.</b> A word of time or place that tells us when or where the action happened, <b>with no preposition</b>. Ask <b>“when?”</b> or <b>“where?”</b>. Time/place → naṣb, fatha.</div>\n<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">8</span><i>“Zayd travelled in the morning.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">سَافَرَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">زَيْدٌ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـٌ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#a0612b;background:#f5e9dd\"><div class=\"kgl\" style=\"color:#7b471c\"><b>Time / place</b> مَفْعُولٌ فِيهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">صَبَاحًا</div><div class=\"vc\" style=\"border-color:#a0612b;color:#7b471c\">ـً</div><div class=\"klab\" style=\"color:#7b471c\">fatha · time/place</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time / place</span><span><bdi class=\"ab\">صَبَاحًا</bdi> when did he travel? → time → fatha + tanween.</span></div></div></div>\n<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">9</span><i>“The boy came back in the evening.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">رَجَعَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">الوَلَدُ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـُ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#a0612b;background:#f5e9dd\"><div class=\"kgl\" style=\"color:#7b471c\"><b>Time / place</b> مَفْعُولٌ فِيهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">مَسَاءً</div><div class=\"vc\" style=\"border-color:#a0612b;color:#7b471c\">ـً</div><div class=\"klab\" style=\"color:#7b471c\">fatha · time/place</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time / place</span><span><bdi class=\"ab\">مَسَاءً</bdi> when? → time → fatha + tanween. Ends in ـاء: no extra alif.</span></div></div></div>\n<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">10</span><i>“The student sat in front of the teacher.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">جَلَسَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">الطَّالِبُ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـُ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#a0612b;background:#f5e9dd\"><div class=\"kgl\" style=\"color:#7b471c\"><b>Time / place</b> مَفْعُولٌ فِيهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">أَمَامَ</div><div class=\"vc\" style=\"border-color:#a0612b;color:#7b471c\">ـَ</div><div class=\"klab\" style=\"color:#7b471c\">fatha · time/place</div></div><div class=\"kw small\" style=\"border-color:#7b4fd6\"><div class=\"kt\">المُدَرِّسِ</div><div class=\"vc\" style=\"border-color:#7b4fd6;color:#5f36b8\">ـِ</div><div class=\"klab\" style=\"color:#5f36b8\">kasra · owner</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time / place</span><span><bdi class=\"ab\">أَمَامَ</bdi> where did he sit? → place → fatha. It is owned → no tanween.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span><bdi class=\"ab\">المُدَرِّسِ</bdi> “in front of the teacher”: owner → kasra.</span></div></div></div>\n<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">11</span><i>“Sit under the tree!”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">اِجْلِسْ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · order</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw ghost\" style=\"border-color:#ea7a10\"><div class=\"kt\" style=\"color:#b05705\">(أَنْتَ)</div><div class=\"klab\" style=\"color:#b05705;margin-top:3px\">hidden doer</div></div></div></div><div class=\"kg\" style=\"border-color:#a0612b;background:#f5e9dd\"><div class=\"kgl\" style=\"color:#7b471c\"><b>Time / place</b> مَفْعُولٌ فِيهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">تَحْتَ</div><div class=\"vc\" style=\"border-color:#a0612b;color:#7b471c\">ـَ</div><div class=\"klab\" style=\"color:#7b471c\">fatha · time/place</div></div><div class=\"kw small\" style=\"border-color:#7b4fd6\"><div class=\"kt\">الشَّجَرَةِ</div><div class=\"vc\" style=\"border-color:#7b4fd6;color:#5f36b8\">ـِ</div><div class=\"klab\" style=\"color:#5f36b8\">kasra · owner</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time / place</span><span><bdi class=\"ab\">تَحْتَ</bdi> sit where? → place → fatha, owned.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span><bdi class=\"ab\">الشَّجَرَةِ</bdi> owner → kasra.</span></div></div></div>\n<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">12</span><i>“Ali went out on Friday.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">خَرَجَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">عَلِيٌّ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـٌ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#a0612b;background:#f5e9dd\"><div class=\"kgl\" style=\"color:#7b471c\"><b>Time / place</b> مَفْعُولٌ فِيهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">يَوْمَ</div><div class=\"vc\" style=\"border-color:#a0612b;color:#7b471c\">ـَ</div><div class=\"klab\" style=\"color:#7b471c\">fatha · time/place</div></div><div class=\"kw small\" style=\"border-color:#7b4fd6\"><div class=\"kt\">الجُمُعَةِ</div><div class=\"vc\" style=\"border-color:#7b4fd6;color:#5f36b8\">ـِ</div><div class=\"klab\" style=\"color:#5f36b8\">kasra · owner</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time / place</span><span><bdi class=\"ab\">يَوْمَ</bdi> when? → time → fatha, owned (“the day of Friday”).</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span><bdi class=\"ab\">الجُمُعَةِ</bdi> owner → kasra.</span></div></div><div class=\"tipbox in\"><b>Tip:</b> No preposition = naṣb. <bdi class=\"ab\">جَلَسَ زَيْدٌ أَمَامَ البَيْتِ</bdi>: <bdi class=\"ab\">أَمَامَ</bdi> → fatha. <bdi class=\"ab\">جَلَسَ زَيْدٌ فِي البَيْتِ</bdi>: there is a preposition, so <bdi class=\"ab\">البَيْتِ</bdi> → kasra.</div></div>"
+  },
+  {
+   "num": 9,
+   "title": "State · حَال",
+   "sub": null,
+   "examples": [
+    "13",
+    "14",
+    "15",
+    "16"
+   ],
+   "html": "<div class=\"rbox\" style=\"border-color:#6b8e23;background:#edf4dc\"><b>Rule.</b> The state tells us how the doer (or the object) was during the action. Ask <b>“how?”</b>. It has <b>no ال</b>, so it almost always takes tanween. State → naṣb, fatha.</div>\n<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">13</span><i>“Zayd came hurrying.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">جَاءَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">زَيْدٌ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـٌ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#6b8e23;background:#edf4dc\"><div class=\"kgl\" style=\"color:#4c6810\"><b>State</b> حَال</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">مُسْرِعًا</div><div class=\"vc\" style=\"border-color:#6b8e23;color:#4c6810\">ـً</div><div class=\"klab\" style=\"color:#4c6810\">fatha · state</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span><bdi class=\"ab\">مُسْرِعًا</bdi> how did he come? → state → fatha + tanween.</span></div></div></div>\n<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">14</span><i>“The boy came back happy.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">رَجَعَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">الوَلَدُ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـُ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#6b8e23;background:#edf4dc\"><div class=\"kgl\" style=\"color:#4c6810\"><b>State</b> حَال</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">فَرِحًا</div><div class=\"vc\" style=\"border-color:#6b8e23;color:#4c6810\">ـً</div><div class=\"klab\" style=\"color:#4c6810\">fatha · state</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span><bdi class=\"ab\">فَرِحًا</bdi> how did he come back? → state → fatha + tanween.</span></div></div></div>\n<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">15</span><i>“The student entered the class smiling.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">دَخَلَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">الطَّالِبُ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـُ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">الصَّفَّ</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـَ</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div></div></div><div class=\"kg\" style=\"border-color:#6b8e23;background:#edf4dc\"><div class=\"kgl\" style=\"color:#4c6810\"><b>State</b> حَال</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">مُبْتَسِمًا</div><div class=\"vc\" style=\"border-color:#6b8e23;color:#4c6810\">ـً</div><div class=\"klab\" style=\"color:#4c6810\">fatha · state</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span><bdi class=\"ab\">الصَّفَّ</bdi> entered what? → object → fatha.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span><bdi class=\"ab\">مُبْتَسِمًا</bdi> how did he enter? → state → fatha + tanween.</span></div></div></div>\n<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">16</span><i>“Drink the water cold!”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">اِشْرَبِ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · order</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw ghost\" style=\"border-color:#ea7a10\"><div class=\"kt\" style=\"color:#b05705\">(أَنْتَ)</div><div class=\"klab\" style=\"color:#b05705;margin-top:3px\">hidden doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">المَاءَ</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـَ</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div></div></div><div class=\"kg\" style=\"border-color:#6b8e23;background:#edf4dc\"><div class=\"kgl\" style=\"color:#4c6810\"><b>State</b> حَال</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">بَارِدًا</div><div class=\"vc\" style=\"border-color:#6b8e23;color:#4c6810\">ـً</div><div class=\"klab\" style=\"color:#4c6810\">fatha · state</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span><bdi class=\"ab\">المَاءَ</bdi> drink what? → object → fatha.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span><bdi class=\"ab\">بَارِدًا</bdi> the state of the water → state → fatha + tanween.</span></div></div><div class=\"tipbox in\"><b>Tip:</b> State or adjective? <bdi class=\"ab\">جَاءَ الطَّالِبُ المُسْرِعُ</bdi> “the hurrying student came”: adjective, has ال, copies damma. <bdi class=\"ab\">جَاءَ الطَّالِبُ مُسْرِعًا</bdi> “the student came hurrying”: state, no ال, naṣb.</div></div>"
+  },
+  {
+   "num": 10,
+   "title": "Old rules, new ending",
+   "sub": "An adjective and a word after وَ still copy. Now they can copy a fatha.",
+   "examples": [
+    "17",
+    "18"
+   ],
+   "html": "<p class=\"sub\">An adjective and a word after وَ still copy. Now they can copy a fatha.</p>\n<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">17</span><i>“Zayd read a new book.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">قَرَأَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">زَيْدٌ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـٌ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">كِتَابًا</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـً</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div><div class=\"kw small\" style=\"border-color:#7d858e\"><div class=\"kt\">جَدِيدًا</div><div class=\"vc\" style=\"border-color:#7d858e;color:#5a626b\">ـً</div><div class=\"klab\" style=\"color:#5a626b\">fatha · adj</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span><bdi class=\"ab\">كِتَابًا</bdi> object → fatha + tanween.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adjective</span><span><bdi class=\"ab\">جَدِيدًا</bdi> describes <bdi class=\"ab\">كِتَابًا</bdi> → copies: fatha + tanween.</span></div></div></div>\n<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">18</span><i>“The student wrote the lesson and the homework.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">كَتَبَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">الطَّالِبُ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـُ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">الدَّرْسَ</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـَ</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div><div class=\"kw small\" style=\"border-color:#2f7fe0\"><div class=\"kt\">وَالوَاجِبَ</div><div class=\"vc\" style=\"border-color:#2f7fe0;color:#1f64bd\">ـَ</div><div class=\"klab\" style=\"color:#1f64bd\">fatha · and</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span><bdi class=\"ab\">الدَّرْسَ</bdi> object → fatha.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ (and)</span><span><bdi class=\"ab\">الوَاجِبَ</bdi> comes after وَ → copies <bdi class=\"ab\">الدَّرْسَ</bdi>: fatha.</span></div></div></div>"
+  },
+  {
+   "num": 11,
+   "title": "All together",
+   "sub": null,
+   "examples": [
+    "19",
+    "20",
+    "21"
+   ],
+   "html": "<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">19</span><i>“The teacher opened the door in the morning.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">فَتَحَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">المُدَرِّسُ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـُ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">البَابَ</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـَ</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div></div></div><div class=\"kg\" style=\"border-color:#a0612b;background:#f5e9dd\"><div class=\"kgl\" style=\"color:#7b471c\"><b>Time / place</b> مَفْعُولٌ فِيهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">صَبَاحًا</div><div class=\"vc\" style=\"border-color:#a0612b;color:#7b471c\">ـً</div><div class=\"klab\" style=\"color:#7b471c\">fatha · time/place</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span><bdi class=\"ab\">المُدَرِّسُ</bdi> who opened? → doer → damma.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span><bdi class=\"ab\">البَابَ</bdi> opened what? → object → fatha.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time / place</span><span><bdi class=\"ab\">صَبَاحًا</bdi> when? → time → fatha + tanween.</span></div></div></div>\n<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">20</span><i>“Ali travelled at night seeking knowledge.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">سَافَرَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">عَلِيٌّ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـٌ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#a0612b;background:#f5e9dd\"><div class=\"kgl\" style=\"color:#7b471c\"><b>Time / place</b> مَفْعُولٌ فِيهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">لَيْلًا</div><div class=\"vc\" style=\"border-color:#a0612b;color:#7b471c\">ـً</div><div class=\"klab\" style=\"color:#7b471c\">fatha · time/place</div></div></div></div><div class=\"kg\" style=\"border-color:#0f9d9a;background:#dcf4f3\"><div class=\"kgl\" style=\"color:#0a7471\"><b>Purpose</b> مَفْعُولٌ لِأَجْلِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">طَلَبًا</div><div class=\"vc\" style=\"border-color:#0f9d9a;color:#0a7471\">ـً</div><div class=\"klab\" style=\"color:#0a7471\">fatha · purpose</div></div><div class=\"kw small\" style=\"border-color:#22a05a\"><div class=\"kt\">لِلْعِلْمِ</div><div class=\"vc\" style=\"border-color:#22a05a;color:#17803f\">ـِ</div><div class=\"klab\" style=\"color:#17803f\">kasra · prep</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time / place</span><span><bdi class=\"ab\">لَيْلًا</bdi> when? → time → fatha + tanween.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span><bdi class=\"ab\">طَلَبًا</bdi> why? → purpose → fatha + tanween.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span><span><bdi class=\"ab\">لِلْعِلْمِ</bdi> after <bdi class=\"ab\">لِ</bdi> → kasra.</span></div></div></div>\n<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">21</span><i>“The hardworking student sat in front of the teacher, smiling.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">جَلَسَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">الطَّالِبُ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـُ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div><div class=\"kw small\" style=\"border-color:#7d858e\"><div class=\"kt\">المُجْتَهِدُ</div><div class=\"vc\" style=\"border-color:#7d858e;color:#5a626b\">ـُ</div><div class=\"klab\" style=\"color:#5a626b\">damma · adj</div></div></div></div><div class=\"kg\" style=\"border-color:#a0612b;background:#f5e9dd\"><div class=\"kgl\" style=\"color:#7b471c\"><b>Time / place</b> مَفْعُولٌ فِيهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">أَمَامَ</div><div class=\"vc\" style=\"border-color:#a0612b;color:#7b471c\">ـَ</div><div class=\"klab\" style=\"color:#7b471c\">fatha · time/place</div></div><div class=\"kw small\" style=\"border-color:#7b4fd6\"><div class=\"kt\">المُدَرِّسِ</div><div class=\"vc\" style=\"border-color:#7b4fd6;color:#5f36b8\">ـِ</div><div class=\"klab\" style=\"color:#5f36b8\">kasra · owner</div></div></div></div><div class=\"kg\" style=\"border-color:#6b8e23;background:#edf4dc\"><div class=\"kgl\" style=\"color:#4c6810\"><b>State</b> حَال</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">مُبْتَسِمًا</div><div class=\"vc\" style=\"border-color:#6b8e23;color:#4c6810\">ـً</div><div class=\"klab\" style=\"color:#4c6810\">fatha · state</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span><bdi class=\"ab\">الطَّالِبُ</bdi> doer → damma.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adjective</span><span><bdi class=\"ab\">المُجْتَهِدُ</bdi> describes the doer → copies damma.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time / place</span><span><bdi class=\"ab\">أَمَامَ</bdi> where? → place → fatha, owned.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span><bdi class=\"ab\">المُدَرِّسِ</bdi> owner → kasra.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span><bdi class=\"ab\">مُبْتَسِمًا</bdi> how? → state → fatha + tanween.</span></div></div><div class=\"tipbox in\"><b>Tip:</b> This one uses almost every colour. Verb and doer first, then ask what / why / when / where / how for the rest.</div></div>\n<div class=\"three\">\n  <h3>Iʿrāb in five questions</h3>\n  <ol>\n    <li><b>Is it a verb or a particle?</b> → fixed, it never changes <span class=\"wc\">—</span></li>\n    <li><b>Topic, information, or doer?</b> → <span class=\"wc\">ـُ</span></li>\n    <li><b>Does it answer what? why? when? where? how?</b> → <span class=\"wc\">ـَ</span></li>\n    <li><b>Is there a preposition or an owner relationship?</b> → <span class=\"wc\">ـِ</span></li>\n    <li><b>Is it an adjective, or after وَ?</b> → copy the word it follows <span class=\"wc\">=</span></li>\n  </ol>\n</div>"
+  }
+ ],
+ "examples": [
+  {
+   "num": "A",
+   "en": "Zayd wrote.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "كَتَبَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "زَيْدٌ",
+       "k": "head",
+       "v": "ٌ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "lines": [
+    {
+     "role": "verb",
+     "text": "{كَتَبَ} past verb: fixed. Its fatha never changes."
+    },
+    {
+     "role": "doer",
+     "text": "{زَيْدٌ} the doer → rafʿ, damma."
+    }
+   ],
+   "tip": null,
+   "sentence": "كَتَبَ زَيْدٌ",
+   "hidden_doer": false,
+   "html": "<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">A</span><i>“Zayd wrote.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">كَتَبَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">زَيْدٌ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـٌ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span><bdi class=\"ab\">كَتَبَ</bdi> past verb: fixed. Its fatha never changes.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span><bdi class=\"ab\">زَيْدٌ</bdi> the doer → rafʿ, damma.</span></div></div></div>"
+  },
+  {
+   "num": "B",
+   "en": "Write!",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "اُكْتُبْ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · order",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "(أَنْتَ)",
+       "k": "hidden",
+       "v": null,
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "lines": [
+    {
+     "role": "verb",
+     "text": "{اُكْتُبْ} order verb: fixed on sukūn."
+    },
+    {
+     "role": "doer",
+     "text": "The doer is “you” {(أَنْتَ)}, hidden."
+    }
+   ],
+   "tip": null,
+   "sentence": "اُكْتُبْ",
+   "hidden_doer": true,
+   "html": "<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">B</span><i>“Write!”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">اُكْتُبْ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · order</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw ghost\" style=\"border-color:#ea7a10\"><div class=\"kt\" style=\"color:#b05705\">(أَنْتَ)</div><div class=\"klab\" style=\"color:#b05705;margin-top:3px\">hidden doer</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span><bdi class=\"ab\">اُكْتُبْ</bdi> order verb: fixed on sukūn.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span>The doer is “you” <bdi class=\"ab\">(أَنْتَ)</bdi>, hidden.</span></div></div></div>"
+  },
+  {
+   "num": "1",
+   "en": "The student wrote the lesson.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "كَتَبَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "الطَّالِبُ",
+       "k": "head",
+       "v": "ُ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "obj",
+     "ws": [
+      {
+       "t": "الدَّرْسَ",
+       "k": "head",
+       "v": "َ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "lines": [
+    {
+     "role": "doer",
+     "text": "{الطَّالِبُ} who wrote? → doer → damma."
+    },
+    {
+     "role": "obj",
+     "text": "{الدَّرْسَ} what did he write? → object → fatha."
+    }
+   ],
+   "tip": null,
+   "sentence": "كَتَبَ الطَّالِبُ الدَّرْسَ",
+   "hidden_doer": false,
+   "html": "<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">1</span><i>“The student wrote the lesson.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">كَتَبَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">الطَّالِبُ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـُ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">الدَّرْسَ</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـَ</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span><bdi class=\"ab\">الطَّالِبُ</bdi> who wrote? → doer → damma.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span><bdi class=\"ab\">الدَّرْسَ</bdi> what did he write? → object → fatha.</span></div></div></div>"
+  },
+  {
+   "num": "2",
+   "en": "Zayd read a book.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "قَرَأَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "زَيْدٌ",
+       "k": "head",
+       "v": "ٌ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "obj",
+     "ws": [
+      {
+       "t": "كِتَابًا",
+       "k": "head",
+       "v": "ً",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "lines": [
+    {
+     "role": "obj",
+     "text": "{كِتَابًا} what did he read? → object. No ال → fatha + tanween, with an extra alif."
+    }
+   ],
+   "tip": null,
+   "sentence": "قَرَأَ زَيْدٌ كِتَابًا",
+   "hidden_doer": false,
+   "html": "<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">2</span><i>“Zayd read a book.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">قَرَأَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">زَيْدٌ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـٌ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">كِتَابًا</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـً</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span><bdi class=\"ab\">كِتَابًا</bdi> what did he read? → object. No ال → fatha + tanween, with an extra alif.</span></div></div></div>"
+  },
+  {
+   "num": "3",
+   "en": "Open the door!",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "اِفْتَحِ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · order",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "(أَنْتَ)",
+       "k": "hidden",
+       "v": null,
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "obj",
+     "ws": [
+      {
+       "t": "البَابَ",
+       "k": "head",
+       "v": "َ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "lines": [
+    {
+     "role": "verb",
+     "text": "{اِفْتَحِ} order verb: fixed. The kasra is only a bridge to ال, not iʿrāb."
+    },
+    {
+     "role": "obj",
+     "text": "{البَابَ} open what? → object → fatha."
+    }
+   ],
+   "tip": null,
+   "sentence": "اِفْتَحِ البَابَ",
+   "hidden_doer": true,
+   "html": "<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">3</span><i>“Open the door!”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">اِفْتَحِ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · order</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw ghost\" style=\"border-color:#ea7a10\"><div class=\"kt\" style=\"color:#b05705\">(أَنْتَ)</div><div class=\"klab\" style=\"color:#b05705;margin-top:3px\">hidden doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">البَابَ</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـَ</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span><bdi class=\"ab\">اِفْتَحِ</bdi> order verb: fixed. The kasra is only a bridge to ال, not iʿrāb.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span><bdi class=\"ab\">البَابَ</bdi> open what? → object → fatha.</span></div></div></div>"
+  },
+  {
+   "num": "4",
+   "en": "The student read the teacher's book.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "قَرَأَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "الطَّالِبُ",
+       "k": "head",
+       "v": "ُ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "obj",
+     "ws": [
+      {
+       "t": "كِتَابَ",
+       "k": "head",
+       "v": "َ",
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "المُدَرِّسِ",
+       "k": "owner",
+       "v": "ِ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "lines": [
+    {
+     "role": "obj",
+     "text": "{كِتَابَ} object → fatha. It is owned → no tanween."
+    },
+    {
+     "role": "owner",
+     "text": "{المُدَرِّسِ} “book of the teacher”: owner → kasra."
+    }
+   ],
+   "tip": "An order verb ending in sukūn takes a small kasra before ال: {اِفْتَحِ البَابَ}, {اِشْرَبِ المَاءَ}. The verb is still fixed.",
+   "sentence": "قَرَأَ الطَّالِبُ كِتَابَ المُدَرِّسِ",
+   "hidden_doer": false,
+   "html": "<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">4</span><i>“The student read the teacher&#x27;s book.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">قَرَأَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">الطَّالِبُ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـُ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">كِتَابَ</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـَ</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div><div class=\"kw small\" style=\"border-color:#7b4fd6\"><div class=\"kt\">المُدَرِّسِ</div><div class=\"vc\" style=\"border-color:#7b4fd6;color:#5f36b8\">ـِ</div><div class=\"klab\" style=\"color:#5f36b8\">kasra · owner</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span><bdi class=\"ab\">كِتَابَ</bdi> object → fatha. It is owned → no tanween.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span><bdi class=\"ab\">المُدَرِّسِ</bdi> “book of the teacher”: owner → kasra.</span></div></div><div class=\"tipbox in\"><b>Tip:</b> An order verb ending in sukūn takes a small kasra before ال: <bdi class=\"ab\">اِفْتَحِ البَابَ</bdi>, <bdi class=\"ab\">اِشْرَبِ المَاءَ</bdi>. The verb is still fixed.</div></div>"
+  },
+  {
+   "num": "5",
+   "en": "The student stood up out of respect.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "وَقَفَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "الطَّالِبُ",
+       "k": "head",
+       "v": "ُ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "purp",
+     "ws": [
+      {
+       "t": "احْتِرَامًا",
+       "k": "head",
+       "v": "ً",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "lines": [
+    {
+     "role": "purp",
+     "text": "{احْتِرَامًا} why did he stand? → purpose → fatha + tanween."
+    }
+   ],
+   "tip": null,
+   "sentence": "وَقَفَ الطَّالِبُ احْتِرَامًا",
+   "hidden_doer": false,
+   "html": "<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">5</span><i>“The student stood up out of respect.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">وَقَفَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">الطَّالِبُ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـُ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#0f9d9a;background:#dcf4f3\"><div class=\"kgl\" style=\"color:#0a7471\"><b>Purpose</b> مَفْعُولٌ لِأَجْلِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">احْتِرَامًا</div><div class=\"vc\" style=\"border-color:#0f9d9a;color:#0a7471\">ـً</div><div class=\"klab\" style=\"color:#0a7471\">fatha · purpose</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span><bdi class=\"ab\">احْتِرَامًا</bdi> why did he stand? → purpose → fatha + tanween.</span></div></div></div>"
+  },
+  {
+   "num": "6",
+   "en": "Zayd studied out of desire for success.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "دَرَسَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "زَيْدٌ",
+       "k": "head",
+       "v": "ٌ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "purp",
+     "ws": [
+      {
+       "t": "رَغْبَةً",
+       "k": "head",
+       "v": "ً",
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "فِي",
+       "k": "particle",
+       "v": null,
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "النَّجَاحِ",
+       "k": "prep",
+       "v": "ِ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "lines": [
+    {
+     "role": "purp",
+     "text": "{رَغْبَةً} why did he study? → purpose → fatha + tanween. After ة: no extra alif."
+    },
+    {
+     "role": "prep",
+     "text": "{النَّجَاحِ} after {فِي} → kasra."
+    }
+   ],
+   "tip": null,
+   "sentence": "دَرَسَ زَيْدٌ رَغْبَةً فِي النَّجَاحِ",
+   "hidden_doer": false,
+   "html": "<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">6</span><i>“Zayd studied out of desire for success.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">دَرَسَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">زَيْدٌ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـٌ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#0f9d9a;background:#dcf4f3\"><div class=\"kgl\" style=\"color:#0a7471\"><b>Purpose</b> مَفْعُولٌ لِأَجْلِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">رَغْبَةً</div><div class=\"vc\" style=\"border-color:#0f9d9a;color:#0a7471\">ـً</div><div class=\"klab\" style=\"color:#0a7471\">fatha · purpose</div></div><div class=\"kw plain\"><div class=\"kt\">فِي</div><div class=\"klab muted\">particle</div></div><div class=\"kw small\" style=\"border-color:#22a05a\"><div class=\"kt\">النَّجَاحِ</div><div class=\"vc\" style=\"border-color:#22a05a;color:#17803f\">ـِ</div><div class=\"klab\" style=\"color:#17803f\">kasra · prep</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span><bdi class=\"ab\">رَغْبَةً</bdi> why did he study? → purpose → fatha + tanween. After ة: no extra alif.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span><span><bdi class=\"ab\">النَّجَاحِ</bdi> after <bdi class=\"ab\">فِي</bdi> → kasra.</span></div></div></div>"
+  },
+  {
+   "num": "7",
+   "en": "Ali travelled seeking knowledge.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "سَافَرَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "عَلِيٌّ",
+       "k": "head",
+       "v": "ٌ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "purp",
+     "ws": [
+      {
+       "t": "طَلَبًا",
+       "k": "head",
+       "v": "ً",
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "لِلْعِلْمِ",
+       "k": "prep",
+       "v": "ِ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "lines": [
+    {
+     "role": "purp",
+     "text": "{طَلَبًا} why did he travel? → purpose → fatha + tanween."
+    },
+    {
+     "role": "prep",
+     "text": "{لِلْعِلْمِ} = {لِ} “for” + {العِلْمِ}: after a preposition → kasra."
+    }
+   ],
+   "tip": "Object or purpose? {قَرَأَ زَيْدٌ كِتَابًا}: “what did he read?” → object. {وَقَفَ زَيْدٌ احْتِرَامًا}: “why did he stand?” → purpose.",
+   "sentence": "سَافَرَ عَلِيٌّ طَلَبًا لِلْعِلْمِ",
+   "hidden_doer": false,
+   "html": "<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">7</span><i>“Ali travelled seeking knowledge.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">سَافَرَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">عَلِيٌّ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـٌ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#0f9d9a;background:#dcf4f3\"><div class=\"kgl\" style=\"color:#0a7471\"><b>Purpose</b> مَفْعُولٌ لِأَجْلِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">طَلَبًا</div><div class=\"vc\" style=\"border-color:#0f9d9a;color:#0a7471\">ـً</div><div class=\"klab\" style=\"color:#0a7471\">fatha · purpose</div></div><div class=\"kw small\" style=\"border-color:#22a05a\"><div class=\"kt\">لِلْعِلْمِ</div><div class=\"vc\" style=\"border-color:#22a05a;color:#17803f\">ـِ</div><div class=\"klab\" style=\"color:#17803f\">kasra · prep</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span><bdi class=\"ab\">طَلَبًا</bdi> why did he travel? → purpose → fatha + tanween.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span><span><bdi class=\"ab\">لِلْعِلْمِ</bdi> = <bdi class=\"ab\">لِ</bdi> “for” + <bdi class=\"ab\">العِلْمِ</bdi>: after a preposition → kasra.</span></div></div><div class=\"tipbox in\"><b>Tip:</b> Object or purpose? <bdi class=\"ab\">قَرَأَ زَيْدٌ كِتَابًا</bdi>: “what did he read?” → object. <bdi class=\"ab\">وَقَفَ زَيْدٌ احْتِرَامًا</bdi>: “why did he stand?” → purpose.</div></div>"
+  },
+  {
+   "num": "8",
+   "en": "Zayd travelled in the morning.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "سَافَرَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "زَيْدٌ",
+       "k": "head",
+       "v": "ٌ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "when",
+     "ws": [
+      {
+       "t": "صَبَاحًا",
+       "k": "head",
+       "v": "ً",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "lines": [
+    {
+     "role": "when",
+     "text": "{صَبَاحًا} when did he travel? → time → fatha + tanween."
+    }
+   ],
+   "tip": null,
+   "sentence": "سَافَرَ زَيْدٌ صَبَاحًا",
+   "hidden_doer": false,
+   "html": "<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">8</span><i>“Zayd travelled in the morning.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">سَافَرَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">زَيْدٌ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـٌ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#a0612b;background:#f5e9dd\"><div class=\"kgl\" style=\"color:#7b471c\"><b>Time / place</b> مَفْعُولٌ فِيهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">صَبَاحًا</div><div class=\"vc\" style=\"border-color:#a0612b;color:#7b471c\">ـً</div><div class=\"klab\" style=\"color:#7b471c\">fatha · time/place</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time / place</span><span><bdi class=\"ab\">صَبَاحًا</bdi> when did he travel? → time → fatha + tanween.</span></div></div></div>"
+  },
+  {
+   "num": "9",
+   "en": "The boy came back in the evening.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "رَجَعَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "الوَلَدُ",
+       "k": "head",
+       "v": "ُ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "when",
+     "ws": [
+      {
+       "t": "مَسَاءً",
+       "k": "head",
+       "v": "ً",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "lines": [
+    {
+     "role": "when",
+     "text": "{مَسَاءً} when? → time → fatha + tanween. Ends in ـاء: no extra alif."
+    }
+   ],
+   "tip": null,
+   "sentence": "رَجَعَ الوَلَدُ مَسَاءً",
+   "hidden_doer": false,
+   "html": "<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">9</span><i>“The boy came back in the evening.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">رَجَعَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">الوَلَدُ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـُ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#a0612b;background:#f5e9dd\"><div class=\"kgl\" style=\"color:#7b471c\"><b>Time / place</b> مَفْعُولٌ فِيهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">مَسَاءً</div><div class=\"vc\" style=\"border-color:#a0612b;color:#7b471c\">ـً</div><div class=\"klab\" style=\"color:#7b471c\">fatha · time/place</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time / place</span><span><bdi class=\"ab\">مَسَاءً</bdi> when? → time → fatha + tanween. Ends in ـاء: no extra alif.</span></div></div></div>"
+  },
+  {
+   "num": "10",
+   "en": "The student sat in front of the teacher.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "جَلَسَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "الطَّالِبُ",
+       "k": "head",
+       "v": "ُ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "when",
+     "ws": [
+      {
+       "t": "أَمَامَ",
+       "k": "head",
+       "v": "َ",
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "المُدَرِّسِ",
+       "k": "owner",
+       "v": "ِ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "lines": [
+    {
+     "role": "when",
+     "text": "{أَمَامَ} where did he sit? → place → fatha. It is owned → no tanween."
+    },
+    {
+     "role": "owner",
+     "text": "{المُدَرِّسِ} “in front of the teacher”: owner → kasra."
+    }
+   ],
+   "tip": null,
+   "sentence": "جَلَسَ الطَّالِبُ أَمَامَ المُدَرِّسِ",
+   "hidden_doer": false,
+   "html": "<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">10</span><i>“The student sat in front of the teacher.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">جَلَسَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">الطَّالِبُ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـُ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#a0612b;background:#f5e9dd\"><div class=\"kgl\" style=\"color:#7b471c\"><b>Time / place</b> مَفْعُولٌ فِيهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">أَمَامَ</div><div class=\"vc\" style=\"border-color:#a0612b;color:#7b471c\">ـَ</div><div class=\"klab\" style=\"color:#7b471c\">fatha · time/place</div></div><div class=\"kw small\" style=\"border-color:#7b4fd6\"><div class=\"kt\">المُدَرِّسِ</div><div class=\"vc\" style=\"border-color:#7b4fd6;color:#5f36b8\">ـِ</div><div class=\"klab\" style=\"color:#5f36b8\">kasra · owner</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time / place</span><span><bdi class=\"ab\">أَمَامَ</bdi> where did he sit? → place → fatha. It is owned → no tanween.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span><bdi class=\"ab\">المُدَرِّسِ</bdi> “in front of the teacher”: owner → kasra.</span></div></div></div>"
+  },
+  {
+   "num": "11",
+   "en": "Sit under the tree!",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "اِجْلِسْ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · order",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "(أَنْتَ)",
+       "k": "hidden",
+       "v": null,
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "when",
+     "ws": [
+      {
+       "t": "تَحْتَ",
+       "k": "head",
+       "v": "َ",
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "الشَّجَرَةِ",
+       "k": "owner",
+       "v": "ِ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "lines": [
+    {
+     "role": "when",
+     "text": "{تَحْتَ} sit where? → place → fatha, owned."
+    },
+    {
+     "role": "owner",
+     "text": "{الشَّجَرَةِ} owner → kasra."
+    }
+   ],
+   "tip": null,
+   "sentence": "اِجْلِسْ تَحْتَ الشَّجَرَةِ",
+   "hidden_doer": true,
+   "html": "<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">11</span><i>“Sit under the tree!”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">اِجْلِسْ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · order</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw ghost\" style=\"border-color:#ea7a10\"><div class=\"kt\" style=\"color:#b05705\">(أَنْتَ)</div><div class=\"klab\" style=\"color:#b05705;margin-top:3px\">hidden doer</div></div></div></div><div class=\"kg\" style=\"border-color:#a0612b;background:#f5e9dd\"><div class=\"kgl\" style=\"color:#7b471c\"><b>Time / place</b> مَفْعُولٌ فِيهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">تَحْتَ</div><div class=\"vc\" style=\"border-color:#a0612b;color:#7b471c\">ـَ</div><div class=\"klab\" style=\"color:#7b471c\">fatha · time/place</div></div><div class=\"kw small\" style=\"border-color:#7b4fd6\"><div class=\"kt\">الشَّجَرَةِ</div><div class=\"vc\" style=\"border-color:#7b4fd6;color:#5f36b8\">ـِ</div><div class=\"klab\" style=\"color:#5f36b8\">kasra · owner</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time / place</span><span><bdi class=\"ab\">تَحْتَ</bdi> sit where? → place → fatha, owned.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span><bdi class=\"ab\">الشَّجَرَةِ</bdi> owner → kasra.</span></div></div></div>"
+  },
+  {
+   "num": "12",
+   "en": "Ali went out on Friday.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "خَرَجَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "عَلِيٌّ",
+       "k": "head",
+       "v": "ٌ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "when",
+     "ws": [
+      {
+       "t": "يَوْمَ",
+       "k": "head",
+       "v": "َ",
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "الجُمُعَةِ",
+       "k": "owner",
+       "v": "ِ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "lines": [
+    {
+     "role": "when",
+     "text": "{يَوْمَ} when? → time → fatha, owned (“the day of Friday”)."
+    },
+    {
+     "role": "owner",
+     "text": "{الجُمُعَةِ} owner → kasra."
+    }
+   ],
+   "tip": "No preposition = naṣb. {جَلَسَ زَيْدٌ أَمَامَ البَيْتِ}: {أَمَامَ} → fatha. {جَلَسَ زَيْدٌ فِي البَيْتِ}: there is a preposition, so {البَيْتِ} → kasra.",
+   "sentence": "خَرَجَ عَلِيٌّ يَوْمَ الجُمُعَةِ",
+   "hidden_doer": false,
+   "html": "<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">12</span><i>“Ali went out on Friday.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">خَرَجَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">عَلِيٌّ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـٌ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#a0612b;background:#f5e9dd\"><div class=\"kgl\" style=\"color:#7b471c\"><b>Time / place</b> مَفْعُولٌ فِيهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">يَوْمَ</div><div class=\"vc\" style=\"border-color:#a0612b;color:#7b471c\">ـَ</div><div class=\"klab\" style=\"color:#7b471c\">fatha · time/place</div></div><div class=\"kw small\" style=\"border-color:#7b4fd6\"><div class=\"kt\">الجُمُعَةِ</div><div class=\"vc\" style=\"border-color:#7b4fd6;color:#5f36b8\">ـِ</div><div class=\"klab\" style=\"color:#5f36b8\">kasra · owner</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time / place</span><span><bdi class=\"ab\">يَوْمَ</bdi> when? → time → fatha, owned (“the day of Friday”).</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span><bdi class=\"ab\">الجُمُعَةِ</bdi> owner → kasra.</span></div></div><div class=\"tipbox in\"><b>Tip:</b> No preposition = naṣb. <bdi class=\"ab\">جَلَسَ زَيْدٌ أَمَامَ البَيْتِ</bdi>: <bdi class=\"ab\">أَمَامَ</bdi> → fatha. <bdi class=\"ab\">جَلَسَ زَيْدٌ فِي البَيْتِ</bdi>: there is a preposition, so <bdi class=\"ab\">البَيْتِ</bdi> → kasra.</div></div>"
+  },
+  {
+   "num": "13",
+   "en": "Zayd came hurrying.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "جَاءَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "زَيْدٌ",
+       "k": "head",
+       "v": "ٌ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "state",
+     "ws": [
+      {
+       "t": "مُسْرِعًا",
+       "k": "head",
+       "v": "ً",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "lines": [
+    {
+     "role": "state",
+     "text": "{مُسْرِعًا} how did he come? → state → fatha + tanween."
+    }
+   ],
+   "tip": null,
+   "sentence": "جَاءَ زَيْدٌ مُسْرِعًا",
+   "hidden_doer": false,
+   "html": "<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">13</span><i>“Zayd came hurrying.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">جَاءَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">زَيْدٌ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـٌ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#6b8e23;background:#edf4dc\"><div class=\"kgl\" style=\"color:#4c6810\"><b>State</b> حَال</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">مُسْرِعًا</div><div class=\"vc\" style=\"border-color:#6b8e23;color:#4c6810\">ـً</div><div class=\"klab\" style=\"color:#4c6810\">fatha · state</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span><bdi class=\"ab\">مُسْرِعًا</bdi> how did he come? → state → fatha + tanween.</span></div></div></div>"
+  },
+  {
+   "num": "14",
+   "en": "The boy came back happy.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "رَجَعَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "الوَلَدُ",
+       "k": "head",
+       "v": "ُ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "state",
+     "ws": [
+      {
+       "t": "فَرِحًا",
+       "k": "head",
+       "v": "ً",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "lines": [
+    {
+     "role": "state",
+     "text": "{فَرِحًا} how did he come back? → state → fatha + tanween."
+    }
+   ],
+   "tip": null,
+   "sentence": "رَجَعَ الوَلَدُ فَرِحًا",
+   "hidden_doer": false,
+   "html": "<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">14</span><i>“The boy came back happy.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">رَجَعَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">الوَلَدُ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـُ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#6b8e23;background:#edf4dc\"><div class=\"kgl\" style=\"color:#4c6810\"><b>State</b> حَال</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">فَرِحًا</div><div class=\"vc\" style=\"border-color:#6b8e23;color:#4c6810\">ـً</div><div class=\"klab\" style=\"color:#4c6810\">fatha · state</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span><bdi class=\"ab\">فَرِحًا</bdi> how did he come back? → state → fatha + tanween.</span></div></div></div>"
+  },
+  {
+   "num": "15",
+   "en": "The student entered the class smiling.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "دَخَلَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "الطَّالِبُ",
+       "k": "head",
+       "v": "ُ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "obj",
+     "ws": [
+      {
+       "t": "الصَّفَّ",
+       "k": "head",
+       "v": "َ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "state",
+     "ws": [
+      {
+       "t": "مُبْتَسِمًا",
+       "k": "head",
+       "v": "ً",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "lines": [
+    {
+     "role": "obj",
+     "text": "{الصَّفَّ} entered what? → object → fatha."
+    },
+    {
+     "role": "state",
+     "text": "{مُبْتَسِمًا} how did he enter? → state → fatha + tanween."
+    }
+   ],
+   "tip": null,
+   "sentence": "دَخَلَ الطَّالِبُ الصَّفَّ مُبْتَسِمًا",
+   "hidden_doer": false,
+   "html": "<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">15</span><i>“The student entered the class smiling.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">دَخَلَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">الطَّالِبُ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـُ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">الصَّفَّ</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـَ</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div></div></div><div class=\"kg\" style=\"border-color:#6b8e23;background:#edf4dc\"><div class=\"kgl\" style=\"color:#4c6810\"><b>State</b> حَال</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">مُبْتَسِمًا</div><div class=\"vc\" style=\"border-color:#6b8e23;color:#4c6810\">ـً</div><div class=\"klab\" style=\"color:#4c6810\">fatha · state</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span><bdi class=\"ab\">الصَّفَّ</bdi> entered what? → object → fatha.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span><bdi class=\"ab\">مُبْتَسِمًا</bdi> how did he enter? → state → fatha + tanween.</span></div></div></div>"
+  },
+  {
+   "num": "16",
+   "en": "Drink the water cold!",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "اِشْرَبِ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · order",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "(أَنْتَ)",
+       "k": "hidden",
+       "v": null,
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "obj",
+     "ws": [
+      {
+       "t": "المَاءَ",
+       "k": "head",
+       "v": "َ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "state",
+     "ws": [
+      {
+       "t": "بَارِدًا",
+       "k": "head",
+       "v": "ً",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "lines": [
+    {
+     "role": "obj",
+     "text": "{المَاءَ} drink what? → object → fatha."
+    },
+    {
+     "role": "state",
+     "text": "{بَارِدًا} the state of the water → state → fatha + tanween."
+    }
+   ],
+   "tip": "State or adjective? {جَاءَ الطَّالِبُ المُسْرِعُ} “the hurrying student came”: adjective, has ال, copies damma. {جَاءَ الطَّالِبُ مُسْرِعًا} “the student came hurrying”: state, no ال, naṣb.",
+   "sentence": "اِشْرَبِ المَاءَ بَارِدًا",
+   "hidden_doer": true,
+   "html": "<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">16</span><i>“Drink the water cold!”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">اِشْرَبِ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · order</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw ghost\" style=\"border-color:#ea7a10\"><div class=\"kt\" style=\"color:#b05705\">(أَنْتَ)</div><div class=\"klab\" style=\"color:#b05705;margin-top:3px\">hidden doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">المَاءَ</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـَ</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div></div></div><div class=\"kg\" style=\"border-color:#6b8e23;background:#edf4dc\"><div class=\"kgl\" style=\"color:#4c6810\"><b>State</b> حَال</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">بَارِدًا</div><div class=\"vc\" style=\"border-color:#6b8e23;color:#4c6810\">ـً</div><div class=\"klab\" style=\"color:#4c6810\">fatha · state</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span><bdi class=\"ab\">المَاءَ</bdi> drink what? → object → fatha.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span><bdi class=\"ab\">بَارِدًا</bdi> the state of the water → state → fatha + tanween.</span></div></div><div class=\"tipbox in\"><b>Tip:</b> State or adjective? <bdi class=\"ab\">جَاءَ الطَّالِبُ المُسْرِعُ</bdi> “the hurrying student came”: adjective, has ال, copies damma. <bdi class=\"ab\">جَاءَ الطَّالِبُ مُسْرِعًا</bdi> “the student came hurrying”: state, no ال, naṣb.</div></div>"
+  },
+  {
+   "num": "17",
+   "en": "Zayd read a new book.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "قَرَأَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "زَيْدٌ",
+       "k": "head",
+       "v": "ٌ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "obj",
+     "ws": [
+      {
+       "t": "كِتَابًا",
+       "k": "head",
+       "v": "ً",
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "جَدِيدًا",
+       "k": "adj",
+       "v": "ً",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "lines": [
+    {
+     "role": "obj",
+     "text": "{كِتَابًا} object → fatha + tanween."
+    },
+    {
+     "role": "adj",
+     "text": "{جَدِيدًا} describes {كِتَابًا} → copies: fatha + tanween."
+    }
+   ],
+   "tip": null,
+   "sentence": "قَرَأَ زَيْدٌ كِتَابًا جَدِيدًا",
+   "hidden_doer": false,
+   "html": "<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">17</span><i>“Zayd read a new book.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">قَرَأَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">زَيْدٌ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـٌ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">كِتَابًا</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـً</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div><div class=\"kw small\" style=\"border-color:#7d858e\"><div class=\"kt\">جَدِيدًا</div><div class=\"vc\" style=\"border-color:#7d858e;color:#5a626b\">ـً</div><div class=\"klab\" style=\"color:#5a626b\">fatha · adj</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span><bdi class=\"ab\">كِتَابًا</bdi> object → fatha + tanween.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adjective</span><span><bdi class=\"ab\">جَدِيدًا</bdi> describes <bdi class=\"ab\">كِتَابًا</bdi> → copies: fatha + tanween.</span></div></div></div>"
+  },
+  {
+   "num": "18",
+   "en": "The student wrote the lesson and the homework.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "كَتَبَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "الطَّالِبُ",
+       "k": "head",
+       "v": "ُ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "obj",
+     "ws": [
+      {
+       "t": "الدَّرْسَ",
+       "k": "head",
+       "v": "َ",
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "وَالوَاجِبَ",
+       "k": "and",
+       "v": "َ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "lines": [
+    {
+     "role": "obj",
+     "text": "{الدَّرْسَ} object → fatha."
+    },
+    {
+     "role": "and",
+     "text": "{الوَاجِبَ} comes after وَ → copies {الدَّرْسَ}: fatha."
+    }
+   ],
+   "tip": null,
+   "sentence": "كَتَبَ الطَّالِبُ الدَّرْسَ وَالوَاجِبَ",
+   "hidden_doer": false,
+   "html": "<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">18</span><i>“The student wrote the lesson and the homework.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">كَتَبَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">الطَّالِبُ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـُ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">الدَّرْسَ</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـَ</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div><div class=\"kw small\" style=\"border-color:#2f7fe0\"><div class=\"kt\">وَالوَاجِبَ</div><div class=\"vc\" style=\"border-color:#2f7fe0;color:#1f64bd\">ـَ</div><div class=\"klab\" style=\"color:#1f64bd\">fatha · and</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span><bdi class=\"ab\">الدَّرْسَ</bdi> object → fatha.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ (and)</span><span><bdi class=\"ab\">الوَاجِبَ</bdi> comes after وَ → copies <bdi class=\"ab\">الدَّرْسَ</bdi>: fatha.</span></div></div></div>"
+  },
+  {
+   "num": "19",
+   "en": "The teacher opened the door in the morning.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "فَتَحَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "المُدَرِّسُ",
+       "k": "head",
+       "v": "ُ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "obj",
+     "ws": [
+      {
+       "t": "البَابَ",
+       "k": "head",
+       "v": "َ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "when",
+     "ws": [
+      {
+       "t": "صَبَاحًا",
+       "k": "head",
+       "v": "ً",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "lines": [
+    {
+     "role": "doer",
+     "text": "{المُدَرِّسُ} who opened? → doer → damma."
+    },
+    {
+     "role": "obj",
+     "text": "{البَابَ} opened what? → object → fatha."
+    },
+    {
+     "role": "when",
+     "text": "{صَبَاحًا} when? → time → fatha + tanween."
+    }
+   ],
+   "tip": null,
+   "sentence": "فَتَحَ المُدَرِّسُ البَابَ صَبَاحًا",
+   "hidden_doer": false,
+   "html": "<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">19</span><i>“The teacher opened the door in the morning.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">فَتَحَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">المُدَرِّسُ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـُ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">البَابَ</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـَ</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div></div></div><div class=\"kg\" style=\"border-color:#a0612b;background:#f5e9dd\"><div class=\"kgl\" style=\"color:#7b471c\"><b>Time / place</b> مَفْعُولٌ فِيهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">صَبَاحًا</div><div class=\"vc\" style=\"border-color:#a0612b;color:#7b471c\">ـً</div><div class=\"klab\" style=\"color:#7b471c\">fatha · time/place</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span><bdi class=\"ab\">المُدَرِّسُ</bdi> who opened? → doer → damma.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span><bdi class=\"ab\">البَابَ</bdi> opened what? → object → fatha.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time / place</span><span><bdi class=\"ab\">صَبَاحًا</bdi> when? → time → fatha + tanween.</span></div></div></div>"
+  },
+  {
+   "num": "20",
+   "en": "Ali travelled at night seeking knowledge.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "سَافَرَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "عَلِيٌّ",
+       "k": "head",
+       "v": "ٌ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "when",
+     "ws": [
+      {
+       "t": "لَيْلًا",
+       "k": "head",
+       "v": "ً",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "purp",
+     "ws": [
+      {
+       "t": "طَلَبًا",
+       "k": "head",
+       "v": "ً",
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "لِلْعِلْمِ",
+       "k": "prep",
+       "v": "ِ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "lines": [
+    {
+     "role": "when",
+     "text": "{لَيْلًا} when? → time → fatha + tanween."
+    },
+    {
+     "role": "purp",
+     "text": "{طَلَبًا} why? → purpose → fatha + tanween."
+    },
+    {
+     "role": "prep",
+     "text": "{لِلْعِلْمِ} after {لِ} → kasra."
+    }
+   ],
+   "tip": null,
+   "sentence": "سَافَرَ عَلِيٌّ لَيْلًا طَلَبًا لِلْعِلْمِ",
+   "hidden_doer": false,
+   "html": "<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">20</span><i>“Ali travelled at night seeking knowledge.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">سَافَرَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">عَلِيٌّ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـٌ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#a0612b;background:#f5e9dd\"><div class=\"kgl\" style=\"color:#7b471c\"><b>Time / place</b> مَفْعُولٌ فِيهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">لَيْلًا</div><div class=\"vc\" style=\"border-color:#a0612b;color:#7b471c\">ـً</div><div class=\"klab\" style=\"color:#7b471c\">fatha · time/place</div></div></div></div><div class=\"kg\" style=\"border-color:#0f9d9a;background:#dcf4f3\"><div class=\"kgl\" style=\"color:#0a7471\"><b>Purpose</b> مَفْعُولٌ لِأَجْلِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">طَلَبًا</div><div class=\"vc\" style=\"border-color:#0f9d9a;color:#0a7471\">ـً</div><div class=\"klab\" style=\"color:#0a7471\">fatha · purpose</div></div><div class=\"kw small\" style=\"border-color:#22a05a\"><div class=\"kt\">لِلْعِلْمِ</div><div class=\"vc\" style=\"border-color:#22a05a;color:#17803f\">ـِ</div><div class=\"klab\" style=\"color:#17803f\">kasra · prep</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time / place</span><span><bdi class=\"ab\">لَيْلًا</bdi> when? → time → fatha + tanween.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span><bdi class=\"ab\">طَلَبًا</bdi> why? → purpose → fatha + tanween.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span><span><bdi class=\"ab\">لِلْعِلْمِ</bdi> after <bdi class=\"ab\">لِ</bdi> → kasra.</span></div></div></div>"
+  },
+  {
+   "num": "21",
+   "en": "The hardworking student sat in front of the teacher, smiling.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "جَلَسَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "الطَّالِبُ",
+       "k": "head",
+       "v": "ُ",
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "المُجْتَهِدُ",
+       "k": "adj",
+       "v": "ُ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "when",
+     "ws": [
+      {
+       "t": "أَمَامَ",
+       "k": "head",
+       "v": "َ",
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "المُدَرِّسِ",
+       "k": "owner",
+       "v": "ِ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "state",
+     "ws": [
+      {
+       "t": "مُبْتَسِمًا",
+       "k": "head",
+       "v": "ً",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "lines": [
+    {
+     "role": "doer",
+     "text": "{الطَّالِبُ} doer → damma."
+    },
+    {
+     "role": "adj",
+     "text": "{المُجْتَهِدُ} describes the doer → copies damma."
+    },
+    {
+     "role": "when",
+     "text": "{أَمَامَ} where? → place → fatha, owned."
+    },
+    {
+     "role": "owner",
+     "text": "{المُدَرِّسِ} owner → kasra."
+    },
+    {
+     "role": "state",
+     "text": "{مُبْتَسِمًا} how? → state → fatha + tanween."
+    }
+   ],
+   "tip": "This one uses almost every colour. Verb and doer first, then ask what / why / when / where / how for the rest.",
+   "sentence": "جَلَسَ الطَّالِبُ المُجْتَهِدُ أَمَامَ المُدَرِّسِ مُبْتَسِمًا",
+   "hidden_doer": false,
+   "html": "<div class=\"ex\"><div class=\"exh\"><span class=\"qn\">21</span><i>“The hardworking student sat in front of the teacher, smiling.”</i></div><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">جَلَسَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">الطَّالِبُ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـُ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div><div class=\"kw small\" style=\"border-color:#7d858e\"><div class=\"kt\">المُجْتَهِدُ</div><div class=\"vc\" style=\"border-color:#7d858e;color:#5a626b\">ـُ</div><div class=\"klab\" style=\"color:#5a626b\">damma · adj</div></div></div></div><div class=\"kg\" style=\"border-color:#a0612b;background:#f5e9dd\"><div class=\"kgl\" style=\"color:#7b471c\"><b>Time / place</b> مَفْعُولٌ فِيهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">أَمَامَ</div><div class=\"vc\" style=\"border-color:#a0612b;color:#7b471c\">ـَ</div><div class=\"klab\" style=\"color:#7b471c\">fatha · time/place</div></div><div class=\"kw small\" style=\"border-color:#7b4fd6\"><div class=\"kt\">المُدَرِّسِ</div><div class=\"vc\" style=\"border-color:#7b4fd6;color:#5f36b8\">ـِ</div><div class=\"klab\" style=\"color:#5f36b8\">kasra · owner</div></div></div></div><div class=\"kg\" style=\"border-color:#6b8e23;background:#edf4dc\"><div class=\"kgl\" style=\"color:#4c6810\"><b>State</b> حَال</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">مُبْتَسِمًا</div><div class=\"vc\" style=\"border-color:#6b8e23;color:#4c6810\">ـً</div><div class=\"klab\" style=\"color:#4c6810\">fatha · state</div></div></div></div></div><div class=\"xls\"><div class=\"xl\"><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span><bdi class=\"ab\">الطَّالِبُ</bdi> doer → damma.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adjective</span><span><bdi class=\"ab\">المُجْتَهِدُ</bdi> describes the doer → copies damma.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time / place</span><span><bdi class=\"ab\">أَمَامَ</bdi> where? → place → fatha, owned.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span><bdi class=\"ab\">المُدَرِّسِ</bdi> owner → kasra.</span></div><div class=\"xl\"><span class=\"pill\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span><bdi class=\"ab\">مُبْتَسِمًا</bdi> how? → state → fatha + tanween.</span></div></div><div class=\"tipbox in\"><b>Tip:</b> This one uses almost every colour. Verb and doer first, then ask what / why / when / where / how for the rest.</div></div>"
+  }
+ ],
+ "practice": [
+  {
+   "en": "The boy drank the milk.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "شَرِبَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "الوَلَدُ",
+       "k": "head",
+       "v": "ُ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "obj",
+     "ws": [
+      {
+       "t": "الحَلِيبَ",
+       "k": "head",
+       "v": "َ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "sentence": "شَرِبَ الوَلَدُ الحَلِيبَ",
+   "stems": [
+    "شَرِبَ",
+    "الوَلَد",
+    "الحَلِيب"
+   ]
+  },
+  {
+   "en": "Read a book!",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "اِقْرَأْ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · order",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "(أَنْتَ)",
+       "k": "hidden",
+       "v": null,
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "obj",
+     "ws": [
+      {
+       "t": "كِتَابًا",
+       "k": "head",
+       "v": "ً",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "sentence": "اِقْرَأْ كِتَابًا",
+   "stems": [
+    "اِقْرَأْ",
+    "كِتَاب"
+   ]
+  },
+  {
+   "en": "Zayd went out in the evening.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "خَرَجَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "زَيْدٌ",
+       "k": "head",
+       "v": "ٌ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "when",
+     "ws": [
+      {
+       "t": "مَسَاءً",
+       "k": "head",
+       "v": "ً",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "sentence": "خَرَجَ زَيْدٌ مَسَاءً",
+   "stems": [
+    "خَرَجَ",
+    "زَيْد",
+    "مَسَاء"
+   ]
+  },
+  {
+   "en": "The boy stood up out of respect.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "وَقَفَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "الوَلَدُ",
+       "k": "head",
+       "v": "ُ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "purp",
+     "ws": [
+      {
+       "t": "احْتِرَامًا",
+       "k": "head",
+       "v": "ً",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "sentence": "وَقَفَ الوَلَدُ احْتِرَامًا",
+   "stems": [
+    "وَقَفَ",
+    "الوَلَد",
+    "احْتِرَام"
+   ]
+  },
+  {
+   "en": "The teacher entered the class smiling.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "دَخَلَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "المُدَرِّسُ",
+       "k": "head",
+       "v": "ُ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "obj",
+     "ws": [
+      {
+       "t": "الصَّفَّ",
+       "k": "head",
+       "v": "َ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "state",
+     "ws": [
+      {
+       "t": "مُبْتَسِمًا",
+       "k": "head",
+       "v": "ً",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "sentence": "دَخَلَ المُدَرِّسُ الصَّفَّ مُبْتَسِمًا",
+   "stems": [
+    "دَخَلَ",
+    "المُدَرِّس",
+    "الصَّفّ",
+    "مُبْتَسِم"
+   ]
+  },
+  {
+   "en": "Sit in front of the teacher!",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "اِجْلِسْ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · order",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "(أَنْتَ)",
+       "k": "hidden",
+       "v": null,
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "when",
+     "ws": [
+      {
+       "t": "أَمَامَ",
+       "k": "head",
+       "v": "َ",
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "المُدَرِّسِ",
+       "k": "owner",
+       "v": "ِ",
+       "lab": null,
+       "ref": "أَمَامَ"
+      }
+     ]
+    }
+   ],
+   "sentence": "اِجْلِسْ أَمَامَ المُدَرِّسِ",
+   "stems": [
+    "اِجْلِسْ",
+    "أَمَام",
+    "المُدَرِّس"
+   ]
+  },
+  {
+   "en": "The student read a new book.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "قَرَأَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "الطَّالِبُ",
+       "k": "head",
+       "v": "ُ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "obj",
+     "ws": [
+      {
+       "t": "كِتَابًا",
+       "k": "head",
+       "v": "ً",
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "جَدِيدًا",
+       "k": "adj",
+       "v": "ً",
+       "lab": null,
+       "ref": "كِتَابًا"
+      }
+     ]
+    }
+   ],
+   "sentence": "قَرَأَ الطَّالِبُ كِتَابًا جَدِيدًا",
+   "stems": [
+    "قَرَأَ",
+    "الطَّالِب",
+    "كِتَاب",
+    "جَدِيد"
+   ]
+  },
+  {
+   "en": "Zayd and Ali sat under the tree.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "جَلَسَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "زَيْدٌ",
+       "k": "head",
+       "v": "ٌ",
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "وَعَلِيٌّ",
+       "k": "and",
+       "v": "ٌ",
+       "lab": null,
+       "ref": "زَيْدٌ"
+      }
+     ]
+    },
+    {
+     "role": "when",
+     "ws": [
+      {
+       "t": "تَحْتَ",
+       "k": "head",
+       "v": "َ",
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "الشَّجَرَةِ",
+       "k": "owner",
+       "v": "ِ",
+       "lab": null,
+       "ref": "تَحْتَ"
+      }
+     ]
+    }
+   ],
+   "sentence": "جَلَسَ زَيْدٌ وَعَلِيٌّ تَحْتَ الشَّجَرَةِ",
+   "stems": [
+    "جَلَسَ",
+    "زَيْد",
+    "وَعَلِيّ",
+    "تَحْت",
+    "الشَّجَرَة"
+   ]
+  }
+ ],
+ "practice_heading": "<h2 class=\"nomt\"><span class=\"num\">12</span>Your turn</h2><p class=\"sub\">Eight sentences. Every ending is missing. Work alone, then check with a partner and the answer key.</p>",
+ "fragments": {
+  "cases": "<div class=\"cases\"><div class=\"case done\"><span class=\"cl\">A</span><div class=\"cm\">ـُ</div><div class=\"ca\">رَفْع</div><div class=\"ce\">rafʿ · damma</div><div class=\"cs\">Learned ✓</div></div><div class=\"case now\"><span class=\"cl\">B</span><div class=\"cm\">ـَ</div><div class=\"ca\">نَصْب</div><div class=\"ce\">naṣb · fatha</div><div class=\"cs\">Today</div></div><div class=\"case done\"><span class=\"cl\">C</span><div class=\"cm\">ـِ</div><div class=\"ca\">جَرّ</div><div class=\"ce\">jarr · kasra</div><div class=\"cs\">Learned ✓</div></div><div class=\"case later\"><span class=\"cl\">D</span><div class=\"cm\">ـْ</div><div class=\"ca\">جَزْم</div><div class=\"ce\">jazm · sukūn</div><div class=\"cs\">Later (verbs)</div></div></div>",
+  "sign_rules": "\n<div class=\"signs\">\n  <div class=\"sg\"><div class=\"sgt\">With ال, or owned</div><div class=\"sga\"><bdi>الدَّرْسَ</bdi> · <bdi>كِتَابَ المُدَرِّسِ</bdi></div><div class=\"sgd\">One fatha only: <b>ـَ</b></div></div>\n  <div class=\"sg\"><div class=\"sgt\">No ال</div><div class=\"sga\"><bdi>كِتَابًا</bdi> · <bdi>صَبَاحًا</bdi></div><div class=\"sgd\">Fatha + tanween <b>ـً</b>, written with an extra alif <b>ـًا</b></div></div>\n  <div class=\"sg\"><div class=\"sgt\">Except after ة or ـاء</div><div class=\"sga\"><bdi>رَغْبَةً</bdi> · <bdi>مَسَاءً</bdi></div><div class=\"sgd\">Fatha + tanween, <b>no</b> extra alif</div></div>\n</div>",
+  "colour_key": "<div class=\"kkgrid\"><div class=\"kk\" style=\"border-left-color:#3a5a85;background:#e8eef6\"><div class=\"kkt\"><span style=\"color:#2b4668\"><span class=\"dot\" style=\"background:#3a5a85\"></span>Verb</span><span class=\"kkar\">فِعْل</span></div><div class=\"kkr\" style=\"color:#2b4668\">fixed —</div><div class=\"kkd\">The action. Past and order verbs never change.</div></div><div class=\"kk\" style=\"border-left-color:#ea7a10;background:#fff0df\"><div class=\"kkt\"><span style=\"color:#b05705\"><span class=\"dot\" style=\"background:#ea7a10\"></span>Doer</span><span class=\"kkar\">فَاعِل</span></div><div class=\"kkr\" style=\"color:#b05705\">ـُ / ـٌ  رَفْع</div><div class=\"kkd\">Who did the action.</div></div><div class=\"kk\" style=\"border-left-color:#d63384;background:#fde6f1\"><div class=\"kkt\"><span style=\"color:#a61e62\"><span class=\"dot\" style=\"background:#d63384\"></span>Object</span><span class=\"kkar\">مَفْعُولٌ بِهِ</span></div><div class=\"kkr\" style=\"color:#a61e62\">ـَ / ـً  نَصْب</div><div class=\"kkd\">What? Whom? The thing the action falls on.</div></div><div class=\"kk\" style=\"border-left-color:#0f9d9a;background:#dcf4f3\"><div class=\"kkt\"><span style=\"color:#0a7471\"><span class=\"dot\" style=\"background:#0f9d9a\"></span>Purpose</span><span class=\"kkar\">مَفْعُولٌ لِأَجْلِهِ</span></div><div class=\"kkr\" style=\"color:#0a7471\">ـَ / ـً  نَصْب</div><div class=\"kkd\">Why? The reason for the action.</div></div><div class=\"kk\" style=\"border-left-color:#a0612b;background:#f5e9dd\"><div class=\"kkt\"><span style=\"color:#7b471c\"><span class=\"dot\" style=\"background:#a0612b\"></span>Time / place</span><span class=\"kkar\">مَفْعُولٌ فِيهِ</span></div><div class=\"kkr\" style=\"color:#7b471c\">ـَ / ـً  نَصْب</div><div class=\"kkd\">When? Where? With no preposition.</div></div><div class=\"kk\" style=\"border-left-color:#6b8e23;background:#edf4dc\"><div class=\"kkt\"><span style=\"color:#4c6810\"><span class=\"dot\" style=\"background:#6b8e23\"></span>State</span><span class=\"kkar\">حَال</span></div><div class=\"kkr\" style=\"color:#4c6810\">ـَ / ـً  نَصْب</div><div class=\"kkd\">How? The state of the doer or object.</div></div></div><div class=\"oldrow\"><b>Small boxes from last lesson still work:</b> <span class=\"oldc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span><span class=\"oldc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span class=\"oldc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adjective</span><span class=\"oldc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ (and)</span></div>",
+  "glance": "<table class=\"glance\"><tr><th>Job</th><th>Ask</th><th>Example</th></tr><tr><td><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><div class=\"garr\">مَفْعُولٌ بِهِ</div></td><td><b>What? Whom?</b><div class=\"gd\">The thing the action falls on.</div></td><td class=\"gex\" dir=\"rtl\">كَتَبَ الطَّالِبُ الدَّرْسَ</td></tr><tr><td><span class=\"pill\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><div class=\"garr\">مَفْعُولٌ لِأَجْلِهِ</div></td><td><b>Why?</b><div class=\"gd\">The reason. Usually an action noun with tanween.</div></td><td class=\"gex\" dir=\"rtl\">وَقَفَ الطَّالِبُ احْتِرَامًا</td></tr><tr><td><span class=\"pill\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time / place</span><div class=\"garr\">مَفْعُولٌ فِيهِ</div></td><td><b>When? Where?</b><div class=\"gd\">A time or place word, with no preposition.</div></td><td class=\"gex\" dir=\"rtl\">سَافَرَ زَيْدٌ صَبَاحًا</td></tr><tr><td><span class=\"pill\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><div class=\"garr\">حَال</div></td><td><b>How?</b><div class=\"gd\">The state of the doer or object. No ال.</div></td><td class=\"gex\" dir=\"rtl\">جَاءَ زَيْدٌ مُسْرِعًا</td></tr></table>"
+ }
+}

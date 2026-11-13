@@ -1,0 +1,548 @@
+{
+ "segments": [
+  {
+   "id": "c08-title-01",
+   "scene": "c08-title",
+   "lang": "en",
+   "text": "Chapter eight. Time or place.",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c08-title-02",
+   "scene": "c08-title",
+   "lang": "ar",
+   "text": "مَفْعُولٌ فِيهِ",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c08-rule-01",
+   "scene": "c08-rule",
+   "lang": "en",
+   "text": "A time or place word tells us when or where the action happened.",
+   "pause": 0.25,
+   "cues": [
+    "show",
+    "hl:when or where the action happened"
+   ]
+  },
+  {
+   "id": "c08-rule-02",
+   "scene": "c08-rule",
+   "lang": "en",
+   "text": "It has no preposition.",
+   "pause": 0.25,
+   "cues": [
+    "hl:with no preposition"
+   ]
+  },
+  {
+   "id": "c08-rule-03",
+   "scene": "c08-rule",
+   "lang": "en",
+   "text": "Ask when, or where.",
+   "pause": 0.3,
+   "cues": [
+    "hl:Ask “when?” or “where?”"
+   ]
+  },
+  {
+   "id": "c08-rule-04",
+   "scene": "c08-rule",
+   "lang": "en",
+   "text": "Time or place takes naṣb, so it ends in fatha.",
+   "pause": 0.5,
+   "cues": [
+    "hl:Time/place → naṣb, fatha"
+   ]
+  },
+  {
+   "id": "c08-ex8-01",
+   "scene": "c08-ex8",
+   "lang": "en",
+   "text": "Example eight. Zayd travelled in the morning.",
+   "pause": 0.4,
+   "cues": [
+    "en"
+   ]
+  },
+  {
+   "id": "c08-ex8-02",
+   "scene": "c08-ex8",
+   "lang": "ar",
+   "text": "سَافَرَ زَيْدٌ صَبَاحًا",
+   "pause": 0.6,
+   "cues": [
+    "sentence"
+   ]
+  },
+  {
+   "id": "c08-ex8-03",
+   "scene": "c08-ex8",
+   "lang": "en",
+   "text": "First, the verb. Travelled. It is a past verb, so it is fixed.",
+   "pause": 0.3,
+   "cues": [
+    "group:0"
+   ]
+  },
+  {
+   "id": "c08-ex8-04",
+   "scene": "c08-ex8",
+   "lang": "en",
+   "text": "Who travelled?",
+   "pause": 0.5,
+   "cues": [
+    "ask:1"
+   ]
+  },
+  {
+   "id": "c08-ex8-05",
+   "scene": "c08-ex8",
+   "lang": "ar",
+   "text": "زَيْدٌ",
+   "pause": 0.3,
+   "cues": [
+    "group:1",
+    "vowel:1"
+   ]
+  },
+  {
+   "id": "c08-ex8-06",
+   "scene": "c08-ex8",
+   "lang": "en",
+   "text": "Zayd. That is the doer, so it takes damma.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c08-ex8-07",
+   "scene": "c08-ex8",
+   "lang": "en",
+   "text": "When did he travel?",
+   "pause": 0.6,
+   "cues": [
+    "ask:2"
+   ]
+  },
+  {
+   "id": "c08-ex8-08",
+   "scene": "c08-ex8",
+   "lang": "ar",
+   "text": "صَبَاحًا",
+   "pause": 0.3,
+   "cues": [
+    "group:2",
+    "vowel:2"
+   ]
+  },
+  {
+   "id": "c08-ex8-09",
+   "scene": "c08-ex8",
+   "lang": "en",
+   "text": "In the morning. That is time, so it takes fatha with tanween.",
+   "pause": 0.4,
+   "cues": [
+    "line:0"
+   ]
+  },
+  {
+   "id": "c08-ex8-10",
+   "scene": "c08-ex8",
+   "lang": "en",
+   "text": "Listen to the ending once more.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c08-ex8-11",
+   "scene": "c08-ex8",
+   "lang": "ar",
+   "text": "سَافَرَ زَيْدٌ صَبَاحًا",
+   "pause": 0.7,
+   "cues": [
+    "read:2"
+   ]
+  },
+  {
+   "id": "c08-ex9-01",
+   "scene": "c08-ex9",
+   "lang": "en",
+   "text": "Example nine. The boy came back in the evening.",
+   "pause": 0.4,
+   "cues": [
+    "en"
+   ]
+  },
+  {
+   "id": "c08-ex9-02",
+   "scene": "c08-ex9",
+   "lang": "ar",
+   "text": "رَجَعَ الوَلَدُ مَسَاءً",
+   "pause": 0.5,
+   "cues": [
+    "sentence"
+   ]
+  },
+  {
+   "id": "c08-ex9-03",
+   "scene": "c08-ex9",
+   "lang": "en",
+   "text": "The verb is fixed, and the doer takes damma.",
+   "pause": 0.25,
+   "cues": [
+    "group:0",
+    "group:1",
+    "vowel:1"
+   ]
+  },
+  {
+   "id": "c08-ex9-04",
+   "scene": "c08-ex9",
+   "lang": "en",
+   "text": "When did he come back?",
+   "pause": 0.5,
+   "cues": [
+    "ask:2"
+   ]
+  },
+  {
+   "id": "c08-ex9-05",
+   "scene": "c08-ex9",
+   "lang": "ar",
+   "text": "مَسَاءً",
+   "pause": 0.3,
+   "cues": [
+    "group:2",
+    "vowel:2"
+   ]
+  },
+  {
+   "id": "c08-ex9-06",
+   "scene": "c08-ex9",
+   "lang": "en",
+   "text": "In the evening. Time, so fatha with tanween.",
+   "pause": 0.25,
+   "cues": [
+    "line:0"
+   ]
+  },
+  {
+   "id": "c08-ex9-07",
+   "scene": "c08-ex9",
+   "lang": "en",
+   "text": "It ends in alif and hamza, so no extra alif.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c08-ex10-01",
+   "scene": "c08-ex10",
+   "lang": "en",
+   "text": "Example ten. The student sat in front of the teacher.",
+   "pause": 0.4,
+   "cues": [
+    "en"
+   ]
+  },
+  {
+   "id": "c08-ex10-02",
+   "scene": "c08-ex10",
+   "lang": "ar",
+   "text": "جَلَسَ الطَّالِبُ أَمَامَ المُدَرِّسِ",
+   "pause": 0.5,
+   "cues": [
+    "sentence"
+   ]
+  },
+  {
+   "id": "c08-ex10-03",
+   "scene": "c08-ex10",
+   "lang": "en",
+   "text": "The verb is fixed, and the doer takes damma.",
+   "pause": 0.25,
+   "cues": [
+    "group:0",
+    "group:1",
+    "vowel:1"
+   ]
+  },
+  {
+   "id": "c08-ex10-04",
+   "scene": "c08-ex10",
+   "lang": "en",
+   "text": "Where did he sit?",
+   "pause": 0.5,
+   "cues": [
+    "ask:2"
+   ]
+  },
+  {
+   "id": "c08-ex10-05",
+   "scene": "c08-ex10",
+   "lang": "ar",
+   "text": "أَمَامَ",
+   "pause": 0.3,
+   "cues": [
+    "group:2",
+    "vowel:2"
+   ]
+  },
+  {
+   "id": "c08-ex10-06",
+   "scene": "c08-ex10",
+   "lang": "en",
+   "text": "In front of. Place, so fatha. It is owned, so no tanween.",
+   "pause": 0.4,
+   "cues": [
+    "line:0"
+   ]
+  },
+  {
+   "id": "c08-ex10-07",
+   "scene": "c08-ex10",
+   "lang": "ar",
+   "text": "المُدَرِّسِ",
+   "pause": 0.3,
+   "cues": [
+    "read:3"
+   ]
+  },
+  {
+   "id": "c08-ex10-08",
+   "scene": "c08-ex10",
+   "lang": "en",
+   "text": "In front of the teacher. The teacher is the owner, so kasra.",
+   "pause": 0.5,
+   "cues": [
+    "line:1"
+   ]
+  },
+  {
+   "id": "c08-ex11-01",
+   "scene": "c08-ex11",
+   "lang": "en",
+   "text": "Example eleven. Sit under the tree!",
+   "pause": 0.4,
+   "cues": [
+    "en"
+   ]
+  },
+  {
+   "id": "c08-ex11-02",
+   "scene": "c08-ex11",
+   "lang": "ar",
+   "text": "اِجْلِسْ تَحْتَ الشَّجَرَةِ",
+   "pause": 0.5,
+   "cues": [
+    "sentence"
+   ]
+  },
+  {
+   "id": "c08-ex11-03",
+   "scene": "c08-ex11",
+   "lang": "en",
+   "text": "An order verb, so it is fixed. The doer is hidden. It is you.",
+   "pause": 0.25,
+   "cues": [
+    "group:0",
+    "group:1"
+   ]
+  },
+  {
+   "id": "c08-ex11-04",
+   "scene": "c08-ex11",
+   "lang": "en",
+   "text": "Sit where?",
+   "pause": 0.5,
+   "cues": [
+    "ask:2"
+   ]
+  },
+  {
+   "id": "c08-ex11-05",
+   "scene": "c08-ex11",
+   "lang": "ar",
+   "text": "تَحْتَ",
+   "pause": 0.3,
+   "cues": [
+    "group:2",
+    "vowel:2"
+   ]
+  },
+  {
+   "id": "c08-ex11-06",
+   "scene": "c08-ex11",
+   "lang": "en",
+   "text": "Under. Place, so fatha, and it is owned.",
+   "pause": 0.4,
+   "cues": [
+    "line:0"
+   ]
+  },
+  {
+   "id": "c08-ex11-07",
+   "scene": "c08-ex11",
+   "lang": "ar",
+   "text": "الشَّجَرَةِ",
+   "pause": 0.3,
+   "cues": [
+    "read:2"
+   ]
+  },
+  {
+   "id": "c08-ex11-08",
+   "scene": "c08-ex11",
+   "lang": "en",
+   "text": "The owner takes kasra.",
+   "pause": 0.5,
+   "cues": [
+    "line:1"
+   ]
+  },
+  {
+   "id": "c08-ex12-01",
+   "scene": "c08-ex12",
+   "lang": "en",
+   "text": "Example twelve. Ali went out on Friday.",
+   "pause": 0.4,
+   "cues": [
+    "en"
+   ]
+  },
+  {
+   "id": "c08-ex12-02",
+   "scene": "c08-ex12",
+   "lang": "ar",
+   "text": "خَرَجَ عَلِيٌّ يَوْمَ الجُمُعَةِ",
+   "pause": 0.5,
+   "cues": [
+    "sentence"
+   ]
+  },
+  {
+   "id": "c08-ex12-03",
+   "scene": "c08-ex12",
+   "lang": "en",
+   "text": "The verb is fixed, and the doer takes damma.",
+   "pause": 0.25,
+   "cues": [
+    "group:0",
+    "group:1",
+    "vowel:1"
+   ]
+  },
+  {
+   "id": "c08-ex12-04",
+   "scene": "c08-ex12",
+   "lang": "en",
+   "text": "When did he go out?",
+   "pause": 0.5,
+   "cues": [
+    "ask:2"
+   ]
+  },
+  {
+   "id": "c08-ex12-05",
+   "scene": "c08-ex12",
+   "lang": "ar",
+   "text": "يَوْمَ",
+   "pause": 0.3,
+   "cues": [
+    "group:2",
+    "vowel:2"
+   ]
+  },
+  {
+   "id": "c08-ex12-06",
+   "scene": "c08-ex12",
+   "lang": "en",
+   "text": "On the day of Friday. Time, so fatha, and it is owned.",
+   "pause": 0.4,
+   "cues": [
+    "line:0"
+   ]
+  },
+  {
+   "id": "c08-ex12-07",
+   "scene": "c08-ex12",
+   "lang": "ar",
+   "text": "الجُمُعَةِ",
+   "pause": 0.3,
+   "cues": [
+    "read:3"
+   ]
+  },
+  {
+   "id": "c08-ex12-08",
+   "scene": "c08-ex12",
+   "lang": "en",
+   "text": "The owner takes kasra.",
+   "pause": 0.5,
+   "cues": [
+    "line:1"
+   ]
+  },
+  {
+   "id": "c08-ex12-09",
+   "scene": "c08-ex12",
+   "lang": "en",
+   "text": "A tip. No preposition means naṣb.",
+   "pause": 0.4,
+   "cues": [
+    "tip"
+   ]
+  },
+  {
+   "id": "c08-ex12-10",
+   "scene": "c08-ex12",
+   "lang": "ar",
+   "text": "جَلَسَ زَيْدٌ أَمَامَ البَيْتِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c08-ex12-11",
+   "scene": "c08-ex12",
+   "lang": "en",
+   "text": "No preposition here.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c08-ex12-12",
+   "scene": "c08-ex12",
+   "lang": "ar",
+   "text": "أَمَامَ",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c08-ex12-13",
+   "scene": "c08-ex12",
+   "lang": "en",
+   "text": "So it takes fatha.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c08-ex12-14",
+   "scene": "c08-ex12",
+   "lang": "ar",
+   "text": "جَلَسَ زَيْدٌ فِي البَيْتِ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c08-ex12-15",
+   "scene": "c08-ex12",
+   "lang": "en",
+   "text": "Now the house comes after a preposition, so it takes kasra.",
+   "pause": 0.8,
+   "cues": []
+  }
+ ]
+}

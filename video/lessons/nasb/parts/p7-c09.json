@@ -1,0 +1,461 @@
+{
+ "segments": [
+  {
+   "id": "c09-title-01",
+   "scene": "c09-title",
+   "lang": "en",
+   "text": "Chapter nine. The state.",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c09-title-02",
+   "scene": "c09-title",
+   "lang": "ar",
+   "text": "حَال",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c09-rule-01",
+   "scene": "c09-rule",
+   "lang": "en",
+   "text": "The state tells us how the doer, or the object, was during the action.",
+   "pause": 0.25,
+   "cues": [
+    "show",
+    "hl:tells us how the doer (or the object) was during the action"
+   ]
+  },
+  {
+   "id": "c09-rule-02",
+   "scene": "c09-rule",
+   "lang": "en",
+   "text": "To find it, ask how.",
+   "pause": 0.4,
+   "cues": [
+    "hl:how?"
+   ]
+  },
+  {
+   "id": "c09-rule-03",
+   "scene": "c09-rule",
+   "lang": "en",
+   "text": "It has no al, so it almost always takes tanween.",
+   "pause": 0.25,
+   "cues": [
+    "hl:no ال"
+   ]
+  },
+  {
+   "id": "c09-rule-04",
+   "scene": "c09-rule",
+   "lang": "en",
+   "text": "The state takes naṣb, so it ends in fatha.",
+   "pause": 0.5,
+   "cues": [
+    "hl:State → naṣb, fatha"
+   ]
+  },
+  {
+   "id": "c09-ex13-01",
+   "scene": "c09-ex13",
+   "lang": "en",
+   "text": "Example thirteen. Zayd came hurrying.",
+   "pause": 0.4,
+   "cues": [
+    "en"
+   ]
+  },
+  {
+   "id": "c09-ex13-02",
+   "scene": "c09-ex13",
+   "lang": "ar",
+   "text": "جَاءَ زَيْدٌ مُسْرِعًا",
+   "pause": 0.6,
+   "cues": [
+    "sentence"
+   ]
+  },
+  {
+   "id": "c09-ex13-03",
+   "scene": "c09-ex13",
+   "lang": "en",
+   "text": "First, the verb. Came. It is a past verb, so it is fixed.",
+   "pause": 0.3,
+   "cues": [
+    "group:0"
+   ]
+  },
+  {
+   "id": "c09-ex13-04",
+   "scene": "c09-ex13",
+   "lang": "en",
+   "text": "Who came?",
+   "pause": 0.4,
+   "cues": [
+    "ask:1"
+   ]
+  },
+  {
+   "id": "c09-ex13-05",
+   "scene": "c09-ex13",
+   "lang": "ar",
+   "text": "زَيْدٌ",
+   "pause": 0.3,
+   "cues": [
+    "group:1",
+    "vowel:1"
+   ]
+  },
+  {
+   "id": "c09-ex13-06",
+   "scene": "c09-ex13",
+   "lang": "en",
+   "text": "Zayd. The doer, so damma with tanween.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c09-ex13-07",
+   "scene": "c09-ex13",
+   "lang": "en",
+   "text": "How did he come?",
+   "pause": 0.6,
+   "cues": [
+    "ask:2"
+   ]
+  },
+  {
+   "id": "c09-ex13-08",
+   "scene": "c09-ex13",
+   "lang": "ar",
+   "text": "مُسْرِعًا",
+   "pause": 0.3,
+   "cues": [
+    "group:2",
+    "vowel:2"
+   ]
+  },
+  {
+   "id": "c09-ex13-09",
+   "scene": "c09-ex13",
+   "lang": "en",
+   "text": "Hurrying. That is the state, so fatha with tanween.",
+   "pause": 0.4,
+   "cues": [
+    "line:0"
+   ]
+  },
+  {
+   "id": "c09-ex13-10",
+   "scene": "c09-ex13",
+   "lang": "en",
+   "text": "Listen to the ending once more.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c09-ex13-11",
+   "scene": "c09-ex13",
+   "lang": "ar",
+   "text": "جَاءَ زَيْدٌ مُسْرِعًا",
+   "pause": 0.8,
+   "cues": [
+    "read:2"
+   ]
+  },
+  {
+   "id": "c09-ex14-01",
+   "scene": "c09-ex14",
+   "lang": "en",
+   "text": "Example fourteen. The boy came back happy.",
+   "pause": 0.4,
+   "cues": [
+    "en"
+   ]
+  },
+  {
+   "id": "c09-ex14-02",
+   "scene": "c09-ex14",
+   "lang": "ar",
+   "text": "رَجَعَ الوَلَدُ فَرِحًا",
+   "pause": 0.5,
+   "cues": [
+    "sentence"
+   ]
+  },
+  {
+   "id": "c09-ex14-03",
+   "scene": "c09-ex14",
+   "lang": "en",
+   "text": "The verb is fixed, and the doer takes damma.",
+   "pause": 0.3,
+   "cues": [
+    "group:0",
+    "group:1"
+   ]
+  },
+  {
+   "id": "c09-ex14-04",
+   "scene": "c09-ex14",
+   "lang": "en",
+   "text": "How did he come back?",
+   "pause": 0.6,
+   "cues": [
+    "ask:2"
+   ]
+  },
+  {
+   "id": "c09-ex14-05",
+   "scene": "c09-ex14",
+   "lang": "ar",
+   "text": "فَرِحًا",
+   "pause": 0.3,
+   "cues": [
+    "group:2",
+    "vowel:2"
+   ]
+  },
+  {
+   "id": "c09-ex14-06",
+   "scene": "c09-ex14",
+   "lang": "en",
+   "text": "Happy. A state, so fatha with tanween.",
+   "pause": 0.5,
+   "cues": [
+    "line:0"
+   ]
+  },
+  {
+   "id": "c09-ex15-01",
+   "scene": "c09-ex15",
+   "lang": "en",
+   "text": "Example fifteen. The student entered the class smiling.",
+   "pause": 0.4,
+   "cues": [
+    "en"
+   ]
+  },
+  {
+   "id": "c09-ex15-02",
+   "scene": "c09-ex15",
+   "lang": "ar",
+   "text": "دَخَلَ الطَّالِبُ الصَّفَّ مُبْتَسِمًا",
+   "pause": 0.5,
+   "cues": [
+    "sentence"
+   ]
+  },
+  {
+   "id": "c09-ex15-03",
+   "scene": "c09-ex15",
+   "lang": "en",
+   "text": "The verb is fixed, and the doer takes damma.",
+   "pause": 0.3,
+   "cues": [
+    "group:0",
+    "group:1"
+   ]
+  },
+  {
+   "id": "c09-ex15-04",
+   "scene": "c09-ex15",
+   "lang": "en",
+   "text": "Entered what?",
+   "pause": 0.5,
+   "cues": [
+    "ask:2"
+   ]
+  },
+  {
+   "id": "c09-ex15-05",
+   "scene": "c09-ex15",
+   "lang": "ar",
+   "text": "الصَّفَّ",
+   "pause": 0.3,
+   "cues": [
+    "group:2",
+    "vowel:2"
+   ]
+  },
+  {
+   "id": "c09-ex15-06",
+   "scene": "c09-ex15",
+   "lang": "en",
+   "text": "The class. The object, so fatha.",
+   "pause": 0.3,
+   "cues": [
+    "line:0"
+   ]
+  },
+  {
+   "id": "c09-ex15-07",
+   "scene": "c09-ex15",
+   "lang": "en",
+   "text": "How did he enter?",
+   "pause": 0.6,
+   "cues": [
+    "ask:3"
+   ]
+  },
+  {
+   "id": "c09-ex15-08",
+   "scene": "c09-ex15",
+   "lang": "ar",
+   "text": "مُبْتَسِمًا",
+   "pause": 0.3,
+   "cues": [
+    "group:3",
+    "vowel:3"
+   ]
+  },
+  {
+   "id": "c09-ex15-09",
+   "scene": "c09-ex15",
+   "lang": "en",
+   "text": "Smiling. The state, so fatha with tanween.",
+   "pause": 0.5,
+   "cues": [
+    "line:1"
+   ]
+  },
+  {
+   "id": "c09-ex16-01",
+   "scene": "c09-ex16",
+   "lang": "en",
+   "text": "Example sixteen. Drink the water cold!",
+   "pause": 0.4,
+   "cues": [
+    "en"
+   ]
+  },
+  {
+   "id": "c09-ex16-02",
+   "scene": "c09-ex16",
+   "lang": "ar",
+   "text": "اِشْرَبِ المَاءَ بَارِدًا",
+   "pause": 0.5,
+   "cues": [
+    "sentence"
+   ]
+  },
+  {
+   "id": "c09-ex16-03",
+   "scene": "c09-ex16",
+   "lang": "en",
+   "text": "An order verb, so it is fixed. The doer is hidden. It is you.",
+   "pause": 0.3,
+   "cues": [
+    "group:0",
+    "group:1"
+   ]
+  },
+  {
+   "id": "c09-ex16-04",
+   "scene": "c09-ex16",
+   "lang": "en",
+   "text": "Drink what?",
+   "pause": 0.5,
+   "cues": [
+    "ask:2"
+   ]
+  },
+  {
+   "id": "c09-ex16-05",
+   "scene": "c09-ex16",
+   "lang": "ar",
+   "text": "المَاءَ",
+   "pause": 0.3,
+   "cues": [
+    "group:2",
+    "vowel:2"
+   ]
+  },
+  {
+   "id": "c09-ex16-06",
+   "scene": "c09-ex16",
+   "lang": "en",
+   "text": "The water. The object, so fatha.",
+   "pause": 0.3,
+   "cues": [
+    "line:0"
+   ]
+  },
+  {
+   "id": "c09-ex16-07",
+   "scene": "c09-ex16",
+   "lang": "en",
+   "text": "How should the water be?",
+   "pause": 0.6,
+   "cues": [
+    "ask:3"
+   ]
+  },
+  {
+   "id": "c09-ex16-08",
+   "scene": "c09-ex16",
+   "lang": "ar",
+   "text": "بَارِدًا",
+   "pause": 0.3,
+   "cues": [
+    "group:3",
+    "vowel:3"
+   ]
+  },
+  {
+   "id": "c09-ex16-09",
+   "scene": "c09-ex16",
+   "lang": "en",
+   "text": "Cold. Here the state describes the object, the water. So it takes fatha with tanween.",
+   "pause": 0.6,
+   "cues": [
+    "line:1"
+   ]
+  },
+  {
+   "id": "c09-ex16-10",
+   "scene": "c09-ex16",
+   "lang": "en",
+   "text": "A tip. State or adjective?",
+   "pause": 0.5,
+   "cues": [
+    "tip"
+   ]
+  },
+  {
+   "id": "c09-ex16-11",
+   "scene": "c09-ex16",
+   "lang": "ar",
+   "text": "جَاءَ الطَّالِبُ المُسْرِعُ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c09-ex16-12",
+   "scene": "c09-ex16",
+   "lang": "en",
+   "text": "The hurrying student came. The last word has al, so it is an adjective. It copies the damma of the student.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c09-ex16-13",
+   "scene": "c09-ex16",
+   "lang": "ar",
+   "text": "جَاءَ الطَّالِبُ مُسْرِعًا",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c09-ex16-14",
+   "scene": "c09-ex16",
+   "lang": "en",
+   "text": "The student came hurrying. Now the last word has no al, so it is a state. It takes naṣb.",
+   "pause": 0.8,
+   "cues": []
+  }
+ ]
+}

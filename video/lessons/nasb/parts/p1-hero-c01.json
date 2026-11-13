@@ -1,0 +1,176 @@
+{
+ "segments": [
+  {
+   "id": "hero-01",
+   "scene": "hero",
+   "lang": "en",
+   "text": "Naṣb. When does a word end in fatha?",
+   "pause": 0.6,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "hero-02",
+   "scene": "hero",
+   "lang": "en",
+   "text": "Some words in a verb sentence answer a question about the action.",
+   "pause": 0.3,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "hero-03",
+   "scene": "hero",
+   "lang": "en",
+   "text": "What? Why? When? Where? How?",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "hero-04",
+   "scene": "hero",
+   "lang": "en",
+   "text": "Those words take naṣb.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c01-title-01",
+   "scene": "c01-title",
+   "lang": "en",
+   "text": "Chapter one. Where we are.",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c01-title-02",
+   "scene": "c01-title",
+   "lang": "en",
+   "text": "There are four cases. We know two. Today we add the third.",
+   "pause": 0.5,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c01-cases-01",
+   "scene": "c01-cases",
+   "lang": "en",
+   "text": "Case A is rafʿ, with damma. We have learned it.",
+   "pause": 0.35,
+   "cues": [
+    "case:A"
+   ]
+  },
+  {
+   "id": "c01-cases-02",
+   "scene": "c01-cases",
+   "lang": "en",
+   "text": "Case B is naṣb, with fatha. This is the new one we add today.",
+   "pause": 0.35,
+   "cues": [
+    "case:B"
+   ]
+  },
+  {
+   "id": "c01-cases-03",
+   "scene": "c01-cases",
+   "lang": "en",
+   "text": "Case C is jarr, with kasra. We have learned this one too.",
+   "pause": 0.35,
+   "cues": [
+    "case:C"
+   ]
+  },
+  {
+   "id": "c01-cases-04",
+   "scene": "c01-cases",
+   "lang": "en",
+   "text": "Case D is called",
+   "pause": 0.4,
+   "cues": [
+    "case:D"
+   ]
+  },
+  {
+   "id": "c01-cases-05",
+   "scene": "c01-cases",
+   "lang": "ar",
+   "text": "جَزْم",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-cases-06",
+   "scene": "c01-cases",
+   "lang": "en",
+   "text": "Its sign is sukūn. It is for verbs. It comes later.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c01-scope-01",
+   "scene": "c01-scope",
+   "lang": "en",
+   "text": "Only past verbs. For example, he wrote.",
+   "pause": 0.4,
+   "cues": [
+    "scope:1"
+   ]
+  },
+  {
+   "id": "c01-scope-02",
+   "scene": "c01-scope",
+   "lang": "ar",
+   "text": "كَتَبَ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-scope-03",
+   "scene": "c01-scope",
+   "lang": "en",
+   "text": "And order verbs. For example, write!",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-scope-04",
+   "scene": "c01-scope",
+   "lang": "ar",
+   "text": "اُكْتُبْ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-scope-05",
+   "scene": "c01-scope",
+   "lang": "en",
+   "text": "Present verbs come later.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-scope-06",
+   "scene": "c01-scope",
+   "lang": "en",
+   "text": "And only one sign of naṣb: the fatha, alone or with tanween.",
+   "pause": 0.35,
+   "cues": [
+    "scope:2"
+   ]
+  },
+  {
+   "id": "c01-scope-07",
+   "scene": "c01-scope",
+   "lang": "en",
+   "text": "The other signs, for the dual and some plurals, come later in the course. Each group gets its own lesson.",
+   "pause": 0.6,
+   "cues": []
+  }
+ ]
+}

@@ -1,0 +1,308 @@
+{
+ "segments": [
+  {
+   "id": "c02-title-01",
+   "scene": "c02-title",
+   "lang": "en",
+   "text": "Chapter two. A new sentence: the verb sentence.",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c02-title-02",
+   "scene": "c02-title",
+   "lang": "en",
+   "text": "Last lesson, the sentence started with a noun. Topic, then information.",
+   "pause": 0.3,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c02-title-03",
+   "scene": "c02-title",
+   "lang": "en",
+   "text": "Now it starts with a verb. Verb, then doer.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-rules-01",
+   "scene": "c02-rules",
+   "lang": "en",
+   "text": "First, the verb. A past verb and an order verb are fixed.",
+   "pause": 0.4,
+   "cues": [
+    "rule:verb"
+   ]
+  },
+  {
+   "id": "c02-rules-02",
+   "scene": "c02-rules",
+   "lang": "ar",
+   "text": "مَبْنِيّ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-rules-03",
+   "scene": "c02-rules",
+   "lang": "en",
+   "text": "Their ending never changes. A past verb ends in fatha.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-rules-04",
+   "scene": "c02-rules",
+   "lang": "ar",
+   "text": "كَتَبَ",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-rules-05",
+   "scene": "c02-rules",
+   "lang": "en",
+   "text": "An order verb ends in sukūn.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-rules-06",
+   "scene": "c02-rules",
+   "lang": "ar",
+   "text": "اُكْتُبْ",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-rules-07",
+   "scene": "c02-rules",
+   "lang": "en",
+   "text": "Then the doer. The doer is the one who did the action.",
+   "pause": 0.3,
+   "cues": [
+    "rule:doer"
+   ]
+  },
+  {
+   "id": "c02-rules-08",
+   "scene": "c02-rules",
+   "lang": "en",
+   "text": "It takes rafʿ, with damma, like the topic.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c02-rules-09",
+   "scene": "c02-rules",
+   "lang": "en",
+   "text": "With an order verb, the doer is you. It is hidden inside the verb.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-exA-01",
+   "scene": "c02-exA",
+   "lang": "en",
+   "text": "Example A. Zayd wrote.",
+   "pause": 0.4,
+   "cues": [
+    "en"
+   ]
+  },
+  {
+   "id": "c02-exA-02",
+   "scene": "c02-exA",
+   "lang": "ar",
+   "text": "كَتَبَ زَيْدٌ",
+   "pause": 0.6,
+   "cues": [
+    "sentence"
+   ]
+  },
+  {
+   "id": "c02-exA-03",
+   "scene": "c02-exA",
+   "lang": "en",
+   "text": "First, the verb. Wrote. It is a past verb, so it is fixed.",
+   "pause": 0.3,
+   "cues": [
+    "group:0"
+   ]
+  },
+  {
+   "id": "c02-exA-04",
+   "scene": "c02-exA",
+   "lang": "en",
+   "text": "Its fatha never changes.",
+   "pause": 0.3,
+   "cues": [
+    "line:0"
+   ]
+  },
+  {
+   "id": "c02-exA-05",
+   "scene": "c02-exA",
+   "lang": "en",
+   "text": "Who wrote?",
+   "pause": 0.5,
+   "cues": [
+    "ask:1"
+   ]
+  },
+  {
+   "id": "c02-exA-06",
+   "scene": "c02-exA",
+   "lang": "ar",
+   "text": "زَيْدٌ",
+   "pause": 0.3,
+   "cues": [
+    "group:1",
+    "vowel:1"
+   ]
+  },
+  {
+   "id": "c02-exA-07",
+   "scene": "c02-exA",
+   "lang": "en",
+   "text": "Zayd. That is the doer, so it takes rafʿ, with damma.",
+   "pause": 0.4,
+   "cues": [
+    "line:1"
+   ]
+  },
+  {
+   "id": "c02-exA-08",
+   "scene": "c02-exA",
+   "lang": "en",
+   "text": "Listen to the ending once more.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c02-exA-09",
+   "scene": "c02-exA",
+   "lang": "ar",
+   "text": "كَتَبَ زَيْدٌ",
+   "pause": 0.8,
+   "cues": [
+    "read:1"
+   ]
+  },
+  {
+   "id": "c02-exB-01",
+   "scene": "c02-exB",
+   "lang": "en",
+   "text": "Example B. Write!",
+   "pause": 0.4,
+   "cues": [
+    "en"
+   ]
+  },
+  {
+   "id": "c02-exB-02",
+   "scene": "c02-exB",
+   "lang": "ar",
+   "text": "اُكْتُبْ",
+   "pause": 0.6,
+   "cues": [
+    "sentence"
+   ]
+  },
+  {
+   "id": "c02-exB-03",
+   "scene": "c02-exB",
+   "lang": "en",
+   "text": "This is an order verb. It is fixed on sukūn.",
+   "pause": 0.3,
+   "cues": [
+    "group:0",
+    "line:0"
+   ]
+  },
+  {
+   "id": "c02-exB-04",
+   "scene": "c02-exB",
+   "lang": "en",
+   "text": "Who should write?",
+   "pause": 0.5,
+   "cues": [
+    "ask:1"
+   ]
+  },
+  {
+   "id": "c02-exB-05",
+   "scene": "c02-exB",
+   "lang": "ar",
+   "text": "(أَنْتَ)",
+   "pause": 0.3,
+   "cues": [
+    "group:1"
+   ]
+  },
+  {
+   "id": "c02-exB-06",
+   "scene": "c02-exB",
+   "lang": "en",
+   "text": "You. The doer is hidden inside the verb.",
+   "pause": 0.5,
+   "cues": [
+    "line:1"
+   ]
+  },
+  {
+   "id": "c02-careful-01",
+   "scene": "c02-careful",
+   "lang": "en",
+   "text": "Careful. Look at the fatha on this verb.",
+   "pause": 0.4,
+   "cues": [
+    "show"
+   ]
+  },
+  {
+   "id": "c02-careful-02",
+   "scene": "c02-careful",
+   "lang": "ar",
+   "text": "كَتَبَ",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-careful-03",
+   "scene": "c02-careful",
+   "lang": "en",
+   "text": "That fatha is not naṣb.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c02-careful-04",
+   "scene": "c02-careful",
+   "lang": "en",
+   "text": "A past verb ends in fatha in every sentence.",
+   "pause": 0.25,
+   "cues": []
+  },
+  {
+   "id": "c02-careful-05",
+   "scene": "c02-careful",
+   "lang": "en",
+   "text": "It is fixed.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c02-careful-06",
+   "scene": "c02-careful",
+   "lang": "en",
+   "text": "Naṣb is for nouns.",
+   "pause": 0.8,
+   "cues": []
+  }
+ ]
+}
