@@ -1,0 +1,251 @@
+{
+ "segments": [
+  {
+   "id": "c03-title-01",
+   "scene": "c03-title",
+   "lang": "en",
+   "text": "Part three. With a preposition.",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c03-title-02",
+   "scene": "c03-title",
+   "lang": "en",
+   "text": "A preposition can come before a question word.",
+   "pause": 0.3,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c03-title-03",
+   "scene": "c03-title",
+   "lang": "en",
+   "text": "The question word is still fixed. It is in the place of jarr.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-01",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "Where are you from? I am from India.",
+   "pause": 0.3,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c03-examples-02",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "مِنْ أَيْنَ أَنْتَ؟",
+   "pause": 0.4,
+   "cues": [
+    "say:1"
+   ]
+  },
+  {
+   "id": "c03-examples-03",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "أَنَا مِنَ الْهِنْدِ",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-04",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "Here the word for where comes after the preposition meaning from.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-05",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "مِنْ أَيْنَ",
+   "pause": 0.4,
+   "cues": [
+    "hl:مِنْ أَيْنَ"
+   ]
+  },
+  {
+   "id": "c03-examples-06",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "It still ends in fatha. It is in the place of jarr.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-07",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "Where did Khalid go to? To the market.",
+   "pause": 0.3,
+   "cues": [
+    "ex:2"
+   ]
+  },
+  {
+   "id": "c03-examples-08",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "إِلَى أَيْنَ ذَهَبَ خَالِدٌ؟",
+   "pause": 0.4,
+   "cues": [
+    "say:2"
+   ]
+  },
+  {
+   "id": "c03-examples-09",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "إِلَى السُّوقِ",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-10",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "Again a preposition comes first. The question word does not change.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-11",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "How much is this book?",
+   "pause": 0.3,
+   "cues": [
+    "ex:3"
+   ]
+  },
+  {
+   "id": "c03-examples-12",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "بِكَمْ هَذَا الْكِتَابُ؟",
+   "pause": 0.5,
+   "cues": [
+    "say:3"
+   ]
+  },
+  {
+   "id": "c03-examples-13",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "The word for how much has a small preposition joined to its front. That preposition means for. Together they ask: for how much?",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-14",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "بِكَمْ",
+   "pause": 0.4,
+   "cues": [
+    "hl:بِكَمْ"
+   ]
+  },
+  {
+   "id": "c03-examples-15",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "The question word still ends in sukūn.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-16",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "Whose pen is this?",
+   "pause": 0.3,
+   "cues": [
+    "ex:4"
+   ]
+  },
+  {
+   "id": "c03-examples-17",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "قَلَمُ مَنْ هَذَا؟",
+   "pause": 0.5,
+   "cues": [
+    "say:4"
+   ]
+  },
+  {
+   "id": "c03-examples-18",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "Here the word for who comes after the word for pen. It is the owner.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-19",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "مَنْ",
+   "pause": 0.4,
+   "cues": [
+    "hl:مَنْ"
+   ]
+  },
+  {
+   "id": "c03-examples-20",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "It keeps its sukūn. As the owner, it is in the place of jarr.",
+   "pause": 0.7,
+   "cues": []
+  },
+  {
+   "id": "c03-tip-01",
+   "scene": "c03-tip",
+   "lang": "en",
+   "text": "A tip. Without a preposition before it, a question word has its own job in the sentence.",
+   "pause": 0.4,
+   "cues": [
+    "show",
+    "hl:has its own job in the sentence"
+   ]
+  },
+  {
+   "id": "c03-tip-02",
+   "scene": "c03-tip",
+   "lang": "en",
+   "text": "Who is in the room?",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c03-tip-03",
+   "scene": "c03-tip",
+   "lang": "ar",
+   "text": "مَنْ فِي الْغُرْفَةِ؟",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c03-tip-04",
+   "scene": "c03-tip",
+   "lang": "en",
+   "text": "Here the word for who is the Topic. It is in the place of rafʿ.",
+   "pause": 0.7,
+   "cues": [
+    "hl:place of rafʿ"
+   ]
+  }
+ ]
+}

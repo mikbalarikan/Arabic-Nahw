@@ -1,0 +1,265 @@
+{
+ "segments": [
+  {
+   "id": "c02-title-01",
+   "scene": "c02-title",
+   "lang": "en",
+   "text": "Part two. Question ḥarfs.",
+   "pause": 0.3,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c02-title-02",
+   "scene": "c02-title",
+   "lang": "ar",
+   "text": "هَلْ",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c02-title-03",
+   "scene": "c02-title",
+   "lang": "ar",
+   "text": "أَ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-title-04",
+   "scene": "c02-title",
+   "lang": "en",
+   "text": "These two turn a normal sentence into a yes or no question.",
+   "pause": 0.3,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c02-title-05",
+   "scene": "c02-title",
+   "lang": "en",
+   "text": "The answer starts with yes or no.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c02-title-06",
+   "scene": "c02-title",
+   "lang": "ar",
+   "text": "نَعَمْ",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c02-title-07",
+   "scene": "c02-title",
+   "lang": "ar",
+   "text": "لَا",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-examples-01",
+   "scene": "c02-examples",
+   "lang": "en",
+   "text": "Is this a house? Yes, this is a house.",
+   "pause": 0.3,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c02-examples-02",
+   "scene": "c02-examples",
+   "lang": "ar",
+   "text": "هَلْ هَذَا بَيْتٌ؟",
+   "pause": 0.4,
+   "cues": [
+    "say:1"
+   ]
+  },
+  {
+   "id": "c02-examples-03",
+   "scene": "c02-examples",
+   "lang": "ar",
+   "text": "نَعَمْ، هَذَا بَيْتٌ",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-examples-04",
+   "scene": "c02-examples",
+   "lang": "en",
+   "text": "Without the question ḥarf, this is a normal sentence. With it, it is a question.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-examples-05",
+   "scene": "c02-examples",
+   "lang": "en",
+   "text": "Is this a pen? No, this is a key.",
+   "pause": 0.3,
+   "cues": [
+    "ex:2"
+   ]
+  },
+  {
+   "id": "c02-examples-06",
+   "scene": "c02-examples",
+   "lang": "ar",
+   "text": "أَهَذَا قَلَمٌ؟",
+   "pause": 0.4,
+   "cues": [
+    "say:2"
+   ]
+  },
+  {
+   "id": "c02-examples-07",
+   "scene": "c02-examples",
+   "lang": "ar",
+   "text": "لَا، هَذَا مِفْتَاحٌ",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-examples-08",
+   "scene": "c02-examples",
+   "lang": "en",
+   "text": "Here the question ḥarf is the short one at the very start. It is written joined to the next word.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c02-examples-09",
+   "scene": "c02-examples",
+   "lang": "en",
+   "text": "This one is from the Madinah book.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-examples-10",
+   "scene": "c02-examples",
+   "lang": "en",
+   "text": "Did Ali go to the principal? Yes.",
+   "pause": 0.3,
+   "cues": [
+    "ex:3"
+   ]
+  },
+  {
+   "id": "c02-examples-11",
+   "scene": "c02-examples",
+   "lang": "ar",
+   "text": "أَذَهَبَ عَلِيٌّ إِلَى الْمُدِيرِ؟",
+   "pause": 0.4,
+   "cues": [
+    "say:3"
+   ]
+  },
+  {
+   "id": "c02-examples-12",
+   "scene": "c02-examples",
+   "lang": "ar",
+   "text": "نَعَمْ",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-examples-13",
+   "scene": "c02-examples",
+   "lang": "en",
+   "text": "It is the same small ḥarf. This time it is joined to a verb.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c02-cols-01",
+   "scene": "c02-cols",
+   "lang": "en",
+   "text": "So there are two kinds of question word.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c02-cols-02",
+   "scene": "c02-cols",
+   "lang": "en",
+   "text": "A question ism has a job in the sentence.",
+   "pause": 0.3,
+   "cues": [
+    "col:1",
+    "hl:Has a job in the sentence"
+   ]
+  },
+  {
+   "id": "c02-cols-03",
+   "scene": "c02-cols",
+   "lang": "en",
+   "text": "It asks for a person, a thing, a place or a time.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-cols-04",
+   "scene": "c02-cols",
+   "lang": "en",
+   "text": "A question ḥarf has no job.",
+   "pause": 0.3,
+   "cues": [
+    "col:2",
+    "hl:Has no job."
+   ]
+  },
+  {
+   "id": "c02-cols-05",
+   "scene": "c02-cols",
+   "lang": "en",
+   "text": "It only makes a yes or no question.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c02-tip-01",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "Never answer a where, who or when question with yes or no.",
+   "pause": 0.3,
+   "cues": [
+    "show",
+    "hl:Never answer"
+   ]
+  },
+  {
+   "id": "c02-tip-02",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "Only the two question ḥarfs take a yes or no answer.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c02-tip-03",
+   "scene": "c02-tip",
+   "lang": "ar",
+   "text": "هَلْ",
+   "pause": 0.3,
+   "cues": [
+    "hl:هَلْ"
+   ]
+  },
+  {
+   "id": "c02-tip-04",
+   "scene": "c02-tip",
+   "lang": "ar",
+   "text": "أَ",
+   "pause": 0.7,
+   "cues": [
+    "hl:أَ"
+   ]
+  }
+ ]
+}

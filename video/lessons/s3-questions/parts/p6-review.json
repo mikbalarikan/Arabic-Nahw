@@ -1,0 +1,405 @@
+{
+ "segments": [
+  {
+   "id": "c05-title-01",
+   "scene": "c05-title",
+   "lang": "en",
+   "text": "Part five. Which word for which answer?",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c05-title-02",
+   "scene": "c05-title",
+   "lang": "en",
+   "text": "Look at the kind of answer. Then choose the question word.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c05-table-01",
+   "scene": "c05-table",
+   "lang": "en",
+   "text": "The answer is a person.",
+   "pause": 0.3,
+   "cues": [
+    "row:1",
+    "cell:1.1"
+   ]
+  },
+  {
+   "id": "c05-table-02",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "مَنْ",
+   "pause": 0.4,
+   "cues": [
+    "cell:1.2"
+   ]
+  },
+  {
+   "id": "c05-table-03",
+   "scene": "c05-table",
+   "lang": "en",
+   "text": "A thing.",
+   "pause": 0.3,
+   "cues": [
+    "row:2",
+    "cell:2.1"
+   ]
+  },
+  {
+   "id": "c05-table-04",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "مَا",
+   "pause": 0.25,
+   "cues": [
+    "cell:2.2"
+   ]
+  },
+  {
+   "id": "c05-table-05",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "مَاذَا",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-table-06",
+   "scene": "c05-table",
+   "lang": "en",
+   "text": "A time.",
+   "pause": 0.3,
+   "cues": [
+    "row:3",
+    "cell:3.1"
+   ]
+  },
+  {
+   "id": "c05-table-07",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "مَتَى",
+   "pause": 0.4,
+   "cues": [
+    "cell:3.2"
+   ]
+  },
+  {
+   "id": "c05-table-08",
+   "scene": "c05-table",
+   "lang": "en",
+   "text": "A place.",
+   "pause": 0.3,
+   "cues": [
+    "row:4",
+    "cell:4.1"
+   ]
+  },
+  {
+   "id": "c05-table-09",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "أَيْنَ",
+   "pause": 0.25,
+   "cues": [
+    "cell:4.2"
+   ]
+  },
+  {
+   "id": "c05-table-10",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "مِنْ أَيْنَ",
+   "pause": 0.25,
+   "cues": []
+  },
+  {
+   "id": "c05-table-11",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "إِلَى أَيْنَ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-table-12",
+   "scene": "c05-table",
+   "lang": "en",
+   "text": "A state.",
+   "pause": 0.3,
+   "cues": [
+    "row:5",
+    "cell:5.1"
+   ]
+  },
+  {
+   "id": "c05-table-13",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "كَيْفَ",
+   "pause": 0.4,
+   "cues": [
+    "cell:5.2"
+   ]
+  },
+  {
+   "id": "c05-table-14",
+   "scene": "c05-table",
+   "lang": "en",
+   "text": "A number or a price.",
+   "pause": 0.3,
+   "cues": [
+    "row:6",
+    "cell:6.1"
+   ]
+  },
+  {
+   "id": "c05-table-15",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "كَمْ",
+   "pause": 0.25,
+   "cues": [
+    "cell:6.2"
+   ]
+  },
+  {
+   "id": "c05-table-16",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "بِكَمْ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-table-17",
+   "scene": "c05-table",
+   "lang": "en",
+   "text": "A reason.",
+   "pause": 0.3,
+   "cues": [
+    "row:7",
+    "cell:7.1"
+   ]
+  },
+  {
+   "id": "c05-table-18",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "لِمَاذَا",
+   "pause": 0.4,
+   "cues": [
+    "cell:7.2"
+   ]
+  },
+  {
+   "id": "c05-table-19",
+   "scene": "c05-table",
+   "lang": "en",
+   "text": "One of a group.",
+   "pause": 0.3,
+   "cues": [
+    "row:8",
+    "cell:8.1"
+   ]
+  },
+  {
+   "id": "c05-table-20",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "أَيٌّ",
+   "pause": 0.4,
+   "cues": [
+    "cell:8.2"
+   ]
+  },
+  {
+   "id": "c05-table-21",
+   "scene": "c05-table",
+   "lang": "en",
+   "text": "Yes or no.",
+   "pause": 0.3,
+   "cues": [
+    "row:9",
+    "cell:9.1"
+   ]
+  },
+  {
+   "id": "c05-table-22",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "هَلْ",
+   "pause": 0.25,
+   "cues": [
+    "cell:9.2"
+   ]
+  },
+  {
+   "id": "c05-table-23",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "أَ",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "summary-01",
+   "scene": "summary",
+   "lang": "en",
+   "text": "In short.",
+   "pause": 0.4,
+   "cues": [
+    "show"
+   ]
+  },
+  {
+   "id": "summary-02",
+   "scene": "summary",
+   "lang": "en",
+   "text": "These question isms ask who, what, when, where, how, how many and why. All of these are fixed.",
+   "pause": 0.5,
+   "cues": [
+    "item:1"
+   ]
+  },
+  {
+   "id": "summary-03",
+   "scene": "summary",
+   "lang": "en",
+   "text": "The question ḥarfs are these two.",
+   "pause": 0.3,
+   "cues": [
+    "item:2"
+   ]
+  },
+  {
+   "id": "summary-04",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "هَلْ",
+   "pause": 0.3,
+   "cues": [
+    "hl:هَلْ"
+   ]
+  },
+  {
+   "id": "summary-05",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "أَ",
+   "pause": 0.35,
+   "cues": [
+    "hl:أَ"
+   ]
+  },
+  {
+   "id": "summary-06",
+   "scene": "summary",
+   "lang": "en",
+   "text": "Answer them with yes or no.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "summary-07",
+   "scene": "summary",
+   "lang": "en",
+   "text": "After a preposition, the question word is in the place of jarr.",
+   "pause": 0.3,
+   "cues": [
+    "item:3"
+   ]
+  },
+  {
+   "id": "summary-08",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "مِنْ أَيْنَ",
+   "pause": 0.3,
+   "cues": [
+    "hl:مِنْ أَيْنَ"
+   ]
+  },
+  {
+   "id": "summary-09",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "بِكَمْ",
+   "pause": 0.5,
+   "cues": [
+    "hl:بِكَمْ"
+   ]
+  },
+  {
+   "id": "summary-10",
+   "scene": "summary",
+   "lang": "en",
+   "text": "One question ism is not fixed. It is the word for which. Its ending changes.",
+   "pause": 0.3,
+   "cues": [
+    "item:4"
+   ]
+  },
+  {
+   "id": "summary-11",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "أَيُّ",
+   "pause": 0.3,
+   "cues": [
+    "hl:أَيُّ"
+   ]
+  },
+  {
+   "id": "summary-12",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "أَيَّ",
+   "pause": 0.3,
+   "cues": [
+    "hl:أَيَّ"
+   ]
+  },
+  {
+   "id": "summary-13",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "أَيِّ",
+   "pause": 0.7,
+   "cues": [
+    "hl:أَيِّ"
+   ]
+  },
+  {
+   "id": "outro-yourturn-01",
+   "scene": "outro-yourturn",
+   "lang": "en",
+   "text": "Now it is your turn.",
+   "pause": 0.3,
+   "cues": [
+    "show"
+   ]
+  },
+  {
+   "id": "outro-yourturn-02",
+   "scene": "outro-yourturn",
+   "lang": "en",
+   "text": "Open the Practice tab and work through the six cards.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "outro-yourturn-03",
+   "scene": "outro-yourturn",
+   "lang": "en",
+   "text": "Then do the Homework tab.",
+   "pause": 1.0,
+   "cues": []
+  }
+ ]
+}

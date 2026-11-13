@@ -1,0 +1,1936 @@
+{
+ "lesson": "s3-questions",
+ "scenes": [
+  "hero",
+  "c01-title",
+  "c01-table",
+  "c01-rule",
+  "c01-tips",
+  "c02-title",
+  "c02-examples",
+  "c02-cols",
+  "c02-tip",
+  "c03-title",
+  "c03-examples",
+  "c03-tip",
+  "c04-title",
+  "c04-rule",
+  "c04-examples",
+  "c05-title",
+  "c05-table",
+  "summary",
+  "outro-yourturn"
+ ],
+ "segments": [
+  {
+   "id": "hero-01",
+   "scene": "hero",
+   "lang": "en",
+   "text": "Asking questions.",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "hero-02",
+   "scene": "hero",
+   "lang": "en",
+   "text": "Question words usually come first in the sentence.",
+   "pause": 0.3,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "hero-03",
+   "scene": "hero",
+   "lang": "en",
+   "text": "Almost all of them are fixed. So learn each one with its last vowel.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c01-title-01",
+   "scene": "c01-title",
+   "lang": "en",
+   "text": "Part one. Question isms. This is the table to learn.",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c01-title-02",
+   "scene": "c01-title",
+   "lang": "en",
+   "text": "These question words are isms. Each one asks for one kind of answer.",
+   "pause": 0.5,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c01-table-01",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "Each row has the word, its meaning, a question, and an answer.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c01-table-02",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "مَنْ",
+   "pause": 0.35,
+   "cues": [
+    "row:1",
+    "cell:1.1"
+   ]
+  },
+  {
+   "id": "c01-table-03",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "Who. It asks for a person.",
+   "pause": 0.3,
+   "cues": [
+    "cell:1.2"
+   ]
+  },
+  {
+   "id": "c01-table-04",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "مَنْ فِي الْغُرْفَةِ؟",
+   "pause": 0.4,
+   "cues": [
+    "cell:1.3"
+   ]
+  },
+  {
+   "id": "c01-table-05",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "Who is in the room?",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c01-table-06",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "مُحَمَّدٌ",
+   "pause": 0.4,
+   "cues": [
+    "cell:1.4"
+   ]
+  },
+  {
+   "id": "c01-table-07",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "Muhammad. The answer is a person.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c01-table-08",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "Row two has two words.",
+   "pause": 0.3,
+   "cues": [
+    "row:2",
+    "cell:2.1"
+   ]
+  },
+  {
+   "id": "c01-table-09",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "مَا",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c01-table-10",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "مَاذَا",
+   "pause": 0.35,
+   "cues": []
+  },
+  {
+   "id": "c01-table-11",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "Both words have the same meaning, what. They ask for a thing.",
+   "pause": 0.3,
+   "cues": [
+    "cell:2.2"
+   ]
+  },
+  {
+   "id": "c01-table-12",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "مَا هَذَا؟",
+   "pause": 0.4,
+   "cues": [
+    "cell:2.3"
+   ]
+  },
+  {
+   "id": "c01-table-13",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "What is this?",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c01-table-14",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "هَذَا كِتَابٌ",
+   "pause": 0.4,
+   "cues": [
+    "cell:2.4"
+   ]
+  },
+  {
+   "id": "c01-table-15",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "This is a book. The answer is a thing.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c01-table-16",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "مَتَى",
+   "pause": 0.35,
+   "cues": [
+    "row:3",
+    "cell:3.1"
+   ]
+  },
+  {
+   "id": "c01-table-17",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "When. It asks for a time.",
+   "pause": 0.3,
+   "cues": [
+    "cell:3.2"
+   ]
+  },
+  {
+   "id": "c01-table-18",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "مَتَى خَرَجَ الْمُدَرِّسُ؟",
+   "pause": 0.4,
+   "cues": [
+    "cell:3.3"
+   ]
+  },
+  {
+   "id": "c01-table-19",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "When did the teacher go out?",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c01-table-20",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "بَعْدَ الظُّهْرِ",
+   "pause": 0.4,
+   "cues": [
+    "cell:3.4"
+   ]
+  },
+  {
+   "id": "c01-table-21",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "After noon. The answer is a time.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c01-table-22",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "أَيْنَ",
+   "pause": 0.35,
+   "cues": [
+    "row:4",
+    "cell:4.1"
+   ]
+  },
+  {
+   "id": "c01-table-23",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "Where. It asks for a place.",
+   "pause": 0.3,
+   "cues": [
+    "cell:4.2"
+   ]
+  },
+  {
+   "id": "c01-table-24",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "أَيْنَ الْكِتَابُ؟",
+   "pause": 0.4,
+   "cues": [
+    "cell:4.3"
+   ]
+  },
+  {
+   "id": "c01-table-25",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "Where is the book?",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c01-table-26",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "عَلَى الْمَكْتَبِ",
+   "pause": 0.4,
+   "cues": [
+    "cell:4.4"
+   ]
+  },
+  {
+   "id": "c01-table-27",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "On the desk. The answer is a place.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c01-table-28",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "كَيْفَ",
+   "pause": 0.35,
+   "cues": [
+    "row:5",
+    "cell:5.1"
+   ]
+  },
+  {
+   "id": "c01-table-29",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "How. It asks for a state.",
+   "pause": 0.3,
+   "cues": [
+    "cell:5.2"
+   ]
+  },
+  {
+   "id": "c01-table-30",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "كَيْفَ حَالُكَ؟",
+   "pause": 0.4,
+   "cues": [
+    "cell:5.3"
+   ]
+  },
+  {
+   "id": "c01-table-31",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "How are you?",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c01-table-32",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "بِخَيْرٍ",
+   "pause": 0.4,
+   "cues": [
+    "cell:5.4"
+   ]
+  },
+  {
+   "id": "c01-table-33",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "Fine. The answer is a state.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c01-table-34",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "كَمْ",
+   "pause": 0.35,
+   "cues": [
+    "row:6",
+    "cell:6.1"
+   ]
+  },
+  {
+   "id": "c01-table-35",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "How many, or how much. It asks for a number.",
+   "pause": 0.3,
+   "cues": [
+    "cell:6.2"
+   ]
+  },
+  {
+   "id": "c01-table-36",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "كَمْ طَالِبًا فِي الْفَصْلِ؟",
+   "pause": 0.4,
+   "cues": [
+    "cell:6.3"
+   ]
+  },
+  {
+   "id": "c01-table-37",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "How many students are in the classroom?",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c01-table-38",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The answer is a number.",
+   "pause": 0.5,
+   "cues": [
+    "cell:6.4"
+   ]
+  },
+  {
+   "id": "c01-table-39",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "لِمَاذَا",
+   "pause": 0.35,
+   "cues": [
+    "row:7",
+    "cell:7.1"
+   ]
+  },
+  {
+   "id": "c01-table-40",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "Why. It asks for a reason.",
+   "pause": 0.3,
+   "cues": [
+    "cell:7.2"
+   ]
+  },
+  {
+   "id": "c01-table-41",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "لِمَاذَا ذَهَبْتَ إِلَى الْمَسْجِدِ؟",
+   "pause": 0.4,
+   "cues": [
+    "cell:7.3"
+   ]
+  },
+  {
+   "id": "c01-table-42",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "Why did you go to the mosque?",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c01-table-43",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "لِلصَّلَاةِ",
+   "pause": 0.4,
+   "cues": [
+    "cell:7.4"
+   ]
+  },
+  {
+   "id": "c01-table-44",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "For the prayer. The answer is a reason.",
+   "pause": 0.7,
+   "cues": []
+  },
+  {
+   "id": "c01-rule-01",
+   "scene": "c01-rule",
+   "lang": "en",
+   "text": "Now learn the last vowel of each word.",
+   "pause": 0.4,
+   "cues": [
+    "show",
+    "hl:Learn the last vowel"
+   ]
+  },
+  {
+   "id": "c01-rule-02",
+   "scene": "c01-rule",
+   "lang": "en",
+   "text": "These two end in sukūn.",
+   "pause": 0.3,
+   "cues": [
+    "hl:end in sukūn"
+   ]
+  },
+  {
+   "id": "c01-rule-03",
+   "scene": "c01-rule",
+   "lang": "ar",
+   "text": "مَنْ",
+   "pause": 0.25,
+   "cues": [
+    "hl:مَنْ"
+   ]
+  },
+  {
+   "id": "c01-rule-04",
+   "scene": "c01-rule",
+   "lang": "ar",
+   "text": "كَمْ",
+   "pause": 0.4,
+   "cues": [
+    "hl:كَمْ"
+   ]
+  },
+  {
+   "id": "c01-rule-05",
+   "scene": "c01-rule",
+   "lang": "en",
+   "text": "These two end in fatha.",
+   "pause": 0.3,
+   "cues": [
+    "hl:end in fatha"
+   ]
+  },
+  {
+   "id": "c01-rule-06",
+   "scene": "c01-rule",
+   "lang": "ar",
+   "text": "أَيْنَ",
+   "pause": 0.25,
+   "cues": [
+    "hl:أَيْنَ"
+   ]
+  },
+  {
+   "id": "c01-rule-07",
+   "scene": "c01-rule",
+   "lang": "ar",
+   "text": "كَيْفَ",
+   "pause": 0.4,
+   "cues": [
+    "hl:كَيْفَ"
+   ]
+  },
+  {
+   "id": "c01-rule-08",
+   "scene": "c01-rule",
+   "lang": "en",
+   "text": "These four end in a long ā.",
+   "pause": 0.3,
+   "cues": [
+    "hl:end in a long ā"
+   ]
+  },
+  {
+   "id": "c01-rule-09",
+   "scene": "c01-rule",
+   "lang": "ar",
+   "text": "مَا",
+   "pause": 0.25,
+   "cues": [
+    "hl:مَا"
+   ]
+  },
+  {
+   "id": "c01-rule-10",
+   "scene": "c01-rule",
+   "lang": "ar",
+   "text": "مَاذَا",
+   "pause": 0.25,
+   "cues": [
+    "hl:مَاذَا"
+   ]
+  },
+  {
+   "id": "c01-rule-11",
+   "scene": "c01-rule",
+   "lang": "ar",
+   "text": "مَتَى",
+   "pause": 0.25,
+   "cues": [
+    "hl:مَتَى"
+   ]
+  },
+  {
+   "id": "c01-rule-12",
+   "scene": "c01-rule",
+   "lang": "ar",
+   "text": "لِمَاذَا",
+   "pause": 0.4,
+   "cues": [
+    "hl:لِمَاذَا"
+   ]
+  },
+  {
+   "id": "c01-rule-13",
+   "scene": "c01-rule",
+   "lang": "en",
+   "text": "These endings never change. The words are fixed.",
+   "pause": 0.6,
+   "cues": [
+    "hl:These never change."
+   ]
+  },
+  {
+   "id": "c01-tips-01",
+   "scene": "c01-tips",
+   "lang": "en",
+   "text": "Three tips. First, there are two words for what.",
+   "pause": 0.3,
+   "cues": [
+    "tip:1"
+   ]
+  },
+  {
+   "id": "c01-tips-02",
+   "scene": "c01-tips",
+   "lang": "ar",
+   "text": "مَا",
+   "pause": 0.3,
+   "cues": [
+    "hl:مَا"
+   ]
+  },
+  {
+   "id": "c01-tips-03",
+   "scene": "c01-tips",
+   "lang": "ar",
+   "text": "مَاذَا",
+   "pause": 0.4,
+   "cues": [
+    "hl:مَاذَا"
+   ]
+  },
+  {
+   "id": "c01-tips-04",
+   "scene": "c01-tips",
+   "lang": "en",
+   "text": "The short one is usual before a noun. What is your name?",
+   "pause": 0.3,
+   "cues": [
+    "hl:usual before a noun"
+   ]
+  },
+  {
+   "id": "c01-tips-05",
+   "scene": "c01-tips",
+   "lang": "ar",
+   "text": "مَا اسْمُكَ؟",
+   "pause": 0.4,
+   "cues": [
+    "hl:مَا اسْمُكَ؟"
+   ]
+  },
+  {
+   "id": "c01-tips-06",
+   "scene": "c01-tips",
+   "lang": "en",
+   "text": "The long one is usual before a verb. What did you write?",
+   "pause": 0.3,
+   "cues": [
+    "hl:usual before a verb"
+   ]
+  },
+  {
+   "id": "c01-tips-07",
+   "scene": "c01-tips",
+   "lang": "ar",
+   "text": "مَاذَا كَتَبْتَ؟",
+   "pause": 0.6,
+   "cues": [
+    "hl:مَاذَا كَتَبْتَ؟"
+   ]
+  },
+  {
+   "id": "c01-tips-08",
+   "scene": "c01-tips",
+   "lang": "en",
+   "text": "Second, the word for how many.",
+   "pause": 0.3,
+   "cues": [
+    "tip:2"
+   ]
+  },
+  {
+   "id": "c01-tips-09",
+   "scene": "c01-tips",
+   "lang": "ar",
+   "text": "كَمْ",
+   "pause": 0.35,
+   "cues": [
+    "hl:كَمْ"
+   ]
+  },
+  {
+   "id": "c01-tips-10",
+   "scene": "c01-tips",
+   "lang": "en",
+   "text": "After it comes one noun with tanween fatha. How many books?",
+   "pause": 0.3,
+   "cues": [
+    "hl:tanween fatha"
+   ]
+  },
+  {
+   "id": "c01-tips-11",
+   "scene": "c01-tips",
+   "lang": "ar",
+   "text": "كَمْ كِتَابًا؟",
+   "pause": 0.4,
+   "cues": [
+    "hl:كَمْ كِتَابًا؟"
+   ]
+  },
+  {
+   "id": "c01-tips-12",
+   "scene": "c01-tips",
+   "lang": "en",
+   "text": "The noun is singular, even though the meaning is plural.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c01-tips-13",
+   "scene": "c01-tips",
+   "lang": "en",
+   "text": "Third, the word for why.",
+   "pause": 0.3,
+   "cues": [
+    "tip:3"
+   ]
+  },
+  {
+   "id": "c01-tips-14",
+   "scene": "c01-tips",
+   "lang": "ar",
+   "text": "لِمَاذَا",
+   "pause": 0.35,
+   "cues": [
+    "hl:لِمَاذَا"
+   ]
+  },
+  {
+   "id": "c01-tips-15",
+   "scene": "c01-tips",
+   "lang": "en",
+   "text": "It is made of two parts. The first part means for.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c01-tips-16",
+   "scene": "c01-tips",
+   "lang": "ar",
+   "text": "لِ",
+   "pause": 0.35,
+   "cues": [
+    "hl:لِ"
+   ]
+  },
+  {
+   "id": "c01-tips-17",
+   "scene": "c01-tips",
+   "lang": "en",
+   "text": "The second is the word for what.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c01-tips-18",
+   "scene": "c01-tips",
+   "lang": "ar",
+   "text": "مَاذَا",
+   "pause": 0.35,
+   "cues": [
+    "hl:مَاذَا"
+   ]
+  },
+  {
+   "id": "c01-tips-19",
+   "scene": "c01-tips",
+   "lang": "en",
+   "text": "Together they mean: for what?",
+   "pause": 0.7,
+   "cues": [
+    "hl:for what?"
+   ]
+  },
+  {
+   "id": "c02-title-01",
+   "scene": "c02-title",
+   "lang": "en",
+   "text": "Part two. Question ḥarfs.",
+   "pause": 0.3,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c02-title-02",
+   "scene": "c02-title",
+   "lang": "ar",
+   "text": "هَلْ",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c02-title-03",
+   "scene": "c02-title",
+   "lang": "ar",
+   "text": "أَ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-title-04",
+   "scene": "c02-title",
+   "lang": "en",
+   "text": "These two turn a normal sentence into a yes or no question.",
+   "pause": 0.3,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c02-title-05",
+   "scene": "c02-title",
+   "lang": "en",
+   "text": "The answer starts with yes or no.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c02-title-06",
+   "scene": "c02-title",
+   "lang": "ar",
+   "text": "نَعَمْ",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c02-title-07",
+   "scene": "c02-title",
+   "lang": "ar",
+   "text": "لَا",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-examples-01",
+   "scene": "c02-examples",
+   "lang": "en",
+   "text": "Is this a house? Yes, this is a house.",
+   "pause": 0.3,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c02-examples-02",
+   "scene": "c02-examples",
+   "lang": "ar",
+   "text": "هَلْ هَذَا بَيْتٌ؟",
+   "pause": 0.4,
+   "cues": [
+    "say:1"
+   ]
+  },
+  {
+   "id": "c02-examples-03",
+   "scene": "c02-examples",
+   "lang": "ar",
+   "text": "نَعَمْ، هَذَا بَيْتٌ",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-examples-04",
+   "scene": "c02-examples",
+   "lang": "en",
+   "text": "Without the question ḥarf, this is a normal sentence. With it, it is a question.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-examples-05",
+   "scene": "c02-examples",
+   "lang": "en",
+   "text": "Is this a pen? No, this is a key.",
+   "pause": 0.3,
+   "cues": [
+    "ex:2"
+   ]
+  },
+  {
+   "id": "c02-examples-06",
+   "scene": "c02-examples",
+   "lang": "ar",
+   "text": "أَهَذَا قَلَمٌ؟",
+   "pause": 0.4,
+   "cues": [
+    "say:2"
+   ]
+  },
+  {
+   "id": "c02-examples-07",
+   "scene": "c02-examples",
+   "lang": "ar",
+   "text": "لَا، هَذَا مِفْتَاحٌ",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-examples-08",
+   "scene": "c02-examples",
+   "lang": "en",
+   "text": "Here the question ḥarf is the short one at the very start. It is written joined to the next word.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c02-examples-09",
+   "scene": "c02-examples",
+   "lang": "en",
+   "text": "This one is from the Madinah book.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-examples-10",
+   "scene": "c02-examples",
+   "lang": "en",
+   "text": "Did Ali go to the principal? Yes.",
+   "pause": 0.3,
+   "cues": [
+    "ex:3"
+   ]
+  },
+  {
+   "id": "c02-examples-11",
+   "scene": "c02-examples",
+   "lang": "ar",
+   "text": "أَذَهَبَ عَلِيٌّ إِلَى الْمُدِيرِ؟",
+   "pause": 0.4,
+   "cues": [
+    "say:3"
+   ]
+  },
+  {
+   "id": "c02-examples-12",
+   "scene": "c02-examples",
+   "lang": "ar",
+   "text": "نَعَمْ",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-examples-13",
+   "scene": "c02-examples",
+   "lang": "en",
+   "text": "It is the same small ḥarf. This time it is joined to a verb.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c02-cols-01",
+   "scene": "c02-cols",
+   "lang": "en",
+   "text": "So there are two kinds of question word.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c02-cols-02",
+   "scene": "c02-cols",
+   "lang": "en",
+   "text": "A question ism has a job in the sentence.",
+   "pause": 0.3,
+   "cues": [
+    "col:1",
+    "hl:Has a job in the sentence"
+   ]
+  },
+  {
+   "id": "c02-cols-03",
+   "scene": "c02-cols",
+   "lang": "en",
+   "text": "It asks for a person, a thing, a place or a time.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-cols-04",
+   "scene": "c02-cols",
+   "lang": "en",
+   "text": "A question ḥarf has no job.",
+   "pause": 0.3,
+   "cues": [
+    "col:2",
+    "hl:Has no job."
+   ]
+  },
+  {
+   "id": "c02-cols-05",
+   "scene": "c02-cols",
+   "lang": "en",
+   "text": "It only makes a yes or no question.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c02-tip-01",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "Never answer a where, who or when question with yes or no.",
+   "pause": 0.3,
+   "cues": [
+    "show",
+    "hl:Never answer"
+   ]
+  },
+  {
+   "id": "c02-tip-02",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "Only the two question ḥarfs take a yes or no answer.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c02-tip-03",
+   "scene": "c02-tip",
+   "lang": "ar",
+   "text": "هَلْ",
+   "pause": 0.3,
+   "cues": [
+    "hl:هَلْ"
+   ]
+  },
+  {
+   "id": "c02-tip-04",
+   "scene": "c02-tip",
+   "lang": "ar",
+   "text": "أَ",
+   "pause": 0.7,
+   "cues": [
+    "hl:أَ"
+   ]
+  },
+  {
+   "id": "c03-title-01",
+   "scene": "c03-title",
+   "lang": "en",
+   "text": "Part three. With a preposition.",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c03-title-02",
+   "scene": "c03-title",
+   "lang": "en",
+   "text": "A preposition can come before a question word.",
+   "pause": 0.3,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c03-title-03",
+   "scene": "c03-title",
+   "lang": "en",
+   "text": "The question word is still fixed. It is in the place of jarr.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-01",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "Where are you from? I am from India.",
+   "pause": 0.3,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c03-examples-02",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "مِنْ أَيْنَ أَنْتَ؟",
+   "pause": 0.4,
+   "cues": [
+    "say:1"
+   ]
+  },
+  {
+   "id": "c03-examples-03",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "أَنَا مِنَ الْهِنْدِ",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-04",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "Here the word for where comes after the preposition meaning from.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-05",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "مِنْ أَيْنَ",
+   "pause": 0.4,
+   "cues": [
+    "hl:مِنْ أَيْنَ"
+   ]
+  },
+  {
+   "id": "c03-examples-06",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "It still ends in fatha. It is in the place of jarr.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-07",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "Where did Khalid go to? To the market.",
+   "pause": 0.3,
+   "cues": [
+    "ex:2"
+   ]
+  },
+  {
+   "id": "c03-examples-08",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "إِلَى أَيْنَ ذَهَبَ خَالِدٌ؟",
+   "pause": 0.4,
+   "cues": [
+    "say:2"
+   ]
+  },
+  {
+   "id": "c03-examples-09",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "إِلَى السُّوقِ",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-10",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "Again a preposition comes first. The question word does not change.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-11",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "How much is this book?",
+   "pause": 0.3,
+   "cues": [
+    "ex:3"
+   ]
+  },
+  {
+   "id": "c03-examples-12",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "بِكَمْ هَذَا الْكِتَابُ؟",
+   "pause": 0.5,
+   "cues": [
+    "say:3"
+   ]
+  },
+  {
+   "id": "c03-examples-13",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "The word for how much has a small preposition joined to its front. That preposition means for. Together they ask: for how much?",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-14",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "بِكَمْ",
+   "pause": 0.4,
+   "cues": [
+    "hl:بِكَمْ"
+   ]
+  },
+  {
+   "id": "c03-examples-15",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "The question word still ends in sukūn.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-16",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "Whose pen is this?",
+   "pause": 0.3,
+   "cues": [
+    "ex:4"
+   ]
+  },
+  {
+   "id": "c03-examples-17",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "قَلَمُ مَنْ هَذَا؟",
+   "pause": 0.5,
+   "cues": [
+    "say:4"
+   ]
+  },
+  {
+   "id": "c03-examples-18",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "Here the word for who comes after the word for pen. It is the owner.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c03-examples-19",
+   "scene": "c03-examples",
+   "lang": "ar",
+   "text": "مَنْ",
+   "pause": 0.4,
+   "cues": [
+    "hl:مَنْ"
+   ]
+  },
+  {
+   "id": "c03-examples-20",
+   "scene": "c03-examples",
+   "lang": "en",
+   "text": "It keeps its sukūn. As the owner, it is in the place of jarr.",
+   "pause": 0.7,
+   "cues": []
+  },
+  {
+   "id": "c03-tip-01",
+   "scene": "c03-tip",
+   "lang": "en",
+   "text": "A tip. Without a preposition before it, a question word has its own job in the sentence.",
+   "pause": 0.4,
+   "cues": [
+    "show",
+    "hl:has its own job in the sentence"
+   ]
+  },
+  {
+   "id": "c03-tip-02",
+   "scene": "c03-tip",
+   "lang": "en",
+   "text": "Who is in the room?",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c03-tip-03",
+   "scene": "c03-tip",
+   "lang": "ar",
+   "text": "مَنْ فِي الْغُرْفَةِ؟",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c03-tip-04",
+   "scene": "c03-tip",
+   "lang": "en",
+   "text": "Here the word for who is the Topic. It is in the place of rafʿ.",
+   "pause": 0.7,
+   "cues": [
+    "hl:place of rafʿ"
+   ]
+  },
+  {
+   "id": "c04-title-01",
+   "scene": "c04-title",
+   "lang": "en",
+   "text": "Part four. A question word that is not fixed.",
+   "pause": 0.3,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c04-title-02",
+   "scene": "c04-title",
+   "lang": "ar",
+   "text": "أَيٌّ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-title-03",
+   "scene": "c04-title",
+   "lang": "en",
+   "text": "It is the word for which.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c04-rule-01",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "This word takes endings.",
+   "pause": 0.3,
+   "cues": [
+    "show",
+    "hl:takes endings"
+   ]
+  },
+  {
+   "id": "c04-rule-02",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "It is a question ism. But it is flexible.",
+   "pause": 0.3,
+   "cues": [
+    "hl:it is flexible"
+   ]
+  },
+  {
+   "id": "c04-rule-03",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "It is the exception. Every other question word in this lesson is fixed.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-rule-04",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "Its ending changes with its job.",
+   "pause": 0.3,
+   "cues": [
+    "hl:Its ending changes with its job"
+   ]
+  },
+  {
+   "id": "c04-rule-05",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "And the noun after it is jarr, as its owner.",
+   "pause": 0.6,
+   "cues": [
+    "hl:jarr as its owner"
+   ]
+  },
+  {
+   "id": "c04-examples-01",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "Which book is this?",
+   "pause": 0.3,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c04-examples-02",
+   "scene": "c04-examples",
+   "lang": "ar",
+   "text": "أَيُّ كِتَابٍ هَذَا؟",
+   "pause": 0.5,
+   "cues": [
+    "say:1"
+   ]
+  },
+  {
+   "id": "c04-examples-03",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "Here the word for which is in rafʿ. It ends in damma.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c04-examples-04",
+   "scene": "c04-examples",
+   "lang": "ar",
+   "text": "أَيُّ",
+   "pause": 0.4,
+   "cues": [
+    "hl:أَيُّ"
+   ]
+  },
+  {
+   "id": "c04-examples-05",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "The noun after it is its owner. So the noun is jarr, with kasra and tanween.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c04-examples-06",
+   "scene": "c04-examples",
+   "lang": "ar",
+   "text": "كِتَابٍ",
+   "pause": 0.4,
+   "cues": [
+    "hl:كِتَابٍ"
+   ]
+  },
+  {
+   "id": "c04-examples-07",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "Because the noun is its owner, the question word has no tanween.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c04-examples-08",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "Which book did you read?",
+   "pause": 0.3,
+   "cues": [
+    "ex:2"
+   ]
+  },
+  {
+   "id": "c04-examples-09",
+   "scene": "c04-examples",
+   "lang": "ar",
+   "text": "أَيَّ كِتَابٍ قَرَأْتَ؟",
+   "pause": 0.5,
+   "cues": [
+    "say:2"
+   ]
+  },
+  {
+   "id": "c04-examples-10",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "Here it is the object. So it is naṣb, with fatha.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c04-examples-11",
+   "scene": "c04-examples",
+   "lang": "ar",
+   "text": "أَيَّ",
+   "pause": 0.6,
+   "cues": [
+    "hl:أَيَّ"
+   ]
+  },
+  {
+   "id": "c04-examples-12",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "In which room is the principal?",
+   "pause": 0.3,
+   "cues": [
+    "ex:3"
+   ]
+  },
+  {
+   "id": "c04-examples-13",
+   "scene": "c04-examples",
+   "lang": "ar",
+   "text": "فِي أَيِّ غُرْفَةٍ الْمُدِيرُ؟",
+   "pause": 0.5,
+   "cues": [
+    "say:3"
+   ]
+  },
+  {
+   "id": "c04-examples-14",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "Here it comes after a preposition. That preposition means in. So it is jarr, with kasra.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c04-examples-15",
+   "scene": "c04-examples",
+   "lang": "ar",
+   "text": "أَيِّ",
+   "pause": 0.5,
+   "cues": [
+    "hl:أَيِّ"
+   ]
+  },
+  {
+   "id": "c04-examples-16",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "Rafʿ, naṣb and jarr. Three endings. That is what flexible means.",
+   "pause": 0.7,
+   "cues": []
+  },
+  {
+   "id": "c05-title-01",
+   "scene": "c05-title",
+   "lang": "en",
+   "text": "Part five. Which word for which answer?",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c05-title-02",
+   "scene": "c05-title",
+   "lang": "en",
+   "text": "Look at the kind of answer. Then choose the question word.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c05-table-01",
+   "scene": "c05-table",
+   "lang": "en",
+   "text": "The answer is a person.",
+   "pause": 0.3,
+   "cues": [
+    "row:1",
+    "cell:1.1"
+   ]
+  },
+  {
+   "id": "c05-table-02",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "مَنْ",
+   "pause": 0.4,
+   "cues": [
+    "cell:1.2"
+   ]
+  },
+  {
+   "id": "c05-table-03",
+   "scene": "c05-table",
+   "lang": "en",
+   "text": "A thing.",
+   "pause": 0.3,
+   "cues": [
+    "row:2",
+    "cell:2.1"
+   ]
+  },
+  {
+   "id": "c05-table-04",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "مَا",
+   "pause": 0.25,
+   "cues": [
+    "cell:2.2"
+   ]
+  },
+  {
+   "id": "c05-table-05",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "مَاذَا",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-table-06",
+   "scene": "c05-table",
+   "lang": "en",
+   "text": "A time.",
+   "pause": 0.3,
+   "cues": [
+    "row:3",
+    "cell:3.1"
+   ]
+  },
+  {
+   "id": "c05-table-07",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "مَتَى",
+   "pause": 0.4,
+   "cues": [
+    "cell:3.2"
+   ]
+  },
+  {
+   "id": "c05-table-08",
+   "scene": "c05-table",
+   "lang": "en",
+   "text": "A place.",
+   "pause": 0.3,
+   "cues": [
+    "row:4",
+    "cell:4.1"
+   ]
+  },
+  {
+   "id": "c05-table-09",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "أَيْنَ",
+   "pause": 0.25,
+   "cues": [
+    "cell:4.2"
+   ]
+  },
+  {
+   "id": "c05-table-10",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "مِنْ أَيْنَ",
+   "pause": 0.25,
+   "cues": []
+  },
+  {
+   "id": "c05-table-11",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "إِلَى أَيْنَ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-table-12",
+   "scene": "c05-table",
+   "lang": "en",
+   "text": "A state.",
+   "pause": 0.3,
+   "cues": [
+    "row:5",
+    "cell:5.1"
+   ]
+  },
+  {
+   "id": "c05-table-13",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "كَيْفَ",
+   "pause": 0.4,
+   "cues": [
+    "cell:5.2"
+   ]
+  },
+  {
+   "id": "c05-table-14",
+   "scene": "c05-table",
+   "lang": "en",
+   "text": "A number or a price.",
+   "pause": 0.3,
+   "cues": [
+    "row:6",
+    "cell:6.1"
+   ]
+  },
+  {
+   "id": "c05-table-15",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "كَمْ",
+   "pause": 0.25,
+   "cues": [
+    "cell:6.2"
+   ]
+  },
+  {
+   "id": "c05-table-16",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "بِكَمْ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-table-17",
+   "scene": "c05-table",
+   "lang": "en",
+   "text": "A reason.",
+   "pause": 0.3,
+   "cues": [
+    "row:7",
+    "cell:7.1"
+   ]
+  },
+  {
+   "id": "c05-table-18",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "لِمَاذَا",
+   "pause": 0.4,
+   "cues": [
+    "cell:7.2"
+   ]
+  },
+  {
+   "id": "c05-table-19",
+   "scene": "c05-table",
+   "lang": "en",
+   "text": "One of a group.",
+   "pause": 0.3,
+   "cues": [
+    "row:8",
+    "cell:8.1"
+   ]
+  },
+  {
+   "id": "c05-table-20",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "أَيٌّ",
+   "pause": 0.4,
+   "cues": [
+    "cell:8.2"
+   ]
+  },
+  {
+   "id": "c05-table-21",
+   "scene": "c05-table",
+   "lang": "en",
+   "text": "Yes or no.",
+   "pause": 0.3,
+   "cues": [
+    "row:9",
+    "cell:9.1"
+   ]
+  },
+  {
+   "id": "c05-table-22",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "هَلْ",
+   "pause": 0.25,
+   "cues": [
+    "cell:9.2"
+   ]
+  },
+  {
+   "id": "c05-table-23",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "أَ",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "summary-01",
+   "scene": "summary",
+   "lang": "en",
+   "text": "In short.",
+   "pause": 0.4,
+   "cues": [
+    "show"
+   ]
+  },
+  {
+   "id": "summary-02",
+   "scene": "summary",
+   "lang": "en",
+   "text": "These question isms ask who, what, when, where, how, how many and why. All of these are fixed.",
+   "pause": 0.5,
+   "cues": [
+    "item:1"
+   ]
+  },
+  {
+   "id": "summary-03",
+   "scene": "summary",
+   "lang": "en",
+   "text": "The question ḥarfs are these two.",
+   "pause": 0.3,
+   "cues": [
+    "item:2"
+   ]
+  },
+  {
+   "id": "summary-04",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "هَلْ",
+   "pause": 0.3,
+   "cues": [
+    "hl:هَلْ"
+   ]
+  },
+  {
+   "id": "summary-05",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "أَ",
+   "pause": 0.35,
+   "cues": [
+    "hl:أَ"
+   ]
+  },
+  {
+   "id": "summary-06",
+   "scene": "summary",
+   "lang": "en",
+   "text": "Answer them with yes or no.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "summary-07",
+   "scene": "summary",
+   "lang": "en",
+   "text": "After a preposition, the question word is in the place of jarr.",
+   "pause": 0.3,
+   "cues": [
+    "item:3"
+   ]
+  },
+  {
+   "id": "summary-08",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "مِنْ أَيْنَ",
+   "pause": 0.3,
+   "cues": [
+    "hl:مِنْ أَيْنَ"
+   ]
+  },
+  {
+   "id": "summary-09",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "بِكَمْ",
+   "pause": 0.5,
+   "cues": [
+    "hl:بِكَمْ"
+   ]
+  },
+  {
+   "id": "summary-10",
+   "scene": "summary",
+   "lang": "en",
+   "text": "One question ism is not fixed. It is the word for which. Its ending changes.",
+   "pause": 0.3,
+   "cues": [
+    "item:4"
+   ]
+  },
+  {
+   "id": "summary-11",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "أَيُّ",
+   "pause": 0.3,
+   "cues": [
+    "hl:أَيُّ"
+   ]
+  },
+  {
+   "id": "summary-12",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "أَيَّ",
+   "pause": 0.3,
+   "cues": [
+    "hl:أَيَّ"
+   ]
+  },
+  {
+   "id": "summary-13",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "أَيِّ",
+   "pause": 0.7,
+   "cues": [
+    "hl:أَيِّ"
+   ]
+  },
+  {
+   "id": "outro-yourturn-01",
+   "scene": "outro-yourturn",
+   "lang": "en",
+   "text": "Now it is your turn.",
+   "pause": 0.3,
+   "cues": [
+    "show"
+   ]
+  },
+  {
+   "id": "outro-yourturn-02",
+   "scene": "outro-yourturn",
+   "lang": "en",
+   "text": "Open the Practice tab and work through the six cards.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "outro-yourturn-03",
+   "scene": "outro-yourturn",
+   "lang": "en",
+   "text": "Then do the Homework tab.",
+   "pause": 1.0,
+   "cues": []
+  }
+ ]
+}

@@ -1,0 +1,227 @@
+{
+ "segments": [
+  {
+   "id": "c04-title-01",
+   "scene": "c04-title",
+   "lang": "en",
+   "text": "Part four. A question word that is not fixed.",
+   "pause": 0.3,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c04-title-02",
+   "scene": "c04-title",
+   "lang": "ar",
+   "text": "أَيٌّ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-title-03",
+   "scene": "c04-title",
+   "lang": "en",
+   "text": "It is the word for which.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c04-rule-01",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "This word takes endings.",
+   "pause": 0.3,
+   "cues": [
+    "show",
+    "hl:takes endings"
+   ]
+  },
+  {
+   "id": "c04-rule-02",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "It is a question ism. But it is flexible.",
+   "pause": 0.3,
+   "cues": [
+    "hl:it is flexible"
+   ]
+  },
+  {
+   "id": "c04-rule-03",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "It is the exception. Every other question word in this lesson is fixed.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-rule-04",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "Its ending changes with its job.",
+   "pause": 0.3,
+   "cues": [
+    "hl:Its ending changes with its job"
+   ]
+  },
+  {
+   "id": "c04-rule-05",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "And the noun after it is jarr, as its owner.",
+   "pause": 0.6,
+   "cues": [
+    "hl:jarr as its owner"
+   ]
+  },
+  {
+   "id": "c04-examples-01",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "Which book is this?",
+   "pause": 0.3,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c04-examples-02",
+   "scene": "c04-examples",
+   "lang": "ar",
+   "text": "أَيُّ كِتَابٍ هَذَا؟",
+   "pause": 0.5,
+   "cues": [
+    "say:1"
+   ]
+  },
+  {
+   "id": "c04-examples-03",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "Here the word for which is in rafʿ. It ends in damma.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c04-examples-04",
+   "scene": "c04-examples",
+   "lang": "ar",
+   "text": "أَيُّ",
+   "pause": 0.4,
+   "cues": [
+    "hl:أَيُّ"
+   ]
+  },
+  {
+   "id": "c04-examples-05",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "The noun after it is its owner. So the noun is jarr, with kasra and tanween.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c04-examples-06",
+   "scene": "c04-examples",
+   "lang": "ar",
+   "text": "كِتَابٍ",
+   "pause": 0.4,
+   "cues": [
+    "hl:كِتَابٍ"
+   ]
+  },
+  {
+   "id": "c04-examples-07",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "Because the noun is its owner, the question word has no tanween.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c04-examples-08",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "Which book did you read?",
+   "pause": 0.3,
+   "cues": [
+    "ex:2"
+   ]
+  },
+  {
+   "id": "c04-examples-09",
+   "scene": "c04-examples",
+   "lang": "ar",
+   "text": "أَيَّ كِتَابٍ قَرَأْتَ؟",
+   "pause": 0.5,
+   "cues": [
+    "say:2"
+   ]
+  },
+  {
+   "id": "c04-examples-10",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "Here it is the object. So it is naṣb, with fatha.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c04-examples-11",
+   "scene": "c04-examples",
+   "lang": "ar",
+   "text": "أَيَّ",
+   "pause": 0.6,
+   "cues": [
+    "hl:أَيَّ"
+   ]
+  },
+  {
+   "id": "c04-examples-12",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "In which room is the principal?",
+   "pause": 0.3,
+   "cues": [
+    "ex:3"
+   ]
+  },
+  {
+   "id": "c04-examples-13",
+   "scene": "c04-examples",
+   "lang": "ar",
+   "text": "فِي أَيِّ غُرْفَةٍ الْمُدِيرُ؟",
+   "pause": 0.5,
+   "cues": [
+    "say:3"
+   ]
+  },
+  {
+   "id": "c04-examples-14",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "Here it comes after a preposition. That preposition means in. So it is jarr, with kasra.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c04-examples-15",
+   "scene": "c04-examples",
+   "lang": "ar",
+   "text": "أَيِّ",
+   "pause": 0.5,
+   "cues": [
+    "hl:أَيِّ"
+   ]
+  },
+  {
+   "id": "c04-examples-16",
+   "scene": "c04-examples",
+   "lang": "en",
+   "text": "Rafʿ, naṣb and jarr. Three endings. That is what flexible means.",
+   "pause": 0.7,
+   "cues": []
+  }
+ ]
+}

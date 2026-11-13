@@ -42,6 +42,8 @@ def respell(text):
     a final short vowel -> hāʾ al-sakt, which keeps the vowel in pause (هُوَ -> هُوَهْ)."""
     words = text.split()
     w = words[-1]
+    end = w[len(w.rstrip("؟،؛.!?…,")):]   # keep a final question mark or comma after the respelled ending
+    w = w[:len(w) - len(end)]
     tan = {"\u064B": "\u064E", "\u064C": "\u064F", "\u064D": "\u0650"}
     m = re.search("([\u064B-\u064D])(\u0651?)\u0627?$|(\u0651?)([\u064B-\u064D])\u0627?$", w)
     if m:
@@ -49,7 +51,7 @@ def respell(text):
         w = w[:m.start()] + (m.group(2) or m.group(3) or "") + tan[t] + "\u0646\u0652"
     elif re.search("[\u064E-\u0650]$", w):
         w += "\u0647\u0652"
-    return " ".join(words[:-1] + [w])
+    return " ".join(words[:-1] + [w + end])
 
 
 class Supertonic:

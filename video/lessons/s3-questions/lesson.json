@@ -1,0 +1,526 @@
+{
+ "id": "s3-questions",
+ "stage": 3,
+ "title": "Question words",
+ "ar_title": "أَدَوَاتُ الِاسْتِفْهَامِ",
+ "blurb": "Who, what, when, where, how, how many and why. Plus the two small words that make a yes/no question.",
+ "tabs": [
+  "Lesson",
+  "Practice"
+ ],
+ "sources": [
+  "content/stage3/u5_questions.py"
+ ],
+ "roles": {},
+ "hero_html": "<div class=\"hero\"><div class=\"eyebrow\">STAGE 3 · UNIT 5</div><h1>Asking questions</h1><p>Question words usually come first in the sentence. Almost all of them are fixed, so learn each one with its last vowel.</p><div class=\"wm\" aria-hidden=\"true\">مَنْ؟</div></div>",
+ "sections": [
+  {
+   "num": 1,
+   "title": "Question isms: the table to learn",
+   "title_text": "Question isms: the table to learn",
+   "sub": null,
+   "blocks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "num": 2,
+   "title": "Question ḥarfs: هَلْ and أَ",
+   "title_text": "Question ḥarfs: هَلْ and أَ",
+   "sub": null,
+   "blocks": [
+    9,
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "num": 3,
+   "title": "With a preposition",
+   "title_text": "With a preposition",
+   "sub": null,
+   "blocks": [
+    14,
+    15,
+    16
+   ]
+  },
+  {
+   "num": 4,
+   "title": "Not fixed: أَيٌّ &quot;which&quot;",
+   "title_text": "Not fixed: أَيٌّ \"which\"",
+   "sub": null,
+   "blocks": [
+    18,
+    19
+   ]
+  },
+  {
+   "num": 5,
+   "title": "Which word for which answer?",
+   "title_text": "Which word for which answer?",
+   "sub": null,
+   "blocks": [
+    21,
+    22
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "i": 0,
+   "t": "hero",
+   "section": null,
+   "html": "<div class=\"hero\"><div class=\"eyebrow\">STAGE 3 · UNIT 5</div><h1>Asking questions</h1><p>Question words usually come first in the sentence. Almost all of them are fixed, so learn each one with its last vowel.</p><div class=\"wm\" aria-hidden=\"true\">مَنْ؟</div></div>",
+   "src": {
+    "t": "hero",
+    "eyebrow": "STAGE 3 · UNIT 5",
+    "title": "Asking questions",
+    "text": "Question words usually come first in the sentence. Almost all of them are fixed, so learn each one with its last vowel.",
+    "wm": "مَنْ؟"
+   }
+  },
+  {
+   "i": 1,
+   "t": "h2",
+   "section": 1,
+   "html": "<h2><span class=\"num\">1</span>Question isms: the table to learn</h2>",
+   "src": {
+    "t": "h2",
+    "text": "Question isms: the table to learn"
+   }
+  },
+  {
+   "i": 2,
+   "t": "p",
+   "section": 1,
+   "html": "<p class=\"s0p\">These question words are isms. Each one asks for one kind of answer.</p>",
+   "src": {
+    "t": "p",
+    "text": "These question words are isms. Each one asks for one kind of answer."
+   }
+  },
+  {
+   "i": 3,
+   "t": "table",
+   "section": 1,
+   "html": "<div class=\"tblwrap\"><table class=\"glance s0t\"><tr><th>Word</th><th>Meaning</th><th>Question</th><th>Answer</th></tr><tr><td class=\"tar\"><bdi class=\"ab\">مَنْ</bdi></td><td class=\"\">who</td><td class=\"tar\"><bdi class=\"ab\">مَنْ فِي الْغُرْفَةِ؟</bdi></td><td class=\"\"><bdi class=\"ab\">مُحَمَّدٌ.</bdi> a person</td></tr><tr><td class=\"tar\"><bdi class=\"ab\">مَا</bdi> / <bdi class=\"ab\">مَاذَا</bdi></td><td class=\"\">what</td><td class=\"tar\"><bdi class=\"ab\">مَا هَذَا؟</bdi></td><td class=\"\"><bdi class=\"ab\">هَذَا كِتَابٌ.</bdi> a thing</td></tr><tr><td class=\"tar\"><bdi class=\"ab\">مَتَى</bdi></td><td class=\"\">when</td><td class=\"tar\"><bdi class=\"ab\">مَتَى خَرَجَ الْمُدَرِّسُ؟</bdi></td><td class=\"\"><bdi class=\"ab\">بَعْدَ الظُّهْرِ.</bdi> a time</td></tr><tr><td class=\"tar\"><bdi class=\"ab\">أَيْنَ</bdi></td><td class=\"\">where</td><td class=\"tar\"><bdi class=\"ab\">أَيْنَ الْكِتَابُ؟</bdi></td><td class=\"\"><bdi class=\"ab\">عَلَى الْمَكْتَبِ.</bdi> a place</td></tr><tr><td class=\"tar\"><bdi class=\"ab\">كَيْفَ</bdi></td><td class=\"\">how</td><td class=\"tar\"><bdi class=\"ab\">كَيْفَ حَالُكَ؟</bdi></td><td class=\"\"><bdi class=\"ab\">بِخَيْرٍ.</bdi> a state</td></tr><tr><td class=\"tar\"><bdi class=\"ab\">كَمْ</bdi></td><td class=\"\">how many, how much</td><td class=\"tar\"><bdi class=\"ab\">كَمْ طَالِبًا فِي الْفَصْلِ؟</bdi></td><td class=\"\">a number</td></tr><tr><td class=\"tar\"><bdi class=\"ab\">لِمَاذَا</bdi></td><td class=\"\">why</td><td class=\"tar\"><bdi class=\"ab\">لِمَاذَا ذَهَبْتَ إِلَى الْمَسْجِدِ؟</bdi></td><td class=\"\"><bdi class=\"ab\">لِلصَّلَاةِ.</bdi> a reason</td></tr></table></div>",
+   "src": {
+    "t": "table",
+    "head": [
+     "Word",
+     "Meaning",
+     "Question",
+     "Answer"
+    ],
+    "rows": [
+     [
+      "{مَنْ}",
+      "who",
+      "{مَنْ فِي الْغُرْفَةِ؟}",
+      "{مُحَمَّدٌ.} a person"
+     ],
+     [
+      "{مَا} / {مَاذَا}",
+      "what",
+      "{مَا هَذَا؟}",
+      "{هَذَا كِتَابٌ.} a thing"
+     ],
+     [
+      "{مَتَى}",
+      "when",
+      "{مَتَى خَرَجَ الْمُدَرِّسُ؟}",
+      "{بَعْدَ الظُّهْرِ.} a time"
+     ],
+     [
+      "{أَيْنَ}",
+      "where",
+      "{أَيْنَ الْكِتَابُ؟}",
+      "{عَلَى الْمَكْتَبِ.} a place"
+     ],
+     [
+      "{كَيْفَ}",
+      "how",
+      "{كَيْفَ حَالُكَ؟}",
+      "{بِخَيْرٍ.} a state"
+     ],
+     [
+      "{كَمْ}",
+      "how many, how much",
+      "{كَمْ طَالِبًا فِي الْفَصْلِ؟}",
+      "a number"
+     ],
+     [
+      "{لِمَاذَا}",
+      "why",
+      "{لِمَاذَا ذَهَبْتَ إِلَى الْمَسْجِدِ؟}",
+      "{لِلصَّلَاةِ.} a reason"
+     ]
+    ]
+   }
+  },
+  {
+   "i": 4,
+   "t": "rule",
+   "section": 1,
+   "html": "<div class=\"rbox\" style=\"border-color:#e0a10b;background:#fff5d6\"><b style=\"color:#a87805\">Learn the last vowel.</b> <bdi class=\"ab\">مَنْ</bdi> and <bdi class=\"ab\">كَمْ</bdi> end in sukūn. <bdi class=\"ab\">أَيْنَ</bdi> and <bdi class=\"ab\">كَيْفَ</bdi> end in fatha. <bdi class=\"ab\">مَا</bdi>، <bdi class=\"ab\">مَاذَا</bdi>، <bdi class=\"ab\">مَتَى</bdi>، <bdi class=\"ab\">لِمَاذَا</bdi> end in a long ā. These never change.</div>",
+   "src": {
+    "t": "rule",
+    "color": "gold",
+    "title": "Learn the last vowel",
+    "text": "{مَنْ} and {كَمْ} end in sukūn. {أَيْنَ} and {كَيْفَ} end in fatha. {مَا}، {مَاذَا}، {مَتَى}، {لِمَاذَا} end in a long ā. These never change."
+   }
+  },
+  {
+   "i": 5,
+   "t": "tip",
+   "section": 1,
+   "html": "<div class=\"tipbox\"><b>Tip:</b> <bdi class=\"ab\">مَا</bdi> and <bdi class=\"ab\">مَاذَا</bdi> both mean &quot;what&quot;. <bdi class=\"ab\">مَا</bdi> is usual before a noun: <bdi class=\"ab\">مَا اسْمُكَ؟</bdi>. <bdi class=\"ab\">مَاذَا</bdi> is usual before a verb: <bdi class=\"ab\">مَاذَا كَتَبْتَ؟</bdi>.</div>",
+   "src": {
+    "t": "tip",
+    "text": "{مَا} and {مَاذَا} both mean \"what\". {مَا} is usual before a noun: {مَا اسْمُكَ؟}. {مَاذَا} is usual before a verb: {مَاذَا كَتَبْتَ؟}."
+   }
+  },
+  {
+   "i": 6,
+   "t": "tip",
+   "section": 1,
+   "html": "<div class=\"tipbox\"><b>Tip:</b> After <bdi class=\"ab\">كَمْ</bdi> comes one noun with tanween fatha: <bdi class=\"ab\">كَمْ كِتَابًا؟</bdi> &quot;how many books?&quot;. It is a singular noun, even though the meaning is plural.</div>",
+   "src": {
+    "t": "tip",
+    "text": "After {كَمْ} comes one noun with tanween fatha: {كَمْ كِتَابًا؟} \"how many books?\". It is a singular noun, even though the meaning is plural."
+   }
+  },
+  {
+   "i": 7,
+   "t": "tip",
+   "section": 1,
+   "html": "<div class=\"tipbox\"><b>Tip:</b> <bdi class=\"ab\">لِمَاذَا</bdi> is <bdi class=\"ab\">لِ</bdi> &quot;for&quot; + <bdi class=\"ab\">مَاذَا</bdi> &quot;what&quot;: &quot;for what?&quot;</div>",
+   "src": {
+    "t": "tip",
+    "text": "{لِمَاذَا} is {لِ} \"for\" + {مَاذَا} \"what\": \"for what?\""
+   }
+  },
+  {
+   "i": 8,
+   "t": "h2",
+   "section": 2,
+   "html": "<h2><span class=\"num\">2</span>Question ḥarfs: هَلْ and أَ</h2>",
+   "src": {
+    "t": "h2",
+    "text": "Question ḥarfs: هَلْ and أَ"
+   }
+  },
+  {
+   "i": 9,
+   "t": "p",
+   "section": 2,
+   "html": "<p class=\"s0p\"><bdi class=\"ab\">هَلْ</bdi> and <bdi class=\"ab\">أَ</bdi> turn a normal sentence into a yes/no question. The answer starts with <bdi class=\"ab\">نَعَمْ</bdi> &quot;yes&quot; or <bdi class=\"ab\">لَا</bdi> &quot;no&quot;.</p>",
+   "src": {
+    "t": "p",
+    "text": "{هَلْ} and {أَ} turn a normal sentence into a yes/no question. The answer starts with {نَعَمْ} \"yes\" or {لَا} \"no\"."
+   }
+  },
+  {
+   "i": 10,
+   "t": "examples",
+   "section": 2,
+   "html": "<div class=\"exlist\"><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">هَلْ هَذَا بَيْتٌ؟ نَعَمْ، هَذَا بَيْتٌ.</div><div class=\"exe\">Is this a house? Yes, this is a house.</div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">أَهَذَا قَلَمٌ؟ لَا، هَذَا مِفْتَاحٌ.</div><div class=\"exe\">Is this a pen? No, this is a key.<div class=\"exn\"><bdi class=\"ab\">أَ</bdi> is written joined to the next word. Madinah lesson 1.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">أَذَهَبَ عَلِيٌّ إِلَى الْمُدِيرِ؟ نَعَمْ.</div><div class=\"exe\">Did Ali go to the principal? Yes.<div class=\"exn\">Madinah lesson 4.</div></div></div></div>",
+   "src": {
+    "t": "examples",
+    "items": [
+     {
+      "ar": "هَلْ هَذَا بَيْتٌ؟ نَعَمْ، هَذَا بَيْتٌ.",
+      "en": "Is this a house? Yes, this is a house."
+     },
+     {
+      "ar": "أَهَذَا قَلَمٌ؟ لَا، هَذَا مِفْتَاحٌ.",
+      "en": "Is this a pen? No, this is a key.",
+      "note": "{أَ} is written joined to the next word. Madinah lesson 1."
+     },
+     {
+      "ar": "أَذَهَبَ عَلِيٌّ إِلَى الْمُدِيرِ؟ نَعَمْ.",
+      "en": "Did Ali go to the principal? Yes.",
+      "note": "Madinah lesson 4."
+     }
+    ]
+   }
+  },
+  {
+   "i": 11,
+   "t": "cols",
+   "section": 2,
+   "html": "<div class=\"kkgrid s0cols\"><div class=\"kk\" style=\"border-left-color:#e0a10b;background:#fff5d6\"><div class=\"kkt\"><span style=\"color:#a87805\"><span class=\"dot\" style=\"background:#e0a10b\"></span>Question ism</span><span class=\"kkar\">اِسْمُ اسْتِفْهَامٍ</span></div><div class=\"kkd\">Has a job in the sentence: <bdi class=\"ab\">مَنْ</bdi>، <bdi class=\"ab\">مَا</bdi>، <bdi class=\"ab\">أَيْنَ</bdi>، <bdi class=\"ab\">مَتَى</bdi>... Asks for a person, thing, place or time.</div></div><div class=\"kk\" style=\"border-left-color:#7d858e;background:#eef0f2\"><div class=\"kkt\"><span style=\"color:#5a626b\"><span class=\"dot\" style=\"background:#7d858e\"></span>Question ḥarf</span><span class=\"kkar\">حَرْفُ اسْتِفْهَامٍ</span></div><div class=\"kkd\">Has no job. It only makes a yes/no question: <bdi class=\"ab\">هَلْ</bdi>، <bdi class=\"ab\">أَ</bdi>.</div></div></div>",
+   "src": {
+    "t": "cols",
+    "items": [
+     {
+      "color": "gold",
+      "title": "Question ism",
+      "ar": "اِسْمُ اسْتِفْهَامٍ",
+      "text": "Has a job in the sentence: {مَنْ}، {مَا}، {أَيْنَ}، {مَتَى}... Asks for a person, thing, place or time."
+     },
+     {
+      "color": "grey",
+      "title": "Question ḥarf",
+      "ar": "حَرْفُ اسْتِفْهَامٍ",
+      "text": "Has no job. It only makes a yes/no question: {هَلْ}، {أَ}."
+     }
+    ]
+   }
+  },
+  {
+   "i": 12,
+   "t": "tip",
+   "section": 2,
+   "html": "<div class=\"tipbox\"><b>Tip:</b> Never answer <bdi class=\"ab\">أَيْنَ</bdi>، <bdi class=\"ab\">مَنْ</bdi> or <bdi class=\"ab\">مَتَى</bdi> with <bdi class=\"ab\">نَعَمْ</bdi> or <bdi class=\"ab\">لَا</bdi>. Only <bdi class=\"ab\">هَلْ</bdi> and <bdi class=\"ab\">أَ</bdi> take a yes/no answer.</div>",
+   "src": {
+    "t": "tip",
+    "text": "Never answer {أَيْنَ}، {مَنْ} or {مَتَى} with {نَعَمْ} or {لَا}. Only {هَلْ} and {أَ} take a yes/no answer."
+   }
+  },
+  {
+   "i": 13,
+   "t": "h2",
+   "section": 3,
+   "html": "<h2><span class=\"num\">3</span>With a preposition</h2>",
+   "src": {
+    "t": "h2",
+    "text": "With a preposition"
+   }
+  },
+  {
+   "i": 14,
+   "t": "p",
+   "section": 3,
+   "html": "<p class=\"s0p\">A preposition can come before a question word. The question word is still fixed. It is in the place of jarr.</p>",
+   "src": {
+    "t": "p",
+    "text": "A preposition can come before a question word. The question word is still fixed. It is in the place of jarr."
+   }
+  },
+  {
+   "i": 15,
+   "t": "examples",
+   "section": 3,
+   "html": "<div class=\"exlist\"><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">مِنْ أَيْنَ أَنْتَ؟ أَنَا مِنَ الْهِنْدِ.</div><div class=\"exe\">Where are you from? I am from India.<div class=\"exn\">Madinah lesson 4. <bdi class=\"ab\">أَيْنَ</bdi> after <bdi class=\"ab\">مِنْ</bdi>: place of jarr.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">إِلَى أَيْنَ ذَهَبَ خَالِدٌ؟ إِلَى السُّوقِ.</div><div class=\"exe\">Where did Khalid go (to)? To the market.</div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">بِكَمْ هَذَا الْكِتَابُ؟</div><div class=\"exe\">How much is this book?<div class=\"exn\"><bdi class=\"ab\">بِ</bdi> + <bdi class=\"ab\">كَمْ</bdi>: &quot;for how much?&quot;</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">قَلَمُ مَنْ هَذَا؟</div><div class=\"exe\">Whose pen is this?<div class=\"exn\">Madinah lesson 5. <bdi class=\"ab\">مَنْ</bdi> is the owner: place of jarr.</div></div></div></div>",
+   "src": {
+    "t": "examples",
+    "items": [
+     {
+      "ar": "مِنْ أَيْنَ أَنْتَ؟ أَنَا مِنَ الْهِنْدِ.",
+      "en": "Where are you from? I am from India.",
+      "note": "Madinah lesson 4. {أَيْنَ} after {مِنْ}: place of jarr."
+     },
+     {
+      "ar": "إِلَى أَيْنَ ذَهَبَ خَالِدٌ؟ إِلَى السُّوقِ.",
+      "en": "Where did Khalid go (to)? To the market."
+     },
+     {
+      "ar": "بِكَمْ هَذَا الْكِتَابُ؟",
+      "en": "How much is this book?",
+      "note": "{بِ} + {كَمْ}: \"for how much?\""
+     },
+     {
+      "ar": "قَلَمُ مَنْ هَذَا؟",
+      "en": "Whose pen is this?",
+      "note": "Madinah lesson 5. {مَنْ} is the owner: place of jarr."
+     }
+    ]
+   }
+  },
+  {
+   "i": 16,
+   "t": "tip",
+   "section": 3,
+   "html": "<div class=\"tipbox\"><b>Tip:</b> Without a preposition before it, a question word has its own job in the sentence. In <bdi class=\"ab\">مَنْ فِي الْغُرْفَةِ؟</bdi>, <bdi class=\"ab\">مَنْ</bdi> is the Topic: place of rafʿ.</div>",
+   "src": {
+    "t": "tip",
+    "text": "Without a preposition before it, a question word has its own job in the sentence. In {مَنْ فِي الْغُرْفَةِ؟}, {مَنْ} is the Topic: place of rafʿ."
+   }
+  },
+  {
+   "i": 17,
+   "t": "h2",
+   "section": 4,
+   "html": "<h2><span class=\"num\">4</span>Not fixed: أَيٌّ &quot;which&quot;</h2>",
+   "src": {
+    "t": "h2",
+    "text": "Not fixed: أَيٌّ \"which\""
+   }
+  },
+  {
+   "i": 18,
+   "t": "rule",
+   "section": 4,
+   "html": "<div class=\"rbox\" style=\"border-color:#ea7a10;background:#fff0df\"><b style=\"color:#b05705\">أَيٌّ takes endings.</b> <bdi class=\"ab\">أَيٌّ</bdi> &quot;which&quot; is a question ism, but it is flexible. Its ending changes with its job, and the noun after it is jarr as its owner.</div>",
+   "src": {
+    "t": "rule",
+    "color": "orange",
+    "title": "أَيٌّ takes endings",
+    "text": "{أَيٌّ} \"which\" is a question ism, but it is flexible. Its ending changes with its job, and the noun after it is jarr as its owner."
+   }
+  },
+  {
+   "i": 19,
+   "t": "examples",
+   "section": 4,
+   "html": "<div class=\"exlist\"><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">أَيُّ كِتَابٍ هَذَا؟</div><div class=\"exe\">Which book is this?<div class=\"exn\">Rafʿ: <bdi class=\"ab\">أَيُّ</bdi>.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">أَيَّ كِتَابٍ قَرَأْتَ؟</div><div class=\"exe\">Which book did you read?<div class=\"exn\">Object, naṣb: <bdi class=\"ab\">أَيَّ</bdi>.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">فِي أَيِّ غُرْفَةٍ الْمُدِيرُ؟</div><div class=\"exe\">In which room is the principal?<div class=\"exn\">After <bdi class=\"ab\">فِي</bdi>, jarr: <bdi class=\"ab\">أَيِّ</bdi>.</div></div></div></div>",
+   "src": {
+    "t": "examples",
+    "items": [
+     {
+      "ar": "أَيُّ كِتَابٍ هَذَا؟",
+      "en": "Which book is this?",
+      "note": "Rafʿ: {أَيُّ}."
+     },
+     {
+      "ar": "أَيَّ كِتَابٍ قَرَأْتَ؟",
+      "en": "Which book did you read?",
+      "note": "Object, naṣb: {أَيَّ}."
+     },
+     {
+      "ar": "فِي أَيِّ غُرْفَةٍ الْمُدِيرُ؟",
+      "en": "In which room is the principal?",
+      "note": "After {فِي}, jarr: {أَيِّ}."
+     }
+    ]
+   }
+  },
+  {
+   "i": 20,
+   "t": "h2",
+   "section": 5,
+   "html": "<h2><span class=\"num\">5</span>Which word for which answer?</h2>",
+   "src": {
+    "t": "h2",
+    "text": "Which word for which answer?"
+   }
+  },
+  {
+   "i": 21,
+   "t": "table",
+   "section": 5,
+   "html": "<div class=\"tblwrap\"><table class=\"glance s0t\"><tr><th>The answer is...</th><th>Ask with</th></tr><tr><td class=\"\">a person</td><td class=\"tar\"><bdi class=\"ab\">مَنْ</bdi></td></tr><tr><td class=\"\">a thing</td><td class=\"tar\"><bdi class=\"ab\">مَا</bdi> / <bdi class=\"ab\">مَاذَا</bdi></td></tr><tr><td class=\"\">a time</td><td class=\"tar\"><bdi class=\"ab\">مَتَى</bdi></td></tr><tr><td class=\"\">a place</td><td class=\"tar\"><bdi class=\"ab\">أَيْنَ</bdi>، <bdi class=\"ab\">مِنْ أَيْنَ</bdi>، <bdi class=\"ab\">إِلَى أَيْنَ</bdi></td></tr><tr><td class=\"\">a state</td><td class=\"tar\"><bdi class=\"ab\">كَيْفَ</bdi></td></tr><tr><td class=\"\">a number or a price</td><td class=\"tar\"><bdi class=\"ab\">كَمْ</bdi>، <bdi class=\"ab\">بِكَمْ</bdi></td></tr><tr><td class=\"\">a reason</td><td class=\"tar\"><bdi class=\"ab\">لِمَاذَا</bdi></td></tr><tr><td class=\"\">one of a group</td><td class=\"tar\"><bdi class=\"ab\">أَيٌّ</bdi></td></tr><tr><td class=\"\">yes or no</td><td class=\"tar\"><bdi class=\"ab\">هَلْ</bdi>، <bdi class=\"ab\">أَ</bdi></td></tr></table></div>",
+   "src": {
+    "t": "table",
+    "head": [
+     "The answer is...",
+     "Ask with"
+    ],
+    "rows": [
+     [
+      "a person",
+      "{مَنْ}"
+     ],
+     [
+      "a thing",
+      "{مَا} / {مَاذَا}"
+     ],
+     [
+      "a time",
+      "{مَتَى}"
+     ],
+     [
+      "a place",
+      "{أَيْنَ}، {مِنْ أَيْنَ}، {إِلَى أَيْنَ}"
+     ],
+     [
+      "a state",
+      "{كَيْفَ}"
+     ],
+     [
+      "a number or a price",
+      "{كَمْ}، {بِكَمْ}"
+     ],
+     [
+      "a reason",
+      "{لِمَاذَا}"
+     ],
+     [
+      "one of a group",
+      "{أَيٌّ}"
+     ],
+     [
+      "yes or no",
+      "{هَلْ}، {أَ}"
+     ]
+    ]
+   }
+  },
+  {
+   "i": 22,
+   "t": "summary",
+   "section": 5,
+   "html": "<div class=\"three\"><h3>In short</h3><ol><li>Question isms: <bdi class=\"ab\">مَنْ</bdi>، <bdi class=\"ab\">مَا</bdi>، <bdi class=\"ab\">مَاذَا</bdi>، <bdi class=\"ab\">مَتَى</bdi>، <bdi class=\"ab\">أَيْنَ</bdi>، <bdi class=\"ab\">كَيْفَ</bdi>، <bdi class=\"ab\">كَمْ</bdi>، <bdi class=\"ab\">لِمَاذَا</bdi>. All fixed.</li><li>Question ḥarfs: <bdi class=\"ab\">هَلْ</bdi> and <bdi class=\"ab\">أَ</bdi>. Answer them with <bdi class=\"ab\">نَعَمْ</bdi> or <bdi class=\"ab\">لَا</bdi>.</li><li>After a preposition (<bdi class=\"ab\">مِنْ أَيْنَ</bdi>، <bdi class=\"ab\">بِكَمْ</bdi>) the question word is in the place of jarr.</li><li><bdi class=\"ab\">أَيٌّ</bdi> &quot;which&quot; is not fixed: <bdi class=\"ab\">أَيُّ</bdi>، <bdi class=\"ab\">أَيَّ</bdi>، <bdi class=\"ab\">أَيِّ</bdi>.</li></ol></div>",
+   "src": {
+    "t": "summary",
+    "title": "In short",
+    "items": [
+     "Question isms: {مَنْ}، {مَا}، {مَاذَا}، {مَتَى}، {أَيْنَ}، {كَيْفَ}، {كَمْ}، {لِمَاذَا}. All fixed.",
+     "Question ḥarfs: {هَلْ} and {أَ}. Answer them with {نَعَمْ} or {لَا}.",
+     "After a preposition ({مِنْ أَيْنَ}، {بِكَمْ}) the question word is in the place of jarr.",
+     "{أَيٌّ} \"which\" is not fixed: {أَيُّ}، {أَيَّ}، {أَيِّ}."
+    ]
+   }
+  }
+ ],
+ "practice_cards": [
+  {
+   "n": "P1",
+   "title": "Choose the question word for the answer"
+  },
+  {
+   "n": "P2",
+   "title": "What does it mean?"
+  },
+  {
+   "n": "P3",
+   "title": "Question ism or ḥarf?"
+  },
+  {
+   "n": "P4",
+   "title": "Fixed or flexible?"
+  },
+  {
+   "n": "P5",
+   "title": "Complete the question"
+  },
+  {
+   "n": "P6",
+   "title": "Choose the answer"
+  }
+ ],
+ "homework_cards": [
+  {
+   "n": "H1",
+   "title": "Choose the question word for the answer"
+  },
+  {
+   "n": "H2",
+   "title": "What does it mean?"
+  },
+  {
+   "n": "H3",
+   "title": "Question ism or ḥarf?"
+  },
+  {
+   "n": "H4",
+   "title": "Fixed or flexible?"
+  },
+  {
+   "n": "H5",
+   "title": "Complete the question"
+  },
+  {
+   "n": "H6",
+   "title": "Choose the answer"
+  }
+ ]
+}

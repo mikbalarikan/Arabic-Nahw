@@ -1,0 +1,319 @@
+{
+ "segments": [
+  {
+   "id": "c01-rule-01",
+   "scene": "c01-rule",
+   "lang": "en",
+   "text": "Now learn the last vowel of each word.",
+   "pause": 0.4,
+   "cues": [
+    "show",
+    "hl:Learn the last vowel"
+   ]
+  },
+  {
+   "id": "c01-rule-02",
+   "scene": "c01-rule",
+   "lang": "en",
+   "text": "These two end in sukūn.",
+   "pause": 0.3,
+   "cues": [
+    "hl:end in sukūn"
+   ]
+  },
+  {
+   "id": "c01-rule-03",
+   "scene": "c01-rule",
+   "lang": "ar",
+   "text": "مَنْ",
+   "pause": 0.25,
+   "cues": [
+    "hl:مَنْ"
+   ]
+  },
+  {
+   "id": "c01-rule-04",
+   "scene": "c01-rule",
+   "lang": "ar",
+   "text": "كَمْ",
+   "pause": 0.4,
+   "cues": [
+    "hl:كَمْ"
+   ]
+  },
+  {
+   "id": "c01-rule-05",
+   "scene": "c01-rule",
+   "lang": "en",
+   "text": "These two end in fatha.",
+   "pause": 0.3,
+   "cues": [
+    "hl:end in fatha"
+   ]
+  },
+  {
+   "id": "c01-rule-06",
+   "scene": "c01-rule",
+   "lang": "ar",
+   "text": "أَيْنَ",
+   "pause": 0.25,
+   "cues": [
+    "hl:أَيْنَ"
+   ]
+  },
+  {
+   "id": "c01-rule-07",
+   "scene": "c01-rule",
+   "lang": "ar",
+   "text": "كَيْفَ",
+   "pause": 0.4,
+   "cues": [
+    "hl:كَيْفَ"
+   ]
+  },
+  {
+   "id": "c01-rule-08",
+   "scene": "c01-rule",
+   "lang": "en",
+   "text": "These four end in a long ā.",
+   "pause": 0.3,
+   "cues": [
+    "hl:end in a long ā"
+   ]
+  },
+  {
+   "id": "c01-rule-09",
+   "scene": "c01-rule",
+   "lang": "ar",
+   "text": "مَا",
+   "pause": 0.25,
+   "cues": [
+    "hl:مَا"
+   ]
+  },
+  {
+   "id": "c01-rule-10",
+   "scene": "c01-rule",
+   "lang": "ar",
+   "text": "مَاذَا",
+   "pause": 0.25,
+   "cues": [
+    "hl:مَاذَا"
+   ]
+  },
+  {
+   "id": "c01-rule-11",
+   "scene": "c01-rule",
+   "lang": "ar",
+   "text": "مَتَى",
+   "pause": 0.25,
+   "cues": [
+    "hl:مَتَى"
+   ]
+  },
+  {
+   "id": "c01-rule-12",
+   "scene": "c01-rule",
+   "lang": "ar",
+   "text": "لِمَاذَا",
+   "pause": 0.4,
+   "cues": [
+    "hl:لِمَاذَا"
+   ]
+  },
+  {
+   "id": "c01-rule-13",
+   "scene": "c01-rule",
+   "lang": "en",
+   "text": "These endings never change. The words are fixed.",
+   "pause": 0.6,
+   "cues": [
+    "hl:These never change."
+   ]
+  },
+  {
+   "id": "c01-tips-01",
+   "scene": "c01-tips",
+   "lang": "en",
+   "text": "Three tips. First, there are two words for what.",
+   "pause": 0.3,
+   "cues": [
+    "tip:1"
+   ]
+  },
+  {
+   "id": "c01-tips-02",
+   "scene": "c01-tips",
+   "lang": "ar",
+   "text": "مَا",
+   "pause": 0.3,
+   "cues": [
+    "hl:مَا"
+   ]
+  },
+  {
+   "id": "c01-tips-03",
+   "scene": "c01-tips",
+   "lang": "ar",
+   "text": "مَاذَا",
+   "pause": 0.4,
+   "cues": [
+    "hl:مَاذَا"
+   ]
+  },
+  {
+   "id": "c01-tips-04",
+   "scene": "c01-tips",
+   "lang": "en",
+   "text": "The short one is usual before a noun. What is your name?",
+   "pause": 0.3,
+   "cues": [
+    "hl:usual before a noun"
+   ]
+  },
+  {
+   "id": "c01-tips-05",
+   "scene": "c01-tips",
+   "lang": "ar",
+   "text": "مَا اسْمُكَ؟",
+   "pause": 0.4,
+   "cues": [
+    "hl:مَا اسْمُكَ؟"
+   ]
+  },
+  {
+   "id": "c01-tips-06",
+   "scene": "c01-tips",
+   "lang": "en",
+   "text": "The long one is usual before a verb. What did you write?",
+   "pause": 0.3,
+   "cues": [
+    "hl:usual before a verb"
+   ]
+  },
+  {
+   "id": "c01-tips-07",
+   "scene": "c01-tips",
+   "lang": "ar",
+   "text": "مَاذَا كَتَبْتَ؟",
+   "pause": 0.6,
+   "cues": [
+    "hl:مَاذَا كَتَبْتَ؟"
+   ]
+  },
+  {
+   "id": "c01-tips-08",
+   "scene": "c01-tips",
+   "lang": "en",
+   "text": "Second, the word for how many.",
+   "pause": 0.3,
+   "cues": [
+    "tip:2"
+   ]
+  },
+  {
+   "id": "c01-tips-09",
+   "scene": "c01-tips",
+   "lang": "ar",
+   "text": "كَمْ",
+   "pause": 0.35,
+   "cues": [
+    "hl:كَمْ"
+   ]
+  },
+  {
+   "id": "c01-tips-10",
+   "scene": "c01-tips",
+   "lang": "en",
+   "text": "After it comes one noun with tanween fatha. How many books?",
+   "pause": 0.3,
+   "cues": [
+    "hl:tanween fatha"
+   ]
+  },
+  {
+   "id": "c01-tips-11",
+   "scene": "c01-tips",
+   "lang": "ar",
+   "text": "كَمْ كِتَابًا؟",
+   "pause": 0.4,
+   "cues": [
+    "hl:كَمْ كِتَابًا؟"
+   ]
+  },
+  {
+   "id": "c01-tips-12",
+   "scene": "c01-tips",
+   "lang": "en",
+   "text": "The noun is singular, even though the meaning is plural.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c01-tips-13",
+   "scene": "c01-tips",
+   "lang": "en",
+   "text": "Third, the word for why.",
+   "pause": 0.3,
+   "cues": [
+    "tip:3"
+   ]
+  },
+  {
+   "id": "c01-tips-14",
+   "scene": "c01-tips",
+   "lang": "ar",
+   "text": "لِمَاذَا",
+   "pause": 0.35,
+   "cues": [
+    "hl:لِمَاذَا"
+   ]
+  },
+  {
+   "id": "c01-tips-15",
+   "scene": "c01-tips",
+   "lang": "en",
+   "text": "It is made of two parts. The first part means for.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c01-tips-16",
+   "scene": "c01-tips",
+   "lang": "ar",
+   "text": "لِ",
+   "pause": 0.35,
+   "cues": [
+    "hl:لِ"
+   ]
+  },
+  {
+   "id": "c01-tips-17",
+   "scene": "c01-tips",
+   "lang": "en",
+   "text": "The second is the word for what.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c01-tips-18",
+   "scene": "c01-tips",
+   "lang": "ar",
+   "text": "مَاذَا",
+   "pause": 0.35,
+   "cues": [
+    "hl:مَاذَا"
+   ]
+  },
+  {
+   "id": "c01-tips-19",
+   "scene": "c01-tips",
+   "lang": "en",
+   "text": "Together they mean: for what?",
+   "pause": 0.7,
+   "cues": [
+    "hl:for what?"
+   ]
+  }
+ ]
+}

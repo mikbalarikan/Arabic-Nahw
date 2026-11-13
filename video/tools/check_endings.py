@@ -23,9 +23,11 @@ U_LIKE = {"u", "uː", "ʊ", "o", "oː", "ɔ", "y"}
 I_LIKE = {"i", "iː", "ɪ", "e", "eː", "ɨ"}
 N_LIKE = {"n", "m", "ŋ"}
 
+PUNCT = "؟،؛.!?…,"   # a question mark or comma after the last word is not part of its ending
+
 def expected(word):
     """Ending taught by the marks on the LAST letter (marks after the last base letter only)."""
-    w = word.rstrip("\u0640")
+    w = word.rstrip(PUNCT).rstrip("\u0640")
     if w.endswith("\u0627") and FT in w[-3:]:
         return "an"
     tail = ""
@@ -49,6 +51,7 @@ def vclass(p):
     return "c"
 
 def judge(exp, phones, word=""):
+    word = word.rstrip(PUNCT)
     seq = [vclass(p) for p in phones.split()]
     if not seq:
         return False, "no speech"
@@ -61,7 +64,10 @@ def judge(exp, phones, word=""):
         base = "".join(c for c in word if not ("\u064B" <= c <= "\u0652"))
         alif_before_last = len(base) >= 3 and base[-2] == "\u0627"
         short = "ː" not in phones.split()[-1] or exp != "a" or not alif_before_last
-        return last in (exp, "x") and short and prev in ("c", "n"), f"ends …{' '.join(phones.split()[-3:])}"
+        # a one-letter word read alone (أَ, لِ): the phoneme model often drops the glottal onset of أَ ("a"),
+        # so only its vowel is judged
+        onset = prev in ("c", "n") or (len(base) == 1 and len(seq) == 1)
+        return last in (exp, "x") and short and onset, f"ends …{' '.join(phones.split()[-3:])}"
     if exp in ("an", "un", "in"):
         ok = last == "n" and prev in (exp[0], "x")
         return ok, f"ends …{' '.join(phones.split()[-3:])}"
@@ -71,7 +77,7 @@ def judge(exp, phones, word=""):
         # no mark on the last letter: the lesson writes the pause form. Judge it by its written shape:
         # a final long vowel letter (فِي) ends in a vowel, anything else ends in a consonant.
         base = "".join(c for c in word if not ("\u064B" <= c <= "\u0652"))
-        if base.endswith(("\u064A", "\u0648", "\u0627")) and not word.endswith("\u0651"):
+        if base.endswith(("\u064A", "\u0648", "\u0627", "\u0649")) and not word.endswith("\u0651"):   # ى: long ā (مَتَى)
             return True, "no mark (long vowel)"
         exp = "-"
     if exp == "-":
