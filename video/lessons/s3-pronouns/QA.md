@@ -17,7 +17,7 @@ Voice: Supertonic 3, style M4 (the course voice). Source: `content/stage3/u1_pro
 | Visuals when said; full sentence visible while read; table band on the row read; end frames complete | ✅ after one fix round. Round 1 (181 frames: every cue and Arabic reading + every scene end, two independent reviewers): empty table box before the rows (c03, c05), Arabic highlight band hanging onto the next line (c04 cards), هُوَ فِي الفَصْلِ broken over two lines (c06 tip). Fixed: table box transparent until its rows appear, Arabic highlight band at letter height, Arabic spans never wrap; also هُوَ highlighted in the rule box and each pronoun highlighted as the summary reads it. Round 2: fixed frames re-checked | frame extraction from the joined MP4 |
 | Loudness | ✅ −14.5 LUFS integrated, true peak −1.5 dBTP | `audio_tools.py mix` |
 | Subtitles and chapters | ✅ 224 cues from the script, Arabic right-to-left; 9 chapters (Introduction, 1–6, In short, Practice) | `make_video.py join` |
-| Plays on the site without Range support, seeks | see below | local `python3 -m http.server` + live page |
+| Plays on the site without Range support, seeks | ✅ local: the lesson page's video card streams the HLS copy (hls.js), plays, and the chapter 5 button seeks to 4:37; web MP4 6.7 MiB, HLS 8.8 MiB (under the 25 MiB Pages limit) | `python3 -m http.server` (no Range support) on `dist/`, then the live page after deploy |
 
 Known, accepted:
 - Lists of Arabic words joined by "،" inside English text (hero line, summary point 2) run left to right, exactly as
