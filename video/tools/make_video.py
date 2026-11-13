@@ -114,7 +114,7 @@ def join(lid):
             for k, (a, b, chunk) in enumerate(split_cue(text, t0, t1)):
                 n += 1 if k else 0
                 lines = wrap(chunk)
-                if s["lang"] == "ar":
+                if s["lang"] in ("ar", "qr"):
                     lines = ["\u202b" + l + "\u202c" for l in lines]  # keep Arabic right-to-left in players
                 srt.append(f"{n}\n{ts(a)} --> {ts(b)}\n" + "\n".join(lines) + "\n")
         off += p["duration"]

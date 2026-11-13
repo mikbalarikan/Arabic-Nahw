@@ -1,0 +1,575 @@
+{
+ "segments": [
+  {
+   "id": "v04-01",
+   "scene": "v04",
+   "lang": "en",
+   "text": "Verse four. From Surah Yusuf. And she closed the doors.",
+   "pause": 0.4,
+   "cues": [
+    "en"
+   ]
+  },
+  {
+   "id": "v04-02",
+   "scene": "v04",
+   "lang": "qr",
+   "text": "وَغَلَّقَتِ الأَبْوَابَ",
+   "pause": 0.8,
+   "cues": [
+    "sentence",
+    "recite"
+   ]
+  },
+  {
+   "id": "v04-03",
+   "scene": "v04",
+   "lang": "en",
+   "text": "First, the verb. Closed. It is a past verb, so it is fixed.",
+   "pause": 0.25,
+   "cues": [
+    "group:0",
+    "line:1"
+   ]
+  },
+  {
+   "id": "v04-04",
+   "scene": "v04",
+   "lang": "en",
+   "text": "The wa before it is a particle. It never changes.",
+   "pause": 0.3,
+   "cues": [
+    "line:0"
+   ]
+  },
+  {
+   "id": "v04-05",
+   "scene": "v04",
+   "lang": "en",
+   "text": "Remember the Also box. Before al, this verb ends in a small kasra.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "v04-06",
+   "scene": "v04",
+   "lang": "ar",
+   "text": "وَغَلَّقَتِ",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "v04-07",
+   "scene": "v04",
+   "lang": "en",
+   "text": "Who closed the doors?",
+   "pause": 0.5,
+   "cues": [
+    "ask:1"
+   ]
+  },
+  {
+   "id": "v04-08",
+   "scene": "v04",
+   "lang": "en",
+   "text": "The doer is hidden. The ending of the verb tells us it is she.",
+   "pause": 0.25,
+   "cues": [
+    "group:1"
+   ]
+  },
+  {
+   "id": "v04-09",
+   "scene": "v04",
+   "lang": "ar",
+   "text": "(هِيَ)",
+   "pause": 0.5,
+   "cues": [
+    "line:2"
+   ]
+  },
+  {
+   "id": "v04-10",
+   "scene": "v04",
+   "lang": "en",
+   "text": "What did she close?",
+   "pause": 0.6,
+   "cues": [
+    "ask:2"
+   ]
+  },
+  {
+   "id": "v04-11",
+   "scene": "v04",
+   "lang": "ar",
+   "text": "الأَبْوَابَ",
+   "pause": 0.4,
+   "cues": [
+    "group:2",
+    "vowel:2"
+   ]
+  },
+  {
+   "id": "v04-12",
+   "scene": "v04",
+   "lang": "en",
+   "text": "The doors. That is the object, so it takes naṣb. Its sign is fatha.",
+   "pause": 0.25,
+   "cues": [
+    "line:3"
+   ]
+  },
+  {
+   "id": "v04-13",
+   "scene": "v04",
+   "lang": "en",
+   "text": "It has al, so there is no tanween.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "v05-01",
+   "scene": "v05",
+   "lang": "en",
+   "text": "Verse five. From Surah Yusuf. And she tore his shirt from the back.",
+   "pause": 0.4,
+   "cues": [
+    "en"
+   ]
+  },
+  {
+   "id": "v05-02",
+   "scene": "v05",
+   "lang": "qr",
+   "text": "وَقَدَّتْ قَمِيصَهُ مِنْ دُبُرٍ",
+   "pause": 0.8,
+   "cues": [
+    "sentence",
+    "recite"
+   ]
+  },
+  {
+   "id": "v05-03",
+   "scene": "v05",
+   "lang": "en",
+   "text": "The verb, tore, is a past verb. It is fixed.",
+   "pause": 0.25,
+   "cues": [
+    "group:0",
+    "line:1"
+   ]
+  },
+  {
+   "id": "v05-04",
+   "scene": "v05",
+   "lang": "en",
+   "text": "The wa before it is a particle. It never changes.",
+   "pause": 0.3,
+   "cues": [
+    "line:0"
+   ]
+  },
+  {
+   "id": "v05-05",
+   "scene": "v05",
+   "lang": "en",
+   "text": "Who tore the shirt?",
+   "pause": 0.5,
+   "cues": [
+    "ask:1"
+   ]
+  },
+  {
+   "id": "v05-06",
+   "scene": "v05",
+   "lang": "en",
+   "text": "Again, the doer is hidden. It is she.",
+   "pause": 0.25,
+   "cues": [
+    "group:1"
+   ]
+  },
+  {
+   "id": "v05-07",
+   "scene": "v05",
+   "lang": "ar",
+   "text": "(هِيَ)",
+   "pause": 0.5,
+   "cues": [
+    "line:2"
+   ]
+  },
+  {
+   "id": "v05-08",
+   "scene": "v05",
+   "lang": "en",
+   "text": "What did she tear?",
+   "pause": 0.6,
+   "cues": [
+    "ask:2"
+   ]
+  },
+  {
+   "id": "v05-09",
+   "scene": "v05",
+   "lang": "ar",
+   "text": "قَمِيصَهُ",
+   "pause": 0.4,
+   "cues": [
+    "group:2",
+    "vowel:2"
+   ]
+  },
+  {
+   "id": "v05-10",
+   "scene": "v05",
+   "lang": "en",
+   "text": "His shirt. That is the object, so it takes naṣb, with fatha.",
+   "pause": 0.25,
+   "cues": [
+    "line:3"
+   ]
+  },
+  {
+   "id": "v05-11",
+   "scene": "v05",
+   "lang": "en",
+   "text": "His is the owner. Attached pronouns are fixed.",
+   "pause": 0.25,
+   "cues": [
+    "line:4"
+   ]
+  },
+  {
+   "id": "v05-12",
+   "scene": "v05",
+   "lang": "en",
+   "text": "Shirt is owned, so it has no tanween.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "v05-13",
+   "scene": "v05",
+   "lang": "en",
+   "text": "Next comes from. It is a particle.",
+   "pause": 0.25,
+   "cues": [
+    "group:3",
+    "line:5"
+   ]
+  },
+  {
+   "id": "v05-14",
+   "scene": "v05",
+   "lang": "ar",
+   "text": "دُبُرٍ",
+   "pause": 0.4,
+   "cues": [
+    "vowel:3"
+   ]
+  },
+  {
+   "id": "v05-15",
+   "scene": "v05",
+   "lang": "en",
+   "text": "The back. It comes after a preposition, so it takes jarr. Kasra with tanween.",
+   "pause": 0.5,
+   "cues": [
+    "line:6"
+   ]
+  },
+  {
+   "id": "v06-01",
+   "scene": "v06",
+   "lang": "en",
+   "text": "Verse six. From Surah Al-Baqarah. And He sent down water from the sky.",
+   "pause": 0.4,
+   "cues": [
+    "en"
+   ]
+  },
+  {
+   "id": "v06-02",
+   "scene": "v06",
+   "lang": "qr",
+   "text": "وَأَنْزَلَ مِنَ السَّمَاءِ مَاءً",
+   "pause": 0.8,
+   "cues": [
+    "sentence",
+    "recite"
+   ]
+  },
+  {
+   "id": "v06-03",
+   "scene": "v06",
+   "lang": "en",
+   "text": "The verb, sent down, is a past verb. It is fixed.",
+   "pause": 0.25,
+   "cues": [
+    "group:0",
+    "line:1"
+   ]
+  },
+  {
+   "id": "v06-04",
+   "scene": "v06",
+   "lang": "en",
+   "text": "The wa before it is a particle. It never changes.",
+   "pause": 0.3,
+   "cues": [
+    "line:0"
+   ]
+  },
+  {
+   "id": "v06-05",
+   "scene": "v06",
+   "lang": "en",
+   "text": "Who sent down the water?",
+   "pause": 0.5,
+   "cues": [
+    "ask:1"
+   ]
+  },
+  {
+   "id": "v06-06",
+   "scene": "v06",
+   "lang": "en",
+   "text": "The doer is hidden. It is He.",
+   "pause": 0.25,
+   "cues": [
+    "group:1"
+   ]
+  },
+  {
+   "id": "v06-07",
+   "scene": "v06",
+   "lang": "ar",
+   "text": "(هُوَ)",
+   "pause": 0.5,
+   "cues": [
+    "line:2"
+   ]
+  },
+  {
+   "id": "v06-08",
+   "scene": "v06",
+   "lang": "en",
+   "text": "Next comes from. It is a particle.",
+   "pause": 0.25,
+   "cues": [
+    "group:2",
+    "line:3"
+   ]
+  },
+  {
+   "id": "v06-09",
+   "scene": "v06",
+   "lang": "ar",
+   "text": "السَّمَاءِ",
+   "pause": 0.4,
+   "cues": [
+    "vowel:2"
+   ]
+  },
+  {
+   "id": "v06-10",
+   "scene": "v06",
+   "lang": "en",
+   "text": "The sky. After a preposition, so it takes jarr, with kasra. It has al, so no tanween.",
+   "pause": 0.25,
+   "cues": [
+    "line:4"
+   ]
+  },
+  {
+   "id": "v06-11",
+   "scene": "v06",
+   "lang": "en",
+   "text": "What did He send down?",
+   "pause": 0.6,
+   "cues": [
+    "ask:3"
+   ]
+  },
+  {
+   "id": "v06-12",
+   "scene": "v06",
+   "lang": "ar",
+   "text": "مَاءً",
+   "pause": 0.4,
+   "cues": [
+    "group:3",
+    "vowel:3"
+   ]
+  },
+  {
+   "id": "v06-13",
+   "scene": "v06",
+   "lang": "en",
+   "text": "Water. That is the object, so it takes naṣb.",
+   "pause": 0.25,
+   "cues": [
+    "line:5"
+   ]
+  },
+  {
+   "id": "v06-14",
+   "scene": "v06",
+   "lang": "en",
+   "text": "Water has no al and no owner, so it takes fatha with tanween.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "v07-01",
+   "scene": "v07",
+   "lang": "en",
+   "text": "Verse seven. From Surah Al-Isra. It means: who took His servant by night.",
+   "pause": 0.4,
+   "cues": [
+    "en"
+   ]
+  },
+  {
+   "id": "v07-02",
+   "scene": "v07",
+   "lang": "qr",
+   "text": "أَسْرَى بِعَبْدِهِ لَيْلًا",
+   "pause": 0.8,
+   "cues": [
+    "sentence",
+    "recite"
+   ]
+  },
+  {
+   "id": "v07-03",
+   "scene": "v07",
+   "lang": "en",
+   "text": "First, the verb. Took. It is a past verb, so it is fixed.",
+   "pause": 0.25,
+   "cues": [
+    "group:0",
+    "line:0"
+   ]
+  },
+  {
+   "id": "v07-04",
+   "scene": "v07",
+   "lang": "en",
+   "text": "Who is the doer?",
+   "pause": 0.5,
+   "cues": [
+    "ask:1"
+   ]
+  },
+  {
+   "id": "v07-05",
+   "scene": "v07",
+   "lang": "en",
+   "text": "The doer is hidden. It is He.",
+   "pause": 0.25,
+   "cues": [
+    "group:1"
+   ]
+  },
+  {
+   "id": "v07-06",
+   "scene": "v07",
+   "lang": "ar",
+   "text": "(هُوَ)",
+   "pause": 0.5,
+   "cues": [
+    "line:1"
+   ]
+  },
+  {
+   "id": "v07-07",
+   "scene": "v07",
+   "lang": "en",
+   "text": "The next word starts with a preposition. The preposition is a particle.",
+   "pause": 0.25,
+   "cues": [
+    "group:2",
+    "line:2"
+   ]
+  },
+  {
+   "id": "v07-08",
+   "scene": "v07",
+   "lang": "ar",
+   "text": "بِعَبْدِهِ",
+   "pause": 0.4,
+   "cues": [
+    "vowel:2"
+   ]
+  },
+  {
+   "id": "v07-09",
+   "scene": "v07",
+   "lang": "en",
+   "text": "In English, His servant looks like an object.",
+   "pause": 0.25,
+   "cues": []
+  },
+  {
+   "id": "v07-10",
+   "scene": "v07",
+   "lang": "en",
+   "text": "In Arabic, servant comes after a preposition, so it takes jarr, with kasra. It is owned, so no tanween.",
+   "pause": 0.25,
+   "cues": [
+    "line:3"
+   ]
+  },
+  {
+   "id": "v07-11",
+   "scene": "v07",
+   "lang": "en",
+   "text": "His is the owner. Attached pronouns are fixed.",
+   "pause": 0.25,
+   "cues": [
+    "line:4"
+   ]
+  },
+  {
+   "id": "v07-12",
+   "scene": "v07",
+   "lang": "en",
+   "text": "When did He take him?",
+   "pause": 0.6,
+   "cues": [
+    "ask:3"
+   ]
+  },
+  {
+   "id": "v07-13",
+   "scene": "v07",
+   "lang": "ar",
+   "text": "لَيْلًا",
+   "pause": 0.4,
+   "cues": [
+    "group:3",
+    "vowel:3"
+   ]
+  },
+  {
+   "id": "v07-14",
+   "scene": "v07",
+   "lang": "en",
+   "text": "By night. In Arabic there is no preposition here.",
+   "pause": 0.25,
+   "cues": []
+  },
+  {
+   "id": "v07-15",
+   "scene": "v07",
+   "lang": "en",
+   "text": "So it is a time, and it takes naṣb. Fatha with tanween.",
+   "pause": 0.5,
+   "cues": [
+    "line:5"
+   ]
+  }
+ ]
+}

@@ -196,6 +196,8 @@ class TL:
 def cue_js(tl, lesson, scene, kind, sid, cue, t, seg_len, segs_after, state):
     S = f"#{sid}"
     name, _, arg = cue.partition(":")
+    if hasattr(lesson, "cue") and lesson.cue(tl, scene, kind, S, name, arg, t, seg_len, state):
+        return  # handled by the lesson's own scene module
     if kind == "hero":
         if name == "title":
             tl.fade_up(f"{S} .hero h1", t, 18, 0.5)
@@ -443,9 +445,9 @@ def example_dom_prep(inner, lesson, num):
     return inner
 
 
-def initial_css(sid, kind):
+def initial_css(sid, kind, extra=None):
     S = f"#{sid}"
-    hide = {
+    hide = (extra or {}).get(kind) or {
         "hero": [".hero h1", ".hero p"],
         "chapter": ["h2", ".sub"],
         "cases": [".case"],
@@ -461,6 +463,17 @@ def initial_css(sid, kind):
         "example": [".exh", ".sbox", ".xl", ".tipbox", ".kgl", ".vc", ".klab"],
     }[kind]
     return f'{", ".join(f"{S} {h}" for h in hide)} {{ opacity: 0; }}'
+
+
+def lesson_for(lid, data):
+    """The lesson's own scene module (tools/scenes_<id>.py) if it has one, else the Naṣb renderer."""
+    import importlib.util
+    mod = Path(__file__).with_name(f"scenes_{lid.replace('-', '_')}.py")
+    if not mod.exists():
+        return Lesson(data)
+    spec = importlib.util.spec_from_file_location(mod.stem, mod)
+    m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
+    return m.SceneLesson(data)
 
 
 THUMB_CSS = r"""
@@ -517,7 +530,10 @@ def build(lid="nasb", only=None):
     script = json.loads((ldir / "script.json").read_text(encoding="utf-8"))
     tpath = ldir / "timings.json"
     timings = json.loads(tpath.read_text(encoding="utf-8")) if tpath.exists() else {}
-    lesson = Lesson(data)
+    ppath = ldir / "parts.json"   # [[part_id, [scene prefixes]], ...]; default: the Naṣb parts
+    parts = json.loads(ppath.read_text(encoding="utf-8")) if ppath.exists() else PARTS
+    lesson = lesson_for(lid, data)
+    tabs = data.get("tabs", ["Lesson", "Practice"])
     out = VIDEO / "build" / lid
     if out.exists() and only is None:
         shutil.rmtree(out)
@@ -529,7 +545,7 @@ def build(lid="nasb", only=None):
     shutil.copy(nm / "@fontsource-variable/noto-sans-arabic/files/noto-sans-arabic-arabic-wght-normal.woff2", out / "assets/fonts")
     shutil.copy(nm / "gsap/dist/gsap.min.js", out / "assets/js/gsap.min.js")
     (out / "assets" / "site.css").write_text(site_css(), encoding="utf-8")
-    (out / "assets" / "video.css").write_text(VIDEO_CSS, encoding="utf-8")
+    (out / "assets" / "video.css").write_text(VIDEO_CSS + getattr(lesson, "css", ""), encoding="utf-8")
     (out / "hyperframes.json").write_text(json.dumps({"paths": {"assets": "assets"}}, indent=1))
     (out / "meta.json").write_text(json.dumps({"id": lid, "name": f"{lid}-lesson-video"}))
     brand = brand_html()
@@ -537,7 +553,7 @@ def build(lid="nasb", only=None):
     segs = script["segments"]
     plan = dict(lesson=lid, fps=FPS, parts=[], estimated=not timings)
     estimated = 0
-    for pid, prefixes in PARTS:
+    for pid, prefixes in parts:
         psegs = [s for s in segs if any(s["scene"].startswith(p) for p in prefixes)]
         if not psegs:
             continue
@@ -563,15 +579,17 @@ def build(lid="nasb", only=None):
             en = starts[i + 1] + XFADE if i + 1 < len(scenes) else dur
             ssegs = [s for s in psegs if s["scene"] == sc]
             kind, inner = lesson.body(sc, ssegs)
-            if kind == "example":
+            if hasattr(lesson, "prep"):
+                inner = lesson.prep(sc, kind, inner)
+            elif kind == "example":
                 inner = example_dom_prep(inner, lesson, re.match(r".*-ex(\w+)$", sc).group(1))
             sid = "s-" + sc
             bar = (f'<div class="vbar"><span class="brand">{brand}</span><span class="crumb">{esc(data["title"])}</span>'
-                   f'<span class="tabs"><span class="tab" aria-current="{"false" if kind == "yourturn" else "true"}">Lesson</span>'
-                   f'<span class="tab" aria-current="{"true" if kind == "yourturn" else "false"}">Practice</span></span></div>')
+                   f'<span class="tabs"><span class="tab" aria-current="{"false" if kind == "yourturn" else "true"}">{tabs[0]}</span>'
+                   f'<span class="tab" aria-current="{"true" if kind == "yourturn" else "false"}">{tabs[1]}</span></span></div>')
             sections.append(f'<section id="{sid}" class="scene clip k-{kind}" data-start="{st:.3f}" data-duration="{en - st:.3f}">'
                             f'{bar}<div class="stagebody">{inner}</div></section>')
-            css_init.append(initial_css(sid, kind))
+            css_init.append(initial_css(sid, kind, getattr(lesson, "hide", None)))
             tl.add(f'tl.to("#{sid}", {{opacity:1, duration:{XFADE if i else 0.5}, ease:"power1.inOut"}}, {st:.3f});')
             if kind in ("hero", "chapter") and i == 0 or kind == "chapter":
                 pass
@@ -589,7 +607,10 @@ def build(lid="nasb", only=None):
             if kind in ("hero",) and not any(s["cues"] for s in ssegs):
                 tl.fade_up(f"#{sid} .hero h1", st + 0.4)
             ch = lesson.chapter_of(sc)
-            if kind == "chapter" or (sc == "hero"):
+            if hasattr(lesson, "chapter_name"):
+                if lesson.chapter_name(sc, kind):
+                    chapter_names.append((st, lesson.chapter_name(sc, kind)))
+            elif kind == "chapter" or (sc == "hero"):
                 chapter_names.append((st, "Introduction" if sc == "hero" else f'{ch} {re.sub("<.*?>", "", lesson.sec[ch]["title"])}'))
             elif kind == "five":
                 chapter_names.append((st, re.sub("<.*?>", "", re.search(r"<h3>(.*?)</h3>", inner).group(1))))
@@ -626,7 +647,7 @@ tl.seek(0);
             id=pid, duration=dur, chapters=[dict(t=t0, title=n) for t0, n in chapter_names],
             scenes=[dict(id=sc, start=starts[i]) for i, sc in enumerate(scenes)],
             segments=[dict(id=s["id"], t=s["_t"], len=s["_len"], lang=s["lang"], text=s["text"]) for s in psegs]))
-    if only is None:
+    if only is None and data.get("examples"):   # the thumbnail is drawn from the Naṣb example cards
         build_thumbnail(out, data, lesson, brand)
     (out / "plan.json").write_text(json.dumps(plan, ensure_ascii=False, indent=1), encoding="utf-8")
     total = sum(p["duration"] for p in plan["parts"])

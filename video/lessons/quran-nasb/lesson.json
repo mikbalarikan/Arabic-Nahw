@@ -1,0 +1,1232 @@
+{
+ "id": "quran-nasb",
+ "stage": 2,
+ "title": "Iʿrāb in the Qur'an",
+ "ar_title": "الإِعْرَابُ فِي القُرْآنِ",
+ "tabs": [
+  "Intro",
+  "Verses"
+ ],
+ "roles": {
+  "verb": {
+   "en": "Verb",
+   "ar": "فِعْل",
+   "border": "#3a5a85",
+   "bg": "#e8eef6",
+   "text": "#2b4668",
+   "short": "verb"
+  },
+  "doer": {
+   "en": "Doer",
+   "ar": "فَاعِل",
+   "border": "#ea7a10",
+   "bg": "#fff0df",
+   "text": "#b05705",
+   "short": "doer"
+  },
+  "obj": {
+   "en": "Object",
+   "ar": "مَفْعُولٌ بِهِ",
+   "border": "#d63384",
+   "bg": "#fde6f1",
+   "text": "#a61e62",
+   "short": "object"
+  },
+  "purp": {
+   "en": "Purpose",
+   "ar": "مَفْعُولٌ لِأَجْلِهِ",
+   "border": "#0f9d9a",
+   "bg": "#dcf4f3",
+   "text": "#0a7471",
+   "short": "purpose"
+  },
+  "when": {
+   "en": "Time / place",
+   "ar": "مَفْعُولٌ فِيهِ",
+   "border": "#a0612b",
+   "bg": "#f5e9dd",
+   "text": "#7b471c",
+   "short": "time/place"
+  },
+  "state": {
+   "en": "State",
+   "ar": "حَال",
+   "border": "#6b8e23",
+   "bg": "#edf4dc",
+   "text": "#4c6810",
+   "short": "state"
+  },
+  "topic": {
+   "en": "Topic",
+   "ar": "مُبْتَدَأ",
+   "border": "#e0a10b",
+   "bg": "#fff5d6",
+   "text": "#a87805",
+   "short": "topic"
+  },
+  "info": {
+   "en": "Information",
+   "ar": "خَبَر",
+   "border": "#e04a3a",
+   "bg": "#fde7e4",
+   "text": "#b8322a",
+   "short": "info"
+  },
+  "prep": {
+   "en": "After a preposition",
+   "ar": "بَعْدَ حَرْفِ الجَرّ",
+   "border": "#22a05a",
+   "bg": "#e2f5e9",
+   "text": "#17803f",
+   "short": "prep"
+  },
+  "owner": {
+   "en": "Ownership",
+   "ar": "إِضَافَة",
+   "border": "#7b4fd6",
+   "bg": "#efe8fc",
+   "text": "#5f36b8",
+   "short": "owner"
+  },
+  "adj": {
+   "en": "Adjective",
+   "ar": "صِفَة",
+   "border": "#7d858e",
+   "bg": "#eef0f2",
+   "text": "#5a626b",
+   "short": "adj"
+  },
+  "and": {
+   "en": "After وَ (and)",
+   "ar": "مَعْطُوف",
+   "border": "#2f7fe0",
+   "bg": "#e3eefc",
+   "text": "#1f64bd",
+   "short": "and"
+  }
+ },
+ "hero_html": "<div class=\"hero\">\n  <div class=\"eyebrow\">COMBINED PRACTICE · QUR'AN</div>\n  <h1>Iʿrāb in the <span class=\"gold\">Qur'an</span>:<br>10 verses</h1>\n  <p>Real verses with a past verb, a naṣb noun, and the rafʿ and jarr rules we already know. Same colours, same method.</p>\n  <div class=\"wm\">القُرْآن</div>\n</div>",
+ "sections": [
+  {
+   "num": 1,
+   "title": "Three small notes for these verses",
+   "sub": null,
+   "html": "<div class=\"rule3\">\n  <div class=\"rr\" style=\"border-color:#7b4fd6\"><b style=\"color:#5f36b8\">Attached pronouns are fixed</b>\n    <p>ـهُ “his”, ـهَا “her”, ـكَ “your” join the noun before them. They are the owner, and fixed. We split them off so you can see the noun's ending: <bdi class=\"ab\">رَبَّـ | ـهُ</bdi>.</p></div>\n  <div class=\"rr\" style=\"border-color:#ea7a10\"><b style=\"color:#b05705\">A past verb can hide its doer</b>\n    <p>Like an order hides “you”, a past verb can hide “he” <bdi class=\"ab\">(هُوَ)</bdi> or “she” <bdi class=\"ab\">(هِيَ)</bdi>. The ـتْ in <bdi class=\"ab\">قَدَّتْ</bdi> tells us the doer is “she”.</p></div>\n  <div class=\"rr\" style=\"border-color:#3a5a85\"><b style=\"color:#2b4668\">Some names never take tanween</b>\n    <p><bdi class=\"ab\">آدَمُ</bdi>, <bdi class=\"ab\">سُلَيْمَانُ</bdi>, <bdi class=\"ab\">دَاوُودَ</bdi>: one damma or one fatha only. (Names like <bdi class=\"ab\">نُوحٌ</bdi> do take it.)</p></div>\n</div>\n<div class=\"tipbox\"><b>Also:</b> a past verb ending in ـتْ takes a small kasra before ال, just like an order verb: <bdi class=\"ab\">غَلَّقَتِ الأَبْوَابَ</bdi>. It is still fixed.</div>"
+  },
+  {
+   "num": 2,
+   "title": "Colour key",
+   "sub": null,
+   "html": "<div class=\"kkgrid\"><div class=\"kk\" style=\"border-left-color:#3a5a85;background:#e8eef6\"><div class=\"kkt\"><span style=\"color:#2b4668\"><span class=\"dot\" style=\"background:#3a5a85\"></span>Verb</span><span class=\"kkar\">فِعْل</span></div><div class=\"kkr\" style=\"color:#2b4668\">fixed —</div><div class=\"kkd\">The action. Past and order verbs never change.</div></div><div class=\"kk\" style=\"border-left-color:#ea7a10;background:#fff0df\"><div class=\"kkt\"><span style=\"color:#b05705\"><span class=\"dot\" style=\"background:#ea7a10\"></span>Doer</span><span class=\"kkar\">فَاعِل</span></div><div class=\"kkr\" style=\"color:#b05705\">ـُ / ـٌ  رَفْع</div><div class=\"kkd\">Who did the action.</div></div><div class=\"kk\" style=\"border-left-color:#d63384;background:#fde6f1\"><div class=\"kkt\"><span style=\"color:#a61e62\"><span class=\"dot\" style=\"background:#d63384\"></span>Object</span><span class=\"kkar\">مَفْعُولٌ بِهِ</span></div><div class=\"kkr\" style=\"color:#a61e62\">ـَ / ـً  نَصْب</div><div class=\"kkd\">What? Whom? The thing the action falls on.</div></div><div class=\"kk\" style=\"border-left-color:#0f9d9a;background:#dcf4f3\"><div class=\"kkt\"><span style=\"color:#0a7471\"><span class=\"dot\" style=\"background:#0f9d9a\"></span>Purpose</span><span class=\"kkar\">مَفْعُولٌ لِأَجْلِهِ</span></div><div class=\"kkr\" style=\"color:#0a7471\">ـَ / ـً  نَصْب</div><div class=\"kkd\">Why? The reason for the action.</div></div><div class=\"kk\" style=\"border-left-color:#a0612b;background:#f5e9dd\"><div class=\"kkt\"><span style=\"color:#7b471c\"><span class=\"dot\" style=\"background:#a0612b\"></span>Time / place</span><span class=\"kkar\">مَفْعُولٌ فِيهِ</span></div><div class=\"kkr\" style=\"color:#7b471c\">ـَ / ـً  نَصْب</div><div class=\"kkd\">When? Where? With no preposition.</div></div><div class=\"kk\" style=\"border-left-color:#6b8e23;background:#edf4dc\"><div class=\"kkt\"><span style=\"color:#4c6810\"><span class=\"dot\" style=\"background:#6b8e23\"></span>State</span><span class=\"kkar\">حَال</span></div><div class=\"kkr\" style=\"color:#4c6810\">ـَ / ـً  نَصْب</div><div class=\"kkd\">How? The state of the doer or object.</div></div></div><div class=\"oldrow\"><b>Small boxes from last lesson still work:</b> <span class=\"oldc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span><span class=\"oldc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span class=\"oldc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adjective</span><span class=\"oldc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ (and)</span></div>"
+  },
+  {
+   "num": 3,
+   "title": "The 10 verses",
+   "sub": "Read each verse aloud with your teacher first. Then solve the cards: every ending is missing.",
+   "html": "<p class=\"sub\">Read each verse aloud with your teacher first. Then solve the cards: every ending is missing.</p>\n<table class=\"glance vt\"><tr><th></th><th>Verse (fragment)</th><th>Reference</th><th>Jobs inside</th></tr><tr><td class=\"c\"><b>1</b></td><td class=\"vx\" dir=\"rtl\">وَعَصَى آدَمُ رَبَّهُ</td><td class=\"vr\">Ta-Ha 20:121</td><td><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span> <span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span> <span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span> <span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span> </td></tr><tr><td class=\"c\"><b>2</b></td><td class=\"vx\" dir=\"rtl\">وَنَادَى نُوحٌ ابْنَهُ</td><td class=\"vr\">Hud 11:42</td><td><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span> <span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span> <span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span> <span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span> </td></tr><tr><td class=\"c\"><b>3</b></td><td class=\"vx\" dir=\"rtl\">وَوَرِثَ سُلَيْمَانُ دَاوُودَ</td><td class=\"vr\">An-Naml 27:16</td><td><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span> <span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span> <span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span> </td></tr><tr><td class=\"c\"><b>4</b></td><td class=\"vx\" dir=\"rtl\">وَغَلَّقَتِ الأَبْوَابَ</td><td class=\"vr\">Yusuf 12:23</td><td><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span> <span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span> <span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span> </td></tr><tr><td class=\"c\"><b>5</b></td><td class=\"vx\" dir=\"rtl\">وَقَدَّتْ قَمِيصَهُ مِنْ دُبُرٍ</td><td class=\"vr\">Yusuf 12:25</td><td><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span> <span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span> <span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span> <span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span> <span class=\"pill\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span> </td></tr><tr><td class=\"c\"><b>6</b></td><td class=\"vx\" dir=\"rtl\">وَأَنْزَلَ مِنَ السَّمَاءِ مَاءً</td><td class=\"vr\">Al-Baqarah 2:22</td><td><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span> <span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span> <span class=\"pill\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span> <span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span> </td></tr><tr><td class=\"c\"><b>7</b></td><td class=\"vx\" dir=\"rtl\">أَسْرَى بِعَبْدِهِ لَيْلًا</td><td class=\"vr\">Al-Isra 17:1</td><td><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span> <span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span> <span class=\"pill\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span> <span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span> <span class=\"pill\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time / place</span> </td></tr><tr><td class=\"c\"><b>8</b></td><td class=\"vx\" dir=\"rtl\">وَجَاءَ رَبُّكَ وَالمَلَكُ صَفًّا صَفًّا</td><td class=\"vr\">Al-Fajr 89:22</td><td><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span> <span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span> <span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span> <span class=\"pill\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ (and)</span> <span class=\"pill\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span> </td></tr><tr><td class=\"c\"><b>9</b></td><td class=\"vx\" dir=\"rtl\">وَدَخَلَ المَدِينَةَ عَلَى حِينِ غَفْلَةٍ مِنْ أَهْلِهَا</td><td class=\"vr\">Al-Qasas 28:15</td><td><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span> <span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span> <span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span> <span class=\"pill\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span> <span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span> </td></tr><tr><td class=\"c\"><b>10</b></td><td class=\"vx\" dir=\"rtl\">فَتَبَسَّمَ ضَاحِكًا مِنْ قَوْلِهَا</td><td class=\"vr\">An-Naml 27:19</td><td><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span> <span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span> <span class=\"pill\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span> <span class=\"pill\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span> <span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span> </td></tr></table>"
+  }
+ ],
+ "notes": [
+  "<div class=\"rr\" style=\"border-color:#7b4fd6\"><b style=\"color:#5f36b8\">Attached pronouns are fixed</b>\n    <p>ـهُ “his”, ـهَا “her”, ـكَ “your” join the noun before them. They are the owner, and fixed. We split them off so you can see the noun's ending: <bdi class=\"ab\">رَبَّـ | ـهُ</bdi>.</p></div>",
+  "<div class=\"rr\" style=\"border-color:#ea7a10\"><b style=\"color:#b05705\">A past verb can hide its doer</b>\n    <p>Like an order hides “you”, a past verb can hide “he” <bdi class=\"ab\">(هُوَ)</bdi> or “she” <bdi class=\"ab\">(هِيَ)</bdi>. The ـتْ in <bdi class=\"ab\">قَدَّتْ</bdi> tells us the doer is “she”.</p></div>",
+  "<div class=\"rr\" style=\"border-color:#3a5a85\"><b style=\"color:#2b4668\">Some names never take tanween</b>\n    <p><bdi class=\"ab\">آدَمُ</bdi>, <bdi class=\"ab\">سُلَيْمَانُ</bdi>, <bdi class=\"ab\">دَاوُودَ</bdi>: one damma or one fatha only. (Names like <bdi class=\"ab\">نُوحٌ</bdi> do take it.)</p></div>"
+ ],
+ "also": "<div class=\"tipbox\"><b>Also:</b> a past verb ending in ـتْ takes a small kasra before ال, just like an order verb: <bdi class=\"ab\">غَلَّقَتِ الأَبْوَابَ</bdi>. It is still fixed.</div>",
+ "overview": "<table class=\"glance vt\"><tr><th></th><th>Verse (fragment)</th><th>Reference</th><th>Jobs inside</th></tr><tr><td class=\"c\"><b>1</b></td><td class=\"vx\" dir=\"rtl\">وَعَصَى آدَمُ رَبَّهُ</td><td class=\"vr\">Ta-Ha 20:121</td><td><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span> <span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span> <span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span> <span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span> </td></tr><tr><td class=\"c\"><b>2</b></td><td class=\"vx\" dir=\"rtl\">وَنَادَى نُوحٌ ابْنَهُ</td><td class=\"vr\">Hud 11:42</td><td><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span> <span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span> <span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span> <span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span> </td></tr><tr><td class=\"c\"><b>3</b></td><td class=\"vx\" dir=\"rtl\">وَوَرِثَ سُلَيْمَانُ دَاوُودَ</td><td class=\"vr\">An-Naml 27:16</td><td><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span> <span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span> <span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span> </td></tr><tr><td class=\"c\"><b>4</b></td><td class=\"vx\" dir=\"rtl\">وَغَلَّقَتِ الأَبْوَابَ</td><td class=\"vr\">Yusuf 12:23</td><td><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span> <span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span> <span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span> </td></tr><tr><td class=\"c\"><b>5</b></td><td class=\"vx\" dir=\"rtl\">وَقَدَّتْ قَمِيصَهُ مِنْ دُبُرٍ</td><td class=\"vr\">Yusuf 12:25</td><td><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span> <span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span> <span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span> <span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span> <span class=\"pill\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span> </td></tr><tr><td class=\"c\"><b>6</b></td><td class=\"vx\" dir=\"rtl\">وَأَنْزَلَ مِنَ السَّمَاءِ مَاءً</td><td class=\"vr\">Al-Baqarah 2:22</td><td><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span> <span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span> <span class=\"pill\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span> <span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span> </td></tr><tr><td class=\"c\"><b>7</b></td><td class=\"vx\" dir=\"rtl\">أَسْرَى بِعَبْدِهِ لَيْلًا</td><td class=\"vr\">Al-Isra 17:1</td><td><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span> <span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span> <span class=\"pill\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span> <span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span> <span class=\"pill\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time / place</span> </td></tr><tr><td class=\"c\"><b>8</b></td><td class=\"vx\" dir=\"rtl\">وَجَاءَ رَبُّكَ وَالمَلَكُ صَفًّا صَفًّا</td><td class=\"vr\">Al-Fajr 89:22</td><td><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span> <span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span> <span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span> <span class=\"pill\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ (and)</span> <span class=\"pill\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span> </td></tr><tr><td class=\"c\"><b>9</b></td><td class=\"vx\" dir=\"rtl\">وَدَخَلَ المَدِينَةَ عَلَى حِينِ غَفْلَةٍ مِنْ أَهْلِهَا</td><td class=\"vr\">Al-Qasas 28:15</td><td><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span> <span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span> <span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span> <span class=\"pill\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span> <span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span> </td></tr><tr><td class=\"c\"><b>10</b></td><td class=\"vx\" dir=\"rtl\">فَتَبَسَّمَ ضَاحِكًا مِنْ قَوْلِهَا</td><td class=\"vr\">An-Naml 27:19</td><td><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span> <span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span> <span class=\"pill\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span> <span class=\"pill\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span> <span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span> </td></tr></table>",
+ "fragments": {
+  "colour_key": "<div class=\"kkgrid\"><div class=\"kk\" style=\"border-left-color:#3a5a85;background:#e8eef6\"><div class=\"kkt\"><span style=\"color:#2b4668\"><span class=\"dot\" style=\"background:#3a5a85\"></span>Verb</span><span class=\"kkar\">فِعْل</span></div><div class=\"kkr\" style=\"color:#2b4668\">fixed —</div><div class=\"kkd\">The action. Past and order verbs never change.</div></div><div class=\"kk\" style=\"border-left-color:#ea7a10;background:#fff0df\"><div class=\"kkt\"><span style=\"color:#b05705\"><span class=\"dot\" style=\"background:#ea7a10\"></span>Doer</span><span class=\"kkar\">فَاعِل</span></div><div class=\"kkr\" style=\"color:#b05705\">ـُ / ـٌ  رَفْع</div><div class=\"kkd\">Who did the action.</div></div><div class=\"kk\" style=\"border-left-color:#d63384;background:#fde6f1\"><div class=\"kkt\"><span style=\"color:#a61e62\"><span class=\"dot\" style=\"background:#d63384\"></span>Object</span><span class=\"kkar\">مَفْعُولٌ بِهِ</span></div><div class=\"kkr\" style=\"color:#a61e62\">ـَ / ـً  نَصْب</div><div class=\"kkd\">What? Whom? The thing the action falls on.</div></div><div class=\"kk\" style=\"border-left-color:#0f9d9a;background:#dcf4f3\"><div class=\"kkt\"><span style=\"color:#0a7471\"><span class=\"dot\" style=\"background:#0f9d9a\"></span>Purpose</span><span class=\"kkar\">مَفْعُولٌ لِأَجْلِهِ</span></div><div class=\"kkr\" style=\"color:#0a7471\">ـَ / ـً  نَصْب</div><div class=\"kkd\">Why? The reason for the action.</div></div><div class=\"kk\" style=\"border-left-color:#a0612b;background:#f5e9dd\"><div class=\"kkt\"><span style=\"color:#7b471c\"><span class=\"dot\" style=\"background:#a0612b\"></span>Time / place</span><span class=\"kkar\">مَفْعُولٌ فِيهِ</span></div><div class=\"kkr\" style=\"color:#7b471c\">ـَ / ـً  نَصْب</div><div class=\"kkd\">When? Where? With no preposition.</div></div><div class=\"kk\" style=\"border-left-color:#6b8e23;background:#edf4dc\"><div class=\"kkt\"><span style=\"color:#4c6810\"><span class=\"dot\" style=\"background:#6b8e23\"></span>State</span><span class=\"kkar\">حَال</span></div><div class=\"kkr\" style=\"color:#4c6810\">ـَ / ـً  نَصْب</div><div class=\"kkd\">How? The state of the doer or object.</div></div></div><div class=\"oldrow\"><b>Small boxes from last lesson still work:</b> <span class=\"oldc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span><span class=\"oldc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span class=\"oldc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adjective</span><span class=\"oldc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ (and)</span></div>"
+ },
+ "verses": [
+  {
+   "num": "1",
+   "ref_ar": "طه · ١٢١",
+   "ref_en": "Ta-Ha 20:121",
+   "tr": "And Adam disobeyed his Lord.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "وَ",
+       "k": "particle",
+       "v": null,
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "عَصَى",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "آدَمُ",
+       "k": "head",
+       "v": "ُ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "obj",
+     "ws": [
+      {
+       "t": "رَبَّـ",
+       "k": "head",
+       "v": "َ",
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "ـهُ",
+       "k": "owner",
+       "v": null,
+       "lab": null,
+       "ref": "رَبَّ"
+      }
+     ]
+    }
+   ],
+   "sentence": "وَعَصَى آدَمُ رَبَّهُ",
+   "words": [
+    "وَعَصَى",
+    "آدَمُ",
+    "رَبَّهُ"
+   ],
+   "pieces": [
+    "وَ",
+    "عَصَى",
+    "آدَمُ",
+    "رَبَّـ",
+    "ـهُ"
+   ],
+   "hidden_doer": null,
+   "jobs": [
+    "verb",
+    "doer",
+    "obj",
+    "owner"
+   ],
+   "boxes_html": "<div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">وَ</div><div class=\"klab muted\">particle</div></div><div class=\"kw plain\"><div class=\"kt\">عَصَى</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">آدَمُ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـُ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">رَبَّـ</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـَ</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div><div class=\"kw small\" style=\"border-color:#7b4fd6\"><div class=\"kt\">ـهُ</div><div class=\"vc\" style=\"border-color:#7b4fd6;color:#5f36b8\">—</div><div class=\"klab\" style=\"color:#5f36b8\">fixed · owner</div></div></div></div></div>",
+   "key_lines": [
+    "<div class=\"rl\"><span class=\"rw\"><bdi>وَ</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>عَصَى</bdi></span><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"rt\">past verb: fixed</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>آدَمُ</bdi></span><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"rt\">doer → rafʿ, damma</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>رَبَّـ</bdi></span><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"rt\">object (what? whom?) → naṣb, fatha (owned: no tanween)</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>ـهُ</bdi></span><span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span class=\"rt\">owner of <bdi class=\"ab\">رَبَّ</bdi>: attached pronoun, fixed</span></div>"
+   ],
+   "key_lines_text": [
+    "وَ Particle particle: never changes",
+    "عَصَى Verb past verb: fixed",
+    "آدَمُ Doer doer → rafʿ, damma",
+    "رَبَّـ Object object (what? whom?) → naṣb, fatha (owned: no tanween)",
+    "ـهُ Ownership owner of رَبَّ : attached pronoun, fixed"
+   ],
+   "key_html": "<div class=\"kcard\"><div class=\"khead\"><span class=\"qn\">1</span><span class=\"en\">“And Adam disobeyed his Lord.”</span><span class=\"kp\">Ta-Ha 20:121</span></div><div class=\"kbody\"><div class=\"kleft\"><div class=\"rl\"><span class=\"rw\"><bdi>وَ</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div><div class=\"rl\"><span class=\"rw\"><bdi>عَصَى</bdi></span><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"rt\">past verb: fixed</span></div><div class=\"rl\"><span class=\"rw\"><bdi>آدَمُ</bdi></span><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"rt\">doer → rafʿ, damma</span></div><div class=\"rl\"><span class=\"rw\"><bdi>رَبَّـ</bdi></span><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"rt\">object (what? whom?) → naṣb, fatha (owned: no tanween)</span></div><div class=\"rl\"><span class=\"rw\"><bdi>ـهُ</bdi></span><span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span class=\"rt\">owner of <bdi class=\"ab\">رَبَّ</bdi>: attached pronoun, fixed</span></div></div><div class=\"kright\"><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">وَ</div><div class=\"klab muted\">particle</div></div><div class=\"kw plain\"><div class=\"kt\">عَصَى</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">آدَمُ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـُ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">رَبَّـ</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـَ</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div><div class=\"kw small\" style=\"border-color:#7b4fd6\"><div class=\"kt\">ـهُ</div><div class=\"vc\" style=\"border-color:#7b4fd6;color:#5f36b8\">—</div><div class=\"klab\" style=\"color:#5f36b8\">fixed · owner</div></div></div></div></div></div></div></div>",
+   "card_html": "\n<div class=\"card pc qc\">\n  <div class=\"chead\"><span class=\"qn\">1</span><span class=\"en\">“And Adam disobeyed his Lord.”</span><span class=\"lvl qref\">Ta-Ha 20:121 · <bdi>طه · ١٢١</bdi></span></div>\n  <div class=\"sent\" dir=\"rtl\"><span class=\"sw\">وَعَصَى</span> <span class=\"sw\">آدَم</span> <span class=\"sw\">رَبّهُ</span></div>\n  <div class=\"step\"><span class=\"sn\">1</span><b>Big boxes:</b> verb and doer first, then box every other job.</div>\n  <div class=\"step\"><span class=\"sn\">2</span><b>Every piece:</b> circle its ending (— = fixed) and its job.</div>\n  <table class=\"wt wt2\"><tr><td class=\"wn\">1</td><td class=\"wd\"><bdi>وَ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">2</td><td class=\"wd\"><bdi>عَصَى</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">3</td><td class=\"wd\"><bdi>آدَم</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">4</td><td class=\"wd\"><bdi>رَبّـ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">5</td><td class=\"wd\"><bdi>ـهُ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr></table>\n</div>"
+  },
+  {
+   "num": "2",
+   "ref_ar": "هود · ٤٢",
+   "ref_en": "Hud 11:42",
+   "tr": "And Nuh called out to his son.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "وَ",
+       "k": "particle",
+       "v": null,
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "نَادَى",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "نُوحٌ",
+       "k": "head",
+       "v": "ٌ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "obj",
+     "ws": [
+      {
+       "t": "ابْنَـ",
+       "k": "head",
+       "v": "َ",
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "ـهُ",
+       "k": "owner",
+       "v": null,
+       "lab": null,
+       "ref": "ابْنَ"
+      }
+     ]
+    }
+   ],
+   "sentence": "وَنَادَى نُوحٌ ابْنَهُ",
+   "words": [
+    "وَنَادَى",
+    "نُوحٌ",
+    "ابْنَهُ"
+   ],
+   "pieces": [
+    "وَ",
+    "نَادَى",
+    "نُوحٌ",
+    "ابْنَـ",
+    "ـهُ"
+   ],
+   "hidden_doer": null,
+   "jobs": [
+    "verb",
+    "doer",
+    "obj",
+    "owner"
+   ],
+   "boxes_html": "<div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">وَ</div><div class=\"klab muted\">particle</div></div><div class=\"kw plain\"><div class=\"kt\">نَادَى</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">نُوحٌ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـٌ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">ابْنَـ</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـَ</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div><div class=\"kw small\" style=\"border-color:#7b4fd6\"><div class=\"kt\">ـهُ</div><div class=\"vc\" style=\"border-color:#7b4fd6;color:#5f36b8\">—</div><div class=\"klab\" style=\"color:#5f36b8\">fixed · owner</div></div></div></div></div>",
+   "key_lines": [
+    "<div class=\"rl\"><span class=\"rw\"><bdi>وَ</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>نَادَى</bdi></span><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"rt\">past verb: fixed</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>نُوحٌ</bdi></span><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"rt\">doer → rafʿ, damma + tanween</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>ابْنَـ</bdi></span><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"rt\">object (what? whom?) → naṣb, fatha (owned: no tanween)</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>ـهُ</bdi></span><span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span class=\"rt\">owner of <bdi class=\"ab\">ابْنَ</bdi>: attached pronoun, fixed</span></div>"
+   ],
+   "key_lines_text": [
+    "وَ Particle particle: never changes",
+    "نَادَى Verb past verb: fixed",
+    "نُوحٌ Doer doer → rafʿ, damma + tanween",
+    "ابْنَـ Object object (what? whom?) → naṣb, fatha (owned: no tanween)",
+    "ـهُ Ownership owner of ابْنَ : attached pronoun, fixed"
+   ],
+   "key_html": "<div class=\"kcard\"><div class=\"khead\"><span class=\"qn\">2</span><span class=\"en\">“And Nuh called out to his son.”</span><span class=\"kp\">Hud 11:42</span></div><div class=\"kbody\"><div class=\"kleft\"><div class=\"rl\"><span class=\"rw\"><bdi>وَ</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div><div class=\"rl\"><span class=\"rw\"><bdi>نَادَى</bdi></span><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"rt\">past verb: fixed</span></div><div class=\"rl\"><span class=\"rw\"><bdi>نُوحٌ</bdi></span><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"rt\">doer → rafʿ, damma + tanween</span></div><div class=\"rl\"><span class=\"rw\"><bdi>ابْنَـ</bdi></span><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"rt\">object (what? whom?) → naṣb, fatha (owned: no tanween)</span></div><div class=\"rl\"><span class=\"rw\"><bdi>ـهُ</bdi></span><span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span class=\"rt\">owner of <bdi class=\"ab\">ابْنَ</bdi>: attached pronoun, fixed</span></div></div><div class=\"kright\"><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">وَ</div><div class=\"klab muted\">particle</div></div><div class=\"kw plain\"><div class=\"kt\">نَادَى</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">نُوحٌ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـٌ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">ابْنَـ</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـَ</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div><div class=\"kw small\" style=\"border-color:#7b4fd6\"><div class=\"kt\">ـهُ</div><div class=\"vc\" style=\"border-color:#7b4fd6;color:#5f36b8\">—</div><div class=\"klab\" style=\"color:#5f36b8\">fixed · owner</div></div></div></div></div></div></div></div>",
+   "card_html": "\n<div class=\"card pc qc\">\n  <div class=\"chead\"><span class=\"qn\">2</span><span class=\"en\">“And Nuh called out to his son.”</span><span class=\"lvl qref\">Hud 11:42 · <bdi>هود · ٤٢</bdi></span></div>\n  <div class=\"sent\" dir=\"rtl\"><span class=\"sw\">وَنَادَى</span> <span class=\"sw\">نُوح</span> <span class=\"sw\">ابْنهُ</span></div>\n  <div class=\"step\"><span class=\"sn\">1</span><b>Big boxes:</b> verb and doer first, then box every other job.</div>\n  <div class=\"step\"><span class=\"sn\">2</span><b>Every piece:</b> circle its ending (— = fixed) and its job.</div>\n  <table class=\"wt wt2\"><tr><td class=\"wn\">1</td><td class=\"wd\"><bdi>وَ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">2</td><td class=\"wd\"><bdi>نَادَى</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">3</td><td class=\"wd\"><bdi>نُوح</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">4</td><td class=\"wd\"><bdi>ابْنـ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">5</td><td class=\"wd\"><bdi>ـهُ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr></table>\n</div>"
+  },
+  {
+   "num": "3",
+   "ref_ar": "النمل · ١٦",
+   "ref_en": "An-Naml 27:16",
+   "tr": "And Sulayman inherited from Dawud.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "وَ",
+       "k": "particle",
+       "v": null,
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "وَرِثَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "سُلَيْمَانُ",
+       "k": "head",
+       "v": "ُ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "obj",
+     "ws": [
+      {
+       "t": "دَاوُودَ",
+       "k": "head",
+       "v": "َ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "sentence": "وَوَرِثَ سُلَيْمَانُ دَاوُودَ",
+   "words": [
+    "وَوَرِثَ",
+    "سُلَيْمَانُ",
+    "دَاوُودَ"
+   ],
+   "pieces": [
+    "وَ",
+    "وَرِثَ",
+    "سُلَيْمَانُ",
+    "دَاوُودَ"
+   ],
+   "hidden_doer": null,
+   "jobs": [
+    "verb",
+    "doer",
+    "obj"
+   ],
+   "boxes_html": "<div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">وَ</div><div class=\"klab muted\">particle</div></div><div class=\"kw plain\"><div class=\"kt\">وَرِثَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">سُلَيْمَانُ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـُ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">دَاوُودَ</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـَ</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div></div></div></div>",
+   "key_lines": [
+    "<div class=\"rl\"><span class=\"rw\"><bdi>وَ</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>وَرِثَ</bdi></span><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"rt\">past verb: fixed</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>سُلَيْمَانُ</bdi></span><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"rt\">doer → rafʿ, damma</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>دَاوُودَ</bdi></span><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"rt\">object (what? whom?) → naṣb, fatha</span></div>"
+   ],
+   "key_lines_text": [
+    "وَ Particle particle: never changes",
+    "وَرِثَ Verb past verb: fixed",
+    "سُلَيْمَانُ Doer doer → rafʿ, damma",
+    "دَاوُودَ Object object (what? whom?) → naṣb, fatha"
+   ],
+   "key_html": "<div class=\"kcard\"><div class=\"khead\"><span class=\"qn\">3</span><span class=\"en\">“And Sulayman inherited from Dawud.”</span><span class=\"kp\">An-Naml 27:16</span></div><div class=\"kbody\"><div class=\"kleft\"><div class=\"rl\"><span class=\"rw\"><bdi>وَ</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div><div class=\"rl\"><span class=\"rw\"><bdi>وَرِثَ</bdi></span><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"rt\">past verb: fixed</span></div><div class=\"rl\"><span class=\"rw\"><bdi>سُلَيْمَانُ</bdi></span><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"rt\">doer → rafʿ, damma</span></div><div class=\"rl\"><span class=\"rw\"><bdi>دَاوُودَ</bdi></span><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"rt\">object (what? whom?) → naṣb, fatha</span></div></div><div class=\"kright\"><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">وَ</div><div class=\"klab muted\">particle</div></div><div class=\"kw plain\"><div class=\"kt\">وَرِثَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">سُلَيْمَانُ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـُ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">دَاوُودَ</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـَ</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div></div></div></div></div></div></div>",
+   "card_html": "\n<div class=\"card pc qc\">\n  <div class=\"chead\"><span class=\"qn\">3</span><span class=\"en\">“And Sulayman inherited from Dawud.”</span><span class=\"lvl qref\">An-Naml 27:16 · <bdi>النمل · ١٦</bdi></span></div>\n  <div class=\"sent\" dir=\"rtl\"><span class=\"sw\">وَوَرِثَ</span> <span class=\"sw\">سُلَيْمَان</span> <span class=\"sw\">دَاوُود</span></div>\n  <div class=\"step\"><span class=\"sn\">1</span><b>Big boxes:</b> verb and doer first, then box every other job.</div>\n  <div class=\"step\"><span class=\"sn\">2</span><b>Every piece:</b> circle its ending (— = fixed) and its job.</div>\n  <table class=\"wt wt2\"><tr><td class=\"wn\">1</td><td class=\"wd\"><bdi>وَ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">2</td><td class=\"wd\"><bdi>وَرِثَ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">3</td><td class=\"wd\"><bdi>سُلَيْمَان</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">4</td><td class=\"wd\"><bdi>دَاوُود</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr></table>\n</div>"
+  },
+  {
+   "num": "4",
+   "ref_ar": "يوسف · ٢٣",
+   "ref_en": "Yusuf 12:23",
+   "tr": "And she closed the doors.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "وَ",
+       "k": "particle",
+       "v": null,
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "غَلَّقَتِ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "(هِيَ)",
+       "k": "hidden",
+       "v": null,
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "obj",
+     "ws": [
+      {
+       "t": "الأَبْوَابَ",
+       "k": "head",
+       "v": "َ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "sentence": "وَغَلَّقَتِ الأَبْوَابَ",
+   "words": [
+    "وَغَلَّقَتِ",
+    "الأَبْوَابَ"
+   ],
+   "pieces": [
+    "وَ",
+    "غَلَّقَتِ",
+    "الأَبْوَابَ"
+   ],
+   "hidden_doer": "(هِيَ)",
+   "jobs": [
+    "verb",
+    "doer",
+    "obj"
+   ],
+   "boxes_html": "<div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">وَ</div><div class=\"klab muted\">particle</div></div><div class=\"kw plain\"><div class=\"kt\">غَلَّقَتِ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw ghost\" style=\"border-color:#ea7a10\"><div class=\"kt\" style=\"color:#b05705\">(هِيَ)</div><div class=\"klab\" style=\"color:#b05705;margin-top:3px\">hidden doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">الأَبْوَابَ</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـَ</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div></div></div></div>",
+   "key_lines": [
+    "<div class=\"rl\"><span class=\"rw\"><bdi>وَ</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>غَلَّقَتِ</bdi></span><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"rt\">past verb: fixed</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>(هِيَ)</bdi></span><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"rt\">hidden doer</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>الأَبْوَابَ</bdi></span><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"rt\">object (what? whom?) → naṣb, fatha</span></div>"
+   ],
+   "key_lines_text": [
+    "وَ Particle particle: never changes",
+    "غَلَّقَتِ Verb past verb: fixed",
+    "(هِيَ) Doer hidden doer",
+    "الأَبْوَابَ Object object (what? whom?) → naṣb, fatha"
+   ],
+   "key_html": "<div class=\"kcard\"><div class=\"khead\"><span class=\"qn\">4</span><span class=\"en\">“And she closed the doors.”</span><span class=\"kp\">Yusuf 12:23</span></div><div class=\"kbody\"><div class=\"kleft\"><div class=\"rl\"><span class=\"rw\"><bdi>وَ</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div><div class=\"rl\"><span class=\"rw\"><bdi>غَلَّقَتِ</bdi></span><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"rt\">past verb: fixed</span></div><div class=\"rl\"><span class=\"rw\"><bdi>(هِيَ)</bdi></span><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"rt\">hidden doer</span></div><div class=\"rl\"><span class=\"rw\"><bdi>الأَبْوَابَ</bdi></span><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"rt\">object (what? whom?) → naṣb, fatha</span></div></div><div class=\"kright\"><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">وَ</div><div class=\"klab muted\">particle</div></div><div class=\"kw plain\"><div class=\"kt\">غَلَّقَتِ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw ghost\" style=\"border-color:#ea7a10\"><div class=\"kt\" style=\"color:#b05705\">(هِيَ)</div><div class=\"klab\" style=\"color:#b05705;margin-top:3px\">hidden doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">الأَبْوَابَ</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـَ</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div></div></div></div></div></div></div>",
+   "card_html": "\n<div class=\"card pc qc\">\n  <div class=\"chead\"><span class=\"qn\">4</span><span class=\"en\">“And she closed the doors.”</span><span class=\"lvl qref\">Yusuf 12:23 · <bdi>يوسف · ٢٣</bdi></span></div>\n  <div class=\"sent\" dir=\"rtl\"><span class=\"sw\">وَغَلَّقَتِ</span> <span class=\"sw\">الأَبْوَاب</span></div>\n  <div class=\"step\"><span class=\"sn\">1</span><b>Big boxes:</b> verb and doer first, then box every other job. The doer is hidden: write it.</div>\n  <div class=\"step\"><span class=\"sn\">2</span><b>Every piece:</b> circle its ending (— = fixed) and its job.</div>\n  <table class=\"wt wt2\"><tr><td class=\"wn\">1</td><td class=\"wd\"><bdi>وَ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">2</td><td class=\"wd\"><bdi>غَلَّقَتِ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">3</td><td class=\"wd\"><bdi>الأَبْوَاب</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr></table>\n</div>"
+  },
+  {
+   "num": "5",
+   "ref_ar": "يوسف · ٢٥",
+   "ref_en": "Yusuf 12:25",
+   "tr": "And she tore his shirt from the back.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "وَ",
+       "k": "particle",
+       "v": null,
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "قَدَّتْ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "(هِيَ)",
+       "k": "hidden",
+       "v": null,
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "obj",
+     "ws": [
+      {
+       "t": "قَمِيصَـ",
+       "k": "head",
+       "v": "َ",
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "ـهُ",
+       "k": "owner",
+       "v": null,
+       "lab": null,
+       "ref": "قَمِيصَ"
+      }
+     ]
+    },
+    {
+     "role": "prep",
+     "ws": [
+      {
+       "t": "مِنْ",
+       "k": "particle",
+       "v": null,
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "دُبُرٍ",
+       "k": "head",
+       "v": "ٍ",
+       "lab": null,
+       "ref": "مِنْ"
+      }
+     ]
+    }
+   ],
+   "sentence": "وَقَدَّتْ قَمِيصَهُ مِنْ دُبُرٍ",
+   "words": [
+    "وَقَدَّتْ",
+    "قَمِيصَهُ",
+    "مِنْ",
+    "دُبُرٍ"
+   ],
+   "pieces": [
+    "وَ",
+    "قَدَّتْ",
+    "قَمِيصَـ",
+    "ـهُ",
+    "مِنْ",
+    "دُبُرٍ"
+   ],
+   "hidden_doer": "(هِيَ)",
+   "jobs": [
+    "verb",
+    "doer",
+    "obj",
+    "owner",
+    "prep"
+   ],
+   "boxes_html": "<div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">وَ</div><div class=\"klab muted\">particle</div></div><div class=\"kw plain\"><div class=\"kt\">قَدَّتْ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw ghost\" style=\"border-color:#ea7a10\"><div class=\"kt\" style=\"color:#b05705\">(هِيَ)</div><div class=\"klab\" style=\"color:#b05705;margin-top:3px\">hidden doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">قَمِيصَـ</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـَ</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div><div class=\"kw small\" style=\"border-color:#7b4fd6\"><div class=\"kt\">ـهُ</div><div class=\"vc\" style=\"border-color:#7b4fd6;color:#5f36b8\">—</div><div class=\"klab\" style=\"color:#5f36b8\">fixed · owner</div></div></div></div><div class=\"kg\" style=\"border-color:#22a05a;background:#e2f5e9\"><div class=\"kgl\" style=\"color:#17803f\"><b>After a preposition</b> بَعْدَ حَرْفِ الجَرّ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">مِنْ</div><div class=\"klab muted\">particle</div></div><div class=\"kw plain\"><div class=\"kt\">دُبُرٍ</div><div class=\"vc\" style=\"border-color:#22a05a;color:#17803f\">ـٍ</div><div class=\"klab\" style=\"color:#17803f\">kasra · prep</div></div></div></div></div>",
+   "key_lines": [
+    "<div class=\"rl\"><span class=\"rw\"><bdi>وَ</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>قَدَّتْ</bdi></span><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"rt\">past verb: fixed</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>(هِيَ)</bdi></span><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"rt\">hidden doer</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>قَمِيصَـ</bdi></span><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"rt\">object (what? whom?) → naṣb, fatha (owned: no tanween)</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>ـهُ</bdi></span><span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span class=\"rt\">owner of <bdi class=\"ab\">قَمِيصَ</bdi>: attached pronoun, fixed</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>مِنْ</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>دُبُرٍ</bdi></span><span class=\"pill\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span><span class=\"rt\">after <bdi class=\"ab\">مِنْ</bdi> → jarr, kasra + tanween</span></div>"
+   ],
+   "key_lines_text": [
+    "وَ Particle particle: never changes",
+    "قَدَّتْ Verb past verb: fixed",
+    "(هِيَ) Doer hidden doer",
+    "قَمِيصَـ Object object (what? whom?) → naṣb, fatha (owned: no tanween)",
+    "ـهُ Ownership owner of قَمِيصَ : attached pronoun, fixed",
+    "مِنْ Particle particle: never changes",
+    "دُبُرٍ After a preposition after مِنْ → jarr, kasra + tanween"
+   ],
+   "key_html": "<div class=\"kcard\"><div class=\"khead\"><span class=\"qn\">5</span><span class=\"en\">“And she tore his shirt from the back.”</span><span class=\"kp\">Yusuf 12:25</span></div><div class=\"kbody\"><div class=\"kleft\"><div class=\"rl\"><span class=\"rw\"><bdi>وَ</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div><div class=\"rl\"><span class=\"rw\"><bdi>قَدَّتْ</bdi></span><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"rt\">past verb: fixed</span></div><div class=\"rl\"><span class=\"rw\"><bdi>(هِيَ)</bdi></span><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"rt\">hidden doer</span></div><div class=\"rl\"><span class=\"rw\"><bdi>قَمِيصَـ</bdi></span><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"rt\">object (what? whom?) → naṣb, fatha (owned: no tanween)</span></div><div class=\"rl\"><span class=\"rw\"><bdi>ـهُ</bdi></span><span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span class=\"rt\">owner of <bdi class=\"ab\">قَمِيصَ</bdi>: attached pronoun, fixed</span></div><div class=\"rl\"><span class=\"rw\"><bdi>مِنْ</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div><div class=\"rl\"><span class=\"rw\"><bdi>دُبُرٍ</bdi></span><span class=\"pill\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span><span class=\"rt\">after <bdi class=\"ab\">مِنْ</bdi> → jarr, kasra + tanween</span></div></div><div class=\"kright\"><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">وَ</div><div class=\"klab muted\">particle</div></div><div class=\"kw plain\"><div class=\"kt\">قَدَّتْ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw ghost\" style=\"border-color:#ea7a10\"><div class=\"kt\" style=\"color:#b05705\">(هِيَ)</div><div class=\"klab\" style=\"color:#b05705;margin-top:3px\">hidden doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">قَمِيصَـ</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـَ</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div><div class=\"kw small\" style=\"border-color:#7b4fd6\"><div class=\"kt\">ـهُ</div><div class=\"vc\" style=\"border-color:#7b4fd6;color:#5f36b8\">—</div><div class=\"klab\" style=\"color:#5f36b8\">fixed · owner</div></div></div></div><div class=\"kg\" style=\"border-color:#22a05a;background:#e2f5e9\"><div class=\"kgl\" style=\"color:#17803f\"><b>After a preposition</b> بَعْدَ حَرْفِ الجَرّ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">مِنْ</div><div class=\"klab muted\">particle</div></div><div class=\"kw plain\"><div class=\"kt\">دُبُرٍ</div><div class=\"vc\" style=\"border-color:#22a05a;color:#17803f\">ـٍ</div><div class=\"klab\" style=\"color:#17803f\">kasra · prep</div></div></div></div></div></div></div></div>",
+   "card_html": "\n<div class=\"card pc qc\">\n  <div class=\"chead\"><span class=\"qn\">5</span><span class=\"en\">“And she tore his shirt from the back.”</span><span class=\"lvl qref\">Yusuf 12:25 · <bdi>يوسف · ٢٥</bdi></span></div>\n  <div class=\"sent\" dir=\"rtl\"><span class=\"sw\">وَقَدَّتْ</span> <span class=\"sw\">قَمِيصهُ</span> <span class=\"sw\">مِنْ</span> <span class=\"sw\">دُبُر</span></div>\n  <div class=\"step\"><span class=\"sn\">1</span><b>Big boxes:</b> verb and doer first, then box every other job. The doer is hidden: write it.</div>\n  <div class=\"step\"><span class=\"sn\">2</span><b>Every piece:</b> circle its ending (— = fixed) and its job.</div>\n  <table class=\"wt wt2\"><tr><td class=\"wn\">1</td><td class=\"wd\"><bdi>وَ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">2</td><td class=\"wd\"><bdi>قَدَّتْ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">3</td><td class=\"wd\"><bdi>قَمِيصـ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">4</td><td class=\"wd\"><bdi>ـهُ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">5</td><td class=\"wd\"><bdi>مِنْ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">6</td><td class=\"wd\"><bdi>دُبُر</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr></table>\n</div>"
+  },
+  {
+   "num": "6",
+   "ref_ar": "البقرة · ٢٢",
+   "ref_en": "Al-Baqarah 2:22",
+   "tr": "And He sent down water from the sky.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "وَ",
+       "k": "particle",
+       "v": null,
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "أَنْزَلَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "(هُوَ)",
+       "k": "hidden",
+       "v": null,
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "prep",
+     "ws": [
+      {
+       "t": "مِنَ",
+       "k": "particle",
+       "v": null,
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "السَّمَاءِ",
+       "k": "head",
+       "v": "ِ",
+       "lab": null,
+       "ref": "مِنَ"
+      }
+     ]
+    },
+    {
+     "role": "obj",
+     "ws": [
+      {
+       "t": "مَاءً",
+       "k": "head",
+       "v": "ً",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "sentence": "وَأَنْزَلَ مِنَ السَّمَاءِ مَاءً",
+   "words": [
+    "وَأَنْزَلَ",
+    "مِنَ",
+    "السَّمَاءِ",
+    "مَاءً"
+   ],
+   "pieces": [
+    "وَ",
+    "أَنْزَلَ",
+    "مِنَ",
+    "السَّمَاءِ",
+    "مَاءً"
+   ],
+   "hidden_doer": "(هُوَ)",
+   "jobs": [
+    "verb",
+    "doer",
+    "prep",
+    "obj"
+   ],
+   "boxes_html": "<div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">وَ</div><div class=\"klab muted\">particle</div></div><div class=\"kw plain\"><div class=\"kt\">أَنْزَلَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw ghost\" style=\"border-color:#ea7a10\"><div class=\"kt\" style=\"color:#b05705\">(هُوَ)</div><div class=\"klab\" style=\"color:#b05705;margin-top:3px\">hidden doer</div></div></div></div><div class=\"kg\" style=\"border-color:#22a05a;background:#e2f5e9\"><div class=\"kgl\" style=\"color:#17803f\"><b>After a preposition</b> بَعْدَ حَرْفِ الجَرّ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">مِنَ</div><div class=\"klab muted\">particle</div></div><div class=\"kw plain\"><div class=\"kt\">السَّمَاءِ</div><div class=\"vc\" style=\"border-color:#22a05a;color:#17803f\">ـِ</div><div class=\"klab\" style=\"color:#17803f\">kasra · prep</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">مَاءً</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـً</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div></div></div></div>",
+   "key_lines": [
+    "<div class=\"rl\"><span class=\"rw\"><bdi>وَ</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>أَنْزَلَ</bdi></span><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"rt\">past verb: fixed</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>(هُوَ)</bdi></span><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"rt\">hidden doer</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>مِنَ</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>السَّمَاءِ</bdi></span><span class=\"pill\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span><span class=\"rt\">after <bdi class=\"ab\">مِنَ</bdi> → jarr, kasra</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>مَاءً</bdi></span><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"rt\">object (what? whom?) → naṣb, fatha + tanween</span></div>"
+   ],
+   "key_lines_text": [
+    "وَ Particle particle: never changes",
+    "أَنْزَلَ Verb past verb: fixed",
+    "(هُوَ) Doer hidden doer",
+    "مِنَ Particle particle: never changes",
+    "السَّمَاءِ After a preposition after مِنَ → jarr, kasra",
+    "مَاءً Object object (what? whom?) → naṣb, fatha + tanween"
+   ],
+   "key_html": "<div class=\"kcard\"><div class=\"khead\"><span class=\"qn\">6</span><span class=\"en\">“And He sent down water from the sky.”</span><span class=\"kp\">Al-Baqarah 2:22</span></div><div class=\"kbody\"><div class=\"kleft\"><div class=\"rl\"><span class=\"rw\"><bdi>وَ</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div><div class=\"rl\"><span class=\"rw\"><bdi>أَنْزَلَ</bdi></span><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"rt\">past verb: fixed</span></div><div class=\"rl\"><span class=\"rw\"><bdi>(هُوَ)</bdi></span><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"rt\">hidden doer</span></div><div class=\"rl\"><span class=\"rw\"><bdi>مِنَ</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div><div class=\"rl\"><span class=\"rw\"><bdi>السَّمَاءِ</bdi></span><span class=\"pill\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span><span class=\"rt\">after <bdi class=\"ab\">مِنَ</bdi> → jarr, kasra</span></div><div class=\"rl\"><span class=\"rw\"><bdi>مَاءً</bdi></span><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"rt\">object (what? whom?) → naṣb, fatha + tanween</span></div></div><div class=\"kright\"><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">وَ</div><div class=\"klab muted\">particle</div></div><div class=\"kw plain\"><div class=\"kt\">أَنْزَلَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw ghost\" style=\"border-color:#ea7a10\"><div class=\"kt\" style=\"color:#b05705\">(هُوَ)</div><div class=\"klab\" style=\"color:#b05705;margin-top:3px\">hidden doer</div></div></div></div><div class=\"kg\" style=\"border-color:#22a05a;background:#e2f5e9\"><div class=\"kgl\" style=\"color:#17803f\"><b>After a preposition</b> بَعْدَ حَرْفِ الجَرّ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">مِنَ</div><div class=\"klab muted\">particle</div></div><div class=\"kw plain\"><div class=\"kt\">السَّمَاءِ</div><div class=\"vc\" style=\"border-color:#22a05a;color:#17803f\">ـِ</div><div class=\"klab\" style=\"color:#17803f\">kasra · prep</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">مَاءً</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـً</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div></div></div></div></div></div></div>",
+   "card_html": "\n<div class=\"card pc qc\">\n  <div class=\"chead\"><span class=\"qn\">6</span><span class=\"en\">“And He sent down water from the sky.”</span><span class=\"lvl qref\">Al-Baqarah 2:22 · <bdi>البقرة · ٢٢</bdi></span></div>\n  <div class=\"sent\" dir=\"rtl\"><span class=\"sw\">وَأَنْزَلَ</span> <span class=\"sw\">مِنَ</span> <span class=\"sw\">السَّمَاء</span> <span class=\"sw\">مَاء</span></div>\n  <div class=\"step\"><span class=\"sn\">1</span><b>Big boxes:</b> verb and doer first, then box every other job. The doer is hidden: write it.</div>\n  <div class=\"step\"><span class=\"sn\">2</span><b>Every piece:</b> circle its ending (— = fixed) and its job.</div>\n  <table class=\"wt wt2\"><tr><td class=\"wn\">1</td><td class=\"wd\"><bdi>وَ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">2</td><td class=\"wd\"><bdi>أَنْزَلَ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">3</td><td class=\"wd\"><bdi>مِنَ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">4</td><td class=\"wd\"><bdi>السَّمَاء</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">5</td><td class=\"wd\"><bdi>مَاء</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr></table>\n</div>"
+  },
+  {
+   "num": "7",
+   "ref_ar": "الإسراء · ١",
+   "ref_en": "Al-Isra 17:1",
+   "tr": "(Who) took His servant by night.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "أَسْرَى",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "(هُوَ)",
+       "k": "hidden",
+       "v": null,
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "prep",
+     "ws": [
+      {
+       "t": "بِـ",
+       "k": "particle",
+       "v": null,
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "عَبْدِ",
+       "k": "head",
+       "v": "ِ",
+       "lab": null,
+       "ref": "بِـ"
+      },
+      {
+       "t": "ـهِ",
+       "k": "owner",
+       "v": null,
+       "lab": null,
+       "ref": "عَبْدِ"
+      }
+     ]
+    },
+    {
+     "role": "when",
+     "ws": [
+      {
+       "t": "لَيْلًا",
+       "k": "head",
+       "v": "ً",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "sentence": "أَسْرَى بِعَبْدِهِ لَيْلًا",
+   "words": [
+    "أَسْرَى",
+    "بِعَبْدِهِ",
+    "لَيْلًا"
+   ],
+   "pieces": [
+    "أَسْرَى",
+    "بِـ",
+    "عَبْدِ",
+    "ـهِ",
+    "لَيْلًا"
+   ],
+   "hidden_doer": "(هُوَ)",
+   "jobs": [
+    "verb",
+    "doer",
+    "prep",
+    "owner",
+    "when"
+   ],
+   "boxes_html": "<div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">أَسْرَى</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw ghost\" style=\"border-color:#ea7a10\"><div class=\"kt\" style=\"color:#b05705\">(هُوَ)</div><div class=\"klab\" style=\"color:#b05705;margin-top:3px\">hidden doer</div></div></div></div><div class=\"kg\" style=\"border-color:#22a05a;background:#e2f5e9\"><div class=\"kgl\" style=\"color:#17803f\"><b>After a preposition</b> بَعْدَ حَرْفِ الجَرّ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">بِـ</div><div class=\"klab muted\">particle</div></div><div class=\"kw plain\"><div class=\"kt\">عَبْدِ</div><div class=\"vc\" style=\"border-color:#22a05a;color:#17803f\">ـِ</div><div class=\"klab\" style=\"color:#17803f\">kasra · prep</div></div><div class=\"kw small\" style=\"border-color:#7b4fd6\"><div class=\"kt\">ـهِ</div><div class=\"vc\" style=\"border-color:#7b4fd6;color:#5f36b8\">—</div><div class=\"klab\" style=\"color:#5f36b8\">fixed · owner</div></div></div></div><div class=\"kg\" style=\"border-color:#a0612b;background:#f5e9dd\"><div class=\"kgl\" style=\"color:#7b471c\"><b>Time / place</b> مَفْعُولٌ فِيهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">لَيْلًا</div><div class=\"vc\" style=\"border-color:#a0612b;color:#7b471c\">ـً</div><div class=\"klab\" style=\"color:#7b471c\">fatha · time/place</div></div></div></div></div>",
+   "key_lines": [
+    "<div class=\"rl\"><span class=\"rw\"><bdi>أَسْرَى</bdi></span><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"rt\">past verb: fixed</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>(هُوَ)</bdi></span><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"rt\">hidden doer</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>بِـ</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>عَبْدِ</bdi></span><span class=\"pill\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span><span class=\"rt\">after <bdi class=\"ab\">بِـ</bdi> → jarr, kasra (owned: no tanween)</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>ـهِ</bdi></span><span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span class=\"rt\">owner of <bdi class=\"ab\">عَبْدِ</bdi>: attached pronoun, fixed</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>لَيْلًا</bdi></span><span class=\"pill\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time / place</span><span class=\"rt\">time (when?) → naṣb, fatha + tanween</span></div>"
+   ],
+   "key_lines_text": [
+    "أَسْرَى Verb past verb: fixed",
+    "(هُوَ) Doer hidden doer",
+    "بِـ Particle particle: never changes",
+    "عَبْدِ After a preposition after بِـ → jarr, kasra (owned: no tanween)",
+    "ـهِ Ownership owner of عَبْدِ : attached pronoun, fixed",
+    "لَيْلًا Time / place time (when?) → naṣb, fatha + tanween"
+   ],
+   "key_html": "<div class=\"kcard\"><div class=\"khead\"><span class=\"qn\">7</span><span class=\"en\">“(Who) took His servant by night.”</span><span class=\"kp\">Al-Isra 17:1</span></div><div class=\"kbody\"><div class=\"kleft\"><div class=\"rl\"><span class=\"rw\"><bdi>أَسْرَى</bdi></span><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"rt\">past verb: fixed</span></div><div class=\"rl\"><span class=\"rw\"><bdi>(هُوَ)</bdi></span><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"rt\">hidden doer</span></div><div class=\"rl\"><span class=\"rw\"><bdi>بِـ</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div><div class=\"rl\"><span class=\"rw\"><bdi>عَبْدِ</bdi></span><span class=\"pill\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span><span class=\"rt\">after <bdi class=\"ab\">بِـ</bdi> → jarr, kasra (owned: no tanween)</span></div><div class=\"rl\"><span class=\"rw\"><bdi>ـهِ</bdi></span><span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span class=\"rt\">owner of <bdi class=\"ab\">عَبْدِ</bdi>: attached pronoun, fixed</span></div><div class=\"rl\"><span class=\"rw\"><bdi>لَيْلًا</bdi></span><span class=\"pill\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time / place</span><span class=\"rt\">time (when?) → naṣb, fatha + tanween</span></div></div><div class=\"kright\"><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">أَسْرَى</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw ghost\" style=\"border-color:#ea7a10\"><div class=\"kt\" style=\"color:#b05705\">(هُوَ)</div><div class=\"klab\" style=\"color:#b05705;margin-top:3px\">hidden doer</div></div></div></div><div class=\"kg\" style=\"border-color:#22a05a;background:#e2f5e9\"><div class=\"kgl\" style=\"color:#17803f\"><b>After a preposition</b> بَعْدَ حَرْفِ الجَرّ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">بِـ</div><div class=\"klab muted\">particle</div></div><div class=\"kw plain\"><div class=\"kt\">عَبْدِ</div><div class=\"vc\" style=\"border-color:#22a05a;color:#17803f\">ـِ</div><div class=\"klab\" style=\"color:#17803f\">kasra · prep</div></div><div class=\"kw small\" style=\"border-color:#7b4fd6\"><div class=\"kt\">ـهِ</div><div class=\"vc\" style=\"border-color:#7b4fd6;color:#5f36b8\">—</div><div class=\"klab\" style=\"color:#5f36b8\">fixed · owner</div></div></div></div><div class=\"kg\" style=\"border-color:#a0612b;background:#f5e9dd\"><div class=\"kgl\" style=\"color:#7b471c\"><b>Time / place</b> مَفْعُولٌ فِيهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">لَيْلًا</div><div class=\"vc\" style=\"border-color:#a0612b;color:#7b471c\">ـً</div><div class=\"klab\" style=\"color:#7b471c\">fatha · time/place</div></div></div></div></div></div></div></div>",
+   "card_html": "\n<div class=\"card pc qc\">\n  <div class=\"chead\"><span class=\"qn\">7</span><span class=\"en\">“(Who) took His servant by night.”</span><span class=\"lvl qref\">Al-Isra 17:1 · <bdi>الإسراء · ١</bdi></span></div>\n  <div class=\"sent\" dir=\"rtl\"><span class=\"sw\">أَسْرَى</span> <span class=\"sw\">بِعَبْدهِ</span> <span class=\"sw\">لَيْل</span></div>\n  <div class=\"step\"><span class=\"sn\">1</span><b>Big boxes:</b> verb and doer first, then box every other job. The doer is hidden: write it.</div>\n  <div class=\"step\"><span class=\"sn\">2</span><b>Every piece:</b> circle its ending (— = fixed) and its job.</div>\n  <table class=\"wt wt2\"><tr><td class=\"wn\">1</td><td class=\"wd\"><bdi>أَسْرَى</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">2</td><td class=\"wd\"><bdi>بِـ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">3</td><td class=\"wd\"><bdi>عَبْد</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">4</td><td class=\"wd\"><bdi>ـهِ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">5</td><td class=\"wd\"><bdi>لَيْل</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr></table>\n</div>"
+  },
+  {
+   "num": "8",
+   "ref_ar": "الفجر · ٢٢",
+   "ref_en": "Al-Fajr 89:22",
+   "tr": "And your Lord came, and the angels, row after row.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "وَ",
+       "k": "particle",
+       "v": null,
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "جَاءَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "رَبُّـ",
+       "k": "head",
+       "v": "ُ",
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "ـكَ",
+       "k": "owner",
+       "v": null,
+       "lab": null,
+       "ref": "رَبُّ"
+      },
+      {
+       "t": "وَالمَلَكُ",
+       "k": "and",
+       "v": "ُ",
+       "lab": null,
+       "ref": "رَبُّ"
+      }
+     ]
+    },
+    {
+     "role": "state",
+     "ws": [
+      {
+       "t": "صَفًّا",
+       "k": "head",
+       "v": "ً",
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "صَفًّا",
+       "k": "head",
+       "v": "ً",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    }
+   ],
+   "sentence": "وَجَاءَ رَبُّكَ وَالمَلَكُ صَفًّا صَفًّا",
+   "words": [
+    "وَجَاءَ",
+    "رَبُّكَ",
+    "وَالمَلَكُ",
+    "صَفًّا",
+    "صَفًّا"
+   ],
+   "pieces": [
+    "وَ",
+    "جَاءَ",
+    "رَبُّـ",
+    "ـكَ",
+    "وَالمَلَكُ",
+    "صَفًّا",
+    "صَفًّا"
+   ],
+   "hidden_doer": null,
+   "jobs": [
+    "verb",
+    "doer",
+    "owner",
+    "and",
+    "state"
+   ],
+   "boxes_html": "<div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">وَ</div><div class=\"klab muted\">particle</div></div><div class=\"kw plain\"><div class=\"kt\">جَاءَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">رَبُّـ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـُ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div><div class=\"kw small\" style=\"border-color:#7b4fd6\"><div class=\"kt\">ـكَ</div><div class=\"vc\" style=\"border-color:#7b4fd6;color:#5f36b8\">—</div><div class=\"klab\" style=\"color:#5f36b8\">fixed · owner</div></div><div class=\"kw small\" style=\"border-color:#2f7fe0\"><div class=\"kt\">وَالمَلَكُ</div><div class=\"vc\" style=\"border-color:#2f7fe0;color:#1f64bd\">ـُ</div><div class=\"klab\" style=\"color:#1f64bd\">damma · and</div></div></div></div><div class=\"kg\" style=\"border-color:#6b8e23;background:#edf4dc\"><div class=\"kgl\" style=\"color:#4c6810\"><b>State</b> حَال</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">صَفًّا</div><div class=\"vc\" style=\"border-color:#6b8e23;color:#4c6810\">ـً</div><div class=\"klab\" style=\"color:#4c6810\">fatha · state</div></div><div class=\"kw plain\"><div class=\"kt\">صَفًّا</div><div class=\"vc\" style=\"border-color:#6b8e23;color:#4c6810\">ـً</div><div class=\"klab\" style=\"color:#4c6810\">fatha · state</div></div></div></div></div>",
+   "key_lines": [
+    "<div class=\"rl\"><span class=\"rw\"><bdi>وَ</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>جَاءَ</bdi></span><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"rt\">past verb: fixed</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>رَبُّـ</bdi></span><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"rt\">doer → rafʿ, damma (owned: no tanween)</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>ـكَ</bdi></span><span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span class=\"rt\">owner of <bdi class=\"ab\">رَبُّ</bdi>: attached pronoun, fixed</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>وَالمَلَكُ</bdi></span><span class=\"pill\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ (and)</span><span class=\"rt\">after وَ → copies <bdi class=\"ab\">رَبُّ</bdi>: damma</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>صَفًّا</bdi></span><span class=\"pill\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"rt\">state (how?) → naṣb, fatha + tanween</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>صَفًّا</bdi></span><span class=\"pill\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"rt\">state (how?) → naṣb, fatha + tanween</span></div>"
+   ],
+   "key_lines_text": [
+    "وَ Particle particle: never changes",
+    "جَاءَ Verb past verb: fixed",
+    "رَبُّـ Doer doer → rafʿ, damma (owned: no tanween)",
+    "ـكَ Ownership owner of رَبُّ : attached pronoun, fixed",
+    "وَالمَلَكُ After وَ (and) after وَ → copies رَبُّ : damma",
+    "صَفًّا State state (how?) → naṣb, fatha + tanween",
+    "صَفًّا State state (how?) → naṣb, fatha + tanween"
+   ],
+   "key_html": "<div class=\"kcard\"><div class=\"khead\"><span class=\"qn\">8</span><span class=\"en\">“And your Lord came, and the angels, row after row.”</span><span class=\"kp\">Al-Fajr 89:22</span></div><div class=\"kbody\"><div class=\"kleft\"><div class=\"rl\"><span class=\"rw\"><bdi>وَ</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div><div class=\"rl\"><span class=\"rw\"><bdi>جَاءَ</bdi></span><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"rt\">past verb: fixed</span></div><div class=\"rl\"><span class=\"rw\"><bdi>رَبُّـ</bdi></span><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"rt\">doer → rafʿ, damma (owned: no tanween)</span></div><div class=\"rl\"><span class=\"rw\"><bdi>ـكَ</bdi></span><span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span class=\"rt\">owner of <bdi class=\"ab\">رَبُّ</bdi>: attached pronoun, fixed</span></div><div class=\"rl\"><span class=\"rw\"><bdi>وَالمَلَكُ</bdi></span><span class=\"pill\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ (and)</span><span class=\"rt\">after وَ → copies <bdi class=\"ab\">رَبُّ</bdi>: damma</span></div><div class=\"rl\"><span class=\"rw\"><bdi>صَفًّا</bdi></span><span class=\"pill\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"rt\">state (how?) → naṣb, fatha + tanween</span></div><div class=\"rl\"><span class=\"rw\"><bdi>صَفًّا</bdi></span><span class=\"pill\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"rt\">state (how?) → naṣb, fatha + tanween</span></div></div><div class=\"kright\"><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">وَ</div><div class=\"klab muted\">particle</div></div><div class=\"kw plain\"><div class=\"kt\">جَاءَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">رَبُّـ</div><div class=\"vc\" style=\"border-color:#ea7a10;color:#b05705\">ـُ</div><div class=\"klab\" style=\"color:#b05705\">damma · doer</div></div><div class=\"kw small\" style=\"border-color:#7b4fd6\"><div class=\"kt\">ـكَ</div><div class=\"vc\" style=\"border-color:#7b4fd6;color:#5f36b8\">—</div><div class=\"klab\" style=\"color:#5f36b8\">fixed · owner</div></div><div class=\"kw small\" style=\"border-color:#2f7fe0\"><div class=\"kt\">وَالمَلَكُ</div><div class=\"vc\" style=\"border-color:#2f7fe0;color:#1f64bd\">ـُ</div><div class=\"klab\" style=\"color:#1f64bd\">damma · and</div></div></div></div><div class=\"kg\" style=\"border-color:#6b8e23;background:#edf4dc\"><div class=\"kgl\" style=\"color:#4c6810\"><b>State</b> حَال</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">صَفًّا</div><div class=\"vc\" style=\"border-color:#6b8e23;color:#4c6810\">ـً</div><div class=\"klab\" style=\"color:#4c6810\">fatha · state</div></div><div class=\"kw plain\"><div class=\"kt\">صَفًّا</div><div class=\"vc\" style=\"border-color:#6b8e23;color:#4c6810\">ـً</div><div class=\"klab\" style=\"color:#4c6810\">fatha · state</div></div></div></div></div></div></div></div>",
+   "card_html": "\n<div class=\"card pc qc\">\n  <div class=\"chead\"><span class=\"qn\">8</span><span class=\"en\">“And your Lord came, and the angels, row after row.”</span><span class=\"lvl qref\">Al-Fajr 89:22 · <bdi>الفجر · ٢٢</bdi></span></div>\n  <div class=\"sent\" dir=\"rtl\"><span class=\"sw\">وَجَاءَ</span> <span class=\"sw\">رَبّكَ</span> <span class=\"sw\">وَالمَلَك</span> <span class=\"sw\">صَفّ</span> <span class=\"sw\">صَفّ</span></div>\n  <div class=\"step\"><span class=\"sn\">1</span><b>Big boxes:</b> verb and doer first, then box every other job.</div>\n  <div class=\"step\"><span class=\"sn\">2</span><b>Every piece:</b> circle its ending (— = fixed) and its job.</div>\n  <table class=\"wt wt2\"><tr><td class=\"wn\">1</td><td class=\"wd\"><bdi>وَ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">2</td><td class=\"wd\"><bdi>جَاءَ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">3</td><td class=\"wd\"><bdi>رَبّـ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">4</td><td class=\"wd\"><bdi>ـكَ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">5</td><td class=\"wd\"><bdi>وَالمَلَك</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">6</td><td class=\"wd\"><bdi>صَفّ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">7</td><td class=\"wd\"><bdi>صَفّ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr></table>\n</div>"
+  },
+  {
+   "num": "9",
+   "ref_ar": "القصص · ١٥",
+   "ref_en": "Al-Qasas 28:15",
+   "tr": "And he entered the city at a time when its people were unaware.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "وَ",
+       "k": "particle",
+       "v": null,
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "دَخَلَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "(هُوَ)",
+       "k": "hidden",
+       "v": null,
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "obj",
+     "ws": [
+      {
+       "t": "المَدِينَةَ",
+       "k": "head",
+       "v": "َ",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "prep",
+     "ws": [
+      {
+       "t": "عَلَى",
+       "k": "particle",
+       "v": null,
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "حِينِ",
+       "k": "head",
+       "v": "ِ",
+       "lab": null,
+       "ref": "عَلَى"
+      },
+      {
+       "t": "غَفْلَةٍ",
+       "k": "owner",
+       "v": "ٍ",
+       "lab": null,
+       "ref": "حِينِ"
+      },
+      {
+       "t": "مِنْ",
+       "k": "particle",
+       "v": null,
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "أَهْلِ",
+       "k": "prep",
+       "v": "ِ",
+       "lab": null,
+       "ref": "مِنْ"
+      },
+      {
+       "t": "ـهَا",
+       "k": "owner",
+       "v": null,
+       "lab": null,
+       "ref": "أَهْلِ"
+      }
+     ]
+    }
+   ],
+   "sentence": "وَدَخَلَ المَدِينَةَ عَلَى حِينِ غَفْلَةٍ مِنْ أَهْلِهَا",
+   "words": [
+    "وَدَخَلَ",
+    "المَدِينَةَ",
+    "عَلَى",
+    "حِينِ",
+    "غَفْلَةٍ",
+    "مِنْ",
+    "أَهْلِهَا"
+   ],
+   "pieces": [
+    "وَ",
+    "دَخَلَ",
+    "المَدِينَةَ",
+    "عَلَى",
+    "حِينِ",
+    "غَفْلَةٍ",
+    "مِنْ",
+    "أَهْلِ",
+    "ـهَا"
+   ],
+   "hidden_doer": "(هُوَ)",
+   "jobs": [
+    "verb",
+    "doer",
+    "obj",
+    "prep",
+    "owner"
+   ],
+   "boxes_html": "<div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">وَ</div><div class=\"klab muted\">particle</div></div><div class=\"kw plain\"><div class=\"kt\">دَخَلَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw ghost\" style=\"border-color:#ea7a10\"><div class=\"kt\" style=\"color:#b05705\">(هُوَ)</div><div class=\"klab\" style=\"color:#b05705;margin-top:3px\">hidden doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">المَدِينَةَ</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـَ</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div></div></div><div class=\"kg\" style=\"border-color:#22a05a;background:#e2f5e9\"><div class=\"kgl\" style=\"color:#17803f\"><b>After a preposition</b> بَعْدَ حَرْفِ الجَرّ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">عَلَى</div><div class=\"klab muted\">particle</div></div><div class=\"kw plain\"><div class=\"kt\">حِينِ</div><div class=\"vc\" style=\"border-color:#22a05a;color:#17803f\">ـِ</div><div class=\"klab\" style=\"color:#17803f\">kasra · prep</div></div><div class=\"kw small\" style=\"border-color:#7b4fd6\"><div class=\"kt\">غَفْلَةٍ</div><div class=\"vc\" style=\"border-color:#7b4fd6;color:#5f36b8\">ـٍ</div><div class=\"klab\" style=\"color:#5f36b8\">kasra · owner</div></div><div class=\"kw plain\"><div class=\"kt\">مِنْ</div><div class=\"klab muted\">particle</div></div><div class=\"kw small\" style=\"border-color:#22a05a\"><div class=\"kt\">أَهْلِ</div><div class=\"vc\" style=\"border-color:#22a05a;color:#17803f\">ـِ</div><div class=\"klab\" style=\"color:#17803f\">kasra · prep</div></div><div class=\"kw small\" style=\"border-color:#7b4fd6\"><div class=\"kt\">ـهَا</div><div class=\"vc\" style=\"border-color:#7b4fd6;color:#5f36b8\">—</div><div class=\"klab\" style=\"color:#5f36b8\">fixed · owner</div></div></div></div></div>",
+   "key_lines": [
+    "<div class=\"rl\"><span class=\"rw\"><bdi>وَ</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>دَخَلَ</bdi></span><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"rt\">past verb: fixed</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>(هُوَ)</bdi></span><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"rt\">hidden doer</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>المَدِينَةَ</bdi></span><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"rt\">object (what? whom?) → naṣb, fatha</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>عَلَى</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>حِينِ</bdi></span><span class=\"pill\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span><span class=\"rt\">after <bdi class=\"ab\">عَلَى</bdi> → jarr, kasra (owned: no tanween)</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>غَفْلَةٍ</bdi></span><span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span class=\"rt\">owner of <bdi class=\"ab\">حِينِ</bdi> → jarr, kasra + tanween</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>مِنْ</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>أَهْلِ</bdi></span><span class=\"pill\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span><span class=\"rt\">after <bdi class=\"ab\">مِنْ</bdi> → jarr, kasra (owned: no tanween)</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>ـهَا</bdi></span><span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span class=\"rt\">owner of <bdi class=\"ab\">أَهْلِ</bdi>: attached pronoun, fixed</span></div>"
+   ],
+   "key_lines_text": [
+    "وَ Particle particle: never changes",
+    "دَخَلَ Verb past verb: fixed",
+    "(هُوَ) Doer hidden doer",
+    "المَدِينَةَ Object object (what? whom?) → naṣb, fatha",
+    "عَلَى Particle particle: never changes",
+    "حِينِ After a preposition after عَلَى → jarr, kasra (owned: no tanween)",
+    "غَفْلَةٍ Ownership owner of حِينِ → jarr, kasra + tanween",
+    "مِنْ Particle particle: never changes",
+    "أَهْلِ After a preposition after مِنْ → jarr, kasra (owned: no tanween)",
+    "ـهَا Ownership owner of أَهْلِ : attached pronoun, fixed"
+   ],
+   "key_html": "<div class=\"kcard\"><div class=\"khead\"><span class=\"qn\">9</span><span class=\"en\">“And he entered the city at a time when its people were unaware.”</span><span class=\"kp\">Al-Qasas 28:15</span></div><div class=\"kbody\"><div class=\"kleft\"><div class=\"rl\"><span class=\"rw\"><bdi>وَ</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div><div class=\"rl\"><span class=\"rw\"><bdi>دَخَلَ</bdi></span><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"rt\">past verb: fixed</span></div><div class=\"rl\"><span class=\"rw\"><bdi>(هُوَ)</bdi></span><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"rt\">hidden doer</span></div><div class=\"rl\"><span class=\"rw\"><bdi>المَدِينَةَ</bdi></span><span class=\"pill\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"rt\">object (what? whom?) → naṣb, fatha</span></div><div class=\"rl\"><span class=\"rw\"><bdi>عَلَى</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div><div class=\"rl\"><span class=\"rw\"><bdi>حِينِ</bdi></span><span class=\"pill\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span><span class=\"rt\">after <bdi class=\"ab\">عَلَى</bdi> → jarr, kasra (owned: no tanween)</span></div><div class=\"rl\"><span class=\"rw\"><bdi>غَفْلَةٍ</bdi></span><span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span class=\"rt\">owner of <bdi class=\"ab\">حِينِ</bdi> → jarr, kasra + tanween</span></div><div class=\"rl\"><span class=\"rw\"><bdi>مِنْ</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div><div class=\"rl\"><span class=\"rw\"><bdi>أَهْلِ</bdi></span><span class=\"pill\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span><span class=\"rt\">after <bdi class=\"ab\">مِنْ</bdi> → jarr, kasra (owned: no tanween)</span></div><div class=\"rl\"><span class=\"rw\"><bdi>ـهَا</bdi></span><span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span class=\"rt\">owner of <bdi class=\"ab\">أَهْلِ</bdi>: attached pronoun, fixed</span></div></div><div class=\"kright\"><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">وَ</div><div class=\"klab muted\">particle</div></div><div class=\"kw plain\"><div class=\"kt\">دَخَلَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw ghost\" style=\"border-color:#ea7a10\"><div class=\"kt\" style=\"color:#b05705\">(هُوَ)</div><div class=\"klab\" style=\"color:#b05705;margin-top:3px\">hidden doer</div></div></div></div><div class=\"kg\" style=\"border-color:#d63384;background:#fde6f1\"><div class=\"kgl\" style=\"color:#a61e62\"><b>Object</b> مَفْعُولٌ بِهِ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">المَدِينَةَ</div><div class=\"vc\" style=\"border-color:#d63384;color:#a61e62\">ـَ</div><div class=\"klab\" style=\"color:#a61e62\">fatha · object</div></div></div></div><div class=\"kg\" style=\"border-color:#22a05a;background:#e2f5e9\"><div class=\"kgl\" style=\"color:#17803f\"><b>After a preposition</b> بَعْدَ حَرْفِ الجَرّ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">عَلَى</div><div class=\"klab muted\">particle</div></div><div class=\"kw plain\"><div class=\"kt\">حِينِ</div><div class=\"vc\" style=\"border-color:#22a05a;color:#17803f\">ـِ</div><div class=\"klab\" style=\"color:#17803f\">kasra · prep</div></div><div class=\"kw small\" style=\"border-color:#7b4fd6\"><div class=\"kt\">غَفْلَةٍ</div><div class=\"vc\" style=\"border-color:#7b4fd6;color:#5f36b8\">ـٍ</div><div class=\"klab\" style=\"color:#5f36b8\">kasra · owner</div></div><div class=\"kw plain\"><div class=\"kt\">مِنْ</div><div class=\"klab muted\">particle</div></div><div class=\"kw small\" style=\"border-color:#22a05a\"><div class=\"kt\">أَهْلِ</div><div class=\"vc\" style=\"border-color:#22a05a;color:#17803f\">ـِ</div><div class=\"klab\" style=\"color:#17803f\">kasra · prep</div></div><div class=\"kw small\" style=\"border-color:#7b4fd6\"><div class=\"kt\">ـهَا</div><div class=\"vc\" style=\"border-color:#7b4fd6;color:#5f36b8\">—</div><div class=\"klab\" style=\"color:#5f36b8\">fixed · owner</div></div></div></div></div></div></div></div>",
+   "card_html": "\n<div class=\"card pc qc\">\n  <div class=\"chead\"><span class=\"qn\">9</span><span class=\"en\">“And he entered the city at a time when its people were unaware.”</span><span class=\"lvl qref\">Al-Qasas 28:15 · <bdi>القصص · ١٥</bdi></span></div>\n  <div class=\"sent\" dir=\"rtl\"><span class=\"sw\">وَدَخَلَ</span> <span class=\"sw\">المَدِينَة</span> <span class=\"sw\">عَلَى</span> <span class=\"sw\">حِين</span> <span class=\"sw\">غَفْلَة</span> <span class=\"sw\">مِنْ</span> <span class=\"sw\">أَهْلهَا</span></div>\n  <div class=\"step\"><span class=\"sn\">1</span><b>Big boxes:</b> verb and doer first, then box every other job. The doer is hidden: write it.</div>\n  <div class=\"step\"><span class=\"sn\">2</span><b>Every piece:</b> circle its ending (— = fixed) and its job.</div>\n  <table class=\"wt wt2\"><tr><td class=\"wn\">1</td><td class=\"wd\"><bdi>وَ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">2</td><td class=\"wd\"><bdi>دَخَلَ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">3</td><td class=\"wd\"><bdi>المَدِينَة</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">4</td><td class=\"wd\"><bdi>عَلَى</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">5</td><td class=\"wd\"><bdi>حِين</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">6</td><td class=\"wd\"><bdi>غَفْلَة</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">7</td><td class=\"wd\"><bdi>مِنْ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">8</td><td class=\"wd\"><bdi>أَهْل</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">9</td><td class=\"wd\"><bdi>ـهَا</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr></table>\n</div>"
+  },
+  {
+   "num": "10",
+   "ref_ar": "النمل · ١٩",
+   "ref_en": "An-Naml 27:19",
+   "tr": "So he smiled, laughing at her words.",
+   "groups": [
+    {
+     "role": "verb",
+     "ws": [
+      {
+       "t": "فَ",
+       "k": "particle",
+       "v": null,
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "تَبَسَّمَ",
+       "k": "fixed",
+       "v": null,
+       "lab": "fixed · past",
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "doer",
+     "ws": [
+      {
+       "t": "(هُوَ)",
+       "k": "hidden",
+       "v": null,
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "state",
+     "ws": [
+      {
+       "t": "ضَاحِكًا",
+       "k": "head",
+       "v": "ً",
+       "lab": null,
+       "ref": null
+      }
+     ]
+    },
+    {
+     "role": "prep",
+     "ws": [
+      {
+       "t": "مِنْ",
+       "k": "particle",
+       "v": null,
+       "lab": null,
+       "ref": null
+      },
+      {
+       "t": "قَوْلِ",
+       "k": "head",
+       "v": "ِ",
+       "lab": null,
+       "ref": "مِنْ"
+      },
+      {
+       "t": "ـهَا",
+       "k": "owner",
+       "v": null,
+       "lab": null,
+       "ref": "قَوْلِ"
+      }
+     ]
+    }
+   ],
+   "sentence": "فَتَبَسَّمَ ضَاحِكًا مِنْ قَوْلِهَا",
+   "words": [
+    "فَتَبَسَّمَ",
+    "ضَاحِكًا",
+    "مِنْ",
+    "قَوْلِهَا"
+   ],
+   "pieces": [
+    "فَ",
+    "تَبَسَّمَ",
+    "ضَاحِكًا",
+    "مِنْ",
+    "قَوْلِ",
+    "ـهَا"
+   ],
+   "hidden_doer": "(هُوَ)",
+   "jobs": [
+    "verb",
+    "doer",
+    "state",
+    "prep",
+    "owner"
+   ],
+   "boxes_html": "<div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">فَ</div><div class=\"klab muted\">particle</div></div><div class=\"kw plain\"><div class=\"kt\">تَبَسَّمَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw ghost\" style=\"border-color:#ea7a10\"><div class=\"kt\" style=\"color:#b05705\">(هُوَ)</div><div class=\"klab\" style=\"color:#b05705;margin-top:3px\">hidden doer</div></div></div></div><div class=\"kg\" style=\"border-color:#6b8e23;background:#edf4dc\"><div class=\"kgl\" style=\"color:#4c6810\"><b>State</b> حَال</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">ضَاحِكًا</div><div class=\"vc\" style=\"border-color:#6b8e23;color:#4c6810\">ـً</div><div class=\"klab\" style=\"color:#4c6810\">fatha · state</div></div></div></div><div class=\"kg\" style=\"border-color:#22a05a;background:#e2f5e9\"><div class=\"kgl\" style=\"color:#17803f\"><b>After a preposition</b> بَعْدَ حَرْفِ الجَرّ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">مِنْ</div><div class=\"klab muted\">particle</div></div><div class=\"kw plain\"><div class=\"kt\">قَوْلِ</div><div class=\"vc\" style=\"border-color:#22a05a;color:#17803f\">ـِ</div><div class=\"klab\" style=\"color:#17803f\">kasra · prep</div></div><div class=\"kw small\" style=\"border-color:#7b4fd6\"><div class=\"kt\">ـهَا</div><div class=\"vc\" style=\"border-color:#7b4fd6;color:#5f36b8\">—</div><div class=\"klab\" style=\"color:#5f36b8\">fixed · owner</div></div></div></div></div>",
+   "key_lines": [
+    "<div class=\"rl\"><span class=\"rw\"><bdi>فَ</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>تَبَسَّمَ</bdi></span><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"rt\">past verb: fixed</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>(هُوَ)</bdi></span><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"rt\">hidden doer</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>ضَاحِكًا</bdi></span><span class=\"pill\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"rt\">state (how?) → naṣb, fatha + tanween</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>مِنْ</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>قَوْلِ</bdi></span><span class=\"pill\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span><span class=\"rt\">after <bdi class=\"ab\">مِنْ</bdi> → jarr, kasra (owned: no tanween)</span></div>",
+    "<div class=\"rl\"><span class=\"rw\"><bdi>ـهَا</bdi></span><span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span class=\"rt\">owner of <bdi class=\"ab\">قَوْلِ</bdi>: attached pronoun, fixed</span></div>"
+   ],
+   "key_lines_text": [
+    "فَ Particle particle: never changes",
+    "تَبَسَّمَ Verb past verb: fixed",
+    "(هُوَ) Doer hidden doer",
+    "ضَاحِكًا State state (how?) → naṣb, fatha + tanween",
+    "مِنْ Particle particle: never changes",
+    "قَوْلِ After a preposition after مِنْ → jarr, kasra (owned: no tanween)",
+    "ـهَا Ownership owner of قَوْلِ : attached pronoun, fixed"
+   ],
+   "key_html": "<div class=\"kcard\"><div class=\"khead\"><span class=\"qn\">10</span><span class=\"en\">“So he smiled, laughing at her words.”</span><span class=\"kp\">An-Naml 27:19</span></div><div class=\"kbody\"><div class=\"kleft\"><div class=\"rl\"><span class=\"rw\"><bdi>فَ</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div><div class=\"rl\"><span class=\"rw\"><bdi>تَبَسَّمَ</bdi></span><span class=\"pill\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"rt\">past verb: fixed</span></div><div class=\"rl\"><span class=\"rw\"><bdi>(هُوَ)</bdi></span><span class=\"pill\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"rt\">hidden doer</span></div><div class=\"rl\"><span class=\"rw\"><bdi>ضَاحِكًا</bdi></span><span class=\"pill\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"rt\">state (how?) → naṣb, fatha + tanween</span></div><div class=\"rl\"><span class=\"rw\"><bdi>مِنْ</bdi></span><span class=\"pill\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span><span class=\"rt\">particle: never changes</span></div><div class=\"rl\"><span class=\"rw\"><bdi>قَوْلِ</bdi></span><span class=\"pill\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">After a preposition</span><span class=\"rt\">after <bdi class=\"ab\">مِنْ</bdi> → jarr, kasra (owned: no tanween)</span></div><div class=\"rl\"><span class=\"rw\"><bdi>ـهَا</bdi></span><span class=\"pill\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Ownership</span><span class=\"rt\">owner of <bdi class=\"ab\">قَوْلِ</bdi>: attached pronoun, fixed</span></div></div><div class=\"kright\"><div class=\"sbox\" dir=\"rtl\"><div class=\"kg\" style=\"border-color:#3a5a85;background:#e8eef6\"><div class=\"kgl\" style=\"color:#2b4668\"><b>Verb</b> فِعْل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">فَ</div><div class=\"klab muted\">particle</div></div><div class=\"kw plain\"><div class=\"kt\">تَبَسَّمَ</div><div class=\"vc\" style=\"border-color:#3a5a85;color:#2b4668\">—</div><div class=\"klab\" style=\"color:#2b4668\">fixed · past</div></div></div></div><div class=\"kg\" style=\"border-color:#ea7a10;background:#fff0df\"><div class=\"kgl\" style=\"color:#b05705\"><b>Doer</b> فَاعِل</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw ghost\" style=\"border-color:#ea7a10\"><div class=\"kt\" style=\"color:#b05705\">(هُوَ)</div><div class=\"klab\" style=\"color:#b05705;margin-top:3px\">hidden doer</div></div></div></div><div class=\"kg\" style=\"border-color:#6b8e23;background:#edf4dc\"><div class=\"kgl\" style=\"color:#4c6810\"><b>State</b> حَال</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">ضَاحِكًا</div><div class=\"vc\" style=\"border-color:#6b8e23;color:#4c6810\">ـً</div><div class=\"klab\" style=\"color:#4c6810\">fatha · state</div></div></div></div><div class=\"kg\" style=\"border-color:#22a05a;background:#e2f5e9\"><div class=\"kgl\" style=\"color:#17803f\"><b>After a preposition</b> بَعْدَ حَرْفِ الجَرّ</div><div class=\"kgw\" dir=\"rtl\"><div class=\"kw plain\"><div class=\"kt\">مِنْ</div><div class=\"klab muted\">particle</div></div><div class=\"kw plain\"><div class=\"kt\">قَوْلِ</div><div class=\"vc\" style=\"border-color:#22a05a;color:#17803f\">ـِ</div><div class=\"klab\" style=\"color:#17803f\">kasra · prep</div></div><div class=\"kw small\" style=\"border-color:#7b4fd6\"><div class=\"kt\">ـهَا</div><div class=\"vc\" style=\"border-color:#7b4fd6;color:#5f36b8\">—</div><div class=\"klab\" style=\"color:#5f36b8\">fixed · owner</div></div></div></div></div></div></div></div>",
+   "card_html": "\n<div class=\"card pc qc\">\n  <div class=\"chead\"><span class=\"qn\">10</span><span class=\"en\">“So he smiled, laughing at her words.”</span><span class=\"lvl qref\">An-Naml 27:19 · <bdi>النمل · ١٩</bdi></span></div>\n  <div class=\"sent\" dir=\"rtl\"><span class=\"sw\">فَتَبَسَّمَ</span> <span class=\"sw\">ضَاحِك</span> <span class=\"sw\">مِنْ</span> <span class=\"sw\">قَوْلهَا</span></div>\n  <div class=\"step\"><span class=\"sn\">1</span><b>Big boxes:</b> verb and doer first, then box every other job. The doer is hidden: write it.</div>\n  <div class=\"step\"><span class=\"sn\">2</span><b>Every piece:</b> circle its ending (— = fixed) and its job.</div>\n  <table class=\"wt wt2\"><tr><td class=\"wn\">1</td><td class=\"wd\"><bdi>فَ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">2</td><td class=\"wd\"><bdi>تَبَسَّمَ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">3</td><td class=\"wd\"><bdi>ضَاحِك</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">4</td><td class=\"wd\"><bdi>مِنْ</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">5</td><td class=\"wd\"><bdi>قَوْل</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr><tr><td class=\"wn\">6</td><td class=\"wd\"><bdi>ـهَا</bdi></td><td><div class=\"ends\"><span class=\"ec\">ـُ</span><span class=\"ec\">ـٌ</span><span class=\"ec\">ـَ</span><span class=\"ec\">ـً</span><span class=\"ec\">ـِ</span><span class=\"ec\">ـٍ</span><span class=\"ec\">—</span></div><div class=\"jobs2\"><span class=\"jc\" style=\"border-color:#3a5a85;background:#e8eef6;color:#2b4668\">Verb</span><span class=\"jc\" style=\"border-color:#ea7a10;background:#fff0df;color:#b05705\">Doer</span><span class=\"jc\" style=\"border-color:#d63384;background:#fde6f1;color:#a61e62\">Object</span><span class=\"jc\" style=\"border-color:#0f9d9a;background:#dcf4f3;color:#0a7471\">Purpose</span><span class=\"jc\" style=\"border-color:#a0612b;background:#f5e9dd;color:#7b471c\">Time/place</span><span class=\"jc\" style=\"border-color:#6b8e23;background:#edf4dc;color:#4c6810\">State</span><span class=\"jc\" style=\"border-color:#22a05a;background:#e2f5e9;color:#17803f\">Prep</span><span class=\"jc\" style=\"border-color:#7b4fd6;background:#efe8fc;color:#5f36b8\">Owner</span><span class=\"jc\" style=\"border-color:#7d858e;background:#eef0f2;color:#5a626b\">Adj</span><span class=\"jc\" style=\"border-color:#2f7fe0;background:#e3eefc;color:#1f64bd\">After وَ</span><span class=\"jc\" style=\"border-color:#9aa0a8;background:#f4f4f2;color:#5f6672\">Particle</span></div></td></tr></table>\n</div>"
+  }
+ ],
+ "your_turn_heading": "<div class=\"pb\"><h2 class=\"nomt\"><span class=\"num\">4</span>Your turn</h2></div>"
+}
