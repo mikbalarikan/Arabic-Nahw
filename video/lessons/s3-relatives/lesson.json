@@ -1,0 +1,464 @@
+{
+ "id": "s3-relatives",
+ "stage": 3,
+ "title": "Relative pronouns",
+ "ar_title": "الْأَسْمَاءُ الْمَوْصُولَةُ",
+ "blurb": "Who, which and what: words that join a noun to a clause that tells you more about it.",
+ "tabs": [
+  "Lesson",
+  "Practice"
+ ],
+ "sources": [
+  "content/stage3/u4_relatives.py"
+ ],
+ "hero_html": "<div class=\"hero\"><div class=\"eyebrow\">STAGE 3 · UNIT 4</div><h1>The one who, the thing which</h1><p>A relative pronoun joins a noun to a short clause about it: &quot;the student who passed&quot;. It is fixed, and it never stands alone.</p><div class=\"wm\" aria-hidden=\"true\">الَّذِي</div></div>",
+ "chapters": [
+  {
+   "num": 1,
+   "title": "The table to learn",
+   "title_html": "<span class=\"num\">1</span>The table to learn",
+   "block": 1
+  },
+  {
+   "num": 2,
+   "title": "A relative needs a clause after it",
+   "title_html": "<span class=\"num\">2</span>A relative needs a clause after it",
+   "block": 6
+  },
+  {
+   "num": 3,
+   "title": "Choose by the noun before it",
+   "title_html": "<span class=\"num\">3</span>Choose by the noun before it",
+   "block": 10
+  },
+  {
+   "num": 4,
+   "title": "مَنْ and مَا: question or relative?",
+   "title_html": "<span class=\"num\">4</span>مَنْ and مَا: question or relative?",
+   "block": 15
+  },
+  {
+   "num": 5,
+   "title": "Its place in the sentence",
+   "title_html": "<span class=\"num\">5</span>Its place in the sentence",
+   "block": 18
+  },
+  {
+   "num": 6,
+   "title": "Not fixed: اللَّذَانِ and اللَّتَانِ",
+   "title_html": "<span class=\"num\">6</span>Not fixed: اللَّذَانِ and اللَّتَانِ",
+   "block": 22
+  }
+ ],
+ "blocks": [
+  {
+   "i": 0,
+   "t": "hero",
+   "chapter": 0,
+   "html": "<div class=\"hero\"><div class=\"eyebrow\">STAGE 3 · UNIT 4</div><h1>The one who, the thing which</h1><p>A relative pronoun joins a noun to a short clause about it: &quot;the student who passed&quot;. It is fixed, and it never stands alone.</p><div class=\"wm\" aria-hidden=\"true\">الَّذِي</div></div>",
+   "src": {
+    "t": "hero",
+    "eyebrow": "STAGE 3 · UNIT 4",
+    "title": "The one who, the thing which",
+    "text": "A relative pronoun joins a noun to a short clause about it: \"the student who passed\". It is fixed, and it never stands alone.",
+    "wm": "الَّذِي"
+   }
+  },
+  {
+   "i": 1,
+   "t": "h2",
+   "chapter": 1,
+   "html": "<h2><span class=\"num\">1</span>The table to learn</h2>",
+   "src": {
+    "t": "h2",
+    "text": "The table to learn"
+   }
+  },
+  {
+   "i": 2,
+   "t": "table",
+   "chapter": 1,
+   "html": "<div class=\"tblwrap\"><table class=\"glance s0t\"><tr><th>Word</th><th>Used for</th><th>Example</th></tr><tr><td class=\"tar\"><bdi class=\"ab\">الَّذِي</bdi></td><td class=\"\">one male or thing</td><td class=\"\"><bdi class=\"ab\">الطَّالِبُ الَّذِي نَجَحَ</bdi> the student who passed</td></tr><tr><td class=\"tar\"><bdi class=\"ab\">الَّتِي</bdi></td><td class=\"\">one female or thing</td><td class=\"\"><bdi class=\"ab\">الْبِنْتُ الَّتِي نَجَحَتْ</bdi> the girl who passed</td></tr><tr><td class=\"tar\"><bdi class=\"ab\">الَّذِينَ</bdi></td><td class=\"\">a group of males</td><td class=\"\"><bdi class=\"ab\">الطُّلَّابُ الَّذِينَ نَجَحُوا</bdi> the students who passed</td></tr><tr><td class=\"tar\"><bdi class=\"ab\">اللَّاتِي</bdi> / <bdi class=\"ab\">اللَّوَاتِي</bdi></td><td class=\"\">a group of females</td><td class=\"\"><bdi class=\"ab\">النِّسَاءُ اللَّاتِي نَجَحْنَ</bdi> the women who passed</td></tr></table></div>",
+   "src": {
+    "t": "table",
+    "head": [
+     "Word",
+     "Used for",
+     "Example"
+    ],
+    "rows": [
+     [
+      "{الَّذِي}",
+      "one male or thing",
+      "{الطَّالِبُ الَّذِي نَجَحَ} the student who passed"
+     ],
+     [
+      "{الَّتِي}",
+      "one female or thing",
+      "{الْبِنْتُ الَّتِي نَجَحَتْ} the girl who passed"
+     ],
+     [
+      "{الَّذِينَ}",
+      "a group of males",
+      "{الطُّلَّابُ الَّذِينَ نَجَحُوا} the students who passed"
+     ],
+     [
+      "{اللَّاتِي} / {اللَّوَاتِي}",
+      "a group of females",
+      "{النِّسَاءُ اللَّاتِي نَجَحْنَ} the women who passed"
+     ]
+    ]
+   }
+  },
+  {
+   "i": 3,
+   "t": "cols",
+   "chapter": 1,
+   "html": "<div class=\"kkgrid s0cols\"><div class=\"kk\" style=\"border-left-color:#7b4fd6;background:#efe8fc\"><div class=\"kkt\"><span style=\"color:#5f36b8\"><span class=\"dot\" style=\"background:#7b4fd6\"></span>General: who</span><span class=\"kkar\">مَنْ</span></div><div class=\"kkd\">for people: <bdi class=\"ab\">جَاءَ مَنْ نَجَحَ</bdi> &quot;The one who passed came.&quot;</div></div><div class=\"kk\" style=\"border-left-color:#7b4fd6;background:#efe8fc\"><div class=\"kkt\"><span style=\"color:#5f36b8\"><span class=\"dot\" style=\"background:#7b4fd6\"></span>General: what</span><span class=\"kkar\">مَا</span></div><div class=\"kkd\">for things: <bdi class=\"ab\">قَرَأْتُ مَا كَتَبَ الْمُدَرِّسُ</bdi> &quot;I read what the teacher wrote.&quot;</div></div></div>",
+   "src": {
+    "t": "cols",
+    "items": [
+     {
+      "color": "purple",
+      "title": "General: who",
+      "ar": "مَنْ",
+      "text": "for people: {جَاءَ مَنْ نَجَحَ} \"The one who passed came.\""
+     },
+     {
+      "color": "purple",
+      "title": "General: what",
+      "ar": "مَا",
+      "text": "for things: {قَرَأْتُ مَا كَتَبَ الْمُدَرِّسُ} \"I read what the teacher wrote.\""
+     }
+    ]
+   }
+  },
+  {
+   "i": 4,
+   "t": "tip",
+   "chapter": 1,
+   "html": "<div class=\"tipbox\"><b>Tip:</b> Spelling: <bdi class=\"ab\">الَّذِي</bdi>، <bdi class=\"ab\">الَّتِي</bdi>، <bdi class=\"ab\">الَّذِينَ</bdi> are written with one <bdi class=\"ab\">ل</bdi> and a shadda. <bdi class=\"ab\">اللَّاتِي</bdi> and <bdi class=\"ab\">اللَّوَاتِي</bdi> are written with two.</div>",
+   "src": {
+    "t": "tip",
+    "text": "Spelling: {الَّذِي}، {الَّتِي}، {الَّذِينَ} are written with one {ل} and a shadda. {اللَّاتِي} and {اللَّوَاتِي} are written with two."
+   }
+  },
+  {
+   "i": 5,
+   "t": "rule",
+   "chapter": 1,
+   "html": "<div class=\"rbox\" style=\"border-color:#7b4fd6;background:#efe8fc\"><b style=\"color:#5f36b8\">All of these are fixed.</b> <bdi class=\"ab\">الَّذِينَ</bdi> ends like a plural, but it never changes: it is <bdi class=\"ab\">الَّذِينَ</bdi> in rafʿ, naṣb and jarr. <bdi class=\"ab\">الَّذِي</bdi> and <bdi class=\"ab\">الَّتِي</bdi> always end in a long ī.</div>",
+   "src": {
+    "t": "rule",
+    "color": "purple",
+    "title": "All of these are fixed",
+    "text": "{الَّذِينَ} ends like a plural, but it never changes: it is {الَّذِينَ} in rafʿ, naṣb and jarr. {الَّذِي} and {الَّتِي} always end in a long ī."
+   }
+  },
+  {
+   "i": 6,
+   "t": "h2",
+   "chapter": 2,
+   "html": "<h2><span class=\"num\">2</span>A relative needs a clause after it</h2>",
+   "src": {
+    "t": "h2",
+    "text": "A relative needs a clause after it"
+   }
+  },
+  {
+   "i": 7,
+   "t": "p",
+   "chapter": 2,
+   "html": "<p class=\"s0p\"><bdi class=\"ab\">الَّذِي</bdi> alone means nothing. The clause after it completes its meaning. This clause is called the <bdi class=\"ab\">صِلَةٌ</bdi>.</p>",
+   "src": {
+    "t": "p",
+    "text": "{الَّذِي} alone means nothing. The clause after it completes its meaning. This clause is called the {صِلَةٌ}."
+   }
+  },
+  {
+   "i": 8,
+   "t": "examples",
+   "chapter": 2,
+   "html": "<div class=\"exlist\"><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">جَاءَ الطَّالِبُ الَّذِي نَجَحَ.</div><div class=\"exe\">The student who passed came.<div class=\"exn\">The ṣila is <bdi class=\"ab\">نَجَحَ</bdi>.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">هَذِهِ هِيَ الْبِنْتُ الَّتِي كَتَبَتِ الدَّرْسَ.</div><div class=\"exe\">This is the girl who wrote the lesson.<div class=\"exn\">The ṣila is <bdi class=\"ab\">كَتَبَتِ الدَّرْسَ</bdi>.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">الْكِتَابُ الَّذِي عَلَى الْمَكْتَبِ جَدِيدٌ.</div><div class=\"exe\">The book which is on the desk is new.<div class=\"exn\">The ṣila is a place phrase: <bdi class=\"ab\">عَلَى الْمَكْتَبِ</bdi>.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">خَرَجَ الرِّجَالُ الَّذِينَ جَلَسُوا فِي الْمَسْجِدِ.</div><div class=\"exe\">The men who sat in the mosque went out.<div class=\"exn\">The ṣila is <bdi class=\"ab\">جَلَسُوا فِي الْمَسْجِدِ</bdi>.</div></div></div></div>",
+   "src": {
+    "t": "examples",
+    "items": [
+     {
+      "ar": "جَاءَ الطَّالِبُ الَّذِي نَجَحَ.",
+      "en": "The student who passed came.",
+      "note": "The ṣila is {نَجَحَ}."
+     },
+     {
+      "ar": "هَذِهِ هِيَ الْبِنْتُ الَّتِي كَتَبَتِ الدَّرْسَ.",
+      "en": "This is the girl who wrote the lesson.",
+      "note": "The ṣila is {كَتَبَتِ الدَّرْسَ}."
+     },
+     {
+      "ar": "الْكِتَابُ الَّذِي عَلَى الْمَكْتَبِ جَدِيدٌ.",
+      "en": "The book which is on the desk is new.",
+      "note": "The ṣila is a place phrase: {عَلَى الْمَكْتَبِ}."
+     },
+     {
+      "ar": "خَرَجَ الرِّجَالُ الَّذِينَ جَلَسُوا فِي الْمَسْجِدِ.",
+      "en": "The men who sat in the mosque went out.",
+      "note": "The ṣila is {جَلَسُوا فِي الْمَسْجِدِ}."
+     }
+    ]
+   }
+  },
+  {
+   "i": 9,
+   "t": "tip",
+   "chapter": 2,
+   "html": "<div class=\"tipbox\"><b>Tip:</b> The ṣila has a small link back to the noun. Often it is hidden in the verb (<bdi class=\"ab\">نَجَحَ</bdi> &quot;he passed&quot;). Sometimes it is an attached pronoun: <bdi class=\"ab\">الطَّالِبُ الَّذِي بَيْتُهُ قَرِيبٌ</bdi> &quot;the student whose house is near&quot;.</div>",
+   "src": {
+    "t": "tip",
+    "text": "The ṣila has a small link back to the noun. Often it is hidden in the verb ({نَجَحَ} \"he passed\"). Sometimes it is an attached pronoun: {الطَّالِبُ الَّذِي بَيْتُهُ قَرِيبٌ} \"the student whose house is near\"."
+   }
+  },
+  {
+   "i": 10,
+   "t": "h2",
+   "chapter": 3,
+   "html": "<h2><span class=\"num\">3</span>Choose by the noun before it</h2>",
+   "src": {
+    "t": "h2",
+    "text": "Choose by the noun before it"
+   }
+  },
+  {
+   "i": 11,
+   "t": "p",
+   "chapter": 3,
+   "html": "<p class=\"s0p\">Like an adjective, the relative follows a noun with <bdi class=\"ab\">ال</bdi> and matches it: male or female, one or a group.</p>",
+   "src": {
+    "t": "p",
+    "text": "Like an adjective, the relative follows a noun with {ال} and matches it: male or female, one or a group."
+   }
+  },
+  {
+   "i": 12,
+   "t": "examples",
+   "chapter": 3,
+   "html": "<div class=\"exlist\"><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">الْوَلَدُ الَّذِي فِي الْبَيْتِ</div><div class=\"exe\">the boy who is in the house<div class=\"exn\">One male: <bdi class=\"ab\">الَّذِي</bdi>.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">السَّاعَةُ الَّتِي عَلَى السَّرِيرِ</div><div class=\"exe\">the watch which is on the bed<div class=\"exn\"><bdi class=\"ab\">السَّاعَةُ</bdi> is feminine: <bdi class=\"ab\">الَّتِي</bdi>.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">الْأَوْلَادُ الَّذِينَ خَرَجُوا</div><div class=\"exe\">the boys who went out<div class=\"exn\">A group of males: <bdi class=\"ab\">الَّذِينَ</bdi>.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">النِّسَاءُ اللَّاتِي خَرَجْنَ</div><div class=\"exe\">the women who went out<div class=\"exn\">A group of females: <bdi class=\"ab\">اللَّاتِي</bdi>.</div></div></div></div>",
+   "src": {
+    "t": "examples",
+    "items": [
+     {
+      "ar": "الْوَلَدُ الَّذِي فِي الْبَيْتِ",
+      "en": "the boy who is in the house",
+      "note": "One male: {الَّذِي}."
+     },
+     {
+      "ar": "السَّاعَةُ الَّتِي عَلَى السَّرِيرِ",
+      "en": "the watch which is on the bed",
+      "note": "{السَّاعَةُ} is feminine: {الَّتِي}."
+     },
+     {
+      "ar": "الْأَوْلَادُ الَّذِينَ خَرَجُوا",
+      "en": "the boys who went out",
+      "note": "A group of males: {الَّذِينَ}."
+     },
+     {
+      "ar": "النِّسَاءُ اللَّاتِي خَرَجْنَ",
+      "en": "the women who went out",
+      "note": "A group of females: {اللَّاتِي}."
+     }
+    ]
+   }
+  },
+  {
+   "i": 13,
+   "t": "tip",
+   "chapter": 3,
+   "html": "<div class=\"tipbox\"><b>Tip:</b> Look at the verb in the ṣila too. It matches the relative: <bdi class=\"ab\">الَّذِي خَرَجَ</bdi>، <bdi class=\"ab\">الَّتِي خَرَجَتْ</bdi>، <bdi class=\"ab\">الَّذِينَ خَرَجُوا</bdi>، <bdi class=\"ab\">اللَّاتِي خَرَجْنَ</bdi>.</div>",
+   "src": {
+    "t": "tip",
+    "text": "Look at the verb in the ṣila too. It matches the relative: {الَّذِي خَرَجَ}، {الَّتِي خَرَجَتْ}، {الَّذِينَ خَرَجُوا}، {اللَّاتِي خَرَجْنَ}."
+   }
+  },
+  {
+   "i": 14,
+   "t": "tip",
+   "chapter": 3,
+   "html": "<div class=\"tipbox\"><b>Tip:</b> After a noun without <bdi class=\"ab\">ال</bdi>, Arabic leaves the relative out: <bdi class=\"ab\">جَاءَ طَالِبٌ نَجَحَ</bdi> &quot;A student who passed came.&quot;</div>",
+   "src": {
+    "t": "tip",
+    "text": "After a noun without {ال}, Arabic leaves the relative out: {جَاءَ طَالِبٌ نَجَحَ} \"A student who passed came.\""
+   }
+  },
+  {
+   "i": 15,
+   "t": "h2",
+   "chapter": 4,
+   "html": "<h2><span class=\"num\">4</span>مَنْ and مَا: question or relative?</h2>",
+   "src": {
+    "t": "h2",
+    "text": "مَنْ and مَا: question or relative?"
+   }
+  },
+  {
+   "i": 16,
+   "t": "p",
+   "chapter": 4,
+   "html": "<p class=\"s0p\"><bdi class=\"ab\">مَنْ</bdi> and <bdi class=\"ab\">مَا</bdi> are also question words (unit 5). Look at the sentence. A question ends in <bdi class=\"ab\">؟</bdi>. A relative sits inside a normal sentence and means &quot;the one who&quot; or &quot;what&quot;.</p>",
+   "src": {
+    "t": "p",
+    "text": "{مَنْ} and {مَا} are also question words (unit 5). Look at the sentence. A question ends in {؟}. A relative sits inside a normal sentence and means \"the one who\" or \"what\"."
+   }
+  },
+  {
+   "i": 17,
+   "t": "examples",
+   "chapter": 4,
+   "html": "<div class=\"exlist\"><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">مَنْ نَجَحَ؟</div><div class=\"exe\">Who passed?<div class=\"exn\">A question.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">جَاءَ مَنْ نَجَحَ.</div><div class=\"exe\">The one who passed came.<div class=\"exn\">A relative. <bdi class=\"ab\">نَجَحَ</bdi> is its ṣila.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">مَا عَلَى الْمَكْتَبِ؟</div><div class=\"exe\">What is on the desk?<div class=\"exn\">A question.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">اِقْرَأْ مَا عَلَى الْمَكْتَبِ.</div><div class=\"exe\">Read what is on the desk.<div class=\"exn\">A relative.</div></div></div></div>",
+   "src": {
+    "t": "examples",
+    "items": [
+     {
+      "ar": "مَنْ نَجَحَ؟",
+      "en": "Who passed?",
+      "note": "A question."
+     },
+     {
+      "ar": "جَاءَ مَنْ نَجَحَ.",
+      "en": "The one who passed came.",
+      "note": "A relative. {نَجَحَ} is its ṣila."
+     },
+     {
+      "ar": "مَا عَلَى الْمَكْتَبِ؟",
+      "en": "What is on the desk?",
+      "note": "A question."
+     },
+     {
+      "ar": "اِقْرَأْ مَا عَلَى الْمَكْتَبِ.",
+      "en": "Read what is on the desk.",
+      "note": "A relative."
+     }
+    ]
+   }
+  },
+  {
+   "i": 18,
+   "t": "h2",
+   "chapter": 5,
+   "html": "<h2><span class=\"num\">5</span>Its place in the sentence</h2>",
+   "src": {
+    "t": "h2",
+    "text": "Its place in the sentence"
+   }
+  },
+  {
+   "i": 19,
+   "t": "p",
+   "chapter": 5,
+   "html": "<p class=\"s0p\">A relative after a noun works like an adjective. It is fixed, so it cannot copy the ending. It copies the place of the noun before it.</p>",
+   "src": {
+    "t": "p",
+    "text": "A relative after a noun works like an adjective. It is fixed, so it cannot copy the ending. It copies the place of the noun before it."
+   }
+  },
+  {
+   "i": 20,
+   "t": "examples",
+   "chapter": 5,
+   "html": "<div class=\"exlist\"><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">جَاءَ الطَّالِبُ الَّذِي نَجَحَ.</div><div class=\"exe\">The student who passed came.<div class=\"exn\"><bdi class=\"ab\">الطَّالِبُ</bdi> is rafʿ, so <bdi class=\"ab\">الَّذِي</bdi> is in the place of rafʿ.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">شَكَرَ الْمُدِيرُ الطَّالِبَ الَّذِي نَجَحَ.</div><div class=\"exe\">The principal thanked the student who passed.<div class=\"exn\"><bdi class=\"ab\">الطَّالِبَ</bdi> is naṣb, so <bdi class=\"ab\">الَّذِي</bdi> is in the place of naṣb.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">ذَهَبْتُ إِلَى الطَّالِبِ الَّذِي نَجَحَ.</div><div class=\"exe\">I went to the student who passed.<div class=\"exn\"><bdi class=\"ab\">الطَّالِبِ</bdi> is jarr, so <bdi class=\"ab\">الَّذِي</bdi> is in the place of jarr.</div></div></div></div>",
+   "src": {
+    "t": "examples",
+    "items": [
+     {
+      "ar": "جَاءَ الطَّالِبُ الَّذِي نَجَحَ.",
+      "en": "The student who passed came.",
+      "note": "{الطَّالِبُ} is rafʿ, so {الَّذِي} is in the place of rafʿ."
+     },
+     {
+      "ar": "شَكَرَ الْمُدِيرُ الطَّالِبَ الَّذِي نَجَحَ.",
+      "en": "The principal thanked the student who passed.",
+      "note": "{الطَّالِبَ} is naṣb, so {الَّذِي} is in the place of naṣb."
+     },
+     {
+      "ar": "ذَهَبْتُ إِلَى الطَّالِبِ الَّذِي نَجَحَ.",
+      "en": "I went to the student who passed.",
+      "note": "{الطَّالِبِ} is jarr, so {الَّذِي} is in the place of jarr."
+     }
+    ]
+   }
+  },
+  {
+   "i": 21,
+   "t": "tip",
+   "chapter": 5,
+   "html": "<div class=\"tipbox\"><b>Tip:</b> <bdi class=\"ab\">مَنْ</bdi> and <bdi class=\"ab\">مَا</bdi> stand alone, so they have their own job. In <bdi class=\"ab\">جَاءَ مَنْ نَجَحَ</bdi>, <bdi class=\"ab\">مَنْ</bdi> is the doer: place of rafʿ.</div>",
+   "src": {
+    "t": "tip",
+    "text": "{مَنْ} and {مَا} stand alone, so they have their own job. In {جَاءَ مَنْ نَجَحَ}, {مَنْ} is the doer: place of rafʿ."
+   }
+  },
+  {
+   "i": 22,
+   "t": "h2",
+   "chapter": 6,
+   "html": "<h2><span class=\"num\">6</span>Not fixed: اللَّذَانِ and اللَّتَانِ</h2>",
+   "src": {
+    "t": "h2",
+    "text": "Not fixed: اللَّذَانِ and اللَّتَانِ"
+   }
+  },
+  {
+   "i": 23,
+   "t": "rule",
+   "chapter": 6,
+   "html": "<div class=\"rbox\" style=\"border-color:#ea7a10;background:#fff0df\"><b style=\"color:#b05705\">The words for &quot;the two who&quot; change.</b> <bdi class=\"ab\">اللَّذَانِ</bdi> (two males) and <bdi class=\"ab\">اللَّتَانِ</bdi> (two females) are flexible. In naṣb and jarr they become <bdi class=\"ab\">اللَّذَيْنِ</bdi> and <bdi class=\"ab\">اللَّتَيْنِ</bdi>. You learn them with the dual in Stage 4.</div>",
+   "src": {
+    "t": "rule",
+    "color": "orange",
+    "title": "The words for \"the two who\" change",
+    "text": "{اللَّذَانِ} (two males) and {اللَّتَانِ} (two females) are flexible. In naṣb and jarr they become {اللَّذَيْنِ} and {اللَّتَيْنِ}. You learn them with the dual in Stage 4."
+   }
+  },
+  {
+   "i": 24,
+   "t": "table",
+   "chapter": 6,
+   "html": "<div class=\"tblwrap\"><table class=\"glance s0t\"><tr><th>Form</th><th>Two males</th><th>Two females</th></tr><tr><td class=\"\">Rafʿ</td><td class=\"tar\">اللَّذَانِ</td><td class=\"tar\">اللَّتَانِ</td></tr><tr><td class=\"\">Naṣb and jarr</td><td class=\"tar\">اللَّذَيْنِ</td><td class=\"tar\">اللَّتَيْنِ</td></tr></table></div>",
+   "src": {
+    "t": "table",
+    "head": [
+     "Form",
+     "Two males",
+     "Two females"
+    ],
+    "rows": [
+     [
+      "Rafʿ",
+      "اللَّذَانِ",
+      "اللَّتَانِ"
+     ],
+     [
+      "Naṣb and jarr",
+      "اللَّذَيْنِ",
+      "اللَّتَيْنِ"
+     ]
+    ]
+   }
+  },
+  {
+   "i": 25,
+   "t": "summary",
+   "chapter": 6,
+   "html": "<div class=\"three\"><h3>In short</h3><ol><li><bdi class=\"ab\">الَّذِي</bdi> one male or thing, <bdi class=\"ab\">الَّتِي</bdi> one female or thing, <bdi class=\"ab\">الَّذِينَ</bdi> males, <bdi class=\"ab\">اللَّاتِي</bdi> / <bdi class=\"ab\">اللَّوَاتِي</bdi> females.</li><li><bdi class=\"ab\">مَنْ</bdi> &quot;the one who&quot; for people, <bdi class=\"ab\">مَا</bdi> &quot;what&quot; for things.</li><li>A relative needs a ṣila (<bdi class=\"ab\">صِلَةٌ</bdi>) after it: <bdi class=\"ab\">الَّذِي نَجَحَ</bdi>.</li><li>Match the noun before it. The relative takes the place of that noun: rafʿ, naṣb or jarr.</li><li><bdi class=\"ab\">اللَّذَانِ</bdi> and <bdi class=\"ab\">اللَّتَانِ</bdi> are not fixed. They wait for Stage 4.</li></ol></div>",
+   "src": {
+    "t": "summary",
+    "title": "In short",
+    "items": [
+     "{الَّذِي} one male or thing, {الَّتِي} one female or thing, {الَّذِينَ} males, {اللَّاتِي} / {اللَّوَاتِي} females.",
+     "{مَنْ} \"the one who\" for people, {مَا} \"what\" for things.",
+     "A relative needs a ṣila ({صِلَةٌ}) after it: {الَّذِي نَجَحَ}.",
+     "Match the noun before it. The relative takes the place of that noun: rafʿ, naṣb or jarr.",
+     "{اللَّذَانِ} and {اللَّتَانِ} are not fixed. They wait for Stage 4."
+    ]
+   }
+  }
+ ],
+ "practice_count": 6
+}

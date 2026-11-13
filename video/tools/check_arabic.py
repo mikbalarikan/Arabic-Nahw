@@ -3,6 +3,7 @@
 
 An Arabic run is allowed when it appears, word for word, inside
   - a string literal of content/lesson.py or content/quran.py, or the Arabic title in content/course.py, or
+  - a string literal of a file listed in lesson.json's "sources" (e.g. content/stage3/u1_pronouns.py), or
   - a full example / practice / verse sentence built from the lesson's own word boxes (lesson.json).
 It also warns when a word in an Arabic ("ar") segment has no vowel mark on its last letter.
 
@@ -23,10 +24,11 @@ def norm(s):
 
 def allowed_strings(lesson_json):
     out = []
-    for f in ("content/lesson.py", "content/quran.py", "content/course.py"):
+    data = json.loads(Path(lesson_json).read_text(encoding="utf-8"))
+    # a lesson.json may name its own source files (repo-relative), e.g. "sources": ["content/stage3/u1_pronouns.py"]
+    for f in ["content/lesson.py", "content/quran.py", "content/course.py"] + list(data.get("sources", [])):
         src = (ROOT / f).read_text(encoding="utf-8")
         out += [norm(m.group(0)) for m in AR_RUN.finditer(src)]
-    data = json.loads(Path(lesson_json).read_text(encoding="utf-8"))
     for k in ("examples", "practice", "verses"):
         out += [norm(x["sentence"]) for x in data.get(k, [])]
     return out

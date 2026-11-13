@@ -1,0 +1,2089 @@
+{
+ "lesson": "s3-relatives",
+ "scenes": [
+  "hero",
+  "c01-title",
+  "c01-table",
+  "c01-cols",
+  "c01-tip",
+  "c01-rule",
+  "c02-title",
+  "c02-ex",
+  "c02-tip",
+  "c03-title",
+  "c03-ex",
+  "c03-tips",
+  "c04-title",
+  "c04-ex",
+  "c05-title",
+  "c05-ex",
+  "c05-tip",
+  "c06-title",
+  "c06-forms",
+  "summary"
+ ],
+ "segments": [
+  {
+   "id": "hero-01",
+   "scene": "hero",
+   "lang": "en",
+   "text": "Relative pronouns. The one who, the thing which.",
+   "pause": 0.6,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "hero-02",
+   "scene": "hero",
+   "lang": "en",
+   "text": "In English we say: the student who passed.",
+   "pause": 0.3,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "hero-03",
+   "scene": "hero",
+   "lang": "en",
+   "text": "Here, the little word, who, joins the noun to a short clause about it. It is a relative pronoun.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "hero-04",
+   "scene": "hero",
+   "lang": "en",
+   "text": "In Arabic, a relative pronoun is fixed. Its ending does not change. The only exception is a pair of words for two. They come in chapter six.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "hero-05",
+   "scene": "hero",
+   "lang": "en",
+   "text": "And it never stands alone. A clause always comes after it.",
+   "pause": 0.7,
+   "cues": []
+  },
+  {
+   "id": "c01-title-01",
+   "scene": "c01-title",
+   "lang": "en",
+   "text": "Chapter one. The table to learn.",
+   "pause": 0.5,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c01-table-01",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "Here are the relatives to learn by heart.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-table-02",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The first one is for one male, or one masculine thing.",
+   "pause": 0.4,
+   "cues": [
+    "row:1"
+   ]
+  },
+  {
+   "id": "c01-table-03",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "الَّذِي",
+   "pause": 0.5,
+   "cues": [
+    "ar:0"
+   ]
+  },
+  {
+   "id": "c01-table-04",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The student who passed.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-table-05",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "الطَّالِبُ الَّذِي نَجَحَ",
+   "pause": 0.6,
+   "cues": [
+    "ar:1"
+   ]
+  },
+  {
+   "id": "c01-table-06",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The second one is for one female, or one feminine thing.",
+   "pause": 0.4,
+   "cues": [
+    "row:2"
+   ]
+  },
+  {
+   "id": "c01-table-07",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "الَّتِي",
+   "pause": 0.5,
+   "cues": [
+    "ar:2"
+   ]
+  },
+  {
+   "id": "c01-table-08",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The girl who passed.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-table-09",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "الْبِنْتُ الَّتِي نَجَحَتْ",
+   "pause": 0.6,
+   "cues": [
+    "ar:3"
+   ]
+  },
+  {
+   "id": "c01-table-10",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The third one is for a group of males.",
+   "pause": 0.4,
+   "cues": [
+    "row:3"
+   ]
+  },
+  {
+   "id": "c01-table-11",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "الَّذِينَ",
+   "pause": 0.5,
+   "cues": [
+    "ar:4"
+   ]
+  },
+  {
+   "id": "c01-table-12",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The students who passed.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-table-13",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "الطُّلَّابُ الَّذِينَ نَجَحُوا",
+   "pause": 0.6,
+   "cues": [
+    "ar:5"
+   ]
+  },
+  {
+   "id": "c01-table-14",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The last row is for a group of females. It has two words, and both are correct.",
+   "pause": 0.4,
+   "cues": [
+    "row:4"
+   ]
+  },
+  {
+   "id": "c01-table-15",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "اللَّاتِي",
+   "pause": 0.4,
+   "cues": [
+    "ar:6"
+   ]
+  },
+  {
+   "id": "c01-table-16",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "اللَّوَاتِي",
+   "pause": 0.5,
+   "cues": [
+    "ar:7"
+   ]
+  },
+  {
+   "id": "c01-table-17",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "The women who passed.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-table-18",
+   "scene": "c01-table",
+   "lang": "ar",
+   "text": "النِّسَاءُ اللَّاتِي نَجَحْنَ",
+   "pause": 0.6,
+   "cues": [
+    "ar:8"
+   ]
+  },
+  {
+   "id": "c01-table-19",
+   "scene": "c01-table",
+   "lang": "en",
+   "text": "In every example, the relative comes right after the noun.",
+   "pause": 0.7,
+   "cues": []
+  },
+  {
+   "id": "c01-cols-01",
+   "scene": "c01-cols",
+   "lang": "en",
+   "text": "Next, two relatives that are general. No noun comes before them.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-cols-02",
+   "scene": "c01-cols",
+   "lang": "en",
+   "text": "The first means the one who. It is for people.",
+   "pause": 0.4,
+   "cues": [
+    "col:1"
+   ]
+  },
+  {
+   "id": "c01-cols-03",
+   "scene": "c01-cols",
+   "lang": "ar",
+   "text": "مَنْ",
+   "pause": 0.5,
+   "cues": [
+    "ar:0"
+   ]
+  },
+  {
+   "id": "c01-cols-04",
+   "scene": "c01-cols",
+   "lang": "en",
+   "text": "The one who passed came.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-cols-05",
+   "scene": "c01-cols",
+   "lang": "ar",
+   "text": "جَاءَ مَنْ نَجَحَ",
+   "pause": 0.6,
+   "cues": [
+    "ar:1"
+   ]
+  },
+  {
+   "id": "c01-cols-06",
+   "scene": "c01-cols",
+   "lang": "en",
+   "text": "The second means what. It is for things.",
+   "pause": 0.4,
+   "cues": [
+    "col:2"
+   ]
+  },
+  {
+   "id": "c01-cols-07",
+   "scene": "c01-cols",
+   "lang": "ar",
+   "text": "مَا",
+   "pause": 0.5,
+   "cues": [
+    "ar:2"
+   ]
+  },
+  {
+   "id": "c01-cols-08",
+   "scene": "c01-cols",
+   "lang": "en",
+   "text": "I read what the teacher wrote.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-cols-09",
+   "scene": "c01-cols",
+   "lang": "ar",
+   "text": "قَرَأْتُ مَا كَتَبَ الْمُدَرِّسُ",
+   "pause": 0.7,
+   "cues": [
+    "ar:3"
+   ]
+  },
+  {
+   "id": "c01-tip-01",
+   "scene": "c01-tip",
+   "lang": "en",
+   "text": "A tip on spelling. These three are written with a single L, with a shadda on it.",
+   "pause": 0.4,
+   "cues": [
+    "show"
+   ]
+  },
+  {
+   "id": "c01-tip-02",
+   "scene": "c01-tip",
+   "lang": "ar",
+   "text": "الَّذِي",
+   "pause": 0.35,
+   "cues": [
+    "ar:0"
+   ]
+  },
+  {
+   "id": "c01-tip-03",
+   "scene": "c01-tip",
+   "lang": "ar",
+   "text": "الَّتِي",
+   "pause": 0.35,
+   "cues": [
+    "ar:1"
+   ]
+  },
+  {
+   "id": "c01-tip-04",
+   "scene": "c01-tip",
+   "lang": "ar",
+   "text": "الَّذِينَ",
+   "pause": 0.5,
+   "cues": [
+    "ar:2"
+   ]
+  },
+  {
+   "id": "c01-tip-05",
+   "scene": "c01-tip",
+   "lang": "en",
+   "text": "The two words for a group of females are written with the L twice.",
+   "pause": 0.4,
+   "cues": [
+    "hl:written with two"
+   ]
+  },
+  {
+   "id": "c01-tip-06",
+   "scene": "c01-tip",
+   "lang": "ar",
+   "text": "اللَّاتِي",
+   "pause": 0.35,
+   "cues": [
+    "ar:4"
+   ]
+  },
+  {
+   "id": "c01-tip-07",
+   "scene": "c01-tip",
+   "lang": "ar",
+   "text": "اللَّوَاتِي",
+   "pause": 0.7,
+   "cues": [
+    "ar:5"
+   ]
+  },
+  {
+   "id": "c01-rule-01",
+   "scene": "c01-rule",
+   "lang": "en",
+   "text": "Now the rule. All of these are fixed.",
+   "pause": 0.4,
+   "cues": [
+    "show"
+   ]
+  },
+  {
+   "id": "c01-rule-02",
+   "scene": "c01-rule",
+   "lang": "en",
+   "text": "Look at the word for a group of males.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-rule-03",
+   "scene": "c01-rule",
+   "lang": "ar",
+   "text": "الَّذِينَ",
+   "pause": 0.5,
+   "cues": [
+    "ar:0"
+   ]
+  },
+  {
+   "id": "c01-rule-04",
+   "scene": "c01-rule",
+   "lang": "en",
+   "text": "It ends like a plural. But it never changes.",
+   "pause": 0.3,
+   "cues": [
+    "hl:never changes"
+   ]
+  },
+  {
+   "id": "c01-rule-05",
+   "scene": "c01-rule",
+   "lang": "en",
+   "text": "In rafʿ, in naṣb and in jarr, it stays the same.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-rule-06",
+   "scene": "c01-rule",
+   "lang": "ar",
+   "text": "الَّذِينَ",
+   "pause": 0.5,
+   "cues": [
+    "ar:1"
+   ]
+  },
+  {
+   "id": "c01-rule-07",
+   "scene": "c01-rule",
+   "lang": "en",
+   "text": "And these two always end in a long ī sound.",
+   "pause": 0.4,
+   "cues": [
+    "hl:always end in a long ī"
+   ]
+  },
+  {
+   "id": "c01-rule-08",
+   "scene": "c01-rule",
+   "lang": "ar",
+   "text": "الَّذِي",
+   "pause": 0.35,
+   "cues": [
+    "ar:2"
+   ]
+  },
+  {
+   "id": "c01-rule-09",
+   "scene": "c01-rule",
+   "lang": "ar",
+   "text": "الَّتِي",
+   "pause": 0.8,
+   "cues": [
+    "ar:3"
+   ]
+  },
+  {
+   "id": "c02-title-01",
+   "scene": "c02-title",
+   "lang": "en",
+   "text": "Chapter two. A relative needs a clause after it.",
+   "pause": 0.5,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c02-title-02",
+   "scene": "c02-title",
+   "lang": "en",
+   "text": "This word alone means nothing.",
+   "pause": 0.4,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c02-title-03",
+   "scene": "c02-title",
+   "lang": "ar",
+   "text": "الَّذِي",
+   "pause": 0.5,
+   "cues": [
+    "ar:0"
+   ]
+  },
+  {
+   "id": "c02-title-04",
+   "scene": "c02-title",
+   "lang": "en",
+   "text": "The one who did what? We wait for more.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-title-05",
+   "scene": "c02-title",
+   "lang": "en",
+   "text": "The clause after it completes its meaning. This clause is called the ṣila.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-title-06",
+   "scene": "c02-title",
+   "lang": "ar",
+   "text": "صِلَةٌ",
+   "pause": 0.7,
+   "cues": [
+    "ar:1"
+   ]
+  },
+  {
+   "id": "c02-ex-01",
+   "scene": "c02-ex",
+   "lang": "en",
+   "text": "First. The student who passed came.",
+   "pause": 0.4,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c02-ex-02",
+   "scene": "c02-ex",
+   "lang": "ar",
+   "text": "جَاءَ الطَّالِبُ الَّذِي نَجَحَ",
+   "pause": 0.6,
+   "cues": [
+    "ar:0"
+   ]
+  },
+  {
+   "id": "c02-ex-03",
+   "scene": "c02-ex",
+   "lang": "en",
+   "text": "The ṣila is just the verb. It means he passed.",
+   "pause": 0.4,
+   "cues": [
+    "note:1"
+   ]
+  },
+  {
+   "id": "c02-ex-04",
+   "scene": "c02-ex",
+   "lang": "ar",
+   "text": "نَجَحَ",
+   "pause": 0.6,
+   "cues": [
+    "ar:1"
+   ]
+  },
+  {
+   "id": "c02-ex-05",
+   "scene": "c02-ex",
+   "lang": "en",
+   "text": "Second. This is the girl who wrote the lesson.",
+   "pause": 0.4,
+   "cues": [
+    "ex:2"
+   ]
+  },
+  {
+   "id": "c02-ex-06",
+   "scene": "c02-ex",
+   "lang": "ar",
+   "text": "هَذِهِ هِيَ الْبِنْتُ الَّتِي كَتَبَتِ الدَّرْسَ",
+   "pause": 0.6,
+   "cues": [
+    "ar:2"
+   ]
+  },
+  {
+   "id": "c02-ex-07",
+   "scene": "c02-ex",
+   "lang": "en",
+   "text": "The ṣila means she wrote the lesson.",
+   "pause": 0.4,
+   "cues": [
+    "note:2"
+   ]
+  },
+  {
+   "id": "c02-ex-08",
+   "scene": "c02-ex",
+   "lang": "ar",
+   "text": "كَتَبَتِ الدَّرْسَ",
+   "pause": 0.6,
+   "cues": [
+    "ar:3"
+   ]
+  },
+  {
+   "id": "c02-ex-09",
+   "scene": "c02-ex",
+   "lang": "en",
+   "text": "Third. The book which is on the desk is new.",
+   "pause": 0.4,
+   "cues": [
+    "ex:3"
+   ]
+  },
+  {
+   "id": "c02-ex-10",
+   "scene": "c02-ex",
+   "lang": "ar",
+   "text": "الْكِتَابُ الَّذِي عَلَى الْمَكْتَبِ جَدِيدٌ",
+   "pause": 0.6,
+   "cues": [
+    "ar:4"
+   ]
+  },
+  {
+   "id": "c02-ex-11",
+   "scene": "c02-ex",
+   "lang": "en",
+   "text": "Here the ṣila has no verb. It is a place phrase: on the desk.",
+   "pause": 0.4,
+   "cues": [
+    "note:3",
+    "hl:a place phrase"
+   ]
+  },
+  {
+   "id": "c02-ex-12",
+   "scene": "c02-ex",
+   "lang": "ar",
+   "text": "عَلَى الْمَكْتَبِ",
+   "pause": 0.6,
+   "cues": [
+    "ar:5"
+   ]
+  },
+  {
+   "id": "c02-ex-13",
+   "scene": "c02-ex",
+   "lang": "en",
+   "text": "Fourth. The men who sat in the mosque went out.",
+   "pause": 0.4,
+   "cues": [
+    "ex:4"
+   ]
+  },
+  {
+   "id": "c02-ex-14",
+   "scene": "c02-ex",
+   "lang": "ar",
+   "text": "خَرَجَ الرِّجَالُ الَّذِينَ جَلَسُوا فِي الْمَسْجِدِ",
+   "pause": 0.6,
+   "cues": [
+    "ar:6"
+   ]
+  },
+  {
+   "id": "c02-ex-15",
+   "scene": "c02-ex",
+   "lang": "en",
+   "text": "The ṣila means they sat in the mosque.",
+   "pause": 0.4,
+   "cues": [
+    "note:4"
+   ]
+  },
+  {
+   "id": "c02-ex-16",
+   "scene": "c02-ex",
+   "lang": "ar",
+   "text": "جَلَسُوا فِي الْمَسْجِدِ",
+   "pause": 0.8,
+   "cues": [
+    "ar:7"
+   ]
+  },
+  {
+   "id": "c02-tip-01",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "A tip. The ṣila has a small link back to the noun.",
+   "pause": 0.4,
+   "cues": [
+    "show",
+    "hl:a small link back to the noun"
+   ]
+  },
+  {
+   "id": "c02-tip-02",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "Often the link is hidden in the verb.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-tip-03",
+   "scene": "c02-tip",
+   "lang": "ar",
+   "text": "نَجَحَ",
+   "pause": 0.5,
+   "cues": [
+    "ar:0"
+   ]
+  },
+  {
+   "id": "c02-tip-04",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "This verb means he passed. The hidden he is the student.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-tip-05",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "Sometimes the link is an attached pronoun. The student whose house is near.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-tip-06",
+   "scene": "c02-tip",
+   "lang": "ar",
+   "text": "الطَّالِبُ الَّذِي بَيْتُهُ قَرِيبٌ",
+   "pause": 0.6,
+   "cues": [
+    "ar:1"
+   ]
+  },
+  {
+   "id": "c02-tip-07",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "The small ending on house means his. It points back to the student.",
+   "pause": 0.8,
+   "cues": []
+  },
+  {
+   "id": "c03-title-01",
+   "scene": "c03-title",
+   "lang": "en",
+   "text": "Chapter three. Choose by the noun before it.",
+   "pause": 0.5,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c03-title-02",
+   "scene": "c03-title",
+   "lang": "en",
+   "text": "A relative works like an adjective. It follows a noun with al.",
+   "pause": 0.3,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c03-title-03",
+   "scene": "c03-title",
+   "lang": "en",
+   "text": "And it matches that noun. Male or female. One or a group.",
+   "pause": 0.7,
+   "cues": []
+  },
+  {
+   "id": "c03-ex-01",
+   "scene": "c03-ex",
+   "lang": "en",
+   "text": "The boy who is in the house.",
+   "pause": 0.4,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c03-ex-02",
+   "scene": "c03-ex",
+   "lang": "ar",
+   "text": "الْوَلَدُ الَّذِي فِي الْبَيْتِ",
+   "pause": 0.6,
+   "cues": [
+    "ar:0"
+   ]
+  },
+  {
+   "id": "c03-ex-03",
+   "scene": "c03-ex",
+   "lang": "en",
+   "text": "The boy is one male. So we choose this one.",
+   "pause": 0.4,
+   "cues": [
+    "note:1"
+   ]
+  },
+  {
+   "id": "c03-ex-04",
+   "scene": "c03-ex",
+   "lang": "ar",
+   "text": "الَّذِي",
+   "pause": 0.6,
+   "cues": [
+    "ar:1"
+   ]
+  },
+  {
+   "id": "c03-ex-05",
+   "scene": "c03-ex",
+   "lang": "en",
+   "text": "The watch which is on the bed.",
+   "pause": 0.4,
+   "cues": [
+    "ex:2"
+   ]
+  },
+  {
+   "id": "c03-ex-06",
+   "scene": "c03-ex",
+   "lang": "ar",
+   "text": "السَّاعَةُ الَّتِي عَلَى السَّرِيرِ",
+   "pause": 0.6,
+   "cues": [
+    "ar:2"
+   ]
+  },
+  {
+   "id": "c03-ex-07",
+   "scene": "c03-ex",
+   "lang": "en",
+   "text": "The word for watch is feminine.",
+   "pause": 0.4,
+   "cues": [
+    "note:2"
+   ]
+  },
+  {
+   "id": "c03-ex-08",
+   "scene": "c03-ex",
+   "lang": "ar",
+   "text": "السَّاعَةُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:3"
+   ]
+  },
+  {
+   "id": "c03-ex-09",
+   "scene": "c03-ex",
+   "lang": "en",
+   "text": "It is a thing, but a feminine one. So we choose this one.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-ex-10",
+   "scene": "c03-ex",
+   "lang": "ar",
+   "text": "الَّتِي",
+   "pause": 0.6,
+   "cues": [
+    "ar:4"
+   ]
+  },
+  {
+   "id": "c03-ex-11",
+   "scene": "c03-ex",
+   "lang": "en",
+   "text": "The boys who went out.",
+   "pause": 0.4,
+   "cues": [
+    "ex:3"
+   ]
+  },
+  {
+   "id": "c03-ex-12",
+   "scene": "c03-ex",
+   "lang": "ar",
+   "text": "الْأَوْلَادُ الَّذِينَ خَرَجُوا",
+   "pause": 0.6,
+   "cues": [
+    "ar:5"
+   ]
+  },
+  {
+   "id": "c03-ex-13",
+   "scene": "c03-ex",
+   "lang": "en",
+   "text": "A group of males. So we choose this one.",
+   "pause": 0.4,
+   "cues": [
+    "note:3"
+   ]
+  },
+  {
+   "id": "c03-ex-14",
+   "scene": "c03-ex",
+   "lang": "ar",
+   "text": "الَّذِينَ",
+   "pause": 0.6,
+   "cues": [
+    "ar:6"
+   ]
+  },
+  {
+   "id": "c03-ex-15",
+   "scene": "c03-ex",
+   "lang": "en",
+   "text": "The women who went out.",
+   "pause": 0.4,
+   "cues": [
+    "ex:4"
+   ]
+  },
+  {
+   "id": "c03-ex-16",
+   "scene": "c03-ex",
+   "lang": "ar",
+   "text": "النِّسَاءُ اللَّاتِي خَرَجْنَ",
+   "pause": 0.6,
+   "cues": [
+    "ar:7"
+   ]
+  },
+  {
+   "id": "c03-ex-17",
+   "scene": "c03-ex",
+   "lang": "en",
+   "text": "A group of females. So we choose this one.",
+   "pause": 0.4,
+   "cues": [
+    "note:4"
+   ]
+  },
+  {
+   "id": "c03-ex-18",
+   "scene": "c03-ex",
+   "lang": "ar",
+   "text": "اللَّاتِي",
+   "pause": 0.8,
+   "cues": [
+    "ar:8"
+   ]
+  },
+  {
+   "id": "c03-tips-01",
+   "scene": "c03-tips",
+   "lang": "en",
+   "text": "Two tips. First, look at the verb in the ṣila too. It matches the relative.",
+   "pause": 0.4,
+   "cues": [
+    "show:1",
+    "hl:It matches the relative"
+   ]
+  },
+  {
+   "id": "c03-tips-02",
+   "scene": "c03-tips",
+   "lang": "en",
+   "text": "For one male, the verb means he went out.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-tips-03",
+   "scene": "c03-tips",
+   "lang": "ar",
+   "text": "الَّذِي خَرَجَ",
+   "pause": 0.5,
+   "cues": [
+    "ar:0"
+   ]
+  },
+  {
+   "id": "c03-tips-04",
+   "scene": "c03-tips",
+   "lang": "en",
+   "text": "For one female, she went out.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-tips-05",
+   "scene": "c03-tips",
+   "lang": "ar",
+   "text": "الَّتِي خَرَجَتْ",
+   "pause": 0.5,
+   "cues": [
+    "ar:1"
+   ]
+  },
+  {
+   "id": "c03-tips-06",
+   "scene": "c03-tips",
+   "lang": "en",
+   "text": "For a group of males, they went out.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-tips-07",
+   "scene": "c03-tips",
+   "lang": "ar",
+   "text": "الَّذِينَ خَرَجُوا",
+   "pause": 0.5,
+   "cues": [
+    "ar:2"
+   ]
+  },
+  {
+   "id": "c03-tips-08",
+   "scene": "c03-tips",
+   "lang": "en",
+   "text": "For a group of females, the verb has its own ending.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-tips-09",
+   "scene": "c03-tips",
+   "lang": "ar",
+   "text": "اللَّاتِي خَرَجْنَ",
+   "pause": 0.7,
+   "cues": [
+    "ar:3"
+   ]
+  },
+  {
+   "id": "c03-tips-10",
+   "scene": "c03-tips",
+   "lang": "en",
+   "text": "Second. After a noun without al, Arabic leaves the relative out.",
+   "pause": 0.4,
+   "cues": [
+    "show:2",
+    "hl:leaves the relative out"
+   ]
+  },
+  {
+   "id": "c03-tips-11",
+   "scene": "c03-tips",
+   "lang": "en",
+   "text": "A student who passed came.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-tips-12",
+   "scene": "c03-tips",
+   "lang": "ar",
+   "text": "جَاءَ طَالِبٌ نَجَحَ",
+   "pause": 0.6,
+   "cues": [
+    "ar:5"
+   ]
+  },
+  {
+   "id": "c03-tips-13",
+   "scene": "c03-tips",
+   "lang": "en",
+   "text": "Here student has no al. So no relative comes after it.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-tips-14",
+   "scene": "c03-tips",
+   "lang": "en",
+   "text": "In English we still say who. In Arabic, the clause comes straight after the noun.",
+   "pause": 0.8,
+   "cues": []
+  },
+  {
+   "id": "c04-title-01",
+   "scene": "c04-title",
+   "lang": "en",
+   "text": "Chapter four.",
+   "pause": 0.3,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c04-title-02",
+   "scene": "c04-title",
+   "lang": "ar",
+   "text": "مَنْ",
+   "pause": 0.3,
+   "cues": [
+    "ar:0"
+   ]
+  },
+  {
+   "id": "c04-title-03",
+   "scene": "c04-title",
+   "lang": "en",
+   "text": "and",
+   "pause": 0.2,
+   "cues": []
+  },
+  {
+   "id": "c04-title-04",
+   "scene": "c04-title",
+   "lang": "ar",
+   "text": "مَا",
+   "pause": 0.4,
+   "cues": [
+    "ar:1"
+   ]
+  },
+  {
+   "id": "c04-title-05",
+   "scene": "c04-title",
+   "lang": "en",
+   "text": "Question or relative?",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c04-title-06",
+   "scene": "c04-title",
+   "lang": "en",
+   "text": "These two words are also question words. You learn them as question words in unit five.",
+   "pause": 0.4,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c04-title-07",
+   "scene": "c04-title",
+   "lang": "en",
+   "text": "So how do we tell them apart? Look at the sentence.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-title-08",
+   "scene": "c04-title",
+   "lang": "en",
+   "text": "A question ends in a question mark.",
+   "pause": 0.3,
+   "cues": [
+    "ar:4"
+   ]
+  },
+  {
+   "id": "c04-title-09",
+   "scene": "c04-title",
+   "lang": "en",
+   "text": "A relative sits inside a normal sentence. It means the one who, or what.",
+   "pause": 0.7,
+   "cues": []
+  },
+  {
+   "id": "c04-ex-01",
+   "scene": "c04-ex",
+   "lang": "en",
+   "text": "Who passed?",
+   "pause": 0.4,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c04-ex-02",
+   "scene": "c04-ex",
+   "lang": "ar",
+   "text": "مَنْ نَجَحَ",
+   "pause": 0.5,
+   "cues": [
+    "ar:0"
+   ]
+  },
+  {
+   "id": "c04-ex-03",
+   "scene": "c04-ex",
+   "lang": "en",
+   "text": "It ends in a question mark. So this is a question.",
+   "pause": 0.6,
+   "cues": [
+    "note:1"
+   ]
+  },
+  {
+   "id": "c04-ex-04",
+   "scene": "c04-ex",
+   "lang": "en",
+   "text": "The one who passed came.",
+   "pause": 0.4,
+   "cues": [
+    "ex:2"
+   ]
+  },
+  {
+   "id": "c04-ex-05",
+   "scene": "c04-ex",
+   "lang": "ar",
+   "text": "جَاءَ مَنْ نَجَحَ",
+   "pause": 0.5,
+   "cues": [
+    "ar:1"
+   ]
+  },
+  {
+   "id": "c04-ex-06",
+   "scene": "c04-ex",
+   "lang": "en",
+   "text": "This is a normal sentence. So the word is a relative here. It means the one who.",
+   "pause": 0.4,
+   "cues": [
+    "note:2"
+   ]
+  },
+  {
+   "id": "c04-ex-07",
+   "scene": "c04-ex",
+   "lang": "en",
+   "text": "Its ṣila is the verb. It means he passed.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-ex-08",
+   "scene": "c04-ex",
+   "lang": "ar",
+   "text": "نَجَحَ",
+   "pause": 0.6,
+   "cues": [
+    "ar:2"
+   ]
+  },
+  {
+   "id": "c04-ex-09",
+   "scene": "c04-ex",
+   "lang": "en",
+   "text": "What is on the desk?",
+   "pause": 0.4,
+   "cues": [
+    "ex:3"
+   ]
+  },
+  {
+   "id": "c04-ex-10",
+   "scene": "c04-ex",
+   "lang": "ar",
+   "text": "مَا عَلَى الْمَكْتَبِ",
+   "pause": 0.5,
+   "cues": [
+    "ar:3"
+   ]
+  },
+  {
+   "id": "c04-ex-11",
+   "scene": "c04-ex",
+   "lang": "en",
+   "text": "Again, a question mark. So it is a question.",
+   "pause": 0.6,
+   "cues": [
+    "note:3"
+   ]
+  },
+  {
+   "id": "c04-ex-12",
+   "scene": "c04-ex",
+   "lang": "en",
+   "text": "Read what is on the desk.",
+   "pause": 0.4,
+   "cues": [
+    "ex:4"
+   ]
+  },
+  {
+   "id": "c04-ex-13",
+   "scene": "c04-ex",
+   "lang": "ar",
+   "text": "اِقْرَأْ مَا عَلَى الْمَكْتَبِ",
+   "pause": 0.5,
+   "cues": [
+    "ar:4"
+   ]
+  },
+  {
+   "id": "c04-ex-14",
+   "scene": "c04-ex",
+   "lang": "en",
+   "text": "This is an order, with no question mark. So the word is a relative here. It means what.",
+   "pause": 0.8,
+   "cues": [
+    "note:4"
+   ]
+  },
+  {
+   "id": "c05-title-01",
+   "scene": "c05-title",
+   "lang": "en",
+   "text": "Chapter five. Its place in the sentence.",
+   "pause": 0.5,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c05-title-02",
+   "scene": "c05-title",
+   "lang": "en",
+   "text": "A relative after a noun works like an adjective.",
+   "pause": 0.3,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c05-title-03",
+   "scene": "c05-title",
+   "lang": "en",
+   "text": "An adjective copies the ending of its noun. But a relative is fixed. It cannot copy the ending.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-title-04",
+   "scene": "c05-title",
+   "lang": "en",
+   "text": "So it copies the place of the noun before it: rafʿ, naṣb or jarr. Its ending does not change.",
+   "pause": 0.7,
+   "cues": []
+  },
+  {
+   "id": "c05-ex-01",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "The student who passed came.",
+   "pause": 0.4,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c05-ex-02",
+   "scene": "c05-ex",
+   "lang": "ar",
+   "text": "جَاءَ الطَّالِبُ الَّذِي نَجَحَ",
+   "pause": 0.6,
+   "cues": [
+    "ar:0"
+   ]
+  },
+  {
+   "id": "c05-ex-03",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "The student is the doer. It is rafʿ, with damma.",
+   "pause": 0.4,
+   "cues": [
+    "note:1"
+   ]
+  },
+  {
+   "id": "c05-ex-04",
+   "scene": "c05-ex",
+   "lang": "ar",
+   "text": "الطَّالِبُ",
+   "pause": 0.5,
+   "cues": [
+    "ar:1"
+   ]
+  },
+  {
+   "id": "c05-ex-05",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "So the relative is in the place of rafʿ.",
+   "pause": 0.4,
+   "cues": [
+    "hl:in the place of rafʿ"
+   ]
+  },
+  {
+   "id": "c05-ex-06",
+   "scene": "c05-ex",
+   "lang": "ar",
+   "text": "الَّذِي",
+   "pause": 0.7,
+   "cues": [
+    "ar:2"
+   ]
+  },
+  {
+   "id": "c05-ex-07",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "The principal thanked the student who passed.",
+   "pause": 0.4,
+   "cues": [
+    "ex:2"
+   ]
+  },
+  {
+   "id": "c05-ex-08",
+   "scene": "c05-ex",
+   "lang": "ar",
+   "text": "شَكَرَ الْمُدِيرُ الطَّالِبَ الَّذِي نَجَحَ",
+   "pause": 0.6,
+   "cues": [
+    "ar:3"
+   ]
+  },
+  {
+   "id": "c05-ex-09",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "Now the student is the object. It is naṣb, with fatha.",
+   "pause": 0.4,
+   "cues": [
+    "note:2"
+   ]
+  },
+  {
+   "id": "c05-ex-10",
+   "scene": "c05-ex",
+   "lang": "ar",
+   "text": "الطَّالِبَ",
+   "pause": 0.5,
+   "cues": [
+    "ar:4"
+   ]
+  },
+  {
+   "id": "c05-ex-11",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "So the relative is in the place of naṣb. Its ending stays the same.",
+   "pause": 0.4,
+   "cues": [
+    "hl:in the place of naṣb"
+   ]
+  },
+  {
+   "id": "c05-ex-12",
+   "scene": "c05-ex",
+   "lang": "ar",
+   "text": "الَّذِي",
+   "pause": 0.7,
+   "cues": [
+    "ar:5"
+   ]
+  },
+  {
+   "id": "c05-ex-13",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "I went to the student who passed.",
+   "pause": 0.4,
+   "cues": [
+    "ex:3"
+   ]
+  },
+  {
+   "id": "c05-ex-14",
+   "scene": "c05-ex",
+   "lang": "ar",
+   "text": "ذَهَبْتُ إِلَى الطَّالِبِ الَّذِي نَجَحَ",
+   "pause": 0.6,
+   "cues": [
+    "ar:6"
+   ]
+  },
+  {
+   "id": "c05-ex-15",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "Now the student comes after a preposition. It is jarr, with kasra.",
+   "pause": 0.4,
+   "cues": [
+    "note:3"
+   ]
+  },
+  {
+   "id": "c05-ex-16",
+   "scene": "c05-ex",
+   "lang": "ar",
+   "text": "الطَّالِبِ",
+   "pause": 0.5,
+   "cues": [
+    "ar:7"
+   ]
+  },
+  {
+   "id": "c05-ex-17",
+   "scene": "c05-ex",
+   "lang": "en",
+   "text": "So the relative is in the place of jarr. Again, its ending stays the same.",
+   "pause": 0.4,
+   "cues": [
+    "hl:in the place of jarr"
+   ]
+  },
+  {
+   "id": "c05-ex-18",
+   "scene": "c05-ex",
+   "lang": "ar",
+   "text": "الَّذِي",
+   "pause": 0.8,
+   "cues": [
+    "ar:8"
+   ]
+  },
+  {
+   "id": "c05-tip-01",
+   "scene": "c05-tip",
+   "lang": "en",
+   "text": "A tip. The two general relatives stand alone.",
+   "pause": 0.4,
+   "cues": [
+    "show"
+   ]
+  },
+  {
+   "id": "c05-tip-02",
+   "scene": "c05-tip",
+   "lang": "ar",
+   "text": "مَنْ",
+   "pause": 0.35,
+   "cues": [
+    "ar:0"
+   ]
+  },
+  {
+   "id": "c05-tip-03",
+   "scene": "c05-tip",
+   "lang": "ar",
+   "text": "مَا",
+   "pause": 0.5,
+   "cues": [
+    "ar:1"
+   ]
+  },
+  {
+   "id": "c05-tip-04",
+   "scene": "c05-tip",
+   "lang": "en",
+   "text": "Stand alone means only that no noun comes before them. A ṣila still comes after them.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c05-tip-05",
+   "scene": "c05-tip",
+   "lang": "en",
+   "text": "With no noun to copy, they have their own job.",
+   "pause": 0.4,
+   "cues": [
+    "hl:they have their own job"
+   ]
+  },
+  {
+   "id": "c05-tip-06",
+   "scene": "c05-tip",
+   "lang": "en",
+   "text": "The one who passed came.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-tip-07",
+   "scene": "c05-tip",
+   "lang": "ar",
+   "text": "جَاءَ مَنْ نَجَحَ",
+   "pause": 0.6,
+   "cues": [
+    "ar:2"
+   ]
+  },
+  {
+   "id": "c05-tip-08",
+   "scene": "c05-tip",
+   "lang": "en",
+   "text": "Who came?",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c05-tip-09",
+   "scene": "c05-tip",
+   "lang": "en",
+   "text": "The one who passed. So this word is the doer.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-tip-10",
+   "scene": "c05-tip",
+   "lang": "ar",
+   "text": "مَنْ",
+   "pause": 0.5,
+   "cues": [
+    "ar:3"
+   ]
+  },
+  {
+   "id": "c05-tip-11",
+   "scene": "c05-tip",
+   "lang": "en",
+   "text": "The doer takes rafʿ. This word is fixed, so it is in the place of rafʿ.",
+   "pause": 0.8,
+   "cues": []
+  },
+  {
+   "id": "c06-title-01",
+   "scene": "c06-title",
+   "lang": "en",
+   "text": "Chapter six. Not fixed.",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c06-title-02",
+   "scene": "c06-title",
+   "lang": "ar",
+   "text": "اللَّذَانِ",
+   "pause": 0.3,
+   "cues": [
+    "ar:0"
+   ]
+  },
+  {
+   "id": "c06-title-03",
+   "scene": "c06-title",
+   "lang": "en",
+   "text": "and",
+   "pause": 0.2,
+   "cues": []
+  },
+  {
+   "id": "c06-title-04",
+   "scene": "c06-title",
+   "lang": "ar",
+   "text": "اللَّتَانِ",
+   "pause": 0.7,
+   "cues": [
+    "ar:1"
+   ]
+  },
+  {
+   "id": "c06-forms-01",
+   "scene": "c06-forms",
+   "lang": "en",
+   "text": "Careful. Two more relatives mean the two who. And these words change.",
+   "pause": 0.4,
+   "cues": [
+    "show:1"
+   ]
+  },
+  {
+   "id": "c06-forms-02",
+   "scene": "c06-forms",
+   "lang": "en",
+   "text": "This one is for two males.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c06-forms-03",
+   "scene": "c06-forms",
+   "lang": "ar",
+   "text": "اللَّذَانِ",
+   "pause": 0.5,
+   "cues": [
+    "ar:0"
+   ]
+  },
+  {
+   "id": "c06-forms-04",
+   "scene": "c06-forms",
+   "lang": "en",
+   "text": "This one is for two females.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c06-forms-05",
+   "scene": "c06-forms",
+   "lang": "ar",
+   "text": "اللَّتَانِ",
+   "pause": 0.5,
+   "cues": [
+    "ar:1"
+   ]
+  },
+  {
+   "id": "c06-forms-06",
+   "scene": "c06-forms",
+   "lang": "en",
+   "text": "These two are not fixed. They are flexible.",
+   "pause": 0.4,
+   "cues": [
+    "hl:are flexible"
+   ]
+  },
+  {
+   "id": "c06-forms-07",
+   "scene": "c06-forms",
+   "lang": "en",
+   "text": "In naṣb and jarr, they become these.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c06-forms-08",
+   "scene": "c06-forms",
+   "lang": "ar",
+   "text": "اللَّذَيْنِ",
+   "pause": 0.35,
+   "cues": [
+    "ar:2"
+   ]
+  },
+  {
+   "id": "c06-forms-09",
+   "scene": "c06-forms",
+   "lang": "ar",
+   "text": "اللَّتَيْنِ",
+   "pause": 0.6,
+   "cues": [
+    "ar:3"
+   ]
+  },
+  {
+   "id": "c06-forms-10",
+   "scene": "c06-forms",
+   "lang": "en",
+   "text": "You learn them with the dual in Stage 4.",
+   "pause": 0.4,
+   "cues": [
+    "hl:You learn them with the dual in Stage 4"
+   ]
+  },
+  {
+   "id": "c06-forms-11",
+   "scene": "c06-forms",
+   "lang": "en",
+   "text": "Here they are as a table.",
+   "pause": 0.4,
+   "cues": [
+    "show:2"
+   ]
+  },
+  {
+   "id": "c06-forms-12",
+   "scene": "c06-forms",
+   "lang": "en",
+   "text": "In rafʿ, for two males and for two females.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c06-forms-13",
+   "scene": "c06-forms",
+   "lang": "ar",
+   "text": "اللَّذَانِ",
+   "pause": 0.35,
+   "cues": [
+    "ar:4"
+   ]
+  },
+  {
+   "id": "c06-forms-14",
+   "scene": "c06-forms",
+   "lang": "ar",
+   "text": "اللَّتَانِ",
+   "pause": 0.5,
+   "cues": [
+    "ar:5"
+   ]
+  },
+  {
+   "id": "c06-forms-15",
+   "scene": "c06-forms",
+   "lang": "en",
+   "text": "In naṣb and jarr, for two males and for two females.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c06-forms-16",
+   "scene": "c06-forms",
+   "lang": "ar",
+   "text": "اللَّذَيْنِ",
+   "pause": 0.35,
+   "cues": [
+    "ar:6"
+   ]
+  },
+  {
+   "id": "c06-forms-17",
+   "scene": "c06-forms",
+   "lang": "ar",
+   "text": "اللَّتَيْنِ",
+   "pause": 0.5,
+   "cues": [
+    "ar:7"
+   ]
+  },
+  {
+   "id": "c06-forms-18",
+   "scene": "c06-forms",
+   "lang": "en",
+   "text": "For now, know that they change.",
+   "pause": 0.8,
+   "cues": []
+  },
+  {
+   "id": "summary-01",
+   "scene": "summary",
+   "lang": "en",
+   "text": "In short.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "summary-02",
+   "scene": "summary",
+   "lang": "en",
+   "text": "One. For one male or thing.",
+   "pause": 0.3,
+   "cues": [
+    "li:1"
+   ]
+  },
+  {
+   "id": "summary-03",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "الَّذِي",
+   "pause": 0.4,
+   "cues": [
+    "ar:0"
+   ]
+  },
+  {
+   "id": "summary-04",
+   "scene": "summary",
+   "lang": "en",
+   "text": "For one female or thing.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "summary-05",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "الَّتِي",
+   "pause": 0.4,
+   "cues": [
+    "ar:1"
+   ]
+  },
+  {
+   "id": "summary-06",
+   "scene": "summary",
+   "lang": "en",
+   "text": "For males.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "summary-07",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "الَّذِينَ",
+   "pause": 0.4,
+   "cues": [
+    "ar:2"
+   ]
+  },
+  {
+   "id": "summary-08",
+   "scene": "summary",
+   "lang": "en",
+   "text": "For females.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "summary-09",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "اللَّاتِي",
+   "pause": 0.3,
+   "cues": [
+    "ar:3"
+   ]
+  },
+  {
+   "id": "summary-10",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "اللَّوَاتِي",
+   "pause": 0.6,
+   "cues": [
+    "ar:4"
+   ]
+  },
+  {
+   "id": "summary-11",
+   "scene": "summary",
+   "lang": "en",
+   "text": "Two. The one who, for people.",
+   "pause": 0.3,
+   "cues": [
+    "li:2"
+   ]
+  },
+  {
+   "id": "summary-12",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "مَنْ",
+   "pause": 0.4,
+   "cues": [
+    "ar:5"
+   ]
+  },
+  {
+   "id": "summary-13",
+   "scene": "summary",
+   "lang": "en",
+   "text": "What, for things.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "summary-14",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "مَا",
+   "pause": 0.6,
+   "cues": [
+    "ar:6"
+   ]
+  },
+  {
+   "id": "summary-15",
+   "scene": "summary",
+   "lang": "en",
+   "text": "Three. A relative needs a ṣila after it.",
+   "pause": 0.3,
+   "cues": [
+    "li:3"
+   ]
+  },
+  {
+   "id": "summary-16",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "صِلَةٌ",
+   "pause": 0.4,
+   "cues": [
+    "ar:7"
+   ]
+  },
+  {
+   "id": "summary-17",
+   "scene": "summary",
+   "lang": "en",
+   "text": "The one who passed.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "summary-18",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "الَّذِي نَجَحَ",
+   "pause": 0.6,
+   "cues": [
+    "ar:8"
+   ]
+  },
+  {
+   "id": "summary-19",
+   "scene": "summary",
+   "lang": "en",
+   "text": "Four. Match the noun before it.",
+   "pause": 0.3,
+   "cues": [
+    "li:4"
+   ]
+  },
+  {
+   "id": "summary-20",
+   "scene": "summary",
+   "lang": "en",
+   "text": "The relative copies the place of that noun: rafʿ, naṣb or jarr.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "summary-21",
+   "scene": "summary",
+   "lang": "en",
+   "text": "Five. These two are not fixed.",
+   "pause": 0.3,
+   "cues": [
+    "li:5"
+   ]
+  },
+  {
+   "id": "summary-22",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "اللَّذَانِ",
+   "pause": 0.3,
+   "cues": [
+    "ar:9"
+   ]
+  },
+  {
+   "id": "summary-23",
+   "scene": "summary",
+   "lang": "ar",
+   "text": "اللَّتَانِ",
+   "pause": 0.5,
+   "cues": [
+    "ar:10"
+   ]
+  },
+  {
+   "id": "summary-24",
+   "scene": "summary",
+   "lang": "en",
+   "text": "They are flexible. They wait for Stage 4.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "summary-25",
+   "scene": "summary",
+   "lang": "en",
+   "text": "Now open the Practice tab, and try the cards.",
+   "pause": 1.0,
+   "cues": [
+    "practice"
+   ]
+  }
+ ]
+}

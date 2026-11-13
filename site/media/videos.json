@@ -128,5 +128,46 @@
     "title": "Verse 10 · An-Naml 27:19"
    }
   ]
+ },
+ "s3-relatives": {
+  "src": "media/s3-relatives/s3-relatives.mp4",
+  "hls": "media/s3-relatives/hls-3e9ddef8/index.m3u8",
+  "poster": "media/s3-relatives/s3-relatives.jpg",
+  "captions": "media/s3-relatives/s3-relatives.vtt",
+  "duration": 559,
+  "chapters": [
+   {
+    "t": 0,
+    "title": "Introduction"
+   },
+   {
+    "t": 25,
+    "title": "1 The table to learn"
+   },
+   {
+    "t": 128,
+    "title": "2 A relative needs a clause after it"
+   },
+   {
+    "t": 219,
+    "title": "3 Choose by the noun before it"
+   },
+   {
+    "t": 313,
+    "title": "4 مَنْ and مَا: question or relative?"
+   },
+   {
+    "t": 372,
+    "title": "5 Its place in the sentence"
+   },
+   {
+    "t": 470,
+    "title": "6 Not fixed: اللَّذَانِ and اللَّتَانِ"
+   },
+   {
+    "t": 513,
+    "title": "In short"
+   }
+  ]
  }
 }
