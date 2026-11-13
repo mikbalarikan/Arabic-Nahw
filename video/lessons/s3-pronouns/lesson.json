@@ -1,0 +1,628 @@
+{
+ "id": "s3-pronouns",
+ "stage": 3,
+ "title": "Separate pronouns",
+ "ar_title": "الضَّمَائِرُ المُنْفَصِلَةُ",
+ "blurb": "The twelve words for I, you, he, she, we and they. Their ending never changes, but they still have a job.",
+ "tabs": [
+  "Lesson",
+  "Practice"
+ ],
+ "sources": [
+  "content/stage3/u1_pronouns.py"
+ ],
+ "roles": {},
+ "hero_html": "<div class=\"hero\"><div class=\"eyebrow\">STAGE 3 · UNIT 1</div><h1>Twelve words you will see every day</h1><p>Stage 3 is about fixed words. We start with the pronouns: <bdi class=\"ab\">أَنَا</bdi>، <bdi class=\"ab\">هُوَ</bdi>، <bdi class=\"ab\">هِيَ</bdi>، <bdi class=\"ab\">نَحْنُ</bdi> and their friends.</p><div class=\"wm\" aria-hidden=\"true\">الضَّمَائِرُ</div></div>",
+ "sections": [
+  {
+   "num": 1,
+   "title": "Why we learn fixed words now",
+   "title_text": "Why we learn fixed words now",
+   "sub": null,
+   "blocks": [
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "num": 2,
+   "title": "Fixed and flexible: a quick recap",
+   "title_text": "Fixed and flexible: a quick recap",
+   "sub": null,
+   "blocks": [
+    7
+   ]
+  },
+  {
+   "num": 3,
+   "title": "The twelve separate pronouns",
+   "title_text": "The twelve separate pronouns",
+   "sub": null,
+   "blocks": [
+    9,
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "num": 4,
+   "title": "Three groups",
+   "title_text": "Three groups",
+   "sub": null,
+   "blocks": [
+    14,
+    15,
+    16
+   ]
+  },
+  {
+   "num": 5,
+   "title": "A fixed word still has a job",
+   "title_text": "A fixed word still has a job",
+   "sub": null,
+   "blocks": [
+    18,
+    19,
+    20,
+    21,
+    22
+   ]
+  },
+  {
+   "num": 6,
+   "title": "Sentences with a pronoun",
+   "title_text": "Sentences with a pronoun",
+   "sub": null,
+   "blocks": [
+    24,
+    25,
+    26,
+    27
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "i": 0,
+   "t": "hero",
+   "section": null,
+   "html": "<div class=\"hero\"><div class=\"eyebrow\">STAGE 3 · UNIT 1</div><h1>Twelve words you will see every day</h1><p>Stage 3 is about fixed words. We start with the pronouns: <bdi class=\"ab\">أَنَا</bdi>، <bdi class=\"ab\">هُوَ</bdi>، <bdi class=\"ab\">هِيَ</bdi>، <bdi class=\"ab\">نَحْنُ</bdi> and their friends.</p><div class=\"wm\" aria-hidden=\"true\">الضَّمَائِرُ</div></div>",
+   "src": {
+    "t": "hero",
+    "eyebrow": "STAGE 3 · UNIT 1",
+    "title": "Twelve words you will see every day",
+    "text": "Stage 3 is about fixed words. We start with the pronouns: {أَنَا}، {هُوَ}، {هِيَ}، {نَحْنُ} and their friends.",
+    "wm": "الضَّمَائِرُ"
+   }
+  },
+  {
+   "i": 1,
+   "t": "h2",
+   "section": 1,
+   "html": "<h2><span class=\"num\">1</span>Why we learn fixed words now</h2>",
+   "src": {
+    "t": "h2",
+    "text": "Why we learn fixed words now"
+   }
+  },
+  {
+   "i": 2,
+   "t": "p",
+   "section": 1,
+   "html": "<p class=\"s0p\">Fixed words are in almost every sentence. Pronouns, words like <bdi class=\"ab\">هَذَا</bdi>, and question words come again and again.</p>",
+   "src": {
+    "t": "p",
+    "text": "Fixed words are in almost every sentence. Pronouns, words like {هَذَا}, and question words come again and again."
+   }
+  },
+  {
+   "i": 3,
+   "t": "p",
+   "section": 1,
+   "html": "<p class=\"s0p\">Their ending never changes. So you learn each one once, as a word in a table, and you know it for good.</p>",
+   "src": {
+    "t": "p",
+    "text": "Their ending never changes. So you learn each one once, as a word in a table, and you know it for good."
+   }
+  },
+  {
+   "i": 4,
+   "t": "p",
+   "section": 1,
+   "html": "<p class=\"s0p\">When you know them, every later example is easier. You see the fixed words at once and look only at the flexible ones.</p>",
+   "src": {
+    "t": "p",
+    "text": "When you know them, every later example is easier. You see the fixed words at once and look only at the flexible ones."
+   }
+  },
+  {
+   "i": 5,
+   "t": "words",
+   "section": 1,
+   "html": "<div class=\"wtiles\"><div class=\"wt0\" style=\"border-color:#2f7fe0;background:#e3eefc\"><div class=\"wta\">أَنَا</div><div class=\"wts\">I</div></div><div class=\"wt0\" style=\"border-color:#2f7fe0;background:#e3eefc\"><div class=\"wta\">هُوَ</div><div class=\"wts\">he, it</div></div><div class=\"wt0\" style=\"border-color:#2f7fe0;background:#e3eefc\"><div class=\"wta\">هِيَ</div><div class=\"wts\">she, it</div></div><div class=\"wt0\" style=\"border-color:#2f7fe0;background:#e3eefc\"><div class=\"wta\">نَحْنُ</div><div class=\"wts\">we</div></div></div>",
+   "src": {
+    "t": "words",
+    "items": [
+     {
+      "ar": "أَنَا",
+      "sub": "I",
+      "color": "blue"
+     },
+     {
+      "ar": "هُوَ",
+      "sub": "he, it",
+      "color": "blue"
+     },
+     {
+      "ar": "هِيَ",
+      "sub": "she, it",
+      "color": "blue"
+     },
+     {
+      "ar": "نَحْنُ",
+      "sub": "we",
+      "color": "blue"
+     }
+    ]
+   }
+  },
+  {
+   "i": 6,
+   "t": "h2",
+   "section": 2,
+   "html": "<h2><span class=\"num\">2</span>Fixed and flexible: a quick recap</h2>",
+   "src": {
+    "t": "h2",
+    "text": "Fixed and flexible: a quick recap"
+   }
+  },
+  {
+   "i": 7,
+   "t": "cols",
+   "section": 2,
+   "html": "<div class=\"kkgrid s0cols\"><div class=\"kk\" style=\"border-left-color:#7d858e;background:#eef0f2\"><div class=\"kkt\"><span style=\"color:#5a626b\"><span class=\"dot\" style=\"background:#7d858e\"></span>Fixed</span><span class=\"kkar\">مَبْنِيٌّ</span></div><div class=\"kkd\">The ending never changes: <bdi class=\"ab\">هُوَ</bdi> is always <bdi class=\"ab\">هُوَ</bdi>.</div></div><div class=\"kk\" style=\"border-left-color:#2f7fe0;background:#e3eefc\"><div class=\"kkt\"><span style=\"color:#1f64bd\"><span class=\"dot\" style=\"background:#2f7fe0\"></span>Flexible</span><span class=\"kkar\">مُعْرَبٌ</span></div><div class=\"kkd\">The ending changes with the job: <bdi class=\"ab\">البَيْتُ</bdi>، <bdi class=\"ab\">البَيْتِ</bdi>.</div></div></div>",
+   "src": {
+    "t": "cols",
+    "items": [
+     {
+      "color": "grey",
+      "title": "Fixed",
+      "ar": "مَبْنِيٌّ",
+      "text": "The ending never changes: {هُوَ} is always {هُوَ}."
+     },
+     {
+      "color": "blue",
+      "title": "Flexible",
+      "ar": "مُعْرَبٌ",
+      "text": "The ending changes with the job: {البَيْتُ}، {البَيْتِ}."
+     }
+    ]
+   }
+  },
+  {
+   "i": 8,
+   "t": "h2",
+   "section": 3,
+   "html": "<h2><span class=\"num\">3</span>The twelve separate pronouns</h2>",
+   "src": {
+    "t": "h2",
+    "text": "The twelve separate pronouns"
+   }
+  },
+  {
+   "i": 9,
+   "t": "p",
+   "section": 3,
+   "html": "<p class=\"s0p\">Learn this table by heart. Read it aloud, top to bottom, every day this week.</p>",
+   "src": {
+    "t": "p",
+    "text": "Learn this table by heart. Read it aloud, top to bottom, every day this week."
+   }
+  },
+  {
+   "i": 10,
+   "t": "table",
+   "section": 3,
+   "html": "<div class=\"tblwrap\"><table class=\"glance s0t\"><tr><th>Person</th><th>Number</th><th>Gender</th><th>Arabic</th><th>English</th></tr><tr><td class=\"\">1st</td><td class=\"\">one</td><td class=\"\">m or f</td><td class=\"tar\">أَنَا</td><td class=\"\">I</td></tr><tr><td class=\"\">1st</td><td class=\"\">two or more</td><td class=\"\">m or f</td><td class=\"tar\">نَحْنُ</td><td class=\"\">we</td></tr><tr><td class=\"\">2nd</td><td class=\"\">one</td><td class=\"\">m</td><td class=\"tar\">أَنْتَ</td><td class=\"\">you (one man)</td></tr><tr><td class=\"\">2nd</td><td class=\"\">one</td><td class=\"\">f</td><td class=\"tar\">أَنْتِ</td><td class=\"\">you (one woman)</td></tr><tr><td class=\"\">2nd</td><td class=\"\">two</td><td class=\"\">m or f</td><td class=\"tar\">أَنْتُمَا</td><td class=\"\">you (two)</td></tr><tr><td class=\"\">2nd</td><td class=\"\">three or more</td><td class=\"\">m or mixed</td><td class=\"tar\">أَنْتُمْ</td><td class=\"\">you (men, or men and women)</td></tr><tr><td class=\"\">2nd</td><td class=\"\">three or more</td><td class=\"\">f</td><td class=\"tar\">أَنْتُنَّ</td><td class=\"\">you (women)</td></tr><tr><td class=\"\">3rd</td><td class=\"\">one</td><td class=\"\">m</td><td class=\"tar\">هُوَ</td><td class=\"\">he, it</td></tr><tr><td class=\"\">3rd</td><td class=\"\">one</td><td class=\"\">f</td><td class=\"tar\">هِيَ</td><td class=\"\">she, it</td></tr><tr><td class=\"\">3rd</td><td class=\"\">two</td><td class=\"\">m or f</td><td class=\"tar\">هُمَا</td><td class=\"\">they (two)</td></tr><tr><td class=\"\">3rd</td><td class=\"\">three or more</td><td class=\"\">m or mixed</td><td class=\"tar\">هُمْ</td><td class=\"\">they (men, or men and women)</td></tr><tr><td class=\"\">3rd</td><td class=\"\">three or more</td><td class=\"\">f</td><td class=\"tar\">هُنَّ</td><td class=\"\">they (women)</td></tr></table></div>",
+   "src": {
+    "t": "table",
+    "head": [
+     "Person",
+     "Number",
+     "Gender",
+     "Arabic",
+     "English"
+    ],
+    "rows": [
+     [
+      "1st",
+      "one",
+      "m or f",
+      "أَنَا",
+      "I"
+     ],
+     [
+      "1st",
+      "two or more",
+      "m or f",
+      "نَحْنُ",
+      "we"
+     ],
+     [
+      "2nd",
+      "one",
+      "m",
+      "أَنْتَ",
+      "you (one man)"
+     ],
+     [
+      "2nd",
+      "one",
+      "f",
+      "أَنْتِ",
+      "you (one woman)"
+     ],
+     [
+      "2nd",
+      "two",
+      "m or f",
+      "أَنْتُمَا",
+      "you (two)"
+     ],
+     [
+      "2nd",
+      "three or more",
+      "m or mixed",
+      "أَنْتُمْ",
+      "you (men, or men and women)"
+     ],
+     [
+      "2nd",
+      "three or more",
+      "f",
+      "أَنْتُنَّ",
+      "you (women)"
+     ],
+     [
+      "3rd",
+      "one",
+      "m",
+      "هُوَ",
+      "he, it"
+     ],
+     [
+      "3rd",
+      "one",
+      "f",
+      "هِيَ",
+      "she, it"
+     ],
+     [
+      "3rd",
+      "two",
+      "m or f",
+      "هُمَا",
+      "they (two)"
+     ],
+     [
+      "3rd",
+      "three or more",
+      "m or mixed",
+      "هُمْ",
+      "they (men, or men and women)"
+     ],
+     [
+      "3rd",
+      "three or more",
+      "f",
+      "هُنَّ",
+      "they (women)"
+     ]
+    ]
+   }
+  },
+  {
+   "i": 11,
+   "t": "tip",
+   "section": 3,
+   "html": "<div class=\"tipbox\"><b>Tip:</b> Watch the small vowels: <bdi class=\"ab\">أَنْتَ</bdi> for a man, <bdi class=\"ab\">أَنْتِ</bdi> for a woman. <bdi class=\"ab\">هُمْ</bdi> for men, <bdi class=\"ab\">هُنَّ</bdi> for women, with a shadda.</div>",
+   "src": {
+    "t": "tip",
+    "text": "Watch the small vowels: {أَنْتَ} for a man, {أَنْتِ} for a woman. {هُمْ} for men, {هُنَّ} for women, with a shadda."
+   }
+  },
+  {
+   "i": 12,
+   "t": "tip",
+   "section": 3,
+   "html": "<div class=\"tipbox\"><b>Tip:</b> Side note: each pronoun is built on one fixed mark. <bdi class=\"ab\">هُوَ</bdi> is built on fatha, <bdi class=\"ab\">نَحْنُ</bdi> on damma, <bdi class=\"ab\">هُمْ</bdi> on sukūn. You do not need to learn these. Just remember the word never changes.</div>",
+   "src": {
+    "t": "tip",
+    "text": "Side note: each pronoun is built on one fixed mark. {هُوَ} is built on fatha, {نَحْنُ} on damma, {هُمْ} on sukūn. You do not need to learn these. Just remember the word never changes."
+   }
+  },
+  {
+   "i": 13,
+   "t": "h2",
+   "section": 4,
+   "html": "<h2><span class=\"num\">4</span>Three groups</h2>",
+   "src": {
+    "t": "h2",
+    "text": "Three groups"
+   }
+  },
+  {
+   "i": 14,
+   "t": "cols",
+   "section": 4,
+   "html": "<div class=\"kkgrid s0cols\"><div class=\"kk\" style=\"border-left-color:#2f7fe0;background:#e3eefc\"><div class=\"kkt\"><span style=\"color:#1f64bd\"><span class=\"dot\" style=\"background:#2f7fe0\"></span>1st person: the speaker</span><span class=\"kkar\">المُتَكَلِّمُ</span></div><div class=\"kkd\"><bdi class=\"ab\">أَنَا</bdi>، <bdi class=\"ab\">نَحْنُ</bdi></div></div><div class=\"kk\" style=\"border-left-color:#2f7fe0;background:#e3eefc\"><div class=\"kkt\"><span style=\"color:#1f64bd\"><span class=\"dot\" style=\"background:#2f7fe0\"></span>2nd person: the listener</span><span class=\"kkar\">المُخَاطَبُ</span></div><div class=\"kkd\"><bdi class=\"ab\">أَنْتَ</bdi>، <bdi class=\"ab\">أَنْتِ</bdi>، <bdi class=\"ab\">أَنْتُمَا</bdi>، <bdi class=\"ab\">أَنْتُمْ</bdi>، <bdi class=\"ab\">أَنْتُنَّ</bdi></div></div><div class=\"kk\" style=\"border-left-color:#2f7fe0;background:#e3eefc\"><div class=\"kkt\"><span style=\"color:#1f64bd\"><span class=\"dot\" style=\"background:#2f7fe0\"></span>3rd person: the absent one</span><span class=\"kkar\">الغَائِبُ</span></div><div class=\"kkd\"><bdi class=\"ab\">هُوَ</bdi>، <bdi class=\"ab\">هِيَ</bdi>، <bdi class=\"ab\">هُمَا</bdi>، <bdi class=\"ab\">هُمْ</bdi>، <bdi class=\"ab\">هُنَّ</bdi></div></div></div>",
+   "src": {
+    "t": "cols",
+    "items": [
+     {
+      "color": "blue",
+      "title": "1st person: the speaker",
+      "ar": "المُتَكَلِّمُ",
+      "text": "{أَنَا}، {نَحْنُ}"
+     },
+     {
+      "color": "blue",
+      "title": "2nd person: the listener",
+      "ar": "المُخَاطَبُ",
+      "text": "{أَنْتَ}، {أَنْتِ}، {أَنْتُمَا}، {أَنْتُمْ}، {أَنْتُنَّ}"
+     },
+     {
+      "color": "blue",
+      "title": "3rd person: the absent one",
+      "ar": "الغَائِبُ",
+      "text": "{هُوَ}، {هِيَ}، {هُمَا}، {هُمْ}، {هُنَّ}"
+     }
+    ]
+   }
+  },
+  {
+   "i": 15,
+   "t": "tip",
+   "section": 4,
+   "html": "<div class=\"tipbox\"><b>Tip:</b> <bdi class=\"ab\">هُوَ</bdi> and <bdi class=\"ab\">هِيَ</bdi> are also used for things. A masculine noun is <bdi class=\"ab\">هُوَ</bdi>, a feminine noun is <bdi class=\"ab\">هِيَ</bdi>: <bdi class=\"ab\">أَيْنَ السَّاعَةُ؟ هِيَ عَلَى السَّرِيرِ</bdi>.</div>",
+   "src": {
+    "t": "tip",
+    "text": "{هُوَ} and {هِيَ} are also used for things. A masculine noun is {هُوَ}, a feminine noun is {هِيَ}: {أَيْنَ السَّاعَةُ؟ هِيَ عَلَى السَّرِيرِ}."
+   }
+  },
+  {
+   "i": 16,
+   "t": "tip",
+   "section": 4,
+   "html": "<div class=\"tipbox\"><b>Tip:</b> For two people, men or women, there is one word: <bdi class=\"ab\">أَنْتُمَا</bdi> or <bdi class=\"ab\">هُمَا</bdi>. For a group of men and women together, use <bdi class=\"ab\">أَنْتُمْ</bdi> and <bdi class=\"ab\">هُمْ</bdi>.</div>",
+   "src": {
+    "t": "tip",
+    "text": "For two people, men or women, there is one word: {أَنْتُمَا} or {هُمَا}. For a group of men and women together, use {أَنْتُمْ} and {هُمْ}."
+   }
+  },
+  {
+   "i": 17,
+   "t": "h2",
+   "section": 5,
+   "html": "<h2><span class=\"num\">5</span>A fixed word still has a job</h2>",
+   "src": {
+    "t": "h2",
+    "text": "A fixed word still has a job"
+   }
+  },
+  {
+   "i": 18,
+   "t": "p",
+   "section": 5,
+   "html": "<p class=\"s0p\">A pronoun never changes its last vowel to show rafʿ, naṣb or jarr. But it still does a job in the sentence, like any noun.</p>",
+   "src": {
+    "t": "p",
+    "text": "A pronoun never changes its last vowel to show rafʿ, naṣb or jarr. But it still does a job in the sentence, like any noun."
+   }
+  },
+  {
+   "i": 19,
+   "t": "rule",
+   "section": 5,
+   "html": "<div class=\"rbox\" style=\"border-color:#e04a3a;background:#fde7e4\"><b style=\"color:#b8322a\">The place of rafʿ.</b> In <bdi class=\"ab\">هُوَ طَالِبٌ</bdi>, <bdi class=\"ab\">هُوَ</bdi> is the Topic. A Topic is rafʿ. <bdi class=\"ab\">هُوَ</bdi> cannot show a damma, so we say it is in the place of rafʿ: <bdi class=\"ab\">فِي مَحَلِّ رَفْعٍ</bdi>.</div>",
+   "src": {
+    "t": "rule",
+    "color": "red",
+    "title": "The place of rafʿ",
+    "text": "In {هُوَ طَالِبٌ}, {هُوَ} is the Topic. A Topic is rafʿ. {هُوَ} cannot show a damma, so we say it is in the place of rafʿ: {فِي مَحَلِّ رَفْعٍ}."
+   }
+  },
+  {
+   "i": 20,
+   "t": "p",
+   "section": 5,
+   "html": "<p class=\"s0p\">So we describe a fixed word in two steps: first its job, then its place.</p>",
+   "src": {
+    "t": "p",
+    "text": "So we describe a fixed word in two steps: first its job, then its place."
+   }
+  },
+  {
+   "i": 21,
+   "t": "table",
+   "section": 5,
+   "html": "<div class=\"tblwrap\"><table class=\"glance s0t\"><tr><th>Word</th><th>Job</th><th>Ending</th><th>Rafʿ, naṣb or jarr</th></tr><tr><td class=\"tar\"><bdi class=\"ab\">هُوَ</bdi></td><td class=\"\">Topic</td><td class=\"\">fixed, never changes</td><td class=\"\">in the place of rafʿ</td></tr><tr><td class=\"tar\"><bdi class=\"ab\">طَالِبٌ</bdi></td><td class=\"\">Information</td><td class=\"\">damma, you can see it</td><td class=\"\">rafʿ</td></tr></table></div>",
+   "src": {
+    "t": "table",
+    "head": [
+     "Word",
+     "Job",
+     "Ending",
+     "Rafʿ, naṣb or jarr"
+    ],
+    "rows": [
+     [
+      "{هُوَ}",
+      "Topic",
+      "fixed, never changes",
+      "in the place of rafʿ"
+     ],
+     [
+      "{طَالِبٌ}",
+      "Information",
+      "damma, you can see it",
+      "rafʿ"
+     ]
+    ]
+   }
+  },
+  {
+   "i": 22,
+   "t": "tip",
+   "section": 5,
+   "html": "<div class=\"tipbox\"><b>Tip:</b> There are three places: <bdi class=\"ab\">فِي مَحَلِّ رَفْعٍ</bdi>، <bdi class=\"ab\">فِي مَحَلِّ نَصْبٍ</bdi>، <bdi class=\"ab\">فِي مَحَلِّ جَرٍّ</bdi>. In this stage, these twelve pronouns are always in the place of rafʿ.</div>",
+   "src": {
+    "t": "tip",
+    "text": "There are three places: {فِي مَحَلِّ رَفْعٍ}، {فِي مَحَلِّ نَصْبٍ}، {فِي مَحَلِّ جَرٍّ}. In this stage, these twelve pronouns are always in the place of rafʿ."
+   }
+  },
+  {
+   "i": 23,
+   "t": "h2",
+   "section": 6,
+   "html": "<h2><span class=\"num\">6</span>Sentences with a pronoun</h2>",
+   "src": {
+    "t": "h2",
+    "text": "Sentences with a pronoun"
+   }
+  },
+  {
+   "i": 24,
+   "t": "p",
+   "section": 6,
+   "html": "<p class=\"s0p\">Here the pronoun is the Topic. The Information is a noun or a place phrase.</p>",
+   "src": {
+    "t": "p",
+    "text": "Here the pronoun is the Topic. The Information is a noun or a place phrase."
+   }
+  },
+  {
+   "i": 25,
+   "t": "examples",
+   "section": 6,
+   "html": "<div class=\"exlist\"><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">أَنَا طَالِبٌ.</div><div class=\"exe\">I am a student.<div class=\"exn\"><bdi class=\"ab\">أَنَا</bdi> is the Topic, in the place of rafʿ. <bdi class=\"ab\">طَالِبٌ</bdi> is the Information, rafʿ with damma.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">هِيَ مُدَرِّسَةٌ.</div><div class=\"exe\">She is a teacher.<div class=\"exn\"><bdi class=\"ab\">هِيَ</bdi> is the Topic, in the place of rafʿ.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">نَحْنُ فِي الفَصْلِ.</div><div class=\"exe\">We are in the classroom.<div class=\"exn\"><bdi class=\"ab\">نَحْنُ</bdi> is the Topic. <bdi class=\"ab\">الفَصْلِ</bdi> is jarr after <bdi class=\"ab\">فِي</bdi>.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">هُمْ فِي المَسْجِدِ.</div><div class=\"exe\">They are in the mosque.<div class=\"exn\"><bdi class=\"ab\">هُمْ</bdi> is the Topic, in the place of rafʿ.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">أَنْتُمَا فِي البَيْتِ.</div><div class=\"exe\">You two are in the house.<div class=\"exn\"><bdi class=\"ab\">أَنْتُمَا</bdi> is the Topic, in the place of rafʿ.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">أَيْنَ الوَلَدُ؟ هُوَ فِي المَسْجِدِ.</div><div class=\"exe\">Where is the boy? He is in the mosque.<div class=\"exn\">Madinah lesson 4. <bdi class=\"ab\">هُوَ</bdi> takes the place of <bdi class=\"ab\">الوَلَدُ</bdi>.</div></div></div></div>",
+   "src": {
+    "t": "examples",
+    "items": [
+     {
+      "ar": "أَنَا طَالِبٌ.",
+      "en": "I am a student.",
+      "note": "{أَنَا} is the Topic, in the place of rafʿ. {طَالِبٌ} is the Information, rafʿ with damma."
+     },
+     {
+      "ar": "هِيَ مُدَرِّسَةٌ.",
+      "en": "She is a teacher.",
+      "note": "{هِيَ} is the Topic, in the place of rafʿ."
+     },
+     {
+      "ar": "نَحْنُ فِي الفَصْلِ.",
+      "en": "We are in the classroom.",
+      "note": "{نَحْنُ} is the Topic. {الفَصْلِ} is jarr after {فِي}."
+     },
+     {
+      "ar": "هُمْ فِي المَسْجِدِ.",
+      "en": "They are in the mosque.",
+      "note": "{هُمْ} is the Topic, in the place of rafʿ."
+     },
+     {
+      "ar": "أَنْتُمَا فِي البَيْتِ.",
+      "en": "You two are in the house.",
+      "note": "{أَنْتُمَا} is the Topic, in the place of rafʿ."
+     },
+     {
+      "ar": "أَيْنَ الوَلَدُ؟ هُوَ فِي المَسْجِدِ.",
+      "en": "Where is the boy? He is in the mosque.",
+      "note": "Madinah lesson 4. {هُوَ} takes the place of {الوَلَدُ}."
+     }
+    ]
+   }
+  },
+  {
+   "i": 26,
+   "t": "tip",
+   "section": 6,
+   "html": "<div class=\"tipbox\"><b>Tip:</b> A pronoun can replace a noun: <bdi class=\"ab\">الطَّالِبُ فِي الفَصْلِ</bdi> becomes <bdi class=\"ab\">هُوَ فِي الفَصْلِ</bdi>. Pick the pronoun by number and gender.</div>",
+   "src": {
+    "t": "tip",
+    "text": "A pronoun can replace a noun: {الطَّالِبُ فِي الفَصْلِ} becomes {هُوَ فِي الفَصْلِ}. Pick the pronoun by number and gender."
+   }
+  },
+  {
+   "i": 27,
+   "t": "summary",
+   "section": 6,
+   "html": "<div class=\"three\"><h3>In short</h3><ol><li>Fixed words are in every sentence. Learn them once, as a table.</li><li>There are twelve separate pronouns: <bdi class=\"ab\">أَنَا</bdi>، <bdi class=\"ab\">نَحْنُ</bdi>، <bdi class=\"ab\">أَنْتَ</bdi>، <bdi class=\"ab\">أَنْتِ</bdi>، <bdi class=\"ab\">أَنْتُمَا</bdi>، <bdi class=\"ab\">أَنْتُمْ</bdi>، <bdi class=\"ab\">أَنْتُنَّ</bdi>، <bdi class=\"ab\">هُوَ</bdi>، <bdi class=\"ab\">هِيَ</bdi>، <bdi class=\"ab\">هُمَا</bdi>، <bdi class=\"ab\">هُمْ</bdi>، <bdi class=\"ab\">هُنَّ</bdi>.</li><li>Choose by person (speaker, listener, absent), number (one, two, more) and gender.</li><li>A pronoun never changes its ending, but it still has a job.</li><li>As the Topic it is in the place of rafʿ: <bdi class=\"ab\">فِي مَحَلِّ رَفْعٍ</bdi>.</li></ol></div>",
+   "src": {
+    "t": "summary",
+    "title": "In short",
+    "items": [
+     "Fixed words are in every sentence. Learn them once, as a table.",
+     "There are twelve separate pronouns: {أَنَا}، {نَحْنُ}، {أَنْتَ}، {أَنْتِ}، {أَنْتُمَا}، {أَنْتُمْ}، {أَنْتُنَّ}، {هُوَ}، {هِيَ}، {هُمَا}، {هُمْ}، {هُنَّ}.",
+     "Choose by person (speaker, listener, absent), number (one, two, more) and gender.",
+     "A pronoun never changes its ending, but it still has a job.",
+     "As the Topic it is in the place of rafʿ: {فِي مَحَلِّ رَفْعٍ}."
+    ]
+   }
+  }
+ ],
+ "practice_cards": [
+  {
+   "n": "P1",
+   "title": "Which pronoun?"
+  },
+  {
+   "n": "P2",
+   "title": "What does it mean?"
+  },
+  {
+   "n": "P3",
+   "title": "Fixed or flexible?"
+  },
+  {
+   "n": "P4",
+   "title": "Replace the word in [ ] with a pronoun"
+  },
+  {
+   "n": "P5",
+   "title": "Job, and rafʿ, naṣb or jarr, of the word in [ ]"
+  },
+  {
+   "n": "P6",
+   "title": "Person and number"
+  }
+ ],
+ "homework_cards": [
+  {
+   "n": "H1",
+   "title": "Which pronoun?"
+  },
+  {
+   "n": "H2",
+   "title": "What does it mean?"
+  },
+  {
+   "n": "H3",
+   "title": "Replace the words in [ ] with a pronoun"
+  },
+  {
+   "n": "H4",
+   "title": "Number and gender"
+  },
+  {
+   "n": "H5",
+   "title": "Job, and rafʿ, naṣb or jarr, of the word in [ ]"
+  },
+  {
+   "n": "H6",
+   "title": "Rafʿ: on the ending, or only its place?"
+  }
+ ]
+}

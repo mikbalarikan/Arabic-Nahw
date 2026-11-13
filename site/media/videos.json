@@ -169,5 +169,50 @@
     "title": "In short"
    }
   ]
+ },
+ "s3-pronouns": {
+  "src": "media/s3-pronouns/s3-pronouns.mp4",
+  "hls": "media/s3-pronouns/hls-2d2289d1/index.m3u8",
+  "poster": "media/s3-pronouns/s3-pronouns.jpg",
+  "captions": "media/s3-pronouns/s3-pronouns.vtt",
+  "duration": 503,
+  "chapters": [
+   {
+    "t": 0,
+    "title": "Introduction"
+   },
+   {
+    "t": 10,
+    "title": "1 Why we learn fixed words now"
+   },
+   {
+    "t": 48,
+    "title": "2 Fixed and flexible: a quick recap"
+   },
+   {
+    "t": 81,
+    "title": "3 The twelve separate pronouns"
+   },
+   {
+    "t": 192,
+    "title": "4 Three groups"
+   },
+   {
+    "t": 277,
+    "title": "5 A fixed word still has a job"
+   },
+   {
+    "t": 363,
+    "title": "6 Sentences with a pronoun"
+   },
+   {
+    "t": 446,
+    "title": "In short"
+   },
+   {
+    "t": 482,
+    "title": "Practice"
+   }
+  ]
  }
 }
