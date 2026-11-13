@@ -66,6 +66,7 @@
  },
  "quran-nasb": {
   "src": "media/quran-nasb/quran-nasb.mp4",
+  "hls": "media/quran-nasb/hls-cd823f42/index.m3u8",
   "poster": "media/quran-nasb/quran-nasb.jpg",
   "captions": "media/quran-nasb/quran-nasb.vtt",
   "duration": 612,
