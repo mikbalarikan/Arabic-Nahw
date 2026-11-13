@@ -1,0 +1,66 @@
+{
+ "nasb": {
+  "src": "media/nasb/nasb.mp4",
+  "poster": "media/nasb/nasb.jpg",
+  "captions": "media/nasb/nasb.vtt",
+  "duration": 956,
+  "chapters": [
+   {
+    "t": 0,
+    "title": "Introduction"
+   },
+   {
+    "t": 10,
+    "title": "1 Where we are"
+   },
+   {
+    "t": 54,
+    "title": "2 A new sentence: the verb sentence"
+   },
+   {
+    "t": 129,
+    "title": "3 The sign of naṣb: fatha"
+   },
+   {
+    "t": 175,
+    "title": "4 Colour key: the new jobs"
+   },
+   {
+    "t": 219,
+    "title": "5 The four naṣb jobs at a glance"
+   },
+   {
+    "t": 265,
+    "title": "6 Object · مَفْعُولٌ بِهِ"
+   },
+   {
+    "t": 379,
+    "title": "7 Purpose · مَفْعُولٌ لِأَجْلِهِ"
+   },
+   {
+    "t": 496,
+    "title": "8 Time / place · مَفْعُولٌ فِيهِ"
+   },
+   {
+    "t": 627,
+    "title": "9 State · حَال"
+   },
+   {
+    "t": 743,
+    "title": "10 Old rules, new ending"
+   },
+   {
+    "t": 800,
+    "title": "11 All together"
+   },
+   {
+    "t": 908,
+    "title": "Iʿrāb in five questions"
+   },
+   {
+    "t": 933,
+    "title": "Your turn"
+   }
+  ]
+ }
+}

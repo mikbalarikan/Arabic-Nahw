@@ -145,3 +145,22 @@ table.trk { border-collapse: separate; border-spacing: 0; font-size: 12.5px; min
 .legend .lg.now { background: #fff6d3; border-color: #eec455; color: #7a5800; }
 @media (max-width: 760px) { .stage { padding: 14px 12px 16px; border-radius: 16px; } }
 .tile-actions .markcur { margin-left: auto; font-size: 12px; color: #7a5800; border-color: #eec455; background: #fffaf0; }
+
+/* ---------- optional lesson video (above the lesson notes) ---------- */
+.vid { max-width: 880px; margin: 0 auto 18px; background: var(--card); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; }
+.vid summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 14px; padding: 12px 16px; }
+.vid summary::-webkit-details-marker { display: none; }
+.vid summary:hover .vid-play { background: #0b4044; }
+.vid-play { flex: none; width: 40px; height: 40px; border-radius: 50%; background: var(--teal); color: var(--gold); display: inline-flex; align-items: center; justify-content: center; font-size: 15px; padding-left: 3px; }
+.vid-t { display: flex; flex-direction: column; min-width: 0; }
+.vid-t b { color: var(--teal); font-size: 15.5px; }
+.vid-t span { color: var(--muted); font-size: 13px; }
+.vid[open] .vid-play { background: var(--gold); color: var(--ink); }
+.vid-body { padding: 0 16px 14px; }
+.vid video { width: 100%; aspect-ratio: 16 / 9; display: block; border-radius: 10px; background: var(--teal); }
+.vid-ch { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.vid-c { border: 1.5px solid var(--line); background: var(--paper); border-radius: 999px; padding: 4px 11px; font-size: 12.5px; cursor: pointer; color: var(--ink); }
+.vid-c span { color: var(--muted); font-variant-numeric: tabular-nums; margin-right: 6px; }
+.vid-c:hover { border-color: var(--teal); }
+.vid-c.cur { background: var(--teal-soft); border-color: var(--teal); color: var(--teal); font-weight: 600; }
+@media (max-width: 760px) { .vid summary { padding: 10px 12px; } .vid-body { padding: 0 10px 12px; } }

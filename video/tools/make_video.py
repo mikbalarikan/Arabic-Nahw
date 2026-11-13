@@ -4,11 +4,15 @@
   render   each video/build/<id>/<part>/ -> video/out/<id>/parts/<part>.mp4 (silent, then muxed
            with that part's voice.wav). Parts are rendered one at a time (8 GB RAM).
   join     all parts -> video/out/<id>/<id>-1080p.mp4 (+ 720p), subtitles (.srt from the script,
-           not from speech recognition), YouTube chapter list, thumbnail frame.
+           not from speech recognition), YouTube chapter list.
+  web      the copy the course site serves: site/media/<id>/<id>.mp4 (720p, small enough for
+           Cloudflare Pages' 25 MiB file limit), <id>.vtt captions, <id>.jpg poster, and the lesson's
+           entry in site/media/videos.json (chapters for the player).
 
 Usage:
   python3 video/tools/make_video.py render [lesson_id] [--only part,part]
   python3 video/tools/make_video.py join   [lesson_id]
+  python3 video/tools/make_video.py web    [lesson_id]
 """
 import json, re, subprocess, sys
 from pathlib import Path
@@ -126,6 +130,39 @@ def join(lid):
     print(f"done: {full.name}, 720p, {len(srt)} subtitles, {len(yt)} chapters, total {off / 60:.1f} min")
 
 
+PAGES_LIMIT = 25 * 1024 * 1024
+
+
+def web(lid):
+    out = ROOT / "video" / "out" / lid
+    media = ROOT / "site" / "media" / lid
+    media.mkdir(parents=True, exist_ok=True)
+    mp4 = media / f"{lid}.mp4"
+    # slides with gentle motion: a still-image tuned 720p encode keeps text sharp at about 120 kbps
+    run(["ffmpeg", "-v", "error", "-y", "-i", out / f"{lid}-1080p.mp4", "-vf", "scale=1280:720:flags=lanczos",
+         "-c:v", "libx264", "-preset", "veryslow", "-tune", "stillimage", "-crf", "27", "-g", "300", "-pix_fmt", "yuv420p",
+         "-c:a", "aac", "-b:a", "64k", "-ac", "1", "-ar", "48000", "-movflags", "+faststart", mp4])
+    if mp4.stat().st_size > PAGES_LIMIT * 0.95:
+        sys.exit(f"{mp4} is {mp4.stat().st_size / 2**20:.1f} MiB, too close to the 25 MiB Pages limit")
+    srt = (out / f"{lid}.srt").read_text(encoding="utf-8")
+    vtt = "WEBVTT\n\n" + re.sub(r"(\d\d:\d\d:\d\d),(\d\d\d)", r"\1.\2", srt)
+    (media / f"{lid}.vtt").write_text(vtt, encoding="utf-8")
+    run(["ffmpeg", "-v", "error", "-y", "-i", out / f"{lid}-thumbnail.jpg", "-q:v", "4", media / f"{lid}.jpg"])
+    chapters = []
+    for line in (out / f"{lid}-chapters.txt").read_text(encoding="utf-8").splitlines():
+        t, title = line.split(" ", 1)
+        m, sec = t.split(":")
+        chapters.append(dict(t=int(m) * 60 + int(sec), title=title))
+    dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(mp4)],
+                               capture_output=True, text=True, check=True).stdout)
+    reg_path = ROOT / "site" / "media" / "videos.json"
+    reg = json.loads(reg_path.read_text(encoding="utf-8")) if reg_path.exists() else {}
+    reg[lid] = dict(src=f"media/{lid}/{lid}.mp4", poster=f"media/{lid}/{lid}.jpg", captions=f"media/{lid}/{lid}.vtt",
+                    duration=round(dur), chapters=chapters)
+    reg_path.write_text(json.dumps(reg, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    print(f"web: {mp4.relative_to(ROOT)} {mp4.stat().st_size / 2**20:.1f} MiB, {len(chapters)} chapters, {dur / 60:.1f} min")
+
+
 if __name__ == "__main__":
     a = sys.argv[1:]
     cmd = a.pop(0)
@@ -133,4 +170,4 @@ if __name__ == "__main__":
     if "--only" in a:
         k = a.index("--only"); only = set(a[k + 1].split(",")); del a[k:k + 2]
     lid = a[0] if a else "nasb"
-    render(lid, only) if cmd == "render" else join(lid)
+    {"render": lambda: render(lid, only), "join": lambda: join(lid), "web": lambda: web(lid)}[cmd]()

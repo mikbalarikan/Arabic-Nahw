@@ -337,10 +337,35 @@ function renderHome() {
 }
 
 /* ============================ static views ============================ */
+function fmtTime(t) { return `${Math.floor(t / 60)}:${String(Math.floor(t % 60)).padStart(2, "0")}`; }
+// Optional lesson video: a closed card above the notes; nothing is downloaded until it is opened.
+function videoCard(d) {
+  const v = d.video;
+  if (!v) return "";
+  const open = load("iraab-video-open-" + d.id) === "1";
+  return `<details class="vid"${open ? " open" : ""}><summary><span class="vid-play" aria-hidden="true">▶</span>
+    <span class="vid-t"><b>Watch this lesson as a video</b><span>${fmtTime(v.duration)} · the same notes, explained step by step · subtitles</span></span></summary>
+    <div class="vid-body"><video controls playsinline preload="none" poster="${esc(v.poster)}">
+      <source src="${esc(v.src)}" type="video/mp4"><track kind="captions" src="${esc(v.captions)}" srclang="en" label="English"></video>
+    <div class="vid-ch" aria-label="Chapters">${v.chapters.map(c => `<button type="button" class="vid-c" data-t="${c.t}"><span>${fmtTime(c.t)}</span>${esc(c.title)}</button>`).join("")}</div></div></details>`;
+}
+function wireVideo(d) {
+  const box = app.querySelector("details.vid");
+  if (!box) return;
+  const vid = box.querySelector("video");
+  box.addEventListener("toggle", () => { store("iraab-video-open-" + d.id, box.open ? "1" : "0"); if (!box.open) vid.pause(); });
+  box.querySelectorAll(".vid-c").forEach(b => b.onclick = () => { vid.currentTime = +b.dataset.t; vid.play().catch(() => {}); });
+  vid.addEventListener("timeupdate", () => {
+    let cur = null;
+    box.querySelectorAll(".vid-c").forEach(b => { if (+b.dataset.t <= vid.currentTime + 0.25) cur = b; });
+    box.querySelectorAll(".vid-c").forEach(b => b.classList.toggle("cur", b === cur));
+  });
+}
 function renderStatic(d) {
-  app.innerHTML = `${authPanel()}<div class="view">${d.intro || ""}
+  app.innerHTML = `${authPanel()}${videoCard(d)}<div class="view">${d.intro || ""}
     <div class="ic-foot" style="justify-content:center;margin-top:24px">${d.sets.map((x, k) => `<button class="btn ${k ? "" : "primary"}" type="button" data-h="${d.id}-${x.id}">${esc(x.label)} →</button>`).join("")}</div></div>`;
   app.querySelectorAll(".ic-foot [data-h]").forEach(b => b.onclick = () => go(b.dataset.h));
+  wireVideo(d);
   wireAuth();
 }
 function optLabel(f, r, k) { return optsOf(f, r).find(o => o.k === k) || { label: k }; }

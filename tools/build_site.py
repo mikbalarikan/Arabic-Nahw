@@ -9,6 +9,7 @@ other modules), validates every Stage 0 unit, and writes:
     dist/index.html, dist/app.js, dist/app.css, dist/config.js, dist/_headers
     dist/data/manifest.json        lesson list for the home page and the tracking sheet
     dist/data/lessons/<id>.json     one file per lesson: lesson page + all cards (loaded when opened)
+    dist/media/                     lesson videos (from site/media/, made by video/tools/make_video.py web)
 Supabase settings come from IRAAB_SUPABASE_URL / IRAAB_SUPABASE_ANON_KEY, or from site/config.js.
 """
 import glob, hashlib, html, json, os, shutil, subprocess, sys
@@ -49,6 +50,16 @@ def main():
 
     if os.path.isdir(DIST): shutil.rmtree(DIST)
     os.makedirs(os.path.join(DIST, "data", "lessons"))
+    videos_path = os.path.join(SITE, "media", "videos.json")
+    videos = json.load(open(videos_path, encoding="utf-8")) if os.path.exists(videos_path) else {}
+    for vid in videos.values():
+        for k in ("src", "poster", "captions"):
+            f = os.path.join(SITE, vid[k])
+            if not os.path.exists(f): fail(f"video file missing: site/{vid[k]}")
+            if os.path.getsize(f) > 25 * 1024 * 1024: fail(f"site/{vid[k]} is over Cloudflare Pages' 25 MiB file limit")
+            vid[k] += "?v=" + hashlib.sha1(open(f, "rb").read()).hexdigest()[:10]
+    if os.path.isdir(os.path.join(SITE, "media")):
+        shutil.copytree(os.path.join(SITE, "media"), os.path.join(DIST, "media"), ignore=shutil.ignore_patterns("videos.json"))
     manifest = []
     for d in lessons:
         body = {"intro": d.get("intro", ""), "teacher": d.get("teacher", ""), "sets": d["sets"]}
@@ -58,7 +69,7 @@ def main():
         manifest.append({
             "id": d["id"], "stage": d["stage"], "order": d.get("order", 0), "kind": d.get("kind", ""), "title": d["title"], "ar": d["ar"],
             "blurb": d["blurb"], "introLabel": d.get("introLabel", "Intro"), "hasTeacher": bool(d.get("teacher")),
-            "sample": sample_html(d), "v": v,
+            "sample": sample_html(d), "v": v, **({"video": videos[d["id"]]} if d["id"] in videos else {}),
             "sets": [{"id": s["id"], "label": s["label"], "n": len(s["cards"]), "cards": [{"n": c["n"]} for c in s["cards"]]} for s in d["sets"]],
         })
     json.dump({"lessons": manifest}, open(os.path.join(DIST, "data", "manifest.json"), "w", encoding="utf-8"), ensure_ascii=False)
@@ -83,7 +94,8 @@ def main():
     open(os.path.join(DIST, "index.html"), "w", encoding="utf-8").write(page)
     open(os.path.join(DIST, "_headers"), "w").write(
         "/data/manifest.json\n  Cache-Control: no-cache\n/index.html\n  Cache-Control: no-cache\n/config.js\n  Cache-Control: no-cache\n"
-        "/data/lessons/*\n  Cache-Control: public, max-age=31536000, immutable\n")
+        "/data/lessons/*\n  Cache-Control: public, max-age=31536000, immutable\n"
+        "/media/*\n  Cache-Control: public, max-age=31536000, immutable\n")
     n_cards = sum(len(s["cards"]) for d in lessons for s in d["sets"])
     size = sum(os.path.getsize(f) for f in glob.glob(os.path.join(DIST, "**"), recursive=True) if os.path.isfile(f))
     print(f"Built dist/: {len(lessons)} lessons, {n_cards} cards, {size // 1024} KB, config: {'Supabase' if 'supabase.co' in cfg else 'none'}")
