@@ -7,7 +7,7 @@ Voice: Supertonic 3, style M4. Source: the `notes` blocks of `content/stage3/u7_
 
 | Check | Result | How |
 |---|---|---|
-| Every Arabic string is exactly from the unit file | ✅ 89 checked, 0 errors (16 warnings: words that end in a long vowel, فِي حَتَّى لَا بَلَى, or are followed by ؟ / ،) | `check_arabic.py` (lesson.json `sources`) |
+| Every Arabic string is exactly from the unit file | ✅ 87 checked, 0 errors (16 warnings: words that end in a long vowel, فِي حَتَّى لَا بَلَى, or are followed by ؟ / ،) | `check_arabic.py` (lesson.json `sources`) |
 | Every Arabic clip ends with the written vowel / tanween / sukūn | ✅ 80 / 80 | `check_endings.py` (wav2vec2 phonemes) |
 | Inside sounds of the clips the ending check cannot see | ✅ أَمَا read a-m-ā, not أَمَّا (3 clips, other seed); أَوِ اللَّبَنَ read "awillabana" (3 clips, voice-only spelling أَوِلَّبَنَ) | `voice_s3_particles.py` (phoneme rules, choices in `audio/choices_voicefix_s3_particles.json`) |
 | One-letter ḥarfs joined to a word (بِـ لِـ كَـ وَ فَ أَ) never read alone | ✅ the whole word or sentence is read | script review |
