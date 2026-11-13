@@ -17,17 +17,17 @@ Voice: Supertonic 3, style M4. Source: the `notes` blocks of `content/stage3/u7_
 | Visuals while spoken: row shown and marked while read, full Arabic sentence visible while read, boxes when said, nothing cut off | ✅ after one fix round | 165 cue-time and scene end-frames, two independent reviewers |
 | Loudness | ✅ −14.5 LUFS integrated, true peak −1.5 dBTP (mix) | `audio_tools.py mix`, ebur128 on the final file |
 | Site: the lesson page plays the video, chapter buttons seek, on a server WITHOUT Range support | ✅ `python3 -m http.server` (Range → 200): HLS via hls.js, play, chapter 3 → 2:51 | browser check |
+| Live: https://arabic-nahw.pages.dev/#s3-particles | ✅ manifest has the video (HLS `hls-b57dc7a9`); plays, chapter 6 → 5:52 | browser check after deploy |
 
 Fix round 1 (from the frame QA): the Arabic lists in the five group cards are read right to left in the video
 (the site writes them in an LTR line, see below); table wash and header no longer stick out of the rounded card;
 Arabic-only table columns have right-aligned headers; the Arabic in a box title (When to use بَلَى) is bold like the
 rest; worked-example cards use a fixed Arabic column; the watermark الحُرُوفُ lights up while it is read.
 
-Changes to shared tools (small, backward compatible; nasb gives the same check_arabic result as its QA record,
-108 / 0 errors / 4 warnings, and quran-nasb 49 / 0 / 0; no nasb or quran-nasb clip ends in punctuation or a bare ى):
-- `check_arabic.py`: lesson.json may list its own `sources` (the shared Stage 3 change, same text as the other units).
-- `check_endings.py` / `tts_generate.py respell()`: a final ؟ or ، is not part of the ending (s3-questions' change,
-  copied exactly); alif maqṣūra ى counts as a long-vowel ending (إِلَى، عَلَى، بَلَى، حَتَّى).
+Shared tools:
+- None left in this lesson's commit: the versions on `main` (from the other Stage 3 videos) already contain what this
+  video needs (`sources` in lesson.json for check_arabic; a final ؟ / ، is not part of the ending; alif maqṣūra ى
+  counts as a long-vowel ending). The 80 clips were checked again with main's check_endings: 80 ok.
 
 Known, accepted:
 - HyperFrames warns about dead stretches (a table row stays still while it is read) and type below 28 px (the top
