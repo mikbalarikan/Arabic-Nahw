@@ -1,6 +1,7 @@
 {
  "nasb": {
   "src": "media/nasb/nasb.mp4",
+  "hls": "media/nasb/hls-f74205c9/index.m3u8",
   "poster": "media/nasb/nasb.jpg",
   "captions": "media/nasb/nasb.vtt",
   "duration": 956,

@@ -164,3 +164,5 @@ table.trk { border-collapse: separate; border-spacing: 0; font-size: 12.5px; min
 .vid-c:hover { border-color: var(--teal); }
 .vid-c.cur { background: var(--teal-soft); border-color: var(--teal); color: var(--teal); font-weight: 600; }
 @media (max-width: 760px) { .vid summary { padding: 10px 12px; } .vid-body { padding: 0 10px 12px; } }
+.vid-dl { display: inline-block; margin-top: 10px; font-size: 12.5px; color: var(--muted); }
+.vid-dl:hover { color: var(--teal); }

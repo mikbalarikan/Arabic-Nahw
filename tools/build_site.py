@@ -53,7 +53,7 @@ def main():
     videos_path = os.path.join(SITE, "media", "videos.json")
     videos = json.load(open(videos_path, encoding="utf-8")) if os.path.exists(videos_path) else {}
     for vid in videos.values():
-        for k in ("src", "poster", "captions"):
+        for k in ("src", "hls", "poster", "captions"):
             f = os.path.join(SITE, vid[k])
             if not os.path.exists(f): fail(f"video file missing: site/{vid[k]}")
             if os.path.getsize(f) > 25 * 1024 * 1024: fail(f"site/{vid[k]} is over Cloudflare Pages' 25 MiB file limit")

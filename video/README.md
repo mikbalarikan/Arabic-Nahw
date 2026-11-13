@@ -36,9 +36,19 @@ python3 video/tools/build_composition.py nasb
 $PY video/tools/audio_tools.py mix nasb
 python3 video/tools/make_video.py render nasb        # one part at a time; --only p01-intro,p02-verb-sentence
 python3 video/tools/make_video.py join nasb
+python3 video/tools/make_video.py web nasb           # the copy the course site plays (site/media/nasb/)
 ```
 Check a part's layout before rendering: `cd video/build/nasb/p06-object && ../../../node_modules/.bin/hyperframes check .`
 and look at frames with `hyperframes snapshot . --at 10,20,30`.
+
+## On the site
+`make_video.py web` writes `site/media/<id>/`: a 720p MP4 (offered as a download), the same video as
+HLS segments in `hls-<hash>/`, captions (`.vtt`) and a poster, and adds the lesson to
+`site/media/videos.json`. `tools/build_site.py` puts the video into that lesson's manifest entry and
+the lesson page shows a closed "Watch this lesson as a video" card with chapter buttons.
+Cloudflare Pages answers byte-range requests with the whole file, so a plain MP4 there cannot seek
+and may not play on iPhones; that is why the player streams the HLS copy (Safari natively, other
+browsers through hls.js). Every file must stay under the Pages limit of 25 MiB.
 
 ## The voice
 Chosen by the teacher on 13 Nov 2026 from four auditions: **Supertonic 3, style M4** (Supertone,
