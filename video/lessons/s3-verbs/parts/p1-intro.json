@@ -1,0 +1,21 @@
+{"segments": [
+ {"id": "hero-01", "scene": "hero", "lang": "en", "text": "Fixed verbs. Past and order.", "pause": 0.5, "cues": []},
+ {"id": "hero-02", "scene": "hero", "lang": "en", "text": "Two kinds of verb that never change.", "pause": 0.4, "cues": ["title"]},
+ {"id": "hero-03", "scene": "hero", "lang": "en", "text": "A past verb and an order verb are always fixed.", "pause": 0.25, "cues": ["sub"]},
+ {"id": "hero-04", "scene": "hero", "lang": "en", "text": "Their ending tells you who did the action.", "pause": 0.25, "cues": []},
+ {"id": "hero-05", "scene": "hero", "lang": "en", "text": "And that ending never moves for iʿrāb.", "pause": 0.7, "cues": []},
+ {"id": "c01-title-01", "scene": "c01-title", "lang": "en", "text": "Chapter one. Which verbs are fixed?", "pause": 0.4, "cues": ["title"]},
+ {"id": "c01-title-02", "scene": "c01-title", "lang": "en", "text": "Arabic has three kinds of verb.", "pause": 0.25, "cues": ["sub"]},
+ {"id": "c01-title-03", "scene": "c01-title", "lang": "en", "text": "Two of them are fixed in every form.", "pause": 0.4, "cues": []},
+ {"id": "c01-title-04", "scene": "c01-title", "lang": "ar", "text": "مَبْنِيٌّ", "pause": 0.6, "cues": []},
+ {"id": "c01-cols-01", "scene": "c01-cols", "lang": "en", "text": "The first is the past verb. An action that is done.", "pause": 0.4, "cues": ["item:0"]},
+ {"id": "c01-cols-02", "scene": "c01-cols", "lang": "ar", "text": "كَتَبَ", "pause": 0.45, "cues": []},
+ {"id": "c01-cols-03", "scene": "c01-cols", "lang": "en", "text": "He wrote. It is fixed.", "pause": 0.4, "cues": []},
+ {"id": "c01-cols-04", "scene": "c01-cols", "lang": "en", "text": "The second is the order verb. You tell someone to act.", "pause": 0.4, "cues": ["item:1"]},
+ {"id": "c01-cols-05", "scene": "c01-cols", "lang": "ar", "text": "اُكْتُبْ", "pause": 0.45, "cues": []},
+ {"id": "c01-cols-06", "scene": "c01-cols", "lang": "en", "text": "Write! It is fixed too.", "pause": 0.4, "cues": []},
+ {"id": "c01-cols-07", "scene": "c01-cols", "lang": "en", "text": "The third is the present verb. It is mostly flexible. Its ending changes.", "pause": 0.25, "cues": ["item:2"]},
+ {"id": "c01-cols-08", "scene": "c01-cols", "lang": "en", "text": "We study it in Stage 8.", "pause": 0.5, "cues": []},
+ {"id": "c01-tip-01", "scene": "c01-tip", "lang": "en", "text": "In this unit we only use past and order verbs.", "pause": 0.25, "cues": ["show"]},
+ {"id": "c01-tip-02", "scene": "c01-tip", "lang": "en", "text": "Leave the present verb for later.", "pause": 0.7, "cues": []}
+]}

@@ -304,5 +304,58 @@
     "title": "Your turn"
    }
   ]
+ },
+ "s3-verbs": {
+  "src": "media/s3-verbs/s3-verbs.mp4",
+  "hls": "media/s3-verbs/hls-959605c3/index.m3u8",
+  "poster": "media/s3-verbs/s3-verbs.jpg",
+  "captions": "media/s3-verbs/s3-verbs.vtt",
+  "duration": 511,
+  "chapters": [
+   {
+    "t": 0,
+    "title": "Introduction"
+   },
+   {
+    "t": 12,
+    "title": "1 Which verbs are fixed?"
+   },
+   {
+    "t": 45,
+    "title": "2 The past verb: 14 persons"
+   },
+   {
+    "t": 124,
+    "title": "3 The ending is the doer"
+   },
+   {
+    "t": 189,
+    "title": "4 What the past verb is built on"
+   },
+   {
+    "t": 244,
+    "title": "5 Saying 'did not': مَا + past verb"
+   },
+   {
+    "t": 333,
+    "title": "6 The order verb: 5 forms"
+   },
+   {
+    "t": 391,
+    "title": "7 اُ or اِ? A list to learn"
+   },
+   {
+    "t": 433,
+    "title": "8 The helping kasra (from Stage 2)"
+   },
+   {
+    "t": 468,
+    "title": "In short"
+   },
+   {
+    "t": 501,
+    "title": "Your turn"
+   }
+  ]
  }
 }

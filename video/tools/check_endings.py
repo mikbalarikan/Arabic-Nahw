@@ -30,6 +30,11 @@ def expected(word):
     w = word.rstrip(PUNCT).rstrip("\u0640")
     if w.endswith("\u0627") and FT in w[-3:]:
         return "an"
+    # a long vowel written with its letter after the matching short vowel: ـَا (كَتَبَا، كَتَبْنَا), ـُوا / ـُو
+    # (كَتَبُوا), ـِي (اُكْتُبِي). The clip must end in that vowel, not in the consonant before it.
+    for tail, e in (("\u064E\u0627", "aa"), ("\u064F\u0648\u0627", "uu"), ("\u064F\u0648", "uu"), ("\u0650\u064A", "ii")):
+        if w.endswith(tail) and len(w) > len(tail):
+            return e
     tail = ""
     for c in reversed(w):
         if "\u064B" <= c <= "\u0652":
@@ -56,6 +61,9 @@ def judge(exp, phones, word=""):
     if not seq:
         return False, "no speech"
     last, prev = seq[-1], (seq[-2] if len(seq) > 1 else "")
+    if exp in ("aa", "uu", "ii"):
+        # ends in the long vowel itself (length is not judged), right after a consonant
+        return last == exp[0] and prev in ("c", "n"), f"ends …{' '.join(phones.split()[-3:])}"
     if exp in ("a", "u", "i"):
         # a short vowel after a consonant: "b a", not the long "aː" of a dropped final letter
         # a long final vowel is fine for -u/-i; for -a it usually means a dropped last letter ("b aː" of al-baab)

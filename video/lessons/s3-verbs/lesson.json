@@ -1,0 +1,1037 @@
+{
+ "id": "s3-verbs",
+ "stage": 3,
+ "title": "Fixed verbs: past and order",
+ "ar_title": "الفِعْلُ المَاضِي وَفِعْلُ الأَمْرِ",
+ "blurb": "Every past verb and every order verb is fixed. Learn all their forms and what they are built on.",
+ "sources": [
+  "content/stage3/u6_verbs.py"
+ ],
+ "tabs": [
+  "Lesson",
+  "Practice"
+ ],
+ "roles": {
+  "verb": {
+   "en": "Verb",
+   "ar": "فِعْل",
+   "border": "#3a5a85",
+   "bg": "#e8eef6",
+   "text": "#2b4668",
+   "short": "verb"
+  },
+  "doer": {
+   "en": "Doer",
+   "ar": "فَاعِل",
+   "border": "#ea7a10",
+   "bg": "#fff0df",
+   "text": "#b05705",
+   "short": "doer"
+  },
+  "obj": {
+   "en": "Object",
+   "ar": "مَفْعُولٌ بِهِ",
+   "border": "#d63384",
+   "bg": "#fde6f1",
+   "text": "#a61e62",
+   "short": "object"
+  },
+  "purp": {
+   "en": "Purpose",
+   "ar": "مَفْعُولٌ لِأَجْلِهِ",
+   "border": "#0f9d9a",
+   "bg": "#dcf4f3",
+   "text": "#0a7471",
+   "short": "purpose"
+  },
+  "when": {
+   "en": "Time / place",
+   "ar": "مَفْعُولٌ فِيهِ",
+   "border": "#a0612b",
+   "bg": "#f5e9dd",
+   "text": "#7b471c",
+   "short": "time/place"
+  },
+  "state": {
+   "en": "State",
+   "ar": "حَال",
+   "border": "#6b8e23",
+   "bg": "#edf4dc",
+   "text": "#4c6810",
+   "short": "state"
+  },
+  "topic": {
+   "en": "Topic",
+   "ar": "مُبْتَدَأ",
+   "border": "#e0a10b",
+   "bg": "#fff5d6",
+   "text": "#a87805",
+   "short": "topic"
+  },
+  "info": {
+   "en": "Information",
+   "ar": "خَبَر",
+   "border": "#e04a3a",
+   "bg": "#fde7e4",
+   "text": "#b8322a",
+   "short": "info"
+  },
+  "prep": {
+   "en": "After a preposition",
+   "ar": "بَعْدَ حَرْفِ الجَرّ",
+   "border": "#22a05a",
+   "bg": "#e2f5e9",
+   "text": "#17803f",
+   "short": "prep"
+  },
+  "owner": {
+   "en": "Ownership",
+   "ar": "إِضَافَة",
+   "border": "#7b4fd6",
+   "bg": "#efe8fc",
+   "text": "#5f36b8",
+   "short": "owner"
+  },
+  "adj": {
+   "en": "Adjective",
+   "ar": "صِفَة",
+   "border": "#7d858e",
+   "bg": "#eef0f2",
+   "text": "#5a626b",
+   "short": "adj"
+  },
+  "and": {
+   "en": "After وَ (and)",
+   "ar": "مَعْطُوف",
+   "border": "#2f7fe0",
+   "bg": "#e3eefc",
+   "text": "#1f64bd",
+   "short": "and"
+  }
+ },
+ "chapters": [
+  {
+   "num": 0,
+   "title": null,
+   "blocks": [
+    {
+     "t": "hero",
+     "data": {
+      "t": "hero",
+      "eyebrow": "STAGE 3 · UNIT 6",
+      "title": "Two kinds of verb that never change",
+      "text": "A past verb and an order verb are always fixed. Their ending tells you who did the action, and it never moves for iʿrāb.",
+      "wm": "الفِعْلُ المَبْنِيُّ"
+     },
+     "html": "<div class=\"hero\"><div class=\"eyebrow\">STAGE 3 · UNIT 6</div><h1>Two kinds of verb that never change</h1><p>A past verb and an order verb are always fixed. Their ending tells you who did the action, and it never moves for iʿrāb.</p><div class=\"wm\" aria-hidden=\"true\">الفِعْلُ المَبْنِيُّ</div></div>"
+    }
+   ]
+  },
+  {
+   "num": 1,
+   "title": "Which verbs are fixed?",
+   "title_html": "Which verbs are fixed?",
+   "blocks": [
+    {
+     "t": "p",
+     "data": {
+      "t": "p",
+      "text": "Arabic has three kinds of verb. Two of them are fixed ({مَبْنِيٌّ}) in every form."
+     },
+     "html": "<p class=\"s0p\">Arabic has three kinds of verb. Two of them are fixed (<bdi class=\"ab\">مَبْنِيٌّ</bdi>) in every form.</p>"
+    },
+    {
+     "t": "cols",
+     "data": {
+      "t": "cols",
+      "items": [
+       {
+        "color": "navy",
+        "title": "Past verb · fixed",
+        "ar": "الفِعْلُ المَاضِي",
+        "text": "An action that is done: {كَتَبَ} he wrote."
+       },
+       {
+        "color": "brown",
+        "title": "Order verb · fixed",
+        "ar": "فِعْلُ الأَمْرِ",
+        "text": "Telling someone to act: {اُكْتُبْ} write!"
+       },
+       {
+        "color": "orange",
+        "title": "Present verb · mostly flexible",
+        "ar": "الفِعْلُ المُضَارِعُ",
+        "text": "Its ending changes. We study it in Stage 8."
+       }
+      ]
+     },
+     "html": "<div class=\"kkgrid s0cols\"><div class=\"kk\" style=\"border-left-color:#3a5a85;background:#e8eef6\"><div class=\"kkt\"><span style=\"color:#2b4668\"><span class=\"dot\" style=\"background:#3a5a85\"></span>Past verb · fixed</span><span class=\"kkar\">الفِعْلُ المَاضِي</span></div><div class=\"kkd\">An action that is done: <bdi class=\"ab\">كَتَبَ</bdi> he wrote.</div></div><div class=\"kk\" style=\"border-left-color:#a0612b;background:#f5e9dd\"><div class=\"kkt\"><span style=\"color:#7b471c\"><span class=\"dot\" style=\"background:#a0612b\"></span>Order verb · fixed</span><span class=\"kkar\">فِعْلُ الأَمْرِ</span></div><div class=\"kkd\">Telling someone to act: <bdi class=\"ab\">اُكْتُبْ</bdi> write!</div></div><div class=\"kk\" style=\"border-left-color:#ea7a10;background:#fff0df\"><div class=\"kkt\"><span style=\"color:#b05705\"><span class=\"dot\" style=\"background:#ea7a10\"></span>Present verb · mostly flexible</span><span class=\"kkar\">الفِعْلُ المُضَارِعُ</span></div><div class=\"kkd\">Its ending changes. We study it in Stage 8.</div></div></div>"
+    },
+    {
+     "t": "tip",
+     "data": {
+      "t": "tip",
+      "text": "In this unit we only use past and order verbs. Leave the present verb for later."
+     },
+     "html": "<div class=\"tipbox\"><b>Tip:</b> In this unit we only use past and order verbs. Leave the present verb for later.</div>"
+    }
+   ]
+  },
+  {
+   "num": 2,
+   "title": "The past verb: 14 persons",
+   "title_html": "The past verb: 14 persons",
+   "blocks": [
+    {
+     "t": "p",
+     "data": {
+      "t": "p",
+      "text": "Learn this table by heart. Each pronoun from unit 1 has its own past form."
+     },
+     "html": "<p class=\"s0p\">Learn this table by heart. Each pronoun from unit 1 has its own past form.</p>"
+    },
+    {
+     "t": "table",
+     "data": {
+      "t": "table",
+      "head": [
+       "Person",
+       "Pronoun",
+       "Past verb",
+       "Meaning"
+      ],
+      "rows": [
+       [
+        "he",
+        "هُوَ",
+        "كَتَبَ",
+        "he wrote"
+       ],
+       [
+        "they two (m)",
+        "هُمَا",
+        "كَتَبَا",
+        "they two wrote"
+       ],
+       [
+        "they (m)",
+        "هُمْ",
+        "كَتَبُوا",
+        "they wrote"
+       ],
+       [
+        "she",
+        "هِيَ",
+        "كَتَبَتْ",
+        "she wrote"
+       ],
+       [
+        "they two (f)",
+        "هُمَا",
+        "كَتَبَتَا",
+        "they two wrote"
+       ],
+       [
+        "they (f)",
+        "هُنَّ",
+        "كَتَبْنَ",
+        "they wrote"
+       ],
+       [
+        "you (m)",
+        "أَنْتَ",
+        "كَتَبْتَ",
+        "you wrote"
+       ],
+       [
+        "you two (m)",
+        "أَنْتُمَا",
+        "كَتَبْتُمَا",
+        "you two wrote"
+       ],
+       [
+        "you (m pl)",
+        "أَنْتُمْ",
+        "كَتَبْتُمْ",
+        "you all wrote"
+       ],
+       [
+        "you (f)",
+        "أَنْتِ",
+        "كَتَبْتِ",
+        "you wrote"
+       ],
+       [
+        "you two (f)",
+        "أَنْتُمَا",
+        "كَتَبْتُمَا",
+        "you two wrote"
+       ],
+       [
+        "you (f pl)",
+        "أَنْتُنَّ",
+        "كَتَبْتُنَّ",
+        "you all wrote"
+       ],
+       [
+        "I",
+        "أَنَا",
+        "كَتَبْتُ",
+        "I wrote"
+       ],
+       [
+        "we",
+        "نَحْنُ",
+        "كَتَبْنَا",
+        "we wrote"
+       ]
+      ]
+     },
+     "html": "<div class=\"tblwrap\"><table class=\"glance s0t\"><tr><th>Person</th><th>Pronoun</th><th>Past verb</th><th>Meaning</th></tr><tr><td class=\"\">he</td><td class=\"tar\">هُوَ</td><td class=\"tar\">كَتَبَ</td><td class=\"\">he wrote</td></tr><tr><td class=\"\">they two (m)</td><td class=\"tar\">هُمَا</td><td class=\"tar\">كَتَبَا</td><td class=\"\">they two wrote</td></tr><tr><td class=\"\">they (m)</td><td class=\"tar\">هُمْ</td><td class=\"tar\">كَتَبُوا</td><td class=\"\">they wrote</td></tr><tr><td class=\"\">she</td><td class=\"tar\">هِيَ</td><td class=\"tar\">كَتَبَتْ</td><td class=\"\">she wrote</td></tr><tr><td class=\"\">they two (f)</td><td class=\"tar\">هُمَا</td><td class=\"tar\">كَتَبَتَا</td><td class=\"\">they two wrote</td></tr><tr><td class=\"\">they (f)</td><td class=\"tar\">هُنَّ</td><td class=\"tar\">كَتَبْنَ</td><td class=\"\">they wrote</td></tr><tr><td class=\"\">you (m)</td><td class=\"tar\">أَنْتَ</td><td class=\"tar\">كَتَبْتَ</td><td class=\"\">you wrote</td></tr><tr><td class=\"\">you two (m)</td><td class=\"tar\">أَنْتُمَا</td><td class=\"tar\">كَتَبْتُمَا</td><td class=\"\">you two wrote</td></tr><tr><td class=\"\">you (m pl)</td><td class=\"tar\">أَنْتُمْ</td><td class=\"tar\">كَتَبْتُمْ</td><td class=\"\">you all wrote</td></tr><tr><td class=\"\">you (f)</td><td class=\"tar\">أَنْتِ</td><td class=\"tar\">كَتَبْتِ</td><td class=\"\">you wrote</td></tr><tr><td class=\"\">you two (f)</td><td class=\"tar\">أَنْتُمَا</td><td class=\"tar\">كَتَبْتُمَا</td><td class=\"\">you two wrote</td></tr><tr><td class=\"\">you (f pl)</td><td class=\"tar\">أَنْتُنَّ</td><td class=\"tar\">كَتَبْتُنَّ</td><td class=\"\">you all wrote</td></tr><tr><td class=\"\">I</td><td class=\"tar\">أَنَا</td><td class=\"tar\">كَتَبْتُ</td><td class=\"\">I wrote</td></tr><tr><td class=\"\">we</td><td class=\"tar\">نَحْنُ</td><td class=\"tar\">كَتَبْنَا</td><td class=\"\">we wrote</td></tr></table></div>"
+    },
+    {
+     "t": "tip",
+     "data": {
+      "t": "tip",
+      "text": "There are 14 persons but only 13 written forms. {كَتَبْتُمَا} is used for two men and for two women."
+     },
+     "html": "<div class=\"tipbox\"><b>Tip:</b> There are 14 persons but only 13 written forms. <bdi class=\"ab\">كَتَبْتُمَا</bdi> is used for two men and for two women.</div>"
+    },
+    {
+     "t": "examples",
+     "data": {
+      "t": "examples",
+      "items": [
+       {
+        "ar": "أَنَا ذَهَبْتُ إِلَى المَسْجِدِ.",
+        "en": "I went to the mosque."
+       },
+       {
+        "ar": "هِيَ جَلَسَتْ فِي الغُرْفَةِ.",
+        "en": "She sat in the room."
+       },
+       {
+        "ar": "نَحْنُ مَا خَرَجْنَا مِنَ البَيْتِ.",
+        "en": "We did not go out of the house.",
+        "note": "{مَا} before a past verb means \"did not\". See \"Saying 'did not'\" below."
+       }
+      ]
+     },
+     "html": "<div class=\"exlist\"><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">أَنَا ذَهَبْتُ إِلَى المَسْجِدِ.</div><div class=\"exe\">I went to the mosque.</div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">هِيَ جَلَسَتْ فِي الغُرْفَةِ.</div><div class=\"exe\">She sat in the room.</div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">نَحْنُ مَا خَرَجْنَا مِنَ البَيْتِ.</div><div class=\"exe\">We did not go out of the house.<div class=\"exn\"><bdi class=\"ab\">مَا</bdi> before a past verb means &quot;did not&quot;. See &quot;Saying &#x27;did not&#x27;&quot; below.</div></div></div></div>"
+    }
+   ]
+  },
+  {
+   "num": 3,
+   "title": "The ending is the doer",
+   "title_html": "The ending is the doer",
+   "blocks": [
+    {
+     "t": "p",
+     "data": {
+      "t": "p",
+      "text": "Most endings of the past verb are attached pronouns. The pronoun is the doer. It is fixed, in the place of rafʿ ({فِي مَحَلِّ رَفْعٍ})."
+     },
+     "html": "<p class=\"s0p\">Most endings of the past verb are attached pronouns. The pronoun is the doer. It is fixed, in the place of rafʿ (<bdi class=\"ab\">فِي مَحَلِّ رَفْعٍ</bdi>).</p>"
+    },
+    {
+     "t": "words",
+     "data": {
+      "t": "words",
+      "items": [
+       {
+        "ar": "ـتُ",
+        "sub": "I",
+        "color": "red"
+       },
+       {
+        "ar": "ـتَ",
+        "sub": "you (m)",
+        "color": "red"
+       },
+       {
+        "ar": "ـتِ",
+        "sub": "you (f)",
+        "color": "red"
+       },
+       {
+        "ar": "ـنَا",
+        "sub": "we",
+        "color": "red"
+       },
+       {
+        "ar": "ـتُمْ",
+        "sub": "you (m pl)",
+        "color": "red"
+       },
+       {
+        "ar": "ـُوا",
+        "sub": "they (m)",
+        "color": "red"
+       },
+       {
+        "ar": "ـنَ",
+        "sub": "they (f)",
+        "color": "red"
+       },
+       {
+        "ar": "ـا",
+        "sub": "they two",
+        "color": "red"
+       }
+      ]
+     },
+     "html": "<div class=\"wtiles\"><div class=\"wt0\" style=\"border-color:#e04a3a;background:#fde7e4\"><div class=\"wta\">ـتُ</div><div class=\"wts\">I</div></div><div class=\"wt0\" style=\"border-color:#e04a3a;background:#fde7e4\"><div class=\"wta\">ـتَ</div><div class=\"wts\">you (m)</div></div><div class=\"wt0\" style=\"border-color:#e04a3a;background:#fde7e4\"><div class=\"wta\">ـتِ</div><div class=\"wts\">you (f)</div></div><div class=\"wt0\" style=\"border-color:#e04a3a;background:#fde7e4\"><div class=\"wta\">ـنَا</div><div class=\"wts\">we</div></div><div class=\"wt0\" style=\"border-color:#e04a3a;background:#fde7e4\"><div class=\"wta\">ـتُمْ</div><div class=\"wts\">you (m pl)</div></div><div class=\"wt0\" style=\"border-color:#e04a3a;background:#fde7e4\"><div class=\"wta\">ـُوا</div><div class=\"wts\">they (m)</div></div><div class=\"wt0\" style=\"border-color:#e04a3a;background:#fde7e4\"><div class=\"wta\">ـنَ</div><div class=\"wts\">they (f)</div></div><div class=\"wt0\" style=\"border-color:#e04a3a;background:#fde7e4\"><div class=\"wta\">ـا</div><div class=\"wts\">they two</div></div></div>"
+    },
+    {
+     "t": "rule",
+     "data": {
+      "t": "rule",
+      "color": "grey",
+      "title": "The ـتْ of كَتَبَتْ is a ḥarf",
+      "text": "In {كَتَبَتْ} the {ـتْ} only shows that the doer is feminine. It is a ḥarf, with no place. The doer is hidden: {هِيَ}."
+     },
+     "html": "<div class=\"rbox\" style=\"border-color:#7d858e;background:#eef0f2\"><b style=\"color:#5a626b\">The ـتْ of كَتَبَتْ is a ḥarf.</b> In <bdi class=\"ab\">كَتَبَتْ</bdi> the <bdi class=\"ab\">ـتْ</bdi> only shows that the doer is feminine. It is a ḥarf, with no place. The doer is hidden: <bdi class=\"ab\">هِيَ</bdi>.</div>"
+    },
+    {
+     "t": "cols",
+     "data": {
+      "t": "cols",
+      "items": [
+       {
+        "color": "blue",
+        "title": "Hidden doer",
+        "ar": "كَتَبَ",
+        "text": "No ending. The doer is hidden: {هُوَ}."
+       },
+       {
+        "color": "blue",
+        "title": "Hidden doer",
+        "ar": "كَتَبَتْ",
+        "text": "{ـتْ} is a ḥarf. The doer is hidden: {هِيَ}."
+       },
+       {
+        "color": "red",
+        "title": "Attached doer",
+        "ar": "كَتَبْتُ",
+        "text": "{ـتُ} is the doer, place of rafʿ."
+       }
+      ]
+     },
+     "html": "<div class=\"kkgrid s0cols\"><div class=\"kk\" style=\"border-left-color:#2f7fe0;background:#e3eefc\"><div class=\"kkt\"><span style=\"color:#1f64bd\"><span class=\"dot\" style=\"background:#2f7fe0\"></span>Hidden doer</span><span class=\"kkar\">كَتَبَ</span></div><div class=\"kkd\">No ending. The doer is hidden: <bdi class=\"ab\">هُوَ</bdi>.</div></div><div class=\"kk\" style=\"border-left-color:#2f7fe0;background:#e3eefc\"><div class=\"kkt\"><span style=\"color:#1f64bd\"><span class=\"dot\" style=\"background:#2f7fe0\"></span>Hidden doer</span><span class=\"kkar\">كَتَبَتْ</span></div><div class=\"kkd\"><bdi class=\"ab\">ـتْ</bdi> is a ḥarf. The doer is hidden: <bdi class=\"ab\">هِيَ</bdi>.</div></div><div class=\"kk\" style=\"border-left-color:#e04a3a;background:#fde7e4\"><div class=\"kkt\"><span style=\"color:#b8322a\"><span class=\"dot\" style=\"background:#e04a3a\"></span>Attached doer</span><span class=\"kkar\">كَتَبْتُ</span></div><div class=\"kkd\"><bdi class=\"ab\">ـتُ</bdi> is the doer, place of rafʿ.</div></div></div>"
+    },
+    {
+     "t": "tip",
+     "data": {
+      "t": "tip",
+      "text": "When a noun is the doer, the verb has no doer ending: {كَتَبَ الطَّالِبُ}. {الطَّالِبُ} is the doer."
+     },
+     "html": "<div class=\"tipbox\"><b>Tip:</b> When a noun is the doer, the verb has no doer ending: <bdi class=\"ab\">كَتَبَ الطَّالِبُ</bdi>. <bdi class=\"ab\">الطَّالِبُ</bdi> is the doer.</div>"
+    }
+   ]
+  },
+  {
+   "num": 4,
+   "title": "What the past verb is built on",
+   "title_html": "What the past verb is built on",
+   "blocks": [
+    {
+     "t": "p",
+     "data": {
+      "t": "p",
+      "text": "A fixed word is \"built on\" ({مَبْنِيٌّ عَلَى}) one fixed mark (fatha, damma or sukūn). Look at the last letter of the verb itself, before any doer pronoun."
+     },
+     "html": "<p class=\"s0p\">A fixed word is &quot;built on&quot; (<bdi class=\"ab\">مَبْنِيٌّ عَلَى</bdi>) one fixed mark (fatha, damma or sukūn). Look at the last letter of the verb itself, before any doer pronoun.</p>"
+    },
+    {
+     "t": "table",
+     "data": {
+      "t": "table",
+      "head": [
+       "Built on",
+       "When",
+       "Examples"
+      ],
+      "rows": [
+       [
+        "Fatha",
+        "no ending, or ـتْ, or ـا",
+        "كَتَبَ، كَتَبَتْ، كَتَبَا، كَتَبَتَا"
+       ],
+       [
+        "Damma",
+        "with ـُوا",
+        "كَتَبُوا"
+       ],
+       [
+        "Sukūn",
+        "before ـتُ ـتَ ـتِ ـتُمَا ـتُمْ ـتُنَّ ـنَا ـنَ",
+        "كَتَبْتُ، كَتَبْنَا، كَتَبْنَ"
+       ]
+      ]
+     },
+     "html": "<div class=\"tblwrap\"><table class=\"glance s0t\"><tr><th>Built on</th><th>When</th><th>Examples</th></tr><tr><td class=\"\">Fatha</td><td class=\"\">no ending, or ـتْ, or ـا</td><td class=\"tar\">كَتَبَ، كَتَبَتْ، كَتَبَا، كَتَبَتَا</td></tr><tr><td class=\"\">Damma</td><td class=\"\">with ـُوا</td><td class=\"tar\">كَتَبُوا</td></tr><tr><td class=\"\">Sukūn</td><td class=\"\">before ـتُ ـتَ ـتِ ـتُمَا ـتُمْ ـتُنَّ ـنَا ـنَ</td><td class=\"tar\">كَتَبْتُ، كَتَبْنَا، كَتَبْنَ</td></tr></table></div>"
+    },
+    {
+     "t": "rule",
+     "data": {
+      "t": "rule",
+      "color": "navy",
+      "title": "Fixed on fatha",
+      "text": "{كَتَبَتْ} is built on fatha. The fatha is on the {ب}. The sukūn sits on the ḥarf {ـتْ}."
+     },
+     "html": "<div class=\"rbox\" style=\"border-color:#3a5a85;background:#e8eef6\"><b style=\"color:#2b4668\">Fixed on fatha.</b> <bdi class=\"ab\">كَتَبَتْ</bdi> is built on fatha. The fatha is on the <bdi class=\"ab\">ب</bdi>. The sukūn sits on the ḥarf <bdi class=\"ab\">ـتْ</bdi>.</div>"
+    }
+   ]
+  },
+  {
+   "num": 5,
+   "title": "Saying 'did not': مَا + past verb",
+   "title_html": "Saying &#x27;did not&#x27;: مَا + past verb",
+   "blocks": [
+    {
+     "t": "p",
+     "data": {
+      "t": "p",
+      "text": "To say \"did not\", put {مَا} right before the past verb. The verb does not change at all: same form, same doer."
+     },
+     "html": "<p class=\"s0p\">To say &quot;did not&quot;, put <bdi class=\"ab\">مَا</bdi> right before the past verb. The verb does not change at all: same form, same doer.</p>"
+    },
+    {
+     "t": "table",
+     "data": {
+      "t": "table",
+      "head": [
+       "Past verb",
+       "With مَا",
+       "Meaning"
+      ],
+      "rows": [
+       [
+        "كَتَبَ",
+        "مَا كَتَبَ",
+        "he did not write"
+       ],
+       [
+        "كَتَبَتْ",
+        "مَا كَتَبَتْ",
+        "she did not write"
+       ],
+       [
+        "ذَهَبْتُ",
+        "مَا ذَهَبْتُ",
+        "I did not go"
+       ],
+       [
+        "خَرَجُوا",
+        "مَا خَرَجُوا",
+        "they did not go out"
+       ]
+      ]
+     },
+     "html": "<div class=\"tblwrap\"><table class=\"glance s0t\"><tr><th>Past verb</th><th>With مَا</th><th>Meaning</th></tr><tr><td class=\"tar\">كَتَبَ</td><td class=\"tar\">مَا كَتَبَ</td><td class=\"\">he did not write</td></tr><tr><td class=\"tar\">كَتَبَتْ</td><td class=\"tar\">مَا كَتَبَتْ</td><td class=\"\">she did not write</td></tr><tr><td class=\"tar\">ذَهَبْتُ</td><td class=\"tar\">مَا ذَهَبْتُ</td><td class=\"\">I did not go</td></tr><tr><td class=\"tar\">خَرَجُوا</td><td class=\"tar\">مَا خَرَجُوا</td><td class=\"\">they did not go out</td></tr></table></div>"
+    },
+    {
+     "t": "rule",
+     "data": {
+      "t": "rule",
+      "color": "grey",
+      "title": "مَا is a ḥarf of negation",
+      "text": "This {مَا} means \"not\". It is a ḥarf: fixed, with no place ({لَا مَحَلَّ لَهُ مِنَ الإِعْرَابِ}). It does not change the verb after it."
+     },
+     "html": "<div class=\"rbox\" style=\"border-color:#7d858e;background:#eef0f2\"><b style=\"color:#5a626b\">مَا is a ḥarf of negation.</b> This <bdi class=\"ab\">مَا</bdi> means &quot;not&quot;. It is a ḥarf: fixed, with no place (<bdi class=\"ab\">لَا مَحَلَّ لَهُ مِنَ الإِعْرَابِ</bdi>). It does not change the verb after it.</div>"
+    },
+    {
+     "t": "examples",
+     "data": {
+      "t": "examples",
+      "items": [
+       {
+        "ar": "مَا ذَهَبْتُ إِلَى السُّوقِ.",
+        "en": "I did not go to the market.",
+        "note": "{ـتُ} is still the doer, in the place of rafʿ."
+       },
+       {
+        "ar": "مَا خَرَجَ الطَّالِبُ مِنَ الفَصْلِ.",
+        "en": "The student did not go out of the classroom."
+       },
+       {
+        "ar": "مَا فَتَحْنَا البَابَ.",
+        "en": "We did not open the door."
+       },
+       {
+        "ar": "هَلْ كَتَبْتَ الدَّرْسَ؟ لَا، مَا كَتَبْتُهُ.",
+        "en": "Did you write the lesson? No, I did not write it.",
+        "note": "{لَا} is the answer \"no\". {مَا} makes the verb \"did not\"."
+       }
+      ]
+     },
+     "html": "<div class=\"exlist\"><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">مَا ذَهَبْتُ إِلَى السُّوقِ.</div><div class=\"exe\">I did not go to the market.<div class=\"exn\"><bdi class=\"ab\">ـتُ</bdi> is still the doer, in the place of rafʿ.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">مَا خَرَجَ الطَّالِبُ مِنَ الفَصْلِ.</div><div class=\"exe\">The student did not go out of the classroom.</div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">مَا فَتَحْنَا البَابَ.</div><div class=\"exe\">We did not open the door.</div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">هَلْ كَتَبْتَ الدَّرْسَ؟ لَا، مَا كَتَبْتُهُ.</div><div class=\"exe\">Did you write the lesson? No, I did not write it.<div class=\"exn\"><bdi class=\"ab\">لَا</bdi> is the answer &quot;no&quot;. <bdi class=\"ab\">مَا</bdi> makes the verb &quot;did not&quot;.</div></div></div></div>"
+    },
+    {
+     "t": "tip",
+     "data": {
+      "t": "tip",
+      "text": "Do not mix up two words that look the same. This {مَا} \"not\" is a ḥarf, with no place. The {مَا} \"what\" of unit 5 ({مَا هَذَا؟}) is an ism, and it has a place."
+     },
+     "html": "<div class=\"tipbox\"><b>Tip:</b> Do not mix up two words that look the same. This <bdi class=\"ab\">مَا</bdi> &quot;not&quot; is a ḥarf, with no place. The <bdi class=\"ab\">مَا</bdi> &quot;what&quot; of unit 5 (<bdi class=\"ab\">مَا هَذَا؟</bdi>) is an ism, and it has a place.</div>"
+    },
+    {
+     "t": "tip",
+     "data": {
+      "t": "tip",
+      "text": "You already know {لَا} \"no\". {لَا} also makes \"don't…\", but only with the present verb, later in the course. With the past verb we use {مَا}."
+     },
+     "html": "<div class=\"tipbox\"><b>Tip:</b> You already know <bdi class=\"ab\">لَا</bdi> &quot;no&quot;. <bdi class=\"ab\">لَا</bdi> also makes &quot;don&#x27;t…&quot;, but only with the present verb, later in the course. With the past verb we use <bdi class=\"ab\">مَا</bdi>.</div>"
+    }
+   ]
+  },
+  {
+   "num": 6,
+   "title": "The order verb: 5 forms",
+   "title_html": "The order verb: 5 forms",
+   "blocks": [
+    {
+     "t": "p",
+     "data": {
+      "t": "p",
+      "text": "You give an order to the person in front of you. So there are only five forms."
+     },
+     "html": "<p class=\"s0p\">You give an order to the person in front of you. So there are only five forms.</p>"
+    },
+    {
+     "t": "table",
+     "data": {
+      "t": "table",
+      "head": [
+       "Order to",
+       "Order verb",
+       "Built on",
+       "Doer"
+      ],
+      "rows": [
+       [
+        "you (a man)",
+        "اُكْتُبْ",
+        "sukūn",
+        "hidden {أَنْتَ}"
+       ],
+       [
+        "you (a woman)",
+        "اُكْتُبِي",
+        "dropping the ن",
+        "{ـي}"
+       ],
+       [
+        "you two",
+        "اُكْتُبَا",
+        "dropping the ن",
+        "{ـا}"
+       ],
+       [
+        "you (men)",
+        "اُكْتُبُوا",
+        "dropping the ن",
+        "{ـُوا}"
+       ],
+       [
+        "you (women)",
+        "اُكْتُبْنَ",
+        "sukūn",
+        "{ـنَ}"
+       ]
+      ]
+     },
+     "html": "<div class=\"tblwrap\"><table class=\"glance s0t\"><tr><th>Order to</th><th>Order verb</th><th>Built on</th><th>Doer</th></tr><tr><td class=\"\">you (a man)</td><td class=\"tar\">اُكْتُبْ</td><td class=\"\">sukūn</td><td class=\"\">hidden <bdi class=\"ab\">أَنْتَ</bdi></td></tr><tr><td class=\"\">you (a woman)</td><td class=\"tar\">اُكْتُبِي</td><td class=\"\">dropping the ن</td><td class=\"tar\"><bdi class=\"ab\">ـي</bdi></td></tr><tr><td class=\"\">you two</td><td class=\"tar\">اُكْتُبَا</td><td class=\"\">dropping the ن</td><td class=\"tar\"><bdi class=\"ab\">ـا</bdi></td></tr><tr><td class=\"\">you (men)</td><td class=\"tar\">اُكْتُبُوا</td><td class=\"\">dropping the ن</td><td class=\"tar\"><bdi class=\"ab\">ـُوا</bdi></td></tr><tr><td class=\"\">you (women)</td><td class=\"tar\">اُكْتُبْنَ</td><td class=\"\">sukūn</td><td class=\"tar\"><bdi class=\"ab\">ـنَ</bdi></td></tr></table></div>"
+    },
+    {
+     "t": "rule",
+     "data": {
+      "t": "rule",
+      "color": "brown",
+      "title": "Two ways to be built",
+      "text": "{اُكْتُبْ} and {اُكْتُبْنَ} are built on sukūn. {اُكْتُبِي}، {اُكْتُبَا}، {اُكْتُبُوا} are built on dropping the {ن}. You will see where that {ن} comes from in Stage 8."
+     },
+     "html": "<div class=\"rbox\" style=\"border-color:#a0612b;background:#f5e9dd\"><b style=\"color:#7b471c\">Two ways to be built.</b> <bdi class=\"ab\">اُكْتُبْ</bdi> and <bdi class=\"ab\">اُكْتُبْنَ</bdi> are built on sukūn. <bdi class=\"ab\">اُكْتُبِي</bdi>، <bdi class=\"ab\">اُكْتُبَا</bdi>، <bdi class=\"ab\">اُكْتُبُوا</bdi> are built on dropping the <bdi class=\"ab\">ن</bdi>. You will see where that <bdi class=\"ab\">ن</bdi> comes from in Stage 8.</div>"
+    },
+    {
+     "t": "examples",
+     "data": {
+      "t": "examples",
+      "items": [
+       {
+        "ar": "اِجْلِسِي يَا آمِنَةُ.",
+        "en": "Sit down, Aminah."
+       },
+       {
+        "ar": "اُخْرُجُوا مِنَ الفَصْلِ.",
+        "en": "Go out of the classroom (men)."
+       }
+      ]
+     },
+     "html": "<div class=\"exlist\"><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">اِجْلِسِي يَا آمِنَةُ.</div><div class=\"exe\">Sit down, Aminah.</div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">اُخْرُجُوا مِنَ الفَصْلِ.</div><div class=\"exe\">Go out of the classroom (men).</div></div></div>"
+    }
+   ]
+  },
+  {
+   "num": 7,
+   "title": "اُ or اِ? A list to learn",
+   "title_html": "اُ or اِ? A list to learn",
+   "blocks": [
+    {
+     "t": "p",
+     "data": {
+      "t": "p",
+      "text": "The order verb starts with a helping alif. Look at the middle letter of the order verb. If it has damma, start with {اُ}. If not, start with {اِ}."
+     },
+     "html": "<p class=\"s0p\">The order verb starts with a helping alif. Look at the middle letter of the order verb. If it has damma, start with <bdi class=\"ab\">اُ</bdi>. If not, start with <bdi class=\"ab\">اِ</bdi>.</p>"
+    },
+    {
+     "t": "table",
+     "data": {
+      "t": "table",
+      "head": [
+       "Past verb",
+       "Order verb",
+       "First vowel"
+      ],
+      "rows": [
+       [
+        "كَتَبَ",
+        "اُكْتُبْ",
+        "{اُ} (middle {تُ})"
+       ],
+       [
+        "دَرَسَ",
+        "اُدْرُسْ",
+        "{اُ} (middle {رُ})"
+       ],
+       [
+        "خَرَجَ",
+        "اُخْرُجْ",
+        "{اُ} (middle {رُ})"
+       ],
+       [
+        "دَخَلَ",
+        "اُدْخُلْ",
+        "{اُ} (middle {خُ})"
+       ],
+       [
+        "ذَهَبَ",
+        "اِذْهَبْ",
+        "{اِ} (middle {هَ})"
+       ],
+       [
+        "جَلَسَ",
+        "اِجْلِسْ",
+        "{اِ} (middle {لِ})"
+       ],
+       [
+        "فَتَحَ",
+        "اِفْتَحْ",
+        "{اِ} (middle {تَ})"
+       ],
+       [
+        "شَرِبَ",
+        "اِشْرَبْ",
+        "{اِ} (middle {رَ})"
+       ]
+      ]
+     },
+     "html": "<div class=\"tblwrap\"><table class=\"glance s0t\"><tr><th>Past verb</th><th>Order verb</th><th>First vowel</th></tr><tr><td class=\"tar\">كَتَبَ</td><td class=\"tar\">اُكْتُبْ</td><td class=\"\"><bdi class=\"ab\">اُ</bdi> (middle <bdi class=\"ab\">تُ</bdi>)</td></tr><tr><td class=\"tar\">دَرَسَ</td><td class=\"tar\">اُدْرُسْ</td><td class=\"\"><bdi class=\"ab\">اُ</bdi> (middle <bdi class=\"ab\">رُ</bdi>)</td></tr><tr><td class=\"tar\">خَرَجَ</td><td class=\"tar\">اُخْرُجْ</td><td class=\"\"><bdi class=\"ab\">اُ</bdi> (middle <bdi class=\"ab\">رُ</bdi>)</td></tr><tr><td class=\"tar\">دَخَلَ</td><td class=\"tar\">اُدْخُلْ</td><td class=\"\"><bdi class=\"ab\">اُ</bdi> (middle <bdi class=\"ab\">خُ</bdi>)</td></tr><tr><td class=\"tar\">ذَهَبَ</td><td class=\"tar\">اِذْهَبْ</td><td class=\"\"><bdi class=\"ab\">اِ</bdi> (middle <bdi class=\"ab\">هَ</bdi>)</td></tr><tr><td class=\"tar\">جَلَسَ</td><td class=\"tar\">اِجْلِسْ</td><td class=\"\"><bdi class=\"ab\">اِ</bdi> (middle <bdi class=\"ab\">لِ</bdi>)</td></tr><tr><td class=\"tar\">فَتَحَ</td><td class=\"tar\">اِفْتَحْ</td><td class=\"\"><bdi class=\"ab\">اِ</bdi> (middle <bdi class=\"ab\">تَ</bdi>)</td></tr><tr><td class=\"tar\">شَرِبَ</td><td class=\"tar\">اِشْرَبْ</td><td class=\"\"><bdi class=\"ab\">اِ</bdi> (middle <bdi class=\"ab\">رَ</bdi>)</td></tr></table></div>"
+    },
+    {
+     "t": "tip",
+     "data": {
+      "t": "tip",
+      "text": "The past verb does not tell you the middle vowel of the order verb. Learn each order verb as a word."
+     },
+     "html": "<div class=\"tipbox\"><b>Tip:</b> The past verb does not tell you the middle vowel of the order verb. Learn each order verb as a word.</div>"
+    }
+   ]
+  },
+  {
+   "num": 8,
+   "title": "The helping kasra (from Stage 2)",
+   "title_html": "The helping kasra (from Stage 2)",
+   "blocks": [
+    {
+     "t": "p",
+     "data": {
+      "t": "p",
+      "text": "A word cannot end in sukūn right before {ال}. So the sukūn becomes a small kasra. The verb is still fixed."
+     },
+     "html": "<p class=\"s0p\">A word cannot end in sukūn right before <bdi class=\"ab\">ال</bdi>. So the sukūn becomes a small kasra. The verb is still fixed.</p>"
+    },
+    {
+     "t": "examples",
+     "data": {
+      "t": "examples",
+      "items": [
+       {
+        "ar": "اِفْتَحِ البَابَ.",
+        "en": "Open the door.",
+        "note": "{اِفْتَحْ} + {البَابَ}. Still built on sukūn."
+       },
+       {
+        "ar": "مَا كَتَبَتِ البِنْتُ الدَّرْسَ.",
+        "en": "The girl did not write the lesson.",
+        "note": "{كَتَبَتْ} + {البِنْتُ}. The kasra sits on the ḥarf {ـتْ}. {مَا} changes nothing."
+       }
+      ]
+     },
+     "html": "<div class=\"exlist\"><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">اِفْتَحِ البَابَ.</div><div class=\"exe\">Open the door.<div class=\"exn\"><bdi class=\"ab\">اِفْتَحْ</bdi> + <bdi class=\"ab\">البَابَ</bdi>. Still built on sukūn.</div></div></div><div class=\"exl\"><div class=\"exa\" dir=\"rtl\">مَا كَتَبَتِ البِنْتُ الدَّرْسَ.</div><div class=\"exe\">The girl did not write the lesson.<div class=\"exn\"><bdi class=\"ab\">كَتَبَتْ</bdi> + <bdi class=\"ab\">البِنْتُ</bdi>. The kasra sits on the ḥarf <bdi class=\"ab\">ـتْ</bdi>. <bdi class=\"ab\">مَا</bdi> changes nothing.</div></div></div></div>"
+    },
+    {
+     "t": "tip",
+     "data": {
+      "t": "tip",
+      "text": "This kasra is only a bridge for speaking. It is not jarr and not iʿrāb."
+     },
+     "html": "<div class=\"tipbox\"><b>Tip:</b> This kasra is only a bridge for speaking. It is not jarr and not iʿrāb.</div>"
+    },
+    {
+     "t": "summary",
+     "data": {
+      "t": "summary",
+      "title": "In short",
+      "items": [
+       "Past and order verbs are fixed. The present verb is mostly flexible (Stage 8).",
+       "The past verb has 14 persons: {كَتَبَ} to {كَتَبْنَا}.",
+       "Endings like {ـتُ} {ـنَا} {ـُوا} are doer pronouns in the place of rafʿ. The {ـتْ} of {كَتَبَتْ} is a ḥarf.",
+       "Past: on fatha {كَتَبَ}, on damma {كَتَبُوا}, on sukūn {كَتَبْتُ}.",
+       "{مَا} + past verb is \"did not\": {مَا كَتَبَ}. This {مَا} is a ḥarf with no place.",
+       "Order: on sukūn {اُكْتُبْ} {اُكْتُبْنَ}, on dropping the {ن} {اُكْتُبِي} {اُكْتُبَا} {اُكْتُبُوا}.",
+       "Middle damma gives {اُ}: {اُدْرُسْ}. Otherwise {اِ}: {اِذْهَبْ}."
+      ]
+     },
+     "html": "<div class=\"three\"><h3>In short</h3><ol><li>Past and order verbs are fixed. The present verb is mostly flexible (Stage 8).</li><li>The past verb has 14 persons: <bdi class=\"ab\">كَتَبَ</bdi> to <bdi class=\"ab\">كَتَبْنَا</bdi>.</li><li>Endings like <bdi class=\"ab\">ـتُ</bdi> <bdi class=\"ab\">ـنَا</bdi> <bdi class=\"ab\">ـُوا</bdi> are doer pronouns in the place of rafʿ. The <bdi class=\"ab\">ـتْ</bdi> of <bdi class=\"ab\">كَتَبَتْ</bdi> is a ḥarf.</li><li>Past: on fatha <bdi class=\"ab\">كَتَبَ</bdi>, on damma <bdi class=\"ab\">كَتَبُوا</bdi>, on sukūn <bdi class=\"ab\">كَتَبْتُ</bdi>.</li><li><bdi class=\"ab\">مَا</bdi> + past verb is &quot;did not&quot;: <bdi class=\"ab\">مَا كَتَبَ</bdi>. This <bdi class=\"ab\">مَا</bdi> is a ḥarf with no place.</li><li>Order: on sukūn <bdi class=\"ab\">اُكْتُبْ</bdi> <bdi class=\"ab\">اُكْتُبْنَ</bdi>, on dropping the <bdi class=\"ab\">ن</bdi> <bdi class=\"ab\">اُكْتُبِي</bdi> <bdi class=\"ab\">اُكْتُبَا</bdi> <bdi class=\"ab\">اُكْتُبُوا</bdi>.</li><li>Middle damma gives <bdi class=\"ab\">اُ</bdi>: <bdi class=\"ab\">اُدْرُسْ</bdi>. Otherwise <bdi class=\"ab\">اِ</bdi>: <bdi class=\"ab\">اِذْهَبْ</bdi>.</li></ol></div>"
+    }
+   ]
+  }
+ ],
+ "examples": [
+  {
+   "sentence": "هُوَ"
+  },
+  {
+   "sentence": "كَتَبَ"
+  },
+  {
+   "sentence": "هُمَا"
+  },
+  {
+   "sentence": "كَتَبَا"
+  },
+  {
+   "sentence": "هُمْ"
+  },
+  {
+   "sentence": "كَتَبُوا"
+  },
+  {
+   "sentence": "هِيَ"
+  },
+  {
+   "sentence": "كَتَبَتْ"
+  },
+  {
+   "sentence": "هُمَا"
+  },
+  {
+   "sentence": "كَتَبَتَا"
+  },
+  {
+   "sentence": "هُنَّ"
+  },
+  {
+   "sentence": "كَتَبْنَ"
+  },
+  {
+   "sentence": "أَنْتَ"
+  },
+  {
+   "sentence": "كَتَبْتَ"
+  },
+  {
+   "sentence": "أَنْتُمَا"
+  },
+  {
+   "sentence": "كَتَبْتُمَا"
+  },
+  {
+   "sentence": "أَنْتُمْ"
+  },
+  {
+   "sentence": "كَتَبْتُمْ"
+  },
+  {
+   "sentence": "أَنْتِ"
+  },
+  {
+   "sentence": "كَتَبْتِ"
+  },
+  {
+   "sentence": "أَنْتُمَا"
+  },
+  {
+   "sentence": "كَتَبْتُمَا"
+  },
+  {
+   "sentence": "أَنْتُنَّ"
+  },
+  {
+   "sentence": "كَتَبْتُنَّ"
+  },
+  {
+   "sentence": "أَنَا"
+  },
+  {
+   "sentence": "كَتَبْتُ"
+  },
+  {
+   "sentence": "نَحْنُ"
+  },
+  {
+   "sentence": "كَتَبْنَا"
+  },
+  {
+   "sentence": "أَنَا ذَهَبْتُ إِلَى المَسْجِدِ."
+  },
+  {
+   "sentence": "هِيَ جَلَسَتْ فِي الغُرْفَةِ."
+  },
+  {
+   "sentence": "نَحْنُ مَا خَرَجْنَا مِنَ البَيْتِ."
+  },
+  {
+   "sentence": "كَتَبَ، كَتَبَتْ، كَتَبَا، كَتَبَتَا"
+  },
+  {
+   "sentence": "كَتَبُوا"
+  },
+  {
+   "sentence": "كَتَبْتُ، كَتَبْنَا، كَتَبْنَ"
+  },
+  {
+   "sentence": "كَتَبَ"
+  },
+  {
+   "sentence": "مَا كَتَبَ"
+  },
+  {
+   "sentence": "كَتَبَتْ"
+  },
+  {
+   "sentence": "مَا كَتَبَتْ"
+  },
+  {
+   "sentence": "ذَهَبْتُ"
+  },
+  {
+   "sentence": "مَا ذَهَبْتُ"
+  },
+  {
+   "sentence": "خَرَجُوا"
+  },
+  {
+   "sentence": "مَا خَرَجُوا"
+  },
+  {
+   "sentence": "مَا ذَهَبْتُ إِلَى السُّوقِ."
+  },
+  {
+   "sentence": "مَا خَرَجَ الطَّالِبُ مِنَ الفَصْلِ."
+  },
+  {
+   "sentence": "مَا فَتَحْنَا البَابَ."
+  },
+  {
+   "sentence": "هَلْ كَتَبْتَ الدَّرْسَ؟ لَا، مَا كَتَبْتُهُ."
+  },
+  {
+   "sentence": "اُكْتُبْ"
+  },
+  {
+   "sentence": "اُكْتُبِي"
+  },
+  {
+   "sentence": "اُكْتُبَا"
+  },
+  {
+   "sentence": "اُكْتُبُوا"
+  },
+  {
+   "sentence": "اُكْتُبْنَ"
+  },
+  {
+   "sentence": "اِجْلِسِي يَا آمِنَةُ."
+  },
+  {
+   "sentence": "اُخْرُجُوا مِنَ الفَصْلِ."
+  },
+  {
+   "sentence": "كَتَبَ"
+  },
+  {
+   "sentence": "اُكْتُبْ"
+  },
+  {
+   "sentence": "دَرَسَ"
+  },
+  {
+   "sentence": "اُدْرُسْ"
+  },
+  {
+   "sentence": "خَرَجَ"
+  },
+  {
+   "sentence": "اُخْرُجْ"
+  },
+  {
+   "sentence": "دَخَلَ"
+  },
+  {
+   "sentence": "اُدْخُلْ"
+  },
+  {
+   "sentence": "ذَهَبَ"
+  },
+  {
+   "sentence": "اِذْهَبْ"
+  },
+  {
+   "sentence": "جَلَسَ"
+  },
+  {
+   "sentence": "اِجْلِسْ"
+  },
+  {
+   "sentence": "فَتَحَ"
+  },
+  {
+   "sentence": "اِفْتَحْ"
+  },
+  {
+   "sentence": "شَرِبَ"
+  },
+  {
+   "sentence": "اِشْرَبْ"
+  },
+  {
+   "sentence": "اِفْتَحِ البَابَ."
+  },
+  {
+   "sentence": "مَا كَتَبَتِ البِنْتُ الدَّرْسَ."
+  }
+ ],
+ "practice_titles": [
+  "Choose the past form for the pronoun",
+  "Which pronoun matches the verb?",
+  "What does it mean?",
+  "Give the order",
+  "What is it built on?",
+  "اُ or اِ? Complete the order verb",
+  "Did or did not? What does it mean?"
+ ]
+}

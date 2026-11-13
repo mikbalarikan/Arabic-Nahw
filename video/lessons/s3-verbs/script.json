@@ -1,0 +1,2077 @@
+{
+ "lesson": "s3-verbs",
+ "scenes": [
+  "hero",
+  "c01-title",
+  "c01-cols",
+  "c01-tip",
+  "c02-title",
+  "c02-table",
+  "c02-tip",
+  "c02-examples",
+  "c03-title",
+  "c03-words",
+  "c03-rule",
+  "c03-cols",
+  "c03-tip",
+  "c04-title",
+  "c04-table",
+  "c04-rule",
+  "c05-title",
+  "c05-table",
+  "c05-rule",
+  "c05-examples",
+  "c05-tips",
+  "c06-title",
+  "c06-table",
+  "c06-rule",
+  "c06-examples",
+  "c07-title",
+  "c07-table",
+  "c07-tip",
+  "c08-title",
+  "c08-examples",
+  "c08-tip",
+  "sum",
+  "outro-yourturn"
+ ],
+ "segments": [
+  {
+   "id": "hero-01",
+   "scene": "hero",
+   "lang": "en",
+   "text": "Fixed verbs. Past and order.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "hero-02",
+   "scene": "hero",
+   "lang": "en",
+   "text": "Two kinds of verb that never change.",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "hero-03",
+   "scene": "hero",
+   "lang": "en",
+   "text": "A past verb and an order verb are always fixed.",
+   "pause": 0.25,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "hero-04",
+   "scene": "hero",
+   "lang": "en",
+   "text": "Their ending tells you who did the action.",
+   "pause": 0.25,
+   "cues": []
+  },
+  {
+   "id": "hero-05",
+   "scene": "hero",
+   "lang": "en",
+   "text": "And that ending never moves for iʿrāb.",
+   "pause": 0.7,
+   "cues": []
+  },
+  {
+   "id": "c01-title-01",
+   "scene": "c01-title",
+   "lang": "en",
+   "text": "Chapter one. Which verbs are fixed?",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c01-title-02",
+   "scene": "c01-title",
+   "lang": "en",
+   "text": "Arabic has three kinds of verb.",
+   "pause": 0.25,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c01-title-03",
+   "scene": "c01-title",
+   "lang": "en",
+   "text": "Two of them are fixed in every form.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-title-04",
+   "scene": "c01-title",
+   "lang": "ar",
+   "text": "مَبْنِيٌّ",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c01-cols-01",
+   "scene": "c01-cols",
+   "lang": "en",
+   "text": "The first is the past verb. An action that is done.",
+   "pause": 0.4,
+   "cues": [
+    "item:0"
+   ]
+  },
+  {
+   "id": "c01-cols-02",
+   "scene": "c01-cols",
+   "lang": "ar",
+   "text": "كَتَبَ",
+   "pause": 0.45,
+   "cues": []
+  },
+  {
+   "id": "c01-cols-03",
+   "scene": "c01-cols",
+   "lang": "en",
+   "text": "He wrote. It is fixed.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-cols-04",
+   "scene": "c01-cols",
+   "lang": "en",
+   "text": "The second is the order verb. You tell someone to act.",
+   "pause": 0.4,
+   "cues": [
+    "item:1"
+   ]
+  },
+  {
+   "id": "c01-cols-05",
+   "scene": "c01-cols",
+   "lang": "ar",
+   "text": "اُكْتُبْ",
+   "pause": 0.45,
+   "cues": []
+  },
+  {
+   "id": "c01-cols-06",
+   "scene": "c01-cols",
+   "lang": "en",
+   "text": "Write! It is fixed too.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c01-cols-07",
+   "scene": "c01-cols",
+   "lang": "en",
+   "text": "The third is the present verb. It is mostly flexible. Its ending changes.",
+   "pause": 0.25,
+   "cues": [
+    "item:2"
+   ]
+  },
+  {
+   "id": "c01-cols-08",
+   "scene": "c01-cols",
+   "lang": "en",
+   "text": "We study it in Stage 8.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c01-tip-01",
+   "scene": "c01-tip",
+   "lang": "en",
+   "text": "In this unit we only use past and order verbs.",
+   "pause": 0.25,
+   "cues": [
+    "show"
+   ]
+  },
+  {
+   "id": "c01-tip-02",
+   "scene": "c01-tip",
+   "lang": "en",
+   "text": "Leave the present verb for later.",
+   "pause": 0.7,
+   "cues": []
+  },
+  {
+   "id": "c02-title-01",
+   "scene": "c02-title",
+   "lang": "en",
+   "text": "Chapter two. The past verb. Fourteen persons.",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c02-title-02",
+   "scene": "c02-title",
+   "lang": "en",
+   "text": "Learn this table by heart.",
+   "pause": 0.25,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c02-title-03",
+   "scene": "c02-title",
+   "lang": "en",
+   "text": "Each pronoun from unit one has its own past form.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-table-01",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "Start with he, they two, and they. These are for men.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-table-02",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "كَتَبَ",
+   "pause": 0.4,
+   "cues": [
+    "row:0"
+   ]
+  },
+  {
+   "id": "c02-table-03",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "كَتَبَا",
+   "pause": 0.4,
+   "cues": [
+    "row:1"
+   ]
+  },
+  {
+   "id": "c02-table-04",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "كَتَبُوا",
+   "pause": 0.5,
+   "cues": [
+    "row:2"
+   ]
+  },
+  {
+   "id": "c02-table-05",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "Now she, they two, and they, for women.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-table-06",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "كَتَبَتْ",
+   "pause": 0.4,
+   "cues": [
+    "row:3"
+   ]
+  },
+  {
+   "id": "c02-table-07",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "كَتَبَتَا",
+   "pause": 0.4,
+   "cues": [
+    "row:4"
+   ]
+  },
+  {
+   "id": "c02-table-08",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "كَتَبْنَ",
+   "pause": 0.5,
+   "cues": [
+    "row:5"
+   ]
+  },
+  {
+   "id": "c02-table-09",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "Now you. One man, two men, and many men.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-table-10",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "كَتَبْتَ",
+   "pause": 0.4,
+   "cues": [
+    "row:6"
+   ]
+  },
+  {
+   "id": "c02-table-11",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "كَتَبْتُمَا",
+   "pause": 0.4,
+   "cues": [
+    "row:7"
+   ]
+  },
+  {
+   "id": "c02-table-12",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "كَتَبْتُمْ",
+   "pause": 0.5,
+   "cues": [
+    "row:8"
+   ]
+  },
+  {
+   "id": "c02-table-13",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "You again. One woman, two women, and many women.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-table-14",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "كَتَبْتِ",
+   "pause": 0.4,
+   "cues": [
+    "row:9"
+   ]
+  },
+  {
+   "id": "c02-table-15",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "كَتَبْتُمَا",
+   "pause": 0.4,
+   "cues": [
+    "row:10"
+   ]
+  },
+  {
+   "id": "c02-table-16",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "كَتَبْتُنَّ",
+   "pause": 0.5,
+   "cues": [
+    "row:11"
+   ]
+  },
+  {
+   "id": "c02-table-17",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "Last, I and we.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c02-table-18",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "كَتَبْتُ",
+   "pause": 0.4,
+   "cues": [
+    "row:12"
+   ]
+  },
+  {
+   "id": "c02-table-19",
+   "scene": "c02-table",
+   "lang": "ar",
+   "text": "كَتَبْنَا",
+   "pause": 0.5,
+   "cues": [
+    "row:13"
+   ]
+  },
+  {
+   "id": "c02-table-20",
+   "scene": "c02-table",
+   "lang": "en",
+   "text": "That is the whole table.",
+   "pause": 0.6,
+   "cues": [
+    "unhl"
+   ]
+  },
+  {
+   "id": "c02-tip-01",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "There are fourteen persons, but only thirteen written forms.",
+   "pause": 0.25,
+   "cues": [
+    "show"
+   ]
+  },
+  {
+   "id": "c02-tip-02",
+   "scene": "c02-tip",
+   "lang": "ar",
+   "text": "كَتَبْتُمَا",
+   "pause": 0.45,
+   "cues": [
+    "hl:is used for two men and for two women"
+   ]
+  },
+  {
+   "id": "c02-tip-03",
+   "scene": "c02-tip",
+   "lang": "en",
+   "text": "You two wrote. It is used for two men and for two women.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c02-examples-01",
+   "scene": "c02-examples",
+   "lang": "en",
+   "text": "Three examples.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c02-examples-02",
+   "scene": "c02-examples",
+   "lang": "en",
+   "text": "I went to the mosque.",
+   "pause": 0.4,
+   "cues": [
+    "ex:0"
+   ]
+  },
+  {
+   "id": "c02-examples-03",
+   "scene": "c02-examples",
+   "lang": "ar",
+   "text": "أَنَا ذَهَبْتُ إِلَى المَسْجِدِ",
+   "pause": 0.5,
+   "cues": [
+    "read:0"
+   ]
+  },
+  {
+   "id": "c02-examples-04",
+   "scene": "c02-examples",
+   "lang": "en",
+   "text": "The verb has the ending for I.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-examples-05",
+   "scene": "c02-examples",
+   "lang": "en",
+   "text": "She sat in the room.",
+   "pause": 0.4,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c02-examples-06",
+   "scene": "c02-examples",
+   "lang": "ar",
+   "text": "هِيَ جَلَسَتْ فِي الغُرْفَةِ",
+   "pause": 0.5,
+   "cues": [
+    "read:1"
+   ]
+  },
+  {
+   "id": "c02-examples-07",
+   "scene": "c02-examples",
+   "lang": "en",
+   "text": "The verb has the form for she.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c02-examples-08",
+   "scene": "c02-examples",
+   "lang": "en",
+   "text": "We did not go out of the house.",
+   "pause": 0.4,
+   "cues": [
+    "ex:2"
+   ]
+  },
+  {
+   "id": "c02-examples-09",
+   "scene": "c02-examples",
+   "lang": "ar",
+   "text": "نَحْنُ مَا خَرَجْنَا مِنَ البَيْتِ",
+   "pause": 0.5,
+   "cues": [
+    "read:2"
+   ]
+  },
+  {
+   "id": "c02-examples-10",
+   "scene": "c02-examples",
+   "lang": "en",
+   "text": "Look at the small word before the verb.",
+   "pause": 0.4,
+   "cues": [
+    "note:2"
+   ]
+  },
+  {
+   "id": "c02-examples-11",
+   "scene": "c02-examples",
+   "lang": "ar",
+   "text": "مَا",
+   "pause": 0.45,
+   "cues": [
+    "hl:مَا"
+   ]
+  },
+  {
+   "id": "c02-examples-12",
+   "scene": "c02-examples",
+   "lang": "en",
+   "text": "Before a past verb, it means did not. We come back to it in chapter five.",
+   "pause": 0.7,
+   "cues": []
+  },
+  {
+   "id": "c03-title-01",
+   "scene": "c03-title",
+   "lang": "en",
+   "text": "Chapter three. The ending is the doer.",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c03-title-02",
+   "scene": "c03-title",
+   "lang": "en",
+   "text": "Most endings of the past verb are attached pronouns.",
+   "pause": 0.25,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c03-title-03",
+   "scene": "c03-title",
+   "lang": "en",
+   "text": "The pronoun is the doer. It is fixed, in the place of rafʿ.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c03-title-04",
+   "scene": "c03-title",
+   "lang": "ar",
+   "text": "فِي مَحَلِّ رَفْعٍ",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c03-words-01",
+   "scene": "c03-words",
+   "lang": "en",
+   "text": "Here are the doer endings.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c03-words-02",
+   "scene": "c03-words",
+   "lang": "en",
+   "text": "This ending means I.",
+   "pause": 0.3,
+   "cues": [
+    "item:0"
+   ]
+  },
+  {
+   "id": "c03-words-03",
+   "scene": "c03-words",
+   "lang": "en",
+   "text": "You, for one man.",
+   "pause": 0.3,
+   "cues": [
+    "item:1"
+   ]
+  },
+  {
+   "id": "c03-words-04",
+   "scene": "c03-words",
+   "lang": "en",
+   "text": "You, for one woman.",
+   "pause": 0.3,
+   "cues": [
+    "item:2"
+   ]
+  },
+  {
+   "id": "c03-words-05",
+   "scene": "c03-words",
+   "lang": "en",
+   "text": "And we.",
+   "pause": 0.3,
+   "cues": [
+    "item:3"
+   ]
+  },
+  {
+   "id": "c03-words-06",
+   "scene": "c03-words",
+   "lang": "en",
+   "text": "You all, for men.",
+   "pause": 0.3,
+   "cues": [
+    "item:4"
+   ]
+  },
+  {
+   "id": "c03-words-07",
+   "scene": "c03-words",
+   "lang": "en",
+   "text": "They, for men.",
+   "pause": 0.3,
+   "cues": [
+    "item:5"
+   ]
+  },
+  {
+   "id": "c03-words-08",
+   "scene": "c03-words",
+   "lang": "en",
+   "text": "They, for women.",
+   "pause": 0.3,
+   "cues": [
+    "item:6"
+   ]
+  },
+  {
+   "id": "c03-words-09",
+   "scene": "c03-words",
+   "lang": "en",
+   "text": "And they two.",
+   "pause": 0.4,
+   "cues": [
+    "item:7"
+   ]
+  },
+  {
+   "id": "c03-words-10",
+   "scene": "c03-words",
+   "lang": "en",
+   "text": "Each of these endings is the doer.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c03-rule-01",
+   "scene": "c03-rule",
+   "lang": "en",
+   "text": "But one ending is different.",
+   "pause": 0.4,
+   "cues": [
+    "show"
+   ]
+  },
+  {
+   "id": "c03-rule-02",
+   "scene": "c03-rule",
+   "lang": "ar",
+   "text": "كَتَبَتْ",
+   "pause": 0.45,
+   "cues": []
+  },
+  {
+   "id": "c03-rule-03",
+   "scene": "c03-rule",
+   "lang": "en",
+   "text": "She wrote. Here the ending only shows that the doer is feminine.",
+   "pause": 0.25,
+   "cues": [
+    "hl:only shows that the doer is feminine"
+   ]
+  },
+  {
+   "id": "c03-rule-04",
+   "scene": "c03-rule",
+   "lang": "en",
+   "text": "It is a ḥarf, with no place.",
+   "pause": 0.25,
+   "cues": [
+    "hl:It is a ḥarf, with no place"
+   ]
+  },
+  {
+   "id": "c03-rule-05",
+   "scene": "c03-rule",
+   "lang": "en",
+   "text": "The doer is hidden. It is she.",
+   "pause": 0.4,
+   "cues": [
+    "hl:The doer is hidden"
+   ]
+  },
+  {
+   "id": "c03-rule-06",
+   "scene": "c03-rule",
+   "lang": "ar",
+   "text": "هِيَ",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c03-cols-01",
+   "scene": "c03-cols",
+   "lang": "en",
+   "text": "So compare three forms.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c03-cols-02",
+   "scene": "c03-cols",
+   "lang": "en",
+   "text": "First, a hidden doer.",
+   "pause": 0.3,
+   "cues": [
+    "item:0"
+   ]
+  },
+  {
+   "id": "c03-cols-03",
+   "scene": "c03-cols",
+   "lang": "ar",
+   "text": "كَتَبَ",
+   "pause": 0.45,
+   "cues": []
+  },
+  {
+   "id": "c03-cols-04",
+   "scene": "c03-cols",
+   "lang": "en",
+   "text": "There is no ending. The doer is hidden. It is he.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c03-cols-05",
+   "scene": "c03-cols",
+   "lang": "en",
+   "text": "Second, a hidden doer again.",
+   "pause": 0.3,
+   "cues": [
+    "item:1"
+   ]
+  },
+  {
+   "id": "c03-cols-06",
+   "scene": "c03-cols",
+   "lang": "ar",
+   "text": "كَتَبَتْ",
+   "pause": 0.45,
+   "cues": []
+  },
+  {
+   "id": "c03-cols-07",
+   "scene": "c03-cols",
+   "lang": "en",
+   "text": "This ending is a ḥarf. The doer is hidden. It is she.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c03-cols-08",
+   "scene": "c03-cols",
+   "lang": "en",
+   "text": "Third, an attached doer.",
+   "pause": 0.3,
+   "cues": [
+    "item:2"
+   ]
+  },
+  {
+   "id": "c03-cols-09",
+   "scene": "c03-cols",
+   "lang": "ar",
+   "text": "كَتَبْتُ",
+   "pause": 0.45,
+   "cues": []
+  },
+  {
+   "id": "c03-cols-10",
+   "scene": "c03-cols",
+   "lang": "en",
+   "text": "The ending is the doer, in the place of rafʿ.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c03-tip-01",
+   "scene": "c03-tip",
+   "lang": "en",
+   "text": "When a noun is the doer, the verb has no doer ending.",
+   "pause": 0.4,
+   "cues": [
+    "show"
+   ]
+  },
+  {
+   "id": "c03-tip-02",
+   "scene": "c03-tip",
+   "lang": "ar",
+   "text": "كَتَبَ الطَّالِبُ",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c03-tip-03",
+   "scene": "c03-tip",
+   "lang": "en",
+   "text": "The student wrote. The student is the doer.",
+   "pause": 0.7,
+   "cues": []
+  },
+  {
+   "id": "c04-title-01",
+   "scene": "c04-title",
+   "lang": "en",
+   "text": "Chapter four. What the past verb is built on.",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c04-title-02",
+   "scene": "c04-title",
+   "lang": "en",
+   "text": "A fixed word is built on one fixed mark. A past verb is built on fatha, damma or sukūn.",
+   "pause": 0.25,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c04-title-03",
+   "scene": "c04-title",
+   "lang": "en",
+   "text": "Look at the last letter of the verb itself, before any doer pronoun.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c04-table-01",
+   "scene": "c04-table",
+   "lang": "en",
+   "text": "The past verb is built on fatha when it has no ending.",
+   "pause": 0.25,
+   "cues": [
+    "row:0"
+   ]
+  },
+  {
+   "id": "c04-table-02",
+   "scene": "c04-table",
+   "lang": "en",
+   "text": "It is also built on fatha before the ḥarf for she, and before the alif for they two.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c04-table-03",
+   "scene": "c04-table",
+   "lang": "ar",
+   "text": "كَتَبَ",
+   "pause": 0.35,
+   "cues": [
+    "cell:0:2"
+   ]
+  },
+  {
+   "id": "c04-table-04",
+   "scene": "c04-table",
+   "lang": "ar",
+   "text": "كَتَبَتْ",
+   "pause": 0.35,
+   "cues": []
+  },
+  {
+   "id": "c04-table-05",
+   "scene": "c04-table",
+   "lang": "ar",
+   "text": "كَتَبَا",
+   "pause": 0.35,
+   "cues": []
+  },
+  {
+   "id": "c04-table-06",
+   "scene": "c04-table",
+   "lang": "ar",
+   "text": "كَتَبَتَا",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c04-table-07",
+   "scene": "c04-table",
+   "lang": "en",
+   "text": "It is built on damma before the ending for they, for men.",
+   "pause": 0.4,
+   "cues": [
+    "row:1"
+   ]
+  },
+  {
+   "id": "c04-table-08",
+   "scene": "c04-table",
+   "lang": "ar",
+   "text": "كَتَبُوا",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c04-table-09",
+   "scene": "c04-table",
+   "lang": "en",
+   "text": "It is built on sukūn before all the other endings.",
+   "pause": 0.4,
+   "cues": [
+    "row:2"
+   ]
+  },
+  {
+   "id": "c04-table-10",
+   "scene": "c04-table",
+   "lang": "ar",
+   "text": "كَتَبْتُ",
+   "pause": 0.35,
+   "cues": [
+    "cell:2:2"
+   ]
+  },
+  {
+   "id": "c04-table-11",
+   "scene": "c04-table",
+   "lang": "ar",
+   "text": "كَتَبْنَا",
+   "pause": 0.35,
+   "cues": []
+  },
+  {
+   "id": "c04-table-12",
+   "scene": "c04-table",
+   "lang": "ar",
+   "text": "كَتَبْنَ",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c04-table-13",
+   "scene": "c04-table",
+   "lang": "en",
+   "text": "Before these endings, the last letter of the verb has sukūn.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c04-rule-01",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "One more look at she wrote.",
+   "pause": 0.4,
+   "cues": [
+    "show"
+   ]
+  },
+  {
+   "id": "c04-rule-02",
+   "scene": "c04-rule",
+   "lang": "ar",
+   "text": "كَتَبَتْ",
+   "pause": 0.45,
+   "cues": []
+  },
+  {
+   "id": "c04-rule-03",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "It is built on fatha. The fatha is on the letter before the ending.",
+   "pause": 0.25,
+   "cues": [
+    "hl:The fatha is on the ب"
+   ]
+  },
+  {
+   "id": "c04-rule-04",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "The sukūn sits on the ḥarf after it.",
+   "pause": 0.25,
+   "cues": [
+    "hl:The sukūn sits on the ḥarf"
+   ]
+  },
+  {
+   "id": "c04-rule-05",
+   "scene": "c04-rule",
+   "lang": "en",
+   "text": "That sukūn belongs to the ḥarf. The verb itself is built on fatha.",
+   "pause": 0.7,
+   "cues": []
+  },
+  {
+   "id": "c05-title-01",
+   "scene": "c05-title",
+   "lang": "en",
+   "text": "Chapter five. Saying did not.",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c05-title-02",
+   "scene": "c05-title",
+   "lang": "en",
+   "text": "To say did not, put this word right before the past verb.",
+   "pause": 0.4,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c05-title-03",
+   "scene": "c05-title",
+   "lang": "ar",
+   "text": "مَا",
+   "pause": 0.45,
+   "cues": []
+  },
+  {
+   "id": "c05-title-04",
+   "scene": "c05-title",
+   "lang": "en",
+   "text": "The verb does not change at all. Same form, same doer.",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c05-table-01",
+   "scene": "c05-table",
+   "lang": "en",
+   "text": "He did not write.",
+   "pause": 0.3,
+   "cues": [
+    "row:0"
+   ]
+  },
+  {
+   "id": "c05-table-02",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "مَا كَتَبَ",
+   "pause": 0.45,
+   "cues": []
+  },
+  {
+   "id": "c05-table-03",
+   "scene": "c05-table",
+   "lang": "en",
+   "text": "She did not write.",
+   "pause": 0.3,
+   "cues": [
+    "row:1"
+   ]
+  },
+  {
+   "id": "c05-table-04",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "مَا كَتَبَتْ",
+   "pause": 0.45,
+   "cues": []
+  },
+  {
+   "id": "c05-table-05",
+   "scene": "c05-table",
+   "lang": "en",
+   "text": "I did not go.",
+   "pause": 0.3,
+   "cues": [
+    "row:2"
+   ]
+  },
+  {
+   "id": "c05-table-06",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "مَا ذَهَبْتُ",
+   "pause": 0.45,
+   "cues": []
+  },
+  {
+   "id": "c05-table-07",
+   "scene": "c05-table",
+   "lang": "en",
+   "text": "They did not go out.",
+   "pause": 0.3,
+   "cues": [
+    "row:3"
+   ]
+  },
+  {
+   "id": "c05-table-08",
+   "scene": "c05-table",
+   "lang": "ar",
+   "text": "مَا خَرَجُوا",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c05-rule-01",
+   "scene": "c05-rule",
+   "lang": "en",
+   "text": "This word means not. It is a ḥarf.",
+   "pause": 0.25,
+   "cues": [
+    "show",
+    "hl:is a ḥarf of negation"
+   ]
+  },
+  {
+   "id": "c05-rule-02",
+   "scene": "c05-rule",
+   "lang": "en",
+   "text": "It is fixed, with no place.",
+   "pause": 0.4,
+   "cues": [
+    "hl:It is a ḥarf: fixed, with no place"
+   ]
+  },
+  {
+   "id": "c05-rule-03",
+   "scene": "c05-rule",
+   "lang": "ar",
+   "text": "لَا مَحَلَّ لَهُ مِنَ الإِعْرَابِ",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c05-rule-04",
+   "scene": "c05-rule",
+   "lang": "en",
+   "text": "It does not change the verb after it.",
+   "pause": 0.7,
+   "cues": [
+    "hl:It does not change the verb after it"
+   ]
+  },
+  {
+   "id": "c05-examples-01",
+   "scene": "c05-examples",
+   "lang": "en",
+   "text": "I did not go to the market.",
+   "pause": 0.4,
+   "cues": [
+    "ex:0"
+   ]
+  },
+  {
+   "id": "c05-examples-02",
+   "scene": "c05-examples",
+   "lang": "ar",
+   "text": "مَا ذَهَبْتُ إِلَى السُّوقِ",
+   "pause": 0.5,
+   "cues": [
+    "read:0"
+   ]
+  },
+  {
+   "id": "c05-examples-03",
+   "scene": "c05-examples",
+   "lang": "en",
+   "text": "The ending for I is still the doer, in the place of rafʿ.",
+   "pause": 0.5,
+   "cues": [
+    "note:0"
+   ]
+  },
+  {
+   "id": "c05-examples-04",
+   "scene": "c05-examples",
+   "lang": "en",
+   "text": "The student did not go out of the classroom.",
+   "pause": 0.4,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c05-examples-05",
+   "scene": "c05-examples",
+   "lang": "ar",
+   "text": "مَا خَرَجَ الطَّالِبُ مِنَ الفَصْلِ",
+   "pause": 0.6,
+   "cues": [
+    "read:1"
+   ]
+  },
+  {
+   "id": "c05-examples-06",
+   "scene": "c05-examples",
+   "lang": "en",
+   "text": "We did not open the door.",
+   "pause": 0.4,
+   "cues": [
+    "ex:2"
+   ]
+  },
+  {
+   "id": "c05-examples-07",
+   "scene": "c05-examples",
+   "lang": "ar",
+   "text": "مَا فَتَحْنَا البَابَ",
+   "pause": 0.6,
+   "cues": [
+    "read:2"
+   ]
+  },
+  {
+   "id": "c05-examples-08",
+   "scene": "c05-examples",
+   "lang": "en",
+   "text": "Did you write the lesson? No, I did not write it.",
+   "pause": 0.4,
+   "cues": [
+    "ex:3"
+   ]
+  },
+  {
+   "id": "c05-examples-09",
+   "scene": "c05-examples",
+   "lang": "ar",
+   "text": "هَلْ كَتَبْتَ الدَّرْسَ؟ لَا، مَا كَتَبْتُهُ",
+   "pause": 0.5,
+   "cues": [
+    "read:3"
+   ]
+  },
+  {
+   "id": "c05-examples-10",
+   "scene": "c05-examples",
+   "lang": "en",
+   "text": "In the answer, the first small word means no.",
+   "pause": 0.3,
+   "cues": [
+    "note:3"
+   ]
+  },
+  {
+   "id": "c05-examples-11",
+   "scene": "c05-examples",
+   "lang": "ar",
+   "text": "لَا",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-examples-12",
+   "scene": "c05-examples",
+   "lang": "en",
+   "text": "The second one makes the verb did not.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c05-examples-13",
+   "scene": "c05-examples",
+   "lang": "ar",
+   "text": "مَا",
+   "pause": 0.7,
+   "cues": []
+  },
+  {
+   "id": "c05-tips-01",
+   "scene": "c05-tips",
+   "lang": "en",
+   "text": "Do not mix up two words that look the same.",
+   "pause": 0.25,
+   "cues": [
+    "tip:0"
+   ]
+  },
+  {
+   "id": "c05-tips-02",
+   "scene": "c05-tips",
+   "lang": "en",
+   "text": "The word for did not is a ḥarf, with no place.",
+   "pause": 0.25,
+   "cues": []
+  },
+  {
+   "id": "c05-tips-03",
+   "scene": "c05-tips",
+   "lang": "en",
+   "text": "The one in unit five means what. It is an ism, and it has a place.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-tips-04",
+   "scene": "c05-tips",
+   "lang": "ar",
+   "text": "مَا هَذَا؟",
+   "pause": 0.45,
+   "cues": []
+  },
+  {
+   "id": "c05-tips-05",
+   "scene": "c05-tips",
+   "lang": "en",
+   "text": "What is this?",
+   "pause": 0.6,
+   "cues": []
+  },
+  {
+   "id": "c05-tips-06",
+   "scene": "c05-tips",
+   "lang": "en",
+   "text": "You already know the word for no.",
+   "pause": 0.4,
+   "cues": [
+    "tip:1"
+   ]
+  },
+  {
+   "id": "c05-tips-07",
+   "scene": "c05-tips",
+   "lang": "ar",
+   "text": "لَا",
+   "pause": 0.45,
+   "cues": []
+  },
+  {
+   "id": "c05-tips-08",
+   "scene": "c05-tips",
+   "lang": "en",
+   "text": "With the present verb, it also means do not. That comes later in the course.",
+   "pause": 0.25,
+   "cues": []
+  },
+  {
+   "id": "c05-tips-09",
+   "scene": "c05-tips",
+   "lang": "en",
+   "text": "With the past verb, we use the other word.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c05-tips-10",
+   "scene": "c05-tips",
+   "lang": "ar",
+   "text": "مَا",
+   "pause": 0.7,
+   "cues": []
+  },
+  {
+   "id": "c06-title-01",
+   "scene": "c06-title",
+   "lang": "en",
+   "text": "Chapter six. The order verb. Five forms.",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c06-title-02",
+   "scene": "c06-title",
+   "lang": "en",
+   "text": "You give an order to the person in front of you.",
+   "pause": 0.25,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c06-title-03",
+   "scene": "c06-title",
+   "lang": "en",
+   "text": "So there are only five forms.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c06-table-01",
+   "scene": "c06-table",
+   "lang": "en",
+   "text": "To you, a man.",
+   "pause": 0.3,
+   "cues": [
+    "row:0"
+   ]
+  },
+  {
+   "id": "c06-table-02",
+   "scene": "c06-table",
+   "lang": "ar",
+   "text": "اُكْتُبْ",
+   "pause": 0.45,
+   "cues": []
+  },
+  {
+   "id": "c06-table-03",
+   "scene": "c06-table",
+   "lang": "en",
+   "text": "Built on sukūn. The doer is hidden. It is you.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "c06-table-04",
+   "scene": "c06-table",
+   "lang": "ar",
+   "text": "أَنْتَ",
+   "pause": 0.5,
+   "cues": [
+    "cell:0:3"
+   ]
+  },
+  {
+   "id": "c06-table-05",
+   "scene": "c06-table",
+   "lang": "en",
+   "text": "To you, a woman.",
+   "pause": 0.3,
+   "cues": [
+    "row:1"
+   ]
+  },
+  {
+   "id": "c06-table-06",
+   "scene": "c06-table",
+   "lang": "ar",
+   "text": "اُكْتُبِي",
+   "pause": 0.45,
+   "cues": []
+  },
+  {
+   "id": "c06-table-07",
+   "scene": "c06-table",
+   "lang": "en",
+   "text": "Built on dropping the noon. The ending is the doer.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c06-table-08",
+   "scene": "c06-table",
+   "lang": "en",
+   "text": "To you two.",
+   "pause": 0.3,
+   "cues": [
+    "row:2"
+   ]
+  },
+  {
+   "id": "c06-table-09",
+   "scene": "c06-table",
+   "lang": "ar",
+   "text": "اُكْتُبَا",
+   "pause": 0.45,
+   "cues": []
+  },
+  {
+   "id": "c06-table-10",
+   "scene": "c06-table",
+   "lang": "en",
+   "text": "The same here. Built on dropping the noon.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c06-table-11",
+   "scene": "c06-table",
+   "lang": "en",
+   "text": "To you, men.",
+   "pause": 0.3,
+   "cues": [
+    "row:3"
+   ]
+  },
+  {
+   "id": "c06-table-12",
+   "scene": "c06-table",
+   "lang": "ar",
+   "text": "اُكْتُبُوا",
+   "pause": 0.45,
+   "cues": []
+  },
+  {
+   "id": "c06-table-13",
+   "scene": "c06-table",
+   "lang": "en",
+   "text": "And again, dropping the noon. The ending is the doer.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c06-table-14",
+   "scene": "c06-table",
+   "lang": "en",
+   "text": "To you, women.",
+   "pause": 0.3,
+   "cues": [
+    "row:4"
+   ]
+  },
+  {
+   "id": "c06-table-15",
+   "scene": "c06-table",
+   "lang": "ar",
+   "text": "اُكْتُبْنَ",
+   "pause": 0.45,
+   "cues": []
+  },
+  {
+   "id": "c06-table-16",
+   "scene": "c06-table",
+   "lang": "en",
+   "text": "Built on sukūn. The ending is the doer.",
+   "pause": 0.6,
+   "cues": [
+    "unhl"
+   ]
+  },
+  {
+   "id": "c06-rule-01",
+   "scene": "c06-rule",
+   "lang": "en",
+   "text": "So there are two ways to be built.",
+   "pause": 0.3,
+   "cues": [
+    "show"
+   ]
+  },
+  {
+   "id": "c06-rule-02",
+   "scene": "c06-rule",
+   "lang": "en",
+   "text": "Two forms are built on sukūn.",
+   "pause": 0.3,
+   "cues": [
+    "hl:are built on sukūn"
+   ]
+  },
+  {
+   "id": "c06-rule-03",
+   "scene": "c06-rule",
+   "lang": "en",
+   "text": "Three forms are built on dropping the noon.",
+   "pause": 0.3,
+   "cues": [
+    "hl:are built on dropping the"
+   ]
+  },
+  {
+   "id": "c06-rule-04",
+   "scene": "c06-rule",
+   "lang": "en",
+   "text": "You will see where that noon comes from in Stage 8.",
+   "pause": 0.7,
+   "cues": [
+    "hl:comes from in Stage 8"
+   ]
+  },
+  {
+   "id": "c06-examples-01",
+   "scene": "c06-examples",
+   "lang": "en",
+   "text": "Sit down, Aminah.",
+   "pause": 0.4,
+   "cues": [
+    "ex:0"
+   ]
+  },
+  {
+   "id": "c06-examples-02",
+   "scene": "c06-examples",
+   "lang": "ar",
+   "text": "اِجْلِسِي يَا آمِنَةُ",
+   "pause": 0.5,
+   "cues": [
+    "read:0"
+   ]
+  },
+  {
+   "id": "c06-examples-03",
+   "scene": "c06-examples",
+   "lang": "en",
+   "text": "The order is to one woman.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c06-examples-04",
+   "scene": "c06-examples",
+   "lang": "en",
+   "text": "Go out of the classroom. This is to a group of men.",
+   "pause": 0.4,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c06-examples-05",
+   "scene": "c06-examples",
+   "lang": "ar",
+   "text": "اُخْرُجُوا مِنَ الفَصْلِ",
+   "pause": 0.7,
+   "cues": [
+    "read:1"
+   ]
+  },
+  {
+   "id": "c07-title-01",
+   "scene": "c07-title",
+   "lang": "en",
+   "text": "Chapter seven. Alif with damma, or alif with kasra? A list to learn.",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c07-title-02",
+   "scene": "c07-title",
+   "lang": "en",
+   "text": "The order verb starts with a helping alif.",
+   "pause": 0.25,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c07-title-03",
+   "scene": "c07-title",
+   "lang": "en",
+   "text": "Look at the middle letter of the order verb.",
+   "pause": 0.25,
+   "cues": []
+  },
+  {
+   "id": "c07-title-04",
+   "scene": "c07-title",
+   "lang": "en",
+   "text": "If it has damma, start with alif and damma. If not, start with alif and kasra.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c07-table-01",
+   "scene": "c07-table",
+   "lang": "en",
+   "text": "In the first four, the middle letter has damma.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c07-table-02",
+   "scene": "c07-table",
+   "lang": "ar",
+   "text": "اُكْتُبْ",
+   "pause": 0.4,
+   "cues": [
+    "row:0",
+    "cell:0:2"
+   ]
+  },
+  {
+   "id": "c07-table-03",
+   "scene": "c07-table",
+   "lang": "ar",
+   "text": "اُدْرُسْ",
+   "pause": 0.4,
+   "cues": [
+    "row:1",
+    "cell:1:2"
+   ]
+  },
+  {
+   "id": "c07-table-04",
+   "scene": "c07-table",
+   "lang": "ar",
+   "text": "اُخْرُجْ",
+   "pause": 0.4,
+   "cues": [
+    "row:2",
+    "cell:2:2"
+   ]
+  },
+  {
+   "id": "c07-table-05",
+   "scene": "c07-table",
+   "lang": "ar",
+   "text": "اُدْخُلْ",
+   "pause": 0.45,
+   "cues": [
+    "row:3",
+    "cell:3:2"
+   ]
+  },
+  {
+   "id": "c07-table-06",
+   "scene": "c07-table",
+   "lang": "en",
+   "text": "So they start with alif and damma.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c07-table-07",
+   "scene": "c07-table",
+   "lang": "en",
+   "text": "In the next four, the middle letter has fatha or kasra. No damma.",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "c07-table-08",
+   "scene": "c07-table",
+   "lang": "ar",
+   "text": "اِذْهَبْ",
+   "pause": 0.4,
+   "cues": [
+    "row:4",
+    "cell:4:2"
+   ]
+  },
+  {
+   "id": "c07-table-09",
+   "scene": "c07-table",
+   "lang": "ar",
+   "text": "اِجْلِسْ",
+   "pause": 0.4,
+   "cues": [
+    "row:5",
+    "cell:5:2"
+   ]
+  },
+  {
+   "id": "c07-table-10",
+   "scene": "c07-table",
+   "lang": "ar",
+   "text": "اِفْتَحْ",
+   "pause": 0.4,
+   "cues": [
+    "row:6",
+    "cell:6:2"
+   ]
+  },
+  {
+   "id": "c07-table-11",
+   "scene": "c07-table",
+   "lang": "ar",
+   "text": "اِشْرَبْ",
+   "pause": 0.45,
+   "cues": [
+    "row:7",
+    "cell:7:2"
+   ]
+  },
+  {
+   "id": "c07-table-12",
+   "scene": "c07-table",
+   "lang": "en",
+   "text": "So they start with alif and kasra.",
+   "pause": 0.6,
+   "cues": [
+    "unhl"
+   ]
+  },
+  {
+   "id": "c07-tip-01",
+   "scene": "c07-tip",
+   "lang": "en",
+   "text": "The past verb does not tell you the middle vowel of the order verb.",
+   "pause": 0.25,
+   "cues": [
+    "show"
+   ]
+  },
+  {
+   "id": "c07-tip-02",
+   "scene": "c07-tip",
+   "lang": "en",
+   "text": "So learn each order verb as a word.",
+   "pause": 0.7,
+   "cues": []
+  },
+  {
+   "id": "c08-title-01",
+   "scene": "c08-title",
+   "lang": "en",
+   "text": "Chapter eight. The helping kasra, from Stage 2.",
+   "pause": 0.4,
+   "cues": [
+    "title"
+   ]
+  },
+  {
+   "id": "c08-title-02",
+   "scene": "c08-title",
+   "lang": "en",
+   "text": "A word cannot end in sukūn right before al.",
+   "pause": 0.25,
+   "cues": [
+    "sub"
+   ]
+  },
+  {
+   "id": "c08-title-03",
+   "scene": "c08-title",
+   "lang": "en",
+   "text": "So the sukūn becomes a small kasra. The verb is still fixed.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c08-examples-01",
+   "scene": "c08-examples",
+   "lang": "en",
+   "text": "Open the door.",
+   "pause": 0.4,
+   "cues": [
+    "ex:0"
+   ]
+  },
+  {
+   "id": "c08-examples-02",
+   "scene": "c08-examples",
+   "lang": "ar",
+   "text": "اِفْتَحِ البَابَ",
+   "pause": 0.5,
+   "cues": [
+    "read:0"
+   ]
+  },
+  {
+   "id": "c08-examples-03",
+   "scene": "c08-examples",
+   "lang": "en",
+   "text": "The order verb ends in sukūn. Before al, it takes a small kasra.",
+   "pause": 0.25,
+   "cues": [
+    "note:0"
+   ]
+  },
+  {
+   "id": "c08-examples-04",
+   "scene": "c08-examples",
+   "lang": "en",
+   "text": "It is still built on sukūn.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c08-examples-05",
+   "scene": "c08-examples",
+   "lang": "en",
+   "text": "The girl did not write the lesson.",
+   "pause": 0.4,
+   "cues": [
+    "ex:1"
+   ]
+  },
+  {
+   "id": "c08-examples-06",
+   "scene": "c08-examples",
+   "lang": "ar",
+   "text": "مَا كَتَبَتِ البِنْتُ الدَّرْسَ",
+   "pause": 0.5,
+   "cues": [
+    "read:1"
+   ]
+  },
+  {
+   "id": "c08-examples-07",
+   "scene": "c08-examples",
+   "lang": "en",
+   "text": "Here the kasra sits on the ḥarf at the end of the verb.",
+   "pause": 0.25,
+   "cues": [
+    "note:1"
+   ]
+  },
+  {
+   "id": "c08-examples-08",
+   "scene": "c08-examples",
+   "lang": "en",
+   "text": "And the word for not changes nothing.",
+   "pause": 0.5,
+   "cues": []
+  },
+  {
+   "id": "c08-tip-01",
+   "scene": "c08-tip",
+   "lang": "en",
+   "text": "This kasra is only a bridge for speaking. It is not jarr, and not iʿrāb.",
+   "pause": 0.8,
+   "cues": [
+    "show"
+   ]
+  },
+  {
+   "id": "sum-01",
+   "scene": "sum",
+   "lang": "en",
+   "text": "In short.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "sum-02",
+   "scene": "sum",
+   "lang": "en",
+   "text": "Past and order verbs are fixed. The present verb is mostly flexible. It comes in Stage 8.",
+   "pause": 0.3,
+   "cues": [
+    "item:0"
+   ]
+  },
+  {
+   "id": "sum-03",
+   "scene": "sum",
+   "lang": "en",
+   "text": "The past verb has fourteen persons.",
+   "pause": 0.3,
+   "cues": [
+    "item:1"
+   ]
+  },
+  {
+   "id": "sum-04",
+   "scene": "sum",
+   "lang": "en",
+   "text": "Endings like these are doer pronouns, in the place of rafʿ. But the ending of she wrote is a ḥarf.",
+   "pause": 0.3,
+   "cues": [
+    "item:2"
+   ]
+  },
+  {
+   "id": "sum-05",
+   "scene": "sum",
+   "lang": "en",
+   "text": "The past verb is built on fatha, on damma, or on sukūn.",
+   "pause": 0.3,
+   "cues": [
+    "item:3"
+   ]
+  },
+  {
+   "id": "sum-06",
+   "scene": "sum",
+   "lang": "en",
+   "text": "To say did not, put this word before a past verb.",
+   "pause": 0.3,
+   "cues": [
+    "item:4"
+   ]
+  },
+  {
+   "id": "sum-07",
+   "scene": "sum",
+   "lang": "ar",
+   "text": "مَا كَتَبَ",
+   "pause": 0.4,
+   "cues": []
+  },
+  {
+   "id": "sum-08",
+   "scene": "sum",
+   "lang": "en",
+   "text": "It is a ḥarf with no place.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "sum-09",
+   "scene": "sum",
+   "lang": "en",
+   "text": "The order verb is built on sukūn, or on dropping the noon.",
+   "pause": 0.3,
+   "cues": [
+    "item:5"
+   ]
+  },
+  {
+   "id": "sum-10",
+   "scene": "sum",
+   "lang": "en",
+   "text": "A middle damma gives alif with damma. Otherwise, alif with kasra.",
+   "pause": 0.6,
+   "cues": [
+    "item:6"
+   ]
+  },
+  {
+   "id": "outro-yourturn-01",
+   "scene": "outro-yourturn",
+   "lang": "en",
+   "text": "Now it is your turn. Open the Practice tab.",
+   "pause": 0.3,
+   "cues": [
+    "show"
+   ]
+  },
+  {
+   "id": "outro-yourturn-02",
+   "scene": "outro-yourturn",
+   "lang": "en",
+   "text": "Choose the past form, say what it is built on, and give the order.",
+   "pause": 0.3,
+   "cues": []
+  },
+  {
+   "id": "outro-yourturn-03",
+   "scene": "outro-yourturn",
+   "lang": "en",
+   "text": "Good luck.",
+   "pause": 1.0,
+   "cues": []
+  }
+ ]
+}
