@@ -499,7 +499,8 @@ THUMB_CSS = r"""
 
 
 def build_thumbnail(out, data, lesson, brand):
-    """A still in the site's style: the lesson hero over example 1 with its boxes lit."""
+    """A still in the site's style: the lesson hero over example 1 with its boxes lit (or, for a lesson
+    with its own scene module, the boxes its thumbnail_html() returns)."""
     pdir = out / "thumbnail"
     if pdir.exists():
         shutil.rmtree(pdir)
@@ -508,16 +509,17 @@ def build_thumbnail(out, data, lesson, brand):
     (pdir / "assets" / "thumb.css").write_text(THUMB_CSS, encoding="utf-8")
     shutil.copy(out / "hyperframes.json", pdir / "hyperframes.json")
     (pdir / "meta.json").write_text(json.dumps({"id": "thumbnail", "name": "thumbnail"}))
-    first = data["examples"][2]  # example 1 (after A and B)
+    first_html = lesson.thumbnail_html() if hasattr(lesson, "thumbnail_html") else data["examples"][2]["html"]  # example 1 (after A and B)
+    tabs = data.get("tabs", ["Lesson", "Practice"])
     bar = (f'<div class="vbar"><span class="brand">{brand}</span><span class="crumb">{esc(data["title"])}</span>'
-           f'<span class="tabs"><span class="tab" aria-current="true">Lesson</span><span class="tab" aria-current="false">Practice</span></span></div>')
+           f'<span class="tabs"><span class="tab" aria-current="true">{tabs[0]}</span><span class="tab" aria-current="false">{tabs[1]}</span></span></div>')
     page = f"""<!doctype html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=1920, height=1080">
 <link rel="stylesheet" href="assets/site.css"><link rel="stylesheet" href="assets/video.css"><link rel="stylesheet" href="assets/thumb.css">
 <script src="assets/js/gsap.min.js"></script></head>
 <body><div id="root" data-composition-id="thumbnail" data-start="0" data-duration="1" data-width="1920" data-height="1080">
 <section class="scene clip thumb k-example" data-start="0" data-duration="1" style="opacity:1">{bar}
-<div class="stagebody"><div class="view th-hero">{data["hero_html"]}</div><div class="view th-ex">{first["html"]}</div></div></section>
+<div class="stagebody"><div class="view th-hero">{data["hero_html"]}</div><div class="view th-ex">{first_html}</div></div></section>
 </div><script>window.__timelines = window.__timelines || {{}}; const tl = gsap.timeline({{paused:true}}); tl.set({{}}, {{}}, 1);
 window.__timelines["thumbnail"] = tl; tl.seek(0);</script></body></html>
 """
@@ -647,7 +649,7 @@ tl.seek(0);
             id=pid, duration=dur, chapters=[dict(t=t0, title=n) for t0, n in chapter_names],
             scenes=[dict(id=sc, start=starts[i]) for i, sc in enumerate(scenes)],
             segments=[dict(id=s["id"], t=s["_t"], len=s["_len"], lang=s["lang"], text=s["text"]) for s in psegs]))
-    if only is None and data.get("examples"):   # the thumbnail is drawn from the Naṣb example cards
+    if only is None and (data.get("examples") or hasattr(lesson, "thumbnail_html")):
         build_thumbnail(out, data, lesson, brand)
     (out / "plan.json").write_text(json.dumps(plan, ensure_ascii=False, indent=1), encoding="utf-8")
     total = sum(p["duration"] for p in plan["parts"])

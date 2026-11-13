@@ -101,6 +101,10 @@ class SceneLesson(BC.Lesson):
             return f'Verse {v["num"]} · {v["ref_en"]}'
         return None
 
+    def thumbnail_html(self):
+        """For the poster / thumbnail: verse 1 in its coloured boxes, under the lesson hero."""
+        return f'<div class="ex"><div class="exh"></div>{self.d["verses"][0]["boxes_html"]}</div>'
+
     def body(self, scene, segs):
         if scene == "hero":
             return "hero", f'<div class="view">{self.d["hero_html"]}</div>'
