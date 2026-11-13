@@ -357,5 +357,50 @@
     "title": "Your turn"
    }
   ]
+ },
+ "s3-attached": {
+  "src": "media/s3-attached/s3-attached.mp4",
+  "hls": "media/s3-attached/hls-914eb0af/index.m3u8",
+  "poster": "media/s3-attached/s3-attached.jpg",
+  "captions": "media/s3-attached/s3-attached.vtt",
+  "duration": 603,
+  "chapters": [
+   {
+    "t": 0,
+    "title": "Introduction"
+   },
+   {
+    "t": 12,
+    "title": "1 The twelve attached pronouns"
+   },
+   {
+    "t": 102,
+    "title": "2 On a noun: the owner"
+   },
+   {
+    "t": 204,
+    "title": "3 With ـي the ending is hidden"
+   },
+   {
+    "t": 242,
+    "title": "4 On a preposition"
+   },
+   {
+    "t": 367,
+    "title": "5 When ـهُ becomes ـهِ"
+   },
+   {
+    "t": 442,
+    "title": "6 On a verb: the object"
+   },
+   {
+    "t": 527,
+    "title": "7 Three places, one table"
+   },
+   {
+    "t": 562,
+    "title": "In short"
+   }
+  ]
  }
 }

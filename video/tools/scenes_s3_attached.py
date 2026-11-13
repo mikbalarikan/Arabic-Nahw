@@ -46,12 +46,12 @@ CSS = r"""
 .k-page .stagebody > .view:last-child { zoom: var(--z, 1.8); margin-top: calc(60px / var(--z, 1.8)); }
 .k-page .blk + .blk { margin-top: 14px; }
 .k-page .blk > * { margin-top: 0 !important; margin-bottom: 0 !important; }
-.k-page .s0p { max-width: none; font-size: 16px; line-height: 1.65; }
-.k-page .rbox { font-size: 16px; line-height: 1.75; padding: 16px 20px; }
-.k-page .tipbox { font-size: 15.5px; line-height: 1.75; padding: 16px 20px; }
+.k-page .s0p { max-width: none; font-size: 16px; line-height: 1.9; }
+.k-page .rbox { font-size: 16px; line-height: 2.0; padding: 16px 20px; }
+.k-page .tipbox { font-size: 15.5px; line-height: 2.0; padding: 16px 20px; }
 .k-page .ab { font-size: 1.22em; }
 .k-page .exlist { gap: 10px; }
-.k-page .exl { padding: 10px 18px; }
+.k-page .exl { padding: 10px 18px; grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr); }
 .k-page .exa { font-size: 30px; line-height: 1.75; }
 .k-page .exe { font-size: 15px; }
 .k-page .exn { font-size: 14px; color: #4f5660; margin-top: 4px; line-height: 1.6; }
@@ -62,20 +62,26 @@ CSS = r"""
 .k-page .s0t td.tar { font-size: 25px; line-height: 1.6; }
 .k-page .three { margin: 0; }
 .k-page .three h3 { font-size: 20px; }
-.k-page .three ol { font-size: 15px; line-height: 2.0; }
+.k-page .three ol { font-size: 15px; line-height: 2.2; }
 .k-page .three .ab { font-size: 1.25em; }
 .k-hero .hero .ab { font-size: 1.2em; }
 /* the 12-row pronoun table: tighter rows so all 13 fit under the heading */
 #s-c01-table .s0t td { padding: 2px 12px; }
 #s-c01-table .s0t td.tar { font-size: 23px; line-height: 1.45; }
-/* the reading mark (a gold frame while a word is read) */
+/* the reading mark (a gold frame, drawn inside the box, while a word is read) */
 .ab, .exs { border-radius: 6px; }
-.exs { display: inline-block; padding: 0 4px; }
+.ab { padding: 0 3px; }
+.exs { display: inline-block; padding: 0 8px; }
+.k-hero .hero p { line-height: 2.0; }
+/* table headers line up with their Arabic cells (the site's headers are left-aligned, its Arabic cells right-aligned) */
+#s-c04-forms .s0t th, #s-c04-forms .s0t td.tar { text-align: center; }
+#s-c01-table .s0t th:nth-child(1), #s-c01-table .s0t th:nth-child(3), #s-c07-table .s0t th:nth-child(4) { text-align: right; }
 /* poster (build_thumbnail): the lesson hero over the "Three places" table */
 .thumb .sumtbl table.glance { display: table !important; font-size: 15px; }
 .thumb .sumtbl .glance th { font-size: 14px; padding: 8px 14px; }
 .thumb .sumtbl .glance td { padding: 6px 14px; }
 .thumb .sumtbl td.tar { font-size: 26px; line-height: 1.5; }
+.thumb .sumtbl th:nth-child(4) { text-align: right; }
 .hl { background-image: linear-gradient(transparent 58%, rgba(245,200,75,.75) 58%); background-repeat: no-repeat; background-size: 0% 100%; }
 """
 
@@ -83,8 +89,8 @@ HIDE = {
     "page": [".blk", ".exl", ".exn", "table.glance tr:not(:first-child)", ".three li"],
 }
 
-MARK_OFF = "0 0 0 0px rgba(224,161,11,0), inset 0 0 0 999px rgba(245,200,75,0)"
-MARK_ON = "0 0 0 3px rgba(224,161,11,1), inset 0 0 0 999px rgba(245,200,75,0.30)"
+MARK_OFF = "inset 0 0 0 0px rgba(224,161,11,0), inset 0 0 0 999px rgba(245,200,75,0)"
+MARK_ON = "inset 0 0 0 3px rgba(224,161,11,1), inset 0 0 0 999px rgba(245,200,75,0.30)"
 
 
 def norm(s):
@@ -135,10 +141,11 @@ class SceneLesson(BC.Lesson):
             blocks = "".join(f'<div class="blk">{self.b[i]["html"]}</div>' for i in idx)
             inner = (f'<div class="view chead">{self.h2(ch)}</div>'
                      f'<div class="view" style="--z:{z};width:{width}px">{blocks}</div>')
-        # the two sides of an example with an arrow (كِتَابُ زَيْدٍ ← كِتَابُهُ) can be marked one by one
+        # an example sentence is marked on its text only (span.exs), and the two sides of an arrow example
+        # (كِتَابُ زَيْدٍ ← كِتَابُهُ) one by one
         inner = re.sub(r'(<div class="exa" dir="rtl">)(.*?)(</div>)',
                        lambda m: m.group(1) + " ← ".join(f'<span class="exs">{p.strip()}</span>' for p in m.group(2).split("←"))
-                       + m.group(3) if "←" in m.group(2) else m.group(0), inner)
+                       + m.group(3), inner)
         # persistent highlights, numbered in cue order
         n = 0
         for s in segs:
@@ -227,14 +234,20 @@ class SceneLesson(BC.Lesson):
         text, _, nth = arg.partition("#")
         nth = int(nth or 1)
         sel = f'{S} [data-mark="{html.escape(norm(text), quote=True)}#{nth}"]'
-        state.setdefault("marks", []).append((norm(text), nth))
-        tl.add(f'tl.fromTo({sel!r}, {{boxShadow:"{MARK_OFF}"}}, {{boxShadow:"{MARK_ON}", duration:0.25, ease:"power2.out", immediateRender:false}}, {t:.3f});')
-        tl.add(f'tl.to({sel!r}, {{boxShadow:"{MARK_OFF}", duration:0.35}}, {t + max(seg_len, 0.8) + 0.35:.3f});')
+        open_ = state.setdefault("marks_open", {})
+        if sel in open_ and t <= open_[sel][1] + 0.4:
+            # the same word is still framed (named, then read): keep the frame on, end it after this segment
+            tl.lines[open_[sel][0]] = "// frame kept on"
+        else:
+            tl.add(f'tl.fromTo({sel!r}, {{boxShadow:"{MARK_OFF}"}}, {{boxShadow:"{MARK_ON}", duration:0.25, ease:"power2.out", immediateRender:false}}, {t:.3f});')
+        off = t + max(seg_len, 0.8) + 0.35
+        tl.add(f'tl.to({sel!r}, {{boxShadow:"{MARK_OFF}", duration:0.35}}, {off:.3f});')
+        open_[sel] = (len(tl.lines) - 1, off)
 
 
 def add_mark_attrs(inner):
     """data-mark="<text>#<n>" on every markable element (n counts equal texts in DOM order).
-    The halves of an arrow example (span.exs) first, then words in {}, then table cells and example sentences."""
+    Example sentences and the halves of an arrow example (span.exs) first, then words in {}, then table cells."""
     seen = {}
 
     def rep(m):
@@ -242,7 +255,7 @@ def add_mark_attrs(inner):
         seen[t] = seen.get(t, 0) + 1
         return (f'<{m.group(1)} data-layout-allow-overflow data-mark="{html.escape(t, quote=True)}#{seen[t]}" '
                 f'class="{m.group(2)}"{m.group(3)}>{m.group(4)}</{m.group(1)}>')
-    for tags in ("span", "bdi", "td|div"):
-        inner = re.sub(rf'<({tags}) data-layout-allow-overflow class="(ab|tar|exa|exs)"([^>]*)>((?:(?!<\1[ >]).)*?)</\1>',
+    for tags in ("span", "bdi", "td"):
+        inner = re.sub(rf'<({tags}) data-layout-allow-overflow class="(ab|tar|exs)"([^>]*)>((?:(?!<\1[ >]).)*?)</\1>',
                        rep, inner, flags=re.S)
     return inner
