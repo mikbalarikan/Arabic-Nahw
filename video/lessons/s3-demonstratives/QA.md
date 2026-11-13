@@ -16,7 +16,7 @@ Voice: Supertonic 3, style M4 (as nasb and quran-nasb). Source: `content/stage3/
 | Full sentence visible while read; elements shown when said; gold highlight on the word being read (right duplicate) | ✅ 191 frames (every Arabic reading, every reveal cue, every scene end-frame) | two independent frame reviewers (parts 1–2, 3–4) |
 | Layout: nothing cut off, Arabic phrases never broken across lines, harakāt visible | ✅ after one fix round | frame review round 1 → fixes → snapshots of the fixed frames |
 | Loudness | ✅ −14.6 LUFS integrated, true peak −1.5 dBFS | `audio_tools.py mix` |
-| Plays on the site without Range support, chapter buttons seek | see the commit / deploy notes | local `python3 -m http.server`, then the live page |
+| Plays on the site without Range support, chapter buttons seek | ✅ local: plays (HLS), "5 Its place" seeks to 4:41 and keeps playing; live (def4069): plays, "6 Not fixed" seeks to 6:05 and keeps playing | `python3 -m http.server` on dist/, then https://arabic-nahw.pages.dev/#s3-demonstratives |
 
 Fix round 1 (frame review): the inline gold highlight was taller than its line and covered the lines above and
 below (sub-lines, example notes, rule box, summary), table-cell highlights spilled past the table border, the
